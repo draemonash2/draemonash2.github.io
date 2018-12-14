@@ -1,4 +1,4 @@
-# Œ¾Œê
+# è¨€èª
 - [C](lng_c/c.md)
 - [Dos Command](lng_doscommand/doscommand.md)
 - [PowerShell](lng_powershell/powershell.md)
@@ -8,7 +8,7 @@
 - [Vba](lng_vba/vba.md)
 - [Vbs](lng_vbs/vbs.md)
 - [Vim Script](lng_vimscript/vimscript.md)
-# ƒ\ƒtƒg
+# ã‚½ãƒ•ãƒˆ
 - [Github Wiki](sft_githubwiki/githubwiki.md)
 - [@Wiki](sft_atwiki/atwiki.md)
 - [Amazon Cloud Drive](sft_amazonclouddrive/amazonclouddrive.md)
@@ -25,14 +25,14 @@
 - [Tortoise Git](sft_tortoisegit/tortoisegit.md)
 - [Tortoise Svn](sft_tortoisesvn/tortoisesvn.md)
 - [Vim](sft_vim/vim.md)
-- [GŠÛ](sft_hidemaru/hidemaru.md)
+- [ç§€ä¸¸](sft_hidemaru/hidemaru.md)
 - [Cygwin](sft_cygwin/cygwin.md)
 - [X-Finder](sft_x-finder/x-finder.md)
 - [Windows](sft_windows/windows.md)
 - [Redmine](sft_redmine/redmine.md)
 - [EyeD3](sft_eyed3/eyed3.md)
 - [grep.exe](sft_grepexe/grepexe.md)
-# ‚»‚Ì‘¼
-- [—pŒêW](klg_words/words.md)
-- [‚»‚Ì‘¼](otr_other/other.md)
+# ãã®ä»–
+- [ç”¨èªé›†](klg_words/words.md)
+- [ãã®ä»–](otr_other/other.md)
 
