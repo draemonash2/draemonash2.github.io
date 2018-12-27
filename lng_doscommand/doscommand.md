@@ -206,7 +206,7 @@
 
 - 【環境変数 設定】setx MYPATH\_CODES "C:\codes"
 - 【環境変数 解除】reg delete HKCU\Environment /v MYPATH\_CODES
-- 【環境変数 存在確認】if {%MYPATH\_CODES%} == {0} ( ～環境変数が未存在～ )
+- 【環境変数 存在確認】if {％MYPATH\_CODES％} == {0} ( ～環境変数が未存在～ )
 
 - 【Windows 60秒後にシャットダウン】shutdown -s -t 60
 - 【Windows 60秒後に再起動】shutdown -r -t 60
