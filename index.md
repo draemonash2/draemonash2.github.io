@@ -8,6 +8,7 @@
 - [Vba](lng_vba/vba.md)
 - [Vbs](lng_vbs/vbs.md)
 - [Vim Script](lng_vimscript/vimscript.md)
+
 # ソフト
 - [Github Wiki](sft_githubwiki/githubwiki.md)
 - [@Wiki](sft_atwiki/atwiki.md)
@@ -32,6 +33,7 @@
 - [Redmine](sft_redmine/redmine.md)
 - [EyeD3](sft_eyed3/eyed3.md)
 - [grep.exe](sft_grepexe/grepexe.md)
+
 # その他
 - [用語集](klg_words/words.md)
 - [その他](otr_other/other.md)
