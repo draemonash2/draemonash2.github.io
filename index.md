@@ -1,4 +1,5 @@
-# 言語
+# トップ
+## 言語
 - [C](lng_c/c.md)
 - [Dos Command](lng_doscommand/doscommand.md)
 - [PowerShell](lng_powershell/powershell.md)
@@ -9,7 +10,7 @@
 - [Vbs](lng_vbs/vbs.md)
 - [Vim Script](lng_vimscript/vimscript.md)
 
-# ソフト
+## ソフト
 - [Github Wiki](sft_githubwiki/githubwiki.md)
 - [@Wiki](sft_atwiki/atwiki.md)
 - [Amazon Cloud Drive](sft_amazonclouddrive/amazonclouddrive.md)
@@ -34,7 +35,7 @@
 - [EyeD3](sft_eyed3/eyed3.md)
 - [grep.exe](sft_grepexe/grepexe.md)
 
-# その他
+## その他
 - [用語集](klg_words/words.md)
 - [その他](otr_other/other.md)
 
