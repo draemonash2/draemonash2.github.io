@@ -1,4 +1,6 @@
-# アドイン
+# vba
+
+## アドイン
 - [VbePlus](http://www.vector.co.jp/soft/dl/win95/prog/se176543.html)
 	- インストール後、VBEのツールバー→アドイン→アドインマネージャ
 	- VbePlus のロード方法を「起動時/ロード」に変更
@@ -6,7 +8,7 @@
 	- インストールしても表示されない場合、HKEY\_CURRENT\_USER に必要なレジストリキーが登録されていない可能性がある。
 	- Administrator の HKEY\_CURRENT\_USER からコピーすること。
 
-# Tips
+## Tips
 - モジュール名と関数名を同じにすることはできない。
 - 二次元配列の再定義について
 	- 一次元目の要素数は変更できない。二次元目のサイズのみ拡張できる。
@@ -183,7 +185,7 @@
 	- ポイント：Microsoftが定義する単位（おそらく）。8.38 ポイントはMSゴシック11ポイント(半角) で8文字と少し表示できる幅。
 	- ピクセル：ディスプレイの表示やプリンタの出力を構成する最小単位（小さな点）
 
-# VBE 設定
+## VBE 設定
 - Excel リボンに「開発」を追加
 	- ツール ⇒ オプション ⇒ リボンユーザー設定にて [\*] 開発
 - 変数宣言を強制 (変数名が誤りでも実行時までエラーが発生しないため変更)
@@ -195,7 +197,7 @@
 - 複数行コメントアウトボタン設置
 	- 表示 ⇒ ツールバー ⇒ [\*] 編集 ⇒ オプション
 
-# VBE ショートカットキー
+## VBE ショートカットキー
 
 | 項目 | キー配置 |
 |:---|:---|
@@ -205,8 +207,8 @@
 | 定義へ移動（≒タグジャンプ）  | Shift+F2 |
 | 元の場所へ移動（≒タグジャンプ）  | Ctrl+Shift+F2 |
 
-# 構文
-## 「～」は改行を示す。
+## 構文
+- 「～」は改行を示す。
 - 【変数強制定義】Option Explicit
 - 【変数/配列定義】Dim aVal(5) As Integer '要素数は０オリジン。左の例では要素数６の配列が作成される
 - 【定数定義】Const NUM As Integer = 1
@@ -482,7 +484,7 @@
 	- xxx はフォーカス中のフォーム名。フォーム xxx にフォーカスがある場合だけ、KeyUp イベントが発生する。
 	- どのフォームにフォーカスがあっても動く KeyUp イベントを作りたい場合、全フォームに対して上記イベントを作る！
 
-# ライブラリ
+## ライブラリ
 - [【ＸＬＳファイル存在確認～オープン～クローズ】](https://github.com/draemonash2/codes/blob/master/vba/MacroBook/lib/ExcelFile.bas)
 - [【ＴＸＴファイル存在確認～オープン～クローズ】](https://github.com/draemonash2/codes/blob/master/vba/MacroBook/lib/FileSys.bas)
 - [【ＴＸＴファイル存在確認～オープン～クローズ（キャラクタセット指定）】](https://github.com/draemonash2/codes/blob/master/vba/MacroBook/lib/FileSys.bas)
@@ -506,7 +508,7 @@
 - [【キー送信】](https://github.com/draemonash2/codes/blob/master/vba/MacroBook/lib/SendKeys.bas)
 - [【特殊貼り付け】](https://github.com/draemonash2/codes/blob/master/vba/MacroBook/lib/SpecialPaste.bas)
 
-# サンプルコード
+## サンプルコード
 - [【プログラムテンプレート】](vba_プログラムテンプレート.md)
 - 【シート存在確認】
 	```vba
@@ -652,7 +654,7 @@
 			Set oPriceOfFruit = Nothing
 			```
 
-# その他
+## その他
 - 【型一覧】
 
 | データ型 | 名称 | 消費メモリ | 格納できる範囲 |
