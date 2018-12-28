@@ -1,3 +1,5 @@
+[トップに戻る](../index.md)
+
 # Tips
 - Gmail IMAP 設定
 	- http://yuunagi.hatenablog.com/entry/2012/04/06/235709
@@ -20,3 +22,5 @@ C:\Users\＜ユーザー名＞\AppData\Roaming\Microsoft\Outlook\VbaProject.OTM
 | Ctrl |       |     | U   | 未開封にする                |
 | Ctrl | Shift |     | M   | 新規メッセージ              |
 |      |       | Alt | S   | 送信する                    |
+
+[トップに戻る](../index.md)

@@ -1,3 +1,5 @@
+[トップに戻る](../index.md)
+
 # Tips
 - 隠しドライブ設定
 	- regedit から HKEY\_CURRENT\_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer（HKEY\_LOCAL\_MACHINE のパターンもある…？）を開く。
@@ -103,3 +105,5 @@
 |      |       |     |     | BackSpace                      | マイ コンピュータまたはエクスプローラで 1 階層上のフォルダを表示する  |
 |      |       |     | Win | Pause                          | システムのプロパティを表示                                            |
 |      |       |     | Win | F                              | 検索ウィンドウ を表示                                                 |
+
+[トップに戻る](../index.md)

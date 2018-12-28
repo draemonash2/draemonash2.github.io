@@ -1,3 +1,5 @@
+[トップに戻る](../index.md)
+
 # 基礎
 - サンプルプログラム
 	``` py 
@@ -88,3 +90,5 @@
 	- http://高速通信.net/router/%E3%82%AF%E3%83%AC%E3%83%BC%E3%83%89%E3%83%AB.html
 - 使い方基礎
 	- http://qiita.com/starswirl\_k/items/2c4df3c5ef81aec66288
+
+[トップに戻る](../index.md)

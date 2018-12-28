@@ -1,3 +1,5 @@
+[トップに戻る](../index.md)
+
 # Tips
 
 # 構文
@@ -41,3 +43,5 @@
  ★
 - 【Textile不使用時】
  <notextile> … </notextile>
+
+[トップに戻る](../index.md)

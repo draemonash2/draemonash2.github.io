@@ -1,3 +1,5 @@
+[トップに戻る](../index.md)
+
 # インストール手順
 
 -Vim Kaoriya ダウンロード
@@ -187,3 +189,5 @@
 	```
 	--remote-tab-silent
 	```
+
+[トップに戻る](../index.md)

@@ -1,3 +1,5 @@
+[トップに戻る](../index.md)
+
 # Tips
 - 実行方法
 	- コマンドプロンプト編
@@ -13,3 +15,5 @@
 
 # 構文
 - 【ファイル更新日時変更】Set-ItemProperty -path "c:\test.txt" -Name LastWriteTime -Value "2016/10/10 10:23:43"
+
+[トップに戻る](../index.md)

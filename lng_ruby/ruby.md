@@ -1,3 +1,5 @@
+[トップに戻る](../index.md)
+
 - string から regexp へは Regexp.new() にて変換可能
 - match	は String でも使用可能。( String で正規表現も使用可能)
 - include?	は Regexp を使用不可。
@@ -16,3 +18,5 @@
 | /e |文字コードをEUC-JP|
 | /s |文字コードをShift\_JIS|
 | /u |文字コードをUTF-8|
+
+[トップに戻る](../index.md)

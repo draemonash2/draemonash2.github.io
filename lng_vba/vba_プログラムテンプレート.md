@@ -1,3 +1,5 @@
+[トップに戻る](../index.md)
+
 ```vba
 Option Explicit
 
@@ -48,3 +50,5 @@ Public Function SampleFunc()
     End If
 End Function
 ```
+
+[トップに戻る](../index.md)

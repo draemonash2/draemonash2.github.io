@@ -1,3 +1,5 @@
+[トップに戻る](../index.md)
+
 ```vba
 With shTrgtSht
     lStrtRow = GRAPH_TRGT_STRT_ROW
@@ -55,3 +57,5 @@ With shTrgtSht
     Set coGraphObj = Nothing
 End With
 ```
+
+[トップに戻る](../index.md)

@@ -1,22 +1,14 @@
+[トップに戻る](../index.md)
+
 # テンプレート
-
-```
-&link_edit(text=ここを編集)
-
-``` vb 
-
-```
-
-&link_edit(text=ここを編集)
-```
 
 # Tips
 
 # 構文
 
-- 【ページ編集】&nowiki(){ &link_edit(text=ここを編集)}
+- 【ページ編集】&nowiki(){ &link\_edit(text=ここを編集)}
 - 【ページ作成】&nowiki(){ [[atwiki]]}
-- 【箇条書き（見出し）】&nowiki(){ *}
+- 【箇条書き（見出し）】&nowiki(){ \*}
 - 【箇条書き（数字無し）】&nowiki(){ -}
 - 【箇条書き（数字）】&nowiki(){ +}
 - 【表組】&nowiki(){ |BGCOLOR(#777):COLOR(#fff):CENTER:&bold(){Version} |BGCOLOR(#777):COLOR(#fff):CENTER:&bold(){スクリプト} |BGCOLOR(#777):COLOR(#fff):CENTER:&bold(){インストール方法}  | |7.3.420|VIM kaoriya|本体|}}
@@ -38,3 +30,5 @@
 - [[cssテスト用ページ>カスタムスタイルシートテスト]]
 - [[捨てcssコード]]
 - [[cssバックアップ_20161119_1719]]
+
+[トップに戻る](../index.md)

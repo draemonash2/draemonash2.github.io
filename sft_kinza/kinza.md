@@ -1,3 +1,5 @@
+[トップに戻る](../index.md)
+
 # おすすめテーマ
 - Marc Ecko
 - Galaxy Aero 1440p
@@ -16,3 +18,5 @@
 	- User Data\Default\Media Cache
 	- User Data\Default\GPUCache
 	- User Data\Default\IndexedDB
+
+[トップに戻る](../index.md)

@@ -1,3 +1,5 @@
+[トップに戻る](../index.md)
+
 # ToDo
 
 # Tips
@@ -291,3 +293,5 @@
 	
 	start "C:\prg\_exe\Vim\gvim.exe" "C:\test.txt"
 	```
+
+[トップに戻る](../index.md)

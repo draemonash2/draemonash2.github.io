@@ -1,3 +1,5 @@
+[トップに戻る](../index.md)
+
 # ファイル・フォルダ情報
 ## プロパティ一覧
 - ファイル情報（File オブジェクト）
@@ -154,3 +156,5 @@ Public Sub GetDetailsOfGetDetailsOf()
 	Close #1
 End Sub
 ```
+
+[トップに戻る](../index.md)

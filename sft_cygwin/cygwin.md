@@ -1,3 +1,5 @@
+[トップに戻る](../index.md)
+
 # インストール (参考: http://windowss7.web.fc2.com/special/cygwin/ )
 - [こちら](http://cygwin.com/install.html) より setup-x86\_64.exe をインストール
 - setup-x86\_64.exe を実行しインストールする。(パッケージは必要なものだけでよい。)
@@ -33,3 +35,5 @@
 	- Text ⇒ Font ⇒ Select ⇒ MS ゴシック
 	- Text ⇒ Locale ⇒ ja\_JP
 	- Text ⇒ Character set ⇒ UTF-8
+
+[トップに戻る](../index.md)

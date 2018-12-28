@@ -1,3 +1,5 @@
+[トップに戻る](../index.md)
+
 # インストール済みアドオン
 
 | AddOn | Version | 機能 |
@@ -26,3 +28,5 @@
 	- ロケーションバーに「about:config」と入力、「browser.search.openintab」の値を"true"にする。
 - タブ操作のショートカット
 	- TabMixPlus のショートカットを変更
+
+[トップに戻る](../index.md)

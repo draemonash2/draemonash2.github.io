@@ -1,3 +1,5 @@
+[トップに戻る](../index.md)
+
 - 参考URL
 	- http://www.atmarkit.co.jp/ait/articles/0702/15/news122_2.html
 
@@ -31,3 +33,5 @@
 	'0で割ることはできません。
 	'0 で除算しました。
 	```
+
+[トップに戻る](../index.md)

@@ -1,3 +1,5 @@
+[トップに戻る](../index.md)
+
 # Raspberry Pi における Python
 - [Raspberry Pi における Python](https://github.com/draemonash2/wiki/blob/master/lng_python/python_raspberrypi.md) 参照
 
@@ -180,3 +182,5 @@ static domain\_name\_servers=192.168.100.1
 - CentOS ⇔ Debian 比較
 	- http://blog.asial.co.jp/819
 - http://www.kotaden.com/index.html
+
+[トップに戻る](../index.md)

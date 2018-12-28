@@ -1,3 +1,5 @@
+[トップに戻る](../index.md)
+
 # ライブラリ
  https://github.com/draemonash2/codes/blob/master/vbs/lib/iTunes.vbs
 
@@ -74,3 +76,5 @@
 	MsgBox .Year
 	MsgBox .Artwork
 	```
+
+[トップに戻る](../index.md)

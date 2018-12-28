@@ -1,3 +1,5 @@
+[トップに戻る](../index.md)
+
 # 設定方法
 - 設定については、下記参照
 -- http://www.eonet.ne.jp/~gakana/xf.html
@@ -71,3 +73,5 @@
 | shell:SendTo | 送るフォルダ | %USERPROFILE%\AppData\Roaming\Microsoft\Windows\SendTo |
 | shell:StartUp | スタートアップ | %USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\StartUp |
 | shell:Personal |  |  |
+
+[トップに戻る](../index.md)

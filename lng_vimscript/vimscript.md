@@ -1,3 +1,5 @@
+[トップに戻る](../index.md)
+
 # 構文
 - 【変数定義】let s:lVal = ""
 - 【定数定義】let asList = ['a', 'b', 'c'] ～ lockvar asList " unlockvar asList で解除可能。
@@ -49,3 +51,5 @@
 # Tips
 - 列番号取得には苦労したよ。。。
 	- 詳細は本ページ添付の「VimScript\_列番号取得に関する考察.xlsx」参照
+
+[トップに戻る](../index.md)
