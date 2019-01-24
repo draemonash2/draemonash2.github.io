@@ -257,6 +257,8 @@
 	- コマンドプロンプトにて以下を実行
 		- 例１）"C:\Program Files (x86)\Microsoft Office\Office14\EXCEL.EXE" /x
 		- 例２）"C:\Program Files (x86)\Microsoft Office\Office14\EXCEL.EXE" /x c:\test\test.xlsx
+- 時刻を時間に変換する方法（ex.8:15→8.25）
+	- =B4\*24（表示形式：標準、B4は時刻が入力されているセル）
 
 # ショートカットキー
 
