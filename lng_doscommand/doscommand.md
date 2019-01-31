@@ -199,8 +199,8 @@
 - 【２分後に再起動】shutdown /r /t 120
 - 【シャットダウンをキャンセル】shutdown /a
 
-- 【シンボリックリンク作成（フォルダ）】mklink /d "c:\test" "d:\program files\test"
-- 【シンボリックリンク作成（ファイル）】mklink "c:\test.txt" "d:\program files\test.txt"
+- 【シンボリックリンク作成（フォルダ）】mklink /d "c:\src\test" "d:\program files\dst\test"
+- 【シンボリックリンク作成（ファイル）】mklink "c:\src\test.txt" "d:\program files\dst\test.txt"
 
 - 【遅延展開変数設定】setlocal ENABLEDELAYEDEXPANSION ～ endlocal
 
