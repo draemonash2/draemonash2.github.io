@@ -52,6 +52,13 @@
 		-一般的に送信バッファと受信バッファの数が少なく，マスクレジスタにも制限があり，CPUに負荷がかかります
 	-FullCAN
 		-送信バッファと受信バッファの数が多く，マスクレジスタにおいても許容範囲が大きいため，CPUへの負荷が少なくて済みます。富士通が対応してい
+	-参考URL
+		-CAN基礎@keyence
+			-https://www.keyence.co.jp/ss/products/recorder/lab/candata/
+		-CAN中級
+			-https://eetimes.jp/ee/spv/0912/15/news104.html
+		-CAN詳細
+			-https://japan.renesasrulz.com/cfs-file/__key/communityserver-discussions-components-files/83/RJJ05B0937_2D00_0100.pdf
 - AUTOSAR
 	- 階層
 		- アプリケーション層
