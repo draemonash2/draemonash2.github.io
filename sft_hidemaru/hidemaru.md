@@ -34,4 +34,23 @@
 	- メインメニュー「その他」→「動作環境」→「編集」→「全置換のやり直し」で"まとめて"を選択
 	- メインメニュー「その他」→「動作環境」→「パフォーマンス」→「詳細」→「やり直しバッファサイズ」を"10240KB"に変更
 
+# ショートカットキー
+
+| Custum/Default | Ctrl | Shift | Alt | Key      | 機能 |
+|:---------------|:-----|:------|:----|:---------|:-----|
+| Custom         | Ctrl | Shift |     | Del      | 行削除 |
+| Custom         | Ctrl | Shift |     | C        | 行コピー |
+| Custom         | Ctrl | Shift |     | X        | 行切り取り |
+| Custom         | Ctrl | Shift |     | Up/Down  | 矩形選択開始 |
+| Custom         | Ctrl | Shift | Alt | Up/Down  | 行選択開始 |
+| Custom         | Ctrl |       |     | G        | Grep |
+| Custom         | Ctrl | Shift |     | G        | Grep置換 |
+| Custom         | Ctrl | Shift |     | Enter    | 空行挿入 |
+| Default        |      |       |     | F10      | タグジャンプ |
+| Default        |      | Shift |     | F10      | バックタグジャンプ |
+| Default        | Ctrl | Shift |     | F10      | タグファイル作成 |
+| Default        |      |       |     | F11      | アウトライン解析 |
+| Custom         | Ctrl |       |     | F11      | アウトライン解析の枠表示 |
+| Custom         |      |       |     | F4       | カラーマーカーを追加 |
+
 [トップに戻る](../index.md)
