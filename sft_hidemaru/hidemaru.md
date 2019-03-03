@@ -28,6 +28,14 @@
 		[K_DIAG_YYY	UB][K_DIAG_XXX	UB]
 		volatile UD K_DIAG_ZZZ
 		```
+- マルチカラーで選択する方法
+	- GUIで実行
+		1. 検索ウィンドウにて「検索(S)」へ検索したい文字列を入力
+		1. 「すべて検索(E)」をクリック
+		1. 「すべて検索 - 色つけ(B)」を実行
+	- ショートカットキーで実行
+		1. 検索ウィンドウにて「検索(S)」へ検索したい文字列を入力
+		1. “Alt+b”を押下
 
 # 設定
 - 置換時の一括アンドゥ
@@ -41,16 +49,24 @@
 | Custom         | Ctrl | Shift |     | Del      | 行削除 |
 | Custom         | Ctrl | Shift |     | C        | 行コピー |
 | Custom         | Ctrl | Shift |     | X        | 行切り取り |
-| Custom         | Ctrl | Shift |     | Up/Down  | 矩形選択開始 |
-| Custom         | Ctrl | Shift | Alt | Up/Down  | 行選択開始 |
+| Custom         | Ctrl | Shift |     | Up/Down  | 行選択開始 |
+| Custom         | Ctrl | Shift |     | V        | 行挿入 |
+| Custom         | Ctrl | Shift | Alt | Up/Down  | 矩形選択開始 |
 | Custom         | Ctrl |       |     | G        | Grep |
 | Custom         | Ctrl | Shift |     | G        | Grep置換 |
 | Custom         | Ctrl | Shift |     | Enter    | 空行挿入 |
+| Custom         |      |       |     | F4       | 枠フォーカス切替え |
+| Custom         |      |       |     | F6       | カラーマーカーを追加 |
 | Default        |      |       |     | F10      | タグジャンプ |
 | Default        |      | Shift |     | F10      | バックタグジャンプ |
+| Default        | Ctrl |       |     | F10      | ダイレクトタグジャンプ |
 | Default        | Ctrl | Shift |     | F10      | タグファイル作成 |
 | Default        |      |       |     | F11      | アウトライン解析 |
-| Custom         | Ctrl |       |     | F11      | アウトライン解析の枠表示 |
-| Custom         |      |       |     | F4       | カラーマーカーを追加 |
+| Custom         | Ctrl |       |     | F3       | ウィンドウ分割 上下 |
+| Custom         | Ctrl |       |     | F4       | ウィンドウ分割 左右 |
+| Custom         | Ctrl |       |     | F6       | アウトライン解析枠 表示/非表示 |
+| Custom         | Ctrl |       |     | F7       | ファイルエクスプローラー枠 表示/非表示 |
+| Custom         | Ctrl |       |     | F8       | アウトプット枠 表示/非表示 |
+| Default        |      |       | Alt | B        | 検索文字列に色を付ける＠検索ウィンドウ |
 
 [トップに戻る](../index.md)
