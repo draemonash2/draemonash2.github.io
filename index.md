@@ -18,6 +18,7 @@
 - [Microsoft Excel](sft_excel/excel.md)
 - [Microsoft Word](sft_word/word.md)
 - [Microsoft Outlook](sft_outlook/outlook.md)
+- [Microsoft Visio](sft_outlook/visio.md)
 - [Kinza](sft_kinza/kinza.md)
 - [MiGrep](sft_migrep/migrep.md)
 - [PDF-XChange-Viewer](sft_pdf-xchange-viewer/pdf-xchange-viewer.md)
