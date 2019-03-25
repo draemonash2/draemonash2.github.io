@@ -35,6 +35,7 @@
 - [Redmine](sft_redmine/redmine.md)
 - [EyeD3](sft_eyed3/eyed3.md)
 - [grep.exe](sft_grepexe/grepexe.md)
+- [Enterprise Architect](sft_ea/ea.md)
 
 ## その他
 - [用語集](klg_words/words.md)
