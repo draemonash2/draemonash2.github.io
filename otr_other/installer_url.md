@@ -1,8 +1,8 @@
-[トップに戻る](../index.md)
+[繝医ャ繝励↓謌ｻ繧犠(../index.md)
 
-# インストーラーURL
+# 繧､繝ｳ繧ｹ繝医�ｼ繝ｩ繝ｼURL
 
-- [Adobe Flash Player PPAPI 版](https://get.adobe.com/jp/flashplayer/?no_redirect)
+- [Adobe Flash Player PPAPI 迚�](https://get.adobe.com/jp/flashplayer/?no_redirect)
 - [Amazon Drive](https://www.amazon.co.jp/gp/drive/app-download)
 - [Amazon Kindle for PC](https://www.amazon.co.jp/Kindle-for-PC-Windows-%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89/dp/B011UEHYWQ)
 - [Anki](https://apps.ankiweb.net/)
@@ -34,6 +34,7 @@
 - [VbePlus](http://www.vector.co.jp/soft/dl/win95/prog/se176543.html)
 - [Visual Studio](https://www.visualstudio.com/ja/downloads/)
 - [WinX DVD Ripper Platinum](http://winx-dvd-ripper-platinum.software.informer.com/%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89/)
-- [ウイルスバスター クラウド](http://safe.trendmicro.jp/products/vb.aspx)
+- [繧ｦ繧､繝ｫ繧ｹ繝舌せ繧ｿ繝ｼ 繧ｯ繝ｩ繧ｦ繝云(http://safe.trendmicro.jp/products/vb.aspx)
 
-[トップに戻る](../index.md)
+[繝医ャ繝励↓謌ｻ繧犠(../index.md)
+
