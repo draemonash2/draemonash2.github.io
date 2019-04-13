@@ -2,23 +2,20 @@
 
 # インストール済みアドオン
 
-| AddOn | Version | 機能 |
-|:---|:---|:---|
-|Add to Search Bar|2.0|検索エンジン追加|
-|TabMixPlus|0.4.0.3.1|タブ設定拡張|
-|FireGestures|1.6.19|マウスジェスチャ|
-|ツリー型タブ|0.14.2012122901|縦置きタブバー|
-|RoboFormToolbar for Firefox|7.8.0.5|ログインID の管理|
-|Xmarks|4.1.3|ブックマークの同期|
-|QuickTranslator|1.0|和⇔英翻訳|
+|AddOn|機能|
+|:---|:---|
+|[QuickTranslator](https://addons.mozilla.org/ja/firefox/addon/quicktranslator/) | 和⇔英翻訳 |
+|[Firegestures](https://addons.mozilla.org/ja/firefox/addon/foxy-gestures/)| マウスジェスチャ |
+|[TreeStyleTab](https://addons.mozilla.org/ja/firefox/addon/tree-style-tab/)| 縦置きタブバー |
+|[TabMix](https://addons.mozilla.org/ja/firefox/addon/tab-mix-plus-webextension/)| タブ設定拡張 |
+|[Keyconfig](https://addons.thunderbird.net/Ja/firefox/addon/dorando-keyconfig/?src=hp-dl-upandcoming)|  |
 
 # ショートカット
 
-| Ctrl | Shift | Alt | Key | 機能 |
+|Ctrl|Shift|Alt|key|機能|
 |:---|:---|:---|:---|:---|
-|Ctrl          |              |             |D           |ブックマーク登録|
-|              |              |Alt          |→          |進む|
-|              |              |Alt          |←          |戻る|
+|Ctrl|||d|ブックマーク登録|
+|||Alt|Left/Right|戻る/進む|
 
 # Tips
 - Firefox にてメモリが圧迫されている場合、「Firemin.exe」をインストールするとよい

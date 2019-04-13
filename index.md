@@ -10,7 +10,7 @@
 - [Vbs](lng_vbs/vbs.md)
 - [Vim Script](lng_vimscript/vimscript.md)
 
-## ソフト
+## ソフト([インストーラーはこちら](otr_other/installer_url.md))
 - [Github Wiki](sft_githubwiki/githubwiki.md)
 - [@Wiki](sft_atwiki/atwiki.md)
 - [Amazon Cloud Drive](sft_amazonclouddrive/amazonclouddrive.md)
