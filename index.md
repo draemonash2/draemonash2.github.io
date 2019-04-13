@@ -30,6 +30,7 @@
 - [Vim](sft_vim/vim.md)
 - [秀丸](sft_hidemaru/hidemaru.md)
 - [Cygwin](sft_cygwin/cygwin.md)
+- [iThoughts](sft_ithoughts/ithoughts.md)
 - [X-Finder](sft_x-finder/x-finder.md)
 - [Windows](sft_windows/windows.md)
 - [Redmine](sft_redmine/redmine.md)
