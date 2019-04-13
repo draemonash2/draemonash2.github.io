@@ -39,19 +39,20 @@
 		```
 - ファイルパス展開について
 	- I:数字（0:実行中のバッチファイル、1～:バッチファイルの引数）
- [パス]   [説明]                  [出力結果]
- %I       文字列そのまま          "C:\Users\draem\_000\Desktop\test\test 1-1.bat"
- %~I      すべての引用句 " 削除   C:\Users\draem\_000\Desktop\test\test 1-1.bat
- %~fI     完全修飾パス名          C:\Users\draem\_000\Desktop\test\test 1-1.bat
- %~dI     ドライブ文字            C:
- %~pI     パス                    \Users\draem\_000\Desktop\test\
- %~dpI    ディレクトリパス        C:\Users\draem\_000\Desktop\test\
- %~nI     ファイル名              test 1-1
- %~xI     ファイル拡張子          .bat
- %~sI     短いパス                C:\Users\DRAEM\_~1\Desktop\test\TEST1-~1.BAT
- %~aI     ファイル属性            --a--------
- %~tI     ファイル日付/時刻       2016/10/27 16:11
- %~zI     ファイルサイズ          1397
+| パス   | 説明                  | 出力結果 |
+|:-------|:----------------------|:---------|
+| %I     | 文字列そのまま        | C:\Users\draem\_000\Desktop\test\test 1-1.bat |
+| %~I    | すべての引用句        | C:\Users\draem\_000\Desktop\test\test 1-1.bat |
+| %~fI   | 完全修飾パス名        | C:\Users\draem\_000\Desktop\test\test 1-1.bat |
+| %~dI   | ドライブ文字          | C: |
+| %~pI   | パス                  | \Users\draem\_000\Desktop\test\ |
+| %~dpI  | ディレクトリパス      | C:\Users\draem\_000\Desktop\test\ |
+| %~nI   | ファイル名            | test 1-1 |
+| %~xI   | ファイル拡張子        | .bat |
+| %~sI   | 短いパス              | C:\Users\DRAEM\_~1\Desktop\test\TEST1-~1.BAT |
+| %~aI   | ファイル属性          | --a-------- |
+| %~tI   | ファイル日付/時刻     | 2016/10/27 16:11 |
+| %~zI   | ファイルサイズ        | 1397 |
 - ワイルドカードを使用して、テキストファイルを一括変更する
 	- rename \*.txt \*.xls
 - SET 文の間にスペースは入れない！
