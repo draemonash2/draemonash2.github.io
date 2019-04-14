@@ -50,6 +50,7 @@
 | %~dpN  | ディレクトリパス      | C:\Users\draem\_000\Desktop\test\ |
 | %~nN   | ファイル名            | test 1-1 |
 | %~xN   | ファイル拡張子        | .bat |
+| %~nxN  | ファイル名.拡張子     | test 1-1.bat |
 | %~sN   | 短いパス              | C:\Users\DRAEM\_~1\Desktop\test\TEST1-~1.BAT |
 | %~aN   | ファイル属性          | --a-------- |
 | %~tN   | ファイル日付/時刻     | 2016/10/27 16:11 |
