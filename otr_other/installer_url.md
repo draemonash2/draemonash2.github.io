@@ -36,11 +36,10 @@
 	- [eyeD3](https://www49.atwiki.jp/draemonash/pages/99.html)
 	- [ffdshow](https://ja.osdn.net/projects/ffdshow-tryout/)
 	- [iTunes](http://www.apple.com/jp/itunes/download/)
-	- [SoulseekQt](http://www.soulseekqt.net/news/node/1)
 	- [WinX DVD Ripper Platinum](http://winx-dvd-ripper-platinum.software.informer.com/%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89/)
 
 - ドライバ
-	- [HP Envy 100 D410 Driver](http://support.hp.com/jp-ja/drivers/selfservice/hp-envy-100-e-all-in-one-printer-series-d410/4073853/model/4073737#Z7_3054ICK0K8UDA0AQC11TA930C7)
+	- [HP ENVY 5020](https://support.hp.com/jp-ja/drivers/selfservice/hp-envy-5000-all-in-one-printer-series/14095644/model/14095648)
 	- [ONKYO DAC-1000(S) Driver](http://www.jp.onkyo.com/support/audiovisual/download/driver/p3000r_dac1000.htm)
 	- [MIDIOX](http://www.midiox.com/)
 	- [LPD8 Editer](http://www.akaipro.com/product/lpd8#downloads)
