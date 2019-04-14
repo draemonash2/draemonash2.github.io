@@ -2,7 +2,7 @@
 
 # インストーラーURL
 
--ソフト
+- ソフト
 	- [Adobe Flash Player PPAPI 版](https://get.adobe.com/jp/flashplayer/?no_redirect)
 	- [Amazon Drive](https://www.amazon.co.jp/gp/drive/app-download)
 	- [Amazon Kindle for PC](https://www.amazon.co.jp/Kindle-for-PC-Windows-%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89/dp/B011UEHYWQ)

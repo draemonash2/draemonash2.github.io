@@ -2,13 +2,13 @@
 
 # インストール手順
 
--Vim Kaoriya ダウンロード
--Vim 設定ファイルダウンロード
--Git インストール (コマンドプロンプトにて git clone が実行できる状態にしておく)
--コマンドプロンプトにて、下記コマンドを実行
-	-cd ★VIM インストールフォルダ★
-	-git clone https://github.com/Shougo/neobundle.vim bundle/neobundle.vim
--vimを起動し、下記コマンドを実行
+- Vim Kaoriya ダウンロード
+- Vim 設定ファイルダウンロード
+- Git インストール (コマンドプロンプトにて git clone が実行できる状態にしておく)
+- コマンドプロンプトにて、下記コマンドを実行
+	- cd ★VIM インストールフォルダ★
+	- git clone https://github.com/Shougo/neobundle.vim bundle/neobundle.vim
+- vimを起動し、下記コマンドを実行
 	-:NeoBundleInstall
 
 # インストール済みプラグイン
