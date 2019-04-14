@@ -56,43 +56,45 @@
 
 # コマンド
 
-| コマンド | 説明 |
-|:---|:---|
-| :args AAA.txt BBB.txt CCC.txt                          | argsコマンドで一度に複数のファイルを開く                                              |
-| :w %<                                                  | 現在開いているバッファ名 (拡張子を除いたもの) 取り出し(:w hoge と同等)                |
-| :e #N  (Nは任意の数字)                                 | #N は、そのN番目のバッファの名前と同じ値になる                                        |
-| q:                                                     | コマンド履歴を表示（ Ctrl+C でカーソル位置のコマンドをコマンドウィンドウに転送）      |
-| %!xxd -g 1                                             | バイナリモードに変更                                                                  |
-| :set ic                                                | 検索・置換時、大文字小文字の区別を有効                                                |
-| :set noic                                              | 検索・置換時、大文字小文字の区別を無効                                                |
-| :set ★?                                               | 現在の値を表示 ex) set number?                                                        |
-| :set ★&                                               | デフォルト値に戻す ex) set number&                                                    |
-| :set ★!                                               | On/Offのトグル  ex) set number!                                                       |
-| :b0, :b1, ...                                          | バッファ0,1,..に移動                                                                  |
-| :buffers                                               | 編集中のバッファ一覧を表示                                                            |
-| :Sex                                                   | ウインドウを分割してファイルエクスプローラを開く                                      |
-| :ls                                                    | バッファのリストを表示                                                                |
-| :%s/\v\_(.)/\u\1/g                                     | スネークケース→キャメルケース変換                                                    |
-| %s/\v([A-Z])/\_\L\1/g                                  | キャメルケース→スネークケース変換                                                    |
-| ;mes                                                   | エラーメッセージがすぐ消える場合、エラー表示させる                                    |
-| vim {pattern} %｜cw                                    | 【Grep】vimgrepを実行（★貼り付け時は「｜」を半角に★）&br()ex.vimgrep /hogehoge/j c:/test/\*\*/\*.txt｜cw | 
-| bufdo vimgrepa {pattern} %｜cw                         | 【Grep】バッファすべてに vimgrep &br()（★貼り付け時は「｜」を半角に★）              |
-| :RGrep 文字列 C:\00\_work\trunk\C\jsp-1.4.4-full\*.c   | 【Grep】特定のフォルダ配下のCファイルを再帰検索                                       |
-| 範囲選択後、\di                                        | 【DrawIt!】 描画モード開始                                                            |
-| 範囲選択後、\ds                                        | 【DrawIt!】 描画モード終了                                                            |
-| 範囲選択後、\b                                         | 【DrawIt!】 四角形ボックス描画                                                        |
-| 範囲選択後、\e                                         | 【DrawIt!】 ひし形ボックス描画                                                        |
-| 範囲選択後、v                                          | 【DrawIt!】 v描画                                                                     |
-| 範囲選択後、^                                          | 【DrawIt!】 ^描画                                                                     |
-| 範囲選択後、>                                          | 【DrawIt!】 >描画                                                                     |
-| 範囲選択後、<                                          | 【DrawIt!】 <描画                                                                     |
-| コマンド｜コマンド                                     | コマンド連続実行（★貼り付け時は「｜」を半角に★）                                    |
-| :set encoding=(euc-jp/shift\_jis/utf-8/..)             | テキストファイルの文字コード書換                                                      |
-| :set fileformat=(dos/mac/unix)                         | テキストファイルの改行コード書換                                                      |
-| :e ++encoding=(euc-jp/shift\_jis/utf-8/..)             | VIM 上の文字コード表示切替                                                            |
-| :e ++fileformat=(dos/mac/unix)                         | VIM 上の改行コード表示切替                                                            |
-| :set fileencoding=(euc-jp/shift\_jis/utf-8/..)         | 現在のファイルの文字コード（ファイル保存時の文字コード）を指定。                      |
-| :set fileencodings=(euc-jp/shift\_jis/utf-8/..)        | 自動判別に用いる文字コード（ファイル閲覧時の文字コード）を指定。&br()カンマで区切って優先度の高い順に指定 |
+| 機能 | コマンド | 説明 |
+|:---|:---|:---|
+|           | :args AAA.txt BBB.txt CCC.txt                         | argsコマンドで一度に複数のファイルを開く |
+|           | :w %<                                                 | 現在開いているバッファ名 (拡張子を除いたもの) 取り出し(:w hoge と同等) |
+|           | :e #N  (Nは任意の数字)                                | #N は、そのN番目のバッファの名前と同じ値になる |
+|           | q:                                                    | コマンド履歴を表示（ Ctrl+C でカーソル位置のコマンドをコマンドウィンドウに転送） |
+|           | %!xxd -g 1                                            | バイナリモードに変更 |
+|           | :set ic                                               | 検索・置換時、大文字小文字の区別を有効 |
+|           | :set noic                                             | 検索・置換時、大文字小文字の区別を無効 |
+|           | :set ★?                                              | 現在の値を表示 ex) set number? |
+|           | :set ★&                                              | デフォルト値に戻す ex) set number& |
+|           | :set ★!                                              | On/Offのトグル  ex) set number! |
+|           | :b0, :b1, ...                                         | バッファ0,1,..に移動 |
+|           | :buffers                                              | 編集中のバッファ一覧を表示 |
+|           | :Sex                                                  | ウインドウを分割してファイルエクスプローラを開く |
+|           | :ls                                                   | バッファのリストを表示 |
+|           | :%s/\v\_(.)/\u\1/g                                    | スネークケース→キャメルケース変換 |
+|           | %s/\v([A-Z])/\_\L\1/g                                 | キャメルケース→スネークケース変換 |
+|           | ;mes                                                  | エラーメッセージがすぐ消える場合、エラー表示させる |
+| Grep      | vim {pattern} %\|cw                                   | vimgrepを実行&br()ex.vimgrep /hogehoge/j c:/test/\*\*/\*.txt\|cw |
+| Grep      | bufdo vimgrepa {pattern} %\|cw                        | バッファすべてに vimgrep &br()（★貼り付け時は「｜」を半角に★） |
+| Grep      | :RGrep 文字列 C:\00\_work\trunk\C\jsp-1.4.4-full\*.c  | 特定のフォルダ配下のCファイルを再帰検索 |
+| DrawIt!	| 範囲選択後、\di                                       | 描画モード開始 |
+| DrawIt!	| 範囲選択後、\ds                                       | 描画モード終了 |
+| DrawIt!	| 範囲選択後、\b                                        | 四角形ボックス描画 |
+| DrawIt!	| 範囲選択後、\e                                        | ひし形ボックス描画 |
+| DrawIt!	| 範囲選択後、v                                         | v描画 |
+| DrawIt!	| 範囲選択後、^                                         | ^描画 |
+| DrawIt!	| 範囲選択後、>                                         | >描画 |
+| DrawIt!	| 範囲選択後、<                                         | <描画 |
+| 共通		| コマンド\|コマンド                                    | コマンド連続実行 |
+| 共通		| :set encoding=(euc-jp/shift\_jis/utf-8/..)            | テキストファイルの文字コード書換 |
+| 共通		| :set fileformat=(dos/mac/unix)                        | テキストファイルの改行コード書換 |
+| 共通		| :e ++encoding=(euc-jp/shift\_jis/utf-8/..)            | VIM 上の文字コード表示切替 |
+| 共通		| :e ++fileformat=(dos/mac/unix)                        | VIM 上の改行コード表示切替 |
+| 共通		| :set fileencoding=(euc-jp/shift\_jis/utf-8/..)        | 現在のファイルの文字コード（ファイル保存時の文字コード）を指定。 |
+| 共通		| :set fileencodings=(euc-jp/shift\_jis/utf-8/..)       | 自動判別に用いる文字コード（ファイル閲覧時の文字コード）を指定。&br()カンマで区切って優先度の高い順に指定 |
+| surround	| S'													| ビジュアルモードで選択した部分を ' で囲む |
+| surround	| yss'													| 行全体を ' で囲む |
 
 # Tips
 
