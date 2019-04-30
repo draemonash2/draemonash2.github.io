@@ -2,8 +2,8 @@
 
 # ショートカットキー
 
-| Ctrl | Shift | Alt | Key | 機能 |
+|Ctrl|Shift|Alt|Key|機能|
 |:---|:---|:---|:---|:---|
-|Ctrl          |               |             |Spase         |一時的に手のひらツール|
+|Ctrl|||Spase|一時的に手のひらツール|
 
 [トップに戻る](../index.md)
