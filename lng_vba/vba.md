@@ -222,7 +222,7 @@
 - 【関数エラー値返却】Dim vRetVal As Variant ～ vRetVal = CVErr(xlErrRef) '#VALUEを返却
 - 【マクロ定義】Public Sub SubA ( sVal1 As String, sVal2 As Integer ) ～ End Sub
 - 【列挙型定義】Enum E\_XXX ～ NUM1 ～ NUM2 ～ End Enum
-- 【ブロック脱出（Sub/Function/For/Do）】Exit (Sub|Function|For|Do)
+- 【ブロック脱出（Sub/Function/For/Do）】Exit (Sub\|Function\|For\|Do)
 - 【連続コマンド実行】Dim sStr As String : sStr = "abc"
 - 【一時停止】Stop
 - 【クラスインスタンス生成】Dim cPrfrmMes As New PerformanceMeasurement
@@ -318,7 +318,7 @@
 	- 【フォルダ 存在確認】objFSO.FolderExists( "C:\codes" ) 'True
 	- 【フォルダ 親フォルダパス取得】objFSO.GetParentFolderName( "C:\codes\src" ) ' C:\codes
 
-- 【ＴＸＴファイルオープン/クローズ】Open ファイル名 For [Input|Output|Append] As #1 ～ Close #1
+- 【ＴＸＴファイルオープン/クローズ】Open ファイル名 For [Input\|Output\|Append] As #1 ～ Close #1
 - 【ＴＸＴファイル読込（一行ずつ）】Do Until EOF(1) ～ Line Input #1, 文字列変数 ～ Loop
 - 【ＴＸＴファイル読込（一括）】sTestFile = objFSO.GetFile(ファイルパス).OpenAsTextStream.ReadAll&br()'返却値は「配列型」でないことに注意！改行文字を含んだ「文字列型」で返却される！
 - 【ＴＸＴファイル書込】Print #1, 文字列変数
@@ -353,7 +353,7 @@
 - 【符号なし16進数表現】&HFFF0&
 - 【文字列⇒数値変換】Val(文字列式)
 - 【数値⇒文字列変換】Str(数値)
-- 【改行】( vbNewLine | vbCr | vbLf | vbCrLf )
+- 【改行】( vbNewLine \| vbCr \| vbLf \| vbCrLf )
 - 【少数 正数 切り捨て①】Fix( 99.224 ) '99
 - 【少数 正数 切り捨て②】Int( 99.224 ) '99
 - 【少数 負数 切り捨て①】Fix( -99.224 ) '-99 (※)負数の場合は切り上げ
@@ -388,7 +388,7 @@
 - 【シート追加】Dim shAddSht As Worksheet ～ Set shAddSht = ThisWorkbook.Sheets.Add
 - 【シート移動（末尾）】ThisWorkbook.Sheets(シート名).Move After:=ThisWorkbook.Sheets( ThisWorkbook.Sheets.Count )
 - 【シート削除】Application.DisplayAlerts = False ～ .Sheets(シート名).Delete ～ Application.DisplayAlerts = True
-- 【シート表示/非表示】.Sheets(シート名).Visible = (True|False)
+- 【シート表示/非表示】.Sheets(シート名).Visible = (True\|False)
 - 【シート並べ替え】.Sheets(シート名).Move Before:=Sheets(1)
 - 【画面表示 ON】Application.ScreenUpdating = True
 - 【画面表示 OFF】Application.ScreenUpdating = False
@@ -396,7 +396,7 @@
 - 【計算方法切替 手動】Application.Calculation = xlCalculationManual
 - 【ブック再計算】Application.Calculate
 - 【ブック強制再計算】Application.CalculateFull
-- 【確認メッセージ抑制/表示】Application.DisplayAlerts = (False|True)
+- 【確認メッセージ抑制/表示】Application.DisplayAlerts = (False\|True)
 - 【セル検索（行番号取得）】.Cells.Find("りんご", LookAt:=xlWhole).Row
 - 【セル検索（行番号取得）】.Cells.Find("りんご", LookAt:=xlWhole).Column
 - 【セル参照方法】.Cells(X, Y).Value 'I,X,Yは１オリジン
@@ -416,7 +416,7 @@
 - 【背景色変更】.Range("A1").Interior.Color = RGB(255, 255, 0)
 - 【罫線（格子）設定】.Range("A1:C3").Borders.LineStyle = xlContinuous
 - 【セル結合】.Range("A1:C3").MergeCells = True
-- 【セル選択範囲内中央】.Range("A1:C3").HorizontalAlignment = ( xlCenterAcrossSelection | xlGeneral )
+- 【セル選択範囲内中央】.Range("A1:C3").HorizontalAlignment = ( xlCenterAcrossSelection \| xlGeneral )
 - 【最終行取得】数値変数 = .Cells(.Rows.Count, 列).End(xlUp).Row
 - 【最終列取得】数値変数 = .Cells(行, .Columns.Count).End(xlToLeft).Column
 - 【最終行取得（全列の中で最大）】数値変数 = .Sheets(シート名).UsedRange.Rows.Count + 1
@@ -439,9 +439,9 @@
 - 【コピー/切り取りモード解除】Application.CutCopyMode = False
 - 【グループ化（行）】.Range( .Rows( lStrtRow ), .Rows( lLastRow ) ).Group '解除は Group → Ungroup
 - 【グループ化（行）】.Range( .Columns( lStrtRow ), .Columns( lLastRow ) ).Group '解除は Group → Ungroup
-- 【アウトライン設定変更（上下）】.Sheets(シート名).Outline.SummaryRow = ( xlBelow | xlAbove )
-- 【アウトライン設定変更（左右）】.Sheets(シート名).Outline.SummaryColumn = ( xlRight | xlLeft )
-- 【アウトライン設定変更（自動）】.Sheets(シート名).Outline.AutomaticStyles = ( True | False )
+- 【アウトライン設定変更（上下）】.Sheets(シート名).Outline.SummaryRow = ( xlBelow \| xlAbove )
+- 【アウトライン設定変更（左右）】.Sheets(シート名).Outline.SummaryColumn = ( xlRight \| xlLeft )
+- 【アウトライン設定変更（自動）】.Sheets(シート名).Outline.AutomaticStyles = ( True \| False )
 
 - 【ChartObject定義】Dim oChartObj As ChartObject ～ Set oChartObj = ThisWorkbook.Sheets(シート名).ChartObjects(1)
 	- 【グラフ 追加】Set oChartObj = .Sheets(シート名).ChartObjects.Add( XPOS, YPOS, WIDTH, HEIGHT ) 'XPOS, YPOS, WIDTH, HEIGHTの単位はポイント
@@ -458,19 +458,19 @@
 	- 【グラフ Ｘ軸 目盛軸 有無】oChartObj.Chart.Axes(xlCategory).HasMajorGridlines = True
 	- 【グラフ Ｘ軸 目盛軸 色】oChartObj.Chart.Axes(xlCategory).MajorGridlines.Border.Color = RGB(217, 217, 217)
 	- 【グラフ Ｘ軸 目盛軸 太さ】oChartObj.Chart.Axes(xlCategory).MajorGridlines.Border.Weight = 2
-	- 【グラフ Ｘ軸 目盛軸 スタイル】oChartObj.Chart.Axes(xlCategory).MajorGridlines.Border.LineStyle = (xlContinuous|xlDot|xlDouble|xlLineStyleNone|...)
+	- 【グラフ Ｘ軸 目盛軸 スタイル】oChartObj.Chart.Axes(xlCategory).MajorGridlines.Border.LineStyle = (xlContinuous\|xlDot\|xlDouble\|xlLineStyleNone\|...)
 	- 【グラフ Ｘ軸 補助目盛軸 〃】上記【グラフ Ｘ軸 目盛軸 ～】の「MajorGridlines」を「MinorGridlines」に変更
 	- 【グラフ Ｘ軸 最小値 自動】oChartObj.Chart.Axes(xlCategory).MinimumScaleIsAuto = False
 	- 【グラフ Ｘ軸 最大値 自動】oChartObj.Chart.Axes(xlCategory).MaximumScaleIsAuto = False
 	- 【グラフ Ｘ軸 最小値 設定】oChartObj.Chart.Axes(xlCategory).MinimumScale = 0
 	- 【グラフ Ｘ軸 最大値 設定】oChartObj.Chart.Axes(xlCategory).MaximumScale = 100
-	- 【グラフ Ｘ軸 縦軸との交点】oChartObj.Chart.Axes(xlCategory).Crosses = (xlMinimum|xlMaximum|xlAutomatic)
+	- 【グラフ Ｘ軸 縦軸との交点】oChartObj.Chart.Axes(xlCategory).Crosses = (xlMinimum\|xlMaximum\|xlAutomatic)
 	- 【グラフ Ｙ軸 〃】上記【グラフ Ｘ軸 ～】の「xlCategory」を「xlValue」に変更
 	- 【グラフ タイトル 有無】oChartObj.Chart.HasTitle = True
 	- 【グラフ タイトル 変更】oChartObj.Chart.ChartTitle.Text = "Test Title"
 	- 【グラフ タイトル グラフに重ねる】oChartObj.Chart.ChartTitle.IncludeInLayout = False 'False:重ねる、True:重ねない
 	- 【グラフ 凡例 有無】oChartObj.Chart.HasLegend = True
-	- 【グラフ 凡例 位置】oChartObj.Chart.Legend.Position = (xlLegendPositionTop|xlLegendPositionBottom|xlLegendPositionLeft|xlLegendPositionRight|...)
+	- 【グラフ 凡例 位置】oChartObj.Chart.Legend.Position = (xlLegendPositionTop\|xlLegendPositionBottom\|xlLegendPositionLeft\|xlLegendPositionRight\|...)
 	- 【グラフ 凡例 グラフに重ねる】oChartObj.Chart.Legend.IncludeInLayout = False 'False:重ねる、True:重ねない
 - 【グラフ 画像として貼り付け】.Sheets(シート名).PasteSpecial Format:="図 (JPEG)", Link:=False, DisplayAsIcon:=False
 
