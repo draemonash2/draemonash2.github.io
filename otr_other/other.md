@@ -18,6 +18,7 @@
 | ┬ | ┳ | ┯ | ┰ |
 | ┴ | ┻ | ┷ | ┸ |
 | ┼ | ╋ | ┿ | ╂ |
+
 - ASCII コード代表例
 	- http://e-words.jp/p/r-ascii.html より引用
 
