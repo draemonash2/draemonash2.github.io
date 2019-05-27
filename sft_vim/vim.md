@@ -89,6 +89,7 @@
 |DrawIt!	| <  （範囲選択後）										| <描画 |
 |surround	| S'													| ビジュアルモードで選択した部分を ' で囲む |
 |surround	| yss'													| 行全体を ' で囲む |
+|neosnipet	| :NeoSnippetEdit										| スニペットを編集 |
 
 # Tips
 
