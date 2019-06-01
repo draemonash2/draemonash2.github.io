@@ -44,29 +44,30 @@
 
 # ショートカットキー
 
-| Custum/Default | Ctrl | Shift | Alt | Key      | 機能 |
-|:---------------|:-----|:------|:----|:---------|:-----|
-| Custom         | Ctrl | Shift |     | Del      | 行削除 |
-| Custom         | Ctrl | Shift |     | C        | 行コピー |
-| Custom         | Ctrl | Shift |     | X        | 行切り取り |
-| Custom         | Ctrl | Shift |     | Up/Down  | 行選択開始 |
-| Custom         | Ctrl | Shift |     | V        | 行挿入 |
-| Custom         | Ctrl | Shift | Alt | Up/Down  | 矩形選択開始 |
-| Custom         | Ctrl |       |     | G        | Grep |
-| Custom         | Ctrl | Shift |     | G        | Grep置換 |
-| Custom         | Ctrl | Shift |     | Enter    | 空行挿入 |
-| Custom         |      |       |     | F4       | 枠フォーカス切替え |
-| Custom         |      |       |     | F6       | カラーマーカーを追加 |
-| Default        |      |       |     | F10      | タグジャンプ |
-| Default        |      | Shift |     | F10      | バックタグジャンプ |
-| Default        | Ctrl |       |     | F10      | ダイレクトタグジャンプ |
-| Default        | Ctrl | Shift |     | F10      | タグファイル作成 |
-| Default        |      |       |     | F11      | アウトライン解析 |
-| Custom         | Ctrl |       |     | F3       | ウィンドウ分割 上下 |
-| Custom         | Ctrl |       |     | F4       | ウィンドウ分割 左右 |
-| Custom         | Ctrl |       |     | F6       | アウトライン解析枠 表示/非表示 |
-| Custom         | Ctrl |       |     | F7       | ファイルエクスプローラー枠 表示/非表示 |
-| Custom         | Ctrl |       |     | F8       | アウトプット枠 表示/非表示 |
-| Default        |      |       | Alt | B        | 検索文字列に色を付ける＠検索ウィンドウ |
+|Ctrl|Shift|Alt|Key|機能|
+|:---|:---|:---|:---|:---|
+||||F1|タグジャンプ|
+||||F2|バックタグジャンプ|
+||||F4|カーソル位置の単語色付け|
+||||F11|アウトライン解析|
+|Ctrl|||F1|ダイレクトタグジャンプ|
+|Ctrl|||F3|ウィンドウ分割 上下|
+|Ctrl|||F4|ウィンドウ分割 左右|
+|Ctrl|||F6|表示/非表示 アウトライン解析枠|
+|Ctrl|||F7|表示/非表示 ファイルマネージャー枠|
+|Ctrl|||F8|表示/非表示 アウトプット枠|
+||Shift||F1|コピー 相対ファイルパス|
+||Shift||F2|コピー ファイル名|
+||Shift||F3|コピー フォルダパス|
+||Shift||F4|コピー 拡張子|
+|Ctrl|Shift||F1|タグファイルの作成|
+|Ctrl|Shift||↑/↓|BOX選択開始|
+|Ctrl|Shift||c|タブを空白に置換してコピー|
+|Ctrl|Shift||x|行切り取り|
+|Ctrl|Shift||v|BOX貼り付け|
+|Ctrl|Shift||del|行削除|
+|Ctrl|||g|Grep|
+|Ctrl|Shift||g|Grep置換|
+|||Alt|b|検索文字列に色を付ける＠検索ウィンドウ|
 
 [トップに戻る](../index.md)
