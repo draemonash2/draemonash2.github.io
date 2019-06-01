@@ -89,7 +89,7 @@
 |DrawIt!	| <  （範囲選択後）										| <描画 |
 |surround	| S'													| ビジュアルモードで選択した部分を ' で囲む |
 |surround	| yss'													| 行全体を ' で囲む |
-|neosnipet	| :NeoSnippetEdit										| スニペットを編集 |
+|neosnippet	| :NeoSnippetEdit										| スニペットを編集 |
 
 # Tips
 
@@ -104,7 +104,7 @@
 	- 全単語の先頭大文字化：%s/\<./\u&/g
 	- 全単語の先頭小文字化：%s/\<./\l&/g
 	- "/"ではなく"/\v"を使うことで、正規表現時のわずらわしいエスケープを抑制することができる。(very magic指定)
--検索単語の置換方法
+- 検索単語の置換方法
 	- 置換したい単語を以下のいずれかの方法で検索
 		- 「\*」を使用してカーソル下の単語を検索
 		- 「/」による検索
@@ -186,5 +186,6 @@
 	```
 	--remote-tab-silent
 	```
+- [neosnippet使い方](http://d.hatena.ne.jp/adragoona/touch/20130929/1380437722)
 
 [トップに戻る](../index.md)
