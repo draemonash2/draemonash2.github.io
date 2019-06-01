@@ -21,6 +21,19 @@
 				- C:\prg\_exe\xf11-10 ： C:\codes\vbs
 - 文字列のバイト数を返却する関数 LenB() は、Unicode のバイト数を返却するため半角文字も２バイトとして返却する。
 	- LebB( "あああ " ) ⇒ 8
+- メッセージ出力処理の違い
+	- 比較結果
+	
+| コマンド | MsgBox | WScript.Echo | Wscript.StdOut.WriteLine |
+|:---|:---|:---|:---|
+| ダブルクリック起動 | メッセージボックス表示 | メッセージボックス表示 | 実行不可 |
+| wscript.exe | メッセージボックス表示 | メッセージボックス表示 | 実行不可 |
+| cscript.exe | メッセージボックス表示 | 標準出力 | 標準出力 |
+
+	- 結論
+		- MsgBox はデバッグ用で使用！
+		- WScript.Echo はメインで使用する！
+		- Wscript.StdOut.WriteLine は使用禁止！
 
 # 構文
 ## 「～」は改行を示す。
@@ -51,7 +64,7 @@
 【with】With オブジェクト名 ～ End With
 【コメント】'コメント
 【入力】sStr = InputBox( "テキストを入力してください", "title", "default value" )
-【出力①】MsgBox "Hello world"
+【出力①】MsgBox "Hello world", vbOKCancel, "title"
 【出力②】WScript.Echo "Hello world"
 【出力③】Wscript.StdOut.WriteLine "Hello world" '出力先は標準出力。ただし、この方法は cscript.exe からの起動に限られる。例）cscript.exe xxx.vbs
 【確認処理】Dim vAnswer ～ vAnswer = MsgBox("処理を継続しますか？", vbOKCancel, "タイトル") '第二引数は表示ボタンの種類を指定。ボタンの種類は [こちら](http://www.kanaya440.com/contents/script/vbs/function/others/msgbox.html) 参照。
