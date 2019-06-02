@@ -42,6 +42,21 @@
 | wscript.exe        | ポップアップ表示 | ポップアップ表示 | 実行不可 |
 | cscript.exe        | ポップアップ表示 | 標準出力         | 標準出力 |
 
+- バッチファイルで設定した環境変数を参照する方法
+	- test.bat
+	``` bat
+	set MATCH_DIR_NAME=codes
+	set REMOVE_DIR_LEVEL=0
+	.\test.vbs
+	```
+	- test.vbs
+	``` vb
+	Dim objWshShellEnv
+	Set objWshShellEnv = WScript.CreateObject("WScript.Shell").Environment("Process")
+	sMatchDirName = objWshShellEnv.Item("MATCH_DIR_NAME")
+	lRemeveDirLevel = objWshShellEnv.Item("REMOVE_DIR_LEVEL")
+	```
+
 # 構文
 ## 「～」は改行を示す。
 ```
