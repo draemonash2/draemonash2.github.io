@@ -131,7 +131,7 @@
   【コマンド実行】objWshShell.Run "cmd /c echo.> ""C:\test.txt""", 0, True
   【レジストリ読込】objWshShell.RegRead("HKCU\WshTest\Test1")
   【レジストリ書込】objWshShell.RegWrite("HKCU\WshTest\Test1", "test", "REG\_SZ") 'キー/値,設定値,データ型
-  【環境変数 値取得】objWshShell.ExpandEnvironmentStrings( "%MYPATH\_CODES%" )
+  【環境変数 値取得＆更新】objWshShell.Environment("User").Item("MYPATH\_CODES") 'User:現在のユーザー, Process:現在のプロセス, System:全ユーザー, Volatile:現在のログオン
   【特殊フォルダのパス取得】objWshShell.SpecialFolders("Desktop") 'デスクトップフォルダ
     ↑取得できるフォルダは「AllUsersDesktop」 「AllUsersStartMenu」 「AllUsersPrograms」 「AllUsersStartup」 「Desktop」 「Favorites」 「Fonts」 「MyDocuments」 「NetHood」 「PrintHood」 「Programs」 「Recent」 「SendTo」 「StartMenu」 「Startup」 「Templates」
   【ショートカット 作成】With objWshShell.CreateShortcut( "c:\test\src.txt.lnk" ) ～ .TargetPath = "c:\test\dst.txt" ～ .Save ～ End With
