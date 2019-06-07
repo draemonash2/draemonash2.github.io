@@ -9,7 +9,7 @@
 - [Vba](lng_vba/vba.md)
 - [Vbs](lng_vbs/vbs.md)
 - [Vim Script](lng_vimscript/vimscript.md)
-- [Markdwon](lng_markdown/markdown.md)
+- [Markdown](lng_markdown/markdown.md)
 
 ## ソフト([インストーラーはこちら](otr_other/installer_url.md))
 - [Github Wiki](sft_githubwiki/githubwiki.md)
@@ -38,6 +38,7 @@
 - [EyeD3](sft_eyed3/eyed3.md)
 - [grep.exe](sft_grepexe/grepexe.md)
 - [Enterprise Architect](sft_ea/ea.md)
+- [EpTree](sft_eptree/eptree.md)
 
 ## その他
 - [用語集](klg_words/words.md)
