@@ -17,7 +17,7 @@
 - Excel 2003 形式のファイルを右クリックで新規作成できるようにする
 	- 「C:\Windows\ShellNew」配下に「excel8.xls」を作成する
 	- regedit にて以下のキーを作成する
-		- パス：HKEY\_CLASSES\_ROOT\.xls\Excel.Sheet.8\ShellNew
+		- パス：`HKEY_CLASSES_ROOT\.xls\Excel.Sheet.8\ShellNew`
 		- 名前：FileName（文字列値）
 		- 値のデータ：excel8.xls
 	- 再起動
@@ -43,8 +43,8 @@
 		- C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp
 		- %USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
 	- ② レジストリエディタにて、以下フォルダ内の該当のキーを削除する。
-		- HKEY\_CURRENT\_USER\Software\Microsoft\Windows\CurrentVersion\run
-		- HKEY\_LOCAL\_MACHINE\Software\Microsoft\Windows\CurrentVersion\run
+		- `HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\run`
+		- `HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\run`
 - 別デスクトップへウィンドウを移動する方法＠仮想デスクトップ
 	1. 移動先デスクトップを選択
 	1. 移動元デスクトップをマウスポインタで選択
@@ -55,6 +55,9 @@
 	- 信頼性モニターでPCの安定性をチェック
 		1. ［コントロールパネル］-［セキュリティとメンテナンス］の右ペインにある「メンテナンス」
 		1. 「問題の報告」項目にある「信頼性履歴の表示」をクリック
+- ショートカットファイルのショートカットキーが効く場所
+	- `C:\Users\draem\AppData\Roaming\Microsoft\Windows\Start Menu\Programs`
+	- `C:\Users\<User名>\Desktop`
 
 # トラブルシューティング
 - ファイルの関連付けができない＠windows 7
