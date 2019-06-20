@@ -59,9 +59,8 @@
 	- `C:\Users\draem\AppData\Roaming\Microsoft\Windows\Start Menu\Programs`
 	- `C:\Users\<User名>\Desktop`
 - [キーボード操作が軽快になるよう設定する](https://president.jp/articles/-/28517?page=4)
-	1. Win + R
-	1. `control.exe /name Microsoft.Keyboard` を実行
-	1. 「表示までの待ち時間」を「右端」に移動
+	1. コントロールセンター -> キーボード
+	1. 速度タブ -> 「表示までの待ち時間」を「右端」に移動
 
 キーボードのプロパティ
 
