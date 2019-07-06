@@ -488,6 +488,9 @@
 	- xxx はフォーカス中のフォーム名。フォーム xxx にフォーカスがある場合だけ、KeyUp イベントが発生する。
 	- どのフォームにフォーカスがあっても動く KeyUp イベントを作りたい場合、全フォームに対して上記イベントを作る！
 
+- 【ユーザー名取得】CreateObject("WScript.Network").UserName 'draem
+- 【テンポラリフォルダ名】"C:\Users\"& CreateObject("WScript.Network").UserName &"\AppData\Local\Temp"
+
 # ライブラリ
 - [【ＸＬＳファイル存在確認～オープン～クローズ】](https://github.com/draemonash2/codes/blob/master/vba/MacroBook/lib/ExcelFile.bas)
 - [【ＴＸＴファイル存在確認～オープン～クローズ】](https://github.com/draemonash2/codes/blob/master/vba/MacroBook/lib/FileSys.bas)

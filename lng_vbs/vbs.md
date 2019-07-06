@@ -247,6 +247,9 @@
 【条件付き書式 追加】.Range("A1:B2").FormatConditions.Add Type:=xlExpression, Formula1:="=$A1=""あ"""
 【条件付き書式 書式設定①】.Range("A1:B2").FormatConditions(1).Interior.Color = RGB(255, 255, 0)
 【条件付き書式 書式設定②】.Range("A1:B2").FormatConditions(1).Font.Color = RGB(0, 255, 0)
+
+【ユーザー名取得】CreateObject("WScript.Network").UserName 'draem
+【テンポラリフォルダ名】"C:\Users\"& CreateObject("WScript.Network").UserName &"\AppData\Local\Temp"
 ```
 
 # ライブラリ
