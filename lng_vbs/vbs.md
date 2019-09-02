@@ -142,6 +142,7 @@
   【ショートカット 指示先パス更新】With objWshShell.CreateShortcut( "c:\test\src.txt.lnk" ) ～ .TargetPath = "c:\test\dst2.txt" ～ .Save ～ End With
   【ショートカット コメント更新】With objWshShell.CreateShortcut( "c:\test\src.txt.lnk" ) ～ .Description = "テストコメント" ～ .Save ～ End With
   【ショートカット 引数更新】With objWshShell.CreateShortcut( "c:\test\src.txt.lnk" ) ～ .Arguments = " /b" ～ .Save ～ End With
+  【ポップアップ出力】objWshShell.Popup "メッセージ", lSecond, "タイトル", vbInformation
 
 【FileSystemObject 取得】Dim objFSO ～ Set objFSO = CreateObject("Scripting.FileSystemObject")
   【ファイル コピー①】objFSO.CopyFile "C:\codes\a.txt", "C:\codes\test\" '<src> <dst> [<overwrite>] 、<dst>の末尾に "\" をつけること！
