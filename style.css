@@ -14,6 +14,7 @@ body {
   margin: auto;
   max-width: 42em;
   background: #fefefe;
+  width: auto;
 }
 
 a {
