@@ -1,3 +1,5 @@
+<link href="style.css" rel="stylesheet"></link>
+
 # トップ
 ## 言語
 - [C](lng_c/c.md)
