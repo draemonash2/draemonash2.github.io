@@ -23,6 +23,14 @@
 			- path：HKEY\_CURRENT\_USER\Software\Policies\Microsoft\Office\＜バージョン＞\Excel\DisabledShortcutKeysCheckBoxes
 			- Name：F1Key (任意)
 			- Value：112,0
+			
+				| Office | バージョン|
+				|:---|:---|
+				| 2016 | 16.0 |
+				| 2013 | 15.0 |
+				| 2010 | 14.0 |
+				| 2007 | 12.0 |
+				
 	- アドインを使用
 		- 「F1のヘルプを無効に」にてインターネット検索し、インストールする。
 		- アドイン内で上記のレジストリ設定をしていると思われるが、設定が楽なので一番おすすめ！
