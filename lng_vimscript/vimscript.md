@@ -1,12 +1,13 @@
 [トップに戻る](../index.md)
 
 # 構文
-- 【変数定義】let s:lVal = ""
-- 【定数定義】let asList = ['a', 'b', 'c'] ～ lockvar asList " unlockvar asList で解除可能。
-- 【構造体定義】★
-- 【関数定義】function! Func() ～ return lRetVal ～ endfunction
-- 【関数呼出】Func()
-- 【列挙型定義】★
+- 【変数 定義】let s:lVal = ""
+- 【定数 定義】let asList = ['a', 'b', 'c'] ～ lockvar asList " unlockvar asList で解除可能。
+- 【関数 定義】function! Func() ～ return lRetVal ～ endfunction
+- 【関数 呼出】Func()
+- 【関数 終了】return
+- 【構造体 定義】★
+- 【列挙型 定義】★
 - 【ブロック脱出】break
 
 - 【if】if s:vimCurMode == "v" ～ elseif s:vimCurMode == "n" ～ else ～ endif
@@ -16,7 +17,9 @@
 - 【コメント】" コメント
 - 【出力】echo "Hello World!"
 - 【出力（履歴保存）】echom "Hello World!" ":messege にて履歴参照可能。デバッグにもってこい！
+- 【出力（改行のみ）】echo "\n"
 - 【チェック処理】なし
+- 【入力】let l:sText = input("what your name ?", "yamada")
 
 - 【コマンド実行】execute "cd " . sCtagsPath
 - 【外部コマンド実行】execute "!start C:/prg/ctags58j2bin/ctags.exe -R"
