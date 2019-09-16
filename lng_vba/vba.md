@@ -504,6 +504,9 @@
 
 【ユーザー名取得】CreateObject("WScript.Network").UserName 'draem
 【テンポラリフォルダ名】"C:\Users\"& CreateObject("WScript.Network").UserName &"\AppData\Local\Temp"
+
+【クリップボード 取得】With CreateObject("new:{1C3B4210-F441-11CE-B9EA-00AA006B1A69}") ～ .GetFromClipboard ～ sText = .GetText ～ End With
+【クリップボード 設定】With CreateObject("new:{1C3B4210-F441-11CE-B9EA-00AA006B1A69}") ～ .SetText sText ～ .PutInClipboard ～ End With
 ```
 
 # ライブラリ
