@@ -2,7 +2,7 @@
 
 # アドオン
 
-| アドオン名       | 説明 |
+| アドオン名 | 説明 |
 |:---|:---|
 | [Blinking Alert](https://addons.thunderbird.net/ja/thunderbird/addon/blinking-alert/) | メール着信時の効果設定 |
 | [Quicktext](https://addons.thunderbird.net/ja/thunderbird/addon/quicktext/) | 定型文入力 |
@@ -13,14 +13,13 @@
 
 # ショートカットキーまとめ
 
-|Ctrl|Shift|Alt|key|機能|
+|Ctrl|Shift|Alt|Key|機能|
 |:---|:---|:---|:---|:---|
 ||||Right/Left|スレッド 広げる/折りたたむ|
 |Ctrl|||\*/\|全スレッド 広げる/折りたたむ|
 ||||m|既読/未読 メッセージ|
 ||||r|既読/未読 スレッド|
-||||j|迷惑マーク 付与|
-||Shift||j|迷惑マーク 解除|
+||/Shift||j|迷惑マーク 付与/解除|
 ||||s|スター 付与/解除|
 ||||f/b|メッセージ選択切替 次/前|
 ||||n/p|メッセージ選択切替(未読) 次/前|
