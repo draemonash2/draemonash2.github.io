@@ -129,4 +129,20 @@
 |||Win|,|表示 デスクトップ(一時的)|
 |||Win|PrtSc|スクリーンショット保存 to \\Pictures\\Screenshots|
 
+# 「ファイル名を指定して実行」で開けるフォルダ
+
+[参考URL](https://www.ka-net.org/blog/?p=8432)
+
+| コマンド | フォルダ |
+|:---|:---|
+| shell:desktop | デスクトップ |
+| shell:start menu | スタートメニュー |
+| shell:sendto | 送るフォルダ |
+| shell:appdata | AppData |
+| shell:profile | ユーザー |
+| shell:programs | プログラム |
+| shell:startup | スタートアップ |
+| shell:recyclebinfolder | ごみ箱 |
+
+
 [トップに戻る](../index.md)
