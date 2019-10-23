@@ -107,6 +107,21 @@
 		> https://www.analog.com/jp/landing-pages/003/sensor_pv_jp/sensor_home_jp/sd_rd/sdrd_structure.html
 		> https://ameblo.jp/odamaki3/entry-12373259657.html
 		> https://www.minebeamitsumi.com/strengths/column/resolver/index.html
+- ベクトル制御
+	- 数式
+		- クラーク変換
+			- Iu + Iv + Iw = 0
+			- Iα= Iu
+			- Iβ= (Iu + 2Iv) / &radic;3
+		- パーク変換
+			- Id = ＋Iα・cosθ＋Iβ・sinθ
+			- Iq = －Iα・sinθ＋Iβ・cosθ
+		- 逆パーク変換
+			- Vα= Vd・cosθ－Vq・sinθ
+			- Vβ= Vd・sinθ＋Vq・cosθ
+	- 参考URL
+		- [ベクトルエンジンとベクトル制御](https://toshiba.semicon-storage.com/jp/design-support/e-learning/mcupark/village/vector-1.html)
+		- [Clarke-Park 変換](https://jp.mathworks.com/solutions/power-electronics-control/clarke-and-park-transforms.html)
 
 # 言語
 - FP、SP の違い
