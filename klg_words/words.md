@@ -122,6 +122,35 @@
 	- 参考URL
 		- [ベクトルエンジンとベクトル制御](https://toshiba.semicon-storage.com/jp/design-support/e-learning/mcupark/village/vector-1.html)
 		- [Clarke-Park 変換](https://jp.mathworks.com/solutions/power-electronics-control/clarke-and-park-transforms.html)
+- [丸め誤差、情報落ち、桁落ち](https://mathwords.net/marumegosa)
+	- 丸め誤差
+		- 概要
+			- ある桁以降を無視することによって生じる誤差
+			- ex) 0.1212121212→0.12
+	- 情報落ち
+		- 概要
+			- 絶対値が大きく異なる数を加減算により小さい方の情報が無視されてしまう現象
+				- 桁数が有限であるために元々の数が持っていた情報が計算によって失われること（有効数字は落ちていない）
+			- ex1) <span style="color:blue;">1.0000</span>＋<span style="color:red;">0.0001</span>＋<span style="color:red;">0.0001</span>＋<span style="color:red;">0.0001</span>→1.0000
+			- ex2) 1.4142＋0.0050361→1.4192_361_→1.4192（有効数字5桁を維持するため、361が削られる）
+		- 対策
+			- 数字が小さい方から順に順々に計算する
+			- ex1) <span style="color:red;">0.0001</span>＋<span style="color:red;">0.0001</span>＋<span style="color:red;">0.0001</span>＋<span style="color:blue;">1.0000</span>＝1.0003
+	- 桁落ち
+		- 概要
+			- 近い数を引き算することで有効数字が少なくなる現象
+			- ex) 
+				1. ルート1001（≒31.63858）－ルート999（≒31.60696）＝0.03162（有効数字7桁→4桁）
+				1. コンピュータは有効数字7桁を維持するため、勝手に3桁分を0埋めして「0.3162<span style="color: red; ">000</span>×10^-1」としてしまう
+				1. …勝手に0埋めしてるけど、これってホントに0？正確には「0.3162<span style="color: red; ">278</span>×10^-1」だよね？
+		- 対策
+			- ★
+		- 参考URL
+			- [桁落ちってなんぞ？](https://technologicaladvance.blog.fc2.com/blog-entry-45.html)
+- 有効数字
+	- 信用できる桁数
+	- ex) 36.52476（有効数字７桁）
+	- ex) 0.003162（有効数字４桁）
 
 # 言語
 - FP、SP の違い

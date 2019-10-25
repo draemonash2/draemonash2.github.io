@@ -64,6 +64,12 @@
 - [プリンタがつながらない場合](https://kuritaroh.com/2018/09/01/printerngprint/)
 - テンポラリフォルダパス
 	- `C:\Users\<ユーザー名>\AppData\Local\Temp`
+- Bluetooth テザリング方法＠Windows10
+	1. 接続するデバイスと Bluetooth 接続する
+	1. Win + R
+	1. 「control printers」を実行
+	1. テザリング接続するデバイスを選択して右クリック
+	1. 「接続方法(C)」→「アクセスポイント(A)」
 
 # トラブルシューティング
 - ファイルの関連付けができない＠windows 7
