@@ -234,6 +234,12 @@
 | 相対参照   | =A1     | =R[-2]C[-2]  | A1セルはC3セルから見て2行手前の2列手前のセル  |
 | 絶対参照   | =$A$1   | =R1C1        | A1セルはどこから見てもA列の第1行目のセル      |
 
+- [フォームコントロールとactiveXコントロール違い](https://www.ipentec.com/document/office-excel-difference-between-form-control-and-activex-control)
+	- フォーム コントロール
+		- セルの値を変更する用途、簡単なマクロの呼び出しに使う場合に最適
+	- ActiveX コントロール
+		- マクロのコードからの参照、コントロールの変化(イベント)でマクロを実行した場合に最適
+
 # 構文
 
 [こちらを参照](https://github.com/draemonash2/codes/blob/master/%E6%A7%8B%E6%96%87.xlsx)
