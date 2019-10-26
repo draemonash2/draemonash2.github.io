@@ -2,6 +2,6 @@
 
 # 構文
 
-- 要記載★
+- [こちら](../sft_githubwiki/githubwiki.html)を参照
 
 [トップに戻る](../index.md)
