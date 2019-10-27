@@ -1,9 +1,6 @@
 
 # トップ
 ## 言語
-<details>
-<summary>こちら</summary>
-
 - [C](lng_c/c.md)
 - [Dos Command](lng_doscommand/doscommand.md)
 - [PowerShell](lng_powershell/powershell.md)
@@ -14,12 +11,8 @@
 - [Vbs](lng_vbs/vbs.md)
 - [Vim Script](lng_vimscript/vimscript.md)
 - [Markdown](lng_markdown/markdown.md)
-</details>
 
 ## ソフト([インストーラーはこちら](otr_other/installer_url.md))
-<details>
-<summary>こちら</summary>
-
 - [Github Wiki](sft_githubwiki/githubwiki.md)
 - [@Wiki](sft_atwiki/atwiki.md)
 - [Amazon Cloud Drive](sft_amazonclouddrive/amazonclouddrive.md)
@@ -47,13 +40,8 @@
 - [grep.exe](sft_grepexe/grepexe.md)
 - [Enterprise Architect](sft_ea/ea.md)
 - [EpTree](sft_eptree/eptree.md)
-</details>
 
 ## その他
-<details>
-<summary>こちら</summary>
-
 - [用語集](klg_words/words.md)
 - [その他](otr_other/other.md)
-</details>
 
