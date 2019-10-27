@@ -1,6 +1,8 @@
 
 # トップ
 ## 言語
+<details open>
+<summary>言語</summary>
 - [C](lng_c/c.md)
 - [Dos Command](lng_doscommand/doscommand.md)
 - [PowerShell](lng_powershell/powershell.md)
@@ -11,6 +13,7 @@
 - [Vbs](lng_vbs/vbs.md)
 - [Vim Script](lng_vimscript/vimscript.md)
 - [Markdown](lng_markdown/markdown.md)
+</details>
 
 ## ソフト([インストーラーはこちら](otr_other/installer_url.md))
 - [Github Wiki](sft_githubwiki/githubwiki.md)
