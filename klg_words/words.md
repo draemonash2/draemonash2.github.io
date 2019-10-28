@@ -125,6 +125,10 @@
 		- [ベクトルエンジンとベクトル制御](https://toshiba.semicon-storage.com/jp/design-support/e-learning/mcupark/village/vector-1.html)
 		- [Clarke-Park 変換](https://jp.mathworks.com/solutions/power-electronics-control/clarke-and-park-transforms.html)
 		- [\[教育\] マイコン：モータ駆動用ベクトル制御技術（1/4）](https://www.youtube.com/watch?v=0Yd8qOfiWzQ)
+	- 他の用語
+		- dq軸
+			- d：磁界成分
+			- q：トルク成分
 - [丸め誤差、情報落ち、桁落ち](https://mathwords.net/marumegosa)
 	- 丸め誤差
 		- 概要
