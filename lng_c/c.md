@@ -194,5 +194,29 @@ OBJファイルが新しい場合コンパイルしない仕組みとなって�
 		- ★
 	- プライオリティーシーリング
 		- ★
+- 負数の符号なし型キャスト時の動作
+	- コード
+		``` c
+		int main()
+		{
+		    unsigned short ui_x = 65535;
+		    unsigned short ui_y = 65534;
+		    printf("              ui_x = %d(0x%04x)\n", ui_x, ui_x);
+		    printf("              ui_y = %d(0x%04x)\n", ui_y, ui_y);
+		    printf("(signed short)ui_x = %d(0x%04x)\n", (signed short)ui_x, (signed short)ui_x);
+			printf("(signed short)ui_x = %d(0x%04x)\n", (signed short)ui_y, (signed short)ui_y);
+		}
+		```
+		
+	- 出力結果
+		```
+		              ui_x = 65535(0xffff)
+		              ui_y = 65534(0xfffe)
+		(signed short)ui_x = -1(0xffffffff)
+		(signed short)ui_x = -2(0xfffffffe)
+		```
+	- 表現範囲
+		![符号なしあり表現範囲比較](符号なしあり表現範囲比較.jpg)
+	
 
 [トップに戻る](../index.md)
