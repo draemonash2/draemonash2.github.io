@@ -244,6 +244,176 @@
 
 [こちらを参照](https://github.com/draemonash2/codes/blob/master/%E6%A7%8B%E6%96%87.xlsx)
 
+# ライブラリ
+- [【ＸＬＳファイル存在確認～オープン～クローズ】](https://github.com/draemonash2/codes/tree/master/vba/MacroBook/lib/ExcelFile.bas)
+- [【ＴＸＴファイル存在確認～オープン～クローズ】](https://github.com/draemonash2/codes/tree/master/vba/MacroBook/lib/FileSys.bas)
+- [【ＴＸＴファイル存在確認～オープン～クローズ（キャラクタセット指定）】](https://github.com/draemonash2/codes/tree/master/vba/MacroBook/lib/FileSys.bas)
+- [【フォルダ作成（再帰処理）】](https://github.com/draemonash2/codes/tree/master/vba/MacroBook/lib/FileSys.bas)
+- [【ファイル名一覧取得】](https://github.com/draemonash2/codes/tree/master/vba/MacroBook/lib/FileSys.bas)
+- [【ファイル・ディレクトリ 判別】](https://github.com/draemonash2/codes/tree/master/vba/MacroBook/lib/FileSys.bas)
+- [【ファイル・ディレクトリ 選択ダイアログ】](https://github.com/draemonash2/codes/tree/master/vba/MacroBook/lib/FileSys.bas)
+- [【ファイル・フォルダ情報取得】](https://github.com/draemonash2/codes/tree/master/vba/MacroBook/lib/FileInfo.bas)
+- [【コマンド実行】](https://github.com/draemonash2/codes/tree/master/vba/MacroBook/lib/SysCmd.bas)
+- [【プログレスバー表示】]
+- [【性能測定】](https://github.com/draemonash2/codes/tree/master/vba/MacroBook/lib/StopWatch.cls)
+- [【エラー処理】](https://github.com/draemonash2/codes/tree/master/vba/MacroBook/lib/Error.bas)
+- [【配列の Push, Pop 関数】](https://github.com/draemonash2/codes/tree/master/vba/MacroBook/lib/ArrayMng.bas)
+- [【イミディエイトウィンドウクリア】](https://github.com/draemonash2/codes/tree/master/vba/MacroBook/lib/VbaMng.bas)
+- [【シート一覧】](https://github.com/draemonash2/codes/tree/master/vba/MacroBook/lib/ExcelOpe.bas)
+- [【ツリー図オブジェクト生成】](https://github.com/draemonash2/codes/tree/master/vba/MacroBook/lib/ExcelOpe.bas)
+- [【ファイル名・フォルダ名抽出関数】](https://github.com/draemonash2/codes/tree/master/vba/MacroBook/lib/StringMng.bas)
+- [【セル範囲文字結合/分割関数】](https://github.com/draemonash2/codes/tree/master/vba/MacroBook/lib/ExcelOpe.bas)
+- [【セル属性取得関数】](https://github.com/draemonash2/codes/tree/master/vba/MacroBook/lib/ExcelOpe.bas)
+- [【ビット演算関数】](https://github.com/draemonash2/codes/tree/master/vba/MacroBook/lib/ExcelOpe.bas)
+- [【キー送信】](https://github.com/draemonash2/codes/tree/master/vba/MacroBook/lib/SendKeys.bas)
+- [【特殊貼り付け】](https://github.com/draemonash2/codes/tree/master/vba/MacroBook/lib/SpecialPaste.bas)
+
+# サンプルコード
+- [【プログラムテンプレート】](vba_プログラムテンプレート.md)
+- 【シート存在確認】
+	```vba
+	'シート存在確認
+	Dim bIsSheetExist As Boolean
+	bIsSheetExist = False
+	For Each wSheet In ThisWorkbook.Worksheets
+		If wSheet.Name = sTrgtSheetName Then
+			bIsSheetExist = True
+		Else
+			'Do Nothing
+		End If
+	Next wSheet
+	```
+- 【セル検索（存在しない場合を考慮）】
+	- セル検索
+		```vba
+		Dim rFindResult As Range
+		Dim sSrchKeyword As String
+		Dim lSrchCellRow As Long
+		Dim lSrchCellClm As Long
+		
+		With ThisWorkbook.Sheets(INPUT_SHEET_NAME)
+			sSrchKeyword = KYWD_INPUT_DIR_PATH
+			Set rFindResult = .Cells.Find(sSrchKeyword, LookAt:=xlWhole)
+			If rFindResult Is Nothing Then
+				MsgBox sSrchKeyword & "が見つかりませんでした"
+			Else
+				lSrchCellRow = rFindResult.Row
+				lSrchCellClm = rFindResult.Column
+			End If
+		End With
+		```
+	- 直近セル情報取得
+		```vba
+		Public Type T_EXCEL_NEAR_CELL_DATA
+			bIsCellDataExist As Boolean
+			lRow As Long
+			lClm As Long
+			sCellValue As String
+		End Type
+		
+		Public Function GetNearCellData( _
+			ByVal shTrgtSht As Worksheet, _
+			ByVal sSrchKey As String, _
+			ByVal lRowOffset As Long, _
+			ByVal lClmOffset As Long _
+		) As T_EXCEL_NEAR_CELL_DATA
+			Dim rFindResult As Range
+			Set rFindResult = shTrgtSht.Cells.Find(sSrchKey, LookAt:=xlWhole)
+			If rFindResult Is Nothing Then
+				GetNearCellData.bIsCellDataExist = False
+			Else
+				GetNearCellData.bIsCellDataExist = True
+				GetNearCellData.lRow = rFindResult.Row + lRowOffset
+				GetNearCellData.lClm = rFindResult.Column + lClmOffset
+				GetNearCellData.sCellValue = shTrgtSht.Cells( _
+													GetNearCellData.lRow, _
+													GetNearCellData.lClm _
+												 ).Value
+			End If
+		End Function
+		```
+- 【セル重複削除】
+	```vba
+	For iRowIdx = .Cells(Rows.Count, 1).End(xlUp).Row To 2 Step -1
+		For iChkTargetRowIdx = iRowIdx - 1 To 2 Step -1
+			If .Cells(iRowIdx, 1) = .Cells(iChkTargetRowIdx, 1) Then
+				.Cells(iChkTargetRowIdx, 1).EntireRow.Delete Shift:=xlShiftUp
+			Else
+				'Do Nothing
+			End If
+		Next iChkTargetRowIdx
+	Next iRowIdx
+	```
+- [【グラフ作成＆画像変換】](vba_グラフ作成＆画像変換.md)
+- 【テキストボックス作成】
+	```vba
+	Dim spTxtBox As Shape
+	Set spTxtBox = shTrgtSht.Shapes.AddTextbox( _
+						Orientation:=msoTextOrientationHorizontal, _
+						Left:=10, _
+						Top:=10, _
+						Width:=10, _
+						Height:=10 _
+				   )
+	With spTxtBox
+		.TextFrame.Characters.Text = "エラーフレームなし"
+		.TextFrame.AutoSize = True
+	End With
+	```
+- 【正規表現】
+	- 正規表現と文字列検索 InStr の速度についての考察…
+		- マッチングを 500000 回繰り返すと、正規表現は約 2800 ms、InStr では約 50 ms。
+		- 正規表現は 56 倍遅い！
+	- 参考URL: http://officetanaka.net/excel/vba/tips/tips38.htm
+		```vba
+		Dim sSearchPattern As String
+		Dim sTargetStr As String
+		
+		Dim iMatchIdx As Integer
+		Dim iSubMatchIdx As Integer
+		
+		Dim oMatchResult As Object
+		Dim oRegExp As Object
+		Set oRegExp = CreateObject("VBScript.RegExp")
+		
+		sSearchPattern = "(\w+)\((\w+) (\w+)\)"
+		sTargetStr = "TestFunc01(char aaa) TestFunc02(int bbb)"
+		
+		oRegExp.Pattern = sSearchPattern               '検索パターンを設定
+		oRegExp.IgnoreCase = True                      '大文字と小文字を区別しない
+		oRegExp.Global = True                          '文字列全体を検索
+		Set oMatchResult = oRegExp.Execute(sTargetStr) 'パターンマッチ実行
+		
+		Debug.Print oMatchResult.Count
+		For iMatchIdx = 0 To oMatchResult.Count - 1
+			Debug.Print oMatchResult(iMatchIdx).SubMatches.Count
+			For iSubMatchIdx = 0 To oMatchResult(iMatchIdx).SubMatches.Count - 1
+				Debug.Print oMatchResult(iMatchIdx).SubMatches(iSubMatchIdx)
+			Next iSubMatchIdx
+		Next iMatchIdx
+		```
+- 【連想配列】
+	- 連想配列を使用することにより、膨大な件数(※)の検索が劇的に早くなる。
+		- ※ 検索対象 15 件以上（それ未満だと配列検索のほうが早い。.Exists API のオーバーヘッドのせい？）
+			```vba
+			Dim oPriceOfFruit As Object
+			Set oPriceOfFruit = CreateObject("Scripting.Dictionary")
+			
+			'登録
+			oPriceOfFruit.Add "リンゴ", "100円"
+			oPriceOfFruit.Add "イチゴ", "400円"
+			oPriceOfFruit.Add "メロン", "1000円"
+			
+			'存在確認
+			If oPriceOfFruit.Exists("リンゴ") Then
+				Debug.Print "Exists!"
+			Else
+				Debug.Print "Not Exists!"
+			End If
+			
+			Set oPriceOfFruit = Nothing
+			```
+
 # VBE
 ## 設定
 - Excel リボンに「開発」を追加
