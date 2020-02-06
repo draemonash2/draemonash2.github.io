@@ -13,6 +13,7 @@
 	
 	- 異なる２つのツリーをマージ
 		![異なる２つのツリーをマージ](異なる二つのツリーをマージ.jpg)
-	
+- リポジトリブラウザ(GUI)をCUIから起動する
+	`TortoiseProc.exe /command:repobrowser /path:"https://xxxxx.xx.xx/repos/path/to/"`
 
 [トップに戻る](../index.md)
