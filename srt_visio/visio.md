@@ -13,6 +13,35 @@
 	- 図形内のテキストを検索、置換できる
 	- 図形操作のショートカットキーが多い
 	- 避けるコネクタを使える
+- vbaマクロ周り
+	- vbaアドインについて
+		- excel vbaとは違い、アドインを適用できない！
+	- vbaマクロについて
+		- マクロが入っているファイルのみマクロが使える。ほかのファイルは使えない。
+			- つまり、マクロを使うためには、vbaソースコードを組み込む必要がある！
+		- マクロショートカットキーについて
+			- excel vba とは違い、Application.OnKey が使えない。
+			- クイックアクセスツールバーにvbaマクロを登録できない
+				- つまり、ショートカットキーは「ctrl+★」のみ！
+
+# マクロサンプル
+```
+Public Sub 上下に整列()
+    Application.ActiveWindow.Selection.Distribute visDistVertSpace, False
+End Sub
+
+Public Sub 左右に整列()
+    Application.ActiveWindow.Selection.Distribute visDistHorzSpace, False
+End Sub
+
+Public Sub 左右中央揃え()
+    Application.ActiveWindow.Selection.Align visHorzAlignCenter, visVertAlignNone, False
+End Sub
+
+Public Sub 上下中央揃え()
+    Application.ActiveWindow.Selection.Align visHorzAlignNone, visVertAlignMiddle, False
+End Sub
+```
 
 # ショートカットキー
 
