@@ -69,7 +69,10 @@
 	- 信用できる桁数
 	- ex) 36.52476（有効数字７桁）
 	- ex) 0.003162（有効数字４桁）
-## [車](words_develop_car.markdown)
+## [車]
+- [こちらへ](words_develop_car.markdown)
+## モーター
+- [こちらへ](words_develop_motor.markdown)
 
 # 言語
 - FP、SP の違い
