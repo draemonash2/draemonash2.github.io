@@ -278,6 +278,7 @@
 	- =B4\*24（表示形式：標準、B4は時刻が入力されているセル）
 - 数式を文字列として返す関数＠Excel2013以降
 	- FORMULATEXT()
+- [pdfから表を取り出してexcelに貼り付け](https://www.atmarkit.co.jp/ait/articles/2002/27/news011.html#utm_medium=email&utm_source=ait-tsushin&utm_campaign=20200304)
 - 数式ネストテンプレート
 ```
 =IF(
