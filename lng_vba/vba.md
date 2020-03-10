@@ -368,29 +368,42 @@
 		```vba
 		Dim sSearchPattern As String
 		Dim sTargetStr As String
-		
+			
 		Dim iMatchIdx As Integer
 		Dim iSubMatchIdx As Integer
-		
+			
 		Dim oMatchResult As Object
+		Dim sReplacedStr As String
 		Dim oRegExp As Object
 		Set oRegExp = CreateObject("VBScript.RegExp")
-		
+
+		'*** 検索 ***
 		sSearchPattern = "(\w+)\((\w+) (\w+)\)"
-		sTargetStr = "TestFunc01(char aaa) TestFunc02(int bbb)"
-		
+		sTargetStr = "TestFunc(int bbb) TestFunc01(char aaa) TestFunc02(int bbb)"
 		oRegExp.Pattern = sSearchPattern               '検索パターンを設定
 		oRegExp.IgnoreCase = True                      '大文字と小文字を区別しない
 		oRegExp.Global = True                          '文字列全体を検索
 		Set oMatchResult = oRegExp.Execute(sTargetStr) 'パターンマッチ実行
-		
+
+		'*** 検索結果出力 ***
 		Debug.Print oMatchResult.Count
 		For iMatchIdx = 0 To oMatchResult.Count - 1
-			Debug.Print oMatchResult(iMatchIdx).SubMatches.Count
-			For iSubMatchIdx = 0 To oMatchResult(iMatchIdx).SubMatches.Count - 1
-				Debug.Print oMatchResult(iMatchIdx).SubMatches(iSubMatchIdx)
-			Next iSubMatchIdx
+		  Debug.Print oMatchResult(iMatchIdx).SubMatches.Count
+		  For iSubMatchIdx = 0 To oMatchResult(iMatchIdx).SubMatches.Count - 1
+			  Debug.Print oMatchResult(iMatchIdx).SubMatches(iSubMatchIdx)
+		  Next iSubMatchIdx
 		Next iMatchIdx
+
+		'*** 置換 ***
+		sSearchPattern = "\b(TestFunc)\b"
+		sTargetStr = "TestFunc(int bbb) TestFunc01(char aaa) TestFunc02(int bbb)"
+		oRegExp.Pattern = sSearchPattern               '検索パターンを設定
+		oRegExp.IgnoreCase = True                      '大文字と小文字を区別しない
+		oRegExp.Global = True                          '文字列全体を検索
+		sReplacedStr = oRegExp.Replace(sTargetStr, "ttt$1")  'パターンマッチ実行
+
+		'*** 置換結果出力 ***
+		Debug.Print sReplacedStr
 		```
 - 【連想配列】
 	- 連想配列を使用することにより、膨大な件数(※)の検索が劇的に早くなる。
