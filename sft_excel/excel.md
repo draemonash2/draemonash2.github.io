@@ -279,6 +279,11 @@
 - 数式を文字列として返す関数＠Excel2013以降
 	- FORMULATEXT()
 - [pdfから表を取り出してexcelに貼り付け](https://www.atmarkit.co.jp/ait/articles/2002/27/news011.html#utm_medium=email&utm_source=ait-tsushin&utm_campaign=20200304)
+- ポイント/ピクセル違い
+	- 列幅
+		- 文字数(pixel)
+	- 行高さ
+		- point(pixel)
 - 数式ネストテンプレート
 ```
 =IF(

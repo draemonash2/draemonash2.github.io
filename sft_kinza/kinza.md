@@ -8,6 +8,10 @@
 - Metal
 - Tribal Africa v2
 
+# ショートカットキー
+- 【新しいタブで開く(バックグラウンド)】Ctrl + 左クリック
+- 【新しいタブで開く(アクティブ)】Ctrl + Shift + 左クリック
+
 # Tips
 - 同期不要フォルダ
 	- User Data\ShaderCache
