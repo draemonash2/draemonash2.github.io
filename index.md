@@ -40,6 +40,7 @@
 - [grep.exe](sft_grepexe/grepexe.md)
 - [Enterprise Architect](sft_ea/ea.md)
 - [EpTree](sft_eptree/eptree.md)
+- [Excuberant Ctags](sft_ctags/ctags.md)
 
 ## その他
 - [用語集](klg_words/words.md)

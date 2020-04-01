@@ -1,5 +1,13 @@
 [トップに戻る](../index.md)
 
+# Tips
+
+- [差し込み文書](https://xtech.nikkei.com/atcl/nxt/column/18/01256/032500004/?n_cid=nbpnxt_mled_itm)
+	- Word文書の宛名欄をタグとして記載し、Excelの宛名一覧を読み込んで印刷する手法
+- word アドイン登録方法
+	1. マクロを「xxx.dotm」として以下に保存
+		- C:\Users\<ユーザー名>\AppData\Roaming\Microsoft\Word\STARTUP
+
 # ショートカットキー
 
 |Ctrl|Shift|Alt|Key|機能|
