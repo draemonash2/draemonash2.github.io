@@ -240,6 +240,8 @@
 	- ActiveX コントロール
 		- マクロのコードからの参照、コントロールの変化(イベント)でマクロを実行した場合に最適
 
+- [VBEにコメントブロックのショートカットキーを設定する方法](https://tonari-it.com/excel-vba-vbe-comment-shortcut-key/)
+
 # 構文
 
 [こちらを参照](https://github.com/draemonash2/codes/blob/master/%E6%A7%8B%E6%96%87.xlsx)

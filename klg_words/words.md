@@ -69,6 +69,8 @@
 	- 信用できる桁数
 	- ex) 36.52476（有効数字７桁）
 	- ex) 0.003162（有効数字４桁）
+- [エラッタ(errata)](https://www.pg-direct.jp/blog/?p=10852)
+    CPUコアの不具合(構造上の欠陥や設計ミス)
 ## [車]
 - [こちらへ](words_develop_car.markdown)
 ## モーター
