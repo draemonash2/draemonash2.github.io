@@ -428,6 +428,28 @@
 			
 			Set oPriceOfFruit = Nothing
 			```
+- オブジェクト変数の状態
+	```vba
+	Dim oPriceOfFruit As Object
+	Debug.Print oPriceOfFruit Is Nothing    'True
+	Debug.Print oPriceOfFruit.Count         'エラー
+	
+	Set oPriceOfFruit = CreateObject("Scripting.Dictionary")
+	Debug.Print oPriceOfFruit Is Nothing    'False
+	Debug.Print oPriceOfFruit.Count         '0
+	
+	oPriceOfFruit.Add "リンゴ", "100円"
+	Debug.Print oPriceOfFruit Is Nothing    'False
+	Debug.Print oPriceOfFruit.Count         '1
+	
+	oPriceOfFruit.Remove ("リンゴ")
+	Debug.Print oPriceOfFruit Is Nothing    'False
+	Debug.Print oPriceOfFruit.Count         '0
+	
+	Set oPriceOfFruit = Nothing
+	Debug.Print oPriceOfFruit Is Nothing    'True
+	'Debug.Print oPriceOfFruit.Count        'エラー
+	```
 
 # VBE
 ## 設定
