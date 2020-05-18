@@ -11,6 +11,13 @@
 - vimを起動し、下記コマンドを実行
 	-:NeoBundleInstall
 
+# 設定
+
+- ウィンドウ１つで起動するオプション
+	```
+	--remote-tab-silent
+	```
+
 # インストール済みプラグイン
 
 | Version | スクリプト |インストール方法 |
@@ -70,8 +77,10 @@
 |共通		| %s/\v([A-Z])/\_\L\1/g									| キャメルケース→スネークケース変換 |
 |共通		| ;mes													| エラーメッセージがすぐ消える場合、エラー表示させる |
 |共通		| コマンド\|コマンド									| コマンド連続実行 |
+|共通		| :redir end											| コマンドリダイレクト 終了 |
+|共通		| :redir > file											| コマンドリダイレクト 開始 |
 |共通		| :set encoding=(euc-jp/shift\_jis/utf-8/..)			| テキストファイルの文字コード書換 |
-|共通		| :set fileformat=(dos/mac/unix)						| テキストファイルの改行コード書換 |
+|共通		| :set fileformat=(dos/mac/unix)						| テキストファイルの改行コード書換(\*1) |
 |共通		| :e ++encoding=(euc-jp/shift\_jis/utf-8/..)			| VIM 上の文字コード表示切替 |
 |共通		| :e ++fileformat=(dos/mac/unix)						| VIM 上の改行コード表示切替 |
 |共通		| :set fileencoding=(euc-jp/shift\_jis/utf-8/..)		| 現在のファイルの文字コード（ファイル保存時の文字コード）を指定。 |
@@ -90,6 +99,17 @@
 |surround	| S'													| ビジュアルモードで選択した部分を ' で囲む |
 |surround	| yss'													| 行全体を ' で囲む |
 |neosnippet	| :NeoSnippetEdit										| スニペットを編集 |
+
+- (\*1) set ff コマンド
+	- 「set ff=●」 は "UNIXの改行コード" から "●" の改行コードに変換するもの	
+	- 「VIM 下部の"CR/LF=▲"表示」は、ファイルに書かれた改行コードを▲の表示方法で表示するもの ⇒「set ff=●」をしたからといって、「VIM 下部の"CR/LF=▲"表示」が変わる訳ではない！
+		![Vimのsetffコマンドについて](Vimのsetffコマンドについて.jpg)
+- Align コマンド（Align , = + -）
+	![Align](Align.jpg)
+- 範囲選択後、 \abox を実行
+	![Align\_BoxComment](Align_BoxComment.jpg)
+- 文字数を維持しながら置換するVimコマンド
+	- 添付の「文字数を維持しながら置換するVimコマンドを作成する.xlsm」参照
 
 # Tips
 
@@ -138,41 +158,28 @@
 			FooBarBazHogeBarFugaPiyoThird
 			```
 - 正規表現( verymagic 指定)
+	- magic / very magic / no magic / very nomagic の比較
+		- \m（magic）（デフォルト）
+			- パターンの中でリテラルとして扱われる文字は、テキストの同じ文字とマッチします。しかし、バックスラッシュが前置されると、特別な意味を持つようになります。
+		- \M（nomagic）
+			- ★
+		- \v（very magic）
+			- それ以降の、'0'-'9'、'a'-'z'、'A'-'Z'、'_'、以外のすべての ASCII 文字は特別な意味を持ちます。
+		- \V（very nomagic）
+			- それ以降はバックスラッシュと終端文字 (/ や ?) だけが特別な意味を持ちます。
 
-| 手法          | 構文 | 使用例            | 説明                                    |
+	- 先読み/後読み
+| 手法          | 構文 | 使用例              | 説明                                    |
 |:---|:---|:---|:---|
-| 肯定先読み	| @=   | kimura( takuya)@= | 後に" takuya"が含まれる"kimura"を検索   |
-| 否定先読み	| @!   | kimura( takuya)@! | 後に" takuya"が含まれない"kimura"を検索 |
-| 肯定後読み	| @<=  | (inagaki )@<=goro | 前に"inagaki "が含まれる"goro"を検索    |
+| 肯定先読み	| @=   | kimura( takuya)@=   | 後に" takuya"が含まれる"kimura"を検索   |
+| 否定先読み	| @!   | kimura( takuya)@!   | 後に" takuya"が含まれない"kimura"を検索 |
+| 肯定後読み	| @<=  | (inagaki )@<=goro   | 前に"inagaki "が含まれる"goro"を検索    |
 | 否定後読み	| @<\!  | (inagaki )@<\!goro | 前に"inagaki "が含まれない"goro"を検索  |
 
-- set ff コマンド
-	- 「set ff=●」 は "UNIXの改行コード" から "●" の改行コードに変換するもの	
-	- 「VIM 下部の"CR/LF=▲"表示」は、ファイルに書かれた改行コードを▲の表示方法で表示するもの ⇒「set ff=●」をしたからといって、「VIM 下部の"CR/LF=▲"表示」が変わる訳ではない！
-		![Vimのsetffコマンドについて](Vimのsetffコマンドについて.jpg)
-- エスケープ記号要否
-	![エスケープ記号要否](エスケープ記号要否.jpg)
-- 範囲選択後、 \abox を実行
-	![Align\_BoxComment](Align_BoxComment.jpg)
-- Align コマンド（Align , = + -）
-	![Align](Align.jpg)
 - 複数行の置換
 	- %s/\vRunnable Entity (\w\*)\n.\*\nTriggerd on (\w\*)msec/\1\t\2/g
 		![複数行の置換](複数行の置換.jpg)
-- 文字数を維持しながら置換するVimコマンド
-	- 添付の「文字数を維持しながら置換するVimコマンドを作成する.xlsm」参照
-- 【コマンドリダイレクト 開始】:redir > file
-- 【コマンドリダイレクト 終了】:redir end
-- very magic など
-	- "\v" を使うと、それ以降の、'0'-'9'、'a'-'z'、'A'-'Z'、'\_'、以外のすべての ASCII 文字は特別な意味を持ちます。 "very magic"
-	- "\V" を使うと、それ以降はバックスラッシュと終端文字 (/ や ?) だけが特別な意味を持ちます。 "very nomagic"
 
-- ![正規表現](正規表現.jpg)
-
-- ウィンドウ１つで起動するオプション
-	```
-	--remote-tab-silent
-	```
 - [neosnippet使い方](http://d.hatena.ne.jp/adragoona/touch/20130929/1380437722)
 
 [トップに戻る](../index.md)
