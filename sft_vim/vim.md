@@ -79,12 +79,13 @@
 |共通		| コマンド\|コマンド									| コマンド連続実行 |
 |共通		| :redir end											| コマンドリダイレクト 終了 |
 |共通		| :redir > file											| コマンドリダイレクト 開始 |
-|共通		| :set encoding=(euc-jp/shift\_jis/utf-8/..)			| テキストファイルの文字コード書換 |
-|共通		| :set fileformat=(dos/mac/unix)						| テキストファイルの改行コード書換(\*1) |
-|共通		| :e ++encoding=(euc-jp/shift\_jis/utf-8/..)			| VIM 上の文字コード表示切替 |
-|共通		| :e ++fileformat=(dos/mac/unix)						| VIM 上の改行コード表示切替 |
-|共通		| :set fileencoding=(euc-jp/shift\_jis/utf-8/..)		| 現在のファイルの文字コード（ファイル保存時の文字コード）を指定。 |
-|共通		| :set fileencodings=(euc-jp/shift\_jis/utf-8/..)		| 自動判別に用いる文字コード（ファイル閲覧時の文字コード）を指定。&br()カンマで区切って優先度の高い順に指定 |
+|共通		| :set ff=(dos/mac/unix)								| 改行コード 書換(\*1) |
+|共通		| :set ffs=unix,dos,mac									| 改行コード 表示方法変更（閲覧時の自動判別用）br()→カンマで区切って優先度の高い順に指定 |
+|共通		| :e ++ff=(dos/mac/unix)								| 改行コード 表示方法変更（自動判別失敗時の読み直し用） |
+|共通		| :set enc=(euc-jp/shift\_jis/utf-8/..)					| 文字コード 書換（to VIM）(\*2) |
+|共通		| :set fenc=(euc-jp/shift\_jis/utf-8/..)				| 文字コード 書換（to 現在バッファ）(\*2) |
+|共通		| :set fencs=euc-jp,shift\_jis,utf-8					| 文字コード 表示方法変更（閲覧時の自動判別用）br()→カンマで区切って優先度の高い順に指定 |
+|共通		| :e ++enc=(euc-jp/shift\_jis/utf-8/..)					| 文字コード 表示方法変更（自動判別失敗時の読み直し用） |
 |Grep		| vim {pattern} %\|cw									| vimgrepを実行&br()ex.vimgrep /hogehoge/j c:/test/\*\*/\*.txt\|cw |
 |Grep		| bufdo vimgrepa {pattern} %\|cw						| バッファすべてに vimgrep &br()（★貼り付け時は「｜」を半角に★） |
 |Grep		| :RGrep 文字列 C:\00\_work\trunk\C\jsp-1.4.4-full\*.c	| 特定のフォルダ配下のCファイルを再帰検索 |
@@ -102,8 +103,12 @@
 
 - (\*1) set ff コマンド
 	- 「set ff=●」 は "UNIXの改行コード" から "●" の改行コードに変換するもの	
-	- 「VIM 下部の"CR/LF=▲"表示」は、ファイルに書かれた改行コードを▲の表示方法で表示するもの ⇒「set ff=●」をしたからといって、「VIM 下部の"CR/LF=▲"表示」が変わる訳ではない！
+	- 「VIM 下部の"CR/LF=▲"表示」は、現在のファイルを「改行コード：▲」として表示するもの ⇒「set ff=●」をしたからといって、「VIM 下部の"CR/LF=▲"表示」が変わる訳ではない！
 		![Vimのsetffコマンドについて](Vimのsetffコマンドについて.jpg)
+- (\*2) enc と fenc コマンド
+	- 'fileencoding' と 'encoding' が異なるとき、ファイルの書き出しの際に文字エンコーディングの変換が行われる。
+	'fileencoding' が空の場合、'encoding' と同じ値が使われる (ファイルの読
+	み書きの際に変換をしない)。
 - Align コマンド（Align , = + -）
 	![Align](Align.jpg)
 - 範囲選択後、 \abox を実行
