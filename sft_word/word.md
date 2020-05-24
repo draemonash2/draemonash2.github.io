@@ -4,9 +4,14 @@
 
 - [差し込み文書](https://xtech.nikkei.com/atcl/nxt/column/18/01256/032500004/?n_cid=nbpnxt_mled_itm)
 	- Word文書の宛名欄をタグとして記載し、Excelの宛名一覧を読み込んで印刷する手法
-- word アドイン登録方法
+- Word アドイン登録方法
 	1. マクロを「xxx.dotm」として以下に保存
 		- C:\Users\<ユーザー名>\AppData\Roaming\Microsoft\Word\STARTUP
+- Wordの表にExcelの表を貼り付ける(Wordの書式を維持)
+	1. Excelの表をコピー
+	1. Word内の表を選択して「表の差し込み」で貼り付け
+	1. 「適用したい書式を含む行/列」を先頭に、「適用先の行/列」を選択
+	1. 「書式のコピー/貼り付けｊを実行（Ctrl+Shift+V）
 
 # ショートカットキー
 
