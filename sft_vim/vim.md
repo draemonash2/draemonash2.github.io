@@ -18,27 +18,6 @@
 	--remote-tab-silent
 	```
 
-# インストール済みプラグイン
-
-| Version | スクリプト |インストール方法 |
-|:---|:---|:---|
-|7.3.420|VIM kaoriya|本体|
-|1.2|desert.vim|plugin への格納のみ|
-|1.1|favex.vim|plugin への格納のみ|
-|1.4|renamer.vim|plugin への格納のみ|
-|4.5|taglist.vim|plugin への格納のみ|
-|?|open-browser.vim|plugin への格納のみ|
-|11|DrawIt.vba|DrawIt.vba.gz を解凍し、DrawIt.vba を Vim で読み込む。&br()その後、:so % を実行し、インストールを完了する。|
-|1.3|bufferlist.vim|plugin へ格納後、下記を\_gvimrcに設定。&br()　map <silent> <F3> :call BufferList()<CR>&br()　※なお、下記設定ファイルを使用する場合は不要&br()　※プラグインの修正が必要。詳細は下記設定ファイル参照(bufferlist\_v20.vim)|
-|1.1.8-g|mark.vim|plugin へ格納する。&br()インストール完了後、下記を\_gvimrcに設定(最終行に書く)。&br()　source $HOME/vimfiles/plugin/mark.vim (Windowsの場合の例)&br()　※なお、下記設定ファイルを使用する場合は不要&br()　※プラグインの修正が必要。詳細は下記設定ファイル参照(mark\_v20.vim)|
-|36/42|align.vba|align.vba.gz を解凍し、align.vba を Vim で読み込む。&br()その後、:so % を実行し、インストールを完了する。&br()インストール完了後、下記を\_gvimrcに設定。&br()　let g:Align\_xstrlen=3&br()　※なお、下記設定ファイルを使用する場合は不要|
-|?|neocomplcache|plugin へ格納する。&br()インストール完了後、下記を\_vimrcに設定。&br() let g:neocomplcache\_enable\_at\_startup = 1 " 起動時に有効化&br()　※なお、下記設定ファイルを使用する場合は不要|
-|2|qfixgrep|$VIM/qfixapp に格納する。&br()インストール完了後、下記を\_vimrcに設定。&br()　set runtimepath+=$VIM/qfixapp&br()let mygrepprg   = 'internal'&br()　※なお、下記設定ファイルを使用する場合は不要|
-|3|qfixhowm|$VIM/qfixapp に格納する。&br()インストール完了後、下記を\_vimrcに設定。&br()　set runtimepath+=$VIM/qfixapp&br()let QFixHowm\_Key       = 'g' &br()let howm\_dir           = '~/howm' &br()let howm\_filename      = '%Y/%m/%Y-%m-%d-%H%M%S.txt' &br()let howm\_fileencoding  = 'cp932' &br()let howm\_fileformat    = 'dos'&br()　※なお、下記設定ファイルを使用する場合は不要|
-|?|Ctags|下記 URL を参考に、インストールする&br()http://nanasi.jp/articles/others/ctags.html &br()※タグファイル作成方法&br()タグファイルを作成したいフォルダに移動し、下記を実行&br()ctags -R|
-|?|Gtags|下記 URL を参考に、インストールする&br()http://cha.la.coocan.jp/doc/gnu\_global.html#sec10 &br()（share\gtags\gtags.vim を VIM のスクリプトフォルダに格納する）&br()※タグファイル作成方法&br()タグファイルを作成したいフォルダに移動し、下記を実行&br()gtags -v|
-|0.0.5|current-func-info.vim|下記 URL からダウンロード後、VIM のスクリプトフォルダに格納する。&br()http://www.vim.org/scripts/script.php?script\_id=3197 &br()設定ファイルに以下コマンドを記載する。&br()set statusline+=\ [Func:%{cfi#get\_func\_name()}]|
-
 # ショートカットキー
 
 |Ctrl|Shift|Alt|Key|機能|
@@ -89,6 +68,8 @@
 |Grep		| vim {pattern} %\|cw									| vimgrepを実行&br()ex.vimgrep /hogehoge/j c:/test/\*\*/\*.txt\|cw |
 |Grep		| bufdo vimgrepa {pattern} %\|cw						| バッファすべてに vimgrep &br()（★貼り付け時は「｜」を半角に★） |
 |Grep		| :RGrep 文字列 C:\00\_work\trunk\C\jsp-1.4.4-full\*.c	| 特定のフォルダ配下のCファイルを再帰検索 |
+|Align		| :Align ,（範囲選択後）								| インデント調整(","のほかには"=" "+" "-"がある)(\*3) |
+|Align		| \abox（範囲選択後）									| ボックスコメント設定(\*4) |
 |DrawIt!	| \di（範囲選択後）										| 描画モード開始 |
 |DrawIt!	| \ds（範囲選択後）										| 描画モード終了 |
 |DrawIt!	| \b （範囲選択後）										| 四角形ボックス描画 |
@@ -109,18 +90,19 @@
 	- 'fileencoding' と 'encoding' が異なるとき、ファイルの書き出しの際に文字エンコーディングの変換が行われる。
 	'fileencoding' が空の場合、'encoding' と同じ値が使われる (ファイルの読
 	み書きの際に変換をしない)。
-- Align コマンド（Align , = + -）
+- (\*3) Align コマンド挙動（:Align , = + -）
 	![Align](Align.jpg)
-- 範囲選択後、 \abox を実行
+- (\*4) 範囲選択後、 \abox を実行
 	![Align\_BoxComment](Align_BoxComment.jpg)
 - 文字数を維持しながら置換するVimコマンド
 	- 添付の「文字数を維持しながら置換するVimコマンドを作成する.xlsm」参照
 
 # Tips
+## 突然エラーが出るようになった
+原因：設定ファイルが小文字になっている！
 
-- 突然エラーが出るようになった
-	- 設定ファイルが小文字になっている！
-- 検索/置換について
+## 検索/置換について
+- 概要
 	- 単語単位検索：/\<the\>
 	- ４桁数値検索：/\<\d\d\d\d\>
 	- 大/小文字無視（デフォルト）：%s/★/●/i
@@ -129,11 +111,24 @@
 	- 全単語の先頭大文字化：%s/\<./\u&/g
 	- 全単語の先頭小文字化：%s/\<./\l&/g
 	- "/"ではなく"/\v"を使うことで、正規表現時のわずらわしいエスケープを抑制することができる。(very magic指定)
+		- 正規表現( verymagic 指定)
+			- magic / very magic / no magic / very nomagic の比較
+				- \m（magic）（デフォルト）
+					- パターンの中でリテラルとして扱われる文字は、テキストの同じ文字とマッチします。しかし、バックスラッシュが前置されると、特別な意味を持つようになります。
+				- \M（nomagic）
+					- ★
+				- \v（very magic）
+					- それ以降の、'0'-'9'、'a'-'z'、'A'-'Z'、'_'、以外のすべての ASCII 文字は特別な意味を持ちます。
+				- \V（very nomagic）
+					- それ以降はバックスラッシュと終端文字 (/ や ?) だけが特別な意味を持ちます。
 - 検索単語の置換方法
 	- 置換したい単語を以下のいずれかの方法で検索
 		- 「\*」を使用してカーソル下の単語を検索
 		- 「/」による検索
 	- コマンドモードに入り, %s//<置換文字列\>/g を実行（検索単語を省略できる）
+- 複数行の置換
+	- %s/\vRunnable Entity (\w\*)\n.\*\nTriggerd on (\w\*)msec/\1\t\2/g
+		![複数行の置換](複数行の置換.jpg)
 - global コマンドを用いた置換方法
 	- :g/Second/s/Bar/Foo/g
 	- ⇒ 末尾に「Second」が含まれる行の「Bar」を「Foo」に変える
@@ -162,18 +157,7 @@
 			FooBarBazHogeBarFugaPiyoFirst
 			FooBarBazHogeBarFugaPiyoThird
 			```
-- 正規表現( verymagic 指定)
-	- magic / very magic / no magic / very nomagic の比較
-		- \m（magic）（デフォルト）
-			- パターンの中でリテラルとして扱われる文字は、テキストの同じ文字とマッチします。しかし、バックスラッシュが前置されると、特別な意味を持つようになります。
-		- \M（nomagic）
-			- ★
-		- \v（very magic）
-			- それ以降の、'0'-'9'、'a'-'z'、'A'-'Z'、'_'、以外のすべての ASCII 文字は特別な意味を持ちます。
-		- \V（very nomagic）
-			- それ以降はバックスラッシュと終端文字 (/ や ?) だけが特別な意味を持ちます。
-
-	- 先読み/後読み
+- 正規表現の先読み/後読み
 | 手法          | 構文 | 使用例              | 説明                                    |
 |:---|:---|:---|:---|
 | 肯定先読み	| @=   | kimura( takuya)@=   | 後に" takuya"が含まれる"kimura"を検索   |
@@ -181,10 +165,7 @@
 | 肯定後読み	| @<=  | (inagaki )@<=goro   | 前に"inagaki "が含まれる"goro"を検索    |
 | 否定後読み	| @<\!  | (inagaki )@<\!goro | 前に"inagaki "が含まれない"goro"を検索  |
 
-- 複数行の置換
-	- %s/\vRunnable Entity (\w\*)\n.\*\nTriggerd on (\w\*)msec/\1\t\2/g
-		![複数行の置換](複数行の置換.jpg)
-
+# スニペット
 - [neosnippet使い方](http://d.hatena.ne.jp/adragoona/touch/20130929/1380437722)
 
 [トップに戻る](../index.md)
