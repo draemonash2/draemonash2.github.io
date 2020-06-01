@@ -58,13 +58,13 @@
 |共通		| コマンド\|コマンド									| コマンド連続実行 |
 |共通		| :redir end											| コマンドリダイレクト 終了 |
 |共通		| :redir > file											| コマンドリダイレクト 開始 |
-|共通		| :set ff=(dos/mac/unix)								| 改行コード 書換(\*1) |
+|共通		| :set ff=dos											| 改行コード 書換(\*1) (dos/mac/unix)|
 |共通		| :set ffs=unix,dos,mac									| 改行コード 表示方法変更（閲覧時の自動判別用）br()→カンマで区切って優先度の高い順に指定 |
-|共通		| :e ++ff=(dos/mac/unix)								| 改行コード 表示方法変更（自動判別失敗時の読み直し用） |
-|共通		| :set enc=(euc-jp/shift\_jis/utf-8/..)					| 文字コード 書換（to VIM）(\*2) |
-|共通		| :set fenc=(euc-jp/shift\_jis/utf-8/..)				| 文字コード 書換（to 現在バッファ）(\*2) |
+|共通		| :e ++ff=dos											| 改行コード 表示方法変更（自動判別失敗時の読み直し用）(dos/mac/unix) |
+|共通		| :set enc=utf-8										| 文字コード 書換（to VIM）(\*2) (euc-jp/shift\_jis/utf-8/..) |
+|共通		| :set fenc=utf-8										| 文字コード 書換（to 現在バッファ）(\*2) (euc-jp/shift\_jis/utf-8/..) |
 |共通		| :set fencs=euc-jp,shift\_jis,utf-8					| 文字コード 表示方法変更（閲覧時の自動判別用）br()→カンマで区切って優先度の高い順に指定 |
-|共通		| :e ++enc=(euc-jp/shift\_jis/utf-8/..)					| 文字コード 表示方法変更（自動判別失敗時の読み直し用） |
+|共通		| :e ++enc=utf-8										| 文字コード 表示方法変更（自動判別失敗時の読み直し用） (euc-jp/shift\_jis/utf-8/..) |
 |Grep		| vim {pattern} %\|cw									| vimgrepを実行&br()ex.vimgrep /hogehoge/j c:/test/\*\*/\*.txt\|cw |
 |Grep		| bufdo vimgrepa {pattern} %\|cw						| バッファすべてに vimgrep &br()（★貼り付け時は「｜」を半角に★） |
 |Grep		| :RGrep 文字列 C:\00\_work\trunk\C\jsp-1.4.4-full\*.c	| 特定のフォルダ配下のCファイルを再帰検索 |
