@@ -16,6 +16,13 @@
 	```
 	\*aaa.txt\*;\*bbb.txt\*;\*ccc.txt\*
 	```
+- vbs 呼び出しテンプレート
+	```vb
+	Script:VBScript
+	Option Explicit
+	Const EXECUTION_MODE = 1
+	WScript.Include( "C:\codes\vbs\tools\win\file_ope\CreateSymbolicLink.vbs" )
+	```
 
 # ショートカットキー
 
