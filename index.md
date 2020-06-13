@@ -20,7 +20,7 @@
 - [Microsoft Excel](sft_excel/excel.md)
 - [Microsoft Word](sft_word/word.md)
 - [Microsoft Outlook](sft_outlook/outlook.md)
-- [Microsoft Visio](srt_visio/visio.md)
+- [Microsoft Visio](sft_visio/visio.md)
 - [Kinza](sft_kinza/kinza.md)
 - [MiGrep](sft_migrep/migrep.md)
 - [PDF-XChange-Viewer](sft_pdf-xchange-viewer/pdf-xchange-viewer.md)
@@ -41,6 +41,7 @@
 - [Enterprise Architect](sft_ea/ea.md)
 - [EpTree](sft_eptree/eptree.md)
 - [Excuberant Ctags](sft_ctags/ctags.md)
+- [7-Zip](sft_7zip/7zip.md)
 
 ## その他
 - [用語集](klg_words/words.md)

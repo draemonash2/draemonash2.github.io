@@ -13,10 +13,11 @@
 
 # 設定
 
-- ウィンドウ１つで起動するオプション
-	```
-	--remote-tab-silent
-	```
+- 起動オプション
+	- ウィンドウ１つで起動
+		`--remote-tab-silent`
+	- 行番号指定
+		- `C:\prg_exe\Vim\gvim.exe C:\codes\_update_codes.vbs +5`
 
 # ショートカットキー
 
@@ -52,8 +53,10 @@
 |共通		| :buffers												| 編集中のバッファ一覧を表示 |
 |共通		| :Sex													| ウインドウを分割してファイルエクスプローラを開く |
 |共通		| :ls													| バッファのリストを表示 |
+|共通		| mx													| マークをつける(x:a～z) |
+|共通		| ``													| 直前のマークに移動 |
 |共通		| :%s/\v\_(.)/\u\1/g									| スネークケース→キャメルケース変換 |
-|共通		| %s/\v([A-Z])/\_\L\1/g									| キャメルケース→スネークケース変換 |
+|共通		| :%s/\v([A-Z])/\_\L\1/g								| キャメルケース→スネークケース変換 |
 |共通		| ;mes													| エラーメッセージがすぐ消える場合、エラー表示させる |
 |共通		| コマンド\|コマンド									| コマンド連続実行 |
 |共通		| :redir end											| コマンドリダイレクト 終了 |
@@ -65,8 +68,8 @@
 |共通		| :set fenc=utf-8										| 文字コード 書換（to 現在バッファ）(\*2) (euc-jp/shift\_jis/utf-8/..) |
 |共通		| :set fencs=euc-jp,shift\_jis,utf-8					| 文字コード 表示方法変更（閲覧時の自動判別用）br()→カンマで区切って優先度の高い順に指定 |
 |共通		| :e ++enc=utf-8										| 文字コード 表示方法変更（自動判別失敗時の読み直し用） (euc-jp/shift\_jis/utf-8/..) |
-|Grep		| vim {pattern} %\|cw									| vimgrepを実行&br()ex.vimgrep /hogehoge/j c:/test/\*\*/\*.txt\|cw |
-|Grep		| bufdo vimgrepa {pattern} %\|cw						| バッファすべてに vimgrep &br()（★貼り付け時は「｜」を半角に★） |
+|Grep		| :vim {pattern} %\|cw									| vimgrepを実行&br()ex.vimgrep /hogehoge/j c:/test/\*\*/\*.txt\|cw |
+|Grep		| :bufdo vimgrepa {pattern} %\|cw						| バッファすべてに vimgrep &br()（★貼り付け時は「｜」を半角に★） |
 |Grep		| :RGrep 文字列 C:\00\_work\trunk\C\jsp-1.4.4-full\*.c	| 特定のフォルダ配下のCファイルを再帰検索 |
 |Align		| :Align ,（範囲選択後）								| インデント調整(","のほかには"=" "+" "-"がある)(\*3) |
 |Align		| \abox（範囲選択後）									| ボックスコメント設定(\*4) |
@@ -158,6 +161,7 @@
 			FooBarBazHogeBarFugaPiyoThird
 			```
 - 正規表現の先読み/後読み
+
 | 手法          | 構文 | 使用例              | 説明                                    |
 |:---|:---|:---|:---|
 | 肯定先読み	| @=   | kimura( takuya)@=   | 後に" takuya"が含まれる"kimura"を検索   |
