@@ -2,7 +2,9 @@
 
 # Tips
 - vbaのソースコードをタグとして登録する
-	- ctags --excmd=number -R --languages=Basic --langmap=Basic:.frm.bas.cls --Basic-types=-l
+	1. ルートディレクトリに移動する
+	2. 以下のコマンドを実行
+		- `ctags -R --language-force=Basic`
 
 [トップに戻る](../index.md)
 
