@@ -38,6 +38,19 @@
 			- 自動的に改行しない(≒printf)
 				- → CUIからのみかつ、自動的に改行させたくない場合に使用する！
 	- 実行可否比較
+- フォルダ選択ダイアログ比較
+	- FileDialog
+		- 実行例
+			- `CreateObject("Excel.Application").FileDialog(msoFileDialogFolderPicker)`
+		- メリット/デメリット
+			- ×：Excelを起動する必要があるため、起動が遅い
+			- ○：デフォルトのフォルダを指定できる
+	- BrowseForFolder
+		- 実行例
+			- `CreateObject("Shell.Application").BrowseForFolder(0, "フォルダを選択してください", &H200, "c:\codes")`
+		- メリット/デメリット
+			- ○：起動が早い
+			- ×：デフォルトのフォルダを指定できない（ルートフォルダのみ指定できる）
 
 |                    | MsgBox           | WScript.Echo     | Wscript.StdOut.WriteLine |
 |:---|:---|:---|:---|

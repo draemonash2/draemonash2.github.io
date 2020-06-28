@@ -12,35 +12,44 @@
 - [Vim Script](lng_vimscript/vimscript.md)
 - [Markdown](lng_markdown/markdown.md)
 
-## ソフト([インストーラーはこちら](otr_other/installer_url.md))
+## サービス
 - [Github Wiki](sft_githubwiki/githubwiki.md)
 - [@Wiki](sft_atwiki/atwiki.md)
 - [Amazon Cloud Drive](sft_amazonclouddrive/amazonclouddrive.md)
-- [Everything](sft_everything/everything.md)
+- [Raspberry Pi](sft_raspberrypi/raspberrypi.md)
+
+## ソフト([インストーラーはこちら](otr_other/installer_url.md))
+- [Windows](sft_windows/windows.md)
+
+- [Kinza](sft_kinza/kinza.md)
+- [Mozilla Firefox](sft_firefox/firefox.md)
+- [Mozilla Thunderbird](sft_thunderbird/thunderbird.md)
+
 - [Microsoft Excel](sft_excel/excel.md)
 - [Microsoft Word](sft_word/word.md)
 - [Microsoft Outlook](sft_outlook/outlook.md)
 - [Microsoft Visio](sft_visio/visio.md)
-- [Kinza](sft_kinza/kinza.md)
-- [MiGrep](sft_migrep/migrep.md)
+- [Enterprise Architect](sft_ea/ea.md)
 - [PDF-XChange-Viewer](sft_pdf-xchange-viewer/pdf-xchange-viewer.md)
-- [Raspberry Pi](sft_raspberrypi/raspberrypi.md)
-- [Mozilla Firefox](sft_firefox/firefox.md)
-- [Mozilla Thunderbird](sft_thunderbird/thunderbird.md)
+
 - [Tortoise Git](sft_tortoisegit/tortoisegit.md)
 - [Tortoise Svn](sft_tortoisesvn/tortoisesvn.md)
+
 - [Vim](sft_vim/vim.md)
 - [秀丸](sft_hidemaru/hidemaru.md)
-- [Cygwin](sft_cygwin/cygwin.md)
-- [iThoughts](sft_ithoughts/ithoughts.md)
+
 - [X-Finder](sft_x-finder/x-finder.md)
-- [Windows](sft_windows/windows.md)
-- [Redmine](sft_redmine/redmine.md)
-- [EyeD3](sft_eyed3/eyed3.md)
+- [Everything](sft_everything/everything.md)
+
+- [MiGrep](sft_migrep/migrep.md)
 - [grep.exe](sft_grepexe/grepexe.md)
-- [Enterprise Architect](sft_ea/ea.md)
 - [EpTree](sft_eptree/eptree.md)
 - [Excuberant Ctags](sft_ctags/ctags.md)
+
+- [Cygwin](sft_cygwin/cygwin.md)
+- [iThoughts](sft_ithoughts/ithoughts.md)
+- [Redmine](sft_redmine/redmine.md)
+- [EyeD3](sft_eyed3/eyed3.md)
 - [7-Zip](sft_7zip/7zip.md)
 
 ## その他
