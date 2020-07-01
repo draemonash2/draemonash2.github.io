@@ -18,7 +18,13 @@
 		1. ［キーボードのユーザー設定］にて、好きなコマンドを登録する
 			- 参考URL：http://tanimoto.to/comp/WordCommandMacrosList.html
 	- 登録キー
-		- 【Ctrl+Alt+v】EditPasteSpecial(形式を指定して貼り付け)
+		- 【Ctrl+Alt+v】EditPasteSpecial（形式を指定して貼り付け）
+		- 【Ctrl+Alt+Up】PreviousComment（前のコメント）
+		- 【Ctrl+Alt+Down】NextComment（次のコメント）
+		- 【Ctrl+F】EditFind（高度な検索）
+		- 【Alt+Ins】InsertCrossReference（相互参照）
+		- 【Ctrl+Shift+1】蛍光ペン黄
+		- 【Ctrl+Shift+2】蛍光ペン緑
 
 # ショートカットキー
 
