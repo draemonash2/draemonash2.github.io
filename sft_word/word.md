@@ -25,6 +25,9 @@
 		- 【Alt+Ins】InsertCrossReference（相互参照）
 		- 【Ctrl+Shift+1】蛍光ペン黄
 		- 【Ctrl+Shift+2】蛍光ペン緑
+		- 【Shift+Alt+M】MergeSplitGeneral（セル結合・解除）
+		- 【★】EquationDeleteRow（行削除）
+		- 【★】EquationDeleteColumn（列削除）
 
 # ショートカットキー
 
