@@ -93,6 +93,27 @@
                     - 不良  
                         - 機能を満足しない設計ミス  
                         - 指示どおり製造されなかったことによる欠陥品  
+            - FMEA/FTA違い  
+                リンク: [monodukuri.com/gihou/article/869][7]  
+                - イメージ  
+                    - ...  
+                    - ...  
+                - FTA  
+                    - Failure Tree Analysis  
+                        故障木解析  
+                    - 周知の故障の発生確率を解析する。  
+                    - トップダウン解析  
+                - FMEA  
+                    - Failure Mode and Effect Analysis  
+                        故障モード影響度解析  
+                    - ボトムアップ解析  
+                    - 「故障モード」から想定階の故障・事故を洗い出す。  
+                    - 一つの部品単体の機能から重大な故障の抽出を行う方法  
+                - DRBFM  
+                    - Design Review Based on Failure Mode  
+                    - ボトムアップ解析  
+                    - 設計の変更点のみに着眼して、変更した部品群の故障の可能性を洗い出す方法  
+                    - トヨタ自動車によって確立された体系的なFMEAの運用方法。  
   
 [1]: https://www.keyence.co.jp/ss/products/recorder/lab/candata/  
 [2]: https://eetimes.jp/ee/spv/0912/15/news104.html  
@@ -100,3 +121,4 @@
 [4]: https://www.e-devices.ricoh.co.jp/ja/technology/automotive/fault.html  
 [5]: https://ejje.weblio.jp/content/residual  
 [6]: https://ejje.weblio.jp/content/latent  
+[7]: https://www.monodukuri.com/gihou/article/869  

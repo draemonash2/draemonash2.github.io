@@ -248,6 +248,9 @@
 	- vlookup 参照元と参照先の列順が異なっている場合でも、値が取得できる。
 		- Sheet2!C3 = VLOOKUP( $B3, Sheet1!$B:$F, MATCH( C$2, Sheet1!$B$2:$F$2, 0), FALSE )
 ![vlookup＋match関数活用法](vlookup＋match関数活用法.png)
+- [先頭列以外を検索対象列としたvlookup](https://www.lifehacker.jp/amp/2020/08/217304_3-crazy-excel-formulas-that-do-amazing-things.html)
+	- VLOOKUP(<検索キー>,CHOOSE({1,2,3},$C:$C,$B:$B,$D:$D),3,0)
+![先頭列以外を検索対象列としたvlookup](先頭列以外を検索対象列としたvlookup.bmp)
 - 「既定の図形に設定」について
 	- 既定の図形に設定すると、設定したブック内で有効になる
 	- Excel を終了しても、保存される

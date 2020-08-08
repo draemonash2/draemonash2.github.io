@@ -144,7 +144,9 @@
             リンク: [tech.nikkeibp.co.jp/dm/article/WORD/20090916/175328/][21]  
             - 界磁に永久磁石を用いたモータでは永久磁石の磁束が一定なので，回転数が上がるにつれて同磁束によって生じる逆起電力が増加する。  
                 ある回転数に達すると，この逆起電力がモータの印加電圧と等しくなる。  
-                それにより，モータには電流を流せなくなり，それよりも回転数を上げることができなくなる。これを防ぐために用いるのが手法。  
+                それにより，モータには電流を流せなくなり，それよりも回転数を上げることができなくなる。これを防ぐために用い手法。  
+            - マグネットトルクとリラクタンストルク  
+                リンク: [ednjapan.com/edn/articles/1805/22/news006.html#utm_medium=email&utm_source=mn-ee&utm_campaign=20200806][22]  
         - 他の用語  
             - dq軸  
                 - d：磁界成分  
@@ -166,34 +168,34 @@
                     - Vα= Vd・cosθ－Vq・sinθ  
                     - Vβ= Vd・sinθ＋Vq・cosθ  
         - アンチワインドアップ  
-            リンク: [hamachannel.hatenablog.com/entry/2019/01/06/135004][22]  
+            リンク: [hamachannel.hatenablog.com/entry/2019/01/06/135004][23]  
             - 積分器ワインドアップ(飽和)による制御性能の劣化を補償する方法全般  
         - 参考URL  
             - ベクトルエンジンとベクトル制御  
-                リンク: [toshiba.semicon-storage.com/jp/design-support/e-learning/mcupark/village/vector-1.html][23]  
+                リンク: [toshiba.semicon-storage.com/jp/design-support/e-learning/mcupark/village/vector-1.html][24]  
             - Clarke-Park 変換  
-                リンク: [jp.mathworks.com/solutions/power-electronics-control/clarke-and-park-transforms.html][24]  
+                リンク: [jp.mathworks.com/solutions/power-electronics-control/clarke-and-park-transforms.html][25]  
             - マイコン：モータ駆動用ベクトル制御技術  
-                リンク: [youtube.com/watch][25]  
+                リンク: [youtube.com/watch][26]  
             - 固定座標から回転座標へ変換  
-                リンク: [physics-school.com/rotate-coordinates-equation/][26]  
+                リンク: [physics-school.com/rotate-coordinates-equation/][27]  
                 - ![固定座標→回転座標](固定座標→回転座標.jpg)  
     - PWM制御  
         - 三角波比較方式  
-            リンク: [energychord.com/children/energy/pe/inv/contents/inv_pwm_tri.html][27]  
+            リンク: [energychord.com/children/energy/pe/inv/contents/inv_pwm_tri.html][28]  
             - 概要  
                 - デジタル信号(PWM)からアナログ信号を生成するための方法  
                     - ...  
                 - 時間軸方向に量子化されていないPWM信号が得られるため、デジタル方式PWM変調回路よりも解像度が高い  
                 - キャリア周波数を下げると、モータ騒音が大きくなりますが、インバータから発生する高周波 ノイズや、漏れ電流を減らすことができます。  
-                    リンク: [dl.mitsubishielectric.co.jp/dl/fa/document/catalog/gear/invertor/inverter.pdf][28]  
+                    リンク: [dl.mitsubishielectric.co.jp/dl/fa/document/catalog/gear/invertor/inverter.pdf][29]  
                     - キャリア周波数：低⇔高  
                         モータ騒音：大⇔小  
                         漏れ電流：小⇔大  
                         ノイズ：小⇔大  
             - URL  
-                - [https://synapse.kyoto/glossary/pwm/page001.html][29]  
-                - [http://energychord.com/children/energy/pe/inv/contents/inv_pwm_tri.html][30]  
+                - [https://synapse.kyoto/glossary/pwm/page001.html][30]  
+                - [http://energychord.com/children/energy/pe/inv/contents/inv_pwm_tri.html][31]  
   
 [1]: https://www.denken3.net/mail-magazine/mz20180223/  
 [2]: https://www.sagami-elec.co.jp/file/tech/coil_doc_100j.pdf  
@@ -216,12 +218,13 @@
 [19]: https://www.analog.com/jp/landing-pages/003/sensor_pv_jp/sensor_home_jp/sd_rd/sdrd_structure.html  
 [20]: https://www.minebeamitsumi.com/strengths/column/resolver/index.html  
 [21]: https://tech.nikkeibp.co.jp/dm/article/WORD/20090916/175328/  
-[22]: https://hamachannel.hatenablog.com/entry/2019/01/06/135004  
-[23]: https://toshiba.semicon-storage.com/jp/design-support/e-learning/mcupark/village/vector-1.html  
-[24]: https://jp.mathworks.com/solutions/power-electronics-control/clarke-and-park-transforms.html  
-[25]: https://www.youtube.com/watch?v=0Yd8qOfiWzQ  
-[26]: https://physics-school.com/rotate-coordinates-equation/  
-[27]: http://energychord.com/children/energy/pe/inv/contents/inv_pwm_tri.html  
-[28]: https://dl.mitsubishielectric.co.jp/dl/fa/document/catalog/gear/invertor/inverter.pdf  
-[29]: https://synapse.kyoto/glossary/pwm/page001.html  
-[30]: http://energychord.com/children/energy/pe/inv/contents/inv_pwm_tri.html  
+[22]: https://ednjapan.com/edn/articles/1805/22/news006.html#utm_medium=email&utm_source=mn-ee&utm_campaign=20200806  
+[23]: https://hamachannel.hatenablog.com/entry/2019/01/06/135004  
+[24]: https://toshiba.semicon-storage.com/jp/design-support/e-learning/mcupark/village/vector-1.html  
+[25]: https://jp.mathworks.com/solutions/power-electronics-control/clarke-and-park-transforms.html  
+[26]: https://www.youtube.com/watch?v=0Yd8qOfiWzQ  
+[27]: https://physics-school.com/rotate-coordinates-equation/  
+[28]: http://energychord.com/children/energy/pe/inv/contents/inv_pwm_tri.html  
+[29]: https://dl.mitsubishielectric.co.jp/dl/fa/document/catalog/gear/invertor/inverter.pdf  
+[30]: https://synapse.kyoto/glossary/pwm/page001.html  
+[31]: http://energychord.com/children/energy/pe/inv/contents/inv_pwm_tri.html  
