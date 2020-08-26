@@ -17,6 +17,7 @@
 		1. ［オプション］→［リボンのユーザー設定］→［ユーザー設定］
 		1. ［キーボードのユーザー設定］にて、好きなコマンドを登録する
 			- 参考URL：http://tanimoto.to/comp/WordCommandMacrosList.html
+			- 参考URL：http://www7b.biglobe.ne.jp/~ikutawasabi/f102.htm
 	- 登録キー
 		- 【Ctrl+Alt+v】EditPasteSpecial（形式を指定して貼り付け）
 		- 【Ctrl+Alt+Up】PreviousComment（前のコメント）
