@@ -75,6 +75,8 @@
 - [こちらへ](words_develop_car.markdown)
 ## モーター
 - [こちらへ](words_develop_motor.markdown)
+## エンベデッドシステムスペシャリスト
+- [こちらへ](words_ES.md)
 
 # 言語
 - FP、SP の違い
