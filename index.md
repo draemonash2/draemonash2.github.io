@@ -30,6 +30,7 @@
 - [Microsoft Outlook](sft_outlook/outlook.md)
 - [Microsoft Visio](sft_visio/visio.md)
 - [Enterprise Architect](sft_ea/ea.md)
+- [Visual Studio](sft_visualstudio/visualstudio.md)
 - [PDF-XChange-Viewer](sft_pdf-xchange-viewer/pdf-xchange-viewer.md)
 
 - [Tortoise Git](sft_tortoisegit/tortoisegit.md)
