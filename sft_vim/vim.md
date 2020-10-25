@@ -54,6 +54,10 @@
 |共通		| :Sex													| ウインドウを分割してファイルエクスプローラを開く |
 |共通		| :ls													| バッファのリストを表示 |
 |共通		| mx													| マークをつける(x:a～z) |
+|共通		| :vertical diffsplit <filepath>						| [カレントバッファと指定ファイルの差分をとる](https://nanasi.jp/articles/howto/diff/diff_text.html) |
+|共通		| :windo diffthis										| [開いている2バッファ同士の差分をとる](https://qiita.com/isseium/items/36b54171c430f381e232) |
+|共通		| :set scrollbind										| [分割したバッファのスクロール同期](https://qiita.com/murayama/items/497b275b31a378921f6a) |
+|共通		| :set noscrollbind										| [分割したバッファのスクロール同期を解除](https://qiita.com/murayama/items/497b275b31a378921f6a) |
 |共通		| 入力モードで <c-x><c-k>								| 辞書ファイルから単語補完 |
 |共通		| ``													| 直前のマークに移動 |
 |共通		| :%s/\v\_(.)/\u\1/g									| スネークケース→キャメルケース変換 |
