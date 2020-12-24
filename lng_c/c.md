@@ -22,9 +22,14 @@
 - 【列挙体】
 
 # Tips
-- const
-	- const char\* c; /\* Val：変更× Adr：変更○ \*/ → const char のポインタ c を定義
-	- char\* const c; /\* Val：変更○ Adr：変更× \*/ → char のポインタ c (const) を定義
+- constの位置と書き換え禁止対象
+	- ルール
+		- const char\* c; /\* Val：変更× Adr：変更○ \*/ → const char のポインタ c を定義
+		- char\* const c; /\* Val：変更○ Adr：変更× \*/ → char のポインタ c (const) を定義
+	- [覚え方](https://inaenomaki.hatenablog.com/entry/2019/05/01/170815)
+		![constの位置と書き換え禁止対象](constの位置と書き換え禁止対象.png)
+		- *より前のconstは被指示変数(=値)の書き換えを禁止し、*より後のconstは指示変数(=アドレス)の書き換えを禁止する
+	
 - 構造体宣言について
 	- 構造体宣言は必ずしも必要とは限らない。AとBは同じ動きをする。
 	- 宣言された型を再利用する場合は必要だが、再利用するつもりがないのであれば定義のみでよい。
