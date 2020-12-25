@@ -52,6 +52,7 @@
 - [Redmine](sft_redmine/redmine.md)
 - [EyeD3](sft_eyed3/eyed3.md)
 - [7-Zip](sft_7zip/7zip.md)
+- [Anki](sft_anki/anki.md)
 
 ## その他
 - [用語集](klg_words/words.md)
