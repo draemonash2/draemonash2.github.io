@@ -58,5 +58,3 @@
 - [用語集](klg_words/words.md)
 - [その他](otr_other/other.md)
 
-
-
