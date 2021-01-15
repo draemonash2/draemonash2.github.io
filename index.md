@@ -2,6 +2,7 @@
 # トップ
 ## 言語
 - [C](lng_c/c.md)
+- [C++](lng_c++/c++.md)
 - [Dos Command](lng_doscommand/doscommand.md)
 - [PowerShell](lng_powershell/powershell.md)
 - [Python](lng_python/python.md)
