@@ -8,26 +8,34 @@
 ##
 ###
 ```
+
 - 【箇条書き（番号なし）】
+
 ```
 -
-	-
-		-
+<TAB>-
+<TAB><TAB>-
 ```
+
 - 【箇条書き（番号あり）】
+
 ```
 1.
-	1.
-		1.
+<TAB>1.
+<TAB><TAB>1.
 ```
+
 - 【引用】
+
 ```
 > お世話になります。xxxです。
 > ご連絡いただいた、バグの件ですが、仕様です。
 >> お世話になります。 yyyです。
 >> あの新機能バグがあります。
 ```
+
 - 【強調】
+
 ```
 normal *italic* normal
 normal _italic_ normal
@@ -36,49 +44,64 @@ normal __bold__ normal
 normal ***bold+italic*** normal
 normal ___bold+italic___ normal
 ```
+
 - 【取り消し線】
+
 ```
 ~~取り消し線~~
 ```
+
 - 【水平線】
+
 ```
 ***
 ---
 ```
+
 - 【pre記法】
+
 ```
-	``` ruby
-	class Hoge
-	  def hoge
-	    print 'hoge'
-	  end
-	end
-	```
+\``` ruby
+class Hoge
+  def hoge
+	print 'hoge'
+  end
+end
+\```
 ```
 
 - 【表組み】
 	- 注意：表の上の行が空行である必要あり！
+
 ```
 |header1|header2|header3|
 |:--|--:|:--:|
 |align left|align right|align center|
 |a|b|c|
 ```
+
 - 【リンク】
+
 ```
 [Google先生](https://www.google.co.jp/)
 ```
+
 - 【ページ内リンク】
+
 ```
 [to header1](#header1)
 ```
+
 - 【画像】
+
 ```
 ![画像１](image.jpg)
 ![画像２](http://test/image2.jpg)
 ```
+
 - 表内の「|」エスケープ
 	- 参考：asciiコードを変えれば他の文字を表現可能。
+	
 ```
 &#124;
 ```
@@ -88,6 +111,7 @@ normal ___bold+italic___ normal
 - 【ハイライト】`==ハイライト==` → ==ハイライト==
 - 【取り消し線】`~~取り消し線~~` → ~~取り消し線~~
 - 【チェックボックス】
+
 ```
 - [x] チェック済み
 - [ ] 未チェック
@@ -106,16 +130,10 @@ normal ___bold+italic___ normal
 </details>
 ```
 
-<details open>
-<summary>これは中身が整形される</summary>
-
-1. 野菜**A**の皮を剥く。
-2. 乱切りにする。
-3. 調味料**B**と合わせて炒める。
-    - `火傷`に注意。
-</details>
-
 # 他
+
+## AtWikiからGithubWikiへの変換構文＠vim
+
 ```
 ###########################################
 # 検索

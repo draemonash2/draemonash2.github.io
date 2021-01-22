@@ -21,6 +21,7 @@
 
 ## ソフト([インストーラーはこちら](otr_other/installer_url.md))
 - [Windows](sft_windows/windows.md)
+- [Linux](sft_linux/linux.md)
 
 - [Kinza](sft_kinza/kinza.md)
 - [Mozilla Firefox](sft_firefox/firefox.md)
@@ -48,6 +49,7 @@
 - [EpTree](sft_eptree/eptree.md)
 - [Excuberant Ctags](sft_ctags/ctags.md)
 
+- [WSL2](sft_wsl2/wsl2.md)
 - [Cygwin](sft_cygwin/cygwin.md)
 - [iThoughts](sft_ithoughts/ithoughts.md)
 - [Redmine](sft_redmine/redmine.md)
