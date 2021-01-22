@@ -19,6 +19,16 @@
 		- 方法１：右クリック
 		- 方法２：Ctrl+Shift+V
 
+# コマンド
+## Linux 共通コマンド
+
+- [Linuxの基本コマンドはこちら](https://github.com/draemonash2/wiki/blob/master/sft_linux/linux.md)
+
+## WSL2 関連コマンド
+
+- VIM設定ファイル
+
+
 # ショートカットキー
 
 [トップに戻る](../index.md)

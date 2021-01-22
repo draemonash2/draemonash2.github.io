@@ -1,6 +1,7 @@
 [トップに戻る](../index.md)
 
-# [Raspberry Pi における Python](https://github.com/draemonash2/wiki/blob/master/lng_python/python_raspberrypi.md) 参照
+# Raspberry Pi における Python
+	- [こちら参照](https://github.com/draemonash2/wiki/blob/master/lng_python/python_raspberrypi.md) 参照
 
 # ToDo
 - 無線LAN がつながらない
