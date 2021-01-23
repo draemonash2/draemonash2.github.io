@@ -1,7 +1,7 @@
 [トップに戻る](../index.md)
 
 # Raspberry Pi における Python
-	- [こちら参照](https://github.com/draemonash2/wiki/blob/master/lng_python/python_raspberrypi.md) 参照
+- [こちら参照](https://github.com/draemonash2/wiki/blob/master/lng_python/python_raspberrypi.md) 参照
 
 # ToDo
 - 無線LAN がつながらない
@@ -14,6 +14,8 @@
 - [デジタルＩＣ](http://part.freelab.jp/p_iclogic.html)
 
 # Tips
+- RaspberryPiログイン方法
+	- ★
 - Raspberry Pi ⇔ Windows ファイル共有方法
 	- ①Raspberry Pi を起動。
 	- ②SFTP Net Drive Free を起動し、Connect。
