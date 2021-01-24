@@ -1,692 +1,692 @@
-ï»¿- ES  
-    - ï¼‘ï¼Žãƒãƒ¼ãƒ‰ã‚¦ã‚§ã‚¢  
-        - è«–ç†å›žè·¯  
-            - çµ„åˆã›è«–ç†å›žè·¯  
-                - è² è«–ç†  
-                    ãƒªãƒ³ã‚¯: [atmarkit.co.jp/icd/root/66/277976366.html][1]  
+- ES  
+    - ‚PDƒn[ƒhƒEƒFƒA  
+        - ˜_—‰ñ˜H  
+            - ‘g‡‚¹˜_—‰ñ˜H  
+                - •‰˜_—  
+                    ƒŠƒ“ƒN: [atmarkit.co.jp/icd/root/66/277976366.html][1]  
                     - assert  
-                        - ä¿¡å·ã‚’ã‚¢ã‚¯ãƒ†ã‚£ãƒ–ã«ã™ã‚‹  
+                        - M†‚ðƒAƒNƒeƒBƒu‚É‚·‚é  
                     - negate  
-                        - ä¿¡å·ã‚’éžã‚¢ã‚¯ãƒ†ã‚£ãƒ–ã«ã™ã‚‹  
-                - ã‚¹ãƒªãƒ¼ã‚¹ãƒ†ãƒ¼ãƒˆãƒãƒƒãƒ•ã‚¡  
-                    - åˆ¶å¾¡ä¿¡å·Cã®å…¥åŠ›å€¤ã«ã‚ˆã£ã¦ã€Bã®å‡ºåŠ›ã‚’Aã«ã™ã‚‹ã‹ã€ãƒã‚¤ã‚¤ãƒ³ãƒ”ãƒ¼ãƒ€ãƒ³ã‚¹ã«ã™ã‚‹ã‹åˆ¶å¾¡ã§ãã‚‹å›žè·¯ã€‚  
-                - ãƒ€ã‚¤ã‚ªãƒ¼ãƒ‰ï¼†æŠµæŠ—ã§å…¥åŠ›æ‹¡å¼µ  
-                - ãƒã‚¤ãƒãƒ¼ãƒ©ãƒˆãƒ©ãƒ³ã‚¸ã‚¹ã‚¿  
-                    - ç«¯å­  
-                        - ã‚³ãƒ¬ã‚¯ã‚¿  
-                            - è‹±å˜èªžï¼šcollect  
-                                - åŽé›†ã™ã‚‹  
-                        - ãƒ™ãƒ¼ã‚¹  
-                            - è‹±å˜èªžï¼šbase  
-                                - åŸºåº•  
-                        - ã‚¨ãƒŸãƒƒã‚¿  
-                            - è‹±å˜èªžï¼šemit  
-                                - æ”¾å‡ºã™ã‚‹  
+                        - M†‚ð”ñƒAƒNƒeƒBƒu‚É‚·‚é  
+                - ƒXƒŠ[ƒXƒe[ƒgƒoƒbƒtƒ@  
+                    - §ŒäM†C‚Ì“ü—Í’l‚É‚æ‚Á‚ÄAB‚Ìo—Í‚ðA‚É‚·‚é‚©AƒnƒCƒCƒ“ƒs[ƒ_ƒ“ƒX‚É‚·‚é‚©§Œä‚Å‚«‚é‰ñ˜HB  
+                - ƒ_ƒCƒI[ƒh•’ïR‚Å“ü—ÍŠg’£  
+                - ƒoƒCƒ|[ƒ‰ƒgƒ‰ƒ“ƒWƒXƒ^  
+                    - ’[Žq  
+                        - ƒRƒŒƒNƒ^  
+                            - ‰p’PŒêFcollect  
+                                - ŽûW‚·‚é  
+                        - ƒx[ƒX  
+                            - ‰p’PŒêFbase  
+                                - Šî’ê  
+                        - ƒGƒ~ƒbƒ^  
+                            - ‰p’PŒêFemit  
+                                - •úo‚·‚é  
                     - NPN  
                         - ...  
                             - ...  
-                                - ã‚ªãƒ¼ãƒ—ãƒ³ã‚³ãƒ¬ã‚¯ã‚¿  
-                                    ãƒªãƒ³ã‚¯: [denshikit.main.jp/topf/technology35.html][2]  
-                                    - å¸ã„è¾¼ã¿  
+                                - ƒI[ƒvƒ“ƒRƒŒƒNƒ^  
+                                    ƒŠƒ“ƒN: [denshikit.main.jp/topf/technology35.html][2]  
+                                    - ‹z‚¢ž‚Ý  
                     - PNP  
                         - ...  
                             - ...  
-                                - ã‚ªãƒ¼ãƒ—ãƒ³ã‚¨ãƒŸãƒƒã‚¿  
-                                    - åãå‡ºã—  
+                                - ƒI[ƒvƒ“ƒGƒ~ƒbƒ^  
+                                    - “f‚«o‚µ  
                 - MOSFET  
-                    - ç«¯å­  
-                        - ã‚½ãƒ¼ã‚¹  
-                            - è‹±å˜èªžï¼šsource  
-                                - èª¿é”ã™ã‚‹  
-                        - ã‚²ãƒ¼ãƒˆ  
-                            - è‹±å˜èªžï¼šgate  
-                                - å…¥å£  
-                        - ãƒ‰ãƒ¬ã‚¤ãƒ³  
-                            - è‹±å˜èªžï¼šdrain  
-                                - æŽ’å‡ºã•ã›ã‚‹  
-                    - Nåž‹MOS  
+                    - ’[Žq  
+                        - ƒ\[ƒX  
+                            - ‰p’PŒêFsource  
+                                - ’²’B‚·‚é  
+                        - ƒQ[ƒg  
+                            - ‰p’PŒêFgate  
+                                - “üŒû  
+                        - ƒhƒŒƒCƒ“  
+                            - ‰p’PŒêFdrain  
+                                - ”ro‚³‚¹‚é  
+                    - NŒ^MOS  
                         - ...  
                             - ...  
                                 - ...  
-                                    - ã‚ªãƒ¼ãƒ—ãƒ³ãƒ‰ãƒ¬ã‚¤ãƒ³  
-                        - NPNã¨åŒã˜  
-                    - Påž‹MOS  
+                                    - ƒI[ƒvƒ“ƒhƒŒƒCƒ“  
+                        - NPN‚Æ“¯‚¶  
+                    - PŒ^MOS  
                         - ...  
                             - ...  
                                 - ...  
-                                    - ã‚ªãƒ¼ãƒ—ãƒ³ã‚½ãƒ¼ã‚¹  
-                        - PNPã¨åŒã˜  
+                                    - ƒI[ƒvƒ“ƒ\[ƒX  
+                        - PNP‚Æ“¯‚¶  
                 - TTL  
                     - Transistor-transistor-logic  
-                        ãƒªãƒ³ã‚¯: [weblio.jp/content/Transistor-Transistor+Logic][3]  
-                        - ãƒã‚¤ãƒãƒ¼ãƒ©ãƒˆãƒ©ãƒ³ã‚¸ã‚¹ã‚¿ã¨æŠµæŠ—ã«ã‚ˆã£ã¦æ§‹æˆã•ã‚ŒãŸè«–ç†å›žè·¯ã®ã“ã¨  
-                - ãƒ‰ãƒ¢ãƒ«ã‚¬ãƒ³ã®æ³•å‰‡  
-                    - !(PÂ ||Â Q) ==Â !PÂ &&Â !Q  
-                    - !(PÂ &&Â Q) ==Â !PÂ ||Â !Q  
-            - é †åºè«–ç†å›žè·¯  
-                - RSãƒ©ãƒƒãƒ  
-                    - ãƒ‡ãƒ¼ã‚¿ä¿æŒå›žè·¯  
-                    - ã€Inã€‘ Reset,Setã€ã€Outã€‘ Q,Qnot  
+                        ƒŠƒ“ƒN: [weblio.jp/content/Transistor-Transistor+Logic][3]  
+                        - ƒoƒCƒ|[ƒ‰ƒgƒ‰ƒ“ƒWƒXƒ^‚Æ’ïR‚É‚æ‚Á‚Ä\¬‚³‚ê‚½˜_—‰ñ˜H‚Ì‚±‚Æ  
+                - ƒhƒ‚ƒ‹ƒKƒ“‚Ì–@‘¥  
+                    - !(P?||?Q) ==?!P?&&?!Q  
+                    - !(P?&&?Q) ==?!P?||?!Q  
+            - ‡˜˜_—‰ñ˜H  
+                - RSƒ‰ƒbƒ`  
+                    - ƒf[ƒ^•ÛŽ‰ñ˜H  
+                    - yInz Reset,SetAyOutz Q,Qnot  
                     - NOR  
-                        - Setâ†’Q  
-                        - 1,1Ã—  
+                        - Set¨Q  
+                        - 1,1~  
                     - NAND  
-                        - Setâ†’Qnot  
-                        - 0,0Ã—  
-                - JKãƒ•ãƒªãƒƒãƒ—ãƒ•ãƒ­ãƒƒãƒ—  
-                    - ãƒ‡ãƒ¼ã‚¿ä¿æŒå›žè·¯  
-                    - CLockã®ã‚¨ãƒƒã‚¸ã‚¿ã‚¤ãƒŸãƒ³ã‚°ã§J,Kã®å€¤ã«å¿œã˜ã¦å¤‰åŒ–ã™ã‚‹  
-                    - ã€Inã€‘ J,K,CLockã€ã€Outã€‘ Q,Qnot  
-                - Dãƒ©ãƒƒãƒ  
-                    - ãƒ‡ãƒ¼ã‚¿å‡ºåŠ›å¯å¦é¸æŠžå›žè·¯  
-                    - ã€Inã€‘ Data,Gateã€ã€Outã€‘ Q,Qnot  
-                - Dãƒ•ãƒªãƒƒãƒ—ãƒ•ãƒ­ãƒƒãƒ—  
-                    - ãƒ‡ãƒ¼ã‚¿å‡ºåŠ›å¯å¦é¸æŠžå›žè·¯  
-                    - ã€Inã€‘ Data,CLockã€ã€Outã€‘ Q,Qnot  
-        - åŠ ç®—å™¨  
-            - åŠåŠ ç®—å™¨  
-            - å…¨åŠ ç®—å™¨  
-            - ä¸¦åˆ—åŠ ç®—å™¨  
-                - ãƒªãƒƒãƒ—ãƒ«ã‚­ãƒ£ãƒªãƒ¼åŠ ç®—å™¨  
-                    - ä¸¦åˆ—  
-                    - ç°¡å˜  
-                    - é…å»¶æ™‚é–“å¤§  
-                    - â˜…è¦è¿½åŠ   
-                - ã‚­ãƒ£ãƒªãƒ¼ãƒ«ãƒƒã‚¯ã‚¢ãƒ˜ãƒƒãƒ‰åŠ ç®—å™¨  
-                    - ã‚­ãƒ£ãƒªãƒ¼å…ˆèª­ã¿  
-                    - â˜…è¦è¿½åŠ   
-        - ã‚«ã‚¦ãƒ³ã‚¿  
-            - ï¼’é€²ã‚«ã‚¦ãƒ³ã‚¿  
-            - 10é€²ã‚«ã‚¦ãƒ³ã‚¿  
-            - ã‚°ãƒ¬ã‚¤ã‚³ãƒ¼ãƒ‰ã‚«ã‚¦ãƒ³ã‚¿  
-        - ã‚¿ã‚¤ãƒž  
-            - ãƒãƒ¼ãƒ‰ã‚¦ã‚§ã‚¢ã‚¿ã‚¤ãƒž/ã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢ã‚¿ã‚¤ãƒž  
-            - ãƒ¯ãƒ³ã‚·ãƒ§ãƒƒãƒˆã‚¿ã‚¤ãƒž/ã‚¤ãƒ³ã‚¿ãƒ¼ãƒãƒ«ã‚¿ã‚¤ãƒž  
-            - ã‚¦ã‚©ãƒƒãƒãƒ‰ãƒƒã‚°ã‚¿ã‚¤ãƒž  
-        - ã‚¢ãƒŠãƒ­ã‚°å›žè·¯  
-            - ã‚¢ãƒŠãƒ­ã‚°ãƒ»ãƒ‡ã‚£ã‚¸ã‚¿ãƒ«ä¿¡å·  
-                - é‡å­åŒ–  
-                    - åˆ†è§£èƒ½  
-                    - é‡å­åŒ–èª¤å·®  
-                    - é‡å­åŒ–ãƒŽã‚¤ã‚º  
-                - æ¨™æœ¬åŒ–  
-                    - æ¨™æœ¬åŒ–å®šç†  
-                    - ãƒŠã‚¤ã‚­ã‚¹ãƒˆå‘¨æ³¢æ•°  
-                        - â˜…è¦è¿½åŠ   
-                    - ã‚¨ãƒªã‚¢ã‚·ãƒ³ã‚°  
-                        - â˜…è¦è¿½åŠ   
-                    - ã‚¨ãƒªã‚¢ã‚·ãƒ³ã‚°ãƒŽã‚¤ã‚º  
-                        - â˜…è¦è¿½åŠ   
-                - ã‚ªãƒ¼ãƒã‚µãƒ³ãƒ—ãƒªãƒ³ã‚°  
-                    - ã‚ªãƒ¼ãƒã‚µãƒ³ãƒ—ãƒ©  
-            - A/Då¤‰æ›å™¨  
-                - ä¸¦åˆ—æ¯”è¼ƒæ–¹å¼  
-                    - ãƒ•ãƒ©ãƒƒã‚·ãƒ¥ã‚³ãƒ³ãƒãƒ¼ã‚¿  
-                - è¿½å¾“æ¯”è¼ƒæ–¹å¼  
-                - é€æ¬¡æ¯”è¼ƒæ–¹å¼  
-                - äºŒé‡ç©åˆ†æ–¹å¼  
-                - ãƒ‡ãƒ«ã‚¿ã‚·ã‚°ãƒžæ–¹å¼  
-            - D/Aå¤‰æ›å™¨  
-                - é‡ã¿æŠµæŠ—æ–¹å¼  
-                - æŠµæŠ—ãƒ©ãƒ€ãƒ¼æ–¹å¼  
-                - ãƒ‡ãƒ«ã‚¿ã‚·ã‚°ãƒžæ–¹å¼  
-                - PWMæ–¹å¼  
-            - ç©åˆ†/å¾®åˆ†å›žè·¯  
-                - ç©åˆ†å›žè·¯  
-                    - ï¼é…å»¶å›žè·¯  
-                    - ç”¨é€”  
-                        - ãƒ­ãƒ¼ãƒ‘ã‚¹ãƒ•ã‚£ãƒ«ã‚¿  
-                        - ãƒãƒ£ã‚¿ãƒªãƒ³ã‚°é™¤åŽ»  
-                    - æ™‚å®šæ•°  
-                        - æ™‚å®šæ•°ãŒå¤§ãã„ç¨‹ã€å…¥åŠ›ã«å¯¾ã™ã‚‹å‡ºåŠ›ã®é…å»¶ãŒå¤§ãã„  
-                    - ç©åˆ†  
-                        - å±€æ‰€çš„ãªé‡ã®å¤§åŸŸçš„ãªé›†ç©  
-                    - ç”»åƒ  
+                        - Set¨Qnot  
+                        - 0,0~  
+                - JKƒtƒŠƒbƒvƒtƒƒbƒv  
+                    - ƒf[ƒ^•ÛŽ‰ñ˜H  
+                    - CLock‚ÌƒGƒbƒWƒ^ƒCƒ~ƒ“ƒO‚ÅJ,K‚Ì’l‚É‰ž‚¶‚Ä•Ï‰»‚·‚é  
+                    - yInz J,K,CLockAyOutz Q,Qnot  
+                - Dƒ‰ƒbƒ`  
+                    - ƒf[ƒ^o—Í‰Â”Û‘I‘ð‰ñ˜H  
+                    - yInz Data,GateAyOutz Q,Qnot  
+                - DƒtƒŠƒbƒvƒtƒƒbƒv  
+                    - ƒf[ƒ^o—Í‰Â”Û‘I‘ð‰ñ˜H  
+                    - yInz Data,CLockAyOutz Q,Qnot  
+        - ‰ÁŽZŠí  
+            - ”¼‰ÁŽZŠí  
+            - ‘S‰ÁŽZŠí  
+            - •À—ñ‰ÁŽZŠí  
+                - ƒŠƒbƒvƒ‹ƒLƒƒƒŠ[‰ÁŽZŠí  
+                    - •À—ñ  
+                    - ŠÈ’P  
+                    - ’x‰„ŽžŠÔ‘å  
+                    - š—v’Ç‰Á  
+                - ƒLƒƒƒŠ[ƒ‹ƒbƒNƒAƒwƒbƒh‰ÁŽZŠí  
+                    - ƒLƒƒƒŠ[æ“Ç‚Ý  
+                    - š—v’Ç‰Á  
+        - ƒJƒEƒ“ƒ^  
+            - ‚QiƒJƒEƒ“ƒ^  
+            - 10iƒJƒEƒ“ƒ^  
+            - ƒOƒŒƒCƒR[ƒhƒJƒEƒ“ƒ^  
+        - ƒ^ƒCƒ}  
+            - ƒn[ƒhƒEƒFƒAƒ^ƒCƒ}/ƒ\ƒtƒgƒEƒFƒAƒ^ƒCƒ}  
+            - ƒƒ“ƒVƒ‡ƒbƒgƒ^ƒCƒ}/ƒCƒ“ƒ^[ƒoƒ‹ƒ^ƒCƒ}  
+            - ƒEƒHƒbƒ`ƒhƒbƒOƒ^ƒCƒ}  
+        - ƒAƒiƒƒO‰ñ˜H  
+            - ƒAƒiƒƒOEƒfƒBƒWƒ^ƒ‹M†  
+                - —ÊŽq‰»  
+                    - •ª‰ð”\  
+                    - —ÊŽq‰»Œë·  
+                    - —ÊŽq‰»ƒmƒCƒY  
+                - •W–{‰»  
+                    - •W–{‰»’è—  
+                    - ƒiƒCƒLƒXƒgŽü”g”  
+                        - š—v’Ç‰Á  
+                    - ƒGƒŠƒAƒVƒ“ƒO  
+                        - š—v’Ç‰Á  
+                    - ƒGƒŠƒAƒVƒ“ƒOƒmƒCƒY  
+                        - š—v’Ç‰Á  
+                - ƒI[ƒoƒTƒ“ƒvƒŠƒ“ƒO  
+                    - ƒI[ƒoƒTƒ“ƒvƒ‰  
+            - A/D•ÏŠ·Ší  
+                - •À—ñ”äŠr•ûŽ®  
+                    - ƒtƒ‰ƒbƒVƒ…ƒRƒ“ƒo[ƒ^  
+                - ’Ç]”äŠr•ûŽ®  
+                - ’€ŽŸ”äŠr•ûŽ®  
+                - “ñdÏ•ª•ûŽ®  
+                - ƒfƒ‹ƒ^ƒVƒOƒ}•ûŽ®  
+            - D/A•ÏŠ·Ší  
+                - d‚Ý’ïR•ûŽ®  
+                - ’ïRƒ‰ƒ_[•ûŽ®  
+                - ƒfƒ‹ƒ^ƒVƒOƒ}•ûŽ®  
+                - PWM•ûŽ®  
+            - Ï•ª/”÷•ª‰ñ˜H  
+                - Ï•ª‰ñ˜H  
+                    - ’x‰„‰ñ˜H  
+                    - —p“r  
+                        - ƒ[ƒpƒXƒtƒBƒ‹ƒ^  
+                        - ƒ`ƒƒƒ^ƒŠƒ“ƒOœ‹Ž  
+                    - Žž’è”  
+                        - Žž’è”‚ª‘å‚«‚¢’öA“ü—Í‚É‘Î‚·‚éo—Í‚Ì’x‰„‚ª‘å‚«‚¢  
+                    - Ï•ª  
+                        - ‹ÇŠ“I‚È—Ê‚Ì‘åˆæ“I‚ÈWÏ  
+                    - ‰æ‘œ  
                         - ...  
-                - å¾®åˆ†å›žè·¯  
-                    - ãƒã‚¤ãƒ‘ã‚¹ãƒ•ã‚£ãƒ«ã‚¿  
-                    - å¾®åˆ†  
-                        - å±€æ‰€çš„ãªå¤‰åŒ–ã‚’ã¨ã‚‰ãˆã‚‹  
-                    - ç”»åƒ  
+                - ”÷•ª‰ñ˜H  
+                    - ƒnƒCƒpƒXƒtƒBƒ‹ƒ^  
+                    - ”÷•ª  
+                        - ‹ÇŠ“I‚È•Ï‰»‚ð‚Æ‚ç‚¦‚é  
+                    - ‰æ‘œ  
                         - ...  
-            - ã‚¢ã‚¯ãƒ†ã‚£ãƒ–/ãƒ‘ãƒƒã‚·ãƒ–å›žè·¯  
-                - ã‚¢ã‚¯ãƒ†ã‚£ãƒ–å›žè·¯  
-                    - æ¼”ç®—å¢—å¹…å™¨  
-                    - é›»æºãŒå¿…è¦ãªå›žè·¯  
-                - ãƒ‘ãƒƒã‚·ãƒ–å›žè·¯  
-                    - RCå›žè·¯  
-                        - æŠµæŠ—å€¤Rã¨ã‚³ãƒ³ãƒ‡ãƒ³ã‚µC  
-                        - RÃ—Cï¼æ™‚å®šæ•°  
-                    - é›»æºãŒä¸è¦ãªå›žè·¯  
-            - æ¼”ç®—å¢—å¹…å™¨  
-                - åè»¢å¢—å¹…å›žè·¯  
-                    - Voutï¼-R2/R1*Vin  
-                        - ãƒªãƒ³ã‚¯: [eng.kice.tokyo/electronic-circuit/inverting-amplifier/][4]  
-                - éžåè»¢å¢—å¹…å›žè·¯  
-                    - Voutï¼-(1+R2/R1)*Vin  
-                        - ãƒªãƒ³ã‚¯: [eng.kice.tokyo/electronic-circuit/non-inverting-amplifier/][5]  
-                - å·®å‹•å¢—å¹…å›žè·¯  
-                    - Voutï¼-R2/R1*(Vin1-Vin2)  
-                        - ãƒªãƒ³ã‚¯: [natural-science.or.jp/article/20081025034539.php][6]  
-                - ï¼ã‚ªãƒšã‚¢ãƒ³ãƒ—  
+            - ƒAƒNƒeƒBƒu/ƒpƒbƒVƒu‰ñ˜H  
+                - ƒAƒNƒeƒBƒu‰ñ˜H  
+                    - ‰‰ŽZ‘•Ší  
+                    - “dŒ¹‚ª•K—v‚È‰ñ˜H  
+                - ƒpƒbƒVƒu‰ñ˜H  
+                    - RC‰ñ˜H  
+                        - ’ïR’lR‚ÆƒRƒ“ƒfƒ“ƒTC  
+                        - R~CŽž’è”  
+                    - “dŒ¹‚ª•s—v‚È‰ñ˜H  
+            - ‰‰ŽZ‘•Ší  
+                - ”½“]‘•‰ñ˜H  
+                    - Vout-R2/R1*Vin  
+                        - ƒŠƒ“ƒN: [eng.kice.tokyo/electronic-circuit/inverting-amplifier/][4]  
+                - ”ñ”½“]‘•‰ñ˜H  
+                    - Vout-(1+R2/R1)*Vin  
+                        - ƒŠƒ“ƒN: [eng.kice.tokyo/electronic-circuit/non-inverting-amplifier/][5]  
+                - ·“®‘•‰ñ˜H  
+                    - Vout-R2/R1*(Vin1-Vin2)  
+                        - ƒŠƒ“ƒN: [natural-science.or.jp/article/20081025034539.php][6]  
+                - ƒIƒyƒAƒ“ƒv  
             - PWM  
-                - ãƒªãƒ‹ã‚¢åˆ¶å¾¡  
-                - PWMåˆ¶å¾¡  
-                    - ã‚¹ã‚¤ãƒƒãƒãƒ³ã‚°ãƒŽã‚¤ã‚º  
-                - DAå¤‰æ›å›žè·¯  
+                - ƒŠƒjƒA§Œä  
+                - PWM§Œä  
+                    - ƒXƒCƒbƒ`ƒ“ƒOƒmƒCƒY  
+                - DA•ÏŠ·‰ñ˜H  
             - PLL  
                 - Phase Locked Loop  
-                - å…¥åŠ›å‘¨æ³¢æ•°ã‚’é€“å€ã™ã‚‹å›žè·¯  
-                    - é€“å€  
-                        - å‘¨æ³¢æ•°ã‚’Nå€ã™ã‚‹  
-                    - åˆ†å‘¨  
-                        - å‘¨æ³¢æ•°ã‚’1/Nå€ã™ã‚‹  
+                - “ü—ÍŽü”g”‚ð’ü”{‚·‚é‰ñ˜H  
+                    - ’ü”{  
+                        - Žü”g”‚ðN”{‚·‚é  
+                    - •ªŽü  
+                        - Žü”g”‚ð1/N”{‚·‚é  
         - LSI  
             - ASIC  
-                - ç¨®é¡ž  
-                    - ã‚²ãƒ¼ãƒˆã‚¢ãƒ¬ã‚¤  
-                    - ã‚»ãƒ«ãƒ™ãƒ¼ã‚¹IC  
-                    - ã‚¨ãƒ³ãƒ™ãƒ‡ãƒƒãƒ‰ã‚¢ãƒ¬ã‚¤  
-                    - ã‚¹ãƒˆãƒ©ã‚¯ãƒãƒ£ãƒ¼ãƒ‰ASIC  
+                - Ží—Þ  
+                    - ƒQ[ƒgƒAƒŒƒC  
+                    - ƒZƒ‹ƒx[ƒXIC  
+                    - ƒGƒ“ƒxƒfƒbƒhƒAƒŒƒC  
+                    - ƒXƒgƒ‰ƒNƒ`ƒƒ[ƒhASIC  
             - ASSP  
-                - ã‚¿ãƒ¼ãƒ³ã‚­ãƒ¼ã‚½ãƒªãƒ¥ãƒ¼ã‚·ãƒ§ãƒ³  
-                    - â˜…è¦è¿½åŠ   
-            - è¨­è¨ˆæ‰‹æ³•  
-                - ãƒ•ãƒ«ã‚«ã‚¹ã‚¿ãƒ è¨­è¨ˆ  
-                - ã‚²ãƒ¼ãƒˆãƒ¬ãƒ™ãƒ«è¨­è¨ˆ  
-                - RTLè¨­è¨ˆ  
+                - ƒ^[ƒ“ƒL[ƒ\ƒŠƒ…[ƒVƒ‡ƒ“  
+                    - š—v’Ç‰Á  
+            - ÝŒvŽè–@  
+                - ƒtƒ‹ƒJƒXƒ^ƒ€ÝŒv  
+                - ƒQ[ƒgƒŒƒxƒ‹ÝŒv  
+                - RTLÝŒv  
                     - IP  
                     - HDL  
-                - ãƒ“ãƒ˜ã‚¤ãƒ“ã‚¢ãƒ¬ãƒ™ãƒ«è¨­è¨ˆ  
-            - ã‚³ãƒ»ãƒ‡ã‚¶ã‚¤ãƒ³  
-                - ã‚½ãƒ•ãƒˆã¨ãƒãƒ¼ãƒ‰ã‚’è¨ˆç”»çš„ã«å”èª¿ã—ã¦è¨­è¨ˆã—æœ€é©åŒ–ã™ã‚‹  
-                - coï¼concurrentï¼šå¹³è¡Œã«  
-            - ã‚³ãƒ»ãƒ™ãƒªãƒ•ã‚£ã‚±ãƒ¼ã‚·ãƒ§ãƒ³  
-                - ã‚½ãƒ•ãƒˆã¨ãƒãƒ¼ãƒ‰ã‚’ä½µã›ã¦å‹•ä½œæ¤œè¨¼ã™ã‚‹ã“ã¨  
-            - ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ãƒ—ãƒ­ã‚°ãƒ©ãƒžãƒ–ãƒ«ãƒ­ã‚¸ãƒƒã‚¯  
+                - ƒrƒwƒCƒrƒAƒŒƒxƒ‹ÝŒv  
+            - ƒREƒfƒUƒCƒ“  
+                - ƒ\ƒtƒg‚Æƒn[ƒh‚ðŒv‰æ“I‚É‹¦’²‚µ‚ÄÝŒv‚µÅ“K‰»‚·‚é  
+                - coconcurrentF•½s‚É  
+            - ƒREƒxƒŠƒtƒBƒP[ƒVƒ‡ƒ“  
+                - ƒ\ƒtƒg‚Æƒn[ƒh‚ð•¹‚¹‚Ä“®ìŒŸØ‚·‚é‚±‚Æ  
+            - ƒtƒB[ƒ‹ƒhƒvƒƒOƒ‰ƒ}ƒuƒ‹ƒƒWƒbƒN  
                 - PLD  
-                    - æ¦‚è¦  
-                        - ãƒ—ãƒ­ã‚°ãƒ©ãƒ å¯èƒ½ãªè«–ç†ãƒ‡ãƒã‚¤ã‚¹ã®ã†ã¡ã€æ¯”è¼ƒçš„å°è¦æ¨¡ãªã‚‚ã®  
+                    - ŠT—v  
+                        - ƒvƒƒOƒ‰ƒ€‰Â”\‚È˜_—ƒfƒoƒCƒX‚Ì‚¤‚¿A”äŠr“I¬‹K–Í‚È‚à‚Ì  
                         - Programmable Logic Device  
                     - CPLD  
-                        - å˜æ©Ÿèƒ½ã®PLDã‚’è¤‡æ•°å†…è‡“  
-                        - FPGAã‚ˆã‚Šã‚‚å›žè·¯ã®ä¼æ¬é…å»¶æ™‚é–“ãŒæ¯”è¼ƒçš„çŸ­ã„  
+                        - ’P‹@”\‚ÌPLD‚ð•¡”“à‘Ÿ  
+                        - FPGA‚æ‚è‚à‰ñ˜H‚Ì“`”À’x‰„ŽžŠÔ‚ª”äŠr“I’Z‚¢  
                     - FPGA  
-                        - æ¦‚è¦  
-                            - æ•°ä¸‡ï½ž100ä¸‡ã‚²ãƒ¼ãƒˆè¦æ¨¡ã®è«–ç†å›žè·¯ã‚’ãƒ—ãƒ­ã‚°ãƒ©ãƒ å¯èƒ½ãªå¤§è¦æ¨¡ãƒ—ãƒ­ã‚°ãƒ©ãƒ ãƒ­ã‚¸ãƒƒã‚¯ãƒ‡ãƒã‚¤ã‚¹  
-                        - ã‚³ãƒ³ãƒ•ã‚£ã‚°ãƒ¬ãƒ¼ã‚·ãƒ§ãƒ³  
-                        - ãƒ«ãƒƒã‚¯ã‚¢ãƒƒãƒ—ãƒ†ãƒ¼ãƒ–ãƒ«  
-                            - ãƒ—ãƒ­ã‚°ãƒ©ãƒ å¯èƒ½éƒ¨åˆ†ã®ã†ã¡ã€çµ„ã¿åˆã‚ã›å›žè·¯éƒ¨åˆ†ã‚’ãƒžãƒˆãƒªã‚¯ã‚¹ã‚¹ã‚¤ãƒƒãƒã§å®Ÿç¾ã—ãŸã‚‚ã®  
-                                - â˜…è¦è¿½åŠ   
-            - æ§‹é€   
-                - ãƒ­ã‚¸ãƒƒã‚¯IC  
-                    - ã‚«ã‚¹ã‚¿ãƒ IC  
-                        - ãƒ•ãƒ«ã‚«ã‚¹ã‚¿ãƒ IC  
-                        - ã‚»ãƒŸã‚«ã‚¹ã‚¿ãƒ IC  
-                            - ã‚²ãƒ¼ãƒˆã‚¢ãƒ¬ã‚¤  
-                            - ã‚»ãƒ«ãƒ™ãƒ¼ã‚¹  
-                            - ã‚¨ãƒ³ãƒ™ãƒ‡ãƒƒãƒ‰ã‚¢ãƒ¬ã‚¤  
-                            - ã‚¹ãƒˆãƒ©ã‚¯ãƒãƒ£ãƒ¼ãƒ‰ASIC  
-                    - æ¨™æº–IC  
+                        - ŠT—v  
+                            - ”–œ`100–œƒQ[ƒg‹K–Í‚Ì˜_—‰ñ˜H‚ðƒvƒƒOƒ‰ƒ€‰Â”\‚È‘å‹K–ÍƒvƒƒOƒ‰ƒ€ƒƒWƒbƒNƒfƒoƒCƒX  
+                        - ƒRƒ“ƒtƒBƒOƒŒ[ƒVƒ‡ƒ“  
+                        - ƒ‹ƒbƒNƒAƒbƒvƒe[ƒuƒ‹  
+                            - ƒvƒƒOƒ‰ƒ€‰Â”\•”•ª‚Ì‚¤‚¿A‘g‚Ý‡‚í‚¹‰ñ˜H•”•ª‚ðƒ}ƒgƒŠƒNƒXƒXƒCƒbƒ`‚ÅŽÀŒ»‚µ‚½‚à‚Ì  
+                                - š—v’Ç‰Á  
+            - \‘¢  
+                - ƒƒWƒbƒNIC  
+                    - ƒJƒXƒ^ƒ€IC  
+                        - ƒtƒ‹ƒJƒXƒ^ƒ€IC  
+                        - ƒZƒ~ƒJƒXƒ^ƒ€IC  
+                            - ƒQ[ƒgƒAƒŒƒC  
+                            - ƒZƒ‹ƒx[ƒX  
+                            - ƒGƒ“ƒxƒfƒbƒhƒAƒŒƒC  
+                            - ƒXƒgƒ‰ƒNƒ`ƒƒ[ƒhASIC  
+                    - •W€IC  
                         - GPO  
-                        - æ¨™æº–ãƒ­ã‚¸ãƒƒã‚¯  
+                        - •W€ƒƒWƒbƒN  
                         - ASSP  
                         - PLD  
                             - MPU  
                             - DSP  
-                            - ãƒªã‚³ãƒ³ãƒ•ã‚£ã‚®ãƒ¥ãƒ©ãƒ–ãƒ«  
+                            - ƒŠƒRƒ“ƒtƒBƒMƒ…ƒ‰ƒuƒ‹  
                             - CPLD  
                             - FPGA  
-        - ãƒ¡ãƒ¢ãƒª  
-            - æ®ç™ºæ€§  
-                - å¤–éƒ¨ã‹ã‚‰ã®ãƒªãƒ•ãƒ¬ãƒƒã‚·ãƒ¥æ“ä½œä¸è¦  
+        - ƒƒ‚ƒŠ  
+            - Šö”­«  
+                - ŠO•”‚©‚ç‚ÌƒŠƒtƒŒƒbƒVƒ…‘€ì•s—v  
                     - SRAM  
                         - Static RAM  
-                        - â—‹ï¼šèª­ã¿æ›¸ãé«˜é€Ÿ  
-                        - â—‹ï¼šæ¶ˆè²»é›»æµå°  
-                        - â—‹ï¼šãƒªãƒ•ãƒ¬ãƒƒã‚·ãƒ¥å‹•ä½œä¸è¦  
-                        - Ã—ï¼šé«˜ä¾¡  
-                            - å¤§å®¹é‡åŒ–ã«ä¸å‘ã  
-                    - ç–‘ä¼¼SRAM  
-                        - ãƒªãƒ•ãƒ¬ãƒƒã‚·ãƒ¥ç”¨ã®åˆ¶å¾¡å›žè·¯ã‚’å†…è”µã—ãŸDRAM  
-                - å¤–éƒ¨ã‹ã‚‰ã®ãƒªãƒ•ãƒ¬ãƒƒã‚·ãƒ¥æ“ä½œå¿…è¦  
+                        - ›F“Ç‚Ý‘‚«‚‘¬  
+                        - ›FÁ”ï“d—¬¬  
+                        - ›FƒŠƒtƒŒƒbƒVƒ…“®ì•s—v  
+                        - ~F‚‰¿  
+                            - ‘å—e—Ê‰»‚É•sŒü‚«  
+                    - ‹^Ž—SRAM  
+                        - ƒŠƒtƒŒƒbƒVƒ…—p‚Ì§Œä‰ñ˜H‚ð“à‘ ‚µ‚½DRAM  
+                - ŠO•”‚©‚ç‚ÌƒŠƒtƒŒƒbƒVƒ…‘€ì•K—v  
                     - DRAM  
-                        - æ¦‚è¦  
-                            - Ã—ï¼šèª­ã¿æ›¸ããŒé…ã„  
-                            - Ã—ï¼šãƒªãƒ•ãƒ¬ãƒƒã‚·ãƒ¥å‹•ä½œå¿…è¦  
-                            - Ã—ï¼šæ¶ˆè²»é›»æµå¤§  
-                            - â—‹ï¼šå®‰ä¾¡  
-                                - å¤§å®¹é‡åŒ–ã«å‘ã  
-                        - åŒæœŸåž‹DRAM  
+                        - ŠT—v  
+                            - ~F“Ç‚Ý‘‚«‚ª’x‚¢  
+                            - ~FƒŠƒtƒŒƒbƒVƒ…“®ì•K—v  
+                            - ~FÁ”ï“d—¬‘å  
+                            - ›FˆÀ‰¿  
+                                - ‘å—e—Ê‰»‚ÉŒü‚­  
+                        - “¯ŠúŒ^DRAM  
                             SDRAM  
-                            - ã‚¢ã‚¯ã‚»ã‚¹ã‚’é«˜é€ŸåŒ–åŠ¹çŽ‡åŒ–ã—ãŸã‚‚ã®  
-                            - è¨˜æ†¶ç´ å­ãŒæ ¼å­çŠ¶ã«ä¸¦ã¶æ§‹é€ ã‚’å–ã£ã¦ãŠã‚Šã€ç›®çš„ã®ãƒ‡ãƒ¼ã‚¿ã§ã‚ã‚‹ç‰¹å®šã®è¨˜æ†¶ç´ å­ã«ã‚¢ã‚¯ã‚»ã‚¹ã™ã‚‹ãŸã‚ã«ã€ã¾ãšæœ€åˆã«è¡Œ(row)ã€æ¬¡ã«åˆ—(column)ã‚’æŒ‡å®šã™ã‚‹ã€‚  
+                            - ƒAƒNƒZƒX‚ð‚‘¬‰»Œø—¦‰»‚µ‚½‚à‚Ì  
+                            - ‹L‰¯‘fŽq‚ªŠiŽqó‚É•À‚Ô\‘¢‚ðŽæ‚Á‚Ä‚¨‚èA–Ú“I‚Ìƒf[ƒ^‚Å‚ ‚é“Á’è‚Ì‹L‰¯‘fŽq‚ÉƒAƒNƒZƒX‚·‚é‚½‚ß‚ÉA‚Ü‚¸Å‰‚És(row)AŽŸ‚É—ñ(column)‚ðŽw’è‚·‚éB  
                             - SDR-SDRAM  
                                 - Single Data Rate SDRAM  
-                                - ç«‹ä¸Šã‚Šï¼ç«‹ä¸‹ã‚Šã‚¯ãƒ­ãƒƒã‚¯ã®ã„ãšã‚Œã‹ã®ã‚¿ã‚¤ãƒŸãƒ³ã‚°ã§ãƒ‡ãƒ¼ã‚¿è»¢é€ã™ã‚‹æ–¹å¼ã€‚  
-                                    DDR-SDRAMç™»å ´ä»¥å¾Œã€æ˜Žç¤ºçš„ã«å¾“æ¥ã®SDRAMã‚’æŒ‡ã—ç¤ºã™ãŸã‚ã«ã€ã€ŒSDRã€ãŒä»˜ä¸Žã•ã‚Œã¦å‘¼ã°ã‚Œã‚‹ã‚ˆã†ã«ãªã£ãŸã€‚  
-                                - CASãƒ¬ã‚¤ãƒ†ãƒ³ã‚·  
-                                    - åˆ—ã‚¢ãƒ‰ãƒ¬ã‚¹ã‚’æŒ‡å®šï¼ˆCASä¿¡å·ãŒé€ä¿¡ï¼‰ã—ã¦ã‹ã‚‰ã€æœ€åˆã®ãƒ‡ãƒ¼ã‚¿ãŒå‡ºåŠ›ã•ã‚Œå§‹ã‚ã‚‹ã¾ã§ã®æ™‚é–“  
+                                - —§ã‚è^—§‰º‚èƒNƒƒbƒN‚Ì‚¢‚¸‚ê‚©‚Ìƒ^ƒCƒ~ƒ“ƒO‚Åƒf[ƒ^“]‘—‚·‚é•ûŽ®B  
+                                    DDR-SDRAM“oêˆÈŒãA–¾Ž¦“I‚É]—ˆ‚ÌSDRAM‚ðŽw‚µŽ¦‚·‚½‚ß‚ÉAuSDRv‚ª•t—^‚³‚ê‚ÄŒÄ‚Î‚ê‚é‚æ‚¤‚É‚È‚Á‚½B  
+                                - CASƒŒƒCƒeƒ“ƒV  
+                                    - —ñƒAƒhƒŒƒX‚ðŽw’èiCASM†‚ª‘—Mj‚µ‚Ä‚©‚çAÅ‰‚Ìƒf[ƒ^‚ªo—Í‚³‚êŽn‚ß‚é‚Ü‚Å‚ÌŽžŠÔ  
                                     - CAS  
                                         - Column Address Strobe signal  
-                                            - DRAMã«ã¦è¨˜æ†¶ç´ å­ã®ä½ç½®ã‚’æŒ‡å®šã™ã‚‹éš›ã€åˆ—ã‚¢ãƒ‰ãƒ¬ã‚¹ã‚’æŒ‡å®šã™ã‚‹ã‚¿ã‚¤ãƒŸãƒ³ã‚°ã‚’åˆã‚ã›ã‚‹ã¨ãã«ä½¿ã‚ã‚Œã‚‹ä¿¡å·  
-                                        - è‹±å˜èªžï¼šstrobe  
-                                            - å†™çœŸæ’®å½±ç”¨ã®é–ƒå…‰ (ã›ã‚“ã“ã†) è£…ç½®ã€èª­ã¿å–ã‚Šç”¨ã®ã‚¿ã‚¤ãƒŸãƒ³ã‚°ä¿¡å·  
+                                            - DRAM‚É‚Ä‹L‰¯‘fŽq‚ÌˆÊ’u‚ðŽw’è‚·‚éÛA—ñƒAƒhƒŒƒX‚ðŽw’è‚·‚éƒ^ƒCƒ~ƒ“ƒO‚ð‡‚í‚¹‚é‚Æ‚«‚ÉŽg‚í‚ê‚éM†  
+                                        - ‰p’PŒêFstrobe  
+                                            - ŽÊ^ŽB‰e—p‚Ì‘MŒõ (‚¹‚ñ‚±‚¤) ‘•’uA“Ç‚ÝŽæ‚è—p‚Ìƒ^ƒCƒ~ƒ“ƒOM†  
                                     - RAS  
                                         - Row Address Strobe signal  
-                                            - DRAMã«ã¦è¨˜æ†¶ç´ å­ã®ä½ç½®ã‚’æŒ‡å®šã™ã‚‹éš›ã€è¡Œã‚¢ãƒ‰ãƒ¬ã‚¹ã‚’æŒ‡å®šã™ã‚‹ã‚¿ã‚¤ãƒŸãƒ³ã‚°ã‚’åˆã‚ã›ã‚‹ã¨ãã«ä½¿ã‚ã‚Œã‚‹ä¿¡å·  
-                                - ãƒãƒ¼ã‚¹ãƒˆèª­å‡ºã—  
-                                    - RowåŠã³Columnã‚¢ãƒ‰ãƒ¬ã‚¹ã‚’å…¥åŠ›ã—ãŸå¾Œã€æŒ‡å®šã—ãŸã‚¢ãƒ‰ãƒ¬ã‚¹ã‚’å…ˆé ­ã«ã—ã¦ï¼‘ã‚¯ãƒ­ãƒƒã‚¯ã«1ãƒ“ãƒƒãƒˆãšã¤é †ç•ªã«å‡ºåŠ›ã™ã‚‹ã“ã¨ãŒå‡ºæ¥ã‚‹  
+                                            - DRAM‚É‚Ä‹L‰¯‘fŽq‚ÌˆÊ’u‚ðŽw’è‚·‚éÛAsƒAƒhƒŒƒX‚ðŽw’è‚·‚éƒ^ƒCƒ~ƒ“ƒO‚ð‡‚í‚¹‚é‚Æ‚«‚ÉŽg‚í‚ê‚éM†  
+                                - ƒo[ƒXƒg“Ço‚µ  
+                                    - Row‹y‚ÑColumnƒAƒhƒŒƒX‚ð“ü—Í‚µ‚½ŒãAŽw’è‚µ‚½ƒAƒhƒŒƒX‚ðæ“ª‚É‚µ‚Ä‚PƒNƒƒbƒN‚É1ƒrƒbƒg‚¸‚Â‡”Ô‚Éo—Í‚·‚é‚±‚Æ‚ªo—ˆ‚é  
                             - DDR-SDRAM  
                                 - Double Data Rate SDRAM  
-                                - ç«‹ä¸Šã‚Šï¼ç«‹ä¸‹ã‚Šã‚¯ãƒ­ãƒƒã‚¯ã®ä¸¡æ–¹ã§ãƒ‡ãƒ¼ã‚¿è»¢é€ã§ãã‚‹ã‚ˆã†ã«é«˜é€ŸåŒ–ã—ãŸã‚‚ã®  
+                                - —§ã‚è^—§‰º‚èƒNƒƒbƒN‚Ì—¼•û‚Åƒf[ƒ^“]‘—‚Å‚«‚é‚æ‚¤‚É‚‘¬‰»‚µ‚½‚à‚Ì  
                                 - DDR2  
-                                    - ãƒãƒ¼ã‚¹ãƒˆé€Ÿåº¦ã‚’ï¼’å€ã«é«˜ã‚ãŸã‚‚ã®  
-                        - éžåŒæœŸåž‹DRAM  
+                                    - ƒo[ƒXƒg‘¬“x‚ð‚Q”{‚É‚‚ß‚½‚à‚Ì  
+                        - ”ñ“¯ŠúŒ^DRAM  
                             - FPM-DRAM  
                                 - Fast Page Mode DRAM  
-                                    é«˜é€Ÿãƒšãƒ¼ã‚¸ãƒ¢ãƒ¼ãƒ‰DRAM  
-                                - ã„ãã¤ã‹ã®é€£ç¶šã™ã‚‹ã‚¢ãƒ‰ãƒ¬ã‚¹ã®èª­ã¿å‡ºã—æ™‚ã«ã€é«˜é€ŸåŒ–ã™ã‚‹ãŸã‚ã®å·¥å¤«ã‚’åŠ ãˆãŸDRAM  
-                                    ç›´å‰ã®è¡Œã‚¢ãƒ‰ãƒ¬ã‚¹ã¨åŒã˜å ´åˆã«ã¯ã€RASä¿¡å·ã‚’å›ºå®šã—ãŸã¾ã¾CASä¿¡å·ã¨Columnã ã‘ã‚’å¤‰ãˆã¦ä¸Žãˆã‚‹ã“ã¨ã§ã€ãƒ¡ãƒ¢ãƒªç•ªåœ°ã®æŒ‡å®šæ™‚é–“ã‚’çŸ­ãã™ã‚‹ã“ã¨ã§é«˜é€ŸåŒ–ã™ã‚‹  
+                                    ‚‘¬ƒy[ƒWƒ‚[ƒhDRAM  
+                                - ‚¢‚­‚Â‚©‚Ì˜A‘±‚·‚éƒAƒhƒŒƒX‚Ì“Ç‚Ýo‚µŽž‚ÉA‚‘¬‰»‚·‚é‚½‚ß‚ÌH•v‚ð‰Á‚¦‚½DRAM  
+                                    ’¼‘O‚ÌsƒAƒhƒŒƒX‚Æ“¯‚¶ê‡‚É‚ÍARASM†‚ðŒÅ’è‚µ‚½‚Ü‚ÜCASM†‚ÆColumn‚¾‚¯‚ð•Ï‚¦‚Ä—^‚¦‚é‚±‚Æ‚ÅAƒƒ‚ƒŠ”Ô’n‚ÌŽw’èŽžŠÔ‚ð’Z‚­‚·‚é‚±‚Æ‚Å‚‘¬‰»‚·‚é  
                             - EDO-DRAM  
                                 - Extended Data Output DRAM  
-                                - ï¼ãƒã‚¤ãƒ‘ãƒ¼ãƒšãƒ¼ã‚¸ãƒ¢ãƒ¼ãƒ‰  
-                                - FPM-DRAMã®å‡ºåŠ›ã‚¿ã‚¤ãƒŸãƒ³ã‚°ã‚’å»¶é•·ã™ã‚‹ã“ã¨ã§ã€èª­å‡ºã—æ™‚ã®é€£ç¶šè»¢é€é€Ÿåº¦å‘ä¸Šã‚’å›³ã‚‹  
-                                - DRAMãƒãƒƒãƒ—ã¯ãƒ‡ãƒ¼ã‚¿ã‚’å‡ºåŠ›ã—ãªãŒã‚‰æ¬¡Columnã‚¢ãƒ‰ãƒ¬ã‚¹ã‚’å—ã‘å–ã‚Œã‚‹ãŸã‚ã€èª­å‡ºã—ãƒ‡ãƒ¼ã‚¿ã®å‡ºåŠ›ãŒé«˜é€ŸåŒ–ã•ã‚Œã‚‹ã€‚  
-            - ä¸æ®ç™ºæ€§  
-                - æ›¸ãè¾¼ã¿ä¸å¯  
-                    - ãƒžã‚¹ã‚¯ROM  
-                        - ãƒ‡ãƒ¼ã‚¿æ›¸ãæ›ãˆã§ããªã„ãƒ¡ãƒ¢ãƒª  
-                - æ›¸ãè¾¼ã¿å¯èƒ½  
-                    - æ¶ˆåŽ»ä¸å¯  
-                        - ãƒ¯ãƒ³ã‚¿ã‚¤ãƒ PROM  
-                            - ä¸€åº¦ã ã‘æ›¸ãè¾¼ã¿ãŒå¯èƒ½  
+                                - ƒnƒCƒp[ƒy[ƒWƒ‚[ƒh  
+                                - FPM-DRAM‚Ìo—Íƒ^ƒCƒ~ƒ“ƒO‚ð‰„’·‚·‚é‚±‚Æ‚ÅA“Ço‚µŽž‚Ì˜A‘±“]‘—‘¬“xŒüã‚ð}‚é  
+                                - DRAMƒ`ƒbƒv‚Íƒf[ƒ^‚ðo—Í‚µ‚È‚ª‚çŽŸColumnƒAƒhƒŒƒX‚ðŽó‚¯Žæ‚ê‚é‚½‚ßA“Ço‚µƒf[ƒ^‚Ìo—Í‚ª‚‘¬‰»‚³‚ê‚éB  
+            - •sŠö”­«  
+                - ‘‚«ž‚Ý•s‰Â  
+                    - ƒ}ƒXƒNROM  
+                        - ƒf[ƒ^‘‚«Š·‚¦‚Å‚«‚È‚¢ƒƒ‚ƒŠ  
+                - ‘‚«ž‚Ý‰Â”\  
+                    - Á‹Ž•s‰Â  
+                        - ƒƒ“ƒ^ƒCƒ€PROM  
+                            - ˆê“x‚¾‚¯‘‚«ž‚Ý‚ª‰Â”\  
                             - OTPROM  
-                    - æ¶ˆåŽ»å¯èƒ½  
-                        - ç´«å¤–ç·šæ¶ˆåŽ»  
+                    - Á‹Ž‰Â”\  
+                        - Ž‡ŠOüÁ‹Ž  
                             - UV-EPROM  
-                        - é›»æ°—çš„æ¶ˆåŽ»  
+                        - “d‹C“IÁ‹Ž  
                             - EEPROM  
-                                - é›»æ°—ã§æ›¸ãæ›ãˆå¯èƒ½  
-                                - ãƒã‚¤ãƒˆå˜ä½ã§ã®èª­ã¿æ›¸ã  
-                                - å¤§å®¹é‡åŒ–ã«ä¸å‘ã  
-                            - ãƒ•ãƒ©ãƒƒã‚·ãƒ¥ãƒ¡ãƒ¢ãƒª  
-                                - æ¶ˆåŽ»ã‚’ãƒ–ãƒ­ãƒƒã‚¯å˜ä½ã§åˆ¶é™  
-                                - å¤§å®¹é‡åŒ–ã«å‘ã„ã¦ã„ã‚‹  
-                                - é€šå¸¸ã®èª­ã¿æ›¸ãã§ä½¿ç”¨ã•ã‚Œã‚‹é›»æºé›»åœ§ã§æ›¸ãè¾¼ã¿å¯èƒ½  
-                                - NORåž‹  
-                                    - ä»¥å‰ã®ãƒ—ãƒ­ã‚°ãƒ©ãƒ æ ¼ç´ç”¨  
-                                - NANDåž‹  
-                                    - NORåž‹ã‚ˆã‚Šä½Žã‚³ã‚¹ãƒˆ  
-                                - ç¨®é¡ž  
+                                - “d‹C‚Å‘‚«Š·‚¦‰Â”\  
+                                - ƒoƒCƒg’PˆÊ‚Å‚Ì“Ç‚Ý‘‚«  
+                                - ‘å—e—Ê‰»‚É•sŒü‚«  
+                            - ƒtƒ‰ƒbƒVƒ…ƒƒ‚ƒŠ  
+                                - Á‹Ž‚ðƒuƒƒbƒN’PˆÊ‚Å§ŒÀ  
+                                - ‘å—e—Ê‰»‚ÉŒü‚¢‚Ä‚¢‚é  
+                                - ’Êí‚Ì“Ç‚Ý‘‚«‚ÅŽg—p‚³‚ê‚é“dŒ¹“dˆ³‚Å‘‚«ž‚Ý‰Â”\  
+                                - NORŒ^  
+                                    - ˆÈ‘O‚ÌƒvƒƒOƒ‰ƒ€Ši”[—p  
+                                - NANDŒ^  
+                                    - NORŒ^‚æ‚è’áƒRƒXƒg  
+                                - Ží—Þ  
                                     - SLC  
                                         - Single Level Cell  
-                                        - 1ã‚»ãƒ«ã«1ãƒ“ãƒƒãƒˆæƒ…å ±ã‚’ä¿å­˜  
-                                        - ã€‡ï¼šé•·å¯¿å‘½  
-                                            - æ›¸æ›ãˆå›žæ•°10ä¸‡å›ž  
-                                        - ã€‡ï¼šèª­æ›¸ã‚¨ãƒ©ãƒ¼å°  
-                                        - ã€‡ï¼šå‹•ä½œç’°å¢ƒãŒå¹…åºƒã„  
-                                        - Ã—ï¼šé«˜ä¾¡  
-                                            - ä¼æ¥­å‘ã‘  
-                                        - Ã—ï¼šä½Žå®¹é‡  
+                                        - 1ƒZƒ‹‚É1ƒrƒbƒgî•ñ‚ð•Û‘¶  
+                                        - ZF’·Žõ–½  
+                                            - ‘Š·‚¦‰ñ”10–œ‰ñ  
+                                        - ZF“Ç‘ƒGƒ‰[¬  
+                                        - ZF“®ìŠÂ‹«‚ª•L‚¢  
+                                        - ~F‚‰¿  
+                                            - Šé‹ÆŒü‚¯  
+                                        - ~F’á—e—Ê  
                                     - MLC  
                                         - Multi Level Cell  
-                                        - 1ã‚»ãƒ«ã«2ãƒ“ãƒƒãƒˆæƒ…å ±ã‚’ä¿å­˜  
-                                        - ã€‡ï¼šå®‰ä¾¡  
-                                            - ä¸€èˆ¬å‘ã‘SSD  
-                                        - ã€‡ï¼šå …ç‰¢  
-                                        - Ã—ï¼šä½Žå¯¿å‘½  
-                                            - æ›¸æ›ãˆå›žæ•°1ä¸‡å›ž  
+                                        - 1ƒZƒ‹‚É2ƒrƒbƒgî•ñ‚ð•Û‘¶  
+                                        - ZFˆÀ‰¿  
+                                            - ˆê”ÊŒü‚¯SSD  
+                                        - ZFŒ˜˜S  
+                                        - ~F’áŽõ–½  
+                                            - ‘Š·‚¦‰ñ”1–œ‰ñ  
                                     - TLC  
                                         - Triple Level Cell  
-                                        - 1ã‚»ãƒ«ã«3ãƒ“ãƒƒãƒˆæƒ…å ±ã‚’ä¿å­˜  
-                                        - ã€‡ï¼šå®‰ä¾¡  
-                                        - Ã—ï¼šä½Žå¯¿å‘½  
-                                            - æ›¸æ›ãˆå›žæ•°3000ï½ž5000å›ž  
+                                        - 1ƒZƒ‹‚É3ƒrƒbƒgî•ñ‚ð•Û‘¶  
+                                        - ZFˆÀ‰¿  
+                                        - ~F’áŽõ–½  
+                                            - ‘Š·‚¦‰ñ”3000`5000‰ñ  
                                     - QLC  
                                         - Quad Level Cell  
-                                        - 1ã‚»ãƒ«ã«4ãƒ“ãƒƒãƒˆæƒ…å ±ã‚’ä¿å­˜  
-                                        - 2018å¹´ã‹ã‚‰è£½é€ é–‹å§‹  
-                                        - ã€‡ï¼šå®‰ä¾¡  
-                                        - Ã—ï¼šä½Žå¯¿å‘½  
+                                        - 1ƒZƒ‹‚É4ƒrƒbƒgî•ñ‚ð•Û‘¶  
+                                        - 2018”N‚©‚ç»‘¢ŠJŽn  
+                                        - ZFˆÀ‰¿  
+                                        - ~F’áŽõ–½  
                         - FeRAM  
-                            - Ferroelectric RAMã€å¼·èª˜é›»ä½“ãƒ¡ãƒ¢ãƒª  
-                                - è‹±å˜èªžï¼šferroelectric  
-                                    - å¼·èª˜é›»æ€§ã®  
-                            - å¼·èª˜é›»ä½“  
-                                - é›»åœ§ã‚’åŠ ãˆã‚‹ã“ã¨ã«ã‚ˆã£ã¦ç‰©è³ªå†…ã®è‡ªç™ºåˆ†æ¥µã®æ–¹å‘ã‚’è‡ªç”±ã«å¤‰åŒ–ã•ã›ã€é›»åœ§ã‚’ã‹ã‘ãªãã¦ã‚‚ãã®åˆ†æ¥µæ–¹å‘ã‚’æŒç¶šã•ã›ã‚‹ã“ã¨ã®ã§ãã‚‹èª˜é›»ä½“  
-    - ï¼’ï¼ŽCPU/ãƒ¡ãƒ¢ãƒªã‚¢ãƒ¼ã‚­ãƒ†ã‚¯ãƒãƒ£  
-        - ã‚¨ãƒ³ãƒ™ãƒ‡ãƒƒãƒ‰ã‚·ã‚¹ãƒ†ãƒ åŸºæœ¬æ§‹æˆ  
-            - I/Oã‚¢ã‚¯ã‚»ã‚¹æ–¹å¼  
-                - ãƒ¡ãƒ¢ãƒªãƒžãƒƒãƒ—ãƒ‰I/Oæ–¹å¼  
-                    - å…¥å‡ºåŠ›è£…ç½®ã¨ãƒ¡ãƒ¢ãƒªã‚’åŒºåˆ¥ã›ãšã€ä¸¡è€…å…±é€šã®ã‚¢ã‚¯ã‚»ã‚¹ä¿¡å·ã‚’ç”¨ã„ã‚‹  
-                - I/Oãƒžãƒƒãƒ—ãƒ‰I/Oæ–¹å¼  
-                    - ãƒ¡ãƒ¢ãƒªç©ºé–“ã¨ã¯åˆ¥ã«I/Oã‚¢ãƒ‰ãƒ¬ã‚¹ç©ºé–“ã‚’è¨­ã‘ã‚‹  
-                - ã‚¢ãƒ‰ãƒ¬ã‚¹ãƒã‚¹ã®å…±é€šåŒ–  
-                    - ãƒ‡ãƒ¼ã‚¿ãƒã‚¹ã¨ã‚¢ãƒ‰ãƒ¬ã‚¹ãƒã‚¹ã‚’åŒä¸€ã®ä¿¡å·ç·šã¨ã—ã¦æ™‚åˆ†å‰²ã§åˆ©ç”¨ã™ã‚‹  
+                            - Ferroelectric RAMA‹­—U“d‘Ìƒƒ‚ƒŠ  
+                                - ‰p’PŒêFferroelectric  
+                                    - ‹­—U“d«‚Ì  
+                            - ‹­—U“d‘Ì  
+                                - “dˆ³‚ð‰Á‚¦‚é‚±‚Æ‚É‚æ‚Á‚Ä•¨Ž¿“à‚ÌŽ©”­•ª‹É‚Ì•ûŒü‚ðŽ©—R‚É•Ï‰»‚³‚¹A“dˆ³‚ð‚©‚¯‚È‚­‚Ä‚à‚»‚Ì•ª‹É•ûŒü‚ðŽ‘±‚³‚¹‚é‚±‚Æ‚Ì‚Å‚«‚é—U“d‘Ì  
+    - ‚QDCPU/ƒƒ‚ƒŠƒA[ƒLƒeƒNƒ`ƒƒ  
+        - ƒGƒ“ƒxƒfƒbƒhƒVƒXƒeƒ€Šî–{\¬  
+            - I/OƒAƒNƒZƒX•ûŽ®  
+                - ƒƒ‚ƒŠƒ}ƒbƒvƒhI/O•ûŽ®  
+                    - “üo—Í‘•’u‚Æƒƒ‚ƒŠ‚ð‹æ•Ê‚¹‚¸A—¼ŽÒ‹¤’Ê‚ÌƒAƒNƒZƒXM†‚ð—p‚¢‚é  
+                - I/Oƒ}ƒbƒvƒhI/O•ûŽ®  
+                    - ƒƒ‚ƒŠ‹óŠÔ‚Æ‚Í•Ê‚ÉI/OƒAƒhƒŒƒX‹óŠÔ‚ðÝ‚¯‚é  
+                - ƒAƒhƒŒƒXƒoƒX‚Ì‹¤’Ê‰»  
+                    - ƒf[ƒ^ƒoƒX‚ÆƒAƒhƒŒƒXƒoƒX‚ð“¯ˆê‚ÌM†ü‚Æ‚µ‚ÄŽž•ªŠ„‚Å—˜—p‚·‚é  
                     - ALE  
                         - Address Latch Enable  
-            - ã‚¢ãƒ¼ã‚­ãƒ†ã‚¯ãƒãƒ£  
-                - ãƒãƒ¼ãƒãƒ¼ãƒ‰ã‚¢ãƒ¼ã‚­ãƒ†ã‚¯ãƒãƒ£  
-                    - ãƒ—ãƒ­ã‚°ãƒ©ãƒ æ ¼ç´ç”¨ãƒ¡ãƒ¢ãƒªã¨ãƒ‡ãƒ¼ã‚¿æ ¼ç´ç”¨ãƒ¡ãƒ¢ãƒªã®ãƒã‚¹ã‚’ç‹¬ç«‹ã«æŒã¤  
-                - ãƒŽã‚¤ãƒžãƒ³åž‹ã‚¢ãƒ¼ã‚­ãƒ†ã‚¯ãƒãƒ£  
-                    - ï¼ãƒ—ãƒªãƒ³ã‚¹ãƒˆãƒ³ã‚¢ãƒ¼ã‚­ãƒ†ã‚¯ãƒãƒ£  
-                    - ãƒ‡ãƒ¼ã‚¿ã¨ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã‚’åŒä¸€ã®ãƒ¡ãƒ¢ãƒªãƒã‚¹ä¸Šã«é…ç½®ã™ã‚‹  
-        - CPUã‚¢ãƒ¼ã‚­ãƒ†ã‚¯ãƒãƒ£  
-            ãƒªãƒ³ã‚¯: [sp.e-words.jp/w/%E3%83%9E%E3%83%AB%E3%83%81%E3%83%97%E3%83%AD%E3%82%BB%E3%83%83%E3%82%B5.html][7]  
-            - é«˜é€ŸåŒ–ã‚¢ãƒ¼ã‚­ãƒ†ã‚¯ãƒãƒ£  
-                - ãƒ‘ã‚¤ãƒ—ãƒ©ã‚¤ãƒ³  
-                    - ãƒ‘ã‚¤ãƒ—ãƒ©ã‚¤ãƒ³ãƒãƒ–ãƒ«  
-                        - åˆ†å²å‘½ä»¤ãŒã‚ã‚‹ã¨ãƒ‘ã‚¤ãƒ—ãƒ©ã‚¤ãƒ³ä¸Šã«æ®‹ã£ã¦ã„ã‚‹å®Ÿè¡Œä¸­ã®çš‡æ—ã®å‘½ä»¤ã‚’ç ´æ£„ã—ãªã‘ã‚Œã°ãªã‚‰ãªã„ã®ã§ã€ã‚¹ãƒ«ãƒ¼ãƒ—ãƒƒãƒˆã‚’è½ã¨ã™åŽŸå› ã¨ãªã‚‹ã€‚ç ´æ£„ã™ã‚‹å‘½ä»¤ã‚¹ãƒ­ãƒƒãƒˆã®ã“ã¨ã€‚  
-                            - â˜…è¦è¿½åŠ   
-                        - é…å»¶åˆ†å²  
-                            - çš‡æ—ã®å‘½ä»¤ã‚’ç„¡æ¡ä»¶ã«å®Ÿè¡Œã—ãŸå¾Œã«ã€å®Ÿéš›ã®åˆ†å²ã‚’ç™ºç”Ÿã•ã›ã‚‹ã€‚  
-                    - ãƒ‘ã‚¤ãƒ—ãƒ©ã‚¤ãƒ³ãƒã‚¶ãƒ¼ãƒ‰  
-                        - ãƒ‘ã‚¤ãƒ—ãƒ©ã‚¤ãƒ³ã®æµã‚Œã‚’é˜»å®³ã™ã‚‹è¦å› ã®ã“ã¨  
-                            - â˜…è¦è¿½åŠ   
-                        - ãƒ‡ãƒ¼ã‚¿ãƒã‚¶ãƒ¼ãƒ‰  
-                            - ç›´å‰ã®å‘½ä»¤ã®å®Ÿè¡Œçµæžœã‚’æ¬¡å‘½ä»¤ãŒä½¿ç”¨ã™ã‚‹å ´åˆã€å—ã‘å–ã‚‹ã¾ã§ã®å¾…ã¡æ™‚é–“ï¼ˆã‚¹ãƒˆãƒ¼ãƒ«ï¼‰ãŒç™ºç”Ÿã™ã‚‹  
-                                - â˜…è¦è¿½åŠ   
-                        - æ§‹é€ ãƒã‚¶ãƒ¼ãƒ‰  
-                            - ä¸€ã¤ã—ã‹ãªã„CPUå†…éƒ¨ã®è³‡æºã‚’åŒæ™‚ã«ä½¿ç”¨ã—ã‚ˆã†ã¨ã—ãŸã¨ãã®ãƒã‚¶ãƒ¼ãƒ‰  
-                                - â˜…è¦è¿½åŠ   
-                        - åˆ¶å¾¡ãƒã‚¶ãƒ¼ãƒ‰  
-                            - æ¡ä»¶åˆ†å²å‘½ä»¤ã§ã¯ã€å‘½ä»¤ã®å®Ÿè¡Œçµæžœã«ã‚ˆã£ã¦åˆ†å²ãŒç™ºç”Ÿã™ã‚‹ã‹ã—ãªã„ã‹ãŒæ±ºã¾ã‚‹ãŸã‚ã€æ¬¡ã«ãƒ•ã‚§ãƒƒãƒã™ã¹ãå‘½ä»¤ã®ã‚¢ãƒ‰ãƒ¬ã‚¹ãŒç¢ºå®šã™ã‚‹ã‚¿ã‚¤ãƒŸãƒ³ã‚°ãŒé…ããªã‚‹  
-                                - â˜…è¦è¿½åŠ   
-                        - è‹±å˜èªžï¼šhazard  
-                            - å±é™º  
-                                - â˜…è¦è¿½åŠ   
-                    - ã‚¹ãƒ¼ãƒ‘ãƒ¼ãƒ‘ã‚¤ãƒ—ãƒ©ã‚¤ãƒ³  
-                        - ãƒ‘ã‚¤ãƒ—ãƒ©ã‚¤ãƒ³ã®å‡¦ç†ã‚¹ãƒ†ãƒ¼ã‚¸ã‚’ã•ã‚‰ã«ç´°åˆ†åŒ–ã—ãŸã‚‚ã®  
-                - ã‚¹ãƒ¼ãƒ‘ãƒ¼ã‚¹ã‚«ãƒ©  
-                    - ãƒ‘ã‚¤ãƒ—ãƒ©ã‚¤ãƒ³ã‚’è¤‡æ•°ç”¨æ„ã—ã¦ã€åŒæ™‚ã«å‘½ä»¤ã‚’å®Ÿè¡Œã§ãã‚‹ã‚ˆã†ã«ã—ãŸã‚‚ã®  
-                    - ã‚¢ã‚¦ãƒˆã‚ªãƒ–ã‚ªãƒ¼ãƒ€ãƒ¼å®Ÿè¡Œ  
-                    - åˆ†å²äºˆæ¸¬  
-                    - æŠ•æ©Ÿçš„å®Ÿè¡Œ  
-                    - ãƒªãƒãƒ¼ãƒ ãƒ¬ã‚¸ã‚¹ã‚¿  
+            - ƒA[ƒLƒeƒNƒ`ƒƒ  
+                - ƒn[ƒo[ƒhƒA[ƒLƒeƒNƒ`ƒƒ  
+                    - ƒvƒƒOƒ‰ƒ€Ši”[—pƒƒ‚ƒŠ‚Æƒf[ƒ^Ši”[—pƒƒ‚ƒŠ‚ÌƒoƒX‚ð“Æ—§‚ÉŽ‚Â  
+                - ƒmƒCƒ}ƒ“Œ^ƒA[ƒLƒeƒNƒ`ƒƒ  
+                    - ƒvƒŠƒ“ƒXƒgƒ“ƒA[ƒLƒeƒNƒ`ƒƒ  
+                    - ƒf[ƒ^‚ÆƒvƒƒOƒ‰ƒ€‚ð“¯ˆê‚Ìƒƒ‚ƒŠƒoƒXã‚É”z’u‚·‚é  
+        - CPUƒA[ƒLƒeƒNƒ`ƒƒ  
+            ƒŠƒ“ƒN: [sp.e-words.jp/w/%E3%83%9E%E3%83%AB%E3%83%81%E3%83%97%E3%83%AD%E3%82%BB%E3%83%83%E3%82%B5.html][7]  
+            - ‚‘¬‰»ƒA[ƒLƒeƒNƒ`ƒƒ  
+                - ƒpƒCƒvƒ‰ƒCƒ“  
+                    - ƒpƒCƒvƒ‰ƒCƒ“ƒoƒuƒ‹  
+                        - •ªŠò–½—ß‚ª‚ ‚é‚ÆƒpƒCƒvƒ‰ƒCƒ“ã‚ÉŽc‚Á‚Ä‚¢‚éŽÀs’†‚Ìc‘°‚Ì–½—ß‚ð”jŠü‚µ‚È‚¯‚ê‚Î‚È‚ç‚È‚¢‚Ì‚ÅAƒXƒ‹[ƒvƒbƒg‚ð—Ž‚Æ‚·Œ´ˆö‚Æ‚È‚éB”jŠü‚·‚é–½—ßƒXƒƒbƒg‚Ì‚±‚ÆB  
+                            - š—v’Ç‰Á  
+                        - ’x‰„•ªŠò  
+                            - c‘°‚Ì–½—ß‚ð–³ðŒ‚ÉŽÀs‚µ‚½Œã‚ÉAŽÀÛ‚Ì•ªŠò‚ð”­¶‚³‚¹‚éB  
+                    - ƒpƒCƒvƒ‰ƒCƒ“ƒnƒU[ƒh  
+                        - ƒpƒCƒvƒ‰ƒCƒ“‚Ì—¬‚ê‚ð‘jŠQ‚·‚é—vˆö‚Ì‚±‚Æ  
+                            - š—v’Ç‰Á  
+                        - ƒf[ƒ^ƒnƒU[ƒh  
+                            - ’¼‘O‚Ì–½—ß‚ÌŽÀsŒ‹‰Ê‚ðŽŸ–½—ß‚ªŽg—p‚·‚éê‡AŽó‚¯Žæ‚é‚Ü‚Å‚Ì‘Ò‚¿ŽžŠÔiƒXƒg[ƒ‹j‚ª”­¶‚·‚é  
+                                - š—v’Ç‰Á  
+                        - \‘¢ƒnƒU[ƒh  
+                            - ˆê‚Â‚µ‚©‚È‚¢CPU“à•”‚ÌŽ‘Œ¹‚ð“¯Žž‚ÉŽg—p‚µ‚æ‚¤‚Æ‚µ‚½‚Æ‚«‚ÌƒnƒU[ƒh  
+                                - š—v’Ç‰Á  
+                        - §ŒäƒnƒU[ƒh  
+                            - ðŒ•ªŠò–½—ß‚Å‚ÍA–½—ß‚ÌŽÀsŒ‹‰Ê‚É‚æ‚Á‚Ä•ªŠò‚ª”­¶‚·‚é‚©‚µ‚È‚¢‚©‚ªŒˆ‚Ü‚é‚½‚ßAŽŸ‚ÉƒtƒFƒbƒ`‚·‚×‚«–½—ß‚ÌƒAƒhƒŒƒX‚ªŠm’è‚·‚éƒ^ƒCƒ~ƒ“ƒO‚ª’x‚­‚È‚é  
+                                - š—v’Ç‰Á  
+                        - ‰p’PŒêFhazard  
+                            - ŠëŒ¯  
+                                - š—v’Ç‰Á  
+                    - ƒX[ƒp[ƒpƒCƒvƒ‰ƒCƒ“  
+                        - ƒpƒCƒvƒ‰ƒCƒ“‚Ìˆ—ƒXƒe[ƒW‚ð‚³‚ç‚É×•ª‰»‚µ‚½‚à‚Ì  
+                - ƒX[ƒp[ƒXƒJƒ‰  
+                    - ƒpƒCƒvƒ‰ƒCƒ“‚ð•¡”—pˆÓ‚µ‚ÄA“¯Žž‚É–½—ß‚ðŽÀs‚Å‚«‚é‚æ‚¤‚É‚µ‚½‚à‚Ì  
+                    - ƒAƒEƒgƒIƒuƒI[ƒ_[ŽÀs  
+                    - •ªŠò—\‘ª  
+                    - “Š‹@“IŽÀs  
+                    - ƒŠƒl[ƒ€ƒŒƒWƒXƒ^  
                 - CISC/RISC  
                     - RISC  
                     - CISC  
                 - VLIW  
                     - Very Long Instruction Word  
-                - ãƒžãƒ«ãƒãƒ—ãƒ­ã‚»ãƒƒã‚µ/ãƒžãƒ«ãƒã‚³ã‚¢  
-                    - ç¨®é¡ž  
-                        - ãƒžãƒ«ãƒãƒ—ãƒ­ã‚»ãƒƒã‚µ  
-                            - è¤‡æ•°ã®CPU  
-                        - ã‚·ãƒ³ã‚°ãƒ«ãƒãƒƒãƒ—ãƒžãƒ«ãƒã‚³ã‚¢  
-                            - ä¸€ã¤ã®CPUã«è¤‡æ•°ã‚³ã‚¢  
-                            - å¯¾ç§°  
-                                - å„ãƒ—ãƒ­ã‚»ãƒƒã‚µãŒå¯¾ç­‰  
+                - ƒ}ƒ‹ƒ`ƒvƒƒZƒbƒT/ƒ}ƒ‹ƒ`ƒRƒA  
+                    - Ží—Þ  
+                        - ƒ}ƒ‹ƒ`ƒvƒƒZƒbƒT  
+                            - •¡”‚ÌCPU  
+                        - ƒVƒ“ƒOƒ‹ƒ`ƒbƒvƒ}ƒ‹ƒ`ƒRƒA  
+                            - ˆê‚Â‚ÌCPU‚É•¡”ƒRƒA  
+                            - ‘ÎÌ  
+                                - ŠeƒvƒƒZƒbƒT‚ª‘Î“™  
                                 - SMP  
                                     - Symmetrical Multi Processing  
-                                        - è¤‡æ•°CPUã‚³ã‚¢ã‚·ã‚¹ãƒ†ãƒ ã«ãŠã„ã¦ã€å„CPUã‚³ã‚¢ã®å½¹å‰²ã‚’æ±ºã‚ãšã€å˜ä¸€ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã‚’è¤‡æ•°ã‚³ã‚¢ã§å‡¦ç†ã™ã‚‹è² è·åˆ†æ•£åž‹ã®ã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢æ§‹æˆ  
-                            - éžå¯¾ç§°  
-                                - å„ãƒ—ãƒ­ã‚»ãƒƒã‚µé–“ã§å½¹å‰²åˆ†æ‹…ï¼ˆåˆ¶å¾¡â‡”éžåˆ¶å¾¡ãªã©ï¼‰  
+                                        - •¡”CPUƒRƒAƒVƒXƒeƒ€‚É‚¨‚¢‚ÄAŠeCPUƒRƒA‚Ì–ðŠ„‚ðŒˆ‚ß‚¸A’PˆêƒvƒƒOƒ‰ƒ€‚ð•¡”ƒRƒA‚Åˆ—‚·‚é•‰‰×•ªŽUŒ^‚Ìƒ\ƒtƒgƒEƒFƒA\¬  
+                            - ”ñ‘ÎÌ  
+                                - ŠeƒvƒƒZƒbƒTŠÔ‚Å–ðŠ„•ª’Si§ŒäÌ”ñ§Œä‚È‚Çj  
                                 - AMP  
                                     - Asymmetrical Multi Processing  
-                                        - è¤‡æ•°CPUã‚³ã‚¢ã‚·ã‚¹ãƒ†ãƒ ã«ãŠã„ã¦ã€å„ã‚³ã‚¢ã®å½¹å‰²ã‚’å›ºå®šåŒ–ã—ã€åˆ¥ã€…ã®ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã‚’å‡¦ç†ã•ã›ã‚‹æ©Ÿèƒ½åˆ†æ•£åž‹ã®ã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢æ§‹æˆ  
-                        - ã‚·ãƒ³ã‚°ãƒ«ãƒãƒƒãƒ—ã‚·ãƒ³ã‚°ãƒ«ã‚³ã‚¢  
-                    - ãƒ›ãƒ¢ã‚¸ãƒ‹ã‚¢ã‚¹ãƒžãƒ«ãƒã‚³ã‚¢  
-                        - â˜…è¦è¿½åŠ   
-                    - ãƒ˜ãƒ†ãƒ­ã‚¸ãƒ‹ã‚¢ã‚¹ãƒžãƒ«ãƒã‚³ã‚¢  
-                        - â˜…è¦è¿½åŠ   
-                    - ãƒœãƒ©ãƒƒã‚¯ã®æ³•å‰‡  
-                        - â˜…è¦è¿½åŠ   
-                - ã‚³ãƒ³ãƒ•ã‚£ã‚®ãƒ£ãƒ©ãƒ–ãƒ«ãƒ—ãƒ­ã‚»ãƒƒã‚µ  
-                    - â˜…è¦è¿½åŠ   
+                                        - •¡”CPUƒRƒAƒVƒXƒeƒ€‚É‚¨‚¢‚ÄAŠeƒRƒA‚Ì–ðŠ„‚ðŒÅ’è‰»‚µA•ÊX‚ÌƒvƒƒOƒ‰ƒ€‚ðˆ—‚³‚¹‚é‹@”\•ªŽUŒ^‚Ìƒ\ƒtƒgƒEƒFƒA\¬  
+                        - ƒVƒ“ƒOƒ‹ƒ`ƒbƒvƒVƒ“ƒOƒ‹ƒRƒA  
+                    - ƒzƒ‚ƒWƒjƒAƒXƒ}ƒ‹ƒ`ƒRƒA  
+                        - š—v’Ç‰Á  
+                    - ƒwƒeƒƒWƒjƒAƒXƒ}ƒ‹ƒ`ƒRƒA  
+                        - š—v’Ç‰Á  
+                    - ƒ{ƒ‰ƒbƒN‚Ì–@‘¥  
+                        - š—v’Ç‰Á  
+                - ƒRƒ“ƒtƒBƒMƒƒƒ‰ƒuƒ‹ƒvƒƒZƒbƒT  
+                    - š—v’Ç‰Á  
             - DSP  
                 - Digital Signal Processor  
-                - ç©å’Œæ¼”ç®—ã‚’é«˜é€Ÿã«å®Ÿè¡Œã€ç°¡å˜ãªæ¡ä»¶åˆ†å²å‘½ä»¤ã‚’å‚™ãˆã‚‹  
-                - ç©å’Œæ¼”ç®—  
-                    - ä¹—ç®—ã—ãŸçµæžœã‚’æ¬¡ã€…ã¨åŠ ç®—ã™ã‚‹æ¼”ç®—  
-                    - Rt+1ï¼Rtï¼‹(XtÃ—Yt)  
-                - ç§»å‹•å¹³å‡  
-                    - åŠ é‡å¹³å‡  
-                        - ãã‚Œãžã‚Œã®é‡è¦åº¦ã‚’åŠ å‘³ã—ãŸå¹³å‡  
-                    - åŠ é‡å¹³å‡ã®å‡¦ç†ã‚’å®Ÿæ™‚é–“ã§æ¬¡ã€…ã¨è¡Œã†ã“ã¨  
-        - ãƒã‚¹ã‚¢ãƒ¼ã‚­ãƒ†ã‚¯ãƒãƒ£  
-            - æ§‹æˆè¦ä»¶  
-                - ãƒã‚¹ãƒ—ãƒ­ãƒˆã‚³ãƒ«  
-                    - ãƒã‚¹ãƒžã‚¹ã‚¿  
+                - Ï˜a‰‰ŽZ‚ð‚‘¬‚ÉŽÀsAŠÈ’P‚ÈðŒ•ªŠò–½—ß‚ð”õ‚¦‚é  
+                - Ï˜a‰‰ŽZ  
+                    - æŽZ‚µ‚½Œ‹‰Ê‚ðŽŸX‚Æ‰ÁŽZ‚·‚é‰‰ŽZ  
+                    - Rt+1Rt{(Xt~Yt)  
+                - ˆÚ“®•½‹Ï  
+                    - ‰Ád•½‹Ï  
+                        - ‚»‚ê‚¼‚ê‚Ìd—v“x‚ð‰Á–¡‚µ‚½•½‹Ï  
+                    - ‰Ád•½‹Ï‚Ìˆ—‚ðŽÀŽžŠÔ‚ÅŽŸX‚Æs‚¤‚±‚Æ  
+        - ƒoƒXƒA[ƒLƒeƒNƒ`ƒƒ  
+            - \¬—vŒ  
+                - ƒoƒXƒvƒƒgƒRƒ‹  
+                    - ƒoƒXƒ}ƒXƒ^  
                         - CPU  
-                        - DMAã‚³ãƒ³ãƒˆãƒ­ãƒ¼ãƒ©  
-                    - ãƒã‚¹ã‚¹ãƒ¬ãƒ¼ãƒ–  
-                        - å…¥å‡ºåŠ›ã‚¤ãƒ³ã‚¿ãƒ¼ãƒ•ã‚§ãƒ¼ã‚¹  
-                    - ãƒã‚¹ã‚¢ãƒ¼ãƒ“ã‚¿  
-                        - é›†ä¸­ç®¡ç†æ–¹å¼  
-                        - ãƒã‚¹ä½¿ç”¨æ¨©ã®èª¿åœã‚’è¡Œã†æ–¹å¼  
-            - ã‚·ã‚¹ãƒ†ãƒ ãƒã‚¹æ§‹æˆ  
-                - å˜ä¸€ãƒã‚¹æ§‹æˆ  
-                - éšŽå±¤ãƒã‚¹æ§‹æˆ  
-                - è¤‡æ•°ãƒã‚¹æ§‹æˆ  
-                    - ãƒžãƒ«ãƒãƒ¬ã‚¤ãƒ¤ãƒã‚¹æ§‹æˆ  
-                        - ç”¨é€”ã”ã¨ã«è¤‡æ•°ã®ãƒã‚¹ã‚’ç”¨æ„  
-                    - ã‚¹ã‚¤ãƒƒãƒãƒãƒƒãƒˆãƒ¯ãƒ¼ã‚¯ãƒã‚¹æ§‹æˆ  
-                        - è¤‡æ•°ã®ãƒã‚¹ã‚’ç›®çš„ã«å¿œã˜ã¦ã‚¹ã‚¤ãƒƒãƒã§åˆ‡ã‚Šæ›¿ãˆã‚‹  
-            - å…¥å‡ºåŠ›â‡”CPUåŒæœŸæ–¹æ³•  
-                - MPUã‹ã‚‰å…¥å‡ºåŠ›ãƒ‡ãƒã‚¤ã‚¹ã«å¯¾ã™ã‚‹ã‚¢ã‚¯ã‚»ã‚¹é€Ÿåº¦ã‚’é…ãã—ã¦åŒæœŸã™ã‚‹  
-                - ã‚¦ã‚§ã‚¤ãƒˆæ©Ÿèƒ½  
-                    - ã‚¢ã‚¯ã‚»ã‚¹æ™‚ã«ãƒ€ãƒŸãƒ¼ã‚µã‚¤ã‚¯ãƒ«ã‚’æŒ¿å…¥ã—ã¦ã‚¢ã‚¯ã‚»ã‚¹ã‚’é…ãã™ã‚‹  
-                        ï¼MPUãŒå…¥å‡ºåŠ›ã‚¢ã‚¯ã‚»ã‚¹å¯èƒ½ã‚’ç¢ºèªã—ã¦å¾…ã¤  
-                        â‰’ãƒãƒ¼ãƒªãƒ³ã‚°  
-                - ãƒ¬ãƒ‡ã‚£æ©Ÿèƒ½  
-                    - MPUãŒå¤–éƒ¨ãƒ‡ãƒã‚¤ã‚¹ã‹ã‚‰ã®ãƒ¬ãƒ‡ã‚£ä¿¡å·ï¼ˆCPUã«å¯¾ã—ã¦å®Ÿè¡Œä¸­ã®ã‚¢ã‚¯ã‚»ã‚¹ã‚µã‚¤ã‚¯ãƒ«ã‚’å»¶é•·ã™ã‚‹ã‚ˆã†ã«æŒ‡ç¤ºã™ã‚‹ä¿¡å·ï¼‰ã‚’å¾…ã£ã¦ã€ã‚¢ã‚¯ã‚»ã‚¹ã‚’é…ãã™ã‚‹  
-                        ï¼MPUãŒå…¥å‡ºåŠ›ã‚¢ã‚¯ã‚»ã‚¹å¯èƒ½ã®é€šçŸ¥ã‚’å¾…ã¤  
-                        â‰’å‰²è¾¼ã¿  
-            - ãƒžãƒ«ãƒãƒ—ãƒ­ã‚»ãƒƒã‚µ  
-                - å¯†çµåˆæ§‹æˆ  
-                    - è¤‡æ•°ã®ãƒ—ãƒ­ã‚»ãƒƒã‚µãŒåŒã˜ãƒ¡ãƒ¢ãƒªã®ä¸€éƒ¨ã‚’å…±æœ‰ã™ã‚‹  
-                    - æ§‹æˆ  
-                        - å¯†çµåˆ  
-                            - å…¨ã¦å…±æœ‰  
-                        - å…±æœ‰ãƒ¡ãƒ¢ãƒªæ–¹å¼  
-                            - å„ãƒ—ãƒ­ã‚»ãƒƒã‚µãŒã‚­ãƒ£ãƒƒã‚·ãƒ¥ãƒ¡ãƒ¢ãƒªã‚’ã‚‚ã¤  
-                            - ãƒ‡ãƒ¥ã‚¢ãƒ«ãƒãƒ¼ãƒˆãƒ¡ãƒ¢ãƒªï¼ˆDPRAM)ã«ã‚ˆã‚‹ä¸€éƒ¨å…±æœ‰  
-                - ç–Žçµåˆæ§‹æˆ  
-                    - å„ãƒ—ãƒ­ã‚»ãƒƒã‚µãŒå°‚ç”¨ã®ãƒ¡ãƒ¢ãƒªã‚’æŒã¤  
-                    - åˆ†æ•£ãƒ¡ãƒ¢ãƒªæ–¹å¼  
-                        - ã‚°ãƒªãƒƒãƒ‰ã‚³ãƒ³ãƒ”ãƒ¥ãƒ¼ãƒ†ã‚£ãƒ³ã‚°  
-                            - é›¢ã‚ŒãŸå ´æ‰€ã«ã‚ã‚‹å¤šæ•°ã®ã‚³ãƒ³ãƒ”ãƒ¥ãƒ¼ã‚¿ã‚’ãƒãƒƒãƒˆãƒ¯ãƒ¼ã‚¯ã§æŽ¥ç¶šã—ã¦è¤‡é›‘ãªè¨ˆç®—ã‚’åˆ†æ¥­ã™ã‚‹  
-                                - â˜…è¦è¿½åŠ   
-        - ãƒ¡ãƒ¢ãƒªã‚¢ãƒ¼ã‚­ãƒ†ã‚¯ãƒãƒ£  
-            - ãƒ¡ã‚¤ãƒ³ãƒ¡ãƒ¢ãƒªåˆ¶å¾¡  
-                - å¤§å®¹é‡åŒ–æŠ€è¡“  
-                    - ãƒ¡ãƒ¢ãƒªæ–¹å¼  
-                        - ãƒãƒ³ã‚¯ãƒ¡ãƒ¢ãƒªæ–¹å¼  
-                            - åŒä¸€ã‚¢ãƒ‰ãƒ¬ã‚¹ç©ºé–“ã«è¤‡æ•°å®Ÿãƒ¡ãƒ¢ãƒª  
-                                - â˜…è¦è¿½åŠ   
-                        - ãƒšãƒ¼ã‚¸ãƒ³ã‚°æ–¹å¼  
-                            - ä»®æƒ³è¨˜æ†¶ã‚’ç”¨ã„ã¦ã€ä¸»è¨˜æ†¶ãƒ¡ãƒ¢ãƒªã¨å¤–éƒ¨è¨˜æ†¶è£…ç½®ã®ãƒ‡ãƒ¼ã‚¿ã‚’ã€**å›ºå®šé•·**ã‚µã‚¤ã‚ºã®ãƒšãƒ¼ã‚¸ã§å…¥æ›¿ãˆã‚‹æ–¹æ³•  
+                        - DMAƒRƒ“ƒgƒ[ƒ‰  
+                    - ƒoƒXƒXƒŒ[ƒu  
+                        - “üo—ÍƒCƒ“ƒ^[ƒtƒF[ƒX  
+                    - ƒoƒXƒA[ƒrƒ^  
+                        - W’†ŠÇ—•ûŽ®  
+                        - ƒoƒXŽg—pŒ ‚Ì’²’â‚ðs‚¤•ûŽ®  
+            - ƒVƒXƒeƒ€ƒoƒX\¬  
+                - ’PˆêƒoƒX\¬  
+                - ŠK‘wƒoƒX\¬  
+                - •¡”ƒoƒX\¬  
+                    - ƒ}ƒ‹ƒ`ƒŒƒCƒ„ƒoƒX\¬  
+                        - —p“r‚²‚Æ‚É•¡”‚ÌƒoƒX‚ð—pˆÓ  
+                    - ƒXƒCƒbƒ`ƒlƒbƒgƒ[ƒNƒoƒX\¬  
+                        - •¡”‚ÌƒoƒX‚ð–Ú“I‚É‰ž‚¶‚ÄƒXƒCƒbƒ`‚ÅØ‚è‘Ö‚¦‚é  
+            - “üo—ÍÌCPU“¯Šú•û–@  
+                - MPU‚©‚ç“üo—ÍƒfƒoƒCƒX‚É‘Î‚·‚éƒAƒNƒZƒX‘¬“x‚ð’x‚­‚µ‚Ä“¯Šú‚·‚é  
+                - ƒEƒFƒCƒg‹@”\  
+                    - ƒAƒNƒZƒXŽž‚Éƒ_ƒ~[ƒTƒCƒNƒ‹‚ð‘}“ü‚µ‚ÄƒAƒNƒZƒX‚ð’x‚­‚·‚é  
+                        MPU‚ª“üo—ÍƒAƒNƒZƒX‰Â”\‚ðŠm”F‚µ‚Ä‘Ò‚Â  
+                        àƒ|[ƒŠƒ“ƒO  
+                - ƒŒƒfƒB‹@”\  
+                    - MPU‚ªŠO•”ƒfƒoƒCƒX‚©‚ç‚ÌƒŒƒfƒBM†iCPU‚É‘Î‚µ‚ÄŽÀs’†‚ÌƒAƒNƒZƒXƒTƒCƒNƒ‹‚ð‰„’·‚·‚é‚æ‚¤‚ÉŽwŽ¦‚·‚éM†j‚ð‘Ò‚Á‚ÄAƒAƒNƒZƒX‚ð’x‚­‚·‚é  
+                        MPU‚ª“üo—ÍƒAƒNƒZƒX‰Â”\‚Ì’Ê’m‚ð‘Ò‚Â  
+                        àŠ„ž‚Ý  
+            - ƒ}ƒ‹ƒ`ƒvƒƒZƒbƒT  
+                - –§Œ‹‡\¬  
+                    - •¡”‚ÌƒvƒƒZƒbƒT‚ª“¯‚¶ƒƒ‚ƒŠ‚Ìˆê•”‚ð‹¤—L‚·‚é  
+                    - \¬  
+                        - –§Œ‹‡  
+                            - ‘S‚Ä‹¤—L  
+                        - ‹¤—Lƒƒ‚ƒŠ•ûŽ®  
+                            - ŠeƒvƒƒZƒbƒT‚ªƒLƒƒƒbƒVƒ…ƒƒ‚ƒŠ‚ð‚à‚Â  
+                            - ƒfƒ…ƒAƒ‹ƒ|[ƒgƒƒ‚ƒŠiDPRAM)‚É‚æ‚éˆê•”‹¤—L  
+                - ‘aŒ‹‡\¬  
+                    - ŠeƒvƒƒZƒbƒT‚ªê—p‚Ìƒƒ‚ƒŠ‚ðŽ‚Â  
+                    - •ªŽUƒƒ‚ƒŠ•ûŽ®  
+                        - ƒOƒŠƒbƒhƒRƒ“ƒsƒ…[ƒeƒBƒ“ƒO  
+                            - —£‚ê‚½êŠ‚É‚ ‚é‘½”‚ÌƒRƒ“ƒsƒ…[ƒ^‚ðƒlƒbƒgƒ[ƒN‚ÅÚ‘±‚µ‚Ä•¡ŽG‚ÈŒvŽZ‚ð•ª‹Æ‚·‚é  
+                                - š—v’Ç‰Á  
+        - ƒƒ‚ƒŠƒA[ƒLƒeƒNƒ`ƒƒ  
+            - ƒƒCƒ“ƒƒ‚ƒŠ§Œä  
+                - ‘å—e—Ê‰»‹Zp  
+                    - ƒƒ‚ƒŠ•ûŽ®  
+                        - ƒoƒ“ƒNƒƒ‚ƒŠ•ûŽ®  
+                            - “¯ˆêƒAƒhƒŒƒX‹óŠÔ‚É•¡”ŽÀƒƒ‚ƒŠ  
+                                - š—v’Ç‰Á  
+                        - ƒy[ƒWƒ“ƒO•ûŽ®  
+                            - ‰¼‘z‹L‰¯‚ð—p‚¢‚ÄAŽå‹L‰¯ƒƒ‚ƒŠ‚ÆŠO•”‹L‰¯‘•’u‚Ìƒf[ƒ^‚ðA**ŒÅ’è’·**ƒTƒCƒY‚Ìƒy[ƒW‚Å“ü‘Ö‚¦‚é•û–@  
                             - MMU  
                                 - Memory Management Unit  
-                                - ä¸»è¨˜æ†¶è£…ç½®ã®ãƒ¡ãƒ¢ãƒªãƒ¼è³‡æºã‚’ç®¡ç†ã™ã‚‹è£…ç½®ã€‚  
-                                    ã€Œä»®æƒ³è¨˜æ†¶ã€ã‚„ã€ãƒžãƒ«ãƒã‚¿ã‚¹ã‚¯ã§ã®ã€Œã‚¢ãƒ‰ãƒ¬ã‚¹å¤‰æ›ã€ã‚„ã€Œãƒ¡ãƒ¢ãƒªãƒ¼ä¿è­·ã€ã‚’è¡Œã†ã€‚  
-                                    - ãƒ¡ãƒ¢ãƒªä¿è­·æ©Ÿèƒ½  
-                                        - ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã”ã¨ã«å‹•ä½œã™ã‚‹ç¯„å›²ã‚’å®šã‚ã€ã»ã‹ã®ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã®ã‚¨ãƒªã‚¢ã«æ›¸ãè¾¼ã¿ã—ãªã„ã‚ˆã†ã«ã™ã‚‹æ©Ÿèƒ½  
-                        - ã‚»ã‚°ãƒ¡ãƒ³ãƒˆæ–¹å¼  
-                            - ä»®æƒ³è¨˜æ†¶ã‚’ç”¨ã„ã¦ã€ä¸»è¨˜æ†¶ãƒ¡ãƒ¢ãƒªã¨å¤–éƒ¨è¨˜æ†¶è£…ç½®ã®ãƒ‡ãƒ¼ã‚¿ã‚’ã€**å¯å¤‰é•·**ã‚µã‚¤ã‚ºã®ãƒšãƒ¼ã‚¸ã§å…¥æ›¿ãˆã‚‹æ–¹æ³•  
-                            - â—‹ï¼šãƒªãƒ­ã‚±ãƒ¼ã‚¿ãƒ–ãƒ«ã«ã§ãã‚‹  
-                            - â—‹ï¼šã‚¢ãƒ‰ãƒ¬ã‚¹æŒ‡å®šã‚’çŸ­ãã§ãã‚‹  
-                    - ä»®æƒ³è¨˜æ†¶  
-                        - åˆ©ç”¨é »åº¦ã®ä½Žã„é ˜åŸŸã‚’ãƒ‡ã‚£ã‚¹ã‚¯è£…ç½®ãªã©ã«é€€é¿  
-                        - ã‚ªãƒ¼ãƒãƒ¬ã‚¤æ–¹å¼  
-                            - æ¬¡ã«å®Ÿè¡Œã™ã‚‹ã‚»ã‚°ãƒ¡ãƒ³ãƒˆã‚’ä¸Šæ›¸ãã™ã‚‹  
-                        - ãƒšãƒ¼ã‚¸ã‚¤ãƒ³/ã‚¢ã‚¦ãƒˆ  
-                        - ã‚¹ãƒ©ãƒƒã‚·ãƒ³ã‚°  
-                            - â˜…è¦è¿½åŠ   
-                    - è¨˜æ†¶ä¿è­·  
-                        - ãƒªãƒ³ã‚°æ–¹å¼  
-                            - ãƒªãƒ³ã‚°ãƒ¬ãƒ™ãƒ«  
-                            - å®Ÿè¡Œä¸­ã®ãƒ—ãƒ­ã‚°ãƒ©ãƒ ãŒå±žã™ã‚‹éšŽå±¤ã‚ˆã‚Šã‚‚é«˜ã„éšŽå±¤ã¸ã®ã‚¢ã‚¯ã‚»ã‚¹ã‚’ç¦æ­¢  
-                - ã‚¨ãƒ©ãƒ¼æ¤œå‡º/è¨‚æ­£  
-                    - ãƒ‘ãƒªãƒ†ã‚£  
-                        - 1bitèª¤ã‚Šæ¤œå‡º  
-                    - ãƒãƒŸãƒ³ã‚°ç¬¦å·  
-                        - 2bitèª¤ã‚Šæ¤œå‡ºã€1bitè¨‚æ­£  
-                    - ECCãƒ¡ãƒ¢ãƒª  
+                                - Žå‹L‰¯‘•’u‚Ìƒƒ‚ƒŠ[Ž‘Œ¹‚ðŠÇ—‚·‚é‘•’uB  
+                                    u‰¼‘z‹L‰¯v‚âAƒ}ƒ‹ƒ`ƒ^ƒXƒN‚Å‚ÌuƒAƒhƒŒƒX•ÏŠ·v‚âuƒƒ‚ƒŠ[•ÛŒìv‚ðs‚¤B  
+                                    - ƒƒ‚ƒŠ•ÛŒì‹@”\  
+                                        - ƒvƒƒOƒ‰ƒ€‚²‚Æ‚É“®ì‚·‚é”ÍˆÍ‚ð’è‚ßA‚Ù‚©‚ÌƒvƒƒOƒ‰ƒ€‚ÌƒGƒŠƒA‚É‘‚«ž‚Ý‚µ‚È‚¢‚æ‚¤‚É‚·‚é‹@”\  
+                        - ƒZƒOƒƒ“ƒg•ûŽ®  
+                            - ‰¼‘z‹L‰¯‚ð—p‚¢‚ÄAŽå‹L‰¯ƒƒ‚ƒŠ‚ÆŠO•”‹L‰¯‘•’u‚Ìƒf[ƒ^‚ðA**‰Â•Ï’·**ƒTƒCƒY‚Ìƒy[ƒW‚Å“ü‘Ö‚¦‚é•û–@  
+                            - ›FƒŠƒƒP[ƒ^ƒuƒ‹‚É‚Å‚«‚é  
+                            - ›FƒAƒhƒŒƒXŽw’è‚ð’Z‚­‚Å‚«‚é  
+                    - ‰¼‘z‹L‰¯  
+                        - —˜—p•p“x‚Ì’á‚¢—Ìˆæ‚ðƒfƒBƒXƒN‘•’u‚È‚Ç‚É‘Þ”ð  
+                        - ƒI[ƒoƒŒƒC•ûŽ®  
+                            - ŽŸ‚ÉŽÀs‚·‚éƒZƒOƒƒ“ƒg‚ðã‘‚«‚·‚é  
+                        - ƒy[ƒWƒCƒ“/ƒAƒEƒg  
+                        - ƒXƒ‰ƒbƒVƒ“ƒO  
+                            - š—v’Ç‰Á  
+                    - ‹L‰¯•ÛŒì  
+                        - ƒŠƒ“ƒO•ûŽ®  
+                            - ƒŠƒ“ƒOƒŒƒxƒ‹  
+                            - ŽÀs’†‚ÌƒvƒƒOƒ‰ƒ€‚ª‘®‚·‚éŠK‘w‚æ‚è‚à‚‚¢ŠK‘w‚Ö‚ÌƒAƒNƒZƒX‚ð‹ÖŽ~  
+                - ƒGƒ‰[ŒŸo/’ù³  
+                    - ƒpƒŠƒeƒB  
+                        - 1bitŒë‚èŒŸo  
+                    - ƒnƒ~ƒ“ƒO•„†  
+                        - 2bitŒë‚èŒŸoA1bit’ù³  
+                    - ECCƒƒ‚ƒŠ  
                 - UMA  
                     - Unified Memory Architecture  
-                        - ãƒ¦ãƒ‹ãƒ•ã‚¡ã‚¤ãƒ‰ãƒ¡ãƒ¢ãƒªæ–¹å¼  
-                        - è‹±å˜èªžï¼šunified  
-                            - ä¸€ã¤ã«ã¾ã¨ã‚ã‚‰ã‚ŒãŸã€çµ±ä¸€ã•  
-                    - ä¸»è¨˜æ†¶ã‚’ã€CPUä»¥å¤–ã®ãƒ‡ãƒã‚¤ã‚¹ã§ã‚‚å…±æœ‰ã—ã¦ä½¿ç”¨ã™ã‚‹æ–¹å¼  
-                    - â—‹ï¼šãƒ¡ãƒ¢ãƒªä½¿ç”¨é‡å°  
-                    - Ã—ï¼šã‚¢ã‚¯ã‚»ã‚¹é€Ÿåº¦ä½Ž  
-                        - CPUã‚„ãƒ‡ãƒã‚¤ã‚¹ãªã©è¤‡æ•°ã®å€‹æ‰€ã‹ã‚‰ãƒ¡ãƒ¢ãƒªã«ã‚¢ã‚¯ã‚»ã‚¹ã‚’è¡Œã„ã€ãƒã‚¹ç«¶åˆã™ã‚‹ãŸã‚  
-            - ã‚­ãƒ£ãƒƒã‚·ãƒ¥ãƒ¡ãƒ¢ãƒª  
-                - åŠ¹æžœ  
-                    - ã‚­ãƒ£ãƒƒã‚·ãƒ¥ãƒ’ãƒƒãƒˆ  
-                        - ãƒ’ãƒƒãƒˆçŽ‡  
-                    - ã‚­ãƒ£ãƒƒã‚·ãƒ¥ãƒŸã‚¹  
-                        - ãƒŸã‚¹ãƒ’ãƒƒãƒˆçŽ‡  
-                    - ãƒŸã‚¹ãƒšãƒŠãƒ«ãƒ†ã‚£  
-                        - ï¼CPUåœæ­¢æ™‚é–“  
-                - ä¸»è¨˜æ†¶ å®Ÿè¡Œã‚¢ã‚¯ã‚»ã‚¹æ™‚é–“  
-                    - ä¸»è¨˜æ†¶å®ŸåŠ¹ã‚¢ã‚¯ã‚»ã‚¹æ™‚é–“=  
-                        ã‚­ãƒ£ãƒƒã‚·ãƒ¥ãƒ¡ãƒ¢ãƒªã‚¢ã‚¯ã‚»ã‚¹æ™‚é–“CÃ—ãƒ’ãƒƒãƒˆçŽ‡r  
+                        - ƒ†ƒjƒtƒ@ƒCƒhƒƒ‚ƒŠ•ûŽ®  
+                        - ‰p’PŒêFunified  
+                            - ˆê‚Â‚É‚Ü‚Æ‚ß‚ç‚ê‚½A“ˆê‚³  
+                    - Žå‹L‰¯‚ðACPUˆÈŠO‚ÌƒfƒoƒCƒX‚Å‚à‹¤—L‚µ‚ÄŽg—p‚·‚é•ûŽ®  
+                    - ›Fƒƒ‚ƒŠŽg—p—Ê¬  
+                    - ~FƒAƒNƒZƒX‘¬“x’á  
+                        - CPU‚âƒfƒoƒCƒX‚È‚Ç•¡”‚ÌŒÂŠ‚©‚çƒƒ‚ƒŠ‚ÉƒAƒNƒZƒX‚ðs‚¢AƒoƒX‹£‡‚·‚é‚½‚ß  
+            - ƒLƒƒƒbƒVƒ…ƒƒ‚ƒŠ  
+                - Œø‰Ê  
+                    - ƒLƒƒƒbƒVƒ…ƒqƒbƒg  
+                        - ƒqƒbƒg—¦  
+                    - ƒLƒƒƒbƒVƒ…ƒ~ƒX  
+                        - ƒ~ƒXƒqƒbƒg—¦  
+                    - ƒ~ƒXƒyƒiƒ‹ƒeƒB  
+                        - CPU’âŽ~ŽžŠÔ  
+                - Žå‹L‰¯ ŽÀsƒAƒNƒZƒXŽžŠÔ  
+                    - Žå‹L‰¯ŽÀŒøƒAƒNƒZƒXŽžŠÔ=  
+                        ƒLƒƒƒbƒVƒ…ƒƒ‚ƒŠƒAƒNƒZƒXŽžŠÔC~ƒqƒbƒg—¦r  
                         +  
-                        ä¸»è¨˜æ†¶ã‚¢ã‚¯ã‚»ã‚¹æ™‚é–“MÃ—(1-ãƒ’ãƒƒãƒˆçŽ‡r)  
-                        - ex) ã‚­ãƒ£ãƒƒã‚·ãƒ¥ãƒ¡ãƒ¢ãƒªã®ã‚¢ã‚¯ã‚»ã‚¹æ™‚é–“ãŒä¸»è¨˜æ†¶ã®ã‚¢ã‚¯ã‚»ã‚¹æ™‚é–“ã®1/30ã§ã€ãƒ’ãƒƒãƒˆçŽ‡ãŒ95%ã®ã¨ãã€ä¸»è¨˜æ†¶ã®å®ŸåŠ¹ã‚¢ã‚¯ã‚»ã‚¹æ™‚é–“ã¯ã€ä¸»è¨˜æ†¶ã®ã‚¢ã‚¯ã‚»ã‚¹æ™‚é–“ã®ç´„ä½•å€ï¼Ÿ  
-                            - ãƒ’ãƒƒãƒˆçŽ‡95%ã¨ã„ã†ã“ã¨ã¯ã€20å›žã«1åº¦ä¸»è¨˜æ†¶ã§å‡¦ç†ã™ã‚‹ã€‚  
-                                ä»®ã«ä¸»è¨˜æ†¶ã‚¢ã‚¯ã‚»ã‚¹æ™‚é–“ã‚’100sã¨ã™ã‚‹ã¨ã€ã‚­ãƒ£ãƒƒã‚·ãƒ¥ãƒ¡ãƒ¢ãƒªã¯100*1/30=3.33s  
+                        Žå‹L‰¯ƒAƒNƒZƒXŽžŠÔM~(1-ƒqƒbƒg—¦r)  
+                        - ex) ƒLƒƒƒbƒVƒ…ƒƒ‚ƒŠ‚ÌƒAƒNƒZƒXŽžŠÔ‚ªŽå‹L‰¯‚ÌƒAƒNƒZƒXŽžŠÔ‚Ì1/30‚ÅAƒqƒbƒg—¦‚ª95%‚Ì‚Æ‚«AŽå‹L‰¯‚ÌŽÀŒøƒAƒNƒZƒXŽžŠÔ‚ÍAŽå‹L‰¯‚ÌƒAƒNƒZƒXŽžŠÔ‚Ì–ñ‰½”{H  
+                            - ƒqƒbƒg—¦95%‚Æ‚¢‚¤‚±‚Æ‚ÍA20‰ñ‚É1“xŽå‹L‰¯‚Åˆ—‚·‚éB  
+                                ‰¼‚ÉŽå‹L‰¯ƒAƒNƒZƒXŽžŠÔ‚ð100s‚Æ‚·‚é‚ÆAƒLƒƒƒbƒVƒ…ƒƒ‚ƒŠ‚Í100*1/30=3.33s  
                                   
-                                20å›žã‚¢ã‚¯ã‚»ã‚¹ã—ãŸå ´åˆã€19å›žã¯ã‚­ãƒ£ãƒƒã‚·ãƒ¥ãƒ¡ãƒ¢ãƒªã€1å›žã¯ä¸»è¨˜æ†¶ã§å‡¦ç†ã™ã‚‹ã“ã¨ã«ãªã‚‹ã®ã§ã€ã‚¢ã‚¯ã‚»ã‚¹æ™‚é–“ã¯  
-                                3.33sÃ—19å›ž+100sÃ—1å›žï¼163.3s  
-                                ã¨ãªã‚‹ã€‚  
-                                ä¸€æ–¹ã€ä¸»è¨˜æ†¶ã®ã¿ã§ã‚¢ã‚¯ã‚»ã‚¹ã—ãŸå ´åˆã€  
-                                100sÃ—20å›ž=2000s  
-                                ã¨ãªã‚‹ã®ã§ã€  
-                                163.3/2000=0.081å€  
-                                ã¨ãªã‚‹ã€‚  
-                - åˆ¶å¾¡  
-                    - ãƒ©ã‚¤ãƒˆã‚¹ãƒ«ãƒ¼æ–¹å¼  
-                        - â˜…è¦è¿½åŠ   
-                    - ãƒ©ã‚¤ãƒˆãƒãƒƒã‚¯æ–¹å¼  
-                        - ã‚³ãƒ’ãƒ¼ãƒ¬ãƒ³ã‚·å•é¡Œ  
-                            - è‹±å˜èªžï¼šcoherency  
-                                - ä¸€è²«æ€§ã€å¹²æ¸‰æ€§  
-                            - ä¸»è¨˜æ†¶ã«æœªåæ˜ ã®ãƒ‡ãƒ¼ã‚¿ãŒã‚ã‚‹é ˜åŸŸã«DMAã§ã‚¢ã‚¯ã‚»ã‚¹ã™ã‚‹ã¨ã€èª¤ã£ãŸãƒ‡ãƒ¼ã‚¿ãŒèª­ã¿ã ã•ã‚Œã¦ã—ã¾ã†ã€‚  
-                            - å¯¾ç­–  
-                                - ãƒã‚¹ã‚¹ãƒŒãƒ¼ãƒ—  
-                                    - ãƒã‚¹ä¸Šã®ã‚„ã‚Šå–ã‚Šã‚’å…¨ã¦ç›£è¦–  
-                                    - è‹±å˜èªžï¼šsnoop  
-                                        - ã†ã‚ã†ã‚ã®ãžãå›žã‚‹ã€è©®ç´¢ã™ã‚‹  
-                                - ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªæ–¹å¼  
-                                    - ã‚­ãƒ£ãƒƒã‚·ãƒ¥ã¨ã—ã¦ä¿æœ‰ã—ã¦ã„ã‚‹ãƒ¡ãƒ¢ãƒªãƒ–ãƒ­ãƒƒã‚¯ã‚’ä¸»è¨˜æ†¶ä¸Šã§ç®¡ç†ã™ã‚‹  
-                        - â˜…è¦è¿½åŠ   
-                - æ ¼ç´æ§‹é€   
-                    - ã‚­ãƒ£ãƒƒã‚·ãƒ¥ãƒ©ã‚¤ãƒ³  
-                        - ä¸»è¨˜æ†¶ã¨å¯¾å¿œã•ã›ã‚‹32ãƒã‚¤ãƒˆ/64ãƒã‚¤ãƒˆã®ã¾ã¨ã¾ã£ãŸå˜ä½ã®ã“ã¨  
-                        - æ–¹å¼  
-                            - ãƒ€ã‚¤ãƒ¬ã‚¯ãƒˆãƒžãƒƒãƒ”ãƒ³ã‚°æ–¹å¼  
-                                - ã‚¨ãƒ³ãƒˆãƒª  
-                                - ã‚­ãƒ£ãƒƒã‚·ãƒ¥ã‚¹ãƒ©ãƒƒã‚·ãƒ³ã‚°  
-                                    - ãƒ‡ãƒ¼ã‚¿ã®å…¥ã‚Œæ›¿ãˆãŒé »ç¹ã«ç™ºç”Ÿã™ã‚‹å ´åˆã«ã€ã‚­ãƒ£ãƒƒã‚·ãƒ¥éžä½¿ç”¨æ™‚ã‚ˆã‚Šã‚‚åŠ¹çŽ‡ãŒè½ã¡ã‚‹ã“ã¨  
-                                        - â˜…è¦è¿½åŠ   
-                            - ã‚»ãƒƒãƒˆã‚¢ã‚½ã‚·ã‚¢ãƒ†ã‚£ãƒ–æ–¹å¼  
-                                - åŒä¸€ã‚¨ãƒ³ãƒˆãƒªã«å¯¾ã—ã¦ï¼’å€‹ä»¥ä¸Šã®ã‚­ãƒ£ãƒƒã‚·ãƒ¥ãƒ©ã‚¤ãƒ³ã‚’å‰²ã‚Šå½“ã¦ã‚‹æ–¹å¼  
-                                - ã‚¦ã‚§ã‚¤æ•°  
-                                    - ï¼‘å€‹ã®ã‚¨ãƒ³ãƒˆãƒªã«å¯¾ã—ã¦å‰²ã‚Šå½“ã¦ã‚‹ã‚­ãƒ£ãƒƒã‚·ãƒ¥ãƒ©ã‚¤ãƒ³  
-                                        - â˜…è¦è¿½åŠ   
-                                - ã‚­ãƒ£ãƒƒã‚·ãƒ¥ã‚¹ãƒ©ãƒƒã‚·ãƒ³ã‚°ãŒèµ·ã“ã‚Šã«ãã„  
-                            - ãƒ•ãƒ«ã‚¢ã‚½ã‚·ã‚¢ãƒ†ã‚£ãƒ–æ–¹å¼  
-                                - ä»»æ„ã®ä¸»è¨˜æ†¶é ˜åŸŸãƒ–ãƒ­ãƒƒã‚¯ã«å¯¾ã—ã¦ä»»æ„ã®ã‚­ãƒ£ãƒƒã‚·ãƒ¥ãƒ©ã‚¤ãƒ³ã‚’å‰²ã‚Šå½“ã¦ã‚‹  
-                - ã‚­ãƒ£ãƒƒã‚·ãƒ¥ãƒ©ã‚¤ãƒ³ã®å…¥ã‚Œæ›¿ãˆæ–¹æ³•  
-                    - ãƒ©ãƒ³ãƒ€ãƒ æ–¹å¼  
-                        - ç„¡ä½œç‚ºã«é¸æŠžã—ã¦è¿½ã„å‡ºã™  
-                    - FIFOæ–¹å¼  
-                        - æœ€ã‚‚å¤ã„ç™»éŒ²ã®ã‚‚ã®ã‹ã‚‰è¿½ã„å‡ºã™  
-                    - LRUæ–¹å¼  
-                        - æœ€ã‚‚é•·ã„æ™‚é–“ã‚¢ã‚¯ã‚»ã‚¹ã—ã¦ã„ãªã‹ã£ãŸã‚‚ã®ã‹ã‚‰è¿½ã„å‡ºã™  
-                - å†…è”µãƒ¡ãƒ¢ãƒª  
-                    - CPUã‹ã‚‰ã¯ãƒ¡ãƒ¢ãƒªç©ºé–“ã®ä¸€éƒ¨ã¨ã—ã¦èªè­˜ã•ã‚Œã‚‹ãƒ¡ãƒ¢ãƒª  
-                    - ãƒãƒ¼ãƒ‰ãŒè‡ªå‹•æ›´æ–°ã™ã‚‹ãŸã‚ã€ã‚½ãƒ•ãƒˆã‹ã‚‰ã¯åˆ¶å¾¡ä¸å¯  
-                - è¨˜æ†¶éšŽå±¤  
-                    - æ¦‚è¦  
-                        - å°å®¹é‡Ã—é«˜é€Ÿã€ä¸­å®¹é‡Ã—ä¸­é€Ÿã€å¤§å®¹é‡Ã—ä½Žé€Ÿãªã©è¤‡æ•°æ®µéšŽã«ã¾ãŸãŒã£ãŸè¨˜æ†¶æ§‹é€ ã¨ã—ã€å„ãƒ¬ãƒ™ãƒ«ã‚’å„ã€…ä¸‹ä½ãƒ¬ãƒ™ãƒ«ã®ä¸€æ™‚è¨˜æ†¶ã¨ã—ã¦ç”¨ã„ã‚‹ã“ã¨ã§ä»£æ›¿ã™ã‚‹ã€‚  
-                            ï¼ˆä¸Šä½ã‹ã‚‰ã€CPUâ†’L1ã‚­ãƒ£ãƒƒã‚·ãƒ¥â†’L2ã‚­ãƒ£ãƒƒã‚·ãƒ¥â†’ä¸»è¨˜æ†¶â†’ãƒãƒ¼ãƒ‰ãƒ‡ã‚£ã‚¹ã‚¯â†’ãƒãƒƒãƒˆãƒ¯ãƒ¼ã‚¯ã‚µãƒ¼ãƒï¼‰  
+                                20‰ñƒAƒNƒZƒX‚µ‚½ê‡A19‰ñ‚ÍƒLƒƒƒbƒVƒ…ƒƒ‚ƒŠA1‰ñ‚ÍŽå‹L‰¯‚Åˆ—‚·‚é‚±‚Æ‚É‚È‚é‚Ì‚ÅAƒAƒNƒZƒXŽžŠÔ‚Í  
+                                3.33s~19‰ñ+100s~1‰ñ163.3s  
+                                ‚Æ‚È‚éB  
+                                ˆê•ûAŽå‹L‰¯‚Ì‚Ý‚ÅƒAƒNƒZƒX‚µ‚½ê‡A  
+                                100s~20‰ñ=2000s  
+                                ‚Æ‚È‚é‚Ì‚ÅA  
+                                163.3/2000=0.081”{  
+                                ‚Æ‚È‚éB  
+                - §Œä  
+                    - ƒ‰ƒCƒgƒXƒ‹[•ûŽ®  
+                        - š—v’Ç‰Á  
+                    - ƒ‰ƒCƒgƒoƒbƒN•ûŽ®  
+                        - ƒRƒq[ƒŒƒ“ƒV–â‘è  
+                            - ‰p’PŒêFcoherency  
+                                - ˆêŠÑ«AŠ±Â«  
+                            - Žå‹L‰¯‚É–¢”½‰f‚Ìƒf[ƒ^‚ª‚ ‚é—Ìˆæ‚ÉDMA‚ÅƒAƒNƒZƒX‚·‚é‚ÆAŒë‚Á‚½ƒf[ƒ^‚ª“Ç‚Ý‚¾‚³‚ê‚Ä‚µ‚Ü‚¤B  
+                            - ‘Îô  
+                                - ƒoƒXƒXƒk[ƒv  
+                                    - ƒoƒXã‚Ì‚â‚èŽæ‚è‚ð‘S‚ÄŠÄŽ‹  
+                                    - ‰p’PŒêFsnoop  
+                                        - ‚¤‚ë‚¤‚ë‚Ì‚¼‚«‰ñ‚éA‘Fõ‚·‚é  
+                                - ƒfƒBƒŒƒNƒgƒŠ•ûŽ®  
+                                    - ƒLƒƒƒbƒVƒ…‚Æ‚µ‚Ä•Û—L‚µ‚Ä‚¢‚éƒƒ‚ƒŠƒuƒƒbƒN‚ðŽå‹L‰¯ã‚ÅŠÇ—‚·‚é  
+                        - š—v’Ç‰Á  
+                - Ši”[\‘¢  
+                    - ƒLƒƒƒbƒVƒ…ƒ‰ƒCƒ“  
+                        - Žå‹L‰¯‚Æ‘Î‰ž‚³‚¹‚é32ƒoƒCƒg/64ƒoƒCƒg‚Ì‚Ü‚Æ‚Ü‚Á‚½’PˆÊ‚Ì‚±‚Æ  
+                        - •ûŽ®  
+                            - ƒ_ƒCƒŒƒNƒgƒ}ƒbƒsƒ“ƒO•ûŽ®  
+                                - ƒGƒ“ƒgƒŠ  
+                                - ƒLƒƒƒbƒVƒ…ƒXƒ‰ƒbƒVƒ“ƒO  
+                                    - ƒf[ƒ^‚Ì“ü‚ê‘Ö‚¦‚ª•p”É‚É”­¶‚·‚éê‡‚ÉAƒLƒƒƒbƒVƒ…”ñŽg—pŽž‚æ‚è‚àŒø—¦‚ª—Ž‚¿‚é‚±‚Æ  
+                                        - š—v’Ç‰Á  
+                            - ƒZƒbƒgƒAƒ\ƒVƒAƒeƒBƒu•ûŽ®  
+                                - “¯ˆêƒGƒ“ƒgƒŠ‚É‘Î‚µ‚Ä‚QŒÂˆÈã‚ÌƒLƒƒƒbƒVƒ…ƒ‰ƒCƒ“‚ðŠ„‚è“–‚Ä‚é•ûŽ®  
+                                - ƒEƒFƒC”  
+                                    - ‚PŒÂ‚ÌƒGƒ“ƒgƒŠ‚É‘Î‚µ‚ÄŠ„‚è“–‚Ä‚éƒLƒƒƒbƒVƒ…ƒ‰ƒCƒ“  
+                                        - š—v’Ç‰Á  
+                                - ƒLƒƒƒbƒVƒ…ƒXƒ‰ƒbƒVƒ“ƒO‚ª‹N‚±‚è‚É‚­‚¢  
+                            - ƒtƒ‹ƒAƒ\ƒVƒAƒeƒBƒu•ûŽ®  
+                                - ”CˆÓ‚ÌŽå‹L‰¯—ÌˆæƒuƒƒbƒN‚É‘Î‚µ‚Ä”CˆÓ‚ÌƒLƒƒƒbƒVƒ…ƒ‰ƒCƒ“‚ðŠ„‚è“–‚Ä‚é  
+                - ƒLƒƒƒbƒVƒ…ƒ‰ƒCƒ“‚Ì“ü‚ê‘Ö‚¦•û–@  
+                    - ƒ‰ƒ“ƒ_ƒ€•ûŽ®  
+                        - –³ìˆ×‚É‘I‘ð‚µ‚Ä’Ç‚¢o‚·  
+                    - FIFO•ûŽ®  
+                        - Å‚àŒÃ‚¢“o˜^‚Ì‚à‚Ì‚©‚ç’Ç‚¢o‚·  
+                    - LRU•ûŽ®  
+                        - Å‚à’·‚¢ŽžŠÔƒAƒNƒZƒX‚µ‚Ä‚¢‚È‚©‚Á‚½‚à‚Ì‚©‚ç’Ç‚¢o‚·  
+                - “à‘ ƒƒ‚ƒŠ  
+                    - CPU‚©‚ç‚Íƒƒ‚ƒŠ‹óŠÔ‚Ìˆê•”‚Æ‚µ‚Ä”FŽ¯‚³‚ê‚éƒƒ‚ƒŠ  
+                    - ƒn[ƒh‚ªŽ©“®XV‚·‚é‚½‚ßAƒ\ƒtƒg‚©‚ç‚Í§Œä•s‰Â  
+                - ‹L‰¯ŠK‘w  
+                    - ŠT—v  
+                        - ¬—e—Ê~‚‘¬A’†—e—Ê~’†‘¬A‘å—e—Ê~’á‘¬‚È‚Ç•¡”’iŠK‚É‚Ü‚½‚ª‚Á‚½‹L‰¯\‘¢‚Æ‚µAŠeƒŒƒxƒ‹‚ðŠeX‰ºˆÊƒŒƒxƒ‹‚ÌˆêŽž‹L‰¯‚Æ‚µ‚Ä—p‚¢‚é‚±‚Æ‚Å‘ã‘Ö‚·‚éB  
+                            iãˆÊ‚©‚çACPU¨L1ƒLƒƒƒbƒVƒ…¨L2ƒLƒƒƒbƒVƒ…¨Žå‹L‰¯¨ƒn[ƒhƒfƒBƒXƒN¨ƒlƒbƒgƒ[ƒNƒT[ƒoj  
                             - ...  
-                    - ã‚¤ãƒ³ã‚¯ãƒ«ãƒ¼ã‚¸ãƒ§ãƒ³ã‚­ãƒ£ãƒƒã‚·ãƒ¥  
-                        - L1/L2ã‚­ãƒ£ãƒƒã‚·ãƒ¥ã«ã¤ã„ã¦ã€L1(ä¸Šä½)ã«å­˜åœ¨ã™ã‚‹ãƒ‡ãƒ¼ã‚¿ãŒL2(ä¸‹ä½)ã«ã‚‚å­˜åœ¨ã™ã‚‹æ–¹å¼  
-                        - =åŒ…æ‹¬çš„ã‚­ãƒ£ãƒƒã‚·ãƒ¥  
+                    - ƒCƒ“ƒNƒ‹[ƒWƒ‡ƒ“ƒLƒƒƒbƒVƒ…  
+                        - L1/L2ƒLƒƒƒbƒVƒ…‚É‚Â‚¢‚ÄAL1(ãˆÊ)‚É‘¶Ý‚·‚éƒf[ƒ^‚ªL2(‰ºˆÊ)‚É‚à‘¶Ý‚·‚é•ûŽ®  
+                        - =•ïŠ‡“IƒLƒƒƒbƒVƒ…  
                         - ...  
-                    - ã‚¨ã‚¯ã‚¹ã‚¯ãƒ«ãƒ¼ã‚·ãƒ–ã‚­ãƒ£ãƒƒã‚·ãƒ¥  
-                        - L1/L2ã‚­ãƒ£ãƒƒã‚·ãƒ¥ã«ã¤ã„ã¦ã€L1(ä¸Šä½)ã«å­˜åœ¨ã™ã‚‹ãƒ‡ãƒ¼ã‚¿ãŒL2(ä¸‹ä½)ã«å¿…ãšã—ã‚‚å­˜åœ¨ã—ãªã„æ–¹å¼  
-                        - ï¼æŽ’ä»–çš„ã‚­ãƒ£ãƒƒã‚·ãƒ¥  
-                        - ï¼Victim Cache  
+                    - ƒGƒNƒXƒNƒ‹[ƒVƒuƒLƒƒƒbƒVƒ…  
+                        - L1/L2ƒLƒƒƒbƒVƒ…‚É‚Â‚¢‚ÄAL1(ãˆÊ)‚É‘¶Ý‚·‚éƒf[ƒ^‚ªL2(‰ºˆÊ)‚É•K‚¸‚µ‚à‘¶Ý‚µ‚È‚¢•ûŽ®  
+                        - ”r‘¼“IƒLƒƒƒbƒVƒ…  
+                        - Victim Cache  
                         - ...  
-                    - ã‚­ãƒ£ãƒƒã‚·ãƒ¥ã‚¹ãƒŒãƒ¼ãƒ—  
-                        - è¤‡æ•°ãƒãƒƒãƒ—ã‚„1ãƒãƒƒãƒ—ãƒžãƒ«ãƒã‚³ã‚¢ã®ã‚·ã‚¹ãƒ†ãƒ ã§ã¯ã€ãƒ—ãƒ­ã‚»ãƒƒã‚µã®ã‚­ãƒ£ãƒƒã‚·ãƒ¥é–“ã®ã‚³ãƒ’ãƒ¼ãƒ¬ãƒ³ã‚·ã‚’ä¿ã¤å¿…è¦ãŒã‚ã‚‹ãŸã‚ã€  
-                            ãƒ‡ãƒ¼ã‚¿ã‚¹ãƒˆã‚¢æ™‚ã¯ã€ä»–ã®å…¨ãƒ—ãƒ­ã‚»ãƒƒã‚µã«å¯¾ã—ã¦ã‚¹ãƒŒãƒ¼ãƒ—ï¼ˆæ›¸è¾¼ã¿ã‚¢ãƒ‰ãƒ¬ã‚¹ã®ãƒ‡ãƒ¼ã‚¿ãŒã‚­ãƒ£ãƒƒã‚·ãƒ¥ã«å­˜åœ¨ã™ã‚‹ã‹ç¢ºèªï¼‰ã‚’è¡Œã†ã€‚  
+                    - ƒLƒƒƒbƒVƒ…ƒXƒk[ƒv  
+                        - •¡”ƒ`ƒbƒv‚â1ƒ`ƒbƒvƒ}ƒ‹ƒ`ƒRƒA‚ÌƒVƒXƒeƒ€‚Å‚ÍAƒvƒƒZƒbƒT‚ÌƒLƒƒƒbƒVƒ…ŠÔ‚ÌƒRƒq[ƒŒƒ“ƒV‚ð•Û‚Â•K—v‚ª‚ ‚é‚½‚ßA  
+                            ƒf[ƒ^ƒXƒgƒAŽž‚ÍA‘¼‚Ì‘SƒvƒƒZƒbƒT‚É‘Î‚µ‚ÄƒXƒk[ƒvi‘ž‚ÝƒAƒhƒŒƒX‚Ìƒf[ƒ^‚ªƒLƒƒƒbƒVƒ…‚É‘¶Ý‚·‚é‚©Šm”Fj‚ðs‚¤B  
             - DMA  
                 - DMA  
-                    - CPUã‚’ä»‹ã•ãšã«ãƒ¡ãƒ¢ãƒªã¨å‘¨è¾ºãƒ‡ãƒã‚¤ã‚¹é–“ã§ãƒ‡ãƒ¼ã‚¿ã‚’ã‚„ã‚Šå–ã‚Šã™ã‚‹ã€‚  
+                    - CPU‚ð‰î‚³‚¸‚Éƒƒ‚ƒŠ‚ÆŽü•ÓƒfƒoƒCƒXŠÔ‚Åƒf[ƒ^‚ð‚â‚èŽæ‚è‚·‚éB  
                     - DMAC  
-                        - DMAã‚³ãƒ³ãƒˆãƒ­ãƒ¼ãƒ©  
-                    - è»¢é€ãƒ¢ãƒ¼ãƒ‰  
-                        - ã‚·ãƒ³ã‚°ãƒ«è»¢é€ãƒ¢ãƒ¼ãƒ‰  
-                            - 1è»¢é€è¦æ±‚ã«ã¤ãã€1byte(1word)è»¢é€  
-                        - ãƒãƒ¼ã‚¹ãƒˆè»¢é€ãƒ¢ãƒ¼ãƒ‰  
-                            - æŒ‡å®šãƒã‚¤ãƒˆæ•°ã‚’é€£ç¶šè»¢é€  
-                            - é€”ä¸­åœæ­¢ä¸å¯  
-                                - è»¢é€ä¸­ã¯DMACãŒãƒã‚¹ã‚’å æœ‰  
-                        - ãƒ‡ãƒžãƒ³ãƒ‰è»¢é€ãƒ¢ãƒ¼ãƒ‰  
-                            - æŒ‡å®šãƒã‚¤ãƒˆæ•°ã‚’é€£ç¶šè»¢é€  
-                            - é€”ä¸­åœæ­¢å¯  
+                        - DMAƒRƒ“ƒgƒ[ƒ‰  
+                    - “]‘—ƒ‚[ƒh  
+                        - ƒVƒ“ƒOƒ‹“]‘—ƒ‚[ƒh  
+                            - 1“]‘——v‹‚É‚Â‚«A1byte(1word)“]‘—  
+                        - ƒo[ƒXƒg“]‘—ƒ‚[ƒh  
+                            - Žw’èƒoƒCƒg”‚ð˜A‘±“]‘—  
+                            - “r’†’âŽ~•s‰Â  
+                                - “]‘—’†‚ÍDMAC‚ªƒoƒX‚ðè—L  
+                        - ƒfƒ}ƒ“ƒh“]‘—ƒ‚[ƒh  
+                            - Žw’èƒoƒCƒg”‚ð˜A‘±“]‘—  
+                            - “r’†’âŽ~‰Â  
                 - PIO  
                     - Programmed I/O  
-                    - ã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢ã«ã‚ˆã£ã¦ãƒ‡ãƒ¼ã‚¿ã‚’èª­ã¿æ›¸ãã™ã‚‹æ–¹æ³•  
-            - ç‰¹æ®Šãƒ¡ãƒ¢ãƒª  
-                - ãƒ‡ãƒ¥ã‚¢ãƒ«ãƒãƒ¼ãƒˆãƒ¡ãƒ¢ãƒª  
-                    - è¤‡æ•°ã®ãƒ—ãƒ­ã‚»ãƒƒã‚µé–“ã§ãƒ‡ãƒ¼ã‚¿ã‚’å…±æœ‰ã™ã‚‹éš›ã«ä½¿ç”¨ã™ã‚‹  
-                    - ï¼DPRAM  
-                    - æ›¸è¾¼ã¿ä¸­ã®ã‚¢ã‚¯ã‚»ã‚¹å¯å¦  
-                        - å…¨ã‚¢ãƒ‰ãƒ¬ã‚¹R/W NG  
-                        - æ›¸è¾¼ã¿ä¸­ã‚¢ãƒ‰ãƒ¬ã‚¹ä»¥å¤–Read OK  
-                        - å…¨ã‚¢ãƒ‰ãƒ¬ã‚¹Read OK  
-                - FIFOãƒ¡ãƒ¢ãƒª  
-                    - å…ˆå…¥ã‚Œå…ˆå‡ºã—ã§ãƒ‡ãƒ¼ã‚¿ã‚’å‡ºã—å…¥ã‚Œã™ã‚‹  
-                    - ä¸€æ™‚ä¿å­˜ãƒãƒƒãƒ•ã‚¡ã«ä½¿ç”¨ã•ã‚Œã‚‹  
-        - å‰²è¾¼ã¿åˆ¶å¾¡  
-            - å‰²è¾¼ã¿ã‚³ãƒ³ãƒˆãƒ­ãƒ¼ãƒ©  
-                - è¤‡æ•°å‰²è¾¼ã¿ã‚³ãƒ³ãƒˆãƒ­ãƒ¼ãƒ©æŽ¥ç¶šæ–¹å¼  
-                    - ã‚«ã‚¹ã‚±ãƒ¼ãƒ‰æ–¹å¼  
-                    - ãƒ‡ã‚¤ã‚¸ãƒ¼ãƒã‚§ãƒ¼ãƒ³æ–¹å¼  
-    - ï¼“ï¼Žå…¥å‡ºåŠ›è£…ç½®  
-        - ã‚¤ãƒ³ã‚¿ãƒ¼ãƒ•ã‚§ãƒ¼ã‚¹æŠ€è¡“  
-            - ã‚·ãƒªã‚¢ãƒ«ã‚¤ãƒ³ã‚¿ãƒ¼ãƒ•ã‚§ãƒ¼ã‚¹  
-                - ã‚¯ãƒ­ãƒƒã‚¯åŒæœŸåž‹  
-                    - ä¿¡å·ç·šæœ¬æ•°  
-                        - ï¼’ç·š  
-                            - ãƒ‡ãƒ¼ã‚¿ã€ã‚¯ãƒ­ãƒƒã‚¯  
-                        - ï¼“ç·š  
-                            - ãƒ‡ãƒ¼ã‚¿ã€ã‚¯ãƒ­ãƒƒã‚¯ã€ãƒ­ãƒ¼ãƒ‰  
-                                - ex) ãƒ­ãƒ¼ãƒ‰ä¿¡å·Hiã®æ™‚ã€ç«‹ä¸Šã‚Šã‚¯ãƒ­ãƒƒã‚¯ã‹ã‚‰8bitåˆ†ã®ãƒ‡ãƒ¼ã‚¿ã‚’1ãƒã‚¤ãƒˆã¨ã—ã¦å®Œçµã•ã›ã‚‹  
-                    - ç¨®é¡ž  
+                    - ƒ\ƒtƒgƒEƒFƒA‚É‚æ‚Á‚Äƒf[ƒ^‚ð“Ç‚Ý‘‚«‚·‚é•û–@  
+            - “ÁŽêƒƒ‚ƒŠ  
+                - ƒfƒ…ƒAƒ‹ƒ|[ƒgƒƒ‚ƒŠ  
+                    - •¡”‚ÌƒvƒƒZƒbƒTŠÔ‚Åƒf[ƒ^‚ð‹¤—L‚·‚éÛ‚ÉŽg—p‚·‚é  
+                    - DPRAM  
+                    - ‘ž‚Ý’†‚ÌƒAƒNƒZƒX‰Â”Û  
+                        - ‘SƒAƒhƒŒƒXR/W NG  
+                        - ‘ž‚Ý’†ƒAƒhƒŒƒXˆÈŠORead OK  
+                        - ‘SƒAƒhƒŒƒXRead OK  
+                - FIFOƒƒ‚ƒŠ  
+                    - æ“ü‚êæo‚µ‚Åƒf[ƒ^‚ðo‚µ“ü‚ê‚·‚é  
+                    - ˆêŽž•Û‘¶ƒoƒbƒtƒ@‚ÉŽg—p‚³‚ê‚é  
+        - Š„ž‚Ý§Œä  
+            - Š„ž‚ÝƒRƒ“ƒgƒ[ƒ‰  
+                - •¡”Š„ž‚ÝƒRƒ“ƒgƒ[ƒ‰Ú‘±•ûŽ®  
+                    - ƒJƒXƒP[ƒh•ûŽ®  
+                    - ƒfƒCƒW[ƒ`ƒF[ƒ“•ûŽ®  
+    - ‚RD“üo—Í‘•’u  
+        - ƒCƒ“ƒ^[ƒtƒF[ƒX‹Zp  
+            - ƒVƒŠƒAƒ‹ƒCƒ“ƒ^[ƒtƒF[ƒX  
+                - ƒNƒƒbƒN“¯ŠúŒ^  
+                    - M†ü–{”  
+                        - ‚Qü  
+                            - ƒf[ƒ^AƒNƒƒbƒN  
+                        - ‚Rü  
+                            - ƒf[ƒ^AƒNƒƒbƒNAƒ[ƒh  
+                                - ex) ƒ[ƒhM†Hi‚ÌŽžA—§ã‚èƒNƒƒbƒN‚©‚ç8bit•ª‚Ìƒf[ƒ^‚ð1ƒoƒCƒg‚Æ‚µ‚ÄŠ®Œ‹‚³‚¹‚é  
+                    - Ží—Þ  
                         - I2C  
-                            - ï¼’ç·š  
+                            - ‚Qü  
                         - SMBus  
-                            - ï¼’ç·š  
+                            - ‚Qü  
                         - Microwire  
-                            - ï¼“ç·š  
+                            - ‚Rü  
                         - SPI  
-                            - ï¼“ç·š  
+                            - ‚Rü  
                         - 1-Wire  
-                            - ï¼‘ç·š  
+                            - ‚Pü  
                         - CAN  
-                            - ï¼’ç·šï¼ˆï¼‘chï¼‰  
+                            - ‚Qüi‚Pchj  
                         - FlexRay  
-                            - ï¼’ç·šï¼ˆï¼‘chï¼‰  
-                - èª¿æ­©åŒæœŸåž‹(UART)  
+                            - ‚Qüi‚Pchj  
+                - ’²•à“¯ŠúŒ^(UART)  
                     - RS-232C  
-                        - æŽ¥ç¶šæ©Ÿå™¨  
+                        - Ú‘±‹@Ší  
                             - DTE  
-                                - é€šä¿¡å›žç·šæŽ¥ç¶šç”¨æ©Ÿå™¨ï¼ˆãƒ¢ãƒ‡ãƒ ãªã©ï¼‰  
+                                - ’ÊM‰ñüÚ‘±—p‹@Šíiƒ‚ƒfƒ€‚È‚Çj  
                                 - Data Terminal Equipment  
                             - DCE  
-                                - ãƒ‡ãƒ¼ã‚¿é€šä¿¡ç”¨æ©Ÿå™¨ï¼ˆPCãªã©ï¼‰  
+                                - ƒf[ƒ^’ÊM—p‹@ŠíiPC‚È‚Çj  
                                 - Data Circuit terminating Equipment  
-                        - ä¿¡å·ç«¯å­  
+                        - M†’[Žq  
                             - DTR  
                             - DSR  
                             - TxD  
@@ -695,2083 +695,2083 @@
                             - RTS  
                             - DCD  
                             - RI  
-            - ãƒ‘ãƒ©ãƒ¬ãƒ«ã‚¤ãƒ³ã‚¿ãƒ¼ãƒ•ã‚§ãƒ¼ã‚¹  
+            - ƒpƒ‰ƒŒƒ‹ƒCƒ“ƒ^[ƒtƒF[ƒX  
                 - IEEE1284  
-                    - ä¿¡å·ç«¯å­  
+                    - M†’[Žq  
                         - DATA  
-                            - é€å—ä¿¡ãƒ‡ãƒ¼ã‚¿  
-                                - ç«¯æœ«â†’ãƒ—ãƒªãƒ³ã‚¿  
+                            - ‘—ŽóMƒf[ƒ^  
+                                - ’[––¨ƒvƒŠƒ“ƒ^  
                         - STROBE  
-                            - é€ä¿¡ãƒ‡ãƒ¼ã‚¿ã‚’å–å¾—ã™ã‚‹ã‚¿ã‚¤ãƒŸãƒ³ã‚°  
-                                - ç«¯æœ«â†’ãƒ—ãƒªãƒ³ã‚¿  
+                            - ‘—Mƒf[ƒ^‚ðŽæ“¾‚·‚éƒ^ƒCƒ~ƒ“ƒO  
+                                - ’[––¨ƒvƒŠƒ“ƒ^  
                         - BUSY  
-                            - ãƒ“ã‚¸ãƒ¼çŠ¶æ…‹  
-                                - ãƒ—ãƒªãƒ³ã‚¿â†’ç«¯æœ«  
+                            - ƒrƒW[ó‘Ô  
+                                - ƒvƒŠƒ“ƒ^¨’[––  
                         - ACK  
-                            - æ¬¡ãƒ‡ãƒ¼ã‚¿å—ä¿¡å¯èƒ½  
-                                - ãƒ—ãƒªãƒ³ã‚¿â†’ç«¯æœ«  
+                            - ŽŸƒf[ƒ^ŽóM‰Â”\  
+                                - ƒvƒŠƒ“ƒ^¨’[––  
                 - SCSI  
-                    - ç‰¹å¾´  
-                        - ãƒ‡ã‚¤ã‚¸ãƒ¼ãƒã‚§ãƒ¼ãƒ³  
-                        - çµ‚ç«¯æŠµæŠ—ãŒå¿…è¦  
-                        - SCSI-IDã¯æ©Ÿå™¨ã”ã¨ã®æ‰‹å‹•è¨­å®šãŒå¿…è¦  
+                    - “Á’¥  
+                        - ƒfƒCƒW[ƒ`ƒF[ƒ“  
+                        - I’[’ïR‚ª•K—v  
+                        - SCSI-ID‚Í‹@Ší‚²‚Æ‚ÌŽè“®Ý’è‚ª•K—v  
                 - PCI-X  
-            - é«˜é€Ÿã‚·ãƒªã‚¢ãƒ«ã‚¤ãƒ³ã‚¿ãƒ¼ãƒ•ã‚§ãƒ¼ã‚¹  
+            - ‚‘¬ƒVƒŠƒAƒ‹ƒCƒ“ƒ^[ƒtƒF[ƒX  
                 - LVDS  
                     - Low Voltage Differential Signaling  
-                    - ä¿¡å·ã®æŒ¯å¹…ã‚’å°ã•ãã—ã¦ã€å·®å‹•ä¿¡å·ã«ã‚ˆã‚‹ä¼é€ã‚’è¡Œã†æ–¹å¼  
+                    - M†‚ÌU•‚ð¬‚³‚­‚µ‚ÄA·“®M†‚É‚æ‚é“`‘—‚ðs‚¤•ûŽ®  
                 - USB  
-                    - æ©Ÿèƒ½  
-                        - ãƒ›ãƒƒãƒˆãƒ—ãƒ©ã‚°  
-                        - é›»æºä¾›çµ¦  
-                        - ã‚¢ã‚¤ã‚½ã‚¯ãƒ­ãƒŠã‚¹è»¢é€  
-                            - å—ä¿¡ç¢ºèªã›ãšã«å®šæœŸçš„ã«é€ä¿¡ã—ç¶šã‘ã‚‹  
+                    - ‹@”\  
+                        - ƒzƒbƒgƒvƒ‰ƒO  
+                        - “dŒ¹‹Ÿ‹‹  
+                        - ƒAƒCƒ\ƒNƒƒiƒX“]‘—  
+                            - ŽóMŠm”F‚¹‚¸‚É’èŠú“I‚É‘—M‚µ‘±‚¯‚é  
                 - IEEE1394  
                     - iLink  
-                    - ç‰¹å¾´  
-                        - ãƒ›ã‚¹ãƒˆã‚³ãƒ³ãƒˆãƒ­ãƒ¼ãƒ©ãƒ¼ä¸è¦  
-                        - ãƒ‡ã‚¤ã‚¸ãƒ¼ãƒã‚§ãƒ¼ãƒ³æ–¹å¼  
-                        - ãƒ›ãƒƒãƒˆãƒ—ãƒ©ã‚°  
-                        - ã‚¢ã‚¤ã‚½ã‚¯ãƒ­ãƒŠã‚¹è»¢é€  
-                - ã‚·ãƒªã‚¢ãƒ«ATA  
-            - ç„¡ç·šã‚¤ãƒ³ã‚¿ãƒ¼ãƒ•ã‚§ãƒ¼ã‚¹  
+                    - “Á’¥  
+                        - ƒzƒXƒgƒRƒ“ƒgƒ[ƒ‰[•s—v  
+                        - ƒfƒCƒW[ƒ`ƒF[ƒ“•ûŽ®  
+                        - ƒzƒbƒgƒvƒ‰ƒO  
+                        - ƒAƒCƒ\ƒNƒƒiƒX“]‘—  
+                - ƒVƒŠƒAƒ‹ATA  
+            - –³üƒCƒ“ƒ^[ƒtƒF[ƒX  
                 - IrDA  
                 - Bluetooth  
-                    - ãƒ—ãƒ­ãƒ•ã‚¡ã‚¤ãƒ«ï¼ˆãƒ—ãƒ­ãƒˆã‚³ãƒ«ï¼‰  
+                    - ƒvƒƒtƒ@ƒCƒ‹iƒvƒƒgƒRƒ‹j  
                         - HID  
                             - Human Interface Device Profile  
                         - HSP  
                             - HeadSet Profile  
                         - PAN  
                             - Personal Area Network Profile  
-                - ãƒ¯ã‚¤ãƒ¤ãƒ¬ã‚¹USB  
-                    - UWBæŠ€è¡“  
+                - ƒƒCƒ„ƒŒƒXUSB  
+                    - UWB‹Zp  
                         - Ultra Wide Band  
                 - RFID  
                     - Radio Frequency IDentification  
                 - ZigBee  
-                    - å®¶é›»å‘ã‘ã®çŸ­è·é›¢ç„¡ç·šé€šä¿¡è¦æ ¼  
-                        - ex) ã‚»ãƒ³ã‚µãƒãƒƒãƒˆãƒ¯ãƒ¼ã‚¯  
-                    - Ã—ï¼šé€šä¿¡é€Ÿåº¦ä½Ž  
-                    - Ã—ï¼šè»¢é€è·é›¢çŸ­ã„  
-                    - ã€‡ï¼šå®‰ä¾¡  
-                    - ã€‡ï¼šä½Žæ¶ˆè²»é›»åŠ›  
-        - ä»£è¡¨çš„ãªå…¥å‡ºåŠ›è£…ç½®  
-            - æ¸©åº¦ã‚»ãƒ³ã‚µ  
-                - ã‚µãƒ¼ãƒŸã‚¹ã‚¿  
+                    - ‰Æ“dŒü‚¯‚Ì’Z‹——£–³ü’ÊM‹KŠi  
+                        - ex) ƒZƒ“ƒTƒlƒbƒgƒ[ƒN  
+                    - ~F’ÊM‘¬“x’á  
+                    - ~F“]‘—‹——£’Z‚¢  
+                    - ZFˆÀ‰¿  
+                    - ZF’áÁ”ï“d—Í  
+        - ‘ã•\“I‚È“üo—Í‘•’u  
+            - ‰·“xƒZƒ“ƒT  
+                - ƒT[ƒ~ƒXƒ^  
                     - PTC  
                         - Positive Temperature Coefficient  
-                        - æ¸©åº¦ä¸Šæ˜‡â†’æŠµæŠ—å€¤å¢—åŠ   
+                        - ‰·“xã¸¨’ïR’l‘‰Á  
                     - NTC  
                         - Negative Temperature Coefficient  
-                        - æ¸©åº¦ä½Žä¸‹â†’æŠµæŠ—å€¤å¢—åŠ   
+                        - ‰·“x’á‰º¨’ïR’l‘‰Á  
                     - CTR  
                         - Critical Temperature Coefficient  
-                        - ç‰¹å®šæ¸©åº¦â†’æŠµæŠ—å€¤å¤‰åŒ–  
-                - ç†±é›»å¯¾  
-                    - æŽ¥åˆéƒ¨ã«ç™ºç”Ÿã™ã‚‹ç†±èµ·é›»åŠ›ã‚’æ¸¬å®šã™ã‚‹  
-                    - å¹…åºƒã„æ¸©åº¦ç¯„å›²ãŒæ¸¬å®šå¯èƒ½  
-                - æ¸¬æ¸©æŠµæŠ—ä½“  
-                    - é›»æ°—æŠµæŠ—ãŒæ¸©åº¦ã«ã‚ˆã£ã¦å¢—åŠ ã™ã‚‹ã“ã¨ã‚’åˆ©ç”¨ã—ãŸã‚»ãƒ³ã‚µ  
-                - èµ¤å¤–ç·šã‚»ãƒ³ã‚µ  
-            - ã‚¨ãƒ³ã‚³ãƒ¼ãƒ€  
-                - æ¦‚è¦  
-                    - ç‰©ä½“ã®ä½ç½®ã‚’æ¤œå‡ºã—ã¦ãƒ‡ã‚£ã‚¸ã‚¿ãƒ«ç¬¦å·åŒ–ã™ã‚‹  
-                - ç¨®é¡ž  
-                    - ãƒ­ãƒ¼ã‚¿ãƒªã‚¨ãƒ³ã‚³ãƒ¼ãƒ€  
-                        - å›žè»¢æ–¹å‘  
-                    - ãƒªãƒ‹ã‚¢ã‚¨ãƒ³ã‚³ãƒ¼ãƒ€  
-                        - ç›´ç·šæ–¹å‘  
-                - ç¨®é¡ž  
-                    - ã‚¤ãƒ³ã‚¯ãƒªãƒ¡ãƒ³ã‚¿ãƒ«ã‚¨ãƒ³ã‚³ãƒ¼ãƒ€  
-                        - æ©Ÿæ¢°çš„ä½ç½®ã®ã€Œå¤‰åŒ–é‡ã€ã‚’ãƒ‡ã‚¸ã‚¿ãƒ«å‡ºåŠ›ã™ã‚‹  
-                            - åˆæœŸåŒ–ï¼šå¿…è¦  
-                                - ï¼’ç›¸ã‚¯ãƒ­ãƒƒã‚¯ã‚¨ãƒ³ã‚³ãƒ¼ãƒ€  
-                                    - ï¼’ãƒ‘ãƒ«ã‚¹ã®ãšã‚Œå…·åˆã§å›žè»¢æ–¹å‘ã‚’çŸ¥ã‚‹  
-                    - ã‚¢ãƒ–ã‚½ãƒªãƒ¥ãƒ¼ãƒˆã‚¨ãƒ³ã‚³ãƒ¼ãƒ€  
-                        - æ©Ÿæ¢°çš„ä½ç½®ã®ã€Œçµ¶å¯¾å€¤ã€ã‚’ãƒ‡ã‚¸ã‚¿ãƒ«å‡ºåŠ›ã™ã‚‹  
-                            - åˆæœŸåŒ–ï¼šä¸è¦  
-                                - Ã—ï¼šé«˜ä¾¡  
-            - ã‚¹ã‚¤ãƒƒãƒ  
-                - ãƒãƒ£ã‚¿ãƒªãƒ³ã‚°é™¤åŽ»æŠ€è¡“  
-                    - CRç©åˆ†å›žè·¯  
-                    - RSãƒ©ãƒƒãƒ  
-                    - ã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢  
-                - ãƒžãƒˆãƒªã‚¯ã‚¹ã‚¹ã‚¤ãƒƒãƒ  
-                - é™é›»å®¹é‡å¼ã‚¹ã‚¤ãƒƒãƒ  
-                    - é™é›»å®¹é‡ç„¡æŽ¥ç‚¹æ–¹å¼ã‚¹ã‚¤ãƒƒãƒ  
-                    - ã‚¿ãƒƒãƒã‚»ãƒ³ã‚µå¼ã‚¹ã‚¤ãƒƒãƒ  
-            - å…‰å­¦è£…ç½®  
-                - ãƒ•ã‚©ãƒˆã‚«ãƒ—ãƒ©  
-                - ãƒ•ã‚©ãƒˆã‚¤ãƒ³ã‚¿ãƒ©ãƒ—ã‚¿  
-                - ãƒ©ã‚¤ãƒ³ã‚»ãƒ³ã‚µ  
-                    - ãƒ•ã‚©ãƒˆãƒ€ã‚¤ã‚ªãƒ¼ãƒ‰ã‚’ï¼‘åˆ—ã«é…ç½®ã—ã€å„ãƒ€ã‚¤ã‚ªãƒ¼ãƒ‰ã®ãƒ¬ãƒ™ãƒ«ã‚’é †ã«èª­å‡ºã—  
-                    - ï¼CCDãƒ©ã‚¤ãƒ³ã‚»ãƒ³ã‚µ  
-                    - ã‚¹ã‚­ãƒ£ãƒŠãªã©ã«ä½¿ç”¨ã•ã‚Œã‚‹  
-                - ãƒãƒ¼ã‚³ãƒ¼ãƒ‰ãƒªãƒ¼ãƒ€  
-                    - ä¸€æ¬¡å…ƒãƒãƒ¼ã‚³ãƒ¼ãƒ‰è¦æ ¼  
+                        - “Á’è‰·“x¨’ïR’l•Ï‰»  
+                - ”M“d‘Î  
+                    - Ú‡•”‚É”­¶‚·‚é”M‹N“d—Í‚ð‘ª’è‚·‚é  
+                    - •L‚¢‰·“x”ÍˆÍ‚ª‘ª’è‰Â”\  
+                - ‘ª‰·’ïR‘Ì  
+                    - “d‹C’ïR‚ª‰·“x‚É‚æ‚Á‚Ä‘‰Á‚·‚é‚±‚Æ‚ð—˜—p‚µ‚½ƒZƒ“ƒT  
+                - ÔŠOüƒZƒ“ƒT  
+            - ƒGƒ“ƒR[ƒ_  
+                - ŠT—v  
+                    - •¨‘Ì‚ÌˆÊ’u‚ðŒŸo‚µ‚ÄƒfƒBƒWƒ^ƒ‹•„†‰»‚·‚é  
+                - Ží—Þ  
+                    - ƒ[ƒ^ƒŠƒGƒ“ƒR[ƒ_  
+                        - ‰ñ“]•ûŒü  
+                    - ƒŠƒjƒAƒGƒ“ƒR[ƒ_  
+                        - ’¼ü•ûŒü  
+                - Ží—Þ  
+                    - ƒCƒ“ƒNƒŠƒƒ“ƒ^ƒ‹ƒGƒ“ƒR[ƒ_  
+                        - ‹@ŠB“IˆÊ’u‚Ìu•Ï‰»—Êv‚ðƒfƒWƒ^ƒ‹o—Í‚·‚é  
+                            - ‰Šú‰»F•K—v  
+                                - ‚Q‘ŠƒNƒƒbƒNƒGƒ“ƒR[ƒ_  
+                                    - ‚Qƒpƒ‹ƒX‚Ì‚¸‚ê‹ï‡‚Å‰ñ“]•ûŒü‚ð’m‚é  
+                    - ƒAƒuƒ\ƒŠƒ…[ƒgƒGƒ“ƒR[ƒ_  
+                        - ‹@ŠB“IˆÊ’u‚Ìuâ‘Î’lv‚ðƒfƒWƒ^ƒ‹o—Í‚·‚é  
+                            - ‰Šú‰»F•s—v  
+                                - ~F‚‰¿  
+            - ƒXƒCƒbƒ`  
+                - ƒ`ƒƒƒ^ƒŠƒ“ƒOœ‹Ž‹Zp  
+                    - CRÏ•ª‰ñ˜H  
+                    - RSƒ‰ƒbƒ`  
+                    - ƒ\ƒtƒgƒEƒFƒA  
+                - ƒ}ƒgƒŠƒNƒXƒXƒCƒbƒ`  
+                - Ã“d—e—ÊŽ®ƒXƒCƒbƒ`  
+                    - Ã“d—e—Ê–³Ú“_•ûŽ®ƒXƒCƒbƒ`  
+                    - ƒ^ƒbƒ`ƒZƒ“ƒTŽ®ƒXƒCƒbƒ`  
+            - ŒõŠw‘•’u  
+                - ƒtƒHƒgƒJƒvƒ‰  
+                - ƒtƒHƒgƒCƒ“ƒ^ƒ‰ƒvƒ^  
+                - ƒ‰ƒCƒ“ƒZƒ“ƒT  
+                    - ƒtƒHƒgƒ_ƒCƒI[ƒh‚ð‚P—ñ‚É”z’u‚µAŠeƒ_ƒCƒI[ƒh‚ÌƒŒƒxƒ‹‚ð‡‚É“Ço‚µ  
+                    - CCDƒ‰ƒCƒ“ƒZƒ“ƒT  
+                    - ƒXƒLƒƒƒi‚È‚Ç‚ÉŽg—p‚³‚ê‚é  
+                - ƒo[ƒR[ƒhƒŠ[ƒ_  
+                    - ˆêŽŸŒ³ƒo[ƒR[ƒh‹KŠi  
                         - JAN  
                             - Japan Article Number  
                         - EAN  
                             - Europian Article Number  
                         - UPC-A/E  
-                            - POSã‚·ã‚¹ãƒ†ãƒ ã«åˆ©ç”¨  
+                            - POSƒVƒXƒeƒ€‚É—˜—p  
                         - CODE39  
-                            - ã‚¹ã‚¿ãƒ¼ãƒˆã‚³ãƒ¼ãƒ‰ã¨ã‚¹ãƒˆãƒƒãƒ—ã‚³ãƒ¼ãƒ‰ã§æŒŸã‚€å½¢å¼  
-                            - æ¡æ•°ã®åˆ¶é™ãŒãªã„  
-            - ã‚¢ã‚¯ãƒãƒ¥ã‚¨ãƒ¼ã‚¿  
-                - ãƒ¢ãƒ¼ã‚¿  
-                    - DCãƒ¢ãƒ¼ã‚¿ï¼ˆç›´æµãƒ¢ãƒ¼ã‚¿ï¼‰  
-                        - å›žè»¢æ•°åˆ¶å¾¡æ–¹å¼  
-                            - ãƒªãƒ‹ã‚¢åˆ¶å¾¡  
-                                - å°åŠ é›»åœ§ã‚’å¤‰ãˆã‚‹  
+                            - ƒXƒ^[ƒgƒR[ƒh‚ÆƒXƒgƒbƒvƒR[ƒh‚Å‹²‚ÞŒ`Ž®  
+                            - Œ…”‚Ì§ŒÀ‚ª‚È‚¢  
+            - ƒAƒNƒ`ƒ…ƒG[ƒ^  
+                - ƒ‚[ƒ^  
+                    - DCƒ‚[ƒ^i’¼—¬ƒ‚[ƒ^j  
+                        - ‰ñ“]”§Œä•ûŽ®  
+                            - ƒŠƒjƒA§Œä  
+                                - ˆó‰Á“dˆ³‚ð•Ï‚¦‚é  
                             - PWM  
-                        - ãƒ–ãƒ©ã‚·ãƒ¬ã‚¹DCãƒ¢ãƒ¼ã‚¿  
-                            - æ¥µæ€§ã®åè»¢ã‚’å¤–éƒ¨ã§è¡Œã†ã“ã¨ã§å†…éƒ¨ã®ãƒ–ãƒ©ã‚·ã‚’çœç•¥ã—ãŸãƒ¢ãƒ¼ã‚¿  
-                            - ãƒ–ãƒ©ã‚·ã®ãƒ¡ãƒ³ãƒ†ãƒŠãƒ³ã‚¹ãŒä¸è¦  
-                        - é•·æ‰€çŸ­æ‰€  
-                            ãƒªãƒ³ã‚¯: [ceilingfan.jp/tech/compare/acãƒ¢ãƒ¼ã‚¿ã¨dcãƒ¢ãƒ¼ã‚¿ãƒ¼ã£ã¦ä½•ãŒé•ã†ï¼Ÿ/][8]  
-                            - â—‹ï¼šæ¶ˆè²»é›»åŠ›å°  
-                            - â—‹ï¼šè»½é‡é‡  
-                            - Ã—ï¼šé«˜ä¾¡  
-                    - ACãƒ¢ãƒ¼ã‚¿ï¼ˆäº¤æµãƒ¢ãƒ¼ã‚¿ï¼‰  
-                        - äº¤æµé›»åœ§ã‚’å…¥åŠ›ã™ã‚‹ãŸã‚ã€ãƒ–ãƒ©ã‚·ä¸è¦  
-                        - èª˜å°Žãƒ¢ãƒ¼ã‚¿  
-                            - èª˜å°Žé›»æµã«ã‚ˆã£ã¦é§†å‹•ã™ã‚‹ã‚‚ã®  
-                                - èª˜å°Žé›»æµ  
-                                    - é›»ç£èª˜å°Žã«ã‚ˆã£ã¦ç”Ÿã˜ã‚‹é›»æµ  
-                            - å¯å¤‰é›»åœ§å¯å¤‰å‘¨æ³¢æ•°åˆ¶å¾¡  
-                                - ï¼VVVEï¼ˆVariable Voltage Variable Frequencyï¼‰åˆ¶å¾¡  
-                                - é›»åœ§å¤‰åŒ–â†’ãƒˆãƒ«ã‚¯åˆ¶å¾¡ã€å‘¨æ³¢æ•°å¤‰åŒ–â†’å›žè»¢æ•°åˆ¶å¾¡  
-                                - â˜…è¦è¿½åŠ   
-                        - ã‚¤ãƒ³ãƒãƒ¼ã‚¿  
-                            - ç›´æµâ†’äº¤æµ  
-                        - é•·æ‰€çŸ­æ‰€  
-                            ãƒªãƒ³ã‚¯: [ceilingfan.jp/tech/compare/acãƒ¢ãƒ¼ã‚¿ã¨dcãƒ¢ãƒ¼ã‚¿ãƒ¼ã£ã¦ä½•ãŒé•ã†ï¼Ÿ/][9]  
-                            - Ã—ï¼šæ¶ˆè²»é›»åŠ›å¤§  
-                            - Ã—ï¼šé‡ã„  
-                            - â—‹ï¼šå®‰ä¾¡  
-                    - ã‚¹ãƒ†ãƒƒãƒ”ãƒ³ã‚°ãƒ¢ãƒ¼ã‚¿  
-                        - æ¦‚è¦  
-                            - æ™‚è¨ˆã®é‡ã®ã‚ˆã†ã«ä¸€å®šã®è§’åº¦ãšã¤å›žè»¢ã•ã›ã‚‹ãƒ¢ãƒ¼ã‚¿  
-                            - å›žè»¢è§’åº¦â†’ãƒ‘ãƒ«ã‚¹æ•°ã€å›žè»¢é€Ÿåº¦â†’ãƒ‘ãƒ«ã‚¹å‘¨æ³¢æ•°  
-                            - ãƒ•ã‚£ãƒ¼ãƒ‰ãƒãƒƒã‚¯åˆ¶å¾¡ãŒä¸è¦  
-                                - ãƒ•ã‚£ãƒ¼ãƒ‰ãƒãƒƒã‚¯åˆ¶å¾¡  
-                                    - å‡ºåŠ›ã‚’å…¥åŠ›ã«ãƒ•ã‚£ãƒ¼ãƒ‰ãƒãƒƒã‚¯ã•ã›ã¦ä¸¡è€…ã‚’æ¯”è¼ƒã—ã€ä¸€è‡´ã•ã›ã‚‹ã‚ˆã†ã«ä¿®æ­£ã™ã‚‹åˆ¶å¾¡  
-                        - ç‰¹å¾´  
-                            - é«˜é€Ÿå›žè»¢ã«å‘ã‹ãªã„  
-                            - æ¶ˆè²»é›»åŠ›ãŒå¤šã„  
-                        - ç¨®é¡ž  
-                            - ãƒ¦ãƒ‹ãƒãƒ¼ãƒ©é§†å‹•æ–¹å¼  
-                                - ï¼‘ç›¸åŠ±ç£æ–¹å¼  
-                                    - ä¸€ã‹æ‰€ã®ã¿åŠ±ç£  
-                                    - æ¶ˆè²»é›»åŠ›å°  
-                                - ï¼’ç›¸åŠ±ç£æ–¹å¼  
-                                    - äºŒã‹æ‰€åŠ±ç£  
-                                    - æ¶ˆè²»é›»åŠ›ï¼’å€  
-                                - 1-2ç›¸åŠ±ç£æ–¹å¼  
-                                    - ä¸€ã‹æ‰€ã¨äºŒã‹æ‰€ã‚’ç¹°ã‚Šè¿”ã—åŠ±ç£  
-                                    - æ¶ˆè²»é›»åŠ›1.5å€  
-                                - W1-2ç›¸åŠ±ç£æ–¹å¼  
-                                    - 1-2ç›¸åŠ±ç£æ–¹å¼ã®ãƒ‘ãƒ«ã‚¹é›»æµã‚’ã•ã‚‰ã«ç´°ã‹ãåˆ¶å¾¡  
-                            - ãƒã‚¤ãƒãƒ¼ãƒ©é§†å‹•æ–¹å¼  
-                    - ãƒªãƒ‹ã‚¢ãƒ¢ãƒ¼ã‚¿  
-                - ã‚½ãƒ¬ãƒŽã‚¤ãƒ‰  
-                    - æ¦‚è¦  
-                        - ã‚³ã‚¤ãƒ«çŠ¶ã«å·»ã„ãŸé›»ç·šã¨é‰„èŠ¯ã‹ã‚‰ãªã‚Šã€é›»ç£åŠ›ã«ã‚ˆã£ã¦å‹•ä½œã•ã›ã‚‹éƒ¨å“  
-                        - é€šé›»æ™‚é–“ã‚’æ­£ã—ãåˆ¶å¾¡ã™ã‚‹å¿…è¦ãŒã‚ã‚‹  
-                            - å†…éƒ¨ã®ã‚³ã‚¤ãƒ«ãŒç™ºç†±ã™ã‚‹ãŸã‚  
-                    - å‹•ä½œç¨®åˆ¥  
-                        - ãƒ—ãƒ©ãƒ³ã‚¸ãƒ£åž‹  
-                        - ãƒ•ãƒ©ãƒƒãƒ‘åž‹  
-                        - ãƒ­ãƒ¼ã‚¿ãƒªåž‹  
-                - ãƒ”ã‚¨ã‚¾ã‚¢ã‚¯ãƒãƒ¥ã‚¨ãƒ¼ã‚¿  
-                    - æ¦‚è¦  
-                        - é›»åœ§ã‚’å°åŠ ã™ã‚‹ã“ã¨ã§å¤‰å½¢ã™ã‚‹éƒ¨å“  
-                        - ãƒ”ã‚¨ã‚¾ç´ å­  
-                            - åœ§åŠ›ã‚’åŠ ãˆã‚‹ã¨é›»æµãŒæµã‚Œã‚‹ç´ å­  
-                        - ç¨¼åƒç¯„å›²ãŒç‹­ã„ï¼ˆæ•°åãƒŸã‚¯ãƒ­ãƒ³ï¼‰  
-                            - å¤§ããªç¨¼åƒãŒå¿…è¦ãªã‚‚ã®ã¯ã€ç©å±¤ã‚¿ã‚¤ãƒ—ã‚’ä½¿ç”¨ã™ã‚‹  
-                - ä»–  
-                    - ã‚¼ãƒ¼ãƒ™ãƒƒã‚¯åŠ¹æžœ  
-                        - 2ç¨®ã®é‡‘å±ž/åŠå°Žä½“é–“ã®æ¸©åº¦å·®ã«ã‚ˆã‚Šèµ·é›»åŠ›ãŒç”Ÿã˜ã‚‹  
-            - è¡¨ç¤ºè£…ç½®  
+                        - ƒuƒ‰ƒVƒŒƒXDCƒ‚[ƒ^  
+                            - ‹É«‚Ì”½“]‚ðŠO•”‚Ås‚¤‚±‚Æ‚Å“à•”‚Ìƒuƒ‰ƒV‚ðÈ—ª‚µ‚½ƒ‚[ƒ^  
+                            - ƒuƒ‰ƒV‚Ìƒƒ“ƒeƒiƒ“ƒX‚ª•s—v  
+                        - ’·Š’ZŠ  
+                            ƒŠƒ“ƒN: [ceilingfan.jp/tech/compare/acƒ‚[ƒ^‚Ædcƒ‚[ƒ^[‚Á‚Ä‰½‚ªˆá‚¤H/][8]  
+                            - ›FÁ”ï“d—Í¬  
+                            - ›FŒyd—Ê  
+                            - ~F‚‰¿  
+                    - ACƒ‚[ƒ^iŒð—¬ƒ‚[ƒ^j  
+                        - Œð—¬“dˆ³‚ð“ü—Í‚·‚é‚½‚ßAƒuƒ‰ƒV•s—v  
+                        - —U“±ƒ‚[ƒ^  
+                            - —U“±“d—¬‚É‚æ‚Á‚Ä‹ì“®‚·‚é‚à‚Ì  
+                                - —U“±“d—¬  
+                                    - “dŽ¥—U“±‚É‚æ‚Á‚Ä¶‚¶‚é“d—¬  
+                            - ‰Â•Ï“dˆ³‰Â•ÏŽü”g”§Œä  
+                                - VVVEiVariable Voltage Variable Frequencyj§Œä  
+                                - “dˆ³•Ï‰»¨ƒgƒ‹ƒN§ŒäAŽü”g”•Ï‰»¨‰ñ“]”§Œä  
+                                - š—v’Ç‰Á  
+                        - ƒCƒ“ƒo[ƒ^  
+                            - ’¼—¬¨Œð—¬  
+                        - ’·Š’ZŠ  
+                            ƒŠƒ“ƒN: [ceilingfan.jp/tech/compare/acƒ‚[ƒ^‚Ædcƒ‚[ƒ^[‚Á‚Ä‰½‚ªˆá‚¤H/][9]  
+                            - ~FÁ”ï“d—Í‘å  
+                            - ~Fd‚¢  
+                            - ›FˆÀ‰¿  
+                    - ƒXƒeƒbƒsƒ“ƒOƒ‚[ƒ^  
+                        - ŠT—v  
+                            - ŽžŒv‚Ìj‚Ì‚æ‚¤‚Éˆê’è‚ÌŠp“x‚¸‚Â‰ñ“]‚³‚¹‚éƒ‚[ƒ^  
+                            - ‰ñ“]Šp“x¨ƒpƒ‹ƒX”A‰ñ“]‘¬“x¨ƒpƒ‹ƒXŽü”g”  
+                            - ƒtƒB[ƒhƒoƒbƒN§Œä‚ª•s—v  
+                                - ƒtƒB[ƒhƒoƒbƒN§Œä  
+                                    - o—Í‚ð“ü—Í‚ÉƒtƒB[ƒhƒoƒbƒN‚³‚¹‚Ä—¼ŽÒ‚ð”äŠr‚µAˆê’v‚³‚¹‚é‚æ‚¤‚ÉC³‚·‚é§Œä  
+                        - “Á’¥  
+                            - ‚‘¬‰ñ“]‚ÉŒü‚©‚È‚¢  
+                            - Á”ï“d—Í‚ª‘½‚¢  
+                        - Ží—Þ  
+                            - ƒ†ƒjƒ|[ƒ‰‹ì“®•ûŽ®  
+                                - ‚P‘Š—ãŽ¥•ûŽ®  
+                                    - ˆê‚©Š‚Ì‚Ý—ãŽ¥  
+                                    - Á”ï“d—Í¬  
+                                - ‚Q‘Š—ãŽ¥•ûŽ®  
+                                    - “ñ‚©Š—ãŽ¥  
+                                    - Á”ï“d—Í‚Q”{  
+                                - 1-2‘Š—ãŽ¥•ûŽ®  
+                                    - ˆê‚©Š‚Æ“ñ‚©Š‚ðŒJ‚è•Ô‚µ—ãŽ¥  
+                                    - Á”ï“d—Í1.5”{  
+                                - W1-2‘Š—ãŽ¥•ûŽ®  
+                                    - 1-2‘Š—ãŽ¥•ûŽ®‚Ìƒpƒ‹ƒX“d—¬‚ð‚³‚ç‚É×‚©‚­§Œä  
+                            - ƒoƒCƒ|[ƒ‰‹ì“®•ûŽ®  
+                    - ƒŠƒjƒAƒ‚[ƒ^  
+                - ƒ\ƒŒƒmƒCƒh  
+                    - ŠT—v  
+                        - ƒRƒCƒ‹ó‚ÉŠª‚¢‚½“dü‚Æ“Sc‚©‚ç‚È‚èA“dŽ¥—Í‚É‚æ‚Á‚Ä“®ì‚³‚¹‚é•”•i  
+                        - ’Ê“dŽžŠÔ‚ð³‚µ‚­§Œä‚·‚é•K—v‚ª‚ ‚é  
+                            - “à•”‚ÌƒRƒCƒ‹‚ª”­”M‚·‚é‚½‚ß  
+                    - “®ìŽí•Ê  
+                        - ƒvƒ‰ƒ“ƒWƒƒŒ^  
+                        - ƒtƒ‰ƒbƒpŒ^  
+                        - ƒ[ƒ^ƒŠŒ^  
+                - ƒsƒGƒ]ƒAƒNƒ`ƒ…ƒG[ƒ^  
+                    - ŠT—v  
+                        - “dˆ³‚ðˆó‰Á‚·‚é‚±‚Æ‚Å•ÏŒ`‚·‚é•”•i  
+                        - ƒsƒGƒ]‘fŽq  
+                            - ˆ³—Í‚ð‰Á‚¦‚é‚Æ“d—¬‚ª—¬‚ê‚é‘fŽq  
+                        - ‰Ò“­”ÍˆÍ‚ª‹·‚¢i”\ƒ~ƒNƒƒ“j  
+                            - ‘å‚«‚È‰Ò“­‚ª•K—v‚È‚à‚Ì‚ÍAÏ‘wƒ^ƒCƒv‚ðŽg—p‚·‚é  
+                - ‘¼  
+                    - ƒ[[ƒxƒbƒNŒø‰Ê  
+                        - 2Ží‚Ì‹à‘®/”¼“±‘ÌŠÔ‚Ì‰·“x·‚É‚æ‚è‹N“d—Í‚ª¶‚¶‚é  
+            - •\Ž¦‘•’u  
                 - LED  
-                    - ã‚¢ãƒŽãƒ¼ãƒ‰ã‚³ãƒ¢ãƒ³  
-                        - ãƒ—ãƒ©ã‚¹ã®é›»åœ§ã‚’åŠ ãˆã‚‹ç«¯å­ãŒå…±é€šã«ãªã£ã¦ã„ã‚‹ã‚‚ã®  
-                    - ã‚«ã‚½ãƒ¼ãƒ‰ã‚³ãƒ¢ãƒ³  
-                        - ãƒžã‚¤ãƒŠã‚¹ã®é›»åœ§ã‚’åŠ ãˆã‚‹ç«¯å­ãŒå…±é€šã«ãªã£ã¦ã„ã‚‹ã‚‚ã®  
-                    - ãƒ€ã‚¤ãƒŠãƒŸãƒƒã‚¯é§†å‹•  
-                        - ï¼—ã‚»ã‚°ãƒ¡ãƒ³ãƒˆLEDã«ãŠã„ã¦ã€å„æ¡ã‚’æ™‚åˆ†å‰²ã§é †æ¬¡ç‚¹ç¯ã™ã‚‹æ–¹æ³•  
+                    - ƒAƒm[ƒhƒRƒ‚ƒ“  
+                        - ƒvƒ‰ƒX‚Ì“dˆ³‚ð‰Á‚¦‚é’[Žq‚ª‹¤’Ê‚É‚È‚Á‚Ä‚¢‚é‚à‚Ì  
+                    - ƒJƒ\[ƒhƒRƒ‚ƒ“  
+                        - ƒ}ƒCƒiƒX‚Ì“dˆ³‚ð‰Á‚¦‚é’[Žq‚ª‹¤’Ê‚É‚È‚Á‚Ä‚¢‚é‚à‚Ì  
+                    - ƒ_ƒCƒiƒ~ƒbƒN‹ì“®  
+                        - ‚VƒZƒOƒƒ“ƒgLED‚É‚¨‚¢‚ÄAŠeŒ…‚ðŽž•ªŠ„‚Å‡ŽŸ“_“”‚·‚é•û–@  
                 - LCD  
-                    - æ¦‚è¦  
-                        - æ¶²æ™¶ãƒ‡ã‚£ã‚¹ãƒ—ãƒ¬ã‚¤  
+                    - ŠT—v  
+                        - ‰t»ƒfƒBƒXƒvƒŒƒC  
                         - Liquid Crystal Display  
-                        - é›»åœ§ã‚’ã‹ã‘ã‚‹ã“ã¨ã§å†…éƒ¨ã®**çµæ™¶ã®é…åˆ—ãŒå¤‰åŒ–ã™ã‚‹**æ€§è³ªã‚’æŒã£ãŸç‰©è³ªã‚’ã‚¬ãƒ©ã‚¹åŸºæ¿ã«å°æ­¢ã—ã€ä¸¡å´ã®é›»æ¥µã«é›»åœ§ã‚’ã‹ã‘ã‚‹ã“ã¨ã§è¡¨ç¤ºã™ã‚‹  
-                    - æ–¹å¼  
-                        - TNã‚¿ã‚¤ãƒ—  
+                        - “dˆ³‚ð‚©‚¯‚é‚±‚Æ‚Å“à•”‚Ì**Œ‹»‚Ì”z—ñ‚ª•Ï‰»‚·‚é**«Ž¿‚ðŽ‚Á‚½•¨Ž¿‚ðƒKƒ‰ƒXŠî”Â‚É••Ž~‚µA—¼‘¤‚Ì“d‹É‚É“dˆ³‚ð‚©‚¯‚é‚±‚Æ‚Å•\Ž¦‚·‚é  
+                    - •ûŽ®  
+                        - TNƒ^ƒCƒv  
                             - Twisted Nemetic  
-                            - é›»åœ§OFFâ†’é€éŽã€é›»åœ§ONâ†’é®æ–­  
-                            - â—‹ï¼šå¿œç­”é€Ÿåº¦ã€å®‰ä¾¡  
-                            - Ã—ï¼šè¦–é‡Žè§’ã€è‰²åˆã„  
-                        - VAã‚¿ã‚¤ãƒ—  
+                            - “dˆ³OFF¨“§‰ßA“dˆ³ON¨ŽÕ’f  
+                            - ›F‰ž“š‘¬“xAˆÀ‰¿  
+                            - ~FŽ‹–ìŠpAF‡‚¢  
+                        - VAƒ^ƒCƒv  
                             - Vertical Alignment  
-                            - é›»åœ§OFFâ†’é®æ–­ã€é›»åœ§ONâ†’é€éŽ  
-                            - â—‹ï¼šã‚³ãƒ³ãƒˆãƒ©ã‚¹ãƒˆ  
-                            - Ã—ï¼šè¦–é‡Žè§’  
-                        - IPSã‚¿ã‚¤ãƒ—  
+                            - “dˆ³OFF¨ŽÕ’fA“dˆ³ON¨“§‰ß  
+                            - ›FƒRƒ“ƒgƒ‰ƒXƒg  
+                            - ~FŽ‹–ìŠp  
+                        - IPSƒ^ƒCƒv  
                             - In-Plane Switching  
-                            - åŸºç›¤ã¨å¹³è¡Œã«é›»åœ§ã‚’ã‹ã‘ã‚‹  
-                            - â—‹ï¼šè‰²åˆã„ã€è¦–é‡Žè§’ã€å¿œç­”é€Ÿåº¦  
-                            - Ã—ï¼šé«˜ä¾¡  
-                    - ç¨®é¡ž  
-                        - é€éŽåž‹  
-                        - åå°„åž‹  
-                        - ï¼“Dæ¶²æ™¶  
-                            - åå‘ã‚°ãƒ©ã‚¹  
+                            - Šî”Õ‚Æ•½s‚É“dˆ³‚ð‚©‚¯‚é  
+                            - ›FF‡‚¢AŽ‹–ìŠpA‰ž“š‘¬“x  
+                            - ~F‚‰¿  
+                    - Ží—Þ  
+                        - “§‰ßŒ^  
+                        - ”½ŽËŒ^  
+                        - ‚RD‰t»  
+                            - •ÎŒüƒOƒ‰ƒX  
                 - CRT  
-                    - æ¦‚è¦  
+                    - ŠT—v  
                         - Cathode Ray Tube  
-                        - è›å…‰ä½“ã®å¡—å¸ƒã•ã‚ŒãŸé¢ã«é †æ¬¡é›»å­éŠƒã§é›»å­ã‚’å½“ã¦ã¦ç™ºé…µã•ã›ã‚‹æ–¹å¼  
-                        - ï¼ãƒ–ãƒ©ã‚¦ãƒ³ç®¡  
-                - æœ‰æ©ŸELãƒ‡ã‚£ã‚¹ãƒ—ãƒ¬ã‚¤  
-                    - å½¢çŠ¶ã‚’è‡ªç”±ã«ã§ãã‚‹  
-                    - è¦–é‡Žè§’ãŒåºƒã„  
-                - ãƒ—ãƒ©ã‚ºãƒžãƒ‡ã‚£ã‚¹ãƒ—ãƒ¬ã‚¤  
-                    - ç´«å¤–ç·šã‚’è›å…‰ä½“ã«å½“ã¦ã¦ç™ºå…‰ã•ã›ã‚‹  
-                    - â—‹ï¼šè¦–é‡Žè§’  
-                    - â—‹ï¼šå¤§ç”»é¢åŒ–  
-                    - Ã—ï¼šæ¶ˆè²»é›»åŠ›  
-                - é›»ç•Œæ”¾å‡ºãƒ‡ã‚£ã‚¹ãƒ—ãƒ¬ã‚¤  
-                    - FEDï¼ˆField Emission Displayï¼‰  
-                    - å„ç”»ç´ ã«å¯¾å¿œã™ã‚‹é›»å­éŠƒã‹ã‚‰é›»å­ã‚’æ”¾å‡ºã—ã¦è›å…‰ä½“ã«å½“ã¦ã‚‹ã“ã¨ã«ã‚ˆã‚Šç™ºå…‰ã•ã›ã‚‹æ–¹å¼  
-            - MEMSãƒ‡ãƒã‚¤ã‚¹  
+                        - ŒuŒõ‘Ì‚Ì“h•z‚³‚ê‚½–Ê‚É‡ŽŸ“dŽqe‚Å“dŽq‚ð“–‚Ä‚Ä”­y‚³‚¹‚é•ûŽ®  
+                        - ƒuƒ‰ƒEƒ“ŠÇ  
+                - —L‹@ELƒfƒBƒXƒvƒŒƒC  
+                    - Œ`ó‚ðŽ©—R‚É‚Å‚«‚é  
+                    - Ž‹–ìŠp‚ªL‚¢  
+                - ƒvƒ‰ƒYƒ}ƒfƒBƒXƒvƒŒƒC  
+                    - Ž‡ŠOü‚ðŒuŒõ‘Ì‚É“–‚Ä‚Ä”­Œõ‚³‚¹‚é  
+                    - ›FŽ‹–ìŠp  
+                    - ›F‘å‰æ–Ê‰»  
+                    - ~FÁ”ï“d—Í  
+                - “dŠE•úoƒfƒBƒXƒvƒŒƒC  
+                    - FEDiField Emission Displayj  
+                    - Še‰æ‘f‚É‘Î‰ž‚·‚é“dŽqe‚©‚ç“dŽq‚ð•úo‚µ‚ÄŒuŒõ‘Ì‚É“–‚Ä‚é‚±‚Æ‚É‚æ‚è”­Œõ‚³‚¹‚é•ûŽ®  
+            - MEMSƒfƒoƒCƒX  
                 - Micro Electro Mechanical Systems  
-                - ã‚·ãƒªã‚³ãƒ³åŸºæ¿ä¸Šã«ãƒ¡ã‚«ãƒ‹ã‚«ãƒ«ãªæ©Ÿæ§‹ã‚’å¾®å°ã«ä½œã‚Šã“ã‚“ã ã‚‚ã®  
-                - ï¼ãƒžã‚¤ã‚¯ãƒ­ãƒžã‚·ãƒ³  
-                - ç¨®é¡ž  
-                    - åŠ é€Ÿåº¦ã‚»ãƒ³ã‚µ  
-                        - ç›´ç·šæ–¹å‘ã«å—ã‘ã‚‹åŠ›ã‚’è¨ˆæ¸¬  
-                    - ã‚¸ãƒ£ã‚¤ãƒ­ã‚»ãƒ³ã‚µ  
-                        - å›žè»¢ã®è§’é€Ÿåº¦ã‚’è¨ˆæ¸¬ï¼ˆå›žè»¢è»¸å›ºå®šï¼‰  
+                - ƒVƒŠƒRƒ“Šî”Âã‚ÉƒƒJƒjƒJƒ‹‚È‹@\‚ð”÷¬‚Éì‚è‚±‚ñ‚¾‚à‚Ì  
+                - ƒ}ƒCƒNƒƒ}ƒVƒ“  
+                - Ží—Þ  
+                    - ‰Á‘¬“xƒZƒ“ƒT  
+                        - ’¼ü•ûŒü‚ÉŽó‚¯‚é—Í‚ðŒv‘ª  
+                    - ƒWƒƒƒCƒƒZƒ“ƒT  
+                        - ‰ñ“]‚ÌŠp‘¬“x‚ðŒv‘ªi‰ñ“]Ž²ŒÅ’èj  
                     - DMD  
                         - Digital Micromirror Device  
-                        - å¾®å°ãªé¡ã‚’å¤§é‡ã«ä¸¦ã¹ã€ãã‚Œãžã‚Œã®é¡ã®è§’åº¦ã‚’åˆ¶å¾¡ã§ãã‚‹ã‚ˆã†ã«ã—ãŸã‚‚ã®  
-                        - ex) ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ã‚¿ã®ç”»åƒæç”»  
-                - ex) ã‚¤ãƒ³ã‚¯ã‚¸ã‚§ãƒƒãƒˆãƒ—ãƒªãƒ³ã‚¿ãƒ˜ãƒƒãƒ‰  
-                - â˜…è¦è¿½åŠ   
-    - ï¼”ï¼Žãƒãƒƒãƒˆãƒ¯ãƒ¼ã‚¯ã‚¢ãƒ¼ã‚­ãƒ†ã‚¯ãƒãƒ£  
+                        - ”÷¬‚È‹¾‚ð‘å—Ê‚É•À‚×A‚»‚ê‚¼‚ê‚Ì‹¾‚ÌŠp“x‚ð§Œä‚Å‚«‚é‚æ‚¤‚É‚µ‚½‚à‚Ì  
+                        - ex) ƒvƒƒWƒFƒNƒ^‚Ì‰æ‘œ•`‰æ  
+                - ex) ƒCƒ“ƒNƒWƒFƒbƒgƒvƒŠƒ“ƒ^ƒwƒbƒh  
+                - š—v’Ç‰Á  
+    - ‚SDƒlƒbƒgƒ[ƒNƒA[ƒLƒeƒNƒ`ƒƒ  
         - LAN  
-            - ãƒãƒƒãƒˆãƒ¯ãƒ¼ã‚¯ãƒˆãƒãƒ­ã‚¸  
-                - ã‚¹ã‚¿ãƒ¼åž‹  
-                    - ä¸­å¿ƒã®é€šä¿¡æ©Ÿå™¨ã«è¤‡æ•°ç«¯æœ«ã‚’æŽ¥ç¶š  
-                    - ä¸­å¿ƒã®æ©Ÿå™¨æ•…éšœæ™‚ã€å…¨ç«¯æœ«ã®é€šä¿¡ãŒã§ããªããªã‚‹  
-                - ãƒã‚¹åž‹  
-                    - åŸºå¹¹ã¨ãªã‚‹ç·šã«è¤‡æ•°ç«¯æœ«ã‚’æŽ¥ç¶š  
-                    - é€šä¿¡é‡å¢—å¤§æ™‚ã€ååˆ†ãªæ€§èƒ½ãŒå¾—ã‚‰ã‚Œãªã„  
-                - ãƒªãƒ³ã‚°åž‹  
-                    - ç«¯æœ«åŒå£«ã‚’ç’°çŠ¶ã«æŽ¥ç¶š  
-                    - ä¿¡å·ã‚’ä¸€æ–¹å‘ã«ã™ã‚‹ã“ã¨ã§ã€è¡çªã‚’é˜²ã  
-            - ã‚¢ã‚¯ã‚»ã‚¹åˆ¶å¾¡æ–¹å¼  
+            - ƒlƒbƒgƒ[ƒNƒgƒ|ƒƒW  
+                - ƒXƒ^[Œ^  
+                    - ’†S‚Ì’ÊM‹@Ší‚É•¡”’[––‚ðÚ‘±  
+                    - ’†S‚Ì‹@ŠíŒÌáŽžA‘S’[––‚Ì’ÊM‚ª‚Å‚«‚È‚­‚È‚é  
+                - ƒoƒXŒ^  
+                    - ŠîŠ²‚Æ‚È‚éü‚É•¡”’[––‚ðÚ‘±  
+                    - ’ÊM—Ê‘‘åŽžA\•ª‚È«”\‚ª“¾‚ç‚ê‚È‚¢  
+                - ƒŠƒ“ƒOŒ^  
+                    - ’[––“¯Žm‚ðŠÂó‚ÉÚ‘±  
+                    - M†‚ðˆê•ûŒü‚É‚·‚é‚±‚Æ‚ÅAÕ“Ë‚ð–h‚®  
+            - ƒAƒNƒZƒX§Œä•ûŽ®  
                 - CSMA/CD  
                     - Carrier Sence Multiple Access with Collision Detection  
-                    - é€ä¿¡å´ãŒé€šä¿¡çŠ¶æ…‹ã‚’ç›£è¦–ã€ç©ºããŒãªã‹ã£ãŸã‚‰ã€ä¹±æ•°ã«åŸºã¥ã„ãŸæ™‚é–“ã‚’ãŠã„ã¦å†åº¦é€ä¿¡  
-                - ãƒˆãƒ¼ã‚¯ãƒ³ãƒ‘ãƒƒã‚·ãƒ³ã‚°æ–¹å¼  
-                    - ãƒˆãƒ¼ã‚¯ãƒ³ã‚’ãƒã‚¹ã«æµã—ã€ã“ã‚Œã‚’å¾—ãŸãƒŽãƒ¼ãƒ‰ãŒãƒ‡ãƒ¼ã‚¿ã‚’é€ä¿¡  
-        - ç¬¦å·åŒ–ã¨ä¼é€  
-            - ãƒ‡ã‚£ã‚¸ã‚¿ãƒ«å¤‰èª¿  
-                - å‘¨æ³¢æ•°å¤‰èª¿  
-                    - FSKï¼ˆFrequency Shift Keyingï¼‰/FMï¼ˆFrequency Modulationï¼‰  
-                - ä½ç›¸å¤‰èª¿  
-                    - PSKï¼ˆPhase Shift Keyingï¼‰  
-                    - è¤‡æ•°ãƒ“ãƒƒãƒˆã‚’ä¿¡å·ã®ä½ç›¸ã«å‰²ã‚Šå½“ã¦ã‚‹  
-                    - ä½ç›¸ã®ç¨®é¡žãŒï¼”ç¨®é¡žï¼ˆ00ï½ž11ï¼‰ã®å ´åˆã¯ï¼’ãƒ“ãƒƒãƒˆã€ï¼˜ç¨®é¡žï¼ˆ000ï½ž111ï¼‰ã®å ´åˆã¯ï¼“ãƒ“ãƒƒãƒˆã®å¤‰èª¿ãŒå¯èƒ½  
-                - æŒ¯å¹…ä½ç›¸å¤‰èª¿  
-                    - APSKï¼ˆAmplitude Phase Shift Keyingï¼‰  
-                    - æŒ¯å¹…ï¼‹ä½ç›¸  
-                - ç›´äº¤æŒ¯å¹…å¤‰èª¿  
-                    - QAMï¼ˆQuadrature Amplitude Modulationï¼‰  
-                    - ç›´äº¤åº§æ¨™ä¸­ã«å¤šæ•°ã®ä¿¡å·ç‚¹ã‚’å®šç¾©ã™ã‚‹æ–¹å¼  
-            - èª¤ã‚Šåˆ¶å¾¡  
-                - ãƒ‘ãƒªãƒ†ã‚£  
-                    - æ°´å¹³ãƒ‘ãƒªãƒ†ã‚£  
-                    - åž‚ç›´ãƒ‘ãƒªãƒ†ã‚£  
-                    - èª¤ã‚Šæ¤œå‡ºï¼šï¼‘ãƒ“ãƒƒãƒˆ  
-                    - èª¤ã‚Šè¨‚æ­£ï¼šÃ—  
-                - ãƒãƒŸãƒ³ã‚°ç¬¦å·  
-                    - è¤‡æ•°ã®å†—é•·ãƒ“ãƒƒãƒˆã‚’ä»˜åŠ ã™ã‚‹ã€‚å—ä¿¡ãƒ‡ãƒ¼ã‚¿ã¨ã®ãƒãƒŸãƒ³ã‚°è·é›¢ï¼ˆç•°ãªã‚‹ãƒ“ãƒƒãƒˆæ•°ï¼‰ã‹ã‚‰å…ƒãƒ‡ãƒ¼ã‚¿ã‚’ç‰¹å®šã™ã‚‹  
-                        - åŒã˜ãƒãƒŸãƒ³ã‚°è·é›¢ã®å ´åˆã¯ã€èª¤ã‚ŠãŒã‚ã‚‹æ¼”ç®—å¤šé …å¼ã«å…±é€šã™ã‚‹ãƒ“ãƒƒãƒˆä½ç½®ãŒèª¤ã‚Šãƒ‡ãƒ¼ã‚¿ã¨ãªã‚‹ã€‚  
-                    - èª¤ã‚Šæ¤œå‡ºï¼šï¼’ãƒ“ãƒƒãƒˆ  
-                    - èª¤ã‚Šè¨‚æ­£ï¼šï¼‘ãƒ“ãƒƒãƒˆ  
+                    - ‘—M‘¤‚ª’ÊMó‘Ô‚ðŠÄŽ‹A‹ó‚«‚ª‚È‚©‚Á‚½‚çA—”‚ÉŠî‚Ã‚¢‚½ŽžŠÔ‚ð‚¨‚¢‚ÄÄ“x‘—M  
+                - ƒg[ƒNƒ“ƒpƒbƒVƒ“ƒO•ûŽ®  
+                    - ƒg[ƒNƒ“‚ðƒoƒX‚É—¬‚µA‚±‚ê‚ð“¾‚½ƒm[ƒh‚ªƒf[ƒ^‚ð‘—M  
+        - •„†‰»‚Æ“`‘—  
+            - ƒfƒBƒWƒ^ƒ‹•Ï’²  
+                - Žü”g”•Ï’²  
+                    - FSKiFrequency Shift Keyingj/FMiFrequency Modulationj  
+                - ˆÊ‘Š•Ï’²  
+                    - PSKiPhase Shift Keyingj  
+                    - •¡”ƒrƒbƒg‚ðM†‚ÌˆÊ‘Š‚ÉŠ„‚è“–‚Ä‚é  
+                    - ˆÊ‘Š‚ÌŽí—Þ‚ª‚SŽí—Þi00`11j‚Ìê‡‚Í‚QƒrƒbƒgA‚WŽí—Þi000`111j‚Ìê‡‚Í‚Rƒrƒbƒg‚Ì•Ï’²‚ª‰Â”\  
+                - U•ˆÊ‘Š•Ï’²  
+                    - APSKiAmplitude Phase Shift Keyingj  
+                    - U•{ˆÊ‘Š  
+                - ’¼ŒðU••Ï’²  
+                    - QAMiQuadrature Amplitude Modulationj  
+                    - ’¼ŒðÀ•W’†‚É‘½”‚ÌM†“_‚ð’è‹`‚·‚é•ûŽ®  
+            - Œë‚è§Œä  
+                - ƒpƒŠƒeƒB  
+                    - …•½ƒpƒŠƒeƒB  
+                    - ‚’¼ƒpƒŠƒeƒB  
+                    - Œë‚èŒŸoF‚Pƒrƒbƒg  
+                    - Œë‚è’ù³F~  
+                - ƒnƒ~ƒ“ƒO•„†  
+                    - •¡”‚Ìç’·ƒrƒbƒg‚ð•t‰Á‚·‚éBŽóMƒf[ƒ^‚Æ‚Ìƒnƒ~ƒ“ƒO‹——£iˆÙ‚È‚éƒrƒbƒg”j‚©‚çŒ³ƒf[ƒ^‚ð“Á’è‚·‚é  
+                        - “¯‚¶ƒnƒ~ƒ“ƒO‹——£‚Ìê‡‚ÍAŒë‚è‚ª‚ ‚é‰‰ŽZ‘½€Ž®‚É‹¤’Ê‚·‚éƒrƒbƒgˆÊ’u‚ªŒë‚èƒf[ƒ^‚Æ‚È‚éB  
+                    - Œë‚èŒŸoF‚Qƒrƒbƒg  
+                    - Œë‚è’ù³F‚Pƒrƒbƒg  
                 - CRC  
-                    - å¤šé …å¼ã‚’ç”¨ã„ã¦èª¤ã‚Šã‚’æ¤œå‡ºã™ã‚‹  
-                    - é€£ç¶šã—ãŸãƒ“ãƒƒãƒˆèª¤ã‚Šã®æ¤œå‡ºãŒå¯èƒ½  
-                        - ãƒãƒ¼ã‚¹ãƒˆèª¤ã‚Šæ¤œå‡º  
-                    - èª¤ã‚Šè¨‚æ­£ï¼šÃ—  
-                - èª¤ã‚Šè¨‚æ­£ãƒ—ãƒ­ãƒˆã‚³ãƒ«  
+                    - ‘½€Ž®‚ð—p‚¢‚ÄŒë‚è‚ðŒŸo‚·‚é  
+                    - ˜A‘±‚µ‚½ƒrƒbƒgŒë‚è‚ÌŒŸo‚ª‰Â”\  
+                        - ƒo[ƒXƒgŒë‚èŒŸo  
+                    - Œë‚è’ù³F~  
+                - Œë‚è’ù³ƒvƒƒgƒRƒ‹  
                     - HDLC  
                         - High level Data Link Control produce  
-                        - æ±ºã‚ã‚‰ã‚ŒãŸå˜ä½ã§ãƒ‡ãƒ¼ã‚¿ã‚’åŒºåˆ‡ã£ã¦ãƒ•ãƒ¬ãƒ¼ãƒ ã‚’å½¢æˆã—ã¦ã€å—ä¿¡å´ã§ãƒ•ãƒ¬ãƒ¼ãƒ èª¤ã‚Šã‚’æ¤œå‡ºã—ãŸå ´åˆã€å†é€ã‚’è¦æ±‚ã™ã‚‹èª¤ã‚Šè¨‚æ­£ãƒ—ãƒ­ãƒˆã‚³ãƒ«ã€‚  
-                        - å†é€è¦æ±‚ãƒ•ãƒ¬ãƒ¼ãƒ ï¼ˆREJ/SREJï¼‰ã‚’é€ä¿¡ã—ã€å½“è©²ãƒ•ãƒ¬ãƒ¼ãƒ ä»¥é™ã®ãƒ•ãƒ¬ãƒ¼ãƒ ã‚‚ã—ãã¯å½“è©²ãƒ•ãƒ¬ãƒ¼ãƒ ã®å†é€ã‚’è¦æ±‚ã™ã‚‹ã€‚  
-                        - â—‹ï¼šé«˜ä¿¡é ¼æ€§  
-                        - â—‹ï¼šé«˜ä¼é€åŠ¹çŽ‡  
-            - ä¼é€åˆ¶å¾¡  
-                - ã‚³ãƒã‚¯ã‚·ãƒ§ãƒ³åž‹  
-                    - ã‚ã‚‰ã‹ã˜ã‚åŒæ–¹ã‚’æŽ¥ç¶šã—ã¦ãŠãæ–¹å¼  
-                - ã‚³ãƒã‚¯ã‚·ãƒ§ãƒ³ãƒ¬ã‚¹åž‹  
-                    - ç›¸æ‰‹å…ˆã‚’ç‰¹å®šã™ã‚‹æƒ…å ±ã‚’è¼‰ã›ã¦ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã‚’é€ã‚‹æ–¹å¼  
-                    - ex) TCP/IPã®LAN  
-            - é€ä¿¡æ¨©åˆ¶å¾¡  
-                - ã‚³ãƒ³ãƒ†ãƒ³ã‚·ãƒ§ãƒ³æ–¹å¼  
-                    - å…ˆã«é€ä¿¡è¦æ±‚ã‚’å‡ºã—ãŸå´ãŒé€ä¿¡æ¨©ã‚’å¾—ã‚‹æ–¹å¼  
-                - ãƒãƒ¼ãƒªãƒ³ã‚°ãƒ»ã‚»ãƒ¬ã‚¯ãƒ†ã‚£ãƒ³ã‚°æ–¹å¼  
-                    - ä¸»å±€å—ä¿¡æ™‚  
-                        - ä¸€å®šé–“éš”ã§å¾“å±€ã®é€ä¿¡è¦æ±‚ã‚’ç¢ºèªï¼ˆãƒãƒ¼ãƒªãƒ³ã‚°ï¼‰ã€‚  
-                    - ä¸»å±€é€ä¿¡æ™‚  
-                        - å¾“å±€ãŒå—ä¿¡å¯èƒ½ã§ã‚ã‚‹ã‹ã‚’ç¢ºèªï¼ˆã‚»ãƒ¬ã‚¯ãƒ†ã‚£ãƒ³ã‚°ï¼‰ã€‚  
-        - ã‚µãƒ¼ãƒ“ã‚¹ã¨è¦æ ¼  
-            - é›»æ°—é€šä¿¡ã‚µãƒ¼ãƒ“ã‚¹  
-                - å°‚ç”¨ç·š  
-                - å›žç·šäº¤æ›  
-                    - å…¬è¡†å›žç·šã«ãŠã‘ã‚‹ä»»æ„ã®ï¼’åœ°ç‚¹é–“ã‚’æŽ¥ç¶š  
-                - ãƒ‘ã‚±ãƒƒãƒˆäº¤æ›  
-                    - é€å—ä¿¡ãƒ‡ãƒ¼ã‚¿ã‚’ä¸€å®šã®é•·ã•ã®ãƒ‘ã‚±ãƒƒãƒˆã«åˆ†å‰²ã—ã¦ä¼é€  
-                    - ãƒ•ãƒ¬ãƒ¼ãƒ ãƒªãƒ¬ãƒ¼  
-                        - ç«¯æœ«ã«èª¤ã‚Šè¨‚æ­£æ©Ÿèƒ½ã‚’æŒãŸã›ã¦ãƒãƒƒãƒˆãƒ¯ãƒ¼ã‚¯å´ã®æ©Ÿèƒ½ã‚’ç°¡ç´ åŒ–ã•ã›ã‚‹æ–¹å¼  
-                        - ç‰¹å¾´  
-                            - é«˜é€Ÿ  
-                            - ä½Žã‚³ã‚¹ãƒˆ  
-                    - ã‚»ãƒ«ãƒªãƒ¬ãƒ¼  
-                        - ATMã®ã‚»ãƒ«ã‚’å˜ä½ã¨ã—ã¦ãƒ‡ãƒ¼ã‚¿ã®é€å—ä¿¡ã‚’æä¾›ã™ã‚‹é€šä¿¡ã‚µãƒ¼ãƒ“ã‚¹  
-                        - ç‰¹å¾´  
-                            - ãƒ•ãƒ¬ãƒ¼ãƒ ãƒªãƒ¬ãƒ¼ã‚ˆã‚Šé«˜é€Ÿ  
-                        - ç”¨èªž  
+                        - Œˆ‚ß‚ç‚ê‚½’PˆÊ‚Åƒf[ƒ^‚ð‹æØ‚Á‚ÄƒtƒŒ[ƒ€‚ðŒ`¬‚µ‚ÄAŽóM‘¤‚ÅƒtƒŒ[ƒ€Œë‚è‚ðŒŸo‚µ‚½ê‡AÄ‘—‚ð—v‹‚·‚éŒë‚è’ù³ƒvƒƒgƒRƒ‹B  
+                        - Ä‘——v‹ƒtƒŒ[ƒ€iREJ/SREJj‚ð‘—M‚µA“–ŠYƒtƒŒ[ƒ€ˆÈ~‚ÌƒtƒŒ[ƒ€‚à‚µ‚­‚Í“–ŠYƒtƒŒ[ƒ€‚ÌÄ‘—‚ð—v‹‚·‚éB  
+                        - ›F‚M—Š«  
+                        - ›F‚“`‘—Œø—¦  
+            - “`‘—§Œä  
+                - ƒRƒlƒNƒVƒ‡ƒ“Œ^  
+                    - ‚ ‚ç‚©‚¶‚ß‘o•û‚ðÚ‘±‚µ‚Ä‚¨‚­•ûŽ®  
+                - ƒRƒlƒNƒVƒ‡ƒ“ƒŒƒXŒ^  
+                    - ‘ŠŽèæ‚ð“Á’è‚·‚éî•ñ‚ðÚ‚¹‚ÄƒƒbƒZ[ƒW‚ð‘—‚é•ûŽ®  
+                    - ex) TCP/IP‚ÌLAN  
+            - ‘—MŒ §Œä  
+                - ƒRƒ“ƒeƒ“ƒVƒ‡ƒ“•ûŽ®  
+                    - æ‚É‘—M—v‹‚ðo‚µ‚½‘¤‚ª‘—MŒ ‚ð“¾‚é•ûŽ®  
+                - ƒ|[ƒŠƒ“ƒOEƒZƒŒƒNƒeƒBƒ“ƒO•ûŽ®  
+                    - Žå‹ÇŽóMŽž  
+                        - ˆê’èŠÔŠu‚Å]‹Ç‚Ì‘—M—v‹‚ðŠm”Fiƒ|[ƒŠƒ“ƒOjB  
+                    - Žå‹Ç‘—MŽž  
+                        - ]‹Ç‚ªŽóM‰Â”\‚Å‚ ‚é‚©‚ðŠm”FiƒZƒŒƒNƒeƒBƒ“ƒOjB  
+        - ƒT[ƒrƒX‚Æ‹KŠi  
+            - “d‹C’ÊMƒT[ƒrƒX  
+                - ê—pü  
+                - ‰ñüŒðŠ·  
+                    - ŒöO‰ñü‚É‚¨‚¯‚é”CˆÓ‚Ì‚Q’n“_ŠÔ‚ðÚ‘±  
+                - ƒpƒPƒbƒgŒðŠ·  
+                    - ‘—ŽóMƒf[ƒ^‚ðˆê’è‚Ì’·‚³‚ÌƒpƒPƒbƒg‚É•ªŠ„‚µ‚Ä“`‘—  
+                    - ƒtƒŒ[ƒ€ƒŠƒŒ[  
+                        - ’[––‚ÉŒë‚è’ù³‹@”\‚ðŽ‚½‚¹‚Äƒlƒbƒgƒ[ƒN‘¤‚Ì‹@”\‚ðŠÈ‘f‰»‚³‚¹‚é•ûŽ®  
+                        - “Á’¥  
+                            - ‚‘¬  
+                            - ’áƒRƒXƒg  
+                    - ƒZƒ‹ƒŠƒŒ[  
+                        - ATM‚ÌƒZƒ‹‚ð’PˆÊ‚Æ‚µ‚Äƒf[ƒ^‚Ì‘—ŽóM‚ð’ñ‹Ÿ‚·‚é’ÊMƒT[ƒrƒX  
+                        - “Á’¥  
+                            - ƒtƒŒ[ƒ€ƒŠƒŒ[‚æ‚è‚‘¬  
+                        - —pŒê  
                             - ATM  
                                 - Asynchronous Transfer Mode  
-                                - éžåŒæœŸè»¢é€ãƒ¢ãƒ¼ãƒ‰  
-                            - ã‚»ãƒ«  
-                                - 53byteã®ä¼é€ãƒ‡ãƒ¼ã‚¿å˜ä½  
+                                - ”ñ“¯Šú“]‘—ƒ‚[ƒh  
+                            - ƒZƒ‹  
+                                - 53byte‚Ì“`‘—ƒf[ƒ^’PˆÊ  
                 - IP-VPN  
-                    - ä»®æƒ³çš„ãªãƒ—ãƒ©ã‚¤ãƒ™ãƒ¼ãƒˆãƒãƒƒãƒˆãƒ¯ãƒ¼ã‚¯ã‚’æ§‹ç¯‰  
+                    - ‰¼‘z“I‚Èƒvƒ‰ƒCƒx[ƒgƒlƒbƒgƒ[ƒN‚ð\’z  
                     - MPLS  
                         - Multi Protocol Label Switching  
-                        - IPã‚¢ãƒ‰ãƒ¬ã‚¹ã®ä»£ã‚ã‚Šã«ãƒ©ãƒ™ãƒ«ã‚’ç”¨ã„ã¦é€šä¿¡ã™ã‚‹ã“ã¨  
-                - åºƒåŸŸã‚¤ãƒ¼ã‚µãƒãƒƒãƒˆ  
-                    - é–‰åŸŸã‚¤ãƒ¼ã‚µãƒãƒƒãƒˆç¶²ã‚’ä»‹ã—ã¦ã€ä»®æƒ³çš„ãªã‚¤ãƒ¼ã‚µãƒãƒƒãƒˆã‚’æ§‹ç¯‰ã™ã‚‹  
-                    - æ±Žç”¨æ€§ãŒé«˜ã„  
-                        - ãƒ—ãƒ­ãƒˆã‚³ãƒ«ãŒIPã«é™å®šã•ã‚Œãªã„ãŸã‚  
+                        - IPƒAƒhƒŒƒX‚Ì‘ã‚í‚è‚Éƒ‰ƒxƒ‹‚ð—p‚¢‚Ä’ÊM‚·‚é‚±‚Æ  
+                - LˆæƒC[ƒTƒlƒbƒg  
+                    - •ÂˆæƒC[ƒTƒlƒbƒg–Ô‚ð‰î‚µ‚ÄA‰¼‘z“I‚ÈƒC[ƒTƒlƒbƒg‚ð\’z‚·‚é  
+                    - ”Ä—p«‚ª‚‚¢  
+                        - ƒvƒƒgƒRƒ‹‚ªIP‚ÉŒÀ’è‚³‚ê‚È‚¢‚½‚ß  
                 - ISDN  
-                    - åŸºæœ¬ã‚¤ãƒ³ã‚¿ãƒ¼ãƒ•ã‚§ãƒ¼ã‚¹ï¼ˆ2B+Dï¼‰  
-                        - ãƒ‡ãƒ¼ã‚¿é€šä¿¡ç”¨ãƒãƒ£ãƒãƒ«ï¼ˆ64kbit/sï¼‰Ã—2  
-                        - åˆ¶å¾¡ç”¨ãƒãƒ£ãƒãƒ«ï¼ˆ16kbit/sï¼‰  
-                    - ä¸€æ¬¡ç¾¤ã‚¤ãƒ³ã‚¿ãƒ¼ãƒ•ã‚§ãƒ¼ã‚¹ï¼ˆ23B+Dï¼‰  
-                        - ãƒ‡ãƒ¼ã‚¿é€šä¿¡ç”¨ãƒãƒ£ãƒãƒ«ï¼ˆ64kbit/sï¼‰Ã—23  
-                        - åˆ¶å¾¡ç”¨ãƒãƒ£ãƒãƒ«ï¼ˆ64kbit/sï¼‰  
-            - ãƒãƒƒãƒˆãƒ¯ãƒ¼ã‚¯é–¢é€£è¦æ ¼  
-                - ITU-Tå‹§å‘Š  
+                    - Šî–{ƒCƒ“ƒ^[ƒtƒF[ƒXi2B+Dj  
+                        - ƒf[ƒ^’ÊM—pƒ`ƒƒƒlƒ‹i64kbit/sj~2  
+                        - §Œä—pƒ`ƒƒƒlƒ‹i16kbit/sj  
+                    - ˆêŽŸŒQƒCƒ“ƒ^[ƒtƒF[ƒXi23B+Dj  
+                        - ƒf[ƒ^’ÊM—pƒ`ƒƒƒlƒ‹i64kbit/sj~23  
+                        - §Œä—pƒ`ƒƒƒlƒ‹i64kbit/sj  
+            - ƒlƒbƒgƒ[ƒNŠÖ˜A‹KŠi  
+                - ITU-TŠ©  
                     - International Telecommunication Union  
-                    - æ¨™æº–åŒ–ã®æŽ¨é€²ã¨è¦æ ¼æ–‡æ›¸ã®ç™ºè¡Œ  
+                    - •W€‰»‚Ì„i‚Æ‹KŠi•¶‘‚Ì”­s  
                 - IEEE  
                     - Institute of Electrical and Electronic Engineers  
-                    - é›»æ°—é›»å­åŠã³é€šä¿¡åˆ†é‡Žã«ãŠã‘ã‚‹ä¸–ç•Œè¦æ¨¡ã®å­¦ä¼š  
+                    - “d‹C“dŽq‹y‚Ñ’ÊM•ª–ì‚É‚¨‚¯‚é¢ŠE‹K–Í‚ÌŠw‰ï  
                 - RFC  
                     - Request For Comments  
-                    - IETFã«ã‚ˆã£ã¦ç™ºè¡Œã•ã‚Œã¦ã„ã‚‹å„ç¨®ã‚¤ãƒ³ã‚¿ãƒ¼ãƒãƒƒãƒˆãƒ—ãƒ­ãƒˆã‚³ãƒ«ã«é–¢ã™ã‚‹æ¨™æº–åŒ–ä»•æ§˜  
+                    - IETF‚É‚æ‚Á‚Ä”­s‚³‚ê‚Ä‚¢‚éŠeŽíƒCƒ“ƒ^[ƒlƒbƒgƒvƒƒgƒRƒ‹‚ÉŠÖ‚·‚é•W€‰»Žd—l  
                         - IETF  
                             - the Internet Engineering Task Force  
-        - ä¼é€åª’ä½“  
-            - é€šä¿¡æ©Ÿå™¨  
-                - æœ‰ç·š  
-                    - ãƒ„ã‚¤ã‚¹ãƒˆãƒšã‚¢ã‚±ãƒ¼ãƒ–ãƒ«  
-                    - åŒè»¸ã‚±ãƒ¼ãƒ–ãƒ«  
-                    - å…‰ãƒ•ã‚¡ã‚¤ãƒ  
-                - ç„¡ç·š  
-            - é€šä¿¡è£…ç½®  
-                - ãƒªãƒ”ãƒ¼ã‚¿  
-                    - ç¬¬ï¼‘å±¤ï¼ˆç‰©ç†å±¤ï¼‰ã«ãŠã‘ã‚‹ä¸­ç¶™è£…ç½®  
-                    - ã‚¹ã‚¤ãƒƒãƒãƒ³ã‚°æ©Ÿèƒ½ã‚’æŒãŸãªã„  
-                - ãƒ–ãƒªãƒƒã‚¸  
-                    - ç¬¬ï¼’å±¤ï¼ˆãƒ‡ãƒ¼ã‚¿ãƒªãƒ³ã‚¯å±¤ï¼‰ã«ãŠã‘ã‚‹ä¸­ç¶™è£…ç½®  
-                - ãƒ«ãƒ¼ã‚¿  
-                    - ç¬¬ï¼“å±¤ï¼ˆãƒãƒƒãƒˆãƒ¯ãƒ¼ã‚¯å±¤ï¼‰ã«ãŠã‘ã‚‹ä¸­ç¶™è£…ç½®  
-                    - ç¨®é¡ž  
-                        - ãƒ­ãƒ¼ã‚«ãƒ«ãƒ«ãƒ¼ã‚¿  
-                            - LANâ‡”LAN  
-                        - ãƒªãƒ¢ãƒ¼ãƒˆãƒ«ãƒ¼ã‚¿  
-                            - WANâ‡”LAN  
-        - ã‚»ã‚­ãƒ¥ãƒªãƒ†ã‚£æŠ€è¡“  
-            - æš—å·åŒ–æ–¹å¼  
-                - æš—å·åŒ–  
-                    - å‰æï¼šäº‹å‰ã«å—ä¿¡è€…ã‹ã‚‰é€ä¿¡è€…ã¸ã®éµã®å—ã‘æ¸¡ã—ãŒå®Œäº†ã—ãŸçŠ¶æ…‹ã§ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸äº¤æ›ã‚’è¡Œã†  
-                    - å…±é€šéµ  
-                        - æš—å·ã¨å¾©å·ã‚’å…±é€šã®éµã§è¡Œã†  
-                        - æ‰‹é †  
-                            - ï¼‘ï¼Žå—ä¿¡è€…ãŒé€ä¿¡è€…ã«ç§˜å¯†éµã‚’æ¸¡ã™  
-                                - éµãŒä»–äººã«ã°ã‚ŒãŸã‚‰ã¾ãšã„ã®ã§ã€å®‰å…¨ã«æ¸¡ã™ï¼  
-                            - ï¼’ï¼Žé€ä¿¡è€…ã¯å—ã‘å–ã£ãŸéµã§ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã‚’æš—å·åŒ–ã—ã€å—ä¿¡è€…ã¸é€ä¿¡  
-                            - ï¼“ï¼Žå—ä¿¡è€…ã¯ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã‚’ç§˜å¯†éµã§å¾©å·åŒ–  
-                            - ç”»åƒ  
+        - “`‘—”}‘Ì  
+            - ’ÊM‹@Ší  
+                - —Lü  
+                    - ƒcƒCƒXƒgƒyƒAƒP[ƒuƒ‹  
+                    - “¯Ž²ƒP[ƒuƒ‹  
+                    - Œõƒtƒ@ƒCƒo  
+                - –³ü  
+            - ’ÊM‘•’u  
+                - ƒŠƒs[ƒ^  
+                    - ‘æ‚P‘wi•¨—‘wj‚É‚¨‚¯‚é’†Œp‘•’u  
+                    - ƒXƒCƒbƒ`ƒ“ƒO‹@”\‚ðŽ‚½‚È‚¢  
+                - ƒuƒŠƒbƒW  
+                    - ‘æ‚Q‘wiƒf[ƒ^ƒŠƒ“ƒN‘wj‚É‚¨‚¯‚é’†Œp‘•’u  
+                - ƒ‹[ƒ^  
+                    - ‘æ‚R‘wiƒlƒbƒgƒ[ƒN‘wj‚É‚¨‚¯‚é’†Œp‘•’u  
+                    - Ží—Þ  
+                        - ƒ[ƒJƒ‹ƒ‹[ƒ^  
+                            - LANÌLAN  
+                        - ƒŠƒ‚[ƒgƒ‹[ƒ^  
+                            - WANÌLAN  
+        - ƒZƒLƒ…ƒŠƒeƒB‹Zp  
+            - ˆÃ†‰»•ûŽ®  
+                - ˆÃ†‰»  
+                    - ‘O’ñFŽ–‘O‚ÉŽóMŽÒ‚©‚ç‘—MŽÒ‚Ö‚ÌŒ®‚ÌŽó‚¯“n‚µ‚ªŠ®—¹‚µ‚½ó‘Ô‚ÅƒƒbƒZ[ƒWŒðŠ·‚ðs‚¤  
+                    - ‹¤’ÊŒ®  
+                        - ˆÃ†‚Æ•œ†‚ð‹¤’Ê‚ÌŒ®‚Ås‚¤  
+                        - Žè‡  
+                            - ‚PDŽóMŽÒ‚ª‘—MŽÒ‚É”é–§Œ®‚ð“n‚·  
+                                - Œ®‚ª‘¼l‚É‚Î‚ê‚½‚ç‚Ü‚¸‚¢‚Ì‚ÅAˆÀ‘S‚É“n‚·I  
+                            - ‚QD‘—MŽÒ‚ÍŽó‚¯Žæ‚Á‚½Œ®‚ÅƒƒbƒZ[ƒW‚ðˆÃ†‰»‚µAŽóMŽÒ‚Ö‘—M  
+                            - ‚RDŽóMŽÒ‚ÍƒƒbƒZ[ƒW‚ð”é–§Œ®‚Å•œ†‰»  
+                            - ‰æ‘œ  
                                 - ...  
-                        - Ã—ï¼šé€šä¿¡ç›¸æ‰‹æ¯Žã«ç•°ãªã‚‹éµãŒå¿…è¦  
-                            - ex) 100äººãŒé€å—ä¿¡ã—ã‚ã†å ´åˆã€éµã¯ä½•å€‹å¿…è¦ï¼Ÿ  
+                        - ~F’ÊM‘ŠŽè–ˆ‚ÉˆÙ‚È‚éŒ®‚ª•K—v  
+                            - ex) 100l‚ª‘—ŽóM‚µ‚ ‚¤ê‡AŒ®‚Í‰½ŒÂ•K—vH  
                                 - ...  
-                                - ä¸Šè¨˜ã®å¼ã®é€šã‚Šè¨ˆç®—ã™ã‚‹ã¨ã€  
-                                    - 100!Ã·2!Ã—(100-2)!  
-                                        =(100Ã—99Ã—98Ã—...)/(2Ã—1)Ã—(98Ã—97Ã—96Ã—...)  
-                                        ï¼(100Ã—99)Ã·2  
-                                        =4950å€‹  
-                        - â—‹ï¼šãã‚ã‚ã¦é«˜é€Ÿ  
-                        - ç¨®é¡ž  
+                                - ã‹L‚ÌŽ®‚Ì’Ê‚èŒvŽZ‚·‚é‚ÆA  
+                                    - 100!€2!~(100-2)!  
+                                        =(100~99~98~...)/(2~1)~(98~97~96~...)  
+                                        (100~99)€2  
+                                        =4950ŒÂ  
+                        - ›F‚«‚í‚ß‚Ä‚‘¬  
+                        - Ží—Þ  
                             - AES  
                             - DES  
-                    - å…¬é–‹éµ  
-                        - æš—å·åŒ–ã¨å¾©å·åŒ–ã‚’ç•°ãªã‚‹éµã§è¡Œã†  
-                            - å…¬é–‹éµã§æš—å·åŒ–ã€ç§˜å¯†éµã§å¾©å·åŒ–  
-                            - å…¬é–‹éµï¼å—äº¬éŒ ã€ç§˜å¯†éµï¼å—äº¬éŒ ã‚’é–‹ã‘ã‚‹éµ  
-                            - æš—å·åŒ–ã®æ–¹æ³•ãŒåˆ†ã‹ã£ã¦ã‚‚ã€å¾©å·åŒ–ã®æ–¹æ³•ãŒåˆ†ã‹ã‚‰ãªã„ã€ç”»æœŸçš„ãªæ–¹å¼  
-                                - æš—å·åŒ–ã®æ–¹æ³•ã‚’ä¸ç‰¹å®šå¤šæ•°ã«å…¬é–‹ã—ã¦ã‚‚å¹³æ°—ï¼  
-                        - å—ä¿¡å´ãŒã‚ã‚‰ã‹ã˜ã‚å…¬é–‹éµã‚’å…¬é–‹ã—ã¦ãŠã  
-                        - â—‹ï¼šéµã®ç®¡ç†ã®ç…©é›‘ã•ãŒè§£æ¶ˆã•ã‚Œã‚‹  
-                        - ç¨®é¡ž  
+                    - ŒöŠJŒ®  
+                        - ˆÃ†‰»‚Æ•œ†‰»‚ðˆÙ‚È‚éŒ®‚Ås‚¤  
+                            - ŒöŠJŒ®‚ÅˆÃ†‰»A”é–§Œ®‚Å•œ†‰»  
+                            - ŒöŠJŒ®“ì‹žùA”é–§Œ®“ì‹žù‚ðŠJ‚¯‚éŒ®  
+                            - ˆÃ†‰»‚Ì•û–@‚ª•ª‚©‚Á‚Ä‚àA•œ†‰»‚Ì•û–@‚ª•ª‚©‚ç‚È‚¢A‰æŠú“I‚È•ûŽ®  
+                                - ˆÃ†‰»‚Ì•û–@‚ð•s“Á’è‘½”‚ÉŒöŠJ‚µ‚Ä‚à•½‹CI  
+                        - ŽóM‘¤‚ª‚ ‚ç‚©‚¶‚ßŒöŠJŒ®‚ðŒöŠJ‚µ‚Ä‚¨‚­  
+                        - ›FŒ®‚ÌŠÇ—‚Ì”ÏŽG‚³‚ª‰ðÁ‚³‚ê‚é  
+                        - Ží—Þ  
                             - RSA  
-                            - æ¥•å††æ›²ç·šæš—å·æ–¹å¼  
-                            - ElGamalæ–¹å¼  
-                        - æ‰‹é †  
-                            - ï¼‘ï¼Žå—ä¿¡è€…ãŒå…¬é–‹éµã‚’é€ä¿¡è€…ã«æ¸¡ã™  
-                                - å¾©å·åŒ–ã•ã‚Œãªã„ã“ã¨ãŒåˆ†ã‹ã£ã¦ã‚‹ã®ã§ã€ä»–äººã«éµãŒã°ã‚Œã¦ã‚‚å•é¡Œãªã—ï¼  
-                            - ï¼’ï¼Žé€ä¿¡è€…ã¯ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã‚’å—ã‘å–ã£ãŸéµã§æš—å·åŒ–ã—ã€å—ä¿¡è€…ã¸æ¸¡ã™  
-                            - ï¼“ï¼Žå—ä¿¡è€…ã¯ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã‚’**ç§˜å¯†éµ**ã§å¾©å·åŒ–  
-                            - ç”»åƒ  
+                            - ‘È‰~‹ÈüˆÃ†•ûŽ®  
+                            - ElGamal•ûŽ®  
+                        - Žè‡  
+                            - ‚PDŽóMŽÒ‚ªŒöŠJŒ®‚ð‘—MŽÒ‚É“n‚·  
+                                - •œ†‰»‚³‚ê‚È‚¢‚±‚Æ‚ª•ª‚©‚Á‚Ä‚é‚Ì‚ÅA‘¼l‚ÉŒ®‚ª‚Î‚ê‚Ä‚à–â‘è‚È‚µI  
+                            - ‚QD‘—MŽÒ‚ÍƒƒbƒZ[ƒW‚ðŽó‚¯Žæ‚Á‚½Œ®‚ÅˆÃ†‰»‚µAŽóMŽÒ‚Ö“n‚·  
+                            - ‚RDŽóMŽÒ‚ÍƒƒbƒZ[ƒW‚ð**”é–§Œ®**‚Å•œ†‰»  
+                            - ‰æ‘œ  
                                 - ...  
-                        - ç½²åã¨ã®é–¢é€£  
-                            - é€†ã«ã€ç§˜å¯†éµã§æš—å·åŒ–ã—ã€ã¿ã‚“ãªã¯å…¬é–‹éµã§å¾©å·åŒ–  
-                                - ã¿ã‚“ãªã€Žã“ã®æš—å·æ–‡ã‚’ä½œã‚‹ãŸã‚ã«ã¯ã€Aã•ã‚“ã ã‘ãŒçŸ¥ã£ã¦ã‚‹æš—å·åŒ–æ–¹æ³•ã‚’ä½¿ã†å¿…è¦ãŒã‚ã‚‹ï¼æ›¸ã„ãŸã®ã¯Aã•ã‚“ã€ã¨ç‰¹å®šã§ãã‚‹ï¼  
-                                    â†’ç½²åã¨ã—ã¦ä½¿ã†ã“ã¨ã‚‚ã§ãã‚‹  
-                    - ãƒã‚¤ãƒ–ãƒªãƒƒãƒ‰  
-                        - æœ¬æ–‡ã¯å…±é€šéµã€éµè‡ªä½“ã¯å…¬é–‹éµã§æš—å·åŒ–ã™ã‚‹  
+                        - –¼‚Æ‚ÌŠÖ˜A  
+                            - ‹t‚ÉA”é–§Œ®‚ÅˆÃ†‰»‚µA‚Ý‚ñ‚È‚ÍŒöŠJŒ®‚Å•œ†‰»  
+                                - ‚Ý‚ñ‚Èw‚±‚ÌˆÃ†•¶‚ðì‚é‚½‚ß‚É‚ÍAA‚³‚ñ‚¾‚¯‚ª’m‚Á‚Ä‚éˆÃ†‰»•û–@‚ðŽg‚¤•K—v‚ª‚ ‚é‘‚¢‚½‚Ì‚ÍA‚³‚ñx‚Æ“Á’è‚Å‚«‚éI  
+                                    ¨–¼‚Æ‚µ‚ÄŽg‚¤‚±‚Æ‚à‚Å‚«‚é  
+                    - ƒnƒCƒuƒŠƒbƒh  
+                        - –{•¶‚Í‹¤’ÊŒ®AŒ®Ž©‘Ì‚ÍŒöŠJŒ®‚ÅˆÃ†‰»‚·‚é  
                             - ...  
-                        - SSLã§æŽ¡ç”¨  
+                        - SSL‚ÅÌ—p  
                             - SSL  
                                 - Security Sockets Layer  
-                                - ãƒ‡ãƒ¼ã‚¿æš—å·åŒ–ï¼‹èªè¨¼  
+                                - ƒf[ƒ^ˆÃ†‰»{”FØ  
                             - TLS  
                                 - Transport Layer Security  
-                                - SSLã®ãƒãƒ¼ã‚¸ãƒ§ãƒ³3ï¼Ž0ã«æ›´æ–°ã•ã‚ŒãŸã¨ãã«åˆ¶å®šã•ã‚ŒãŸè¦æ ¼  
-                        - ã‚»ãƒƒã‚·ãƒ§ãƒ³éµæ–¹å¼  
-                            - ã‚»ãƒƒã‚·ãƒ§ãƒ³ã”ã¨ã«æ–°ã—ã„å…±é€šéµã‚’ä½¿ã†  
-                - ãƒ‡ã‚£ã‚¸ã‚¿ãƒ«ç½²å  
-                    - ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸èªè¨¼ã¨ã‚¨ãƒ³ãƒ†ã‚£ãƒ†ã‚£èªè¨¼ã‚’åŒæ™‚ã«è¡Œã†æŠ€è¡“  
-                        - ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸èªè¨¼  
-                            - å—ä¿¡ã—ãŸæ–‡æ›¸ãŒ<u>æ”¹ã–ã‚“ã•ã‚Œã¦ã„ãªã„</u>ã“ã¨ã‚’è¨¼æ˜Žã™ã‚‹æŠ€è¡“  
-                        - ã‚¨ãƒ³ãƒ†ã‚£ãƒ†ã‚£èªè¨¼  
-                            - ç¢ºã‹ã«å½“è©²<u>é€ä¿¡è€…ã§ã‚ã‚‹ã“ã¨</u>ã‚’è¨¼æ˜Žã™ã‚‹  
-                    - ãƒãƒƒã‚·ãƒ¥é–¢æ•°ãªã©ã‚’ç”¨ã„ã¦ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ãƒ€ã‚¤ã‚¸ã‚§ã‚¹ãƒˆã«å…¬é–‹éµã§æš—å·åŒ–  
-                        - ã€Œå¹³æ–‡æ–‡æ›¸ã‚’ãƒãƒƒã‚·ãƒ¥åŒ–ã—ãŸãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ãƒ€ã‚¤ã‚¸ã‚§ã‚¹ãƒˆã€  
-                            ã¨  
-                            ã€Œãã‚Œã‚’é€ä¿¡è€…ã®ç§˜å¯†éµã§æš—å·åŒ–ã—ãŸãƒ‡ã‚£ã‚¸ã‚¿ãƒ«ç½²åã€  
-                            ã‚’å—ä¿¡è€…ãŒå¾©å·åŒ–ã—ã¦æ¯”è¼ƒ  
-                    - ç”»åƒ  
+                                - SSL‚Ìƒo[ƒWƒ‡ƒ“3D0‚ÉXV‚³‚ê‚½‚Æ‚«‚É§’è‚³‚ê‚½‹KŠi  
+                        - ƒZƒbƒVƒ‡ƒ“Œ®•ûŽ®  
+                            - ƒZƒbƒVƒ‡ƒ“‚²‚Æ‚ÉV‚µ‚¢‹¤’ÊŒ®‚ðŽg‚¤  
+                - ƒfƒBƒWƒ^ƒ‹–¼  
+                    - ƒƒbƒZ[ƒW”FØ‚ÆƒGƒ“ƒeƒBƒeƒB”FØ‚ð“¯Žž‚És‚¤‹Zp  
+                        - ƒƒbƒZ[ƒW”FØ  
+                            - ŽóM‚µ‚½•¶‘‚ª<u>‰ü‚´‚ñ‚³‚ê‚Ä‚¢‚È‚¢</u>‚±‚Æ‚ðØ–¾‚·‚é‹Zp  
+                        - ƒGƒ“ƒeƒBƒeƒB”FØ  
+                            - Šm‚©‚É“–ŠY<u>‘—MŽÒ‚Å‚ ‚é‚±‚Æ</u>‚ðØ–¾‚·‚é  
+                    - ƒnƒbƒVƒ…ŠÖ”‚È‚Ç‚ð—p‚¢‚ÄƒƒbƒZ[ƒWƒ_ƒCƒWƒFƒXƒg‚ÉŒöŠJŒ®‚ÅˆÃ†‰»  
+                        - u•½•¶•¶‘‚ðƒnƒbƒVƒ…‰»‚µ‚½ƒƒbƒZ[ƒWƒ_ƒCƒWƒFƒXƒgv  
+                            ‚Æ  
+                            u‚»‚ê‚ð‘—MŽÒ‚Ì”é–§Œ®‚ÅˆÃ†‰»‚µ‚½ƒfƒBƒWƒ^ƒ‹–¼v  
+                            ‚ðŽóMŽÒ‚ª•œ†‰»‚µ‚Ä”äŠr  
+                    - ‰æ‘œ  
                         - ...  
-                - æ™‚åˆ»èªè¨¼ï¼ˆã‚¿ã‚¤ãƒ ã‚¹ã‚¿ãƒ³ãƒ—ï¼‰  
-                    - æ–‡æ›¸ã®å†…å®¹ã¨ä½œæˆæ™‚åˆ»ã‚’åŒæ™‚ã«è¨¼æ˜Žã™ã‚‹ã“ã¨  
-                    - æ–¹æ³•  
-                        - ï¼‘ï¼Žæ–‡æ›¸ã®ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ãƒ€ã‚¤ã‚¸ã‚§ã‚¹ãƒˆã‚’ã‚¿ã‚¤ãƒ ã‚¹ã‚¿ãƒ³ãƒ—æ©Ÿé–¢ã«é€ã‚‹  
-                        - ï¼’ï¼Žãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ãƒ€ã‚¤ã‚¸ã‚§ã‚¹ãƒˆã¨æ™‚åˆ»æƒ…å ±ã‚’çµ„ã¿åˆã‚ã›ãŸæ–°ãŸãªãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ãƒ€ã‚¤ã‚¸ã‚§ã‚¹ãƒˆã‚’ä½œã‚‹  
-                        - ï¼“ï¼Žè‡ªèº«ã®æš—å·éµã§æš—å·åŒ–ã—ã¦é€ä¿¡ã™ã‚‹  
-                - éš ã—æ–¹  
-                    - ã‚¯ãƒªãƒ—ãƒˆã‚°ãƒ©ãƒ•ã‚£  
-                        - ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã‚’èª­ã‚ãªãã™ã‚‹  
+                - Žž”FØiƒ^ƒCƒ€ƒXƒ^ƒ“ƒvj  
+                    - •¶‘‚Ì“à—e‚Æì¬Žž‚ð“¯Žž‚ÉØ–¾‚·‚é‚±‚Æ  
+                    - •û–@  
+                        - ‚PD•¶‘‚ÌƒƒbƒZ[ƒWƒ_ƒCƒWƒFƒXƒg‚ðƒ^ƒCƒ€ƒXƒ^ƒ“ƒv‹@ŠÖ‚É‘—‚é  
+                        - ‚QDƒƒbƒZ[ƒWƒ_ƒCƒWƒFƒXƒg‚ÆŽžî•ñ‚ð‘g‚Ý‡‚í‚¹‚½V‚½‚ÈƒƒbƒZ[ƒWƒ_ƒCƒWƒFƒXƒg‚ðì‚é  
+                        - ‚RDŽ©g‚ÌˆÃ†Œ®‚ÅˆÃ†‰»‚µ‚Ä‘—M‚·‚é  
+                - ‰B‚µ•û  
+                    - ƒNƒŠƒvƒgƒOƒ‰ƒtƒB  
+                        - ƒƒbƒZ[ƒW‚ð“Ç‚ß‚È‚­‚·‚é  
                         - cryptography  
-                    - ã‚¹ãƒ†ã‚¬ãƒŽã‚°ãƒ©ãƒ•ã‚£  
-                        - ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã®å­˜åœ¨è‡ªä½“ã‚’éš ã™ã“ã¨  
-                        - ex) ç”»åƒãƒ‡ãƒ¼ã‚¿ã®ä¸€éƒ¨ã«ãƒ†ã‚­ã‚¹ãƒˆã‚’ç´›ã‚Œè¾¼ã¾ã›ã‚‹  
+                    - ƒXƒeƒKƒmƒOƒ‰ƒtƒB  
+                        - ƒƒbƒZ[ƒW‚Ì‘¶ÝŽ©‘Ì‚ð‰B‚·‚±‚Æ  
+                        - ex) ‰æ‘œƒf[ƒ^‚Ìˆê•”‚ÉƒeƒLƒXƒg‚ð•´‚êž‚Ü‚¹‚é  
                         - steganography  
-            - ã‚»ã‚­ãƒ¥ãƒªãƒ†ã‚£å¯¾ç­–æŠ€è¡“  
-                - ãƒ•ã‚¡ã‚¤ãƒ¤ãƒ¼ã‚¦ã‚©ãƒ¼ãƒ«  
-                    - ç›®çš„  
-                        - ä¸æ­£ãƒ‘ã‚±ãƒƒãƒˆã®ã‚¢ã‚¯ã‚»ã‚¹åˆ¶é™  
-                            - å¤–éƒ¨ã‹ã‚‰ã®ãƒãƒƒãƒˆãƒ¯ãƒ¼ã‚¯ä¾µå…¥ã‚’é˜²ã  
-                    - åˆ¶å¾¡æ–¹å¼  
-                        - ãƒ‘ã‚±ãƒƒãƒˆãƒ•ã‚£ãƒ«ã‚¿ãƒªãƒ³ã‚°æ–¹å¼  
-                            - é€å—ä¿¡ã•ã‚Œã‚‹ãƒ‘ã‚±ãƒƒãƒˆã®ãƒ˜ãƒƒãƒ€éƒ¨åˆ†ã‚’å‚ç…§ã™ã‚‹  
-                            - â—‹ï¼šå‡¦ç†ãŒé«˜é€Ÿ  
-                        - ã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³ã‚²ãƒ¼ãƒˆã‚¦ã‚§ã‚¤æ–¹å¼  
-                            - ãƒ•ã‚¡ã‚¤ãƒ¤ãƒ¼ã‚¦ã‚©ãƒ¼ãƒ«ãŒãƒ—ãƒ­ã‚­ã‚·ã‚µãƒ¼ãƒãƒ¼ã¨ã—ã¦å‹•ä½œã—ãªãŒã‚‰ã€ãƒ‘ã‚±ãƒƒãƒˆã®å†…å®¹ã¾ã§è¸ã¿è¾¼ã‚“ã§è§£æžã™ã‚‹  
-                            - ã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³æ¯Žã«å¿…è¦ãªå¤‰æ›ã‚’åŠ ãˆã¦è»¢é€ã™ã‚‹  
-                            - ï¼ãƒ—ãƒ­ã‚­ã‚·åž‹ãƒ•ã‚¡ã‚¤ãƒ¤ãƒ¼ã‚¦ã‚©ãƒ¼ãƒ«  
+            - ƒZƒLƒ…ƒŠƒeƒB‘Îô‹Zp  
+                - ƒtƒ@ƒCƒ„[ƒEƒH[ƒ‹  
+                    - –Ú“I  
+                        - •s³ƒpƒPƒbƒg‚ÌƒAƒNƒZƒX§ŒÀ  
+                            - ŠO•”‚©‚ç‚Ìƒlƒbƒgƒ[ƒNN“ü‚ð–h‚®  
+                    - §Œä•ûŽ®  
+                        - ƒpƒPƒbƒgƒtƒBƒ‹ƒ^ƒŠƒ“ƒO•ûŽ®  
+                            - ‘—ŽóM‚³‚ê‚éƒpƒPƒbƒg‚Ìƒwƒbƒ_•”•ª‚ðŽQÆ‚·‚é  
+                            - ›Fˆ—‚ª‚‘¬  
+                        - ƒAƒvƒŠƒP[ƒVƒ‡ƒ“ƒQ[ƒgƒEƒFƒC•ûŽ®  
+                            - ƒtƒ@ƒCƒ„[ƒEƒH[ƒ‹‚ªƒvƒƒLƒVƒT[ƒo[‚Æ‚µ‚Ä“®ì‚µ‚È‚ª‚çAƒpƒPƒbƒg‚Ì“à—e‚Ü‚Å“¥‚Ýž‚ñ‚Å‰ðÍ‚·‚é  
+                            - ƒAƒvƒŠƒP[ƒVƒ‡ƒ“–ˆ‚É•K—v‚È•ÏŠ·‚ð‰Á‚¦‚Ä“]‘—‚·‚é  
+                            - ƒvƒƒLƒVŒ^ƒtƒ@ƒCƒ„[ƒEƒH[ƒ‹  
                 - IDS  
-                    - ä¾µå…¥æ¤œçŸ¥ã‚·ã‚¹ãƒ†ãƒ ï¼ˆIntrusion Detection Systemï¼‰  
-                    - é€šä¿¡å›žç·šã‚’ç›£è¦–ã—ã€ãƒãƒƒãƒˆãƒ¯ãƒ¼ã‚¯ã¸ã®ä¾µå…¥ã‚’æ¤œçŸ¥ã—ã¦ç®¡ç†è€…ã«é€šçŸ¥ã™ã‚‹ä»•çµ„ã¿  
-                    - ç›®çš„  
-                        - ãƒ•ã‚¡ã‚¤ãƒ¤ãƒ¼ã‚¦ã‚©ãƒ¼ãƒ«ã‚’é€šéŽã—ãŸä¸æ­£ãƒ‘ã‚±ãƒƒãƒˆã®æ¤œå‡º  
-                    - ç¨®é¡ž  
-                        - ãƒãƒƒãƒˆãƒ¯ãƒ¼ã‚¯åž‹IDS  
-                            - ãƒãƒƒãƒˆä¸Šã®å…¨ãƒ‘ã‚±ãƒƒãƒˆã‚’ç›£è¦–  
-                        - ãƒ›ã‚¹ãƒˆåž‹IDS  
-                            - ã‚µãƒ¼ãƒã«å¸¸é§ã—ã€ä¸æ­£ãƒ‘ã‚±ãƒƒãƒˆã®æ¤œå‡º  
-                - ã‚¹ãƒ‘ã‚¤ã‚¦ã‚§ã‚¢  
-                    - åˆ©ç”¨è€…ã«éš ã‚Œã¦æƒ…å ±ã‚’åŽé›†ã™ã‚‹ã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢  
-        - ã‚»ã‚­ãƒ¥ãƒªãƒ†ã‚£ãƒžãƒã‚¸ãƒ¡ãƒ³ãƒˆ  
+                    - N“üŒŸ’mƒVƒXƒeƒ€iIntrusion Detection Systemj  
+                    - ’ÊM‰ñü‚ðŠÄŽ‹‚µAƒlƒbƒgƒ[ƒN‚Ö‚ÌN“ü‚ðŒŸ’m‚µ‚ÄŠÇ—ŽÒ‚É’Ê’m‚·‚éŽd‘g‚Ý  
+                    - –Ú“I  
+                        - ƒtƒ@ƒCƒ„[ƒEƒH[ƒ‹‚ð’Ê‰ß‚µ‚½•s³ƒpƒPƒbƒg‚ÌŒŸo  
+                    - Ží—Þ  
+                        - ƒlƒbƒgƒ[ƒNŒ^IDS  
+                            - ƒlƒbƒgã‚Ì‘SƒpƒPƒbƒg‚ðŠÄŽ‹  
+                        - ƒzƒXƒgŒ^IDS  
+                            - ƒT[ƒo‚Éí’“‚µA•s³ƒpƒPƒbƒg‚ÌŒŸo  
+                - ƒXƒpƒCƒEƒFƒA  
+                    - —˜—pŽÒ‚É‰B‚ê‚Äî•ñ‚ðŽûW‚·‚éƒ\ƒtƒgƒEƒFƒA  
+        - ƒZƒLƒ…ƒŠƒeƒBƒ}ƒlƒWƒƒ“ƒg  
             - ISMS  
-                - æƒ…å ±ã‚»ã‚­ãƒ¥ãƒªãƒ†ã‚£ãƒžãƒã‚¸ãƒ¡ãƒ³ãƒˆã‚·ã‚¹ãƒ†ãƒ ï¼ˆInformation Security Management Systemï¼‰  
-                - æƒ…å ±å‡¦ç†ã‚·ã‚¹ãƒ†ãƒ ã®ã‚»ã‚­ãƒ¥ãƒªãƒ†ã‚£ã‚’ç®¡ç†ã™ã‚‹ãŸã‚ã®èªè¨¼è¦æ ¼  
-            - ISO/IEC 27000ã‚·ãƒªãƒ¼ã‚º  
-                - æƒ…å ±ã‚»ã‚­ãƒ¥ãƒªãƒ†ã‚£ç®¡ç†ã«é–¢ã™ã‚‹å›½éš›èªè¨¼è¦æ ¼  
-            - åŸºæœ¬æ¦‚å¿µ  
-                - æ©Ÿå¯†æ€§  
-                    - èªå¯ã•ã‚ŒãŸã‚‚ã®ã ã‘ãŒã‚¢ã‚¯ã‚»ã‚¹ã§ãã‚‹  
-                    - ãƒªã‚¹ã‚¯ã¨å¯¾ç­–  
-                        - ãªã‚Šã™ã¾ã—  
-                            - â†’ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰å®šæœŸå¤‰æ›´  
-                            - â†’ä¸è¦ãƒ¦ãƒ¼ã‚¶IDå‰Šé™¤  
-                - å®Œå…¨æ€§  
-                    - æƒ…å ±/å‡¦ç†æ–¹æ³•ãŒæ­£ç¢ºã‹ã¤å®Œå…¨ã§ã‚ã‚‹ã“ã¨  
-                    - ãƒªã‚¹ã‚¯ã¨å¯¾ç­–  
-                        - æ•…æ„ã®æ”¹ã–ã‚“  
-                            - â†’ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ã«ã‚ˆã‚‹ã‚¢ã‚¯ã‚»ã‚¹æŽ’é™¤  
-                        - æ“ä½œãƒŸã‚¹ã«ã‚ˆã‚‹èª¤å…¥åŠ›  
-                            - â†’å…¥åŠ›ãƒ‡ãƒ¼ã‚¿ãƒã‚§ãƒƒã‚¯  
-                - å¯ç”¨æ€§  
-                    - å¿…è¦ãªæ™‚ã«ã‚¢ã‚¯ã‚»ã‚¹ã§ãã‚‹ã“ã¨  
-                    - ãƒªã‚¹ã‚¯ã¨å¯¾ç­–  
-                        - è£…ç½®æ•…éšœã«ã‚ˆã‚Šåˆ©ç”¨ä¸å¯ã®æ™‚é–“ãŒç™ºç”Ÿã™ã‚‹  
-                            - â†’è£…ç½®å¤šé‡åŒ–  
-            - ãƒ—ãƒ©ã‚¤ãƒã‚·ãƒ¼ãƒžãƒ¼ã‚¯åˆ¶åº¦  
-                - äº‹æ¥­è€…ãŒã€Œå€‹äººæƒ…å ±ã®å–ã‚Šæ‰±ã„ã‚’é©åˆ‡ã«è¡Œã†ãŸã‚ã®ä½“åˆ¶ã‚’æ•´å‚™ã—ã¦ã„ã‚‹ã“ã¨ã€ã‚’èªå®šã™ã‚‹åˆ¶åº¦  
+                - î•ñƒZƒLƒ…ƒŠƒeƒBƒ}ƒlƒWƒƒ“ƒgƒVƒXƒeƒ€iInformation Security Management Systemj  
+                - î•ñˆ—ƒVƒXƒeƒ€‚ÌƒZƒLƒ…ƒŠƒeƒB‚ðŠÇ—‚·‚é‚½‚ß‚Ì”FØ‹KŠi  
+            - ISO/IEC 27000ƒVƒŠ[ƒY  
+                - î•ñƒZƒLƒ…ƒŠƒeƒBŠÇ—‚ÉŠÖ‚·‚é‘Û”FØ‹KŠi  
+            - Šî–{ŠT”O  
+                - ‹@–§«  
+                    - ”F‰Â‚³‚ê‚½‚à‚Ì‚¾‚¯‚ªƒAƒNƒZƒX‚Å‚«‚é  
+                    - ƒŠƒXƒN‚Æ‘Îô  
+                        - ‚È‚è‚·‚Ü‚µ  
+                            - ¨ƒpƒXƒ[ƒh’èŠú•ÏX  
+                            - ¨•s—vƒ†[ƒUIDíœ  
+                - Š®‘S«  
+                    - î•ñ/ˆ—•û–@‚ª³Šm‚©‚ÂŠ®‘S‚Å‚ ‚é‚±‚Æ  
+                    - ƒŠƒXƒN‚Æ‘Îô  
+                        - ŒÌˆÓ‚Ì‰ü‚´‚ñ  
+                            - ¨ƒpƒXƒ[ƒh‚É‚æ‚éƒAƒNƒZƒX”rœ  
+                        - ‘€ìƒ~ƒX‚É‚æ‚éŒë“ü—Í  
+                            - ¨“ü—Íƒf[ƒ^ƒ`ƒFƒbƒN  
+                - ‰Â—p«  
+                    - •K—v‚ÈŽž‚ÉƒAƒNƒZƒX‚Å‚«‚é‚±‚Æ  
+                    - ƒŠƒXƒN‚Æ‘Îô  
+                        - ‘•’uŒÌá‚É‚æ‚è—˜—p•s‰Â‚ÌŽžŠÔ‚ª”­¶‚·‚é  
+                            - ¨‘•’u‘½d‰»  
+            - ƒvƒ‰ƒCƒoƒV[ƒ}[ƒN§“x  
+                - Ž–‹ÆŽÒ‚ªuŒÂlî•ñ‚ÌŽæ‚èˆµ‚¢‚ð“KØ‚És‚¤‚½‚ß‚Ì‘Ì§‚ð®”õ‚µ‚Ä‚¢‚é‚±‚Æv‚ð”F’è‚·‚é§“x  
                 - PMS  
-                    - è¦æ±‚äº‹é …  
-    - ä»–  
+                    - —v‹Ž–€  
+    - ‘¼  
         - mashup  
-            - è¤‡æ•°ã®Webã‚µãƒ¼ãƒ“ã‚¹ã‚’çµ„ã¿åˆã‚ã›ã¦ã€ä¸€ã¤ã®Webã‚µãƒ¼ãƒ“ã‚¹ã®ã‚ˆã†ã«æ©Ÿèƒ½ã•ã›ã‚‹ã“ã¨  
-            - æ—¢å­˜ã‚µãƒ¼ãƒ“ã‚¹ã®çµ„ã¿åˆã‚ã›ã«ã‚ˆã‚Šã€å°‚é–€çš„ãªçŸ¥è­˜ãƒ»æŠ€èƒ½ãŒãªãã¦ã‚‚ã€çŸ­æœŸé–“ã§æ–°Webã‚µãƒ¼ãƒ“ã‚¹ã®ç«‹ä¸Šã’ãŒå¯èƒ½  
-            - è‹±å˜èªžï¼šmashup  
-                - æ··ãœåˆã‚ã›ã‚‹  
-        - ç¨¼åƒçŽ‡  
-            - ç¨¼åƒçŽ‡  
-                - MTBFÃ·ï¼ˆMTBFï¼‹MTTRï¼‰  
-                - ä¸¦åˆ—  
-                    - 1-ï¼ˆAæ•…éšœçŽ‡Ã—Bæ•…éšœçŽ‡ï¼‰  
-                - ç›´åˆ—  
-                    - Aç¨¼åƒçŽ‡Ã—Bç¨¼åƒçŽ‡  
+            - •¡”‚ÌWebƒT[ƒrƒX‚ð‘g‚Ý‡‚í‚¹‚ÄAˆê‚Â‚ÌWebƒT[ƒrƒX‚Ì‚æ‚¤‚É‹@”\‚³‚¹‚é‚±‚Æ  
+            - Šù‘¶ƒT[ƒrƒX‚Ì‘g‚Ý‡‚í‚¹‚É‚æ‚èAê–å“I‚È’mŽ¯E‹Z”\‚ª‚È‚­‚Ä‚àA’ZŠúŠÔ‚ÅVWebƒT[ƒrƒX‚Ì—§ã‚°‚ª‰Â”\  
+            - ‰p’PŒêFmashup  
+                - ¬‚º‡‚í‚¹‚é  
+        - ‰Ò“­—¦  
+            - ‰Ò“­—¦  
+                - MTBF€iMTBF{MTTRj  
+                - •À—ñ  
+                    - 1-iAŒÌá—¦~BŒÌá—¦j  
+                - ’¼—ñ  
+                    - A‰Ò“­—¦~B‰Ò“­—¦  
             - MTTR/MTBF  
-                - ç”»åƒ  
+                - ‰æ‘œ  
                     - ...  
                 - MTTR  
-                    - Mean Time To Repairï¼šå¹³å‡å¾©æ—§æ™‚é–“  
-                        - ã‚·ã‚¹ãƒ†ãƒ ã®å¾©æ—§ã«ã‹ã‹ã£ãŸå¹³å‡æ™‚é–“  
-                        - å¾©æ—§ã§ãã‚‹ã‚‚ã®ã«ä½¿ç”¨  
+                    - Mean Time To RepairF•½‹Ï•œ‹ŒŽžŠÔ  
+                        - ƒVƒXƒeƒ€‚Ì•œ‹Œ‚É‚©‚©‚Á‚½•½‹ÏŽžŠÔ  
+                        - •œ‹Œ‚Å‚«‚é‚à‚Ì‚ÉŽg—p  
                 - MTBF  
-                    - Mean Time Between Failuresï¼šå¹³å‡æ•…éšœé–“éš”  
-                        - è¨ˆç®—ã¯æ•…éšœãŒèµ·ã“ã‚‹ã¾ã§ã®ç¨¼åƒæ™‚é–“  
-                            ï¼æ­£å¸¸ã«å‹•ä½œã—ã¦ã„ã‚‹å¹³å‡æ™‚é–“  
-                        - å¾©æ—§ã§ãã‚‹ã‚‚ã®ã«ä½¿ç”¨  
-                - ï¼ˆMTTFï¼‰  
-                    - Mean Time To Failureï¼šå¹³å‡æ•…éšœæ™‚é–“  
-                        - æ•…éšœã™ã‚‹ã¾ã§ã®æ™‚é–“ï¼ˆå¯¿å‘½ï¼‰  
-                        - å¾©æ—§ã§ããªã„ã‚‚ã®ã«ä½¿ç”¨  
-        - ä»®æƒ³è¨˜æ†¶  
+                    - Mean Time Between FailuresF•½‹ÏŒÌáŠÔŠu  
+                        - ŒvŽZ‚ÍŒÌá‚ª‹N‚±‚é‚Ü‚Å‚Ì‰Ò“­ŽžŠÔ  
+                            ³í‚É“®ì‚µ‚Ä‚¢‚é•½‹ÏŽžŠÔ  
+                        - •œ‹Œ‚Å‚«‚é‚à‚Ì‚ÉŽg—p  
+                - iMTTFj  
+                    - Mean Time To FailureF•½‹ÏŒÌáŽžŠÔ  
+                        - ŒÌá‚·‚é‚Ü‚Å‚ÌŽžŠÔiŽõ–½j  
+                        - •œ‹Œ‚Å‚«‚È‚¢‚à‚Ì‚ÉŽg—p  
+        - ‰¼‘z‹L‰¯  
             - LRU  
                 - Least Recently Used  
-                - å‚ç…§ã•ã‚Œã¦ã‹ã‚‰æœ€ã‚‚æ™‚é–“ã®çµŒã£ã¦ã„ã‚‹  
+                - ŽQÆ‚³‚ê‚Ä‚©‚çÅ‚àŽžŠÔ‚ÌŒo‚Á‚Ä‚¢‚é  
             - LFU  
                 - Least Frequently Used  
-                    - è‹±å˜èªžï¼šfrequently  
-                        - ã—ã°ã—ã°ã€é »ç¹  
-                - æœ€ã‚‚å‚ç…§å›žæ•°ã®å°‘ãªã„  
-            - æ¦‚è¦  
-                - OSãŒã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³ãƒ»ã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢ï¼ˆãƒ—ãƒ­ã‚»ã‚¹ãªã©ï¼‰ã«å¯¾ã—ã¦ã€ç‰©ç†çš„ãªãƒ¡ãƒ¢ãƒªã‚’ã€å°‚ç”¨ã®é€£ç¶šã—ãŸä¸»è¨˜æ†¶è£…ç½®ã«è¦‹ãˆã‚‹ã‚ˆã†ã«æä¾›ã™ã‚‹ã€‚  
-                - â—‹ï¼šä¸»è¨˜æ†¶è£…ç½®ã‚ˆã‚Šã‚‚å¤§ããªãƒ¡ãƒ¢ãƒªã‚’æä¾›ã§ãã‚‹ã€‚  
-                    - ç‰©ç†çš„ãªä¸»è¨˜æ†¶è£…ç½®ã«åŠ ãˆã¦è£œåŠ©è¨˜æ†¶è£…ç½®ã‚’ä½µç”¨  
-                - â—‹ï¼šãƒžãƒ«ãƒã‚¿ã‚¹ã‚¯ã®å®Ÿç¾ãŒå®¹æ˜“  
-                    - ã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³ãƒ»ãƒ—ãƒ­ã‚°ãƒ©ãƒ å´ãŒç‰©ç†ãƒ¡ãƒ¢ãƒªä¸Šã®ã‚¢ãƒ‰ãƒ¬ã‚¹ã‚’æ„è­˜ã—ãªãã¦è‰¯ã„ãŸã‚  
-        - ãƒ‡ãƒ«ãƒ•ã‚¡ã‚¤æ³•  
-            - è¤‡æ•°ã®å°‚é–€å®¶ã«ç¹°ã‚Šè¿”ã—åŒ¿åã‚¢ãƒ³ã‚±ãƒ¼ãƒˆã‚’è¡Œã„ã€æœªæ¥äºˆæ¸¬ã™ã‚‹æ–¹æ³•  
-        - ç”Ÿç”£æ–¹å¼  
-            - ãƒ©ã‚¤ãƒ³ç”Ÿç”£æ–¹å¼  
-                - åˆ†æ¥­  
-            - ã‚»ãƒ«ç”Ÿç”£æ–¹å¼  
-                - 1äººã¾ãŸã¯å°äººæ•°ã®ã‚°ãƒ«ãƒ¼ãƒ—(ãƒãƒ¼ãƒ )ã§è£½å“ã®çµ„ç«‹ã¦ã‚’å®Œæˆã¾ã§è¡Œã†ç”Ÿç”£æ–¹å¼  
-        - ãƒ©ã‚¤ãƒ–ãƒžã‚¤ã‚°ãƒ¬ãƒ¼ã‚·ãƒ§ãƒ³  
+                    - ‰p’PŒêFfrequently  
+                        - ‚µ‚Î‚µ‚ÎA•p”É  
+                - Å‚àŽQÆ‰ñ”‚Ì­‚È‚¢  
+            - ŠT—v  
+                - OS‚ªƒAƒvƒŠƒP[ƒVƒ‡ƒ“Eƒ\ƒtƒgƒEƒFƒAiƒvƒƒZƒX‚È‚Çj‚É‘Î‚µ‚ÄA•¨—“I‚Èƒƒ‚ƒŠ‚ðAê—p‚Ì˜A‘±‚µ‚½Žå‹L‰¯‘•’u‚ÉŒ©‚¦‚é‚æ‚¤‚É’ñ‹Ÿ‚·‚éB  
+                - ›FŽå‹L‰¯‘•’u‚æ‚è‚à‘å‚«‚Èƒƒ‚ƒŠ‚ð’ñ‹Ÿ‚Å‚«‚éB  
+                    - •¨—“I‚ÈŽå‹L‰¯‘•’u‚É‰Á‚¦‚Ä•â•‹L‰¯‘•’u‚ð•¹—p  
+                - ›Fƒ}ƒ‹ƒ`ƒ^ƒXƒN‚ÌŽÀŒ»‚ª—eˆÕ  
+                    - ƒAƒvƒŠƒP[ƒVƒ‡ƒ“EƒvƒƒOƒ‰ƒ€‘¤‚ª•¨—ƒƒ‚ƒŠã‚ÌƒAƒhƒŒƒX‚ðˆÓŽ¯‚µ‚È‚­‚Ä—Ç‚¢‚½‚ß  
+        - ƒfƒ‹ƒtƒ@ƒC–@  
+            - •¡”‚Ìê–å‰Æ‚ÉŒJ‚è•Ô‚µ“½–¼ƒAƒ“ƒP[ƒg‚ðs‚¢A–¢—ˆ—\‘ª‚·‚é•û–@  
+        - ¶ŽY•ûŽ®  
+            - ƒ‰ƒCƒ“¶ŽY•ûŽ®  
+                - •ª‹Æ  
+            - ƒZƒ‹¶ŽY•ûŽ®  
+                - 1l‚Ü‚½‚Í¬l”‚ÌƒOƒ‹[ƒv(ƒ`[ƒ€)‚Å»•i‚Ì‘g—§‚Ä‚ðŠ®¬‚Ü‚Ås‚¤¶ŽY•ûŽ®  
+        - ƒ‰ƒCƒuƒ}ƒCƒOƒŒ[ƒVƒ‡ƒ“  
             - live migration  
-            - ä»®æƒ³ã‚µãƒ¼ãƒã®é‹ç”¨ã‚µãƒ¼ãƒ“ã‚¹  
-            - ä»®æƒ³ãƒžã‚·ãƒ³ã§ç¨¼åƒã—ã¦ã„ã‚‹OSã‚„ã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢ã‚’åœæ­¢ã•ã›ãšã«ã€ä¸¸ã”ã¨åˆ¥ã®ç‰©ç†ã‚³ãƒ³ãƒ”ãƒ¥ãƒ¼ã‚¿ã«ç§»å‹•ã•ã›ã‚‹ã“ã¨  
-            - ãƒãƒ¼ãƒ‰ã‚¦ã‚§ã‚¢ã®ãƒ¡ãƒ³ãƒ†ãƒŠãƒ³ã‚¹ã‚„éƒ¨å“ã®äº¤æ›ãŒå¿…è¦ã«ãªã£ãŸã¨ãã‚µãƒ¼ãƒ“ã‚¹ã‚’åœæ­¢ã•ã›ãšã«å¯¾å¿œã™ã‚‹ã“ã¨ãŒã§ãã‚‹  
+            - ‰¼‘zƒT[ƒo‚Ì‰^—pƒT[ƒrƒX  
+            - ‰¼‘zƒ}ƒVƒ“‚Å‰Ò“­‚µ‚Ä‚¢‚éOS‚âƒ\ƒtƒgƒEƒFƒA‚ð’âŽ~‚³‚¹‚¸‚ÉAŠÛ‚²‚Æ•Ê‚Ì•¨—ƒRƒ“ƒsƒ…[ƒ^‚ÉˆÚ“®‚³‚¹‚é‚±‚Æ  
+            - ƒn[ƒhƒEƒFƒA‚Ìƒƒ“ƒeƒiƒ“ƒX‚â•”•i‚ÌŒðŠ·‚ª•K—v‚É‚È‚Á‚½‚Æ‚«ƒT[ƒrƒX‚ð’âŽ~‚³‚¹‚¸‚É‘Î‰ž‚·‚é‚±‚Æ‚ª‚Å‚«‚é  
         - WAF  
             - Web Application Firewall  
-            - Webã‚µãƒ¼ãƒã‚„Webã‚µãƒ¼ãƒä¸Šã§å‹•ä½œã™ã‚‹ã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³ã®ç‰¹å¾´ã‚’è€ƒæ…®ã—ã¦ã€å¤–éƒ¨ãƒãƒƒãƒˆãƒ¯ãƒ¼ã‚¯ã‹ã‚‰Webã‚µãƒ¼ãƒã¸ã®ä¸æ­£ã‚¢ã‚¯ã‚»ã‚¹ç­‰ã®æ”»æ’ƒã‚’é˜²æ­¢ã™ã‚‹ãƒ•ã‚¡ã‚¤ã‚¢ã‚¦ã‚©ãƒ¼ãƒ«  
-            - Webã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³ã¸ã®é€šä¿¡å†…å®¹ã‚’æ¤œæŸ»(ex.ç‰¹å¾´çš„ãªãƒ‘ã‚¿ãƒ¼ãƒ³ãŒå«ã¾ã‚Œã‚‹ã‹)ã—ã¦ã€ä¸æ­£ãªæ“ä½œã‚’é®æ–­ã™ã‚‹ã€‚  
-        - ã‚¯ãƒ©ã‚¦ãƒ‰  
+            - WebƒT[ƒo‚âWebƒT[ƒoã‚Å“®ì‚·‚éƒAƒvƒŠƒP[ƒVƒ‡ƒ“‚Ì“Á’¥‚ðl—¶‚µ‚ÄAŠO•”ƒlƒbƒgƒ[ƒN‚©‚çWebƒT[ƒo‚Ö‚Ì•s³ƒAƒNƒZƒX“™‚ÌUŒ‚‚ð–hŽ~‚·‚éƒtƒ@ƒCƒAƒEƒH[ƒ‹  
+            - WebƒAƒvƒŠƒP[ƒVƒ‡ƒ“‚Ö‚Ì’ÊM“à—e‚ðŒŸ¸(ex.“Á’¥“I‚Èƒpƒ^[ƒ“‚ªŠÜ‚Ü‚ê‚é‚©)‚µ‚ÄA•s³‚È‘€ì‚ðŽÕ’f‚·‚éB  
+        - ƒNƒ‰ƒEƒh  
             - IaaS  
                 - Infrastructure as a Service  
-                    - æƒ…å ±ã‚·ã‚¹ãƒ†ãƒ ã®ç¨¼å‹•ã«å¿…è¦ãª**æ©Ÿæã‚„å›žç·šãªã©ã®ã‚¤ãƒ³ãƒ•ãƒ©**ã‚’ã€ã‚¤ãƒ³ã‚¿ãƒ¼ãƒãƒƒãƒˆä¸Šã®ã‚µãƒ¼ãƒ“ã‚¹ã¨ã—ã¦é éš”ã‹ã‚‰åˆ©ç”¨ã§ãã‚‹ã‚ˆã†ã«ã—ãŸã‚‚ã®  
-                        - åˆ©ç”¨æ™‚ã«å¿…è¦ãªã‚‚ã®  
-                            - ã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³  
+                    - î•ñƒVƒXƒeƒ€‚Ì‰Ò“®‚É•K—v‚È**‹@Þ‚â‰ñü‚È‚Ç‚ÌƒCƒ“ƒtƒ‰**‚ðAƒCƒ“ƒ^[ƒlƒbƒgã‚ÌƒT[ƒrƒX‚Æ‚µ‚Ä‰“Šu‚©‚ç—˜—p‚Å‚«‚é‚æ‚¤‚É‚µ‚½‚à‚Ì  
+                        - —˜—pŽž‚É•K—v‚È‚à‚Ì  
+                            - ƒAƒvƒŠƒP[ƒVƒ‡ƒ“  
                             - OS  
             - PaaS  
                 - Platform as a Service  
-                    - ã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³ã‚½ãƒ•ãƒˆãŒç¨¼å‹•ã™ã‚‹ãŸã‚ã®**ãƒãƒ¼ãƒ‰ã‚¦ã‚§ã‚¢ã‚„OSãªã©ã®ãƒ—ãƒ©ãƒƒãƒˆãƒ•ã‚©ãƒ¼ãƒ **ã‚’ã€ã‚¤ãƒ³ã‚¿ãƒ¼ãƒãƒƒãƒˆä¸Šã®ã‚µãƒ¼ãƒ“ã‚¹ã¨ã—ã¦é éš”ã‹ã‚‰åˆ©ç”¨ã§ãã‚‹ã‚ˆã†ã«ã—ãŸã‚‚ã®  
-                        - åˆ©ç”¨æ™‚ã«å¿…è¦ãªã‚‚ã®  
-                            - ã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³  
+                    - ƒAƒvƒŠƒP[ƒVƒ‡ƒ“ƒ\ƒtƒg‚ª‰Ò“®‚·‚é‚½‚ß‚Ì**ƒn[ƒhƒEƒFƒA‚âOS‚È‚Ç‚Ìƒvƒ‰ƒbƒgƒtƒH[ƒ€**‚ðAƒCƒ“ƒ^[ƒlƒbƒgã‚ÌƒT[ƒrƒX‚Æ‚µ‚Ä‰“Šu‚©‚ç—˜—p‚Å‚«‚é‚æ‚¤‚É‚µ‚½‚à‚Ì  
+                        - —˜—pŽž‚É•K—v‚È‚à‚Ì  
+                            - ƒAƒvƒŠƒP[ƒVƒ‡ƒ“  
             - SaaS  
                 - Software as a Service  
-                    - **ã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢ã®æ©Ÿèƒ½**ã®ã†ã¡ã€ãƒ¦ãƒ¼ã‚¶ãŒå¿…è¦ã¨ã™ã‚‹ã‚‚ã®ã ã‘ã‚’ã‚µãƒ¼ãƒ“ã‚¹ã¨ã—ã¦é…å¸ƒã—åˆ©ç”¨ã§ãã‚‹ã‚ˆã†ã«ã—ãŸã‚‚ã®  
-                        - åˆ©ç”¨æ™‚ã«å¿…è¦ãªã‚‚ã®  
-                            - ãªã—  
-        - ã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢ã‚¢ãƒ¼ã‚­ãƒ†ã‚¯ãƒãƒ£  
+                    - **ƒ\ƒtƒgƒEƒFƒA‚Ì‹@”\**‚Ì‚¤‚¿Aƒ†[ƒU‚ª•K—v‚Æ‚·‚é‚à‚Ì‚¾‚¯‚ðƒT[ƒrƒX‚Æ‚µ‚Ä”z•z‚µ—˜—p‚Å‚«‚é‚æ‚¤‚É‚µ‚½‚à‚Ì  
+                        - —˜—pŽž‚É•K—v‚È‚à‚Ì  
+                            - ‚È‚µ  
+        - ƒ\ƒtƒgƒEƒFƒAƒA[ƒLƒeƒNƒ`ƒƒ  
             - MVC  
                 - Model View Controller  
-                - ãƒ’ãƒ¥ãƒ¼ãƒžãƒ³ã‚¤ãƒ³ã‚¿ãƒ•ã‚§ãƒ¼ã‚¹(ãƒ¦ãƒ¼ã‚¶ãƒ¼ã‚¤ãƒ³ã‚¿ãƒ•ã‚§ãƒ¼ã‚¹)ã‚’ã‚‚ã¤ã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³ã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢ã‚’å®Ÿè£…ã™ã‚‹ãŸã‚ã®ãƒ‡ã‚¶ã‚¤ãƒ³ãƒ‘ã‚¿ãƒ¼ãƒ³  
+                - ƒqƒ…[ƒ}ƒ“ƒCƒ“ƒ^ƒtƒF[ƒX(ƒ†[ƒU[ƒCƒ“ƒ^ƒtƒF[ƒX)‚ð‚à‚ÂƒAƒvƒŠƒP[ƒVƒ‡ƒ“ƒ\ƒtƒgƒEƒFƒA‚ðŽÀ‘•‚·‚é‚½‚ß‚ÌƒfƒUƒCƒ“ƒpƒ^[ƒ“  
         - SOA  
             - Service-Oriented Architecture  
-                ã‚µãƒ¼ãƒ“ã‚¹æŒ‡å‘ã‚¢ãƒ¼ã‚­ãƒ†ã‚¯ãƒãƒ£  
-                - æ¥­å‹™ä¸Šã®ä¸€å‡¦ç†ã«ç›¸å½“ã™ã‚‹ã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢ã®æ©Ÿèƒ½ã‚’ã‚µãƒ¼ãƒ“ã‚¹ã¨è¦‹ç«‹ã¦ã€ã‚µãƒ¼ãƒ“ã‚¹ã‚’ãƒãƒƒãƒˆãƒ¯ãƒ¼ã‚¯ä¸Šã§é€£æºã•ã›ã¦ã‚·ã‚¹ãƒ†ãƒ å…¨ä½“ã‚’æ§‹ç¯‰ã™ã‚‹è€ƒãˆæ–¹  
+                ƒT[ƒrƒXŽwŒüƒA[ƒLƒeƒNƒ`ƒƒ  
+                - ‹Æ–±ã‚Ìˆêˆ—‚É‘Š“–‚·‚éƒ\ƒtƒgƒEƒFƒA‚Ì‹@”\‚ðƒT[ƒrƒX‚ÆŒ©—§‚ÄAƒT[ƒrƒX‚ðƒlƒbƒgƒ[ƒNã‚Å˜AŒg‚³‚¹‚ÄƒVƒXƒeƒ€‘S‘Ì‚ð\’z‚·‚él‚¦•û  
         - SLA  
             - Service Level Agreement  
-            - ç™ºæ³¨è€…ã¨ITã‚¢ã‚¦ãƒˆã‚½ãƒ¼ã‚·ãƒ³ã‚°ã‚µãƒ¼ãƒ“ã‚¹æä¾›è€…é–“ã®ã€ã‚µãƒ¼ãƒ“ã‚¹å“è³ªã«é–¢ã™ã‚‹åˆæ„æ–‡æ›¸  
+            - ”­’ŽÒ‚ÆITƒAƒEƒgƒ\[ƒVƒ“ƒOƒT[ƒrƒX’ñ‹ŸŽÒŠÔ‚ÌAƒT[ƒrƒX•iŽ¿‚ÉŠÖ‚·‚é‡ˆÓ•¶‘  
         - ERP  
             - Enterprise Resource Planning  
-            - çµŒå–¶è³‡æºã‚’æœ‰åŠ¹ã«æ´»ç”¨ã—ã¦çµŒå–¶ã®åŠ¹çŽ‡ã‚’å‘ä¸Šã•ã›ã‚‹ãŸã‚ã«ã€åŸºå¹¹æ¥­å‹™ã‚’éƒ¨é–€ã”ã¨ã§ãªãçµ±åˆçš„ã«ç®¡ç†ã™ã‚‹ãŸã‚ã®æ¥­å‹™ã‚·ã‚¹ãƒ†ãƒ   
-        - ä¼æ¥­ç«¶äº‰æˆ¦ç•¥  
-            - ãƒªãƒ¼ãƒ€æˆ¦ç•¥  
-                - å¯¾è±¡ï¼šæ¥­ç•Œãƒˆãƒƒãƒ—ä¼æ¥­  
-                    - **å¸‚å ´å†…ã®ã™ã¹ã¦ã®é¡§å®¢ã‚’ã‚¿ãƒ¼ã‚²ãƒƒãƒˆ**ã«ã™ã‚‹æˆ¦ç•¥ã€‚(ï¼å…¨æ–¹ä½æˆ¦ç•¥)  
-                        åˆ©æ½¤ã€åå£°ã®ç¶­æŒãƒ»å‘ä¸Šã¨æœ€é©å¸‚å ´ã‚·ã‚§ã‚¢ã®ç¢ºä¿ã‚’ç›®æ¨™ã¨ã™ã‚‹ã€‚  
-            - ãƒãƒ£ãƒ¬ãƒ³ã‚¸ãƒ£æˆ¦ç•¥  
-                - å¯¾è±¡ï¼šå¸‚å ´ã‚·ã‚§ã‚¢2ã€3ä½ã®ä¼æ¥­  
-                    - **ãƒªãƒ¼ãƒ€ä¼æ¥­ã¨ã®å·®åˆ¥åŒ–**ã™ã‚‹æˆ¦ç•¥ã€‚  
-                        å·®åˆ¥åŒ–ã«ã‚ˆã‚Šã‚·ã‚§ã‚¢æ‹¡å¤§ã‚’å›³ã‚‹ã€‚  
-                        è£½å“ãƒ‡ã‚¶ã‚¤ãƒ³ã€æŠ€è¡“çš„ã€ãƒ–ãƒ©ãƒ³ãƒ‰ã‚¤ãƒ¡ãƒ¼ã‚¸ç­‰ã§å·®åˆ¥åŒ–ã™ã‚‹ã€‚  
-            - ãƒ•ã‚©ãƒ­ãƒ¯æˆ¦ç•¥  
-                - å¯¾è±¡ï¼šæ¥­ç•Œä¸­ä½ä¼æ¥­  
-                    - ç›®æ¨™ã¨ã™ã‚‹ä¼æ¥­ã®æˆ¦ç•¥ã‚’**è¿…é€Ÿã«æ¨¡å€£**ã™ã‚‹æˆ¦ç•¥ã€‚  
-                        é–‹ç™ºã‚„åºƒå‘Šã®ã‚³ã‚¹ãƒˆã‚’æŠ‘åˆ¶ã—ã€å¸‚å ´ã§ã®å­˜ç¶šã‚’å›³ã‚‹ã€‚  
-            - ãƒ‹ãƒƒãƒæˆ¦ç•¥  
-                - å¯¾è±¡ï¼šæ¥­ç•Œä¸‹ä½ä¼æ¥­  
-                    - æ½œåœ¨çš„ãªéœ€è¦ãŒã‚ã‚ŠãªãŒã‚‰ã€å¤§æ‰‹ä¼æ¥­ãŒå‚å…¥ã—ã¦ã“ãªã„ã‚ˆã†ãª**å°‚é–€ç‰¹åŒ–ã—ãŸå¸‚å ´ã«çµŒå–¶è³‡æºã‚’é›†ä¸­**ã™ã‚‹æˆ¦ç•¥ã€‚  
-        - ã‚¤ãƒ³ãƒ•ãƒ©æ€§èƒ½å‘ä¸Š  
-            - ã‚¹ã‚±ãƒ¼ãƒ«ã‚¢ãƒƒãƒ—  
-                - ã‚µãƒ¼ãƒãƒ¼ã®CPUã‚„ãƒ¡ãƒ¢ãƒªãƒ¼ã¨ã„ã£ãŸ**H/Wã‚’é«˜æ€§èƒ½ãªã‚‚ã®ã«ã—ã¦**å‡¦ç†æ€§èƒ½ã‚’ä¸Šã’ã‚‹  
-            - ã‚¹ã‚±ãƒ¼ãƒ«ã‚¢ã‚¦ãƒˆ  
-                - **ã‚µãƒ¼ãƒå°æ•°å¢—åŠ ã«ã‚ˆã‚‹è² è·åˆ†æ•£**ã«ã‚ˆã£ã¦ã€ã‚µãƒ¼ãƒç¾¤ã¨ã—ã¦ã®å‡¦ç†èƒ½åŠ›ã‚’å‘ä¸Šã•ã›ã‚‹ã“ã¨  
+            - Œo‰cŽ‘Œ¹‚ð—LŒø‚ÉŠˆ—p‚µ‚ÄŒo‰c‚ÌŒø—¦‚ðŒüã‚³‚¹‚é‚½‚ß‚ÉAŠîŠ²‹Æ–±‚ð•”–å‚²‚Æ‚Å‚È‚­“‡“I‚ÉŠÇ—‚·‚é‚½‚ß‚Ì‹Æ–±ƒVƒXƒeƒ€  
+        - Šé‹Æ‹£‘ˆí—ª  
+            - ƒŠ[ƒ_í—ª  
+                - ‘ÎÛF‹ÆŠEƒgƒbƒvŠé‹Æ  
+                    - **Žsê“à‚Ì‚·‚×‚Ä‚ÌŒÚ‹q‚ðƒ^[ƒQƒbƒg**‚É‚·‚éí—ªB(‘S•ûˆÊí—ª)  
+                        —˜A–¼º‚ÌˆÛŽEŒüã‚ÆÅ“KŽsêƒVƒFƒA‚ÌŠm•Û‚ð–Ú•W‚Æ‚·‚éB  
+            - ƒ`ƒƒƒŒƒ“ƒWƒƒí—ª  
+                - ‘ÎÛFŽsêƒVƒFƒA2A3ˆÊ‚ÌŠé‹Æ  
+                    - **ƒŠ[ƒ_Šé‹Æ‚Æ‚Ì·•Ê‰»**‚·‚éí—ªB  
+                        ·•Ê‰»‚É‚æ‚èƒVƒFƒAŠg‘å‚ð}‚éB  
+                        »•iƒfƒUƒCƒ“A‹Zp“IAƒuƒ‰ƒ“ƒhƒCƒ[ƒW“™‚Å·•Ê‰»‚·‚éB  
+            - ƒtƒHƒƒí—ª  
+                - ‘ÎÛF‹ÆŠE’†ˆÊŠé‹Æ  
+                    - –Ú•W‚Æ‚·‚éŠé‹Æ‚Ìí—ª‚ð**v‘¬‚É–Í•í**‚·‚éí—ªB  
+                        ŠJ”­‚âL‚ÌƒRƒXƒg‚ð—}§‚µAŽsê‚Å‚Ì‘¶‘±‚ð}‚éB  
+            - ƒjƒbƒ`í—ª  
+                - ‘ÎÛF‹ÆŠE‰ºˆÊŠé‹Æ  
+                    - öÝ“I‚ÈŽù—v‚ª‚ ‚è‚È‚ª‚çA‘åŽèŠé‹Æ‚ªŽQ“ü‚µ‚Ä‚±‚È‚¢‚æ‚¤‚È**ê–å“Á‰»‚µ‚½Žsê‚ÉŒo‰cŽ‘Œ¹‚ðW’†**‚·‚éí—ªB  
+        - ƒCƒ“ƒtƒ‰«”\Œüã  
+            - ƒXƒP[ƒ‹ƒAƒbƒv  
+                - ƒT[ƒo[‚ÌCPU‚âƒƒ‚ƒŠ[‚Æ‚¢‚Á‚½**H/W‚ð‚«”\‚È‚à‚Ì‚É‚µ‚Ä**ˆ—«”\‚ðã‚°‚é  
+            - ƒXƒP[ƒ‹ƒAƒEƒg  
+                - **ƒT[ƒo‘ä”‘‰Á‚É‚æ‚é•‰‰×•ªŽU**‚É‚æ‚Á‚ÄAƒT[ƒoŒQ‚Æ‚µ‚Ä‚Ìˆ—”\—Í‚ðŒüã‚³‚¹‚é‚±‚Æ  
         - AR/VR/MR  
             - AR  
                 - Augmented Reality  
-                    æ‹¡å¼µç¾å®Ÿ  
-                    - è‹±å˜èªžï¼šAugmented  
-                        - æ‹¡å¼µ  
-                    - ç¾å®Ÿä¸–ç•Œã«å¯¾ã—ã¦ã‚³ãƒ³ãƒ”ãƒ¥ãƒ¼ã‚¿ã«ã‚ˆã‚‹æƒ…å ±ã‚’ä»˜åŠ ã™ã‚‹ã“ã¨  
-                        - ç¾å®Ÿä¸–ç•Œã«ä»®æƒ³ç©ºé–“ã‚’ä»˜ã‘åŠ ãˆã‚‹  
-                    - ex) SNOWã€ãƒã‚±ãƒ¢ãƒ³GOã€IKEAã®å®¶å…·é…ç½®ã‚·ãƒŸãƒ¥ãƒ¬ãƒ¼ã‚·ãƒ§ãƒ³  
+                    Šg’£Œ»ŽÀ  
+                    - ‰p’PŒêFAugmented  
+                        - Šg’£  
+                    - Œ»ŽÀ¢ŠE‚É‘Î‚µ‚ÄƒRƒ“ƒsƒ…[ƒ^‚É‚æ‚éî•ñ‚ð•t‰Á‚·‚é‚±‚Æ  
+                        - Œ»ŽÀ¢ŠE‚É‰¼‘z‹óŠÔ‚ð•t‚¯‰Á‚¦‚é  
+                    - ex) SNOWAƒ|ƒPƒ‚ƒ“GOAIKEA‚Ì‰Æ‹ï”z’uƒVƒ~ƒ…ƒŒ[ƒVƒ‡ƒ“  
             - VR  
                 - Virtual Reality  
-                    ä»®æƒ³ç¾å®Ÿ  
-                    - äººå·¥çš„ã«æ§‹ç¯‰ã•ã‚ŒãŸç‰©äº‹ã‚’ç¾å®Ÿã®ã‚ˆã†ã«è¦‹ã›ãŸã‚Šæ„Ÿã˜ã•ã›ã‚‹æŠ€è¡“  
-                        - ä»®æƒ³ç©ºé–“ã‚’ç¾å®Ÿã®ã‚ˆã†ã«è¦‹ã›ã‹ã‘ã‚‹  
+                    ‰¼‘zŒ»ŽÀ  
+                    - lH“I‚É\’z‚³‚ê‚½•¨Ž–‚ðŒ»ŽÀ‚Ì‚æ‚¤‚ÉŒ©‚¹‚½‚èŠ´‚¶‚³‚¹‚é‹Zp  
+                        - ‰¼‘z‹óŠÔ‚ðŒ»ŽÀ‚Ì‚æ‚¤‚ÉŒ©‚¹‚©‚¯‚é  
             - MR  
                 - Mixed Reality  
-                    è¤‡åˆç¾å®Ÿ  
-                    - ç¾å®Ÿã«ã‚ã‚‹ãƒ‡ãƒ¼ã‚¿ã‚„ç‰©ä½“ã‚’å¯è¦–åŒ–ã—ã€ãã‚Œã«ç›´æŽ¥è§¦ã‚Œã¦æ“ä½œã§ãã‚‹ã“ã¨  
-                        ï¼ˆARã¯å¯è¦–åŒ–ã¾ã§ã ãŒã€MRã¯ç›´æŽ¥çš„ãªæ“ä½œãŒå¯èƒ½ï¼‰  
-        - ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªãƒˆãƒ©ãƒãƒ¼ã‚µãƒ«æ”»æ’ƒ  
+                    •¡‡Œ»ŽÀ  
+                    - Œ»ŽÀ‚É‚ ‚éƒf[ƒ^‚â•¨‘Ì‚ð‰ÂŽ‹‰»‚µA‚»‚ê‚É’¼ÚG‚ê‚Ä‘€ì‚Å‚«‚é‚±‚Æ  
+                        iAR‚Í‰ÂŽ‹‰»‚Ü‚Å‚¾‚ªAMR‚Í’¼Ú“I‚È‘€ì‚ª‰Â”\j  
+        - ƒfƒBƒŒƒNƒgƒŠƒgƒ‰ƒo[ƒTƒ‹UŒ‚  
             - directory traversal attack  
-                - è‹±å˜èªžï¼štraversal  
-                    - æ¨ªæ–­  
-            - Webã‚·ã‚¹ãƒ†ãƒ ãªã©ã§ã€åˆ©ç”¨è€…ãŒå…¥åŠ›ã—ãŸãƒ‡ãƒ¼ã‚¿ã®æ¤œè¨¼(ç„¡æ¯’åŒ–)ãŒä¸ååˆ†ãªãŸã‚ã«ã€ãƒ•ã‚¡ã‚¤ãƒ«ã‚·ã‚¹ãƒ†ãƒ ã®ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã®æ¨ªæ–­ã‚’ç¤ºã™ã‚ˆã†ãªæ–‡å­—(â€œ../â€ãªã©)ãŒã™ã‚ŠæŠœã‘ã¦ã—ã¾ã„ã€æœ¬æ¥ã‚¢ã‚¯ã‚»ã‚¹ã‚’è¨±å¯ã—ãªã„ãƒ•ã‚¡ã‚¤ãƒ«ã¸ã®ã‚¢ã‚¯ã‚»ã‚¹ãŒè¡Œã‚ã‚Œã‚‹ã“ã¨ã§ã™ã€‚  
+                - ‰p’PŒêFtraversal  
+                    - ‰¡’f  
+            - WebƒVƒXƒeƒ€‚È‚Ç‚ÅA—˜—pŽÒ‚ª“ü—Í‚µ‚½ƒf[ƒ^‚ÌŒŸØ(–³“Å‰»)‚ª•s\•ª‚È‚½‚ß‚ÉAƒtƒ@ƒCƒ‹ƒVƒXƒeƒ€‚ÌƒfƒBƒŒƒNƒgƒŠ‚Ì‰¡’f‚ðŽ¦‚·‚æ‚¤‚È•¶Žš(g../h‚È‚Ç)‚ª‚·‚è”²‚¯‚Ä‚µ‚Ü‚¢A–{—ˆƒAƒNƒZƒX‚ð‹–‰Â‚µ‚È‚¢ƒtƒ@ƒCƒ‹‚Ö‚ÌƒAƒNƒZƒX‚ªs‚í‚ê‚é‚±‚Æ‚Å‚·B  
         - ROI  
             - Return On Investment  
-                æŠ•è³‡åˆ©ç›ŠçŽ‡  
-                - è‹±å˜èªžï¼šInvestment  
-                    - æŠ•è³‡  
-            - æŠ•è³‡ã—ãŸè³‡æœ¬ã‹ã‚‰ç™ºç”Ÿã—ãŸåˆ©ç›Š  
-            - åˆ©ç›ŠÃ·æŠ•è³‡é¡Ã—100  
-        - ã‚³ãƒ¢ãƒ‡ã‚£ãƒ†ã‚£åŒ–  
+                “ŠŽ‘—˜‰v—¦  
+                - ‰p’PŒêFInvestment  
+                    - “ŠŽ‘  
+            - “ŠŽ‘‚µ‚½Ž‘–{‚©‚ç”­¶‚µ‚½—˜‰v  
+            - —˜‰v€“ŠŽ‘Šz~100  
+        - ƒRƒ‚ƒfƒBƒeƒB‰»  
             - commoditization  
-                - è‹±å˜èªžï¼šcommodity  
-                    - å•†å“  
-            - å•†å“ã®ä»˜åŠ ä¾¡å€¤ã‚„ãƒ–ãƒ©ãƒ³ãƒ‰åŠ›ãŒè–„ã‚Œã€ä¾¡æ ¼ã‚„å…¥æ‰‹ã—ã‚„ã™ã•ãŒé‡è¦–ã•ã‚Œã‚‹ã‚ˆã†ã«ãªã‚‹ã“ã¨  
+                - ‰p’PŒêFcommodity  
+                    - ¤•i  
+            - ¤•i‚Ì•t‰Á‰¿’l‚âƒuƒ‰ƒ“ƒh—Í‚ª”–‚êA‰¿Ši‚â“üŽè‚µ‚â‚·‚³‚ªdŽ‹‚³‚ê‚é‚æ‚¤‚É‚È‚é‚±‚Æ  
         - EDI  
             - Electronic Data Interchange  
-                é›»å­ãƒ‡ãƒ¼ã‚¿äº¤æ›  
-            - é›»å­åŒ–ã•ã‚ŒãŸãƒ“ã‚¸ãƒã‚¹æƒ…å ±(æ³¨æ–‡æ›¸ã€è«‹æ±‚æ›¸ãªã©)ã‚’é€šä¿¡å›žç·šã‚’åˆ©ç”¨ã—ã¦ã€ä¼æ¥­é–“ã§ã‚„ã‚Šå–ã‚Šã™ã‚‹ã“ã¨  
-        - OCæ›²ç·š  
+                “dŽqƒf[ƒ^ŒðŠ·  
+            - “dŽq‰»‚³‚ê‚½ƒrƒWƒlƒXî•ñ(’•¶‘A¿‹‘‚È‚Ç)‚ð’ÊM‰ñü‚ð—˜—p‚µ‚ÄAŠé‹ÆŠÔ‚Å‚â‚èŽæ‚è‚·‚é‚±‚Æ  
+        - OC‹Èü  
             - operating characteristic curve  
-                æ¤œæŸ»ç‰¹æ€§æ›²ç·š  
-            - è£½å“ã®æŠœãå–ã‚Šæ¤œæŸ»ã§ã€Œãƒ­ãƒƒãƒˆã®å“è³ªã€ã«å¯¾ã™ã‚‹ã€Œãƒ­ãƒƒãƒˆã®åˆæ ¼çŽ‡ã€ã‚’ãƒ—ãƒ­ãƒƒãƒˆã—ãŸã‚°ãƒ©ãƒ•  
+                ŒŸ¸“Á«‹Èü  
+            - »•i‚Ì”²‚«Žæ‚èŒŸ¸‚Åuƒƒbƒg‚Ì•iŽ¿v‚É‘Î‚·‚éuƒƒbƒg‚Ì‡Ši—¦v‚ðƒvƒƒbƒg‚µ‚½ƒOƒ‰ƒt  
         - RAID  
             - Redundant Arrays of Inexpensive Disks  
-                - å®Ÿéš›ã«åˆ©ç”¨ã•ã‚Œã¦ã„ã‚‹ã®ã¯ã€RAID0,1,5,6 ã®ã¿  
+                - ŽÀÛ‚É—˜—p‚³‚ê‚Ä‚¢‚é‚Ì‚ÍARAID0,1,5,6 ‚Ì‚Ý  
             - RAID0  
-                - è¤‡æ•°ãƒ‡ã‚£ã‚¹ã‚¯ã«ãƒ‡ãƒ¼ã‚¿ã‚’åˆ†æ•£ï¼ˆï¼ã‚¹ãƒˆãƒ©ã‚¤ãƒ”ãƒ³ã‚°ï¼‰  
-                    - â†’é«˜é€ŸåŒ–  
+                - •¡”ƒfƒBƒXƒN‚Éƒf[ƒ^‚ð•ªŽUiƒXƒgƒ‰ƒCƒsƒ“ƒOj  
+                    - ¨‚‘¬‰»  
             - RAID1  
-                - è¤‡æ•°ãƒ‡ã‚£ã‚¹ã‚¯ã«åŒãƒ‡ãƒ¼ã‚¿ã‚’æ ¼ç´ï¼ˆï¼ãƒŸãƒ©ãƒ¼ãƒªãƒ³ã‚°ï¼‰  
-                    - â†’é«˜ä¿¡é ¼æ€§  
+                - •¡”ƒfƒBƒXƒN‚É“¯ƒf[ƒ^‚ðŠi”[iƒ~ƒ‰[ƒŠƒ“ƒOj  
+                    - ¨‚M—Š«  
             - RAID2  
-                - ãƒ“ãƒƒãƒˆå˜ä½ã§ã®èª¤ã‚Šè¨‚æ­£å°‚ç”¨ãƒ‡ã‚£ã‚¹ã‚¯  
-                    - â†’é«˜ä¿¡é ¼æ€§  
+                - ƒrƒbƒg’PˆÊ‚Å‚ÌŒë‚è’ù³ê—pƒfƒBƒXƒN  
+                    - ¨‚M—Š«  
             - RAID3  
-                - ãƒ“ãƒƒãƒˆå˜ä½ã§ã®ãƒ‘ãƒªãƒ†ã‚£å°‚ç”¨ãƒ‡ã‚£ã‚¹ã‚¯  
-                    - â†’é«˜ä¿¡é ¼æ€§  
+                - ƒrƒbƒg’PˆÊ‚Å‚ÌƒpƒŠƒeƒBê—pƒfƒBƒXƒN  
+                    - ¨‚M—Š«  
             - RAID4  
-                - ãƒ–ãƒ­ãƒƒã‚¯å˜ä½ã§ã®ãƒ‘ãƒªãƒ†ã‚£å°‚ç”¨ãƒ‡ã‚£ã‚¹ã‚¯  
-                    - â†’é«˜ä¿¡é ¼æ€§  
+                - ƒuƒƒbƒN’PˆÊ‚Å‚ÌƒpƒŠƒeƒBê—pƒfƒBƒXƒN  
+                    - ¨‚M—Š«  
             - RAID5  
-                - ãƒ–ãƒ­ãƒƒã‚¯å˜ä½ã§ã®ãƒ‘ãƒªãƒ†ã‚£ã‚’åˆ†æ•£ã—ã¦è¨˜éŒ²  
-                    - â†’é«˜ä¿¡é ¼æ€§  
+                - ƒuƒƒbƒN’PˆÊ‚Å‚ÌƒpƒŠƒeƒB‚ð•ªŽU‚µ‚Ä‹L˜^  
+                    - ¨‚M—Š«  
             - RAID6  
-                - ãƒ–ãƒ­ãƒƒã‚¯å˜ä½ã§ã®ãƒ‘ãƒªãƒ†ã‚£ã‚’åˆ†æ•£ã‹ã¤è¤‡æ•°ç®‡æ‰€ã«è¨˜éŒ²  
-                    - â†’é«˜ä¿¡é ¼æ€§  
-        - ãƒ—ãƒ­ã‚»ã‚¹ï¼ã‚¹ãƒ¬ãƒƒãƒ‰  
-            ãƒªãƒ³ã‚¯: [itsiken.com/30S_L4/30S_L4ES_07.html][10]  
-            - ãƒ—ãƒ­ã‚»ã‚¹  
-                - ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã®å®Ÿè¡Œå˜ä½  
-                - å®Ÿè¡Œã‚³ãƒ¼ãƒ‰ã¨ãƒ‡ãƒ¼ã‚¿ã¯ã¨ã‚‚ã«ãƒ¡ãƒ¢ãƒªãƒ¼ä¸Šã«ã‚ã‚‹ã€‚  
-                - CPUã«ã‚ˆã£ã¦é€æ¬¡å–ã‚Šå‡ºã•ã‚Œã¦å®Ÿè¡Œã•ã‚Œã¾ã™ã€‚  
-            - ã‚¹ãƒ¬ãƒƒãƒ‰  
-                - CPUåˆ©ç”¨ã®å˜ä½  
-                - ãƒ—ãƒ­ã‚»ã‚¹ã«æ¯”ã¹ã€ãƒ—ãƒ­ã‚°ãƒ©ãƒ å®Ÿè¡Œæ™‚ã®ã‚³ãƒ³ãƒ†ã‚­ã‚¹ãƒˆæƒ…å ±å°  
-                    â†’åˆ‡æ›¿ãˆé€Ÿï¼  
-            - ã‚¹ãƒ¬ãƒƒãƒ‰ã¯ãƒ—ãƒ­ã‚»ã‚¹ã®ã‚µãƒ–ãƒ«ãƒ¼ãƒãƒ³ï¼  
-        - ACIDç‰¹æ€§  
-            - é–¢é€£ã™ã‚‹è¤‡æ•°ã®å‡¦ç†ã‚’ã¾ã¨ã‚ã¦è¡Œã†ãƒˆãƒ©ãƒ³ã‚¶ã‚¯ã‚·ãƒ§ãƒ³ã«ãŠã„ã¦ä¸å¯æ¬ ã¨ã•ã‚Œã‚‹ç‰¹æ€§  
-            - åŽŸå­æ€§(Atomicity)  
-                - å„æ‰‹é †ãŒã€Œå…¨å®Ÿè¡Œã€ã‹ã€Œéžå®Ÿè¡Œã€ã®ã©ã¡ã‚‰ã‹ã«ãªã‚‹ã“ã¨  
-            - ä¸€è²«æ€§(Consistency)  
-                - ãƒˆãƒ©ãƒ³ã‚¶ã‚¯ã‚·ãƒ§ãƒ³å‰å¾Œã§ãƒ‡ãƒ¼ã‚¿æ•´åˆæ€§ãŒä¿ãŸã‚Œã€çŸ›ç›¾ãŒç„¡ã„ã“ã¨  
-            - ç‹¬ç«‹æ€§(Isolation)  
-                - ãƒˆãƒ©ãƒ³ã‚¶ã‚¯ã‚·ãƒ§ãƒ³ã®å‡¦ç†éŽç¨‹ãŒå¤–éƒ¨ã‹ã‚‰éš è”½ã•ã‚Œã€ä»–å‡¦ç†ã«å½±éŸ¿ã‚’ä¸Žãˆãªã„ã“ã¨  
-            - è€ä¹…æ€§(Durability)  
-                - ãƒˆãƒ©ãƒ³ã‚¶ã‚¯ã‚·ãƒ§ãƒ³å®Œäº†ã«ã‚ˆã‚Šçµæžœã¯è¨˜éŒ²ã•ã‚Œã€ã‚·ã‚¹ãƒ†ãƒ éšœå®³ç­‰ã«ã‚ˆã‚‹æå¤±ã¯ãªã„ã“ã¨  
-        - ãƒ—ãƒ­ãƒˆã‚³ãƒ«  
+                - ƒuƒƒbƒN’PˆÊ‚Å‚ÌƒpƒŠƒeƒB‚ð•ªŽU‚©‚Â•¡”‰ÓŠ‚É‹L˜^  
+                    - ¨‚M—Š«  
+        - ƒvƒƒZƒX^ƒXƒŒƒbƒh  
+            ƒŠƒ“ƒN: [itsiken.com/30S_L4/30S_L4ES_07.html][10]  
+            - ƒvƒƒZƒX  
+                - ƒvƒƒOƒ‰ƒ€‚ÌŽÀs’PˆÊ  
+                - ŽÀsƒR[ƒh‚Æƒf[ƒ^‚Í‚Æ‚à‚Éƒƒ‚ƒŠ[ã‚É‚ ‚éB  
+                - CPU‚É‚æ‚Á‚Ä’€ŽŸŽæ‚èo‚³‚ê‚ÄŽÀs‚³‚ê‚Ü‚·B  
+            - ƒXƒŒƒbƒh  
+                - CPU—˜—p‚Ì’PˆÊ  
+                - ƒvƒƒZƒX‚É”ä‚×AƒvƒƒOƒ‰ƒ€ŽÀsŽž‚ÌƒRƒ“ƒeƒLƒXƒgî•ñ¬  
+                    ¨Ø‘Ö‚¦‘¬I  
+            - ƒXƒŒƒbƒh‚ÍƒvƒƒZƒX‚ÌƒTƒuƒ‹[ƒ`ƒ“I  
+        - ACID“Á«  
+            - ŠÖ˜A‚·‚é•¡”‚Ìˆ—‚ð‚Ü‚Æ‚ß‚Äs‚¤ƒgƒ‰ƒ“ƒUƒNƒVƒ‡ƒ“‚É‚¨‚¢‚Ä•s‰ÂŒ‡‚Æ‚³‚ê‚é“Á«  
+            - Œ´Žq«(Atomicity)  
+                - ŠeŽè‡‚ªu‘SŽÀsv‚©u”ñŽÀsv‚Ì‚Ç‚¿‚ç‚©‚É‚È‚é‚±‚Æ  
+            - ˆêŠÑ«(Consistency)  
+                - ƒgƒ‰ƒ“ƒUƒNƒVƒ‡ƒ“‘OŒã‚Åƒf[ƒ^®‡«‚ª•Û‚½‚êA–µ‚‚ª–³‚¢‚±‚Æ  
+            - “Æ—§«(Isolation)  
+                - ƒgƒ‰ƒ“ƒUƒNƒVƒ‡ƒ“‚Ìˆ—‰ß’ö‚ªŠO•”‚©‚ç‰B•Á‚³‚êA‘¼ˆ—‚É‰e‹¿‚ð—^‚¦‚È‚¢‚±‚Æ  
+            - ‘Ï‹v«(Durability)  
+                - ƒgƒ‰ƒ“ƒUƒNƒVƒ‡ƒ“Š®—¹‚É‚æ‚èŒ‹‰Ê‚Í‹L˜^‚³‚êAƒVƒXƒeƒ€áŠQ“™‚É‚æ‚é‘¹Ž¸‚Í‚È‚¢‚±‚Æ  
+        - ƒvƒƒgƒRƒ‹  
             - NTP  
                 - Network Time Protocol  
-                    - ãƒãƒƒãƒˆãƒ¯ãƒ¼ã‚¯æŽ¥ç¶šæ©Ÿå™¨å†…ã®æ™‚åˆ»ã‚’æ•´ãˆã‚‹ãƒ—ãƒ­ãƒˆã‚³ãƒ«  
+                    - ƒlƒbƒgƒ[ƒNÚ‘±‹@Ší“à‚ÌŽž‚ð®‚¦‚éƒvƒƒgƒRƒ‹  
             - NNTP  
                 - Network News Transfer Protocol  
-                    - ãƒãƒƒãƒˆãƒ‹ãƒ¥ãƒ¼ã‚¹é…ä¿¡ãƒ—ãƒ­ãƒˆã‚³ãƒ«  
+                    - ƒlƒbƒgƒjƒ…[ƒX”zMƒvƒƒgƒRƒ‹  
             - SMTP  
                 - Simple Mail Transfer Protocol  
-                    - ãƒ¡ãƒ¼ãƒ«ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸è»¢é€ç”¨ãƒ—ãƒ­ãƒˆã‚³ãƒ«  
-                        - ex) ãƒ¡ãƒ¼ãƒ«ã‚µãƒ¼ãƒé–“ã§ã®è»¢é€  
-                        - ex) ç«¯æœ«ã‹ã‚‰ãƒ¡ãƒ¼ãƒ«ã‚µãƒ¼ãƒã¸ã®é€ä¿¡  
+                    - ƒ[ƒ‹ƒƒbƒZ[ƒW“]‘——pƒvƒƒgƒRƒ‹  
+                        - ex) ƒ[ƒ‹ƒT[ƒoŠÔ‚Å‚Ì“]‘—  
+                        - ex) ’[––‚©‚çƒ[ƒ‹ƒT[ƒo‚Ö‚Ì‘—M  
             - SNMP  
                 - Simple Network Management Protocol  
-                    - ãƒãƒƒãƒˆãƒ¯ãƒ¼ã‚¯æŽ¥ç¶šæ©Ÿå™¨ã®ç›£è¦–ãƒ»åˆ¶å¾¡ç”¨ãƒ—ãƒ­ãƒˆã‚³ãƒ«  
+                    - ƒlƒbƒgƒ[ƒNÚ‘±‹@Ší‚ÌŠÄŽ‹E§Œä—pƒvƒƒgƒRƒ‹  
             - PPP  
                 - Point to Point Protocol  
-                    - ï¼’ç‚¹é–“é€šä¿¡ã®ãŸã‚ã®ãƒ—ãƒ­ãƒˆã‚³ãƒ«  
-                        - ex) é›»è©±å›žç·šã‚’ä½¿ã£ãŸãƒãƒƒãƒˆæŽ¥ç¶šæ™‚  
+                    - ‚Q“_ŠÔ’ÊM‚Ì‚½‚ß‚ÌƒvƒƒgƒRƒ‹  
+                        - ex) “d˜b‰ñü‚ðŽg‚Á‚½ƒlƒbƒgÚ‘±Žž  
             - SSH  
                 - Secure SHell  
-                    - æš—å·åŒ–ã‚„èªè¨¼ã«ã‚ˆã‚Šã€ãƒªãƒ¢ãƒ¼ãƒˆã‚³ãƒ³ãƒ”ãƒ¥ãƒ¼ã‚¿ã¨å®‰å…¨ã«é€šä¿¡ã™ã‚‹ãŸã‚ã®ãƒ—ãƒ­ãƒˆã‚³ãƒ«  
-                    - ãƒãƒƒãƒˆãƒ¯ãƒ¼ã‚¯ä¸Šã®å…¨é€šä¿¡ãƒ‡ãƒ¼ã‚¿ï¼ˆãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ãªã©ã®èªè¨¼éƒ¨åˆ†ã‚’å«ã‚€ï¼‰ã‚’æš—å·åŒ–ã™ã‚‹  
-        - åŸºæ•°å¤‰æ›  
-            - 10é€²æ•°â†’ï¼’é€²æ•°  
-                - å°æ•°  
-                    - å°æ•°éƒ¨ï¼’å€ã‚’ç¹°ã‚Šè¿”ã—ã€æ•´æ•°éƒ¨ã‚’ä¸Šã‹ã‚‰ä¸¦ã¹ã‚‹ã€‚  
+                    - ˆÃ†‰»‚â”FØ‚É‚æ‚èAƒŠƒ‚[ƒgƒRƒ“ƒsƒ…[ƒ^‚ÆˆÀ‘S‚É’ÊM‚·‚é‚½‚ß‚ÌƒvƒƒgƒRƒ‹  
+                    - ƒlƒbƒgƒ[ƒNã‚Ì‘S’ÊMƒf[ƒ^iƒpƒXƒ[ƒh‚È‚Ç‚Ì”FØ•”•ª‚ðŠÜ‚Þj‚ðˆÃ†‰»‚·‚é  
+        - Šî”•ÏŠ·  
+            - 10i”¨‚Qi”  
+                - ¬”  
+                    - ¬”•”‚Q”{‚ðŒJ‚è•Ô‚µA®”•”‚ðã‚©‚ç•À‚×‚éB  
                         - 0.0100110...  
-        - ãƒ‡ã‚£ã‚¸ã‚¿ãƒ«ãƒ•ã‚©ãƒ¬ãƒ³ã‚¸ã‚¯ã‚¹  
+        - ƒfƒBƒWƒ^ƒ‹ƒtƒHƒŒƒ“ƒWƒNƒX  
             - Digital Forensics  
-                - ä¸æ­£ã‚¢ã‚¯ã‚»ã‚¹ãªã©ã‚³ãƒ³ãƒ”ãƒ¥ãƒ¼ã‚¿ã«é–¢ã™ã‚‹çŠ¯ç½ªã®æ³•çš„ãªè¨¼æ‹ æ€§ã‚’æ˜Žã‚‰ã‹ã«ã™ã‚‹ãŸã‚ã«ã€åŽŸå› ç©¶æ˜Žã«å¿…è¦ãªæƒ…å ±ã‚’åŽé›†ã—ã¦åˆ†æžã™ã‚‹ã“ã¨  
-            - è‹±å˜èªžï¼šforensics  
-                - æ³•åŒ»å­¦çš„ãªã€æ³•åŒ»å­¦ã®ã€æ³•åŒ»ã®ã€ç§‘å­¦æœæŸ»ã®  
-        - ãƒãƒªãƒ¥ãƒ¼ãƒã‚§ãƒ¼ãƒ³  
-            - å„æ¥­å‹™ã®æµã‚Œï¼ˆèª¿é”/é–‹ç™º/è£½é€ /è²©å£²/ä¿å®ˆç­‰ï¼‰ ã«ã‚ˆã£ã¦é¡§å®¢ã«å¯¾ã™ã‚‹æœ€çµ‚çš„ãªä¾¡å€¤ãŒç”Ÿã¿å‡ºã•ã‚Œã‚‹ã¨ã„ã†è€ƒãˆæ–¹  
-        - ãƒ«ãƒ¼ãƒ—ã®ã‚¢ãƒ³ãƒ­ãƒ¼ãƒªãƒ³ã‚°  
-            - ã‚³ãƒ³ãƒ‘ã‚¤ãƒ©æœ€é©åŒ–ã«ã‚ˆã‚Šã€ãƒ«ãƒ¼ãƒ—å‡¦ç†ã‚’ã¹ãŸæ›¸ãã«å¤‰æ›´ã™ã‚‹  
-            - â—‹ï¼šå‡¦ç†é€Ÿåº¦å‘ä¸Š  
-            - Ã—ï¼šã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã‚µã‚¤ã‚ºå¢—å¤§  
-        - ãƒšãƒˆãƒªãƒãƒƒãƒˆãƒ¢ãƒ‡ãƒ«  
-            - ä¸¦åˆ—ã«å‹•ä½œã™ã‚‹äº‹è±¡é–“ã®åŒæœŸã‚’è¡¨ç¾ã™ã‚‹ã“ã¨ãŒå¯èƒ½ãªã€ã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢ã®è¦æ±‚ãƒ¢ãƒ‡ãƒ«  
-                - ãƒªãƒ³ã‚¯: [enterprisezine.jp/iti/detail/1493][11]  
+                - •s³ƒAƒNƒZƒX‚È‚ÇƒRƒ“ƒsƒ…[ƒ^‚ÉŠÖ‚·‚é”Æß‚Ì–@“I‚ÈØ‹’«‚ð–¾‚ç‚©‚É‚·‚é‚½‚ß‚ÉAŒ´ˆö‹†–¾‚É•K—v‚Èî•ñ‚ðŽûW‚µ‚Ä•ªÍ‚·‚é‚±‚Æ  
+            - ‰p’PŒêFforensics  
+                - –@ˆãŠw“I‚ÈA–@ˆãŠw‚ÌA–@ˆã‚ÌA‰ÈŠw‘{¸‚Ì  
+        - ƒoƒŠƒ…[ƒ`ƒF[ƒ“  
+            - Še‹Æ–±‚Ì—¬‚êi’²’B/ŠJ”­/»‘¢/”Ì”„/•ÛŽç“™j ‚É‚æ‚Á‚ÄŒÚ‹q‚É‘Î‚·‚éÅI“I‚È‰¿’l‚ª¶‚Ýo‚³‚ê‚é‚Æ‚¢‚¤l‚¦•û  
+        - ƒ‹[ƒv‚ÌƒAƒ“ƒ[ƒŠƒ“ƒO  
+            - ƒRƒ“ƒpƒCƒ‰Å“K‰»‚É‚æ‚èAƒ‹[ƒvˆ—‚ð‚×‚½‘‚«‚É•ÏX‚·‚é  
+            - ›Fˆ—‘¬“xŒüã  
+            - ~FƒIƒuƒWƒFƒNƒgƒTƒCƒY‘‘å  
+        - ƒyƒgƒŠƒlƒbƒgƒ‚ƒfƒ‹  
+            - •À—ñ‚É“®ì‚·‚éŽ–ÛŠÔ‚Ì“¯Šú‚ð•\Œ»‚·‚é‚±‚Æ‚ª‰Â”\‚ÈAƒ\ƒtƒgƒEƒFƒA‚Ì—v‹ƒ‚ƒfƒ‹  
+                - ƒŠƒ“ƒN: [enterprisezine.jp/iti/detail/1493][11]  
         - MDA  
             - Model-Driven Architecture  
-                ãƒ¢ãƒ‡ãƒ«é§†å‹•åž‹ã‚¢ãƒ¼ã‚­ãƒ†ã‚¯ãƒãƒ£  
-            - ãƒ—ãƒ©ãƒƒãƒˆãƒ•ã‚©ãƒ¼ãƒ ã«ä¾å­˜ã›ãšã€æ¨™æº–ãƒ¢ãƒ‡ãƒªãƒ³ã‚°æŠ€æ³•ï¼ˆUMLãªã©ï¼‰ã‚’ä½¿ã£ã¦æ©Ÿèƒ½ã‚’ãƒ¢ãƒ‡ãƒ«åŒ–ã—ã€ãƒ¢ãƒ‡ãƒ«æƒ…å ±ã‚’åŸºã«ã‚³ãƒ¼ãƒ‰ã‚’è‡ªå‹•ç”Ÿæˆã™ã‚‹é–‹ç™ºæ‰‹æ³•ã€‚  
-            - ç›®çš„  
-                - ã‚¢ãƒ¼ã‚­ãƒ†ã‚¯ãƒãƒ£ã‹ã‚‰è¨­è¨ˆã‚’åˆ†é›¢ã—ã€è¨­è¨ˆã¨ã‚¢ãƒ¼ã‚­ãƒ†ã‚¯ãƒãƒ£ãŒãã‚Œãžã‚Œç‹¬ç«‹ã—ã¦å¤‰æ›´ã§ãã‚‹ã‚ˆã†ã«ã™ã‚‹  
+                ƒ‚ƒfƒ‹‹ì“®Œ^ƒA[ƒLƒeƒNƒ`ƒƒ  
+            - ƒvƒ‰ƒbƒgƒtƒH[ƒ€‚ÉˆË‘¶‚¹‚¸A•W€ƒ‚ƒfƒŠƒ“ƒO‹Z–@iUML‚È‚Çj‚ðŽg‚Á‚Ä‹@”\‚ðƒ‚ƒfƒ‹‰»‚µAƒ‚ƒfƒ‹î•ñ‚ðŠî‚ÉƒR[ƒh‚ðŽ©“®¶¬‚·‚éŠJ”­Žè–@B  
+            - –Ú“I  
+                - ƒA[ƒLƒeƒNƒ`ƒƒ‚©‚çÝŒv‚ð•ª—£‚µAÝŒv‚ÆƒA[ƒLƒeƒNƒ`ƒƒ‚ª‚»‚ê‚¼‚ê“Æ—§‚µ‚Ä•ÏX‚Å‚«‚é‚æ‚¤‚É‚·‚é  
         - OMT  
             - Object Modeling Technique  
-                ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆãƒ¢ãƒ‡ãƒ«åŒ–æŠ€æ³•  
-            - ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆæŒ‡å‘ã‚’ä½¿ã£ãŸã‚·ã‚¹ãƒ†ãƒ åˆ†æž/è¨­è¨ˆé–‹ç™ºæŠ€æ³•  
-        - ãƒ­ãƒ¼ãƒ‰ãƒãƒ©ãƒ³ã‚µ  
-            - Load Balancerã€è² è·åˆ†æ•£è£…ç½®  
-                - å¤§è¦æ¨¡ãªã‚·ã‚¹ãƒ†ãƒ ã«ãŠã‘ã‚‹è¤‡æ•°ã‚µãƒ¼ãƒé‹ç”¨æ™‚ã€ã‚µãƒ¼ãƒã¸ã®è¦æ±‚ã‚’å„ã‚µãƒ¼ãƒã«å‰²ã‚ŠæŒ¯ã‚Šã€ã€Œè² è·å‡ç­‰åŒ–ã€åŠã³ã€Œæ€§èƒ½ä»¥ä¸Šã®è¦æ±‚ã‚’é®æ–­ã€ã™ã‚‹è£…ç½®ã®ã“ã¨ã€‚  
-                    åˆ©ç”¨è€…ã‹ã‚‰ã¯ã‚µãƒ¼ãƒã¯1å°ã«ã—ã‹è¦‹ãˆãªã„ãŸã‚ã€è¤‡æ•°ã‚µãƒ¼ãƒã‚’æ„è­˜ã™ã‚‹å¿…è¦ãŒãªã„ã€‚  
-        - DNSãƒ©ã‚¦ãƒ³ãƒ‰ãƒ­ãƒ“ãƒ³  
-            - 1ã‚µãƒ¼ãƒå(ãƒ›ã‚¹ãƒˆå)ã«è¤‡æ•°IPã‚¢ãƒ‰ãƒ¬ã‚¹ã‚’å‰²ã‚Šå½“ã¦ã‚‹ã“ã¨ã§ã‚µãƒ¼ãƒè² è·åˆ†æ•£ã‚’å®Ÿç¾ã™ã‚‹ä»•çµ„ã¿ã€‚  
-                DNSã®å•ã„åˆã‚ã›ã«å¯¾ã—ã€å‰²ã‚Šå½“ã¦ã‚‰ã‚ŒãŸè¤‡æ•°ã®IPã‚¢ãƒ‰ãƒ¬ã‚¹ã‹ã‚‰é †ç•ªã«è¿”ã™ã“ã¨ã«ã‚ˆã£ã¦ã€æŽ¥ç¶šã™ã‚‹ã‚µãƒ¼ãƒã‚’åˆ†ã‘ã‚‹  
+                ƒIƒuƒWƒFƒNƒgƒ‚ƒfƒ‹‰»‹Z–@  
+            - ƒIƒuƒWƒFƒNƒgŽwŒü‚ðŽg‚Á‚½ƒVƒXƒeƒ€•ªÍ/ÝŒvŠJ”­‹Z–@  
+        - ƒ[ƒhƒoƒ‰ƒ“ƒT  
+            - Load BalancerA•‰‰×•ªŽU‘•’u  
+                - ‘å‹K–Í‚ÈƒVƒXƒeƒ€‚É‚¨‚¯‚é•¡”ƒT[ƒo‰^—pŽžAƒT[ƒo‚Ö‚Ì—v‹‚ðŠeƒT[ƒo‚ÉŠ„‚èU‚èAu•‰‰×‹Ï“™‰»v‹y‚Ñu«”\ˆÈã‚Ì—v‹‚ðŽÕ’fv‚·‚é‘•’u‚Ì‚±‚ÆB  
+                    —˜—pŽÒ‚©‚ç‚ÍƒT[ƒo‚Í1‘ä‚É‚µ‚©Œ©‚¦‚È‚¢‚½‚ßA•¡”ƒT[ƒo‚ðˆÓŽ¯‚·‚é•K—v‚ª‚È‚¢B  
+        - DNSƒ‰ƒEƒ“ƒhƒƒrƒ“  
+            - 1ƒT[ƒo–¼(ƒzƒXƒg–¼)‚É•¡”IPƒAƒhƒŒƒX‚ðŠ„‚è“–‚Ä‚é‚±‚Æ‚ÅƒT[ƒo•‰‰×•ªŽU‚ðŽÀŒ»‚·‚éŽd‘g‚ÝB  
+                DNS‚Ì–â‚¢‡‚í‚¹‚É‘Î‚µAŠ„‚è“–‚Ä‚ç‚ê‚½•¡”‚ÌIPƒAƒhƒŒƒX‚©‚ç‡”Ô‚É•Ô‚·‚±‚Æ‚É‚æ‚Á‚ÄAÚ‘±‚·‚éƒT[ƒo‚ð•ª‚¯‚é  
         - NoSQL  
             - Not only SQL  
-                - RDBMSä»¥å¤–ã®ãƒ‡ãƒ¼ã‚¿ãƒ™ãƒ¼ã‚¹ç®¡ç†ã‚·ã‚¹ãƒ†ãƒ ã‚’æŒ‡ã™åˆ†é¡žçš„ãªç”¨èªžã€‚  
-                    é–¢ä¿‚ãƒ‡ãƒ¼ã‚¿ãƒ™ãƒ¼ã‚¹ã‚’é©ç”¨ã—ã¦ããŸã“ã‚Œã¾ã§ã®æ…£ç¿’ã‚’ã‚„ã‚ã¦ã€ãã‚Œä»¥å¤–ã®æ§‹é€ ã®ãƒ‡ãƒ¼ã‚¿ãƒ™ãƒ¼ã‚¹ã®åˆ©ç”¨ãƒ»ç™ºå±•ã‚’ä¿ƒé€²ã•ã›ã‚ˆã†ã¨ã™ã‚‹æ´»å‹•  
-                    ãƒ‡ãƒ¼ã‚¿ãƒ™ãƒ¼ã‚¹ã«ã‚¢ã‚¯ã‚»ã‚¹ã™ã‚‹ã¨ãã«ä½¿ç”¨ã™ã‚‹SQLã‚’ä½¿ã‚ãšã«ãƒ‡ãƒ¼ã‚¿æ“ä½œãŒã§ãã‚‹ãƒ‡ãƒ¼ã‚¿ãƒ™ãƒ¼ã‚¹ã‚’æŒ‡ã™ã“ã¨ã‚‚ã‚ã‚‹  
+                - RDBMSˆÈŠO‚Ìƒf[ƒ^ƒx[ƒXŠÇ—ƒVƒXƒeƒ€‚ðŽw‚·•ª—Þ“I‚È—pŒêB  
+                    ŠÖŒWƒf[ƒ^ƒx[ƒX‚ð“K—p‚µ‚Ä‚«‚½‚±‚ê‚Ü‚Å‚ÌŠµK‚ð‚â‚ß‚ÄA‚»‚êˆÈŠO‚Ì\‘¢‚Ìƒf[ƒ^ƒx[ƒX‚Ì—˜—pE”­“W‚ð‘£i‚³‚¹‚æ‚¤‚Æ‚·‚éŠˆ“®  
+                    ƒf[ƒ^ƒx[ƒX‚ÉƒAƒNƒZƒX‚·‚é‚Æ‚«‚ÉŽg—p‚·‚éSQL‚ðŽg‚í‚¸‚Éƒf[ƒ^‘€ì‚ª‚Å‚«‚éƒf[ƒ^ƒx[ƒX‚ðŽw‚·‚±‚Æ‚à‚ ‚é  
         - VDI  
             - Virtual Desktop Infrastructure  
-            - PCã®ãƒ‡ã‚¹ã‚¯ãƒˆãƒƒãƒ—ç’°å¢ƒã‚’æ‹¡å¼µã™ã‚‹ã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢ã®ä¸€ç¨®ã€‚  
-                ç‰©ç†çš„ãª1ãƒ‡ã‚£ã‚¹ãƒ—ãƒ¬ã‚¤ã«å¯¾ã—ã€ç‹¬ç«‹ã—ãŸè¤‡æ•°ã®ä»®æƒ³çš„ãªãƒ‡ã‚¹ã‚¯ãƒˆãƒƒãƒ—ç’°å¢ƒã€ã‚ã‚‹ã„ã¯ãƒ‡ã‚£ã‚¹ãƒ—ãƒ¬ã‚¤ã®è¡¨ç¤ºé ˜åŸŸã‚ˆã‚Šåºƒã„ãƒ‡ã‚¹ã‚¯ãƒˆãƒƒãƒ—ç©ºé–“ã‚’æä¾›ã™ã‚‹ã€‚  
-            - Webã‚µã‚¤ãƒˆã‹ã‚‰ã®å—ä¿¡ãƒ‡ãƒ¼ã‚¿ã‚’å‡¦ç†ã—ã¦VDIã‚µãƒ¼ãƒã§ç”Ÿæˆã—ãŸãƒ‡ã‚¹ã‚¯ãƒˆãƒƒãƒ—ç”»é¢ã®ç”»åƒãƒ‡ãƒ¼ã‚¿ã ã‘ã‚’PCã«é€ä¿¡ã™ã‚‹ãŸã‚ã€æœªçŸ¥ã®ãƒžãƒ«ã‚¦ã‚§ã‚¢ãŒPCã«æ„ŸæŸ“ã™ã‚‹ã“ã¨ã‚’é˜²ãã“ã¨ãŒå‡ºæ¥ã‚‹ã€‚  
+            - PC‚ÌƒfƒXƒNƒgƒbƒvŠÂ‹«‚ðŠg’£‚·‚éƒ\ƒtƒgƒEƒFƒA‚ÌˆêŽíB  
+                •¨—“I‚È1ƒfƒBƒXƒvƒŒƒC‚É‘Î‚µA“Æ—§‚µ‚½•¡”‚Ì‰¼‘z“I‚ÈƒfƒXƒNƒgƒbƒvŠÂ‹«A‚ ‚é‚¢‚ÍƒfƒBƒXƒvƒŒƒC‚Ì•\Ž¦—Ìˆæ‚æ‚èL‚¢ƒfƒXƒNƒgƒbƒv‹óŠÔ‚ð’ñ‹Ÿ‚·‚éB  
+            - WebƒTƒCƒg‚©‚ç‚ÌŽóMƒf[ƒ^‚ðˆ—‚µ‚ÄVDIƒT[ƒo‚Å¶¬‚µ‚½ƒfƒXƒNƒgƒbƒv‰æ–Ê‚Ì‰æ‘œƒf[ƒ^‚¾‚¯‚ðPC‚É‘—M‚·‚é‚½‚ßA–¢’m‚Ìƒ}ƒ‹ƒEƒFƒA‚ªPC‚ÉŠ´õ‚·‚é‚±‚Æ‚ð–h‚®‚±‚Æ‚ªo—ˆ‚éB  
         - XSS  
             - Cross Site Scripting  
-                ã‚¯ãƒ­ã‚¹ã‚µã‚¤ãƒˆã‚¹ã‚¯ãƒªãƒ—ãƒ†ã‚£ãƒ³ã‚°  
-                - ãƒ¦ãƒ¼ã‚¶ãŒå…¥åŠ›ã—ãŸãƒ‡ãƒ¼ã‚¿ã‚’ãã®ã¾ã¾è¡¨ç¤ºã™ã‚‹ã‚·ã‚¹ãƒ†ãƒ ï¼ˆex.Webã‚µã‚¤ãƒˆã®æŽ²ç¤ºæ¿ï¼‰ã«ãŠã„ã¦ã€ãƒ¦ãƒ¼ã‚¶ãŒæ‚ªæ„ã®ã‚ã‚‹ã‚³ãƒ¼ãƒ‰ã‚’å…¥åŠ›ã™ã‚‹ã“ã¨ã§ã€ä»–ãƒ¦ãƒ¼ã‚¶ã®ãƒšãƒ¼ã‚¸é–²è¦§æ™‚ã«PCä¸Šã§æ‚ªæ„ã®ã‚ã‚‹ã‚³ãƒ¼ãƒ‰ã‚’å®Ÿè¡Œã•ã›ã‚‹æ‰‹å£ã€‚  
-        - ã‚»ãƒƒã‚·ãƒ§ãƒ³ãƒã‚¤ã‚¸ãƒ£ãƒƒã‚¯  
-            - Webã‚µãƒ¼ãƒã¨Webãƒ–ãƒ©ã‚¦ã‚¶é–“ã§äº¤äº’é€šä¿¡ä¸­ã«ã€ã‚»ãƒƒã‚·ãƒ§ãƒ³ã‚’ç‰¹å®šã™ã‚‹ãŸã‚ã®ã‚»ãƒƒã‚·ãƒ§ãƒ³IDã‚’ç›—ã¿å‡ºã—ã€Webã‚µãƒ¼ãƒã¾ãŸã¯Webãƒ–ãƒ©ã‚¦ã‚¶ã«ãªã‚Šã™ã¾ã™ã“ã¨ã€‚  
+                ƒNƒƒXƒTƒCƒgƒXƒNƒŠƒvƒeƒBƒ“ƒO  
+                - ƒ†[ƒU‚ª“ü—Í‚µ‚½ƒf[ƒ^‚ð‚»‚Ì‚Ü‚Ü•\Ž¦‚·‚éƒVƒXƒeƒ€iex.WebƒTƒCƒg‚ÌŒfŽ¦”Âj‚É‚¨‚¢‚ÄAƒ†[ƒU‚ªˆ«ˆÓ‚Ì‚ ‚éƒR[ƒh‚ð“ü—Í‚·‚é‚±‚Æ‚ÅA‘¼ƒ†[ƒU‚Ìƒy[ƒW‰{——Žž‚ÉPCã‚Åˆ«ˆÓ‚Ì‚ ‚éƒR[ƒh‚ðŽÀs‚³‚¹‚éŽèŒûB  
+        - ƒZƒbƒVƒ‡ƒ“ƒnƒCƒWƒƒƒbƒN  
+            - WebƒT[ƒo‚ÆWebƒuƒ‰ƒEƒUŠÔ‚ÅŒðŒÝ’ÊM’†‚ÉAƒZƒbƒVƒ‡ƒ“‚ð“Á’è‚·‚é‚½‚ß‚ÌƒZƒbƒVƒ‡ƒ“ID‚ð“‚Ýo‚µAWebƒT[ƒo‚Ü‚½‚ÍWebƒuƒ‰ƒEƒU‚É‚È‚è‚·‚Ü‚·‚±‚ÆB  
         - PPM  
             - Product Portfolio Management  
-                - è‡ªç¤¾ã®äº‹æ¥­ã‚„è£½å“ã‚’ã€Œå¤–éƒ¨è¦ç´ (å¸‚å ´æˆé•·çŽ‡)ã€ã¨ã€Œå†…éƒ¨è¦ç´ (å¸‚å ´ã‚·ã‚§ã‚¢)ã€ã§è©•ä¾¡ã—ã€å¯¾å¿œç­–ã‚’æ±ºå®šã™ã‚‹æ–¹æ³•  
+                - Ž©ŽÐ‚ÌŽ–‹Æ‚â»•i‚ðuŠO•”—v‘f(Žsê¬’·—¦)v‚Æu“à•”—v‘f(ŽsêƒVƒFƒA)v‚Å•]‰¿‚µA‘Î‰žô‚ðŒˆ’è‚·‚é•û–@  
                     - ...  
-                        - å•é¡Œå…  
-                            - å¸‚å ´æˆé•·çŽ‡**é«˜**ã€å¸‚å ´ã‚·ã‚§ã‚¢**ä½Ž**  
-                                - æ–°ãŸãªäº‹æ¥­ã®å°Žå…¥æœŸã€‚  
-                                    ä¸‡å…¨ã‚’æœŸã—ãŸç©ã‚Šã§ã‚‚ã€æˆåŠŸã™ã‚‹ã‹å¤±æ•—ã™ã‚‹ã‹ã¯åˆ†ã‹ã‚Šã¾ã›ã‚“ã€‚ä¸€å‹ä¹æ•—ã‚’è¦šæ‚Ÿã—ã¦ã€å‰å‘ãã«åŠªåŠ›ã‚’æƒœã—ã¾ãªã„ã“ã¨ã§ã™ã€‚  
-                        - èŠ±å½¢  
-                            - å¸‚å ´æˆé•·çŽ‡**é«˜**ã€å¸‚å ´ã‚·ã‚§ã‚¢**é«˜**  
-                                - å¸‚å ´ã®èªçŸ¥åº¦ã¨å…±ã«ã€æˆé•·æ€§ã¯é †èª¿ã«å³è‚©ä¸ŠãŒã‚Šã‚«ãƒ¼ãƒ–ã‚’æãã¾ã™ã€‚  
-                                    æº€è¶³ãªå£²ä¸Šé«˜ã‚’ç¢ºä¿ã—ãªãŒã‚‰å…ˆè¡ŒæŠ•è³‡ã‚’ç„¼å´ã§ãã‚‹ã‚ˆã†ã«ãªã‚Œã°èŠ±å½¢ã€‚  
-                        - é‡‘ã®ãªã‚‹æœ¨  
-                            - å¸‚å ´æˆé•·çŽ‡**ä½Ž**ã€å¸‚å ´ã‚·ã‚§ã‚¢**é«˜**  
-                                - æˆé•·æ€§ã¯éˆåŒ–ã—ã¦ã‚‚ç›¸å¯¾ã‚·ã‚§ã‚¢ã¯é«˜ã¾ã‚‹æ™‚æœŸã€‚  
-                                    çŽ‡ã§ã¯ä¸‹ãŒã£ã¦ã‚‚åŽç›Šé¡ã§ã¯ä¸Šç©ã¿ã§ãã‚‹ã€‚ç«¶åˆã®æ•°ã‚‚å¢—ãˆã¾ã™ãŒã€å…ˆé§†è€…ã®å¼·ã¿ã‚’ç”Ÿã‹ã—ã¦ä¸‹ã•ã„ã€‚  
-                        - è² ã‘çŠ¬  
-                            - å¸‚å ´æˆé•·çŽ‡**ä½Ž**ã€å¸‚å ´ã‚·ã‚§ã‚¢**ä½Ž**  
-                                - è² ã‘çŠ¬ã«ãªã£ã¦ã‹ã‚‰ã®æ’¤é€€ã¯å¤§ã‚±ã‚¬ã®ã‚‚ã¨ã€‚  
-                                    å„ªæŸ”ä¸æ–­ã¯çµŒå–¶å±æ©Ÿã‚’æ‹›ãã€‚  
-            - æˆ¦ç•¥  
-                - æ‹¡å¤§æˆ¦ç•¥  
-                    - â€œå•é¡Œå…â€ã«å¯¾ã™ã‚‹æŠ•è³‡ã«ã‚ˆã‚Šã€ã‚·ã‚§ã‚¢ã‚¢ãƒƒãƒ—ã‚’ç›®æŒ‡ã™  
-                - åŽç©«æˆ¦ç•¥  
-                    - â€œé‡‘ã®ãªã‚‹æœ¨â€ã€â€œå•é¡Œå…â€ã€â€œè² ã‘çŠ¬â€ã«å¯¾ã™ã‚‹æŠ•è³‡ã‚’è¡Œã‚ãšã€ã‚­ãƒ£ãƒƒã‚·ãƒ¥ãƒ•ãƒ­ãƒ¼ã®å¢—å¤§ã‚’è¡Œã†  
-                - æµ¸é€ä¾¡æ ¼(ç¶­æŒ)æˆ¦ç•¥  
-                    - â€œé‡‘ã®ãªã‚‹æœ¨â€ã€â€œèŠ±å½¢â€ã«å¯¾ã™ã‚‹æŠ•è³‡ã«ã‚ˆã‚Šã€ã‚·ã‚§ã‚¢ã‚’ç¶­æŒã™ã‚‹  
-                    - æµ¸é€ä¾¡æ ¼  
-                        ãƒªãƒ³ã‚¯: [kotobank.jp/word/%E6%B5%B8%E9%80%8F%E4%BE%A1%E6%A0%BC-22744][12]  
-                        - å¸‚å ´ã‚·ã‚§ã‚¢ç²å¾—ã®ãŸã‚ã€å½“é¢ã®åˆ©ç›Šã‚’çŠ ç‰²ã«è¨­å®šã•ã‚ŒãŸä¾¡æ ¼  
-                - æ’¤é€€æˆ¦ç•¥  
-                    - â€œå•é¡Œå…â€ã€â€œè² ã‘çŠ¬â€ã«å¯¾ã—ã¦ã€äº‹æ¥­å£²å´ãªã©ã‚’è¡Œã†  
+                        - –â‘èŽ™  
+                            - Žsê¬’·—¦**‚**AŽsêƒVƒFƒA**’á**  
+                                - V‚½‚ÈŽ–‹Æ‚Ì“±“üŠúB  
+                                    –œ‘S‚ðŠú‚µ‚½Ï‚è‚Å‚àA¬Œ÷‚·‚é‚©Ž¸”s‚·‚é‚©‚Í•ª‚©‚è‚Ü‚¹‚ñBˆêŸ‹ã”s‚ðŠoŒå‚µ‚ÄA‘OŒü‚«‚É“w—Í‚ðÉ‚µ‚Ü‚È‚¢‚±‚Æ‚Å‚·B  
+                        - ‰ÔŒ`  
+                            - Žsê¬’·—¦**‚**AŽsêƒVƒFƒA**‚**  
+                                - Žsê‚Ì”F’m“x‚Æ‹¤‚ÉA¬’·«‚Í‡’²‚É‰EŒ¨ã‚ª‚èƒJ[ƒu‚ð•`‚«‚Ü‚·B  
+                                    –ž‘«‚È”„ã‚‚ðŠm•Û‚µ‚È‚ª‚çæs“ŠŽ‘‚ðÄ‹p‚Å‚«‚é‚æ‚¤‚É‚È‚ê‚Î‰ÔŒ`B  
+                        - ‹à‚Ì‚È‚é–Ø  
+                            - Žsê¬’·—¦**’á**AŽsêƒVƒFƒA**‚**  
+                                - ¬’·«‚Í“Ý‰»‚µ‚Ä‚à‘Š‘ÎƒVƒFƒA‚Í‚‚Ü‚éŽžŠúB  
+                                    —¦‚Å‚Í‰º‚ª‚Á‚Ä‚àŽû‰vŠz‚Å‚ÍãÏ‚Ý‚Å‚«‚éB‹£‡‚Ì”‚à‘‚¦‚Ü‚·‚ªAæ‹ìŽÒ‚Ì‹­‚Ý‚ð¶‚©‚µ‚Ä‰º‚³‚¢B  
+                        - •‰‚¯Œ¢  
+                            - Žsê¬’·—¦**’á**AŽsêƒVƒFƒA**’á**  
+                                - •‰‚¯Œ¢‚É‚È‚Á‚Ä‚©‚ç‚Ì“P‘Þ‚Í‘åƒPƒK‚Ì‚à‚ÆB  
+                                    —D_•s’f‚ÍŒo‰cŠë‹@‚ðµ‚­B  
+            - í—ª  
+                - Šg‘åí—ª  
+                    - g–â‘èŽ™h‚É‘Î‚·‚é“ŠŽ‘‚É‚æ‚èAƒVƒFƒAƒAƒbƒv‚ð–ÚŽw‚·  
+                - ŽûŠní—ª  
+                    - g‹à‚Ì‚È‚é–ØhAg–â‘èŽ™hAg•‰‚¯Œ¢h‚É‘Î‚·‚é“ŠŽ‘‚ðs‚í‚¸AƒLƒƒƒbƒVƒ…ƒtƒ[‚Ì‘‘å‚ðs‚¤  
+                - Z“§‰¿Ši(ˆÛŽ)í—ª  
+                    - g‹à‚Ì‚È‚é–ØhAg‰ÔŒ`h‚É‘Î‚·‚é“ŠŽ‘‚É‚æ‚èAƒVƒFƒA‚ðˆÛŽ‚·‚é  
+                    - Z“§‰¿Ši  
+                        ƒŠƒ“ƒN: [kotobank.jp/word/%E6%B5%B8%E9%80%8F%E4%BE%A1%E6%A0%BC-22744][12]  
+                        - ŽsêƒVƒFƒAŠl“¾‚Ì‚½‚ßA“––Ê‚Ì—˜‰v‚ð‹]µ‚ÉÝ’è‚³‚ê‚½‰¿Ši  
+                - “P‘Þí—ª  
+                    - g–â‘èŽ™hAg•‰‚¯Œ¢h‚É‘Î‚µ‚ÄAŽ–‹Æ”„‹p‚È‚Ç‚ðs‚¤  
         - SELinux  
             - Security-Edition Linux  
-                - å¼·åˆ¶ã‚¢ã‚¯ã‚»ã‚¹åˆ¶å¾¡(MAC)æ©Ÿèƒ½  
-                    - ã‚³ãƒ³ãƒ”ãƒ¥ãƒ¼ã‚¿ã‚’ä¸æ­£ãªåˆ©ç”¨ã‹ã‚‰å®ˆã‚‹ã‚·ã‚¹ãƒ†ãƒ åˆ¶å¾¡ã€‚  
-                        ç®¡ç†è€…ã¯ã€ãƒ¦ãƒ¼ã‚¶ãƒ¼ã‹ã‚‰ã®ãƒªã‚½ãƒ¼ã‚¹ï¼ˆãƒ—ãƒ­ã‚»ã‚¹ï¼ãƒ•ã‚¡ã‚¤ãƒ«ï¼ã‚·ã‚¹ãƒ†ãƒ ãƒ‡ãƒã‚¤ã‚¹ç­‰ï¼‰ã¸ã®ã‚¢ã‚¯ã‚»ã‚¹ã‚’åˆ¶é™ã‚’ã™ã‚‹ã€‚  
-        - EDoSæ”»æ’ƒ  
+                - ‹­§ƒAƒNƒZƒX§Œä(MAC)‹@”\  
+                    - ƒRƒ“ƒsƒ…[ƒ^‚ð•s³‚È—˜—p‚©‚çŽç‚éƒVƒXƒeƒ€§ŒäB  
+                        ŠÇ—ŽÒ‚ÍAƒ†[ƒU[‚©‚ç‚ÌƒŠƒ\[ƒXiƒvƒƒZƒX^ƒtƒ@ƒCƒ‹^ƒVƒXƒeƒ€ƒfƒoƒCƒX“™j‚Ö‚ÌƒAƒNƒZƒX‚ð§ŒÀ‚ð‚·‚éB  
+        - EDoSUŒ‚  
             - Economic Denial of Service attack  
-                - åˆ©ç”¨è¦æ¨¡ã«å¿œã˜ã¦èª²é‡‘ã™ã‚‹æ–¹å¼ã®ã‚µãƒ¼ãƒ“ã‚¹(ex.ã‚¯ãƒ©ã‚¦ãƒ‰ã‚µãƒ¼ãƒ“ã‚¹)ã«ãŠã„ã¦ã€ãƒãƒƒãƒˆãƒ¯ãƒ¼ã‚¯ç­‰ã«å¤–éƒ¨ã‹ã‚‰è² è·ã‚’ã‹ã‘ã‚‹ã“ã¨ã§ã€å¥‘ç´„è€…ã«å¯¾ã—é–“æŽ¥çš„ã«çµŒæ¸ˆçš„æå¤±ã‚’ä¸Žãˆã‚‹æ”»æ’ƒæ‰‹æ³•ã€‚  
-                - è‹±å˜èªžï¼šdenial  
-                    - å¦å®šã€å¦èª  
-        - DoSæ”»æ’ƒ  
+                - —˜—p‹K–Í‚É‰ž‚¶‚Ä‰Û‹à‚·‚é•ûŽ®‚ÌƒT[ƒrƒX(ex.ƒNƒ‰ƒEƒhƒT[ƒrƒX)‚É‚¨‚¢‚ÄAƒlƒbƒgƒ[ƒN“™‚ÉŠO•”‚©‚ç•‰‰×‚ð‚©‚¯‚é‚±‚Æ‚ÅAŒ_–ñŽÒ‚É‘Î‚µŠÔÚ“I‚ÉŒoÏ“I‘¹Ž¸‚ð—^‚¦‚éUŒ‚Žè–@B  
+                - ‰p’PŒêFdenial  
+                    - ”Û’èA”Û”F  
+        - DoSUŒ‚  
             - Denial of Service attack  
-                - ã‚¦ã‚§ãƒ–ã‚µãƒ¼ãƒ“ã‚¹ã‚’ç¨¼åƒã—ã¦ã„ã‚‹ã‚µãƒ¼ãƒã‚„ãƒãƒƒãƒˆãƒ¯ãƒ¼ã‚¯ãªã©ã®è³‡æºã«æ„å›³çš„ã«éŽå‰°ãªè² è·ã‚’ã‹ã‘ãŸã‚Šã€è„†å¼±æ€§ã‚’ã¤ã„ãŸã‚Šã™ã‚‹äº‹ã§ã‚µãƒ¼ãƒ“ã‚¹ã‚’å¦¨å®³ã™ã‚‹æ‰‹æ³•ã€‚  
-        - ãƒ­ãƒ¼ãƒ«ãƒãƒƒã‚¯ã€ãƒ­ãƒ¼ãƒ«ãƒ•ã‚©ãƒ¯ãƒ¼ãƒ‰  
+                - ƒEƒFƒuƒT[ƒrƒX‚ð‰Ò“­‚µ‚Ä‚¢‚éƒT[ƒo‚âƒlƒbƒgƒ[ƒN‚È‚Ç‚ÌŽ‘Œ¹‚ÉˆÓ}“I‚É‰ßè‚È•‰‰×‚ð‚©‚¯‚½‚èAÆŽã«‚ð‚Â‚¢‚½‚è‚·‚éŽ–‚ÅƒT[ƒrƒX‚ð–WŠQ‚·‚éŽè–@B  
+        - ƒ[ƒ‹ƒoƒbƒNAƒ[ƒ‹ƒtƒHƒ[ƒh  
             - ...  
-        - ITæŠ•è³‡ãƒãƒ¼ãƒˆãƒ•ã‚©ãƒªã‚ª  
-            - æƒ…å ±ã‚·ã‚¹ãƒ†ãƒ ã®è²¢çŒ®åº¦ã‚„æ´»ç”¨åº¦ã€ãƒªã‚¹ã‚¯ç­‰ã‚’åˆ†æžã—ã€ITæŠ•è³‡ã‚’åŠ¹çŽ‡çš„ã«é…åˆ†ã™ã‚‹ç®¡ç†ãƒ»åˆ†æžæ‰‹æ³•ã€‚  
-                æŠ•è³‡ã™ã¹ãã‚·ã‚¹ãƒ†ãƒ ã‚„çµŒå–¶è³‡æºã®çµžã‚Šè¾¼ã¿ã€æ–°æ¡ˆä»¶ã®å®ŸåŠ¹æ€§æ¤œè¨¼ã€æ—¢å­˜ã‚·ã‚¹ãƒ†ãƒ æ”¹å–„ã€é‹ç”¨ã‚³ã‚¹ãƒˆé…åˆ†æ±ºå®šç­‰ã«æ´»ç”¨  
-        - å¾…ã¡è¡Œåˆ—  
-            - Ïï¼ˆå¹³å‡åˆ©ç”¨çŽ‡ï¼‰  
-                - å¹³å‡åˆ°ç€çŽ‡(å˜ä½æ™‚é–“ã®åˆ°ç€äººæ•°å¹³å‡å€¤)Î»  
-                    Ã·  
-                    å¹³å‡ã‚µãƒ¼ãƒ“ã‚¹çŽ‡(å˜ä½æ™‚é–“ã®ã‚µãƒ¼ãƒ“ã‚¹ä»¶æ•°å¹³å‡å€¤)Î¼  
-            - Lwï¼ˆå¾…ã¡è¡Œåˆ—ã®é•·ã•ï¼‰  
-                - Ï/(1-Ï)  
-            - Trï¼ˆå¹³å‡å¿œç­”æ™‚é–“ï¼‰  
-                - 1/(1-Ï) * å‡¦ç†æ™‚é–“Ts  
-        - ã‚³ãƒŸãƒ¥ãƒ¼ã‚¿ãƒ¼  
-            - è‹±å˜èªžï¼šcommuter  
-                - é€šå‹¤è€…ï¼ˆç‰¹ã«ã€å®šæœŸåˆ¸åˆ©ç”¨ï¼‰  
-            - çŸ­è·é›¢è·¯ç·šç”¨ã®æ•°ï½žæ•°åäººä¹—ã‚Šã®å°åž‹æ—…å®¢æ©Ÿã€‚  
-                ã¾ãŸã€ãã‚Œã‚’ç”¨ã„ãŸèˆªç©ºè¼¸é€ã€‚ ã€Œ ï¼ç©ºæ¸¯ã€  
-                ãƒªãƒ³ã‚¯: [kotobank.jp/word/ã‚³ãƒŸãƒ¥ãƒ¼ã‚¿ãƒ¼-269523][13]  
+        - IT“ŠŽ‘ƒ|[ƒgƒtƒHƒŠƒI  
+            - î•ñƒVƒXƒeƒ€‚ÌvŒ£“x‚âŠˆ—p“xAƒŠƒXƒN“™‚ð•ªÍ‚µAIT“ŠŽ‘‚ðŒø—¦“I‚É”z•ª‚·‚éŠÇ—E•ªÍŽè–@B  
+                “ŠŽ‘‚·‚×‚«ƒVƒXƒeƒ€‚âŒo‰cŽ‘Œ¹‚Ìi‚èž‚ÝAVˆÄŒ‚ÌŽÀŒø«ŒŸØAŠù‘¶ƒVƒXƒeƒ€‰ü‘PA‰^—pƒRƒXƒg”z•ªŒˆ’è“™‚ÉŠˆ—p  
+        - ‘Ò‚¿s—ñ  
+            - ƒÏi•½‹Ï—˜—p—¦j  
+                - •½‹Ï“ž’…—¦(’PˆÊŽžŠÔ‚Ì“ž’…l”•½‹Ï’l)ƒÉ  
+                    €  
+                    •½‹ÏƒT[ƒrƒX—¦(’PˆÊŽžŠÔ‚ÌƒT[ƒrƒXŒ”•½‹Ï’l)ƒÊ  
+            - Lwi‘Ò‚¿s—ñ‚Ì’·‚³j  
+                - ƒÏ/(1-ƒÏ)  
+            - Tri•½‹Ï‰ž“šŽžŠÔj  
+                - 1/(1-ƒÏ) * ˆ—ŽžŠÔTs  
+        - ƒRƒ~ƒ…[ƒ^[  
+            - ‰p’PŒêFcommuter  
+                - ’Ê‹ÎŽÒi“Á‚ÉA’èŠúŒ”—˜—pj  
+            - ’Z‹——£˜Hü—p‚Ì”`”\læ‚è‚Ì¬Œ^—·‹q‹@B  
+                ‚Ü‚½A‚»‚ê‚ð—p‚¢‚½q‹ó—A‘—B u |‹ó`v  
+                ƒŠƒ“ƒN: [kotobank.jp/word/ƒRƒ~ƒ…[ƒ^[-269523][13]  
         - Wh  
-            - é›»åŠ›é‡ï¼ˆé›»åŠ›Ã—æ™‚é–“ï¼‰  
-                - ex) 30Wã®é›»çƒã‚’3hç‚¹ç¯  
-                    â†’30WÃ—3hï¼90Wh  
-                - ex) ï¼ŸWã‚’1æ™‚é–“å‡ºåŠ›ã§ãã‚‹é‡  
-                    ï¼ é›»æ± å®¹é‡  
-        - CCå……é›»  
-            - Constant Current å……é›»  
-                å®šé›»æµå……é›»  
-                - ã‚ã‚‹çµ‚æ­¢æ¡ä»¶ï¼ˆé€šå¸¸é›»åœ§ã‚„é€šé›»é›»æ°—é‡ãªã©ã‚’è¨­å®šï¼‰ã«é”ã™ã‚‹ã¾ã§ã€ä¸€å®šã®é›»æµå€¤ã§å……é›»ã‚’è¡Œã†æ–¹æ³•  
-        - CCCVå……é›»  
-            - Constant Current Constant Voltage å……é›»  
-                å®šé›»æµå®šé›»åœ§å……é›»  
-                - å®šé›»æµå……é›»ã¨å®šé›»åœ§å……é›»ã‚’çµ„ã¿åˆã‚ã›ãŸå……é›»æ–¹æ³•ã€‚  
-                    é€”ä¸­ã¾ã§CCå……é›»ã§å……é›»ã—ã€æŒ‡å®šã®é›»åœ§ã«é”ã—ãŸã‚‰ä¸€å®šã®é›»åœ§(CV)ã‚’ä¿ã¡ã€é›»æµå€¤ãŒçµžã‚‰ã‚Œã¤ã¤å……é›»ã™ã‚‹æ–¹æ³•ã€‚  
-                - CVãƒ¢ãƒ¼ãƒ‰æ™‚ã®é›»åœ§ã‚‚è¨­å®šã™ã‚‹ãŸã‚ã€éŽå……é›»ã«ãªã‚‹å¿ƒé…ãŒå°‘ãªã„  
-        - é›»åœ§ãƒ¬ãƒ™ãƒ«å¤‰æ›IC  
-            ãƒªãƒ³ã‚¯: [uchan.hateblo.jp/entry/2016/12/04/135941][14]  
-            - é›»åœ§ã®ç•°ãªã‚‹ä¿¡å·ç·šã‚’ã¤ãªãéš›ã«é›»åœ§ã‚’å¤‰æ›ã™ã‚‹ã“ã¨  
-                - ex) 5Vâ†’3.3Vã€3.3Vâ†’5V  
-            - ï¼ãƒ¬ãƒ™ãƒ«ã‚·ãƒ•ã‚¿  
-        - ä¸‰ç›¸äº¤æµ  
-            ãƒªãƒ³ã‚¯: [denkinyumon.web.fc2.com/3soukouryu.html][15]  
-            - 3çµ„ã®å˜ç›¸äº¤æµã‚’3æœ¬ã®é›»ç·šã§é€é›»ã§ãã‚‹æ–¹å¼  
-                - è¡—ä¸­ã®é›»æŸ±ã®ä¸Šã®æ–¹ã‚’ã¿ã‚‹ã¨ã€æ°´å¹³ã«3æœ¬ã®é›»ç·šãŒæž¶ã‹ã£ã¦ã„ã‚‹  
-            - ãƒ¡ãƒªãƒƒãƒˆ  
-                - å¤§é›»åŠ›é€é›»ã«é©ã—ã¦ã„ã‚‹  
-                    - å˜ç›¸2ç·šå¼ã«æ¯”ã¹ã€å°‘ãªã„é›»ç·šã®é‡ã§ãŸãã•ã‚“ã®é›»åŠ›ã‚’é€é›»ã§ãã‚‹  
-                - å›žè»¢ç£ç•ŒãŒå¾—ã‚‰ã‚Œã‚‹  
-                    - 3ã¤ã®å˜ç›¸äº¤æµãŒ120Â°ãšã¤ãšã‚Œã¦ã„ã‚‹ãŸã‚ã€Min,Max,0ã®ã‚¿ã‚¤ãƒŸãƒ³ã‚°ãŒè¦å‰‡çš„ã‹ã¤äº¤äº’ã«é€ã‚‰ã‚Œã‚‹ã€‚  
-                        3ã¤ã®ã‚³ã‚¤ãƒ«ã‚’120Â°ãšã¤ãšã‚‰ã—ã¦é…ç½®ã—ã€3ç›¸äº¤æµã‚’å°åŠ ã™ã‚Œã°ã€å„ã‚³ã‚¤ãƒ«ã¸é †ã«MaxãŒæ¥ã‚‹ãŸã‚å›žè»¢ç£ç•ŒãŒä½œã‚‰ã‚Œã‚‹ã€‚ã“ã‚Œã‚’åˆ©ç”¨ã—ãŸã®ãŒ3ç›¸é›»å‹•æ©Ÿã€‚  
-        - ãƒ‡ã‚«ãƒƒãƒ—ãƒªãƒ³ã‚°ã‚³ãƒ³ãƒ‡ãƒ³ã‚µ  
-            - äº¤æµã‚’é®æ–­ã—ã¦ç›´æµã®ã¿ã‚’é€šéŽã•ã›ã‚‹ã‚³ãƒ³ãƒ‡ãƒ³ã‚µ  
-            - é›»å­ãƒ‡ãƒã‚¤ã‚¹ãŒç™ºç”Ÿã™ã‚‹é›»æºé›‘éŸ³ã‚„ï¼Œãã‚Œã«ä¼´ã†æ”¾å°„é›»ç£é›‘éŸ³ï¼ˆEMIï¼‰ã‚’æŠ‘ãˆã‚‹  
-                - ex) LSIã®é›»æºé›»åœ§ã®ã‚†ã‚‰ãŽã«ä¼´ã†EMIã®æŠ‘åˆ¶  
-            - ï¼ãƒã‚¤ãƒ‘ã‚¹ã‚³ãƒ³ãƒ‡ãƒ³ã‚µ  
-            - ï¼ãƒ‘ã‚¹ã‚³ãƒ³  
-        - éƒ¨åˆ†è² è·  
-            - ã‚¨ãƒ³ã‚¸ãƒ³ãŒä¸­é€”åŠç«¯ã«ä»•äº‹ã‚’ã—ã¦ã„ã‚‹çŠ¶æ…‹  
-                ï¼ˆã‚¹ãƒ­ãƒƒãƒˆãƒ«ãŒå…¨é–‹ã§ãªã„çŠ¶æ…‹ï¼‰  
-                ãƒªãƒ³ã‚¯: [turbotrain.net/fuelconsumption.htm][16]  
-        - ã‚»ã‚¯ã‚·ãƒ§ãƒ³ã«ã¤ã„ã¦  
-            - ãƒ†ã‚­ã‚¹ãƒˆã‚»ã‚¯ã‚·ãƒ§ãƒ³  
-                - å‘½ä»¤ã€é–¢æ•°ãªã©ã®å‡¦ç†ã‚’è¨˜è¿°ã—ã¦ãŠã‚Šã€å®Ÿè¡Œæ™‚ã«å¤‰æ›´ã•ã‚Œãªã„éƒ¨åˆ†ã‚’æ ¼ç´ã™ã‚‹ã‚»ã‚¯ã‚·ãƒ§ãƒ³ã€‚  
-                    RAMã«ã‚³ãƒ”ãƒ¼ã•ã‚Œãšã«ROMã«æ®‹ã‚‹ã€‚  
-            - ãƒ‡ãƒ¼ã‚¿ã‚»ã‚¯ã‚·ãƒ§ãƒ³  
-                - åˆæœŸå€¤ä»˜ãå¤‰æ•°ç­‰ã‚’æ ¼ç´ã™ã‚‹ã‚»ã‚¯ã‚·ãƒ§ãƒ³ã€‚  
-                    å®Ÿè¡Œæ™‚ã«å¤‰æ›´ã•ã‚Œã‚‹ãŸã‚ã€RAMã«ã‚³ãƒ”ãƒ¼ã•ã‚Œã‚‹ã€‚  
-            - BSSã‚»ã‚¯ã‚·ãƒ§ãƒ³  
+            - “d—Í—Êi“d—Í~ŽžŠÔj  
+                - ex) 30W‚Ì“d‹…‚ð3h“_“”  
+                    ¨30W~3h90Wh  
+                - ex) HW‚ð1ŽžŠÔo—Í‚Å‚«‚é—Ê  
+                    —“d’r—e—Ê  
+        - CC[“d  
+            - Constant Current [“d  
+                ’è“d—¬[“d  
+                - ‚ ‚éIŽ~ðŒi’Êí“dˆ³‚â’Ê“d“d‹C—Ê‚È‚Ç‚ðÝ’èj‚É’B‚·‚é‚Ü‚ÅAˆê’è‚Ì“d—¬’l‚Å[“d‚ðs‚¤•û–@  
+        - CCCV[“d  
+            - Constant Current Constant Voltage [“d  
+                ’è“d—¬’è“dˆ³[“d  
+                - ’è“d—¬[“d‚Æ’è“dˆ³[“d‚ð‘g‚Ý‡‚í‚¹‚½[“d•û–@B  
+                    “r’†‚Ü‚ÅCC[“d‚Å[“d‚µAŽw’è‚Ì“dˆ³‚É’B‚µ‚½‚çˆê’è‚Ì“dˆ³(CV)‚ð•Û‚¿A“d—¬’l‚ªi‚ç‚ê‚Â‚Â[“d‚·‚é•û–@B  
+                - CVƒ‚[ƒhŽž‚Ì“dˆ³‚àÝ’è‚·‚é‚½‚ßA‰ß[“d‚É‚È‚éS”z‚ª­‚È‚¢  
+        - “dˆ³ƒŒƒxƒ‹•ÏŠ·IC  
+            ƒŠƒ“ƒN: [uchan.hateblo.jp/entry/2016/12/04/135941][14]  
+            - “dˆ³‚ÌˆÙ‚È‚éM†ü‚ð‚Â‚È‚®Û‚É“dˆ³‚ð•ÏŠ·‚·‚é‚±‚Æ  
+                - ex) 5V¨3.3VA3.3V¨5V  
+            - ƒŒƒxƒ‹ƒVƒtƒ^  
+        - ŽO‘ŠŒð—¬  
+            ƒŠƒ“ƒN: [denkinyumon.web.fc2.com/3soukouryu.html][15]  
+            - 3‘g‚Ì’P‘ŠŒð—¬‚ð3–{‚Ì“dü‚Å‘—“d‚Å‚«‚é•ûŽ®  
+                - ŠX’†‚Ì“d’Œ‚Ìã‚Ì•û‚ð‚Ý‚é‚ÆA…•½‚É3–{‚Ì“dü‚ª‰Ë‚©‚Á‚Ä‚¢‚é  
+            - ƒƒŠƒbƒg  
+                - ‘å“d—Í‘—“d‚É“K‚µ‚Ä‚¢‚é  
+                    - ’P‘Š2üŽ®‚É”ä‚×A­‚È‚¢“dü‚Ì—Ê‚Å‚½‚­‚³‚ñ‚Ì“d—Í‚ð‘—“d‚Å‚«‚é  
+                - ‰ñ“]Ž¥ŠE‚ª“¾‚ç‚ê‚é  
+                    - 3‚Â‚Ì’P‘ŠŒð—¬‚ª120‹‚¸‚Â‚¸‚ê‚Ä‚¢‚é‚½‚ßAMin,Max,0‚Ìƒ^ƒCƒ~ƒ“ƒO‚ª‹K‘¥“I‚©‚ÂŒðŒÝ‚É‘—‚ç‚ê‚éB  
+                        3‚Â‚ÌƒRƒCƒ‹‚ð120‹‚¸‚Â‚¸‚ç‚µ‚Ä”z’u‚µA3‘ŠŒð—¬‚ðˆó‰Á‚·‚ê‚ÎAŠeƒRƒCƒ‹‚Ö‡‚ÉMax‚ª—ˆ‚é‚½‚ß‰ñ“]Ž¥ŠE‚ªì‚ç‚ê‚éB‚±‚ê‚ð—˜—p‚µ‚½‚Ì‚ª3‘Š“d“®‹@B  
+        - ƒfƒJƒbƒvƒŠƒ“ƒOƒRƒ“ƒfƒ“ƒT  
+            - Œð—¬‚ðŽÕ’f‚µ‚Ä’¼—¬‚Ì‚Ý‚ð’Ê‰ß‚³‚¹‚éƒRƒ“ƒfƒ“ƒT  
+            - “dŽqƒfƒoƒCƒX‚ª”­¶‚·‚é“dŒ¹ŽG‰¹‚âC‚»‚ê‚É”º‚¤•úŽË“dŽ¥ŽG‰¹iEMIj‚ð—}‚¦‚é  
+                - ex) LSI‚Ì“dŒ¹“dˆ³‚Ì‚ä‚ç‚¬‚É”º‚¤EMI‚Ì—}§  
+            - ƒoƒCƒpƒXƒRƒ“ƒfƒ“ƒT  
+            - ƒpƒXƒRƒ“  
+        - •”•ª•‰‰×  
+            - ƒGƒ“ƒWƒ“‚ª’†“r”¼’[‚ÉŽdŽ–‚ð‚µ‚Ä‚¢‚éó‘Ô  
+                iƒXƒƒbƒgƒ‹‚ª‘SŠJ‚Å‚È‚¢ó‘Ôj  
+                ƒŠƒ“ƒN: [turbotrain.net/fuelconsumption.htm][16]  
+        - ƒZƒNƒVƒ‡ƒ“‚É‚Â‚¢‚Ä  
+            - ƒeƒLƒXƒgƒZƒNƒVƒ‡ƒ“  
+                - –½—ßAŠÖ”‚È‚Ç‚Ìˆ—‚ð‹Lq‚µ‚Ä‚¨‚èAŽÀsŽž‚É•ÏX‚³‚ê‚È‚¢•”•ª‚ðŠi”[‚·‚éƒZƒNƒVƒ‡ƒ“B  
+                    RAM‚ÉƒRƒs[‚³‚ê‚¸‚ÉROM‚ÉŽc‚éB  
+            - ƒf[ƒ^ƒZƒNƒVƒ‡ƒ“  
+                - ‰Šú’l•t‚«•Ï”“™‚ðŠi”[‚·‚éƒZƒNƒVƒ‡ƒ“B  
+                    ŽÀsŽž‚É•ÏX‚³‚ê‚é‚½‚ßARAM‚ÉƒRƒs[‚³‚ê‚éB  
+            - BSSƒZƒNƒVƒ‡ƒ“  
                 - Block Started by Symbol  
-                    - åˆæœŸå€¤ãªã—å¤‰æ•°ç­‰ã®æƒ…å ±ï¼ˆå¤‰æ•°ã®ã‚µã‚¤ã‚ºã¨ã‚¢ãƒ‰ãƒ¬ã‚¹ãªã©ï¼‰ã‚’æ ¼ç´ã™ã‚‹ã‚»ã‚¯ã‚·ãƒ§ãƒ³ã€‚  
-                        ã“ã®æƒ…å ±ã‚’åŸºã«RAMä¸Šã«å¤‰æ•°ãŒé…ç½®ã•ã‚Œã‚‹ã€‚  
-    - ï¼—ï¼Žã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢ã®é–‹ç™º  
-        - è¦ä»¶å®šç¾©ãƒ»è¨­è¨ˆæ‰‹æ³•  
-            - æ§‹é€ åŒ–æŠ€æ³•  
-                - è¦ä»¶å®šç¾©ã®ãƒ•ã‚§ãƒ¼ã‚º  
+                    - ‰Šú’l‚È‚µ•Ï”“™‚Ìî•ñi•Ï”‚ÌƒTƒCƒY‚ÆƒAƒhƒŒƒX‚È‚Çj‚ðŠi”[‚·‚éƒZƒNƒVƒ‡ƒ“B  
+                        ‚±‚Ìî•ñ‚ðŠî‚ÉRAMã‚É•Ï”‚ª”z’u‚³‚ê‚éB  
+    - ‚VDƒ\ƒtƒgƒEƒFƒA‚ÌŠJ”­  
+        - —vŒ’è‹`EÝŒvŽè–@  
+            - \‘¢‰»‹Z–@  
+                - —vŒ’è‹`‚ÌƒtƒF[ƒY  
                 - INPUT  
-                    - ãƒ•ã‚£ã‚¸ãƒ“ãƒªãƒ†ã‚£è³‡æ–™  
-                        - ãƒ¦ãƒ¼ã‚¶ã®è¦æ±‚ãƒ»èª¿æŸ»ã®çµæžœã§ã€æ§‹é€ åŒ–åˆ†æžã®ã‚¤ãƒ³ãƒ—ãƒƒãƒˆã¨ãªã‚‹  
+                    - ƒtƒBƒWƒrƒŠƒeƒBŽ‘—¿  
+                        - ƒ†[ƒU‚Ì—v‹E’²¸‚ÌŒ‹‰Ê‚ÅA\‘¢‰»•ªÍ‚ÌƒCƒ“ƒvƒbƒg‚Æ‚È‚é  
                 - OUTPUT  
-                    - æ§‹é€ åŒ–ä»•æ§˜æ›¸  
+                    - \‘¢‰»Žd—l‘  
                         - DFD  
-                        - ãƒ‡ãƒ¼ã‚¿ãƒ‡ã‚£ã‚¯ã‚·ãƒ§ãƒŠãƒª  
-                        - å¤‰æ›è¨˜è¿°æ›¸  
-                    - ç‰©ç†çš„è¦æ±‚  
-                    - äºˆç®—ãƒ»ã‚¹ã‚±ã‚¸ãƒ¥ãƒ¼ãƒ«  
-            - è¦ä»¶å®šç¾©æ‰‹æ³•  
+                        - ƒf[ƒ^ƒfƒBƒNƒVƒ‡ƒiƒŠ  
+                        - •ÏŠ·‹Lq‘  
+                    - •¨—“I—v‹  
+                    - —\ŽZEƒXƒPƒWƒ…[ƒ‹  
+            - —vŒ’è‹`Žè–@  
                 - DFD  
-                    - ãƒ‡ãƒ¼ã‚¿ã¨å…¥å‡ºåŠ›ã«ç€ç›®  
-                    - ä½œæˆæ‰‹é †  
-                        - ï¼‘ï¼Žç¾ç‰©ç†DFD ä½œæˆ  
-                            - æ¥­å‹™ä¸Šã®ç‰©ç†è¦ç´ ã‚’å«ã‚ãŸãƒ¢ãƒ‡ãƒ«  
-                                ï¼ˆéƒ¨ç½²/æ‹…å½“è€…/å ´æ‰€ç­‰ï¼‰  
-                                - ï¼ç¾è¡Œç‰©ç†DFD  
-                        - ï¼’ï¼Žç¾è«–ç†DFD ä½œæˆ  
-                            - æ¥­å‹™ã®æœ¬è³ªéƒ¨åˆ†ï¼ˆç‰©ç†è¦ç´ ã‚’æŽ’é™¤ï¼‰ã®ãƒ¢ãƒ‡ãƒ«  
-                                - ï¼ç¾è¡Œè«–ç†DFD  
-                        - ï¼“ï¼Žæ–°è«–ç†DFD ä½œæˆ  
-                            - æ–°ã‚·ã‚¹ãƒ†ãƒ ã®å¿…è¦è¦ç´ ã‚’ç¾è«–ç†ãƒ¢ãƒ‡ãƒ«ã«ä»˜ä¸Ž  
-                                - ï¼å°†æ¥è«–ç†DFD  
-                        - ï¼”ï¼Žæ–°ç‰©ç†DFD ä½œæˆ  
-                            - æ–°è«–ç†ãƒ¢ãƒ‡ãƒ«ã«æ¥­å‹™ä¸Šã®ç‰©ç†è¦ç´ ã‚’ä»˜ä¸Ž  
-                                - ï¼å°†æ¥ç‰©ç†DFD  
-                - E-Rå›³  
-                    - æ¦‚è¦  
-                        - ã‚¨ãƒ³ãƒ†ã‚£ãƒ†ã‚£ï¼ˆå®Ÿä½“ï¼‰ã¨ãƒªãƒ¬ãƒ¼ã‚·ãƒ§ãƒ³ã‚·ãƒƒãƒ—ï¼ˆé–¢é€£ï¼‰ã‚’ç¹‹ã„ã ãƒ¢ãƒ‡ãƒ«  
-                        - UMLã®ã‚¯ãƒ©ã‚¹å›³ã¯E-Rå›³ã®æ©Ÿèƒ½ã‚’å†…åŒ…ã™ã‚‹ã€‚  
-                    - è¨˜æ³•  
-                        - Peter Chenè¨˜æ³•  
-                            - æå”±è€…ã®åå‰  
-                        - IEè¨˜æ³•  
-                            - Information Engineeringè¨˜æ³•  
-                        - IDEF1Xè¨˜æ³•  
+                    - ƒf[ƒ^‚Æ“üo—Í‚É’…–Ú  
+                    - ì¬Žè‡  
+                        - ‚PDŒ»•¨—DFD ì¬  
+                            - ‹Æ–±ã‚Ì•¨——v‘f‚ðŠÜ‚ß‚½ƒ‚ƒfƒ‹  
+                                i•”/’S“–ŽÒ/êŠ“™j  
+                                - Œ»s•¨—DFD  
+                        - ‚QDŒ»˜_—DFD ì¬  
+                            - ‹Æ–±‚Ì–{Ž¿•”•ªi•¨——v‘f‚ð”rœj‚Ìƒ‚ƒfƒ‹  
+                                - Œ»s˜_—DFD  
+                        - ‚RDV˜_—DFD ì¬  
+                            - VƒVƒXƒeƒ€‚Ì•K—v—v‘f‚ðŒ»˜_—ƒ‚ƒfƒ‹‚É•t—^  
+                                - «—ˆ˜_—DFD  
+                        - ‚SDV•¨—DFD ì¬  
+                            - V˜_—ƒ‚ƒfƒ‹‚É‹Æ–±ã‚Ì•¨——v‘f‚ð•t—^  
+                                - «—ˆ•¨—DFD  
+                - E-R}  
+                    - ŠT—v  
+                        - ƒGƒ“ƒeƒBƒeƒBiŽÀ‘Ìj‚ÆƒŠƒŒ[ƒVƒ‡ƒ“ƒVƒbƒviŠÖ˜Aj‚ðŒq‚¢‚¾ƒ‚ƒfƒ‹  
+                        - UML‚ÌƒNƒ‰ƒX}‚ÍE-R}‚Ì‹@”\‚ð“à•ï‚·‚éB  
+                    - ‹L–@  
+                        - Peter Chen‹L–@  
+                            - ’ñ¥ŽÒ‚Ì–¼‘O  
+                        - IE‹L–@  
+                            - Information Engineering‹L–@  
+                        - IDEF1X‹L–@  
                             - Integration DEFinition 1st edition eXtended  
-                - çŠ¶æ…‹é·ç§»å›³  
+                - ó‘Ô‘JˆÚ}  
                 - UML  
-                    - ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆæŒ‡å‘åˆ†æžã«ç”¨ã„ã‚‹æ‰‹æ³•  
-                    - OMGï¼ˆObject Management Groupï¼‰ãŒæå”±  
-                    - å›³  
-                        - æ§‹é€ å›³  
-                            - ã‚¯ãƒ©ã‚¹å›³  
-                            - ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆå›³  
-                            - ãƒ‘ãƒƒã‚±ãƒ¼ã‚¸å›³  
-                            - ã‚³ãƒ³ãƒãƒ¼ãƒãƒ³ãƒˆå›³  
-                            - è¤‡åˆæ§‹é€ å›³  
-                            - é…ç½®å›³  
-                        - æŒ¯ã‚‹èˆžã„å›³  
-                            - ã‚¢ã‚¯ãƒ†ã‚£ãƒ“ãƒ†ã‚£å›³  
-                                - ãƒ•ãƒ­ãƒ¼ãƒãƒ£ãƒ¼ãƒˆã¨é•ã„ã€ä¸¦è¡Œå‡¦ç†ã‚’è¡¨ç¾ã§ãã‚‹  
-                                    ãƒªãƒ³ã‚¯: [itmedia.co.jp/im/articles/0305/31/news001.html][17]  
-                            - çŠ¶æ…‹ãƒžã‚·ãƒ³å›³  
-                            - ãƒ¦ãƒ¼ã‚¹ã‚±ãƒ¼ã‚¹å›³  
-                            - ãƒ—ãƒ­ãƒ•ã‚¡ã‚¤ãƒ«å›³  
-                            - ç›¸äº’ä½œç”¨å›³  
-                                - ã‚·ãƒ¼ã‚±ãƒ³ã‚¹å›³  
-                                - ã‚³ãƒŸãƒ¥ãƒ‹ã‚±ãƒ¼ã‚·ãƒ§ãƒ³å›³  
-                                - ç›¸äº’ä½œç”¨æ¦‚è¦å›³  
-                                - ã‚¿ã‚¤ãƒŸãƒ³ã‚°å›³  
-            - è¨­è¨ˆæ‰‹æ³•  
+                    - ƒIƒuƒWƒFƒNƒgŽwŒü•ªÍ‚É—p‚¢‚éŽè–@  
+                    - OMGiObject Management Groupj‚ª’ñ¥  
+                    - }  
+                        - \‘¢}  
+                            - ƒNƒ‰ƒX}  
+                            - ƒIƒuƒWƒFƒNƒg}  
+                            - ƒpƒbƒP[ƒW}  
+                            - ƒRƒ“ƒ|[ƒlƒ“ƒg}  
+                            - •¡‡\‘¢}  
+                            - ”z’u}  
+                        - U‚é•‘‚¢}  
+                            - ƒAƒNƒeƒBƒrƒeƒB}  
+                                - ƒtƒ[ƒ`ƒƒ[ƒg‚Æˆá‚¢A•Àsˆ—‚ð•\Œ»‚Å‚«‚é  
+                                    ƒŠƒ“ƒN: [itmedia.co.jp/im/articles/0305/31/news001.html][17]  
+                            - ó‘Ôƒ}ƒVƒ“}  
+                            - ƒ†[ƒXƒP[ƒX}  
+                            - ƒvƒƒtƒ@ƒCƒ‹}  
+                            - ‘ŠŒÝì—p}  
+                                - ƒV[ƒPƒ“ƒX}  
+                                - ƒRƒ~ƒ…ƒjƒP[ƒVƒ‡ƒ“}  
+                                - ‘ŠŒÝì—pŠT—v}  
+                                - ƒ^ƒCƒ~ƒ“ƒO}  
+            - ÝŒvŽè–@  
                 - DOA  
-                    - Data Oriented Approachï¼šãƒ‡ãƒ¼ã‚¿ä¸­å¿ƒã‚¢ãƒ—ãƒ­ãƒ¼ãƒ  
-                    - ã‚·ã‚¹ãƒ†ãƒ ãŒæ‰±ã†ãƒ‡ãƒ¼ã‚¿ã«ç€ç›®ã—ã¦ã‚·ã‚¹ãƒ†ãƒ è¨­è¨ˆã™ã‚‹æ‰‹æ³•  
-                - ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«åˆ†å‰²æŠ€æ³•  
-                    - æ¦‚è¦  
-                        - é©å½“ãªå¤§ãã•ã®ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«ã«åˆ†å‰²ã™ã‚‹æŠ€æ³•  
-                    - åˆ†å‰²è¦³ç‚¹  
-                        - ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«çµåˆåº¦  
-                            - æ¦‚è¦  
-                                - ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«é–“ã®ä¾å­˜åº¦ã€‚ä½Žã„ã»ã©è‰¯ã„ã€‚  
-                            - çµåˆåº¦  
-                                ï¼ˆä¸Šã‹ã‚‰ä½Žâ†’é«˜ï¼‰  
-                                - ãƒ‡ãƒ¼ã‚¿çµåˆ  
-                                    - éžå…±é€šåŸŸã®ãƒ‡ãƒ¼ã‚¿ï¼ˆéžæ§‹é€ ä½“ï¼‰ã‚’ãƒ‘ãƒ©ãƒ¡ã‚¿ã¨ã—ã¦å—å–  
-                                - ã‚¹ã‚¿ãƒ³ãƒ—çµåˆ  
-                                    - éžå…±é€šåŸŸã®ãƒ‡ãƒ¼ã‚¿ï¼ˆæ§‹é€ ä½“ï¼‰ã‚’ãƒ‘ãƒ©ãƒ¡ã‚¿ã¨ã—ã¦å—å–  
-                                - åˆ¶å¾¡çµåˆ  
-                                    - ã‚¹ã‚¤ãƒƒãƒç­‰ã‚’ãƒ‘ãƒ©ãƒ¡ã‚¿ã¨ã—ã¦å—ã‘æ¸¡ã—ã€å‡¦ç†ã‚’åˆ‡ã‚Šæ›¿ãˆã‚‹  
-                                - å¤–éƒ¨çµåˆ  
-                                    - å…±é€šåŸŸã®ãƒ‡ãƒ¼ã‚¿ï¼ˆéžæ§‹é€ ä½“ï¼‰ã‚’ç›´æŽ¥ä½¿ç”¨  
-                                - å…±é€šçµåˆ  
-                                    - å…±é€šåŸŸã®ãƒ‡ãƒ¼ã‚¿ï¼ˆæ§‹é€ ä½“ï¼‰ã‚’ç›´æŽ¥ä½¿ç”¨  
-                                - å†…éƒ¨çµåˆ  
-                                    - ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«å†…éƒ¨ã®ãƒ‡ãƒ¼ã‚¿ã‚’ç›´æŽ¥ä½¿ç”¨  
-                            - è¦šãˆæ–¹  
-                                - çµåˆã€Œã§ã€ã€Œã™ã€ã€Œåˆ¶å¾¡ã€ã€ŒãŒã€ã§ã€Œãã€ã€Œãªã„ã€  
-                        - ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«å¼·åº¦  
-                            - æ¦‚è¦  
-                                - ï¼‘ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«ã«å«ã‚ã‚‹æ©Ÿèƒ½æ•°ã¨é–¢é€£æ€§ã€‚å¼·ã„ã»ã©è‰¯ã„ã€‚  
-                            - å¼·åº¦  
-                                ï¼ˆä¸Šã‹ã‚‰å¼·â†’å¼±ï¼‰  
-                                - æ©Ÿèƒ½çš„å¼·åº¦  
-                                    - å˜ä¸€æ©Ÿèƒ½  
-                                - æƒ…å ±çš„å¼·åº¦  
-                                    - åŒä¸€ãƒ‡ãƒ¼ã‚¿æ§‹é€ ã‚’æ‰±ã†è¤‡æ•°æ©Ÿèƒ½  
-                                - é€£çµ¡çš„å¼·åº¦  
-                                    - äº’ã„ã«ãƒ‡ãƒ¼ã‚¿ã‚’æ¸¡ã—ã‚ã†è¤‡æ•°æ©Ÿèƒ½  
-                                - æ‰‹é †çš„å¼·åº¦  
-                                    - ä¸€é€£ã®æ‰‹é †ã‚’å®Ÿç¾ã™ã‚‹è¤‡æ•°æ©Ÿèƒ½  
-                                - æ™‚é–“çš„å¼·åº¦  
-                                    - åŒæ™‚æœŸã«å®Ÿè¡Œã™ã‚‹è¤‡æ•°æ©Ÿèƒ½  
-                                - è«–ç†çš„å¼·åº¦  
-                                    - æ¡ä»¶ã«ã‚ˆã‚Šã„ãšã‚Œã‹ãŒå®Ÿè¡Œã•ã‚Œã‚‹è¤‡æ•°æ©Ÿèƒ½  
-                                - æš—å·çš„å¼·åº¦  
-                                    - ç„¡é–¢ä¿‚ãªè¤‡æ•°æ©Ÿèƒ½  
-                            - è¦šãˆæ–¹  
-                                - ã€Œæ˜¨æ—¥ã€ã®ã€Œå¸¸ã€ã€Œé€£ã€ã£ã€Œã¦ã€ã€Œã‚¸ã€ã€Œãƒ­ãƒªã€ã€Œã‚¢ãƒ³ã€ï¼Ÿ  
-                - ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆæŒ‡å‘è¨­è¨ˆ  
-                    - ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã‚’éƒ¨å“ï¼ˆã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆï¼‰åŒ–ã—ã€çµ„ã¿åˆã‚ã›ã‚‹ã“ã¨ã§ã‚·ã‚¹ãƒ†ãƒ ã‚’æ§‹ç¯‰ã™ã‚‹æ‰‹æ³•  
-                    - ã‚¯ãƒ©ã‚¹  
-                        - ç›®çš„ã‚’å®Ÿç¾ã™ã‚‹ãŸã‚ã®ãƒ‡ãƒ¼ã‚¿ãŠã‚ˆã³ãƒ¡ã‚½ãƒƒãƒ‰ï¼ˆæ“ä½œï¼‰  
-                        - ã‚¤ãƒ³ã‚¹ã‚¿ãƒ³ã‚¹  
-                            - ã‚¯ãƒ©ã‚¹ã‚’åŸºã«ä½œã‚‰ã‚Œã‚‹å®Ÿä½“  
-                    - ã‚«ãƒ—ã‚»ãƒ«åŒ–  
-                        - å†…éƒ¨ä½¿ç”¨ã®ãƒ‡ãƒ¼ã‚¿ã‚„ãƒ¡ã‚½ãƒƒãƒ‰ã‚’å¤‰æ›´ã—ã¦ã‚‚ã€åˆ©ç”¨è€…ã‚„ä»–ã‚¯ãƒ©ã‚¹ã«åŠã¼ã™å½±éŸ¿ãŒå¤‰ã‚ã‚‰ãªã„çŠ¶æ…‹ã«ã™ã‚‹ã“ã¨  
-                    - æ±ŽåŒ–  
-                        - è¤‡æ•°ã‚¯ãƒ©ã‚¹ã‹ã‚‰å…±é€šéƒ¨åˆ†ã‚’å–ã‚Šå‡ºã—ã€æ–°ãŸãªä¸Šä½ã‚¯ãƒ©ã‚¹ã‚’å®šç¾©ã™ã‚‹  
-                        - ã‚¹ãƒ¼ãƒ‘ãƒ¼ã‚¯ãƒ©ã‚¹  
-                            - æ–°ãŸã«å®šç¾©ã•ã‚ŒãŸä¸Šä½ã‚¯ãƒ©ã‚¹  
-                        - ã‚µãƒ–ã‚¯ãƒ©ã‚¹  
-                            - æ±ŽåŒ–ã®å…ƒã‚¯ãƒ©ã‚¹  
-                    - ç¶™æ‰¿  
-                        - ï¼ã‚¤ãƒ³ãƒ˜ãƒªã‚¿ãƒ³ã‚¹  
-                        - å…ƒã‚¯ãƒ©ã‚¹ã¨ã®å·®åˆ†ã®ãƒ‡ãƒ¼ã‚¿ã¨ãƒ¡ã‚½ãƒƒãƒ‰ã‚’å®šç¾©ã™ã‚‹ã ã‘ã§ã€å¼•ãç¶™ãŽã§ãã‚‹ã“ã¨  
-                        - ã‚¹ãƒ¼ãƒ‘ãƒ¼ã‚¯ãƒ©ã‚¹ï¼ˆåŸºåº•ã‚¯ãƒ©ã‚¹ï¼‰  
-                            - å…ƒã‚¯ãƒ©ã‚¹  
-                        - ã‚µãƒ–ã‚¯ãƒ©ã‚¹ï¼ˆæ´¾ç”Ÿã‚¯ãƒ©ã‚¹ï¼‰  
-                            - æ–°å®šç¾©ã‚¯ãƒ©ã‚¹  
-                    - é›†ç´„  
-                        - éƒ¨åˆ†ã‚’æ§‹æˆã™ã‚‹ã‚¯ãƒ©ã‚¹ã‚’é›†ç´„ã—ã¦ã€ï¼‘ã¤ã®ã‚¯ãƒ©ã‚¹ã«ã™ã‚‹  
-                    - ãƒãƒªãƒ¢ãƒ¼ãƒ•ã‚£ã‚ºãƒ   
-                        - åŒä¸€æ“ä½œï¼ˆãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ï¼‰ã§ã‚‚å—ã‘ã‚‹ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã®æ‰€å±žã‚¯ãƒ©ã‚¹ã«ã‚ˆã£ã¦ã€ç•°ãªã‚‹å‹•ãã‚’ã•ã›ã‚‰ã‚Œã‚‹æ€§è³ª  
-                            - ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã®å®Ÿæ…‹ãŒåˆ†ã‹ã‚‰ãªãã¦ã‚‚ã€ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆæ¯Žã®å‹•ä½œã‚’å®Ÿç¾ã§ãã‚‹  
-                        - ex) ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã€Œå–¶æ¥­çŠ¶æ³ã‚’å ±å‘Šã—ã¦ãã ã•ã„ã€ã«å¯¾ã—ã¦ã€è·ç¨®ã«ã‚ˆã£ã¦å„ç¤¾å“¡ã®å‹•ããŒå¤‰ã‚ã‚‹  
-        - é–‹ç™ºç’°å¢ƒãƒ»é–‹ç™ºæ‰‹æ³•  
-            - ãƒ—ãƒ­ã‚°ãƒ©ãƒŸãƒ³ã‚°  
-                - æ§‹é€ åŒ–ãƒ—ãƒ­ã‚°ãƒ©ãƒŸãƒ³ã‚°  
-                - æ€§è³ª  
-                    - å†å…¥å¯èƒ½  
-                        - è¤‡æ•°ãƒ—ãƒ­ã‚»ã‚¹ã‹ã‚‰åŒæ™‚ã‹ã¤éžåŒæœŸã«å‘¼ã³å‡ºã—ã€æ­£ã—ã„çµæžœã‚’è¿”å´ã§ãã‚‹æ€§è³ª  
-                    - å†ä½¿ç”¨å¯èƒ½  
-                        - 1ãƒ—ãƒ­ã‚»ã‚¹ã‹ã‚‰ã®å‘¼å‡ºã—å®Œäº†å¾Œã€å†åº¦åˆ¥ãƒ—ãƒ­ã‚»ã‚¹ã‹ã‚‰å‘¼å‡ºã›ã‚‹æ€§è³ª  
-                        - å†å…¥å¯èƒ½ã¨ã®ç›¸é•ç‚¹  
-                            - åŒæ™‚ã«å‘¼å‡ºã›ãªã„  
-                    - å†å¸°çš„  
-                        - å†…éƒ¨ã‹ã‚‰è‡ªåˆ†è‡ªèº«ã‚’å‘¼ã³å‡ºã—ã¦ä½¿ç”¨ã§ãã‚‹æ€§è³ª  
-                        - å†å¸°çš„ã§ã‚ã‚Œã°å†å…¥å¯èƒ½ã§ã‚ã‚‹  
-                    - å†é…ç½®å¯èƒ½  
-                        - ã©ã“ã®ã‚¢ãƒ‰ãƒ¬ã‚¹ã«èª­ã¿è¾¼ã‚“ã§ã‚‚æ­£ã—ãå®Ÿè¡Œã§ãã‚‹æ€§è³ª  
-                - å®Ÿè¡Œæ–¹å¼  
-                    - ã‚³ãƒ³ãƒ‘ã‚¤ãƒ«  
-                        - ä¸€æ‹¬ã§æ©Ÿæ¢°èªžã«ç¿»è¨³  
-                    - ã‚¤ãƒ³ã‚¿ãƒ—ãƒªã‚¿  
-                        - é€ä¸€æ©Ÿæ¢°èªžã«ç¿»è¨³  
-            - é–‹ç™ºãƒ»ãƒ‡ãƒãƒƒã‚°ç’°å¢ƒ  
-                - é–‹ç™ºç’°å¢ƒ  
-                    - ãƒªãƒã‚¸ãƒˆãƒª  
-                        - é–‹ç™ºéŽç¨‹ã®ã‚ã‚‰ã‚†ã‚‹æƒ…å ±ã‚’ä¸€å…ƒç®¡ç†  
-                    - ã‚³ãƒ¼ãƒ‰ã‚ªãƒ¼ãƒ‡ã‚£ã‚¿  
-                        - è‹±å˜èªžï¼šauditor  
-                            - ç›£æŸ»å½¹  
-                        - é™çš„ã«ã‚½ãƒ¼ã‚¹ã‚³ãƒ¼ãƒ‰ã‚’æ¤œæŸ»ã™ã‚‹ãƒ„ãƒ¼ãƒ«  
-                        - ãƒ—ãƒ­ã‚°ãƒ©ãƒŸãƒ³ã‚°è¦ç´„  
-                    - ã‚¯ãƒ­ã‚¹é–‹ç™ºç’°å¢ƒ  
-                        - ã‚¯ãƒ­ã‚¹ã‚³ãƒ³ãƒ‘ã‚¤ãƒ©  
-                            - å®Ÿè¡Œç’°å¢ƒã¨ç•°ãªã‚‹PFä¸Šã§å‹•ä½œã™ã‚‹ã‚³ãƒ³ãƒ‘ã‚¤ãƒ©  
-                    - MPUã‚·ãƒŸãƒ¥ãƒ¬ãƒ¼ã‚¿  
-                        - ã‚¿ãƒ¼ã‚²ãƒƒãƒˆMPUã®å‹•ä½œã‚’PCã§SWçš„ã«å†ç¾ã€‚  
-                            ä»®æƒ³çš„ã«ã‚¿ãƒ¼ã‚²ãƒƒãƒˆã‚·ã‚¹ãƒ†ãƒ ã®å‹•ä½œç¢ºèªã‚’è¡Œã†ã€‚  
+                    - Data Oriented ApproachFƒf[ƒ^’†SƒAƒvƒ[ƒ`  
+                    - ƒVƒXƒeƒ€‚ªˆµ‚¤ƒf[ƒ^‚É’…–Ú‚µ‚ÄƒVƒXƒeƒ€ÝŒv‚·‚éŽè–@  
+                - ƒ‚ƒWƒ…[ƒ‹•ªŠ„‹Z–@  
+                    - ŠT—v  
+                        - “K“–‚È‘å‚«‚³‚Ìƒ‚ƒWƒ…[ƒ‹‚É•ªŠ„‚·‚é‹Z–@  
+                    - •ªŠ„ŠÏ“_  
+                        - ƒ‚ƒWƒ…[ƒ‹Œ‹‡“x  
+                            - ŠT—v  
+                                - ƒ‚ƒWƒ…[ƒ‹ŠÔ‚ÌˆË‘¶“xB’á‚¢‚Ù‚Ç—Ç‚¢B  
+                            - Œ‹‡“x  
+                                iã‚©‚ç’á¨‚j  
+                                - ƒf[ƒ^Œ‹‡  
+                                    - ”ñ‹¤’Êˆæ‚Ìƒf[ƒ^i”ñ\‘¢‘Ìj‚ðƒpƒ‰ƒƒ^‚Æ‚µ‚ÄŽóŽæ  
+                                - ƒXƒ^ƒ“ƒvŒ‹‡  
+                                    - ”ñ‹¤’Êˆæ‚Ìƒf[ƒ^i\‘¢‘Ìj‚ðƒpƒ‰ƒƒ^‚Æ‚µ‚ÄŽóŽæ  
+                                - §ŒäŒ‹‡  
+                                    - ƒXƒCƒbƒ`“™‚ðƒpƒ‰ƒƒ^‚Æ‚µ‚ÄŽó‚¯“n‚µAˆ—‚ðØ‚è‘Ö‚¦‚é  
+                                - ŠO•”Œ‹‡  
+                                    - ‹¤’Êˆæ‚Ìƒf[ƒ^i”ñ\‘¢‘Ìj‚ð’¼ÚŽg—p  
+                                - ‹¤’ÊŒ‹‡  
+                                    - ‹¤’Êˆæ‚Ìƒf[ƒ^i\‘¢‘Ìj‚ð’¼ÚŽg—p  
+                                - “à•”Œ‹‡  
+                                    - ƒ‚ƒWƒ…[ƒ‹“à•”‚Ìƒf[ƒ^‚ð’¼ÚŽg—p  
+                            - Šo‚¦•û  
+                                - Œ‹‡u‚Åvu‚·vu§Œävu‚ªv‚Åu‚«vu‚È‚¢v  
+                        - ƒ‚ƒWƒ…[ƒ‹‹­“x  
+                            - ŠT—v  
+                                - ‚Pƒ‚ƒWƒ…[ƒ‹‚ÉŠÜ‚ß‚é‹@”\”‚ÆŠÖ˜A«B‹­‚¢‚Ù‚Ç—Ç‚¢B  
+                            - ‹­“x  
+                                iã‚©‚ç‹­¨Žãj  
+                                - ‹@”\“I‹­“x  
+                                    - ’Pˆê‹@”\  
+                                - î•ñ“I‹­“x  
+                                    - “¯ˆêƒf[ƒ^\‘¢‚ðˆµ‚¤•¡”‹@”\  
+                                - ˜A—“I‹­“x  
+                                    - ŒÝ‚¢‚Éƒf[ƒ^‚ð“n‚µ‚ ‚¤•¡”‹@”\  
+                                - Žè‡“I‹­“x  
+                                    - ˆê˜A‚ÌŽè‡‚ðŽÀŒ»‚·‚é•¡”‹@”\  
+                                - ŽžŠÔ“I‹­“x  
+                                    - “¯ŽžŠú‚ÉŽÀs‚·‚é•¡”‹@”\  
+                                - ˜_—“I‹­“x  
+                                    - ðŒ‚É‚æ‚è‚¢‚¸‚ê‚©‚ªŽÀs‚³‚ê‚é•¡”‹@”\  
+                                - ˆÃ†“I‹­“x  
+                                    - –³ŠÖŒW‚È•¡”‹@”\  
+                            - Šo‚¦•û  
+                                - uð“úv‚Ìuívu˜Av‚Áu‚ÄvuƒWvuƒƒŠvuƒAƒ“vH  
+                - ƒIƒuƒWƒFƒNƒgŽwŒüÝŒv  
+                    - ƒvƒƒOƒ‰ƒ€‚ð•”•iiƒIƒuƒWƒFƒNƒgj‰»‚µA‘g‚Ý‡‚í‚¹‚é‚±‚Æ‚ÅƒVƒXƒeƒ€‚ð\’z‚·‚éŽè–@  
+                    - ƒNƒ‰ƒX  
+                        - –Ú“I‚ðŽÀŒ»‚·‚é‚½‚ß‚Ìƒf[ƒ^‚¨‚æ‚Ñƒƒ\ƒbƒhi‘€ìj  
+                        - ƒCƒ“ƒXƒ^ƒ“ƒX  
+                            - ƒNƒ‰ƒX‚ðŠî‚Éì‚ç‚ê‚éŽÀ‘Ì  
+                    - ƒJƒvƒZƒ‹‰»  
+                        - “à•”Žg—p‚Ìƒf[ƒ^‚âƒƒ\ƒbƒh‚ð•ÏX‚µ‚Ä‚àA—˜—pŽÒ‚â‘¼ƒNƒ‰ƒX‚É‹y‚Ú‚·‰e‹¿‚ª•Ï‚í‚ç‚È‚¢ó‘Ô‚É‚·‚é‚±‚Æ  
+                    - ”Ä‰»  
+                        - •¡”ƒNƒ‰ƒX‚©‚ç‹¤’Ê•”•ª‚ðŽæ‚èo‚µAV‚½‚ÈãˆÊƒNƒ‰ƒX‚ð’è‹`‚·‚é  
+                        - ƒX[ƒp[ƒNƒ‰ƒX  
+                            - V‚½‚É’è‹`‚³‚ê‚½ãˆÊƒNƒ‰ƒX  
+                        - ƒTƒuƒNƒ‰ƒX  
+                            - ”Ä‰»‚ÌŒ³ƒNƒ‰ƒX  
+                    - Œp³  
+                        - ƒCƒ“ƒwƒŠƒ^ƒ“ƒX  
+                        - Œ³ƒNƒ‰ƒX‚Æ‚Ì·•ª‚Ìƒf[ƒ^‚Æƒƒ\ƒbƒh‚ð’è‹`‚·‚é‚¾‚¯‚ÅAˆø‚«Œp‚¬‚Å‚«‚é‚±‚Æ  
+                        - ƒX[ƒp[ƒNƒ‰ƒXiŠî’êƒNƒ‰ƒXj  
+                            - Œ³ƒNƒ‰ƒX  
+                        - ƒTƒuƒNƒ‰ƒXi”h¶ƒNƒ‰ƒXj  
+                            - V’è‹`ƒNƒ‰ƒX  
+                    - W–ñ  
+                        - •”•ª‚ð\¬‚·‚éƒNƒ‰ƒX‚ðW–ñ‚µ‚ÄA‚P‚Â‚ÌƒNƒ‰ƒX‚É‚·‚é  
+                    - ƒ|ƒŠƒ‚[ƒtƒBƒYƒ€  
+                        - “¯ˆê‘€ìiƒƒbƒZ[ƒWj‚Å‚àŽó‚¯‚éƒIƒuƒWƒFƒNƒg‚ÌŠ‘®ƒNƒ‰ƒX‚É‚æ‚Á‚ÄAˆÙ‚È‚é“®‚«‚ð‚³‚¹‚ç‚ê‚é«Ž¿  
+                            - ƒIƒuƒWƒFƒNƒg‚ÌŽÀ‘Ô‚ª•ª‚©‚ç‚È‚­‚Ä‚àAƒIƒuƒWƒFƒNƒg–ˆ‚Ì“®ì‚ðŽÀŒ»‚Å‚«‚é  
+                        - ex) ƒƒbƒZ[ƒWu‰c‹Æó‹µ‚ð•ñ‚µ‚Ä‚­‚¾‚³‚¢v‚É‘Î‚µ‚ÄAEŽí‚É‚æ‚Á‚ÄŠeŽÐˆõ‚Ì“®‚«‚ª•Ï‚í‚é  
+        - ŠJ”­ŠÂ‹«EŠJ”­Žè–@  
+            - ƒvƒƒOƒ‰ƒ~ƒ“ƒO  
+                - \‘¢‰»ƒvƒƒOƒ‰ƒ~ƒ“ƒO  
+                - «Ž¿  
+                    - Ä“ü‰Â”\  
+                        - •¡”ƒvƒƒZƒX‚©‚ç“¯Žž‚©‚Â”ñ“¯Šú‚ÉŒÄ‚Ño‚µA³‚µ‚¢Œ‹‰Ê‚ð•Ô‹p‚Å‚«‚é«Ž¿  
+                    - ÄŽg—p‰Â”\  
+                        - 1ƒvƒƒZƒX‚©‚ç‚ÌŒÄo‚µŠ®—¹ŒãAÄ“x•ÊƒvƒƒZƒX‚©‚çŒÄo‚¹‚é«Ž¿  
+                        - Ä“ü‰Â”\‚Æ‚Ì‘Šˆá“_  
+                            - “¯Žž‚ÉŒÄo‚¹‚È‚¢  
+                    - Ä‹A“I  
+                        - “à•”‚©‚çŽ©•ªŽ©g‚ðŒÄ‚Ño‚µ‚ÄŽg—p‚Å‚«‚é«Ž¿  
+                        - Ä‹A“I‚Å‚ ‚ê‚ÎÄ“ü‰Â”\‚Å‚ ‚é  
+                    - Ä”z’u‰Â”\  
+                        - ‚Ç‚±‚ÌƒAƒhƒŒƒX‚É“Ç‚Ýž‚ñ‚Å‚à³‚µ‚­ŽÀs‚Å‚«‚é«Ž¿  
+                - ŽÀs•ûŽ®  
+                    - ƒRƒ“ƒpƒCƒ‹  
+                        - ˆêŠ‡‚Å‹@ŠBŒê‚É–|–ó  
+                    - ƒCƒ“ƒ^ƒvƒŠƒ^  
+                        - ’€ˆê‹@ŠBŒê‚É–|–ó  
+            - ŠJ”­EƒfƒoƒbƒOŠÂ‹«  
+                - ŠJ”­ŠÂ‹«  
+                    - ƒŠƒ|ƒWƒgƒŠ  
+                        - ŠJ”­‰ß’ö‚Ì‚ ‚ç‚ä‚éî•ñ‚ðˆêŒ³ŠÇ—  
+                    - ƒR[ƒhƒI[ƒfƒBƒ^  
+                        - ‰p’PŒêFauditor  
+                            - ŠÄ¸–ð  
+                        - Ã“I‚Éƒ\[ƒXƒR[ƒh‚ðŒŸ¸‚·‚éƒc[ƒ‹  
+                        - ƒvƒƒOƒ‰ƒ~ƒ“ƒO‹K–ñ  
+                    - ƒNƒƒXŠJ”­ŠÂ‹«  
+                        - ƒNƒƒXƒRƒ“ƒpƒCƒ‰  
+                            - ŽÀsŠÂ‹«‚ÆˆÙ‚È‚éPFã‚Å“®ì‚·‚éƒRƒ“ƒpƒCƒ‰  
+                    - MPUƒVƒ~ƒ…ƒŒ[ƒ^  
+                        - ƒ^[ƒQƒbƒgMPU‚Ì“®ì‚ðPC‚ÅSW“I‚ÉÄŒ»B  
+                            ‰¼‘z“I‚Éƒ^[ƒQƒbƒgƒVƒXƒeƒ€‚Ì“®ìŠm”F‚ðs‚¤B  
                         - ISS  
                             - Instruction Set Simulator  
-                        - ã‚³ãƒ³ã‚«ãƒ¬ãƒ³ãƒˆé–‹ç™º  
-                            - è‹±å˜èªžï¼šconcurrent  
-                                - åŒæ™‚ã®ã€ä¼´ã†  
-                            - ã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢ã¨ãƒãƒ¼ãƒ‰ã‚¦ã‚§ã‚¢ã®å¹³è¡Œé–‹ç™º  
-                    - ãƒ—ãƒ­ãƒ•ã‚¡ã‚¤ãƒ©  
-                        - æ€§èƒ½è§£æžãƒ„ãƒ¼ãƒ«  
-                        - ãƒ—ãƒ­ã‚°ãƒ©ãƒ å®Ÿè¡Œæ™‚ã®ã€å„ç¨®æƒ…å ±ï¼ˆãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«/é–¢æ•°ã®å®Ÿè¡Œå›žæ•°ã€å®Ÿè¡Œæ™‚é–“ãªã©ï¼‰ã‚’åŽé›†ã™ã‚‹  
-                - ãƒ‡ãƒãƒƒã‚°ç’°å¢ƒ  
-                    - ãƒˆãƒ¬ãƒ¼ã‚µ  
-                        - å®Ÿè¡Œå±¥æ­´ï¼ˆå‘½ä»¤å®Ÿè¡Œé †åºã€ãƒ¬ã‚¸ã‚¹ã‚¿/å¤‰æ•°ã€å®Ÿè¡Œçµæžœï¼‰ã‚’å‡ºåŠ›ã™ã‚‹SW  
-                        - ç”»åƒ  
+                        - ƒRƒ“ƒJƒŒƒ“ƒgŠJ”­  
+                            - ‰p’PŒêFconcurrent  
+                                - “¯Žž‚ÌA”º‚¤  
+                            - ƒ\ƒtƒgƒEƒFƒA‚Æƒn[ƒhƒEƒFƒA‚Ì•½sŠJ”­  
+                    - ƒvƒƒtƒ@ƒCƒ‰  
+                        - «”\‰ðÍƒc[ƒ‹  
+                        - ƒvƒƒOƒ‰ƒ€ŽÀsŽž‚ÌAŠeŽíî•ñiƒ‚ƒWƒ…[ƒ‹/ŠÖ”‚ÌŽÀs‰ñ”AŽÀsŽžŠÔ‚È‚Çj‚ðŽûW‚·‚é  
+                - ƒfƒoƒbƒOŠÂ‹«  
+                    - ƒgƒŒ[ƒT  
+                        - ŽÀs—š—ði–½—ßŽÀs‡˜AƒŒƒWƒXƒ^/•Ï”AŽÀsŒ‹‰Êj‚ðo—Í‚·‚éSW  
+                        - ‰æ‘œ  
                             - ![][18]  
-                                ãƒªãƒ³ã‚¯: [hldc.co.jp/03/01/13851/][19]  
-                        - ã‚¹ãƒŠãƒƒãƒ—ã‚·ãƒ§ãƒƒãƒˆ  
-                            - ç‰¹å®šå‘½ä»¤å®Ÿè¡Œæ™‚ã‚„ç‰¹å®šæ¡ä»¶æ™‚ã®ãƒ¬ã‚¸ã‚¹ã‚¿/å¤‰æ•°å€¤ã€å®Ÿè¡Œçµæžœã‚’å‡ºåŠ›ã™ã‚‹æ©Ÿèƒ½  
-                        - ä½¿ã£ãŸã“ã¨ãªã„â€¦  
-                    - ãƒ¢ãƒ‹ã‚¿ãƒ‡ãƒãƒƒã‚¬  
-                        - ã‚¿ãƒ¼ã‚²ãƒƒãƒˆã‚·ã‚¹ãƒ†ãƒ ã¨å¤–éƒ¨PCã‚’**ã‚·ãƒªã‚¢ãƒ«ãƒãƒ¼ãƒˆ**(RS-232C)ã§æŽ¥ç¶šã—ã¦é€šä¿¡ã—ã€PCå´ã‹ã‚‰SWçš„ã«ãƒ‡ãƒãƒƒã‚°ã™ã‚‹ãƒ‡ãƒãƒƒã‚¬ã€‚  
-                        - â—‹ï¼šå®‰ä¾¡ï¼ˆICEæ¯”è¼ƒï¼‰  
-                        - â—‹ï¼šå®Ÿéš›ã®MPUã§å‹•ä½œç¢ºèªã§ãã‚‹  
-                        - Ã—ï¼šå®Ÿè¡Œã‚¿ã‚¤ãƒŸãƒ³ã‚°ãŒå®Ÿéš›ã®ç’°å¢ƒã¨ç•°ãªã‚‹  
-                        - ç”»åƒ  
+                                ƒŠƒ“ƒN: [hldc.co.jp/03/01/13851/][19]  
+                        - ƒXƒiƒbƒvƒVƒ‡ƒbƒg  
+                            - “Á’è–½—ßŽÀsŽž‚â“Á’èðŒŽž‚ÌƒŒƒWƒXƒ^/•Ï”’lAŽÀsŒ‹‰Ê‚ðo—Í‚·‚é‹@”\  
+                        - Žg‚Á‚½‚±‚Æ‚È‚¢c  
+                    - ƒ‚ƒjƒ^ƒfƒoƒbƒK  
+                        - ƒ^[ƒQƒbƒgƒVƒXƒeƒ€‚ÆŠO•”PC‚ð**ƒVƒŠƒAƒ‹ƒ|[ƒg**(RS-232C)‚ÅÚ‘±‚µ‚Ä’ÊM‚µAPC‘¤‚©‚çSW“I‚ÉƒfƒoƒbƒO‚·‚éƒfƒoƒbƒKB  
+                        - ›FˆÀ‰¿iICE”äŠrj  
+                        - ›FŽÀÛ‚ÌMPU‚Å“®ìŠm”F‚Å‚«‚é  
+                        - ~FŽÀsƒ^ƒCƒ~ƒ“ƒO‚ªŽÀÛ‚ÌŠÂ‹«‚ÆˆÙ‚È‚é  
+                        - ‰æ‘œ  
                             - ![][20]  
-                                ãƒªãƒ³ã‚¯: [renesas.com/jp/ja/products/software-tools/tools/monitor-debuggers-ram-monitor/rx-serial-debugger.html][21]  
-                    - ROMã‚¨ãƒŸãƒ¥ãƒ¬ãƒ¼ã‚¿  
-                        - ROMã‚’**å·®ã—æ›¿ãˆã¦**ROMã‚’ã‚¨ãƒŸãƒ¥ãƒ¬ãƒ¼ãƒˆã™ã‚‹ã€‚  
-                        - SWã®åŸºæœ¬å‹•ä½œã‚’ãƒ‡ãƒãƒƒã‚°ã™ã‚‹ãŸã‚ã«ä½¿ç”¨ã™ã‚‹ã€‚ã¨æ€ã‚ã‚Œã‚‹  
-                        - åŸºæœ¬çš„ãªãƒ‡ãƒãƒƒã‚°ï¼ˆãƒ—ãƒ­ã‚°ãƒ©ãƒ ã®ãƒ­ãƒ¼ãƒ‰ã€ãƒ–ãƒ¬ãƒ¼ã‚¯ãƒã‚¤ãƒ³ãƒˆè¨­å®šãªã©ï¼‰ãŒã§ãã‚‹  
+                                ƒŠƒ“ƒN: [renesas.com/jp/ja/products/software-tools/tools/monitor-debuggers-ram-monitor/rx-serial-debugger.html][21]  
+                    - ROMƒGƒ~ƒ…ƒŒ[ƒ^  
+                        - ROM‚ð**·‚µ‘Ö‚¦‚Ä**ROM‚ðƒGƒ~ƒ…ƒŒ[ƒg‚·‚éB  
+                        - SW‚ÌŠî–{“®ì‚ðƒfƒoƒbƒO‚·‚é‚½‚ß‚ÉŽg—p‚·‚éB‚ÆŽv‚í‚ê‚é  
+                        - Šî–{“I‚ÈƒfƒoƒbƒOiƒvƒƒOƒ‰ƒ€‚Ìƒ[ƒhAƒuƒŒ[ƒNƒ|ƒCƒ“ƒgÝ’è‚È‚Çj‚ª‚Å‚«‚é  
                     - JTAG-ICE  
-                        - ãƒ‡ãƒãƒƒã‚°ç”¨å›žè·¯ã¨ã‚¨ãƒŸãƒ¥ãƒ¬ãƒ¼ã‚¿é–“ã‚’JTAGã§æŽ¥ç¶šã—ã¦ãƒ‡ãƒãƒƒã‚°ã™ã‚‹ãƒ‡ãƒãƒƒã‚°ç’°å¢ƒ  
-                        - ICEã®ç°¡æ˜“ç‰ˆ  
-                        - æ©Ÿèƒ½ã¯ROMã‚¨ãƒŸãƒ¥ãƒ¬ãƒ¼ãƒˆã¨é¡žä¼¼  
-                        - å¤–éƒ¨ROMã¸ã®ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ãŒå¯èƒ½  
+                        - ƒfƒoƒbƒO—p‰ñ˜H‚ÆƒGƒ~ƒ…ƒŒ[ƒ^ŠÔ‚ðJTAG‚ÅÚ‘±‚µ‚ÄƒfƒoƒbƒO‚·‚éƒfƒoƒbƒOŠÂ‹«  
+                        - ICE‚ÌŠÈˆÕ”Å  
+                        - ‹@”\‚ÍROMƒGƒ~ƒ…ƒŒ[ƒg‚Æ—ÞŽ—  
+                        - ŠO•”ROM‚Ö‚Ìƒ_ƒEƒ“ƒ[ƒh‚ª‰Â”\  
                     - ICE  
                         - In-Circuit Emulator  
-                        - MPUæ©Ÿèƒ½ã‚’ã‚¨ãƒŸãƒ¥ãƒ¬ãƒ¼ãƒˆã—ã€ãƒ‡ãƒãƒƒã‚°æ©Ÿèƒ½ã‚’å‚™ãˆãŸHW  
-                        - ã‚¿ãƒ¼ã‚²ãƒƒãƒˆMPUã¨**å·®ã—æ›¿ãˆã¦**è£…ç€ã€å®Ÿéš›ã®å‹•ä½œæ¡ä»¶ã«è¿‘ã„çŠ¶æ…‹ã§HWçš„ã«ãƒ‡ãƒãƒƒã‚°ã§ãã‚‹  
-                        - ä½¿ç”¨ç”¨é€”  
-                            - ãƒªã‚¢ãƒ«ã‚¿ã‚¤ãƒ æ€§ãŒæ±‚ã‚ã‚‰ã‚Œã‚‹ã‚·ã‚¹ãƒ†ãƒ   
-                            - SWçš„ã«ãƒ‡ãƒãƒƒã‚°ãŒå›°é›£ãªã‚·ã‚¹ãƒ†ãƒ ï¼ˆex.OSã‚„BIOSï¼‰  
-                        - Ã—ï¼šé«˜ä¾¡  
-                    - æ¨™æº–å‡ºåŠ›  
-                        - ãƒ—ãƒ­ã‚°ãƒ©ãƒ ä¸­ã«è¨˜è¼‰ã—ãŸæ¨™æº–å‡ºåŠ›é–¢æ•°ã§å‡ºåŠ›ãƒãƒ¼ãƒˆã«å‡ºåŠ›ã™ã‚‹  
-                        - å‡ºåŠ›å…ˆï¼šUARTã‚¤ãƒ³ã‚¿ãƒ¼ãƒ•ã‚§ãƒ¼ã‚¹  
-                        - æ±Žç”¨ã®é€šä¿¡ç«¯æœ«ã‚’å‡ºåŠ›è£…ç½®ã¨ã—ã¦åˆ©ç”¨å¯èƒ½  
-                        - Ã—ï¼šå®Ÿè¡Œã‚¿ã‚¤ãƒŸãƒ³ã‚°ã«å½±éŸ¿ãŒå‡ºã‚‹ãŸã‚ã€ãƒ‡ãƒãƒƒã‚°ãŒå›°é›£ã«ãªã‚‹å ´åˆãŒã‚ã‚‹  
-                - é–‹ç™ºæ‰‹æ³•  
-                    - ãƒ—ãƒ­ã‚»ã‚¹ãƒ¢ãƒ‡ãƒ«  
-                        - æ¦‚è¦  
-                            - ä½œæ¥­ã®é€²ã‚æ–¹ï¼ˆè¦ä»¶å®šç¾©ã€å®Ÿè£…ã€ãƒ†ã‚¹ãƒˆãªã©ï¼‰ã‚’ãƒ¢ãƒ‡ãƒ«åŒ–  
-                        - ç¨®é¡ž  
-                            - ã‚¦ã‚©ãƒ¼ã‚¿ãƒ¼ãƒ•ã‚©ãƒ¼ãƒ«  
-                                - å·¥ç¨‹é †ã«é–‹ç™ºã‚’é€²ã‚ã‚‹  
-                                - Ã—ï¼šæ‰‹æˆ»ã‚Šãƒ­ã‚¹ãŒå¢—ãˆã‚‹  
-                                - ãƒ†ã‚¹ãƒˆå¯¾å¿œ  
-                                    - ã‚·ã‚¹ãƒ†ãƒ è¦ä»¶å®šç¾©  
-                                        - ã‚·ã‚¹ãƒ†ãƒ é©æ ¼æ€§ç¢ºèªãƒ†ã‚¹ãƒˆ  
-                                    - ã‚·ã‚¹ãƒ†ãƒ æ–¹å¼è¨­è¨ˆ  
-                                        - ã‚·ã‚¹ãƒ†ãƒ ãƒ†ã‚¹ãƒˆ  
-                                    - ã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢è¦ä»¶å®šç¾©  
-                                        - ã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢çµ±åˆãƒ†ã‚¹ãƒˆ  
-                                    - ã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢æ–¹å¼è¨­è¨ˆ  
-                                        - ã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢çµåˆãƒ†ã‚¹ãƒˆ  
-                            - ãƒ—ãƒ­ãƒˆã‚¿ã‚¤ãƒ”ãƒ³ã‚°  
-                                - è©¦ä½œå“ã‚’ä½œæˆã—ã¦åˆ©ç”¨è€…ã«I/Fãªã©ã‚’ç¢ºèª/è©•ä¾¡å¾Œã€æœ¬æ ¼é–‹ç™ºã«ç€æ‰‹ã™ã‚‹æ‰‹æ³•  
+                        - MPU‹@”\‚ðƒGƒ~ƒ…ƒŒ[ƒg‚µAƒfƒoƒbƒO‹@”\‚ð”õ‚¦‚½HW  
+                        - ƒ^[ƒQƒbƒgMPU‚Æ**·‚µ‘Ö‚¦‚Ä**‘•’…AŽÀÛ‚Ì“®ìðŒ‚É‹ß‚¢ó‘Ô‚ÅHW“I‚ÉƒfƒoƒbƒO‚Å‚«‚é  
+                        - Žg—p—p“r  
+                            - ƒŠƒAƒ‹ƒ^ƒCƒ€«‚ª‹‚ß‚ç‚ê‚éƒVƒXƒeƒ€  
+                            - SW“I‚ÉƒfƒoƒbƒO‚ª¢“ï‚ÈƒVƒXƒeƒ€iex.OS‚âBIOSj  
+                        - ~F‚‰¿  
+                    - •W€o—Í  
+                        - ƒvƒƒOƒ‰ƒ€’†‚É‹LÚ‚µ‚½•W€o—ÍŠÖ”‚Åo—Íƒ|[ƒg‚Éo—Í‚·‚é  
+                        - o—ÍæFUARTƒCƒ“ƒ^[ƒtƒF[ƒX  
+                        - ”Ä—p‚Ì’ÊM’[––‚ðo—Í‘•’u‚Æ‚µ‚Ä—˜—p‰Â”\  
+                        - ~FŽÀsƒ^ƒCƒ~ƒ“ƒO‚É‰e‹¿‚ªo‚é‚½‚ßAƒfƒoƒbƒO‚ª¢“ï‚É‚È‚éê‡‚ª‚ ‚é  
+                - ŠJ”­Žè–@  
+                    - ƒvƒƒZƒXƒ‚ƒfƒ‹  
+                        - ŠT—v  
+                            - ì‹Æ‚Ìi‚ß•ûi—vŒ’è‹`AŽÀ‘•AƒeƒXƒg‚È‚Çj‚ðƒ‚ƒfƒ‹‰»  
+                        - Ží—Þ  
+                            - ƒEƒH[ƒ^[ƒtƒH[ƒ‹  
+                                - H’ö‡‚ÉŠJ”­‚ði‚ß‚é  
+                                - ~FŽè–ß‚èƒƒX‚ª‘‚¦‚é  
+                                - ƒeƒXƒg‘Î‰ž  
+                                    - ƒVƒXƒeƒ€—vŒ’è‹`  
+                                        - ƒVƒXƒeƒ€“KŠi«Šm”FƒeƒXƒg  
+                                    - ƒVƒXƒeƒ€•ûŽ®ÝŒv  
+                                        - ƒVƒXƒeƒ€ƒeƒXƒg  
+                                    - ƒ\ƒtƒgƒEƒFƒA—vŒ’è‹`  
+                                        - ƒ\ƒtƒgƒEƒFƒA“‡ƒeƒXƒg  
+                                    - ƒ\ƒtƒgƒEƒFƒA•ûŽ®ÝŒv  
+                                        - ƒ\ƒtƒgƒEƒFƒAŒ‹‡ƒeƒXƒg  
+                            - ƒvƒƒgƒ^ƒCƒsƒ“ƒO  
+                                - ŽŽì•i‚ðì¬‚µ‚Ä—˜—pŽÒ‚ÉI/F‚È‚Ç‚ðŠm”F/•]‰¿ŒãA–{ŠiŠJ”­‚É’…Žè‚·‚éŽè–@  
                                 - RAD  
                                     - Rapid Application Development  
-                                    - æ—©ãã€å®‰ãã€é«˜å“è³ªã«é–‹ç™ºã‚’è¡Œã†  
-                                    - å°‘æ•°ç²¾é‹­ã§CASEãƒ„ãƒ¼ãƒ«ã‚’ä½¿ç”¨ã—ãŸãƒ—ãƒ­ãƒˆã‚¿ã‚¤ãƒ”ãƒ³ã‚°æ‰‹æ³•ã§é–‹ç™ºã™ã‚‹  
-                            - ã‚¹ãƒ‘ã‚¤ãƒ©ãƒ«  
-                                - ã‚·ã‚¹ãƒ†ãƒ ã‚’ç‹¬ç«‹æ€§ã®é«˜ã„éƒ¨åˆ†ã«åˆ†å‰²ã—ã€å„éƒ¨åˆ†ã«ã¤ã„ã¦é †æ¬¡é–‹ç™ºã™ã‚‹  
-                                - â—‹ï¼šæ‰‹æˆ»ã‚Šå°  
-                                    - åˆ©ç”¨è€…ã®è¦æœ›ã¨å–ã‚Šè¾¼ã¿ã‚„ã™ã„  
-                                    - æ€§èƒ½æ”¹å–„ãŒã§ãã‚‹  
-                                - åå¾©å˜ä½  
-                                    - 6ãƒ¶æœˆï½ž2å¹´  
-                                - ä½¿ç”¨ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆ  
-                                    - å¤§è¦æ¨¡ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆ  
-                                - æˆæžœç‰©ã®è³ªã‚’ã‚ã’ã‚ˆã†ã€‚  
+                                    - ‘‚­AˆÀ‚­A‚•iŽ¿‚ÉŠJ”­‚ðs‚¤  
+                                    - ­”¸‰s‚ÅCASEƒc[ƒ‹‚ðŽg—p‚µ‚½ƒvƒƒgƒ^ƒCƒsƒ“ƒOŽè–@‚ÅŠJ”­‚·‚é  
+                            - ƒXƒpƒCƒ‰ƒ‹  
+                                - ƒVƒXƒeƒ€‚ð“Æ—§«‚Ì‚‚¢•”•ª‚É•ªŠ„‚µAŠe•”•ª‚É‚Â‚¢‚Ä‡ŽŸŠJ”­‚·‚é  
+                                - ›FŽè–ß‚è¬  
+                                    - —˜—pŽÒ‚Ì—v–]‚ÆŽæ‚èž‚Ý‚â‚·‚¢  
+                                    - «”\‰ü‘P‚ª‚Å‚«‚é  
+                                - ”½•œ’PˆÊ  
+                                    - 6ƒ–ŒŽ`2”N  
+                                - Žg—pƒvƒƒWƒFƒNƒg  
+                                    - ‘å‹K–ÍƒvƒƒWƒFƒNƒg  
+                                - ¬‰Ê•¨‚ÌŽ¿‚ð‚ ‚°‚æ‚¤B  
                                     or  
-                                    å¦¥å”ç‚¹ã‚’æ—©ã‚ã«æ´—ã„å‡ºãã†ã€‚  
-                                    - â†’ãƒ—ãƒ­ãƒˆã‚¿ã‚¤ãƒ—ãƒ¢ãƒ‡ãƒ«ã®å¼·åŒ–ç‰ˆ  
-                            - ã‚¢ã‚¸ãƒ£ã‚¤ãƒ«  
-                                - å°‘æ•°ç²¾é‹­ã®é–‹ç™ºè€…ã¨åˆ©ç”¨è€…ã§ã€å°ã•ã„é–‹ç™ºå˜ä½ã«åŒºåˆ‡ã£ã¦é–‹ç™ºã€‚  
-                                - ä»•æ§˜ã‚„è¦ä»¶ã¯å¤‰åŒ–ã™ã‚‹ã‚‚ã®ã¨ã„ã†å‰æ  
-                                - é¡§å®¢ã«è¦‹ã›ã‚‹æ®µéšŽã§ã€**æ©Ÿèƒ½å˜ä½ãƒ¬ãƒ™ãƒ«**ã®å“è³ªã¯æ‹…ä¿  
-                                - åå¾©å˜ä½  
-                                    - 1ï½ž4é€±é–“ãã‚‰ã„  
-                                - ä½¿ç”¨ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆ  
-                                    - å°è¦æ¨¡ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆ  
-                                - å„ªå…ˆåº¦ã®é«˜ã„ã‚‚ã®ã‹ã‚‰é–‹ç™ºãƒ»ãƒªãƒªãƒ¼ã‚¹ã—ã‚ˆã†ã€‚  
-                            - ãƒ—ãƒ­ãƒ€ã‚¯ãƒˆãƒ©ã‚¤ãƒ³é–‹ç™º  
-                                - ã‚·ãƒªãƒ¼ã‚ºã‚„ãƒãƒ¼ã‚¸ãƒ§ãƒ³å…¨ä½“ã§ä½“ç³»çš„ã«é–‹ç™ºã™ã‚‹  
-                                - ã‚³ã‚¢è³‡ç”£  
-                                    - åŒç³»åˆ—ã®SWç¾¤ã®å…±é€šéƒ¨åˆ†  
+                                    ‘Ã‹¦“_‚ð‘‚ß‚Éô‚¢o‚»‚¤B  
+                                    - ¨ƒvƒƒgƒ^ƒCƒvƒ‚ƒfƒ‹‚Ì‹­‰»”Å  
+                            - ƒAƒWƒƒƒCƒ‹  
+                                - ­”¸‰s‚ÌŠJ”­ŽÒ‚Æ—˜—pŽÒ‚ÅA¬‚³‚¢ŠJ”­’PˆÊ‚É‹æØ‚Á‚ÄŠJ”­B  
+                                - Žd—l‚â—vŒ‚Í•Ï‰»‚·‚é‚à‚Ì‚Æ‚¢‚¤‘O’ñ  
+                                - ŒÚ‹q‚ÉŒ©‚¹‚é’iŠK‚ÅA**‹@”\’PˆÊƒŒƒxƒ‹**‚Ì•iŽ¿‚Í’S•Û  
+                                - ”½•œ’PˆÊ  
+                                    - 1`4TŠÔ‚­‚ç‚¢  
+                                - Žg—pƒvƒƒWƒFƒNƒg  
+                                    - ¬‹K–ÍƒvƒƒWƒFƒNƒg  
+                                - —Dæ“x‚Ì‚‚¢‚à‚Ì‚©‚çŠJ”­EƒŠƒŠ[ƒX‚µ‚æ‚¤B  
+                            - ƒvƒƒ_ƒNƒgƒ‰ƒCƒ“ŠJ”­  
+                                - ƒVƒŠ[ƒY‚âƒo[ƒWƒ‡ƒ“‘S‘Ì‚Å‘ÌŒn“I‚ÉŠJ”­‚·‚é  
+                                - ƒRƒAŽ‘ŽY  
+                                    - “¯Œn—ñ‚ÌSWŒQ‚Ì‹¤’Ê•”•ª  
                             - XP  
                                 - Extreme Programing  
-                                - ä»•æ§˜å¤‰æ›´ãŒç™ºç”Ÿã™ã‚‹ã®ã‚’å‰æã«çŸ­æœŸé–“ã§ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã®ãƒªãƒªãƒ¼ã‚¹ã‚’è¡Œã„åˆ©ç”¨è€…ã¨ã‚³ãƒŸãƒ¥ãƒ‹ã‚±ãƒ¼ã‚·ãƒ§ãƒ³ã‚’è¡Œã„ã€ã‚³ãƒŸãƒ¥ãƒ‹ã‚±ãƒ¼ã‚·ãƒ§ãƒ³ã§æŒ‡æ‘˜ã•ã‚ŒãŸå†…å®¹ã®ä¿®æ­£ã‚’è¡Œã†ã¨ã„ã†æ‰‹é †ã‚’ç¹°ã‚Šè¿”ã—è¡Œã„é–‹ç™ºã‚’é€²ã‚ã¦ã„ãæ–¹æ³•ã§ã™ã€‚  
-                    - è¦‹ç©ã‚Šãƒ¢ãƒ‡ãƒ«  
-                        - æ¦‚è¦  
-                            - é–‹ç™ºå·¥æ•°ã€è¦å“¡æ•°ã€é–‹ç™ºã‚³ã‚¹ãƒˆã‚’æ­£ç¢ºã«è¦‹ç©ã‚‚ã‚‹ãŸã‚ã®æ‰‹æ³•  
-                        - ç¨®é¡ž  
-                            - æ¨™æº–å€¤æ³•  
-                                - éŽåŽ»ã®é–‹ç™ºçµŒé¨“å€¤ã‚’åŸºã«ã—ãŸç”Ÿç”£æ€§ã®æ¨™æº–å€¤ã‚’ä½¿ã„ã€ã‚µãƒ–ã‚·ã‚¹ãƒ†ãƒ ã”ã¨ã®å·¥æ•°ã‚’ç©ä¸Šã’ã‚‹æ‰‹æ³•  
-                                - ãƒœãƒˆãƒ ã‚¢ãƒƒãƒ—  
-                            - é¡žä¼¼æ³•  
-                                - éŽåŽ»ã®é¡žä¼¼ã‚·ã‚¹ãƒ†ãƒ ã®é–‹ç™ºå®Ÿç¸¾ãƒ‡ãƒ¼ã‚¿ã‚’åŸºã«ã€å…±é€šéƒ¨åˆ†ã¯éŽåŽ»ãƒ‡ãƒ¼ã‚¿ã€ç›¸é•ç‚¹ã¯åˆ¥æ‰‹æ³•ã§è¦‹ç©ã‚‚ã‚‹  
-                                - Ã—ï¼šæ–°è¦é–‹ç™ºã«ã¯é©ç”¨ã§ããªã„  
+                                - Žd—l•ÏX‚ª”­¶‚·‚é‚Ì‚ð‘O’ñ‚É’ZŠúŠÔ‚ÅƒvƒƒOƒ‰ƒ€‚ÌƒŠƒŠ[ƒX‚ðs‚¢—˜—pŽÒ‚ÆƒRƒ~ƒ…ƒjƒP[ƒVƒ‡ƒ“‚ðs‚¢AƒRƒ~ƒ…ƒjƒP[ƒVƒ‡ƒ“‚ÅŽw“E‚³‚ê‚½“à—e‚ÌC³‚ðs‚¤‚Æ‚¢‚¤Žè‡‚ðŒJ‚è•Ô‚µs‚¢ŠJ”­‚ði‚ß‚Ä‚¢‚­•û–@‚Å‚·B  
+                    - Œ©Ï‚èƒ‚ƒfƒ‹  
+                        - ŠT—v  
+                            - ŠJ”­H”A—vˆõ”AŠJ”­ƒRƒXƒg‚ð³Šm‚ÉŒ©Ï‚à‚é‚½‚ß‚ÌŽè–@  
+                        - Ží—Þ  
+                            - •W€’l–@  
+                                - ‰ß‹Ž‚ÌŠJ”­ŒoŒ±’l‚ðŠî‚É‚µ‚½¶ŽY«‚Ì•W€’l‚ðŽg‚¢AƒTƒuƒVƒXƒeƒ€‚²‚Æ‚ÌH”‚ðÏã‚°‚éŽè–@  
+                                - ƒ{ƒgƒ€ƒAƒbƒv  
+                            - —ÞŽ—–@  
+                                - ‰ß‹Ž‚Ì—ÞŽ—ƒVƒXƒeƒ€‚ÌŠJ”­ŽÀÑƒf[ƒ^‚ðŠî‚ÉA‹¤’Ê•”•ª‚Í‰ß‹Žƒf[ƒ^A‘Šˆá“_‚Í•ÊŽè–@‚ÅŒ©Ï‚à‚é  
+                                - ~FV‹KŠJ”­‚É‚Í“K—p‚Å‚«‚È‚¢  
                             - COCOMO  
                                 - COnstructive COst MOdel  
-                                    - è‹±å˜èªžï¼šconstruct  
-                                        - å»ºè¨­çš„  
-                                - çµ±è¨ˆçš„ãªãƒ¢ãƒ‡ãƒ«ã‚’ç”¨ã„ãŸè¨ˆç®—å¼ã«ã‚ˆã£ã¦è¦‹ç©ã‚‚ã‚‹  
-                                - äºˆæƒ³ã‚¹ãƒ†ãƒƒãƒ—æ•°Ã—åŠªåŠ›ä¿‚æ•°  
-                                    - åŠªåŠ›ä¿‚æ•°  
-                                        - ãƒ¡ãƒ³ãƒã®ã‚¹ã‚­ãƒ«  
-                                        - è¨­è¨ˆæŠ€æ³•ã®åˆ©ç”¨é »åº¦  
-                                        - é›£æ˜“åº¦  
-                                - ä¸­ï½žå¤§è¦æ¨¡ã‚·ã‚¹ãƒ†ãƒ å‘ã  
-                            - ãƒ•ã‚¡ãƒ³ã‚¯ã‚·ãƒ§ãƒ³ãƒã‚¤ãƒ³ãƒˆæ³•  
-                                - ã‚·ã‚¹ãƒ†ãƒ ã«å«ã¾ã‚Œã‚‹æ©Ÿèƒ½ã®é‡ã‚’åŸºæº–ã¨ã—ã¦è¦‹ç©ã‚‚ã‚‹  
-                                - æ©Ÿèƒ½ã®é‡Ã—é›£æ˜“åº¦Ã—å…¥å‡ºåŠ›ã€å¸³ç¥¨ã€ãƒ•ã‚¡ã‚¤ãƒ«ãªã©ã®æ•°  
-                                - â—‹ï¼šã‚³ãƒ¼ãƒ‡ã‚£ãƒ³ã‚°ã®å·§æ‹™ã«ã‚ˆã‚‹å·®åˆ†ãŒå‡ºãªã„  
-                                    - ã‚¹ãƒ†ãƒƒãƒ—æ•°ã‚’åŸºæº–ã¨ã—ãªã„ãŸã‚  
-                                - Ã—ï¼šå†…éƒ¨å‡¦ç†çš„ãªãƒ—ãƒ­ã‚°ãƒ©ãƒ ã«ã¯é©ç”¨ã—ã¥ã‚‰ã„  
-                                - ãƒœãƒˆãƒ ã‚¢ãƒƒãƒ—  
-                    - ãƒ—ãƒ­ã‚»ã‚¹æˆç†Ÿåº¦ãƒ¢ãƒ‡ãƒ«  
+                                    - ‰p’PŒêFconstruct  
+                                        - ŒšÝ“I  
+                                - “Œv“I‚Èƒ‚ƒfƒ‹‚ð—p‚¢‚½ŒvŽZŽ®‚É‚æ‚Á‚ÄŒ©Ï‚à‚é  
+                                - —\‘zƒXƒeƒbƒv”~“w—ÍŒW”  
+                                    - “w—ÍŒW”  
+                                        - ƒƒ“ƒo‚ÌƒXƒLƒ‹  
+                                        - ÝŒv‹Z–@‚Ì—˜—p•p“x  
+                                        - “ïˆÕ“x  
+                                - ’†`‘å‹K–ÍƒVƒXƒeƒ€Œü‚«  
+                            - ƒtƒ@ƒ“ƒNƒVƒ‡ƒ“ƒ|ƒCƒ“ƒg–@  
+                                - ƒVƒXƒeƒ€‚ÉŠÜ‚Ü‚ê‚é‹@”\‚Ì—Ê‚ðŠî€‚Æ‚µ‚ÄŒ©Ï‚à‚é  
+                                - ‹@”\‚Ì—Ê~“ïˆÕ“x~“üo—ÍA’ •[Aƒtƒ@ƒCƒ‹‚È‚Ç‚Ì”  
+                                - ›FƒR[ƒfƒBƒ“ƒO‚ÌIÙ‚É‚æ‚é·•ª‚ªo‚È‚¢  
+                                    - ƒXƒeƒbƒv”‚ðŠî€‚Æ‚µ‚È‚¢‚½‚ß  
+                                - ~F“à•”ˆ—“I‚ÈƒvƒƒOƒ‰ƒ€‚É‚Í“K—p‚µ‚Ã‚ç‚¢  
+                                - ƒ{ƒgƒ€ƒAƒbƒv  
+                    - ƒvƒƒZƒX¬n“xƒ‚ƒfƒ‹  
                         - CMM  
                             - Capability Maturity Model  
-                                - è‹±å˜èªžï¼šcapability  
-                                    - èƒ½åŠ›  
-                                - è‹±å˜èªžï¼šmaturity  
-                                    - æˆç†Ÿ  
-                            - çµ„ç¹”ã«ãŠã‘ã‚‹ã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢é–‹ç™ºèƒ½åŠ›ã®æˆç†Ÿåº¦ã®æŒ‡æ¨™  
-                            - ç¨®é¡ž  
+                                - ‰p’PŒêFcapability  
+                                    - ”\—Í  
+                                - ‰p’PŒêFmaturity  
+                                    - ¬n  
+                            - ‘gD‚É‚¨‚¯‚éƒ\ƒtƒgƒEƒFƒAŠJ”­”\—Í‚Ì¬n“x‚ÌŽw•W  
+                            - Ží—Þ  
                                 - SA-CMM  
                                     - Software Aquisition-CMM  
-                                    - ã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢èª¿é”èƒ½åŠ›  
+                                    - ƒ\ƒtƒgƒEƒFƒA’²’B”\—Í  
                                 - SE-CMM  
                                     - Software Engineering-CMM  
-                                    - ã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢ã‚¨ãƒ³ã‚¸ãƒ‹ã‚¢ãƒªãƒ³ã‚°èƒ½åŠ›  
+                                    - ƒ\ƒtƒgƒEƒFƒAƒGƒ“ƒWƒjƒAƒŠƒ“ƒO”\—Í  
                                 - SSE-CMM  
                                     - Security Software Engineering-CMM  
-                                    - ã‚»ã‚­ãƒ¥ãƒªãƒ†ã‚£ã‚¨ãƒ³ã‚¸ãƒ‹ã‚¢ãƒªãƒ³ã‚°èƒ½åŠ›  
+                                    - ƒZƒLƒ…ƒŠƒeƒBƒGƒ“ƒWƒjƒAƒŠƒ“ƒO”\—Í  
                                 - P-CMM  
                                     - People-CMM  
-                                    - äººæé–‹ç™ºèƒ½åŠ›  
+                                    - lÞŠJ”­”\—Í  
                             - CMMI  
                                 - CMM Integration  
-                                - çµ±åˆãƒ—ãƒ­ãƒ€ã‚¯ãƒˆé–‹ç™ºæˆç†Ÿåº¦ãƒ¢ãƒ‡ãƒ«  
-        - ãƒ†ã‚¹ãƒˆãƒ»ãƒ¬ãƒ“ãƒ¥ãƒ¼æ‰‹æ³•  
-            - å˜ä½“ãƒ†ã‚¹ãƒˆæ‰‹æ³•  
-                - ãƒ–ãƒ©ãƒƒã‚¯ãƒœãƒƒã‚¯ã‚¹ãƒ†ã‚¹ãƒˆ  
-                    - æƒ³å®šã•ã‚Œã‚‹å‡ºåŠ›ãƒ»çµæžœãŒå¾—ã‚‰ã‚Œã‚‹ã‹ã‚’æ¤œæŸ»ã™ã‚‹  
-                    - ãƒ†ã‚¹ãƒˆãƒ‡ãƒ¼ã‚¿  
-                        - åŒå€¤åˆ†æž  
-                            - åŒå€¤ã‚¯ãƒ©ã‚¹  
-                                - åŒã˜å‡ºåŠ›ãƒ»çµæžœã‚’ç”Ÿã˜ã•ã›ã‚‹å…¥åŠ›å€¤ã®é›†åˆ  
-                                - æœ‰åŠ¹åŒå€¤ã‚¯ãƒ©ã‚¹  
-                                    - æ­£å¸¸å‡¦ç†  
-                                        - ex) OKã€BUSY  
-                                - ç„¡åŠ¹åŒå€¤ã‚¯ãƒ©ã‚¹  
-                                    - ç•°å¸¸å‡¦ç†  
+                                - “‡ƒvƒƒ_ƒNƒgŠJ”­¬n“xƒ‚ƒfƒ‹  
+        - ƒeƒXƒgEƒŒƒrƒ…[Žè–@  
+            - ’P‘ÌƒeƒXƒgŽè–@  
+                - ƒuƒ‰ƒbƒNƒ{ƒbƒNƒXƒeƒXƒg  
+                    - ‘z’è‚³‚ê‚éo—ÍEŒ‹‰Ê‚ª“¾‚ç‚ê‚é‚©‚ðŒŸ¸‚·‚é  
+                    - ƒeƒXƒgƒf[ƒ^  
+                        - “¯’l•ªÍ  
+                            - “¯’lƒNƒ‰ƒX  
+                                - “¯‚¶o—ÍEŒ‹‰Ê‚ð¶‚¶‚³‚¹‚é“ü—Í’l‚ÌW‡  
+                                - —LŒø“¯’lƒNƒ‰ƒX  
+                                    - ³íˆ—  
+                                        - ex) OKABUSY  
+                                - –³Œø“¯’lƒNƒ‰ƒX  
+                                    - ˆÙíˆ—  
                                         - ex) ERROR  
-                        - å¢ƒç•Œå€¤åˆ†æž  
-                            - å¢ƒç•Œå€¤  
-                                - ï¼é™ç•Œå€¤  
-                                - å‡ºåŠ›ã‚„çµæžœã®å¤‰åŒ–ãŒç”Ÿã˜ã‚‹å…¥åŠ›å€¤ã®å¢ƒç•Œ  
-                - ãƒ›ãƒ¯ã‚¤ãƒˆãƒœãƒƒã‚¯ã‚¹ãƒ†ã‚¹ãƒˆ  
-                    - å‡¦ç†ãŒæ„å›³ã—ãŸé€šã‚Šã«è¡Œã‚ã‚Œã‚‹ã‹æ¤œæŸ»ã™ã‚‹  
-                    - ãƒ†ã‚¹ãƒˆã‚±ãƒ¼ã‚¹  
+                        - ‹«ŠE’l•ªÍ  
+                            - ‹«ŠE’l  
+                                - ŒÀŠE’l  
+                                - o—Í‚âŒ‹‰Ê‚Ì•Ï‰»‚ª¶‚¶‚é“ü—Í’l‚Ì‹«ŠE  
+                - ƒzƒƒCƒgƒ{ƒbƒNƒXƒeƒXƒg  
+                    - ˆ—‚ªˆÓ}‚µ‚½’Ê‚è‚És‚í‚ê‚é‚©ŒŸ¸‚·‚é  
+                    - ƒeƒXƒgƒP[ƒX  
                         - C0  
-                            - å‘½ä»¤ç¶²ç¾…  
-                                - å…¨å‘½ä»¤ã‚’å°‘ãªãã¨ã‚‚ï¼‘å›žå®Ÿè¡Œ  
+                            - –½—ß–Ô—…  
+                                - ‘S–½—ß‚ð­‚È‚­‚Æ‚à‚P‰ñŽÀs  
                         - C1  
-                            - åˆ†å²ç¶²ç¾…  
-                                - åˆ†å²æ¡ä»¶ã«ã¤ã„ã¦ã€çœŸå½ãã‚Œãžã‚Œä¸€å›žå®Ÿè¡Œ  
+                            - •ªŠò–Ô—…  
+                                - •ªŠòðŒ‚É‚Â‚¢‚ÄA^‹U‚»‚ê‚¼‚êˆê‰ñŽÀs  
                         - C2  
-                            - æ¡ä»¶ç¶²ç¾…  
-                                - è¤‡æ•°ã®åˆ†å²æ¡ä»¶ã«ã¤ã„ã¦ã€çœŸå½å…¨ã¦ã®çµ„åˆã›ã‚’å®Ÿè¡Œ  
-            - çµåˆãƒ†ã‚¹ãƒˆæ‰‹æ³•  
-                - ãƒœãƒˆãƒ ã‚¢ãƒƒãƒ—ãƒ†ã‚¹ãƒˆ  
-                    - ä¸‹ä½ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«ã‹ã‚‰æ¤œæŸ»  
-                    - ãƒ‰ãƒ©ã‚¤ãƒ  
-                        - ãƒ†ã‚¹ãƒˆå¯¾è±¡ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«ã«å¼•æ•°ã‚’æ¸¡ã—ã¦æˆ»ã‚Šå€¤ã‚’å—ã‘å–ã‚‹ã ã‘ã®ãƒ€ãƒŸãƒ¼ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«  
-                - ãƒˆãƒƒãƒ—ãƒ€ã‚¦ãƒ³ãƒ†ã‚¹ãƒˆ  
-                    - ä¸Šä½ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«ã‹ã‚‰æ¤œæŸ»  
-                    - ã‚¹ã‚¿ãƒ–  
-                        - ä¸Šä½ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«ã‹ã‚‰å¼•æ•°ã‚’å—ã‘å–ã£ã¦ã€æ‰€å®šã®æˆ»ã‚Šå€¤ã‚’è¿”ã™ã ã‘ã®ãƒ€ãƒŸãƒ¼ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«  
-            - å®Ÿé¨“è¨ˆç”»æ³•  
-                - ã‚·ã‚¹ãƒ†ãƒ ã®å“è³ªã‚’ç¶­æŒã—ã¤ã¤ã€åŠ¹çŽ‡çš„ã«ãƒ†ã‚¹ãƒˆã‚’å®Ÿæ–½ã™ã‚‹æ–¹æ³•è«–  
-                - ç›´äº¤è¡¨  
-                    - æ¦‚è¦  
-                        - ã€Œä¸å…·åˆã®ã»ã¨ã‚“ã©ã¯ï¼’å› å­ã®çµ„åˆã›ã§æ±ºã¾ã‚‹ã€ã¨ã„ã†å‰æã®åŸºã€ãƒ†ã‚¹ãƒˆã‚±ãƒ¼ã‚¹ã‚’çµžã‚‹æ‰‹æ³•ã€‚  
-                        - ç¶²ç¾…æ€§ã‚’ç¢ºä¿ã—ã¤ã¤ã€ãƒ†ã‚¹ãƒˆãƒ‡ãƒ¼ã‚¿ã®å€‹æ•°ã‚’æ¸›ã‚‰ã™ã“ã¨ãŒå‡ºæ¥ã‚‹ã€‚  
+                            - ðŒ–Ô—…  
+                                - •¡”‚Ì•ªŠòðŒ‚É‚Â‚¢‚ÄA^‹U‘S‚Ä‚Ì‘g‡‚¹‚ðŽÀs  
+            - Œ‹‡ƒeƒXƒgŽè–@  
+                - ƒ{ƒgƒ€ƒAƒbƒvƒeƒXƒg  
+                    - ‰ºˆÊƒ‚ƒWƒ…[ƒ‹‚©‚çŒŸ¸  
+                    - ƒhƒ‰ƒCƒo  
+                        - ƒeƒXƒg‘ÎÛƒ‚ƒWƒ…[ƒ‹‚Éˆø”‚ð“n‚µ‚Ä–ß‚è’l‚ðŽó‚¯Žæ‚é‚¾‚¯‚Ìƒ_ƒ~[ƒ‚ƒWƒ…[ƒ‹  
+                - ƒgƒbƒvƒ_ƒEƒ“ƒeƒXƒg  
+                    - ãˆÊƒ‚ƒWƒ…[ƒ‹‚©‚çŒŸ¸  
+                    - ƒXƒ^ƒu  
+                        - ãˆÊƒ‚ƒWƒ…[ƒ‹‚©‚çˆø”‚ðŽó‚¯Žæ‚Á‚ÄAŠ’è‚Ì–ß‚è’l‚ð•Ô‚·‚¾‚¯‚Ìƒ_ƒ~[ƒ‚ƒWƒ…[ƒ‹  
+            - ŽÀŒ±Œv‰æ–@  
+                - ƒVƒXƒeƒ€‚Ì•iŽ¿‚ðˆÛŽ‚µ‚Â‚ÂAŒø—¦“I‚ÉƒeƒXƒg‚ðŽÀŽ{‚·‚é•û–@˜_  
+                - ’¼Œð•\  
+                    - ŠT—v  
+                        - u•s‹ï‡‚Ì‚Ù‚Æ‚ñ‚Ç‚Í‚QˆöŽq‚Ì‘g‡‚¹‚ÅŒˆ‚Ü‚év‚Æ‚¢‚¤‘O’ñ‚ÌŠîAƒeƒXƒgƒP[ƒX‚ði‚éŽè–@B  
+                        - –Ô—…«‚ðŠm•Û‚µ‚Â‚ÂAƒeƒXƒgƒf[ƒ^‚ÌŒÂ”‚ðŒ¸‚ç‚·‚±‚Æ‚ªo—ˆ‚éB  
                         - ex  
                             - ...  
-                    - ç”¨èªž  
-                        - å› å­  
-                            - ex) ã‚µã‚¤ã‚ºã€è§£åƒåº¦ã€è‰²  
-                        - æ°´æº–  
-                            - ex) A4/B5ã€æ™®é€š/ãã‚Œã„ã€ç™½é»’/ã‚«ãƒ©ãƒ¼  
-                    - ç¨®é¡ž  
-                        - L4ç›´äº¤è¡¨  
-                            - å› å­æ•°ï¼“  
-                        - L9ç›´äº¤è¡¨  
-                            - å› å­æ•°ï¼”  
-            - ãƒ¬ãƒ“ãƒ¥ãƒ¼æ‰‹æ³•  
-                - ã‚¦ã‚©ãƒ¼ã‚¯ã‚¹ãƒ«ãƒ¼  
-                    - ã€Œãƒ¬ãƒ“ãƒ¥ãƒ¼å¯¾è±¡è€…ã€ä¸»å‚¬  
-                - ã‚¤ãƒ³ã‚¹ãƒšã‚¯ã‚·ãƒ§ãƒ³  
-                    - ã€ŒçŸ¥è­˜ã‚„æŠ€è¡“ã®ã‚ã‚‹ãƒªãƒ¼ãƒ€ãƒ¼ï¼ˆãƒ¢ãƒ‡ãƒ¬ãƒ¼ã‚¿ï¼‰ã€ä¸»å‚¬  
-                - ãƒ©ã‚¦ãƒ³ãƒ‰ãƒ­ãƒ“ãƒ³  
-                    - ã€ŒæŒã¡å›žã‚Šã®è²¬ä»»è€…ã€ä¸»å‚¬  
-                    - å‚åŠ æ„æ¬²ãŒé«˜ã¾ã‚Šã‚„ã™ã„  
-            - ãƒ•ã‚¡ã‚¸ãƒ³ã‚°  
-                - è‹±å˜èªžï¼šfuzzing  
-                    - äºˆæ¸¬ä¸å¯èƒ½ãªå…¥åŠ›ãƒ‡ãƒ¼ã‚¿  
-                        ï¼ˆåŽŸç¾©ï¼šã‘ã°ã€ç¶¿æ¯›ã€ãµã‚ãµã‚ã—ãŸã‚‚ã®ï¼‰  
-                - ãƒ•ã‚¡ã‚ºï¼ˆäºˆæ¸¬ä¸å¯èƒ½ãªå…¥åŠ›ãƒ‡ãƒ¼ã‚¿ï¼‰ã‚’ä¸Žãˆã¦ä¾‹å¤–ã‚’ç™ºç”Ÿã•ã›ã€æŒ™å‹•ã‚’ç¢ºèªã™ã‚‹ã“ã¨ã§ã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢ã®ä¸å…·åˆï¼ˆç‰¹ã«è„†å¼±æ€§ï¼‰ã‚’ç™ºè¦‹ã™ã‚‹ãŸã‚ã®ãƒ†ã‚¹ãƒˆæ‰‹æ³•  
-        - é–‹ç™ºç®¡ç†  
-            - é–‹ç™ºç®¡ç†ç”¨ãƒ€ã‚¤ã‚¢ã‚°ãƒ©ãƒ   
+                    - —pŒê  
+                        - ˆöŽq  
+                            - ex) ƒTƒCƒYA‰ð‘œ“xAF  
+                        - …€  
+                            - ex) A4/B5A•’Ê/‚«‚ê‚¢A”’•/ƒJƒ‰[  
+                    - Ží—Þ  
+                        - L4’¼Œð•\  
+                            - ˆöŽq”‚R  
+                        - L9’¼Œð•\  
+                            - ˆöŽq”‚S  
+            - ƒŒƒrƒ…[Žè–@  
+                - ƒEƒH[ƒNƒXƒ‹[  
+                    - uƒŒƒrƒ…[‘ÎÛŽÒvŽåÃ  
+                - ƒCƒ“ƒXƒyƒNƒVƒ‡ƒ“  
+                    - u’mŽ¯‚â‹Zp‚Ì‚ ‚éƒŠ[ƒ_[iƒ‚ƒfƒŒ[ƒ^jvŽåÃ  
+                - ƒ‰ƒEƒ“ƒhƒƒrƒ“  
+                    - uŽ‚¿‰ñ‚è‚ÌÓ”CŽÒvŽåÃ  
+                    - ŽQ‰ÁˆÓ—~‚ª‚‚Ü‚è‚â‚·‚¢  
+            - ƒtƒ@ƒWƒ“ƒO  
+                - ‰p’PŒêFfuzzing  
+                    - —\‘ª•s‰Â”\‚È“ü—Íƒf[ƒ^  
+                        iŒ´‹`F‚¯‚ÎA–È–ÑA‚Ó‚í‚Ó‚í‚µ‚½‚à‚Ìj  
+                - ƒtƒ@ƒYi—\‘ª•s‰Â”\‚È“ü—Íƒf[ƒ^j‚ð—^‚¦‚Ä—áŠO‚ð”­¶‚³‚¹A‹““®‚ðŠm”F‚·‚é‚±‚Æ‚Åƒ\ƒtƒgƒEƒFƒA‚Ì•s‹ï‡i“Á‚ÉÆŽã«j‚ð”­Œ©‚·‚é‚½‚ß‚ÌƒeƒXƒgŽè–@  
+        - ŠJ”­ŠÇ—  
+            - ŠJ”­ŠÇ——pƒ_ƒCƒAƒOƒ‰ƒ€  
                 - WBS  
-                - PERTå›³  
+                - PERT}  
                     - Program Evaluation and Review Technique  
-                    - ä½œæ¥­é …ç›®ã®æ‰€è¦æ—¥æ•°ã€ä½œæ¥­é–“ã®ä¾å­˜é–¢ä¿‚ã‚’è¡¨ã™å›³  
-                    - æœ€é…é–‹å§‹æ—¥  
-                        - **é…ãã¨ã‚‚**ã“ã®æ—¥ã«å§‹ã‚ãªã„ã¨é–“ã«åˆã‚ãªã„ã‚ˆ  
-                    - æœ€æ—©é–‹å§‹æ—¥  
-                        - é †èª¿ãªã‚‰ã€**æ—©ã‘ã‚Œã°**ã“ã®æ—¥ã‹ã‚‰å§‹ã‚ã‚‰ã‚Œã‚‹ã‚ˆ  
-                    - ä½™è£•æ—¥æ•°  
-                        - æœ€é…é–‹å§‹æ—¥ï¼æœ€æ—©é–‹å§‹æ—¥  
-                    - ã‚¯ãƒªãƒ†ã‚£ã‚«ãƒ«ãƒ‘ã‚¹  
-                        - æœ€æ—©é–‹å§‹æ—¥ã¨æœ€é…é–‹å§‹æ—¥ãŒå…¨ã¦ä¸€è‡´ã™ã‚‹ä½œæ¥­çµŒè·¯  
-                        - æ—¥ç¨‹ã«ä½™è£•ã®ãªã„çµŒè·¯ã§ã€é‡ç‚¹çš„ã«é€²æ—ç®¡ç†ãŒå¿…è¦  
-                - ã‚¬ãƒ³ãƒˆãƒãƒ£ãƒ¼ãƒˆ  
+                    - ì‹Æ€–Ú‚ÌŠ—v“ú”Aì‹ÆŠÔ‚ÌˆË‘¶ŠÖŒW‚ð•\‚·}  
+                    - Å’xŠJŽn“ú  
+                        - **’x‚­‚Æ‚à**‚±‚Ì“ú‚ÉŽn‚ß‚È‚¢‚ÆŠÔ‚É‡‚í‚È‚¢‚æ  
+                    - Å‘ŠJŽn“ú  
+                        - ‡’²‚È‚çA**‘‚¯‚ê‚Î**‚±‚Ì“ú‚©‚çŽn‚ß‚ç‚ê‚é‚æ  
+                    - —]—T“ú”  
+                        - Å’xŠJŽn“ú|Å‘ŠJŽn“ú  
+                    - ƒNƒŠƒeƒBƒJƒ‹ƒpƒX  
+                        - Å‘ŠJŽn“ú‚ÆÅ’xŠJŽn“ú‚ª‘S‚Äˆê’v‚·‚éì‹ÆŒo˜H  
+                        - “ú’ö‚É—]—T‚Ì‚È‚¢Œo˜H‚ÅAd“_“I‚Éi’»ŠÇ—‚ª•K—v  
+                - ƒKƒ“ƒgƒ`ƒƒ[ƒg  
                 - EVM  
-                    - æ¦‚è¦  
+                    - ŠT—v  
                         - Earned Value Management  
-                            - è‹±å˜èªžï¼šEarn  
-                                - ç¨¼ã  
-                        - é€²è¡Œä¸­ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆã®ç¾é”æˆåº¦ã‚’å®šé‡åŒ–ã™ã‚‹æ‰‹æ³•  
-                            - ã‚³ã‚¹ãƒˆã¨ã‚¹ã‚±ã‚¸ãƒ¥ãƒ¼ãƒ«ã‚’ã€ä¸€åº¦ã«æŠŠæ¡ã§ãã‚‹ï¼  
-                    - æŒ‡æ¨™  
+                            - ‰p’PŒêFEarn  
+                                - ‰Ò‚®  
+                        - is’†ƒvƒƒWƒFƒNƒg‚ÌŒ»’B¬“x‚ð’è—Ê‰»‚·‚éŽè–@  
+                            - ƒRƒXƒg‚ÆƒXƒPƒWƒ…[ƒ‹‚ðAˆê“x‚É”cˆ¬‚Å‚«‚éI  
+                    - Žw•W  
                         - BAC  
-                            - Budget At Completionï¼šå®Œæˆæ™‚ç·äºˆç®—  
-                                - è‹±å˜èªžï¼šBudget  
-                                    - äºˆç®—  
+                            - Budget At CompletionFŠ®¬Žž‘—\ŽZ  
+                                - ‰p’PŒêFBudget  
+                                    - —\ŽZ  
                         - PV  
-                            - Planed Valueï¼šå‡ºæ¥é«˜è¨ˆç”»å€¤  
-                                - ãã®æ™‚ç‚¹ã¾ã§ã«å®Œäº†äºˆå®šã®æˆæžœç‰©ã®ä¾¡å€¤[å††]  
-                                    - ex) æˆæžœç‰©200ä¸‡å††Ã—äºˆå®šé€²æ—50%ï¼  
-                                        ç¾äºˆå®šä¾¡å€¤100ä¸‡å††  
+                            - Planed ValueFo—ˆ‚Œv‰æ’l  
+                                - ‚»‚ÌŽž“_‚Ü‚Å‚ÉŠ®—¹—\’è‚Ì¬‰Ê•¨‚Ì‰¿’l[‰~]  
+                                    - ex) ¬‰Ê•¨200–œ‰~~—\’èi’»50%  
+                                        Œ»—\’è‰¿’l100–œ‰~  
                         - EV  
-                            - Earned Valueï¼šå‡ºæ¥é«˜å®Ÿç¸¾å€¤  
-                                - ãã®æ™‚ç‚¹ã¾ã§ã«å®Œäº†ã—ãŸæˆæžœç‰©ã®ä¾¡å€¤[å††]  
-                                    - ex) æˆæžœç‰©200ä¸‡å††Ã—é€²æ—20%ï¼  
-                                        ç¾ä¾¡å€¤40ä¸‡å††  
+                            - Earned ValueFo—ˆ‚ŽÀÑ’l  
+                                - ‚»‚ÌŽž“_‚Ü‚Å‚ÉŠ®—¹‚µ‚½¬‰Ê•¨‚Ì‰¿’l[‰~]  
+                                    - ex) ¬‰Ê•¨200–œ‰~~i’»20%  
+                                        Œ»‰¿’l40–œ‰~  
                         - AC  
-                            - Actual Costï¼šå®Ÿã‚³ã‚¹ãƒˆ  
-                                - å®Ÿéš›ã«ç™ºç”Ÿã—ãŸã‚³ã‚¹ãƒˆç·é¡[å††]  
-                                    - ex) ç¾ã‚³ã‚¹ãƒˆ80ä¸‡å††  
+                            - Actual CostFŽÀƒRƒXƒg  
+                                - ŽÀÛ‚É”­¶‚µ‚½ƒRƒXƒg‘Šz[‰~]  
+                                    - ex) Œ»ƒRƒXƒg80–œ‰~  
                         - SV  
-                            - Schedule Varianceï¼šã‚¹ã‚±ã‚¸ãƒ¥ãƒ¼ãƒ«å·®ç•°  
+                            - Schedule VarianceFƒXƒPƒWƒ…[ƒ‹·ˆÙ  
                                 - EV-PV  
-                                    - æ­£ï¼šé †èª¿ã€è² ï¼šé…ã‚Œï¼  
+                                    - ³F‡’²A•‰F’x‚êI  
                         - CV  
-                            - Cost Varianceï¼šã‚³ã‚¹ãƒˆå·®ç•°  
+                            - Cost VarianceFƒRƒXƒg·ˆÙ  
                                 - EV-AC  
-                                    - æ­£ï¼šæ­£å¸¸ã€è² ï¼šé«˜ã‚³ã‚¹ãƒˆï¼  
-                    - ä¾‹  
-                        - ã€æ¡ˆä»¶ã€‘ å·¥æœŸï¼–ã‹æœˆã€äºˆç®—200ä¸‡å††  
-                            ã€ï¼“ã‹æœˆç›®äºˆå®šã€‘ é€²æ—50%ã€ã‚³ã‚¹ãƒˆ100ä¸‡å††  
-                            ã€ï¼“ã‹æœˆç›®å®Ÿç¸¾ã€‘ é€²æ—20%ã€ã‚³ã‚¹ãƒˆ80ä¸‡å††  
-                            - PVï¼200ä¸‡å††Ã—50%ï¼100ä¸‡å††  
-                                EVï¼200ä¸‡å††Ã—20%ï¼40ä¸‡å††  
-                                ACï¼80ä¸‡å††  
+                                    - ³F³íA•‰F‚ƒRƒXƒgI  
+                    - —á  
+                        - yˆÄŒz HŠú‚U‚©ŒŽA—\ŽZ200–œ‰~  
+                            y‚R‚©ŒŽ–Ú—\’èz i’»50%AƒRƒXƒg100–œ‰~  
+                            y‚R‚©ŒŽ–ÚŽÀÑz i’»20%AƒRƒXƒg80–œ‰~  
+                            - PV200–œ‰~~50%100–œ‰~  
+                                EV200–œ‰~~20%40–œ‰~  
+                                AC80–œ‰~  
                                   
-                                SVï¼EV-PVï¼40-100ï¼-60ä¸‡å††  
-                                CVï¼EV-ACï¼40-80ï¼-40ä¸‡å††  
+                                SVEV-PV40-100-60–œ‰~  
+                                CVEV-AC40-80-40–œ‰~  
                                   
-                                â†’ãŠã›ã‡ã—ã€ã‚³ã‚¹ãƒˆã‚‚ã‹ã‘ã™ãŽï¼  
-    - ï¼–ï¼Žè¦ä»¶å®šç¾©ã¨ã‚·ã‚¹ãƒ†ãƒ è¨­è¨ˆ  
-        - ã‚·ã‚¹ãƒ†ãƒ æ–¹å¼è¨­è¨ˆ  
-            - ã‚·ã‚¹ãƒ†ãƒ ã«å¿…è¦ã¨ã•ã‚Œã‚‹å„è¦ä»¶ã‚’H/Wã€S/Wã€åˆ©ç”¨è€…ã«ã‚ˆã‚‹æ‰‹ä½œæ¥­ã®ã„ãšã‚Œã«ã‚ˆã£ã¦å®Ÿç¾ã™ã‚‹ã‹ã‚’ç¢ºå®šã—ã€å…¨ä½“ã®æ§‹æˆã‚„æ§‹é€ ã‚’æ±ºå®šã™ã‚‹ã€‚  
-        - ã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢æ–¹å¼è¨­è¨ˆ  
-            - ã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢è¦ä»¶å®šç¾©æ›¸ã‚’åŸºã«ï¼Œé–‹ç™ºå´ã®è¦–ç‚¹ã‹ã‚‰ã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢ã®æ§‹é€ ã¨ã‚³ãƒ³ãƒãƒ¼ãƒãƒ³ãƒˆã®è¨­è¨ˆã‚’è¡Œã†ã“ã¨ï¼Œã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢ã‚’ã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢ã‚³ãƒ³ãƒãƒ¼ãƒãƒ³ãƒˆï¼ˆãƒ—ãƒ­ã‚°ãƒ©ãƒ ï¼‰ã¾ã§åˆ†å‰²ã—ï¼Œå„ã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢ã‚³ãƒ³ãƒãƒ¼ãƒãƒ³ãƒˆã®æ©Ÿèƒ½ï¼Œã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢ã‚³ãƒ³ãƒãƒãƒ³ãƒˆé–“ã®å‡¦ç†ã®æ‰‹é †ã‚„é–¢ä¿‚ã‚’æ˜Žç¢ºã«ã™ã‚‹ã“ã¨ï¼Œã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢æ–¹å¼è¨­è¨ˆæ›¸ä½œæˆã®æ§‹æˆï¼Œè¨˜è¿°ä¸Šã®ç•™æ„äº‹é …ã‚’ç†è§£ã™ã‚‹ã€‚  
-            - â‰’ã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢åŸºæœ¬è¨­è¨ˆ  
-        - è¦ä»¶å®šç¾©  
-            - è¦ä»¶å®šç¾©  
-                - è¦æ±‚å†…å®¹ã‚’ä½“ç³»çš„ã«åˆ†æžã—ã€è¨­è¨ˆç€æ‰‹ã®ãŸã‚ã®æ•´ç†ã‚’è¡Œã†ã€‚  
-                - æ¤œè¨Žé …ç›®  
-                    - å¤–éƒ¨ã‚¤ãƒ³ã‚¿ãƒ¼ãƒ•ã‚§ãƒ¼ã‚¹ä»•æ§˜  
-                        - å¤–éƒ¨ã®ã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢ã«å¯¾å¿œã™ã‚‹ä»•æ§˜  
-                    - ãƒ’ãƒ¥ãƒ¼ãƒžãƒ³ã‚¤ãƒ³ã‚¿ãƒ¼ãƒ•ã‚§ãƒ¼ã‚¹  
-                        - ãƒ¦ãƒ¼ã‚¶ãƒ¼ã®ã‚¤ãƒ³ã‚¿ãƒ¼ãƒ•ã‚§ãƒ¼ã‚¹ã«å¯¾ã™ã‚‹ä»•æ§˜  
-                    - æ€§èƒ½æ¡ä»¶  
-                    - ä¿¡é ¼æ€§ã€å®‰å…¨æ€§  
-                    - é–¢é€£æŠ€è¡“ã€è¦ç´ æŠ€è¡“ã®å‹•å‘èª¿æŸ»  
-                - è¦æ±‚å·¥å­¦  
-                    - è¦æ±‚ä»•æ§˜ã‚’æ±ºå®šã™ã‚‹ãƒ—ãƒ­ã‚»ã‚¹ã‚’å·¥å­¦çš„ã«å®šå¼åŒ–ã™ã‚‹æŠ€è¡“  
-                    - è¦æ±‚å†…å®¹ã‚’æ­£ç¢ºã«è¡¨ç¾ã€å…±æœ‰ã™ã‚‹æŠ€è¡“  
-                    - è¦æœ›>è¦æ±‚>è¦ä»¶(>ä»•æ§˜)  
-                    - è¦æœ›ï¼šdemands  
-                        - **é¡•åœ¨åŒ–ã—ã¦ãªã„è¦æ±‚(æ½œåœ¨çš„è¦æ±‚)**  
-                    - è¦æ±‚ï¼šrequirements  
-                        - **é¡•åœ¨åŒ–ã—ã€å…·ä½“æ€§ã‚’å¾—ãŸè¦æœ›**  
-                - ãƒ•ã‚£ã‚¸ãƒ“ãƒªãƒ†ã‚£ã‚¹ã‚¿ãƒ‡ã‚£  
-                    - feasibilityÂ studyï¼ˆå®Ÿç¾å¯èƒ½æ€§èª¿æŸ»ï¼‰  
-                        - è‹±å˜èªžï¼šfeasibility  
-                            - å®Ÿç¾å¯èƒ½æ€§  
-                    - è¦æ±‚ä»•æ§˜ãŒå®Ÿç¾å¯èƒ½ã«ã¤ã„ã¦ã®äº‹å‰æ¤œè¨Ž  
-                    - æ¤œè¨Žé …ç›®  
-                        - åˆ©ç”¨å¯èƒ½ãªãƒãƒ¼ãƒ‰ã‚¦ã‚§ã‚¢è³‡æº  
-                        - åˆ©ç”¨å¯èƒ½ãªé–‹ç™ºãƒªã‚½ãƒ¼ã‚¹  
-                        - åˆ©ç”¨å¯èƒ½ãªé–‹ç™ºæœŸé–“  
-                - æ©Ÿèƒ½è¦ä»¶ï¼éžæ©Ÿèƒ½è¦ä»¶  
-                    - æ©Ÿèƒ½è¦ä»¶  
-                        - ã‚·ã‚¹ãƒ†ãƒ ã®å¤–éƒ¨ä»•æ§˜ã¨ã—ã¦æ±‚ã‚ã‚‰ã‚Œã‚‹æ©Ÿèƒ½ã«é–¢ã™ã‚‹ä»•æ§˜  
-                        - ex) ãƒ“ãƒ‡ã‚ªãƒ¬ã‚³ãƒ¼ãƒ€  
-                            - éŒ²ç”»æ©Ÿèƒ½  
-                            - å†ç”Ÿæ©Ÿèƒ½  
-                            - ç•ªçµ„éŒ²ç”»æ©Ÿèƒ½  
-                    - éžæ©Ÿèƒ½è¦ä»¶  
-                        - ãƒ¦ãƒ¼ã‚¶ã®è¦æ±‚ã«ç›´æŽ¥ã¯å¯¾å¿œã—ãªã„ä»•æ§˜åŠã³åˆ¶ç´„äº‹é …  
-                        - ex) ãƒ“ãƒ‡ã‚ªãƒ¬ã‚³ãƒ¼ãƒ€  
-                            - ä»•æ§˜ã‚’æº€ãŸã™ãŸã‚ã®ãƒªã‚½ãƒ¼ã‚¹  
-                                - ãƒ¡ãƒ¢ãƒªå®¹é‡  
-                                - CPUã®å‡¦ç†èƒ½åŠ›  
-                            - ä½¿ç”¨ä¸Šã®åˆ¶ç´„  
-                                - ã‚·ã‚¹ãƒ†ãƒ ãƒã‚¹è»¢é€èƒ½åŠ›ã®åˆ¶ç´„ä¸Šã€ã€Œç¾åœ¨æ”¾é€ä¸­ã®ç•ªçµ„éŒ²ç”»ã€ã¨ã€ŒéŒ²ç”»ç•ªçµ„å†ç”Ÿã€ã¯åŒæ™‚ã«è¡Œãˆãªã„  
-            - ãƒˆãƒ¬ãƒ¼ãƒ‰ã‚ªãƒ•å•é¡Œ  
-                - ãƒãƒ¼ãƒ‰ã‚¦ã‚§ã‚¢ or ã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢  
-                    - ãƒãƒ¼ãƒ‰ã‚¦ã‚§ã‚¢ã§å®Ÿç¾  
-                        - â—‹ï¼šå‡¦ç†é«˜é€ŸåŒ–  
-                        - Ã—ï¼šãƒãƒ¼ãƒ‰ã‚¦ã‚§ã‚¢ã‚³ã‚¹ãƒˆå¢—å¤§  
-                        - Ã—ï¼šæ¶ˆè²»é›»åŠ›å¢—å¤§  
-                        - Ã—ï¼šè£…ç½®ã®å¤§åž‹åŒ–  
-                    - ã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢ã§å®Ÿç¾  
-                        - â—‹ï¼šã‚³ã‚¹ãƒˆå°  
-                        - æ¤œè¨Žé …ç›®  
-                            - ä¸Žãˆã‚‰ã‚ŒãŸHWã«ãŠã‘ã‚‹SWã®å®Ÿç¾å¯èƒ½æ€§  
-                                - æ©Ÿèƒ½é¢  
-                                - æ€§èƒ½é¢  
-                            - æ­è¼‰æ©Ÿèƒ½ãŒä»–å‡¦ç†ã«åŠã¼ã™å½±éŸ¿  
-                            - é–‹ç™ºã‚³ã‚¹ãƒˆ  
-                - ãƒãƒ¼ãƒ‰ã‚¦ã‚§ã‚¢è¨­è¨ˆã«ãŠã‘ã‚‹ãƒˆãƒ¬ãƒ¼ãƒ‰ã‚ªãƒ•  
-                    - å“è³ªâ‡”ã‚³ã‚¹ãƒˆ  
-                        - å¤šæ©Ÿèƒ½ãªã‚‚ã®ã¯ã‚³ã‚¹ãƒˆãŒé«˜ããªã‚‹  
-                        - ex) ä¿¡é ¼æ€§ã‚’ä¸Šã’ã‚‹ãŸã‚ã«èª¤ã‚Šè¨‚æ­£æ©Ÿèƒ½ã‚’æŒã¤ãƒ¡ãƒ¢ãƒªã«ã™ã‚‹  
-                            â†’å†—é•·ãƒ“ãƒƒãƒˆãŒå¤šã„ã®ã§ã€ãƒ¡ãƒ¢ãƒªã«ã‹ã‹ã‚‹ã‚³ã‚¹ãƒˆå¢—å¤§  
-                    - æ¶ˆè²»é›»åŠ›â‡”å‹•ä½œé€Ÿåº¦  
-                        - ex) å‹•ä½œå‘¨æ³¢æ•°ã‚’ä¸Šã’ã‚Œã°å‹•ä½œé€Ÿåº¦ãŒä¸ŠãŒã‚‹  
-                            â†’æ¶ˆè²»é›»åŠ›å¢—å¤§  
-                - ã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢è¨­è¨ˆã«ãŠã‘ã‚‹ãƒˆãƒ¬ãƒ¼ãƒ‰ã‚ªãƒ•  
-                    - æ©Ÿèƒ½æ€§  
-                        - å¿…è¦æ€§ã«åˆè‡´ã™ã‚‹æ©Ÿèƒ½ã‚’æä¾›  
-                    - ä¿¡é ¼æ€§  
-                        - æŒ‡å®šæ¡ä»¶ä¸‹ã«ãŠã‘ã‚‹ã€æŒ‡å®šã•ã‚ŒãŸé”æˆæ°´æº–ã‚’ç¶­æŒ  
-                    - ä½¿ç”¨æ€§  
-                        - æŒ‡å®šæ¡ä»¶ä¸‹ã§ç†è§£/ç¿’å¾—/åˆ©ç”¨ã§ãã€é­…åŠ›çš„ã§ã‚ã‚‹  
-                    - åŠ¹çŽ‡æ€§  
-                        - ä½¿ç”¨è³‡æºé‡ã«å¯¾ã—ã¦é©åˆ‡ãªæ€§èƒ½ã‚’æä¾›  
-                    - ä¿å®ˆæ€§  
-                        - ä¿®æ­£ã®ã—ã‚„ã™ã•  
-                    - ç§»æ¤æ€§  
-                        - ä»–ç’°å¢ƒã¸ç§»ã—ã‚„ã™ã•  
-                - ã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢å“è³ªç‰¹æ€§ï¼ JIS X 25010  
-                    - æ©Ÿèƒ½é©åˆæ€§  
-                        - æ˜Žç¤ºã•ã‚ŒãŸçŠ¶æ³ä¸‹ã§ä½¿ç”¨ã™ã‚‹ã¨ãã€**æ˜Žç¤ºçš„ãƒ‹ãƒ¼ã‚ºåŠã³æš—é»™ã®ãƒ‹ãƒ¼ã‚ºã‚’æº€è¶³ã•ã›ã‚‹æ©Ÿèƒ½ã‚’ã€è£½å“åˆã¯ã‚·ã‚¹ãƒ†ãƒ ãŒæä¾›ã™ã‚‹**åº¦åˆã„ã€‚  
-                    - ä¿¡é ¼æ€§  
-                        - **æ˜Žç¤ºã•ã‚ŒãŸæ™‚é–“å¸¯**ã§ã€**æ˜Žç¤ºã•ã‚ŒãŸæ¡ä»¶ä¸‹**ã«ã€ã‚·ã‚¹ãƒ†ãƒ ã€è£½å“åˆã¯æ§‹æˆè¦ç´ ãŒ**æ˜Žç¤ºã•ã‚ŒãŸæ©Ÿèƒ½ã‚’å®Ÿè¡Œã™ã‚‹**åº¦åˆã„ã€‚  
-                    - æ€§èƒ½åŠ¹çŽ‡æ€§  
-                        - æ˜Žè¨˜ã•ã‚ŒãŸçŠ¶æ…‹(æ¡ä»¶)ã§ä½¿ç”¨ã™ã‚‹**è³‡æºã®é‡ã«é–¢ä¿‚ã™ã‚‹æ€§èƒ½**ã®åº¦åˆã„ã€‚  
-                    - ä½¿ç”¨æ€§  
-                        - æ˜Žç¤ºã•ã‚ŒãŸåˆ©ç”¨çŠ¶æ³ã«ãŠã„ã¦ã€æœ‰åŠ¹æ€§ã€åŠ¹çŽ‡æ€§åŠã³æº€è¶³æ€§ã‚’ã‚‚ã£ã¦æ˜Žç¤ºã•ã‚ŒãŸç›®æ¨™ã‚’é”æˆã™ã‚‹ãŸã‚ã«ã€æ˜Žç¤ºã•ã‚ŒãŸåˆ©ç”¨è€…ãŒè£½å“åˆã¯ã‚·ã‚¹ãƒ†ãƒ ã‚’**åˆ©ç”¨ã™ã‚‹ã“ã¨ãŒã§ãã‚‹**åº¦åˆã„ã€‚  
-                    - ã‚»ã‚­ãƒ¥ãƒªãƒ†ã‚£  
-                        - äººé–“åˆã¯ä»–ã®è£½å“è‹¥ã—ãã¯ã‚·ã‚¹ãƒ†ãƒ ãŒã€èªã‚ã‚‰ã‚ŒãŸæ¨©é™ã®ç¨®é¡žåŠã³æ°´æº–ã«å¿œã˜ãŸãƒ‡ãƒ¼ã‚¿ã‚¢ã‚¯ã‚»ã‚¹ã®åº¦åˆã„ã‚’ã‚‚ã¦ã‚‹ã‚ˆã†ã«ã€è£½å“åˆã¯ã‚·ã‚¹ãƒ†ãƒ ãŒ**æƒ…å ±åŠã³ãƒ‡ãƒ¼ã‚¿ã‚’ä¿è­·ã™ã‚‹**åº¦åˆã„ã€‚  
-                    - äº’æ›æ€§  
-                        - åŒã˜ãƒãƒ¼ãƒ‰ã‚¦ã‚§ã‚¢ç’°å¢ƒåˆã¯ã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢ç’°å¢ƒã‚’å…±æœ‰ã™ã‚‹é–“ã€è£½å“ã€ã‚·ã‚¹ãƒ†ãƒ åˆã¯æ§‹æˆè¦ç´ ãŒ**ä»–ã®è£½å“ã€ã‚·ã‚¹ãƒ†ãƒ åˆã¯æ§‹æˆè¦ç´ ã®æƒ…å ±ã‚’äº¤æ›ã™ã‚‹ã“ã¨ãŒã§ãã‚‹**åº¦åˆã„ã€åŠã³/åˆã¯ãã®è¦æ±‚ã•ã‚ŒãŸ**æ©Ÿèƒ½ã‚’å®Ÿè¡Œã™ã‚‹ã“ã¨ãŒã§ãã‚‹**åº¦åˆã„ã€‚  
-                    - ä¿å®ˆæ€§  
-                        - æ„å›³ã—ãŸä¿å®ˆè€…ã«ã‚ˆã£ã¦ã€è£½å“åˆã¯ã‚·ã‚¹ãƒ†ãƒ ãŒ**ä¿®æ­£ã™ã‚‹ã“ã¨ãŒã§ãã‚‹**æœ‰åŠ¹æ€§åŠã³åŠ¹çŽ‡æ€§ã®åº¦åˆã„ã€‚  
-                    - ç§»æ¤æ€§  
-                        - ä¸€ã¤ã®ãƒãƒ¼ãƒ‰ã‚¦ã‚§ã‚¢ã€ã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢åˆã¯ä»–ã®é‹ç”¨ç’°å¢ƒè‹¥ã—ãã¯åˆ©ç”¨ç’°å¢ƒã‹ã‚‰**ãã®ä»–ã®ç’°å¢ƒã«ã€ã‚·ã‚¹ãƒ†ãƒ ã€è£½å“åˆã¯æ§‹æˆè¦ç´ ã‚’ç§»ã™ã“ã¨ãŒã§ãã‚‹**æœ‰åŠ¹æ€§åŠã³åŠ¹çŽ‡æ€§ã®åº¦åˆã„ã€‚  
-            - å‡¦ç†é€Ÿåº¦/ãƒ‡ãƒ¼ã‚¿å®¹é‡è¦‹ç©ã‚Š  
-                - CPUå‡¦ç†æ™‚é–“[s]  
-                    - MIPSå€¤  
+                                ¨‚¨‚¹‚¥‚µAƒRƒXƒg‚à‚©‚¯‚·‚¬I  
+    - ‚UD—vŒ’è‹`‚ÆƒVƒXƒeƒ€ÝŒv  
+        - ƒVƒXƒeƒ€•ûŽ®ÝŒv  
+            - ƒVƒXƒeƒ€‚É•K—v‚Æ‚³‚ê‚éŠe—vŒ‚ðH/WAS/WA—˜—pŽÒ‚É‚æ‚éŽèì‹Æ‚Ì‚¢‚¸‚ê‚É‚æ‚Á‚ÄŽÀŒ»‚·‚é‚©‚ðŠm’è‚µA‘S‘Ì‚Ì\¬‚â\‘¢‚ðŒˆ’è‚·‚éB  
+        - ƒ\ƒtƒgƒEƒFƒA•ûŽ®ÝŒv  
+            - ƒ\ƒtƒgƒEƒFƒA—vŒ’è‹`‘‚ðŠî‚ÉCŠJ”­‘¤‚ÌŽ‹“_‚©‚çƒ\ƒtƒgƒEƒFƒA‚Ì\‘¢‚ÆƒRƒ“ƒ|[ƒlƒ“ƒg‚ÌÝŒv‚ðs‚¤‚±‚ÆCƒ\ƒtƒgƒEƒFƒA‚ðƒ\ƒtƒgƒEƒFƒAƒRƒ“ƒ|[ƒlƒ“ƒgiƒvƒƒOƒ‰ƒ€j‚Ü‚Å•ªŠ„‚µCŠeƒ\ƒtƒgƒEƒFƒAƒRƒ“ƒ|[ƒlƒ“ƒg‚Ì‹@”\Cƒ\ƒtƒgƒEƒFƒAƒRƒ“ƒ|ƒlƒ“ƒgŠÔ‚Ìˆ—‚ÌŽè‡‚âŠÖŒW‚ð–¾Šm‚É‚·‚é‚±‚ÆCƒ\ƒtƒgƒEƒFƒA•ûŽ®ÝŒv‘ì¬‚Ì\¬C‹Lqã‚Ì—¯ˆÓŽ–€‚ð—‰ð‚·‚éB  
+            - àƒ\ƒtƒgƒEƒFƒAŠî–{ÝŒv  
+        - —vŒ’è‹`  
+            - —vŒ’è‹`  
+                - —v‹“à—e‚ð‘ÌŒn“I‚É•ªÍ‚µAÝŒv’…Žè‚Ì‚½‚ß‚Ì®—‚ðs‚¤B  
+                - ŒŸ“¢€–Ú  
+                    - ŠO•”ƒCƒ“ƒ^[ƒtƒF[ƒXŽd—l  
+                        - ŠO•”‚Ìƒ\ƒtƒgƒEƒFƒA‚É‘Î‰ž‚·‚éŽd—l  
+                    - ƒqƒ…[ƒ}ƒ“ƒCƒ“ƒ^[ƒtƒF[ƒX  
+                        - ƒ†[ƒU[‚ÌƒCƒ“ƒ^[ƒtƒF[ƒX‚É‘Î‚·‚éŽd—l  
+                    - «”\ðŒ  
+                    - M—Š«AˆÀ‘S«  
+                    - ŠÖ˜A‹ZpA—v‘f‹Zp‚Ì“®Œü’²¸  
+                - —v‹HŠw  
+                    - —v‹Žd—l‚ðŒˆ’è‚·‚éƒvƒƒZƒX‚ðHŠw“I‚É’èŽ®‰»‚·‚é‹Zp  
+                    - —v‹“à—e‚ð³Šm‚É•\Œ»A‹¤—L‚·‚é‹Zp  
+                    - —v–]>—v‹>—vŒ(>Žd—l)  
+                    - —v–]Fdemands  
+                        - **Œ°Ý‰»‚µ‚Ä‚È‚¢—v‹(öÝ“I—v‹)**  
+                    - —v‹Frequirements  
+                        - **Œ°Ý‰»‚µA‹ï‘Ì«‚ð“¾‚½—v–]**  
+                - ƒtƒBƒWƒrƒŠƒeƒBƒXƒ^ƒfƒB  
+                    - feasibility?studyiŽÀŒ»‰Â”\«’²¸j  
+                        - ‰p’PŒêFfeasibility  
+                            - ŽÀŒ»‰Â”\«  
+                    - —v‹Žd—l‚ªŽÀŒ»‰Â”\‚É‚Â‚¢‚Ä‚ÌŽ–‘OŒŸ“¢  
+                    - ŒŸ“¢€–Ú  
+                        - —˜—p‰Â”\‚Èƒn[ƒhƒEƒFƒAŽ‘Œ¹  
+                        - —˜—p‰Â”\‚ÈŠJ”­ƒŠƒ\[ƒX  
+                        - —˜—p‰Â”\‚ÈŠJ”­ŠúŠÔ  
+                - ‹@”\—vŒ^”ñ‹@”\—vŒ  
+                    - ‹@”\—vŒ  
+                        - ƒVƒXƒeƒ€‚ÌŠO•”Žd—l‚Æ‚µ‚Ä‹‚ß‚ç‚ê‚é‹@”\‚ÉŠÖ‚·‚éŽd—l  
+                        - ex) ƒrƒfƒIƒŒƒR[ƒ_  
+                            - ˜^‰æ‹@”\  
+                            - Ä¶‹@”\  
+                            - ”Ô‘g˜^‰æ‹@”\  
+                    - ”ñ‹@”\—vŒ  
+                        - ƒ†[ƒU‚Ì—v‹‚É’¼Ú‚Í‘Î‰ž‚µ‚È‚¢Žd—l‹y‚Ñ§–ñŽ–€  
+                        - ex) ƒrƒfƒIƒŒƒR[ƒ_  
+                            - Žd—l‚ð–ž‚½‚·‚½‚ß‚ÌƒŠƒ\[ƒX  
+                                - ƒƒ‚ƒŠ—e—Ê  
+                                - CPU‚Ìˆ—”\—Í  
+                            - Žg—pã‚Ì§–ñ  
+                                - ƒVƒXƒeƒ€ƒoƒX“]‘—”\—Í‚Ì§–ñãAuŒ»Ý•ú‘—’†‚Ì”Ô‘g˜^‰æv‚Æu˜^‰æ”Ô‘gÄ¶v‚Í“¯Žž‚És‚¦‚È‚¢  
+            - ƒgƒŒ[ƒhƒIƒt–â‘è  
+                - ƒn[ƒhƒEƒFƒA or ƒ\ƒtƒgƒEƒFƒA  
+                    - ƒn[ƒhƒEƒFƒA‚ÅŽÀŒ»  
+                        - ›Fˆ—‚‘¬‰»  
+                        - ~Fƒn[ƒhƒEƒFƒAƒRƒXƒg‘‘å  
+                        - ~FÁ”ï“d—Í‘‘å  
+                        - ~F‘•’u‚Ì‘åŒ^‰»  
+                    - ƒ\ƒtƒgƒEƒFƒA‚ÅŽÀŒ»  
+                        - ›FƒRƒXƒg¬  
+                        - ŒŸ“¢€–Ú  
+                            - —^‚¦‚ç‚ê‚½HW‚É‚¨‚¯‚éSW‚ÌŽÀŒ»‰Â”\«  
+                                - ‹@”\–Ê  
+                                - «”\–Ê  
+                            - “‹Ú‹@”\‚ª‘¼ˆ—‚É‹y‚Ú‚·‰e‹¿  
+                            - ŠJ”­ƒRƒXƒg  
+                - ƒn[ƒhƒEƒFƒAÝŒv‚É‚¨‚¯‚éƒgƒŒ[ƒhƒIƒt  
+                    - •iŽ¿ÌƒRƒXƒg  
+                        - ‘½‹@”\‚È‚à‚Ì‚ÍƒRƒXƒg‚ª‚‚­‚È‚é  
+                        - ex) M—Š«‚ðã‚°‚é‚½‚ß‚ÉŒë‚è’ù³‹@”\‚ðŽ‚Âƒƒ‚ƒŠ‚É‚·‚é  
+                            ¨ç’·ƒrƒbƒg‚ª‘½‚¢‚Ì‚ÅAƒƒ‚ƒŠ‚É‚©‚©‚éƒRƒXƒg‘‘å  
+                    - Á”ï“d—ÍÌ“®ì‘¬“x  
+                        - ex) “®ìŽü”g”‚ðã‚°‚ê‚Î“®ì‘¬“x‚ªã‚ª‚é  
+                            ¨Á”ï“d—Í‘‘å  
+                - ƒ\ƒtƒgƒEƒFƒAÝŒv‚É‚¨‚¯‚éƒgƒŒ[ƒhƒIƒt  
+                    - ‹@”\«  
+                        - •K—v«‚É‡’v‚·‚é‹@”\‚ð’ñ‹Ÿ  
+                    - M—Š«  
+                        - Žw’èðŒ‰º‚É‚¨‚¯‚éAŽw’è‚³‚ê‚½’B¬…€‚ðˆÛŽ  
+                    - Žg—p«  
+                        - Žw’èðŒ‰º‚Å—‰ð/K“¾/—˜—p‚Å‚«A–£—Í“I‚Å‚ ‚é  
+                    - Œø—¦«  
+                        - Žg—pŽ‘Œ¹—Ê‚É‘Î‚µ‚Ä“KØ‚È«”\‚ð’ñ‹Ÿ  
+                    - •ÛŽç«  
+                        - C³‚Ì‚µ‚â‚·‚³  
+                    - ˆÚA«  
+                        - ‘¼ŠÂ‹«‚ÖˆÚ‚µ‚â‚·‚³  
+                - ƒ\ƒtƒgƒEƒFƒA•iŽ¿“Á«—JIS X 25010  
+                    - ‹@”\“K‡«  
+                        - –¾Ž¦‚³‚ê‚½ó‹µ‰º‚ÅŽg—p‚·‚é‚Æ‚«A**–¾Ž¦“Iƒj[ƒY‹y‚ÑˆÃ–Ù‚Ìƒj[ƒY‚ð–ž‘«‚³‚¹‚é‹@”\‚ðA»•i–”‚ÍƒVƒXƒeƒ€‚ª’ñ‹Ÿ‚·‚é**“x‡‚¢B  
+                    - M—Š«  
+                        - **–¾Ž¦‚³‚ê‚½ŽžŠÔ‘Ñ**‚ÅA**–¾Ž¦‚³‚ê‚½ðŒ‰º**‚ÉAƒVƒXƒeƒ€A»•i–”‚Í\¬—v‘f‚ª**–¾Ž¦‚³‚ê‚½‹@”\‚ðŽÀs‚·‚é**“x‡‚¢B  
+                    - «”\Œø—¦«  
+                        - –¾‹L‚³‚ê‚½ó‘Ô(ðŒ)‚ÅŽg—p‚·‚é**Ž‘Œ¹‚Ì—Ê‚ÉŠÖŒW‚·‚é«”\**‚Ì“x‡‚¢B  
+                    - Žg—p«  
+                        - –¾Ž¦‚³‚ê‚½—˜—pó‹µ‚É‚¨‚¢‚ÄA—LŒø«AŒø—¦«‹y‚Ñ–ž‘««‚ð‚à‚Á‚Ä–¾Ž¦‚³‚ê‚½–Ú•W‚ð’B¬‚·‚é‚½‚ß‚ÉA–¾Ž¦‚³‚ê‚½—˜—pŽÒ‚ª»•i–”‚ÍƒVƒXƒeƒ€‚ð**—˜—p‚·‚é‚±‚Æ‚ª‚Å‚«‚é**“x‡‚¢B  
+                    - ƒZƒLƒ…ƒŠƒeƒB  
+                        - lŠÔ–”‚Í‘¼‚Ì»•iŽá‚µ‚­‚ÍƒVƒXƒeƒ€‚ªA”F‚ß‚ç‚ê‚½Œ ŒÀ‚ÌŽí—Þ‹y‚Ñ…€‚É‰ž‚¶‚½ƒf[ƒ^ƒAƒNƒZƒX‚Ì“x‡‚¢‚ð‚à‚Ä‚é‚æ‚¤‚ÉA»•i–”‚ÍƒVƒXƒeƒ€‚ª**î•ñ‹y‚Ñƒf[ƒ^‚ð•ÛŒì‚·‚é**“x‡‚¢B  
+                    - ŒÝŠ·«  
+                        - “¯‚¶ƒn[ƒhƒEƒFƒAŠÂ‹«–”‚Íƒ\ƒtƒgƒEƒFƒAŠÂ‹«‚ð‹¤—L‚·‚éŠÔA»•iAƒVƒXƒeƒ€–”‚Í\¬—v‘f‚ª**‘¼‚Ì»•iAƒVƒXƒeƒ€–”‚Í\¬—v‘f‚Ìî•ñ‚ðŒðŠ·‚·‚é‚±‚Æ‚ª‚Å‚«‚é**“x‡‚¢A‹y‚Ñ/–”‚Í‚»‚Ì—v‹‚³‚ê‚½**‹@”\‚ðŽÀs‚·‚é‚±‚Æ‚ª‚Å‚«‚é**“x‡‚¢B  
+                    - •ÛŽç«  
+                        - ˆÓ}‚µ‚½•ÛŽçŽÒ‚É‚æ‚Á‚ÄA»•i–”‚ÍƒVƒXƒeƒ€‚ª**C³‚·‚é‚±‚Æ‚ª‚Å‚«‚é**—LŒø«‹y‚ÑŒø—¦«‚Ì“x‡‚¢B  
+                    - ˆÚA«  
+                        - ˆê‚Â‚Ìƒn[ƒhƒEƒFƒAAƒ\ƒtƒgƒEƒFƒA–”‚Í‘¼‚Ì‰^—pŠÂ‹«Žá‚µ‚­‚Í—˜—pŠÂ‹«‚©‚ç**‚»‚Ì‘¼‚ÌŠÂ‹«‚ÉAƒVƒXƒeƒ€A»•i–”‚Í\¬—v‘f‚ðˆÚ‚·‚±‚Æ‚ª‚Å‚«‚é**—LŒø«‹y‚ÑŒø—¦«‚Ì“x‡‚¢B  
+            - ˆ—‘¬“x/ƒf[ƒ^—e—ÊŒ©Ï‚è  
+                - CPUˆ—ŽžŠÔ[s]  
+                    - MIPS’l  
                         - Million Instructions Per Second  
-                        - ï¼‘ç§’å½“ãŸã‚Šã®å®Ÿè¡Œå‘½ä»¤æ•°(100ä¸‡å‘½ä»¤)  
-                    - å‡¦ç†ã«å¿…è¦ãªå‘½ä»¤æ•°Ã·ï¼ˆMIPSÃ—100000ï¼‰  
-                - ãƒ‡ãƒ¼ã‚¿ä¼é€æ™‚é–“[s]  
-                    - ãƒ‡ãƒ¼ã‚¿é‡[bit]Ã·ï¼ˆå›žç·šé€Ÿåº¦[bps]Ã—ä¼é€åŠ¹çŽ‡[%]ï¼‰  
-                - éŸ³å£°ãƒ‡ãƒ¼ã‚¿é‡[bps]  
-                    - ï¼‘ã‚µãƒ³ãƒ—ãƒ«å½“ãŸã‚Šã®ãƒ“ãƒƒãƒˆæ•°[bit/sample]Ã—ã‚µãƒ³ãƒ—ãƒªãƒ³ã‚°å‘¨æ³¢æ•°[Hz]Ã—ãƒãƒ£ãƒ³ãƒãƒ«æ•°[ch]  
-                        - ãƒ¢ãƒŽãƒ©ãƒ«éŸ³å£°ï¼šãƒãƒ£ãƒ³ãƒãƒ«æ•°ï¼‘  
-                        - ã‚¹ãƒ†ãƒ¬ã‚ªéŸ³å£°ï¼šãƒãƒ£ãƒ³ãƒãƒ«æ•°ï¼’  
-                    - ex) é›»è©±  
-                        - 8[bit/sample]Ã—8[kHz]Ã—1[ch]  
-                            ï¼64000[bit/s]  
-                            ï¼8000[byte/s]  
-                    - ex) ã‚ªãƒ¼ãƒ‡ã‚£ã‚ª  
-                        - 16[bit/sample]Ã—44.1[kHz]Ã—2[ch]  
-                            ï¼1,411,200[bit/s]  
-                            ï¼176,000[byte/s]  
-                - ç”»åƒãƒ‡ãƒ¼ã‚¿é‡[bit/æžš]  
-                    - ï¼‘ãƒ”ã‚¯ã‚»ãƒ«å½“ãŸã‚Šã®ãƒ“ãƒƒãƒˆæ•°[bit/pixel]  
-                        Ã—æ¨ªæ–¹å‘ãƒ”ã‚¯ã‚»ãƒ«æ•°[pixel]  
-                        Ã—ç¸¦æ–¹å‘ãƒ”ã‚¯ã‚»ãƒ«æ•°[pixel]  
-                        - ï¼‘ãƒ”ã‚¯ã‚»ãƒ«å½“ãŸã‚Šã®ãƒ“ãƒƒãƒˆæ•°ï¼è¡¨ç¾å¯èƒ½ãªè‰²æ•°  
+                        - ‚P•b“–‚½‚è‚ÌŽÀs–½—ß”(100–œ–½—ß)  
+                    - ˆ—‚É•K—v‚È–½—ß”€iMIPS~100000j  
+                - ƒf[ƒ^“`‘—ŽžŠÔ[s]  
+                    - ƒf[ƒ^—Ê[bit]€i‰ñü‘¬“x[bps]~“`‘—Œø—¦[%]j  
+                - ‰¹ºƒf[ƒ^—Ê[bps]  
+                    - ‚PƒTƒ“ƒvƒ‹“–‚½‚è‚Ìƒrƒbƒg”[bit/sample]~ƒTƒ“ƒvƒŠƒ“ƒOŽü”g”[Hz]~ƒ`ƒƒƒ“ƒlƒ‹”[ch]  
+                        - ƒ‚ƒmƒ‰ƒ‹‰¹ºFƒ`ƒƒƒ“ƒlƒ‹”‚P  
+                        - ƒXƒeƒŒƒI‰¹ºFƒ`ƒƒƒ“ƒlƒ‹”‚Q  
+                    - ex) “d˜b  
+                        - 8[bit/sample]~8[kHz]~1[ch]  
+                            64000[bit/s]  
+                            8000[byte/s]  
+                    - ex) ƒI[ƒfƒBƒI  
+                        - 16[bit/sample]~44.1[kHz]~2[ch]  
+                            1,411,200[bit/s]  
+                            176,000[byte/s]  
+                - ‰æ‘œƒf[ƒ^—Ê[bit/–‡]  
+                    - ‚PƒsƒNƒZƒ‹“–‚½‚è‚Ìƒrƒbƒg”[bit/pixel]  
+                        ~‰¡•ûŒüƒsƒNƒZƒ‹”[pixel]  
+                        ~c•ûŒüƒsƒNƒZƒ‹”[pixel]  
+                        - ‚PƒsƒNƒZƒ‹“–‚½‚è‚Ìƒrƒbƒg”•\Œ»‰Â”\‚ÈF”  
                     - RGB  
-                        - èµ¤é’ç·‘ãã‚Œãžã‚Œã§ï¼‘ãƒã‚¤ãƒˆãšã¤  
+                        - ÔÂ—Î‚»‚ê‚¼‚ê‚Å‚PƒoƒCƒg‚¸‚Â  
                         - ex) 0xFF0A1C  
                     - YUV  
-                        - è¼åº¦(Y)ã€é’ã®è‰²å·®æƒ…å ±(U)ã€èµ¤ã®è‰²å·®æƒ…å ±(V)  
-                        - ex) ãƒ†ãƒ¬ãƒ“æ”¾é€  
-                            - ç™½é»’æ”¾é€ã¨ã‚«ãƒ©ãƒ¼æ”¾é€ã®äº’æ›æ€§ã‚’ä¿ã¤ãŸã‚  
-                - å‹•ç”»ãƒ‡ãƒ¼ã‚¿[bps]  
-                    - ç”»åƒï¼‘æžšå½“ãŸã‚Šã®ãƒ‡ãƒ¼ã‚¿é‡[bps]Ã—ï¼‘ç§’å½“ãŸã‚Šã®ãƒ•ãƒ¬ãƒ¼ãƒ æ•°  
-                - åœ§ç¸®çŽ‡[%]  
-                    - åœ§ç¸®å¾Œãƒ‡ãƒ¼ã‚¿ã‚µã‚¤ã‚º[bit/s]Ã·åœ§ç¸®å¾Œãƒ‡ãƒ¼ã‚¿ã‚µã‚¤ã‚º[bit/s]  
-            - ãƒ‡ãƒ¼ã‚¿åœ§ç¸®æ–¹å¼  
-                - åœ§ç¸®ç¨®åˆ¥  
-                    - å¯é€†åœ§ç¸®  
-                        - å¾©å…ƒã™ã‚‹ã¨å®Œå…¨ã«å…ƒã«æˆ»ã‚‹  
-                        - ãƒ­ã‚¹ãƒ¬ã‚¹ï¼šloss less  
-                    - éžå¯é€†åœ§ç¸®  
-                        - å¾©å…ƒã—ãŸã‚‰ã€è¿‘ã„ã‚‚ã®ãŒå¾—ã‚‰ã‚Œã‚‹ï¼ˆå®Œå…¨ã«å…ƒã«æˆ»ã™ã“ã¨ã¯ã§ããªã„ï¼‰  
-                        - ãƒ­ãƒƒã‚·ãƒ¼ï¼šlossy  
-                - åœ§ç¸®æ–¹å¼  
-                    - æ–‡æ›¸ãƒ‡ãƒ¼ã‚¿  
-                        - ä¸»è¦ãªåœ§ç¸®ç¨®åˆ¥  
-                            - å¯é€†åœ§ç¸®ãŒå¤šã„  
-                                - ãƒ‡ãƒ¼ã‚¿ã®å®Œå…¨æ€§ãŒæ±‚ã‚ã‚‰ã‚Œã‚‹ãŸã‚  
-                        - ç‰¹å¾´  
-                            - ãƒ‡ãƒ¼ã‚¿å‡ºç¾ç¢ºçŽ‡ã«å¿œã˜ã¦ã€ç•°ãªã‚‹ç¬¦å·é•·ã®ãƒ‡ãƒ¼ã‚¿ã‚’å‰²ã‚Šå½“ã¦ã‚‹  
-                                - å‡ºç¾ç¢ºçŽ‡ã€Œé«˜ã€â†’çŸ­ã„ç¬¦å·  
-                                    å‡ºç¾ç¢ºçŽ‡ã€Œä½Žã€â†’é•·ã„ç¬¦å·  
-                                - ã‚¨ãƒ³ãƒˆãƒ­ãƒ”ãƒ¼ç¬¦å·åŒ–  
-                            - ï¼‘ãƒ‡ãƒ¼ã‚¿å½“ãŸã‚Šã®å¹³å‡ãƒ“ãƒƒãƒˆé•·ã‚’æŠ‘ãˆã¦ã€ãƒ‡ãƒ¼ã‚¿å…¨ä½“ã®å†—é•·æ€§ã‚’ä½Žãã™ã‚‹  
-                        - ç¨®é¡ž  
-                            - ãƒãƒ•ãƒžãƒ³ç¬¦å·  
-                            - é©å¿œåž‹ãƒãƒ•ãƒžãƒ³ç¬¦å·  
-                            - LZ77ç¬¦å·  
-                            - LZ78ç¬¦å·  
-                    - éŸ³å£°ãƒ‡ãƒ¼ã‚¿  
-                        - ä¸»è¦ãªåœ§ç¸®ç¨®åˆ¥  
-                            - éžå¯é€†åœ§ç¸®ãŒä¸€èˆ¬çš„  
-                        - ç¨®é¡ž  
-                            - u-lawã€A-law  
-                                - éŸ³å£°ãƒ‡ãƒ¼ã‚¿ã®å„ã‚µãƒ³ãƒ—ãƒ«ã«å¯¾ã—ã¦ã€å¯¾æ•°åœ§ç¸®ã‚’è¡Œã†  
-                                    - å¯¾æ•°åœ§ç¸®  
-                                        - å°ã•ã„éŸ³ã¯ç´°ã‚„ã‹ã«ã€å¤§ããªéŸ³ã¯ãŠãŠã–ã£ã±ã«ã™ã‚‹  
-                                - ex) é›»è©±å›žç·š  
-                                - Î¼-lawï¼ˆãƒŸãƒ¥ãƒ¼ãƒ­ãƒ¼ï¼‰  
-                                    - 14bitãƒªãƒ‹ã‚¢PCMãƒ‡ãƒ¼ã‚¿ã‚’8ãƒ“ãƒƒãƒˆã«åœ§ç¸®  
-                                    - æ—¥æœ¬ã‚„ç±³å›½ã«ãŠã‘ã‚‹é›»è©±ç·šã§ä½¿ç”¨  
-                                    - è‹±å˜èªžï¼šlaw  
-                                        - æ³•å¾‹  
+                        - ‹P“x(Y)AÂ‚ÌF·î•ñ(U)AÔ‚ÌF·î•ñ(V)  
+                        - ex) ƒeƒŒƒr•ú‘—  
+                            - ”’••ú‘—‚ÆƒJƒ‰[•ú‘—‚ÌŒÝŠ·«‚ð•Û‚Â‚½‚ß  
+                - “®‰æƒf[ƒ^[bps]  
+                    - ‰æ‘œ‚P–‡“–‚½‚è‚Ìƒf[ƒ^—Ê[bps]~‚P•b“–‚½‚è‚ÌƒtƒŒ[ƒ€”  
+                - ˆ³k—¦[%]  
+                    - ˆ³kŒãƒf[ƒ^ƒTƒCƒY[bit/s]€ˆ³kŒãƒf[ƒ^ƒTƒCƒY[bit/s]  
+            - ƒf[ƒ^ˆ³k•ûŽ®  
+                - ˆ³kŽí•Ê  
+                    - ‰Â‹tˆ³k  
+                        - •œŒ³‚·‚é‚ÆŠ®‘S‚ÉŒ³‚É–ß‚é  
+                        - ƒƒXƒŒƒXFloss less  
+                    - ”ñ‰Â‹tˆ³k  
+                        - •œŒ³‚µ‚½‚çA‹ß‚¢‚à‚Ì‚ª“¾‚ç‚ê‚éiŠ®‘S‚ÉŒ³‚É–ß‚·‚±‚Æ‚Í‚Å‚«‚È‚¢j  
+                        - ƒƒbƒV[Flossy  
+                - ˆ³k•ûŽ®  
+                    - •¶‘ƒf[ƒ^  
+                        - Žå—v‚Èˆ³kŽí•Ê  
+                            - ‰Â‹tˆ³k‚ª‘½‚¢  
+                                - ƒf[ƒ^‚ÌŠ®‘S«‚ª‹‚ß‚ç‚ê‚é‚½‚ß  
+                        - “Á’¥  
+                            - ƒf[ƒ^oŒ»Šm—¦‚É‰ž‚¶‚ÄAˆÙ‚È‚é•„†’·‚Ìƒf[ƒ^‚ðŠ„‚è“–‚Ä‚é  
+                                - oŒ»Šm—¦u‚v¨’Z‚¢•„†  
+                                    oŒ»Šm—¦u’áv¨’·‚¢•„†  
+                                - ƒGƒ“ƒgƒƒs[•„†‰»  
+                            - ‚Pƒf[ƒ^“–‚½‚è‚Ì•½‹Ïƒrƒbƒg’·‚ð—}‚¦‚ÄAƒf[ƒ^‘S‘Ì‚Ìç’·«‚ð’á‚­‚·‚é  
+                        - Ží—Þ  
+                            - ƒnƒtƒ}ƒ“•„†  
+                            - “K‰žŒ^ƒnƒtƒ}ƒ“•„†  
+                            - LZ77•„†  
+                            - LZ78•„†  
+                    - ‰¹ºƒf[ƒ^  
+                        - Žå—v‚Èˆ³kŽí•Ê  
+                            - ”ñ‰Â‹tˆ³k‚ªˆê”Ê“I  
+                        - Ží—Þ  
+                            - u-lawAA-law  
+                                - ‰¹ºƒf[ƒ^‚ÌŠeƒTƒ“ƒvƒ‹‚É‘Î‚µ‚ÄA‘Î”ˆ³k‚ðs‚¤  
+                                    - ‘Î”ˆ³k  
+                                        - ¬‚³‚¢‰¹‚Í×‚â‚©‚ÉA‘å‚«‚È‰¹‚Í‚¨‚¨‚´‚Á‚Ï‚É‚·‚é  
+                                - ex) “d˜b‰ñü  
+                                - ƒÊ-lawiƒ~ƒ…[ƒ[j  
+                                    - 14bitƒŠƒjƒAPCMƒf[ƒ^‚ð8ƒrƒbƒg‚Éˆ³k  
+                                    - “ú–{‚â•Ä‘‚É‚¨‚¯‚é“d˜bü‚ÅŽg—p  
+                                    - ‰p’PŒêFlaw  
+                                        - –@—¥  
                                 - A-law  
-                                    - å…ƒãƒ‡ãƒ¼ã‚¿13bit  
-                                    - ãƒ¨ãƒ¼ãƒ­ãƒƒãƒ‘ã®é›»è©±ç·šã§ä½¿ç”¨  
-                                - â—‹ï¼šå‡¦ç†ãŒç°¡å˜  
-                                    - å„ã‚µãƒ³ãƒ—ãƒ«ãƒ‡ãƒ¼ã‚¿ã‚’ç›´æŽ¥åœ§ç¸®/ä¼¸é•·ã™ã‚‹ãŸã‚  
+                                    - Œ³ƒf[ƒ^13bit  
+                                    - ƒˆ[ƒƒbƒp‚Ì“d˜bü‚ÅŽg—p  
+                                - ›Fˆ—‚ªŠÈ’P  
+                                    - ŠeƒTƒ“ƒvƒ‹ƒf[ƒ^‚ð’¼Úˆ³k/L’·‚·‚é‚½‚ß  
                             - ADPCM  
                                 - Adaptive Differential Pulse Code Modulation  
-                                    é©å¿œå·®åˆ†PCM  
-                                - éš£æŽ¥ã™ã‚‹ã‚µãƒ³ãƒ—ãƒ«é–“ã§ã®å·®åˆ†ã‚’ç¬¦å·åŒ–ã™ã‚‹  
-                                    - éŸ³å£°ãƒ‡ãƒ¼ã‚¿ã¯éš£æŽ¥ã™ã‚‹ã‚µãƒ³ãƒ—ãƒ«é–“ã®å¤‰åŒ–ãŒå°‘ãªã„ï¼  
-                                - â—‹ï¼šæ¼”ç®—é‡å°  
+                                    “K‰ž·•ªPCM  
+                                - —×Ú‚·‚éƒTƒ“ƒvƒ‹ŠÔ‚Å‚Ì·•ª‚ð•„†‰»‚·‚é  
+                                    - ‰¹ºƒf[ƒ^‚Í—×Ú‚·‚éƒTƒ“ƒvƒ‹ŠÔ‚Ì•Ï‰»‚ª­‚È‚¢I  
+                                - ›F‰‰ŽZ—Ê¬  
                                 - ex) PHS  
-                            - MP3ï¼AAC  
-                                - MP3ï¼šMPEG Audio Layer-3  
-                                    AACï¼šAdvanced Audio Coding  
-                                - éŸ³å£°ãƒ‡ãƒ¼ã‚¿ã‚’çŸ­ã„åŒºé–“ã«åˆ†å‰²å¾Œã€å‘¨æ³¢æ•°æˆåˆ†åˆ†è§£ã—ã€äººé–“ãŒèªè­˜ã—ã«ãã„éƒ¨åˆ†ã®æˆåˆ†ã‚’é–“å¼•ã  
-                                - Ã—ï¼šå‡¦ç†è¤‡é›‘  
+                            - MP3^AAC  
+                                - MP3FMPEG Audio Layer-3  
+                                    AACFAdvanced Audio Coding  
+                                - ‰¹ºƒf[ƒ^‚ð’Z‚¢‹æŠÔ‚É•ªŠ„ŒãAŽü”g”¬•ª•ª‰ð‚µAlŠÔ‚ª”FŽ¯‚µ‚É‚­‚¢•”•ª‚Ì¬•ª‚ðŠÔˆø‚­  
+                                - ~Fˆ—•¡ŽG  
                             - CELP  
                                 - Code Excited Linear Prediction  
-                                    - è‹±å˜èªžï¼šexcite  
-                                        - èˆˆå¥®ã€å¼•ãèµ·ã“ã™ã€åˆºæ¿€ã™ã‚‹  
-                                - ç‰¹å¾´  
-                                    - äººé–“ã®éŸ³å£°æ³¢å½¢ãƒ‘ã‚¿ãƒ¼ãƒ³ã‚’äº‹å‰ã«ç”¨æ„ã—ã€å…¥åŠ›éŸ³å£°ã¨é¡žä¼¼ã—ã¦ã„ã‚‹ãƒ‘ã‚¿ãƒ¼ãƒ³ã‚’é¸å®šã—ã¦ç¬¦å·ã‚’é€ä¿¡ã™ã‚‹  
-                                    - â—‹ï¼šäººé–“ã®å£°  
-                                    - Ã—ï¼šæ¥½æ›²  
-                                - ç”¨é€”  
-                                    - ex) æºå¸¯é›»è©±  
-                    - ç”»åƒãƒ‡ãƒ¼ã‚¿  
-                        - ä¸»è¦ãªåœ§ç¸®ç¨®åˆ¥  
-                            - éžå¯é€†åœ§ç¸®ãŒä¸»æµ  
-                        - ç¨®é¡ž  
-                            - MHï¼MRï¼MMR  
-                                - MHï¼šModified Huffmann  
-                                    MRï¼šModified READ  
-                                    MMRï¼šModified Modified READ  
+                                    - ‰p’PŒêFexcite  
+                                        - ‹»•±Aˆø‚«‹N‚±‚·AŽhŒƒ‚·‚é  
+                                - “Á’¥  
+                                    - lŠÔ‚Ì‰¹º”gŒ`ƒpƒ^[ƒ“‚ðŽ–‘O‚É—pˆÓ‚µA“ü—Í‰¹º‚Æ—ÞŽ—‚µ‚Ä‚¢‚éƒpƒ^[ƒ“‚ð‘I’è‚µ‚Ä•„†‚ð‘—M‚·‚é  
+                                    - ›FlŠÔ‚Ìº  
+                                    - ~FŠy‹È  
+                                - —p“r  
+                                    - ex) Œg‘Ñ“d˜b  
+                    - ‰æ‘œƒf[ƒ^  
+                        - Žå—v‚Èˆ³kŽí•Ê  
+                            - ”ñ‰Â‹tˆ³k‚ªŽå—¬  
+                        - Ží—Þ  
+                            - MH^MR^MMR  
+                                - MHFModified Huffmann  
+                                    MRFModified READ  
+                                    MMRFModified Modified READ  
                                       
-                                    (â€»)READï¼šRelative Element Address Designate  
-                                - å¯é€†åœ§ç¸®  
-                                - ï¼’å€¤ç”»åƒï¼ˆex.ç™½é»’ï¼‰ã‚’åœ§ç¸®  
-                                    - ç™½oré»’ã®ç”»åƒãŒé€£ç¶šã—ã¦ç¾ã‚ŒãŸã¨ãã«ã€Œç”»ç´ ç¨®ã€ï¼ˆç™½oré»’ï¼‰ã¨ã€Œé€£ç¶šå€‹æ•°ã€ï¼ˆä½•å€‹ï¼‰ã®æƒ…å ±ã«ç½®ãæ›ãˆã‚‹  
-                                    - ï¼ãƒ©ãƒ³ãƒ¬ãƒ³ã‚°ã‚¹ç¬¦å·åŒ–  
+                                    (¦)READFRelative Element Address Designate  
+                                - ‰Â‹tˆ³k  
+                                - ‚Q’l‰æ‘œiex.”’•j‚ðˆ³k  
+                                    - ”’or•‚Ì‰æ‘œ‚ª˜A‘±‚µ‚ÄŒ»‚ê‚½‚Æ‚«‚Éu‰æ‘fŽívi”’or•j‚Æu˜A‘±ŒÂ”vi‰½ŒÂj‚Ìî•ñ‚É’u‚«Š·‚¦‚é  
+                                    - ƒ‰ƒ“ƒŒƒ“ƒOƒX•„†‰»  
                             - GIF  
-                                - å¯é€†åœ§ç¸®  
-                                - LZWã‚’ä½¿ç”¨ã—ãŸå¯é€†åœ§ç¸®  
-                                    - ãƒ»ä½¿ç”¨è‰²æ•°ãŒå°‘ãªã„  
-                                        ãƒ»ç‰¹å®šã®è‰²ãŒå¤šæ•°ã®ç”»ç´ ã§ä½¿ç”¨ã•ã‚Œã¦ã„ã‚‹  
-                                        ã»ã©åœ§ç¸®åŠ¹çŽ‡ãŒé«˜ã„  
-                                - Ã—ï¼šæ‰±ãˆã‚‹è‰²æ•°ãŒ256è‰²ä»¥ä¸‹  
-                                - ex) Webãƒšãƒ¼ã‚¸ã®ãƒœã‚¿ãƒ³  
+                                - ‰Â‹tˆ³k  
+                                - LZW‚ðŽg—p‚µ‚½‰Â‹tˆ³k  
+                                    - EŽg—pF”‚ª­‚È‚¢  
+                                        E“Á’è‚ÌF‚ª‘½”‚Ì‰æ‘f‚ÅŽg—p‚³‚ê‚Ä‚¢‚é  
+                                        ‚Ù‚Çˆ³kŒø—¦‚ª‚‚¢  
+                                - ~Fˆµ‚¦‚éF”‚ª256FˆÈ‰º  
+                                - ex) Webƒy[ƒW‚Ìƒ{ƒ^ƒ“  
                             - JPEG  
-                                - éžå¯é€†åœ§ç¸®  
-                                - ç”»åƒã‚’ç¸¦æ¨ªï¼˜ç”»ç´ ã®åŒºç”»ã«åˆ†å‰²â†’  
-                                    å„åŒºç”»ã§ï¼’æ¬¡å…ƒDCTå¤‰æ›â†’  
-                                    ãƒãƒ•ãƒžãƒ³ç¬¦å·ã«ã‚ˆã‚‹ã‚¨ãƒ³ãƒˆãƒ­ãƒ”ãƒ¼åœ§ç¸®  
-                                    - ï¼’æ¬¡å…ƒDCTå¤‰æ›  
-                                        - äººé–“ãŒèªè­˜ã—ã«ãã„æˆåˆ†ã‚’ã‚«ãƒƒãƒˆ  
-                                        - Discrete Cosine Transformï¼šé›¢æ•£ã‚³ã‚µã‚¤ãƒ³å¤‰æ›  
-                                    - ã‚¨ãƒ³ãƒˆãƒ­ãƒ”ãƒ¼åœ§ç¸®  
-                                        - ã‚¨ãƒ³ãƒˆãƒ­ãƒ”ãƒ¼  
-                                            ãƒªãƒ³ã‚¯: [macasakr.sakura.ne.jp/entropy.html][22]  
-                                            - ä¹±é›‘ã•ã‚’è¡¨ã™ç‰©ç†é‡  
-                                - ex) é™æ­¢ç”»  
+                                - ”ñ‰Â‹tˆ³k  
+                                - ‰æ‘œ‚ðc‰¡‚W‰æ‘f‚Ì‹æ‰æ‚É•ªŠ„¨  
+                                    Še‹æ‰æ‚Å‚QŽŸŒ³DCT•ÏŠ·¨  
+                                    ƒnƒtƒ}ƒ“•„†‚É‚æ‚éƒGƒ“ƒgƒƒs[ˆ³k  
+                                    - ‚QŽŸŒ³DCT•ÏŠ·  
+                                        - lŠÔ‚ª”FŽ¯‚µ‚É‚­‚¢¬•ª‚ðƒJƒbƒg  
+                                        - Discrete Cosine TransformF—£ŽUƒRƒTƒCƒ“•ÏŠ·  
+                                    - ƒGƒ“ƒgƒƒs[ˆ³k  
+                                        - ƒGƒ“ƒgƒƒs[  
+                                            ƒŠƒ“ƒN: [macasakr.sakura.ne.jp/entropy.html][22]  
+                                            - —ŽG‚³‚ð•\‚·•¨——Ê  
+                                - ex) ÃŽ~‰æ  
                             - JPEG2000  
-                                - éžå¯é€†åœ§ç¸®  
-                                - JPEGã«ä»£ã‚ã‚‹åœ§ç¸®æ³•  
-                                - DCTå¤‰æ›ã§ã¯ãªãã‚¦ã‚§ãƒ¼ãƒ–ãƒ¬ãƒƒãƒˆå¤‰æ›ã‚’è¡Œã†  
-                                    - ã‚¦ã‚§ãƒ¼ãƒ–ãƒ¬ãƒƒãƒˆå¤‰æ›  
-                                        - çŸ­æ™‚é–“ãƒ•ãƒ¼ãƒªã‚¨å¤‰æ›ãªã©ã«å¤‰ã‚ã‚‹æ™‚é–“å‘¨æ³¢æ•°è§£æžæ‰‹æ³•ã®ã“ã¨  
-                                - â—‹ï¼šé«˜åœ§ç¸®çŽ‡ã§ã‚‚ç”»åƒã®ç ´ç¶»å°ï¼ˆJPEGæ¯”è¼ƒï¼‰  
-                                - Ã—ï¼šæ¼”ç®—é‡å¤§ï¼ˆJPEGæ¯”è¼ƒï¼‰  
-                    - å‹•ç”»ãƒ‡ãƒ¼ã‚¿  
-                        - ä¸»è¦ãªåœ§ç¸®ç¨®åˆ¥  
-                            - éžå¯é€†åœ§ç¸®  
-                        - ç¨®é¡ž  
+                                - ”ñ‰Â‹tˆ³k  
+                                - JPEG‚É‘ã‚í‚éˆ³k–@  
+                                - DCT•ÏŠ·‚Å‚Í‚È‚­ƒEƒF[ƒuƒŒƒbƒg•ÏŠ·‚ðs‚¤  
+                                    - ƒEƒF[ƒuƒŒƒbƒg•ÏŠ·  
+                                        - ’ZŽžŠÔƒt[ƒŠƒG•ÏŠ·‚È‚Ç‚É•Ï‚í‚éŽžŠÔŽü”g”‰ðÍŽè–@‚Ì‚±‚Æ  
+                                - ›F‚ˆ³k—¦‚Å‚à‰æ‘œ‚Ì”j’]¬iJPEG”äŠrj  
+                                - ~F‰‰ŽZ—Ê‘åiJPEG”äŠrj  
+                    - “®‰æƒf[ƒ^  
+                        - Žå—v‚Èˆ³kŽí•Ê  
+                            - ”ñ‰Â‹tˆ³k  
+                        - Ží—Þ  
                             - Motion JPEG  
-                                - ç‰¹å¾´  
-                                    - JPEGç”»åƒã‚’æ™‚ç³»åˆ—ã«ç¾…åˆ—  
-                                    - â—‹ï¼šãƒ•ãƒ¬ãƒ¼ãƒ å–ã‚Šå‡ºã—ãŒå®¹æ˜“  
-                                    - Ã—ï¼šåœ§ç¸®åŠ¹çŽ‡ä½Žï¼ˆMPEGæ¯”è¼ƒï¼‰  
-                                        - ãƒ•ãƒ¬ãƒ¼ãƒ é–“äºˆæ¸¬ã—ãªã„ãŸã‚  
+                                - “Á’¥  
+                                    - JPEG‰æ‘œ‚ðŽžŒn—ñ‚É—…—ñ  
+                                    - ›FƒtƒŒ[ƒ€Žæ‚èo‚µ‚ª—eˆÕ  
+                                    - ~Fˆ³kŒø—¦’áiMPEG”äŠrj  
+                                        - ƒtƒŒ[ƒ€ŠÔ—\‘ª‚µ‚È‚¢‚½‚ß  
                             - MPEG-1  
-                                - ç‰¹å¾´  
-                                    - ãƒ•ãƒ¬ãƒ¼ãƒ é–“äºˆæ¸¬ã‚’è¡Œã†  
-                                    - ãƒ“ãƒƒãƒˆãƒ¬ãƒ¼ãƒˆï¼š1.5[Mbit/s]å‰å¾Œ  
+                                - “Á’¥  
+                                    - ƒtƒŒ[ƒ€ŠÔ—\‘ª‚ðs‚¤  
+                                    - ƒrƒbƒgƒŒ[ƒgF1.5[Mbit/s]‘OŒã  
                                     - Moving Picture Experts Group  
-                                - ä½¿ç”¨ç”¨é€”  
-                                    - ex) ãƒ“ãƒ‡ã‚ªCD  
-                                        - VHSãƒ“ãƒ‡ã‚ªã®ã‚¯ã‚ªãƒªãƒ†ã‚£ã‚’ä¿ã¡ã¤ã¤ã€CD-ROM1æžšï¼ˆ650MBï¼‰ã«1æ™‚é–“åˆ†ã®æ˜ åƒã‚’ä¿æŒã™ã‚‹  
+                                - Žg—p—p“r  
+                                    - ex) ƒrƒfƒICD  
+                                        - VHSƒrƒfƒI‚ÌƒNƒIƒŠƒeƒB‚ð•Û‚¿‚Â‚ÂACD-ROM1–‡i650MBj‚É1ŽžŠÔ•ª‚Ì‰f‘œ‚ð•ÛŽ‚·‚é  
                             - MPEG-2  
-                                - ç‰¹å¾´  
-                                    - ãƒ•ãƒ¬ãƒ¼ãƒ é–“ã®å·®åˆ†ã‚’ç”¨ã„ã¦åœ§ç¸®çŽ‡ã‚’é«˜ã‚ã‚‹  
-                                        - æ™‚é–“çš„ãªéš£æŽ¥ãƒ•ãƒ¬ãƒ¼ãƒ é–“ã§ã¯ã€ç”»åƒã«å¤§ããªé•ã„ãŒãªã„  
-                                    - ãƒ•ãƒ¬ãƒ¼ãƒ ç¨®åˆ¥  
-                                        - Iãƒ•ãƒ¬ãƒ¼ãƒ   
+                                - “Á’¥  
+                                    - ƒtƒŒ[ƒ€ŠÔ‚Ì·•ª‚ð—p‚¢‚Äˆ³k—¦‚ð‚‚ß‚é  
+                                        - ŽžŠÔ“I‚È—×ÚƒtƒŒ[ƒ€ŠÔ‚Å‚ÍA‰æ‘œ‚É‘å‚«‚Èˆá‚¢‚ª‚È‚¢  
+                                    - ƒtƒŒ[ƒ€Ží•Ê  
+                                        - IƒtƒŒ[ƒ€  
                                             - Intra-coded Frame  
-                                            - ç”»åƒå…¨ä½“ã®æƒ…å ±  
-                                            - ç”»åƒå–ã‚Šå‡ºã—å¯  
-                                        - Pãƒ•ãƒ¬ãƒ¼ãƒ   
+                                            - ‰æ‘œ‘S‘Ì‚Ìî•ñ  
+                                            - ‰æ‘œŽæ‚èo‚µ‰Â  
+                                        - PƒtƒŒ[ƒ€  
                                             - Predicted Frame  
-                                            - ã€Œç›´å‰ã€ç”»åƒã¨ã®å·®åˆ†æƒ…å ±  
-                                            - ç”»åƒå–ã‚Šå‡ºã—ä¸å¯  
-                                        - Bãƒ•ãƒ¬ãƒ¼ãƒ   
+                                            - u’¼‘Ov‰æ‘œ‚Æ‚Ì·•ªî•ñ  
+                                            - ‰æ‘œŽæ‚èo‚µ•s‰Â  
+                                        - BƒtƒŒ[ƒ€  
                                             - Bi-derectional Predicted Frame  
-                                            - ã€Œç›´å‰ã€ã€Œç›´å¾Œã€ç”»åƒã®å·®åˆ†æƒ…å ±  
-                                            - ç”»åƒå–ã‚Šå‡ºã—ä¸å¯  
+                                            - u’¼‘Ovu’¼Œãv‰æ‘œ‚Ì·•ªî•ñ  
+                                            - ‰æ‘œŽæ‚èo‚µ•s‰Â  
                                     - GOP  
                                         - Group Of Picture  
-                                        - Iãƒ•ãƒ¬ãƒ¼ãƒ ã‹ã‚‰æ¬¡ã®Iãƒ•ãƒ¬ãƒ¼ãƒ ã¾ã§ã«å«ã¾ã‚Œã‚‹ç”»åƒç¾¤  
-                                - ä½¿ç”¨ç”¨é€”  
-                                    - ex) DVDã€ãƒ‡ã‚¸ã‚¿ãƒ«æ”¾é€  
+                                        - IƒtƒŒ[ƒ€‚©‚çŽŸ‚ÌIƒtƒŒ[ƒ€‚Ü‚Å‚ÉŠÜ‚Ü‚ê‚é‰æ‘œŒQ  
+                                - Žg—p—p“r  
+                                    - ex) DVDAƒfƒWƒ^ƒ‹•ú‘—  
                             - H.264  
-                                - ç‰¹å¾´  
-                                    - åœ§ç¸®ã‚¢ãƒ«ã‚´ãƒªã‚ºãƒ ã¯MPEG-2ã¨åŒã˜  
-                                    - ç”»åƒã”ã¨ã®ç‰¹å¾´ã‚’é©å¿œçš„ã«å¯¾å¿œã™ã‚‹  
-                                    - â—‹ï¼šåœ§ç¸®åŠ¹çŽ‡MPEG-2ã®ç´„ï¼’å€  
-        - ã‚·ã‚¹ãƒ†ãƒ è¨­è¨ˆ  
-            - ãƒªã‚¢ãƒ«ã‚¿ã‚¤ãƒ æ€§  
-                - ã€Œå¿…è¦ãªå‡¦ç†ã€ã‚’ã€Œå¿…è¦ãªæ™‚é–“å†…ã«ã€çµ‚ã‚ã‚‰ã›ã‚‹ç‰¹æ€§  
-            - é€šä¿¡æ€§èƒ½ã®æœ€é©åŒ–  
-                - å‰²è¾¼ã¿ã‚ªãƒ¼ãƒãƒ¼ãƒ˜ãƒƒãƒ‰ã¨FIFO  
-                    - ãƒ‡ãƒ¼ã‚¿æ¯Žã®å‰²è¾¼ã¿ç™ºç”Ÿã«ã‚ˆã‚Šã€å¤§é‡ãƒ‡ãƒ¼ã‚¿é€å—ä¿¡æ™‚ã€æ¯Žå›žå‰²è¾¼ã¿ã‚ªãƒ¼ãƒãƒ¼ãƒ˜ãƒƒãƒ‰ãŒç™ºç”Ÿ  
-                    - FIFOãƒ¡ãƒ¢ãƒª  
-                        - ä»¥ä¸‹ã®ã„ãšã‚Œã‹ã®æ¡ä»¶ã‚’æº€ãŸã—ãŸã‚‰ã€å‰²è¾¼ã¿ç™ºç”Ÿ  
-                            - ã‚ã‚‰ã‹ã˜ã‚è¨­å®šã•ã‚ŒãŸãƒ‡ãƒ¼ã‚¿æ•°â‰¦å—ä¿¡ãƒ‡ãƒ¼ã‚¿æ•°  
-                            - é€ä¿¡ãƒãƒƒãƒ•ã‚¡ãŒç©º  
-                - ãƒ—ãƒ­ãƒˆã‚³ãƒ«ã‚¹ã‚¿ãƒƒã‚¯ã®è¨­è¨ˆ  
-                    ï¼ˆé€šä¿¡å‡¦ç†ã«ãŠã‘ã‚‹ãƒãƒƒãƒ•ã‚¡ã‚³ãƒ”ãƒ¼å•é¡Œï¼‰  
-                    - ãƒ—ãƒ­ãƒˆã‚³ãƒ«ãƒ¬ã‚¤ãƒ¤é–“ã§ã®ãƒ‡ãƒ¼ã‚¿ã‚³ãƒ”ãƒ¼ã«æ³¨æ„ï¼  
-                        - ãƒ¬ã‚¤ãƒ¤ã‚’ã¾ãŸãŒã‚‹åº¦ã«ã‚³ãƒ”ãƒ¼å‡¦ç†ãŒè¡Œã‚ã‚Œã‚‹ã¨ã€ç„¡é§„ãªå‡¦ç†ãŒå¤šããªã£ã¦ã—ã¾ã†ã€‚  
-                - ãƒªã‚½ãƒ¼ã‚¹æ´»ç”¨ã®å…¨ä½“æœ€é©  
-                    - ãƒ¡ãƒ¢ãƒªå®¹é‡ã«ä½™è£•ãŒãªãã€CPUæ¼”ç®—ãƒªã‚½ãƒ¼ã‚¹ã«å¤šå°‘ã®ä½™è£•ãŒã‚ã‚‹å ´åˆ  
-                        - æ¼”ç®—é‡ãŒå¤šå°‘å¢—ãˆã¦ã‚‚ã€ãƒ‡ãƒ¼ã‚¿åœ§ç¸®ãªã©ã«ã‚ˆã‚Šãƒ¡ãƒ¢ãƒªæ¶ˆè²»é‡ã‚’å°‘ãªãã™ã‚‹ã‚ˆã†ã«è€ƒæ…®ã™ã¹ãã€‚  
-                        - ãƒ‡ãƒ¼ã‚¿è»¢é€ã«ã‹ã‹ã‚‹ãƒã‚¹å¸¯åŸŸã€é€šä¿¡å›žç·šã®åˆ©ç”¨æ™‚é–“ã«ã‚‚æœ‰åˆ©ã«åƒãã€‚  
-        - ã‚»ã‚­ãƒ¥ãƒªãƒ†ã‚£è¨­è¨ˆ  
-            - é›»ç£æ³¢ç›—è´  
-                - PCãªã©ã®å¾®å¼±ãªé›»æ³¢ã‹ã‚‰æƒ…å ±ã‚’ç›—ã‚€æŠ€è¡“  
-                - ex) PCâ‡”ãƒ‡ã‚£ã‚¹ãƒ—ãƒ¬ã‚¤é–“ã®ã‚±ãƒ¼ãƒ–ãƒ«ã®é›»æ³¢ã‹ã‚‰ã€è¡¨ç¤ºç”»åƒã‚’ç›—ã¿è¦‹ã‚‹  
-                - ex) ãƒãƒƒãƒˆãƒ¯ãƒ¼ã‚¯ã‚±ãƒ¼ãƒ–ãƒ«ã‚„USBã‚³ãƒã‚¯ã‚¿ã‹ã‚‰ã®å¾®å¼±é›»æ³¢  
-                - ï¼ãƒ†ãƒ³ãƒšã‚¹ãƒˆæŠ€è¡“  
-                    - è‹±å˜èªžï¼štempest  
-                        - é›»ç£æ³¢ç›—è´  
-                            ï¼ˆåŽŸç¾©ï¼šå¤§åµã€æš´é¢¨é›¨ã€æš´é¢¨é›ª å¤§é¨’å‹•ï¼‰  
-            - è‘—ä½œæ¨©ä¿è­·æŠ€è¡“  
+                                - “Á’¥  
+                                    - ˆ³kƒAƒ‹ƒSƒŠƒYƒ€‚ÍMPEG-2‚Æ“¯‚¶  
+                                    - ‰æ‘œ‚²‚Æ‚Ì“Á’¥‚ð“K‰ž“I‚É‘Î‰ž‚·‚é  
+                                    - ›Fˆ³kŒø—¦MPEG-2‚Ì–ñ‚Q”{  
+        - ƒVƒXƒeƒ€ÝŒv  
+            - ƒŠƒAƒ‹ƒ^ƒCƒ€«  
+                - u•K—v‚Èˆ—v‚ðu•K—v‚ÈŽžŠÔ“à‚ÉvI‚í‚ç‚¹‚é“Á«  
+            - ’ÊM«”\‚ÌÅ“K‰»  
+                - Š„ž‚ÝƒI[ƒo[ƒwƒbƒh‚ÆFIFO  
+                    - ƒf[ƒ^–ˆ‚ÌŠ„ž‚Ý”­¶‚É‚æ‚èA‘å—Êƒf[ƒ^‘—ŽóMŽžA–ˆ‰ñŠ„ž‚ÝƒI[ƒo[ƒwƒbƒh‚ª”­¶  
+                    - FIFOƒƒ‚ƒŠ  
+                        - ˆÈ‰º‚Ì‚¢‚¸‚ê‚©‚ÌðŒ‚ð–ž‚½‚µ‚½‚çAŠ„ž‚Ý”­¶  
+                            - ‚ ‚ç‚©‚¶‚ßÝ’è‚³‚ê‚½ƒf[ƒ^”…ŽóMƒf[ƒ^”  
+                            - ‘—Mƒoƒbƒtƒ@‚ª‹ó  
+                - ƒvƒƒgƒRƒ‹ƒXƒ^ƒbƒN‚ÌÝŒv  
+                    i’ÊMˆ—‚É‚¨‚¯‚éƒoƒbƒtƒ@ƒRƒs[–â‘èj  
+                    - ƒvƒƒgƒRƒ‹ƒŒƒCƒ„ŠÔ‚Å‚Ìƒf[ƒ^ƒRƒs[‚É’ˆÓI  
+                        - ƒŒƒCƒ„‚ð‚Ü‚½‚ª‚é“x‚ÉƒRƒs[ˆ—‚ªs‚í‚ê‚é‚ÆA–³‘Ê‚Èˆ—‚ª‘½‚­‚È‚Á‚Ä‚µ‚Ü‚¤B  
+                - ƒŠƒ\[ƒXŠˆ—p‚Ì‘S‘ÌÅ“K  
+                    - ƒƒ‚ƒŠ—e—Ê‚É—]—T‚ª‚È‚­ACPU‰‰ŽZƒŠƒ\[ƒX‚É‘½­‚Ì—]—T‚ª‚ ‚éê‡  
+                        - ‰‰ŽZ—Ê‚ª‘½­‘‚¦‚Ä‚àAƒf[ƒ^ˆ³k‚È‚Ç‚É‚æ‚èƒƒ‚ƒŠÁ”ï—Ê‚ð­‚È‚­‚·‚é‚æ‚¤‚Él—¶‚·‚×‚«B  
+                        - ƒf[ƒ^“]‘—‚É‚©‚©‚éƒoƒX‘ÑˆæA’ÊM‰ñü‚Ì—˜—pŽžŠÔ‚É‚à—L—˜‚É“­‚­B  
+        - ƒZƒLƒ…ƒŠƒeƒBÝŒv  
+            - “dŽ¥”g“’®  
+                - PC‚È‚Ç‚Ì”÷Žã‚È“d”g‚©‚çî•ñ‚ð“‚Þ‹Zp  
+                - ex) PCÌƒfƒBƒXƒvƒŒƒCŠÔ‚ÌƒP[ƒuƒ‹‚Ì“d”g‚©‚çA•\Ž¦‰æ‘œ‚ð“‚ÝŒ©‚é  
+                - ex) ƒlƒbƒgƒ[ƒNƒP[ƒuƒ‹‚âUSBƒRƒlƒNƒ^‚©‚ç‚Ì”÷Žã“d”g  
+                - ƒeƒ“ƒyƒXƒg‹Zp  
+                    - ‰p’PŒêFtempest  
+                        - “dŽ¥”g“’®  
+                            iŒ´‹`F‘å—’A–\•—‰JA–\•—á ‘å‘›“®j  
+            - ’˜ìŒ •ÛŒì‹Zp  
                 - DRM  
-                    - æ¦‚è¦  
-                        - è‘—ä½œæ¨©ä¿è­·ã®è¦³ç‚¹ã‹ã‚‰ã€ã‚³ãƒ”ãƒ¼å›žæ•°ã‚„ã‚³ãƒ”ãƒ¼æ–¹æ³•ã«åˆ¶é™ã‚’è¨­ã‘ã‚‹ä»•çµ„ã¿  
-                        - Digital Rights Managementï¼šãƒ‡ã‚£ã‚¸ã‚¿ãƒ«è‘—ä½œæ¨©ç®¡ç†  
-                    - ç¨®é¡ž  
+                    - ŠT—v  
+                        - ’˜ìŒ •ÛŒì‚ÌŠÏ“_‚©‚çAƒRƒs[‰ñ”‚âƒRƒs[•û–@‚É§ŒÀ‚ðÝ‚¯‚éŽd‘g‚Ý  
+                        - Digital Rights ManagementFƒfƒBƒWƒ^ƒ‹’˜ìŒ ŠÇ—  
+                    - Ží—Þ  
                         - SCMS  
                             - Serial Copy Management System  
-                            - ã‚³ãƒ”ãƒ¼æ¡ä»¶ã‚’æŒ‡å®šã§ãã‚‹  
-                                - ä½•åº¦ã§ã‚‚  
-                                - ï¼‘åº¦ã®ã¿  
-                                - ã‚³ãƒ”ãƒ¼ä¸å¯  
-                            - ex) æ°‘ç”Ÿç”¨ã‚ªãƒ¼ãƒ‡ã‚£ã‚ªæ©Ÿå™¨  
-                        - CSSï¼CPRM  
-                            - Content Scramblling Systemï¼  
+                            - ƒRƒs[ðŒ‚ðŽw’è‚Å‚«‚é  
+                                - ‰½“x‚Å‚à  
+                                - ‚P“x‚Ì‚Ý  
+                                - ƒRƒs[•s‰Â  
+                            - ex) –¯¶—pƒI[ƒfƒBƒI‹@Ší  
+                        - CSS^CPRM  
+                            - Content Scramblling System^  
                                 Content Protection for Recordable Media  
                             - ex) DVD  
                         - DTCP  
                             - Digital Transmission Content Protection  
-                            - ex) æ˜ åƒãƒ‡ãƒ¼ã‚¿  
-            - è§£æž  
-                - ãƒªãƒãƒ¼ã‚¹ã‚¨ãƒ³ã‚¸ãƒ‹ã‚¢ãƒªãƒ³ã‚°  
-                    - è£½å“ã‚„ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã®è§£æžã«ã‚ˆã‚Šã€å†…éƒ¨æ§‹é€ ã‚„å‹•ä½œã‚’æ˜Žã‚‰ã‹ã«ã™ã‚‹æ–¹æ³•  
-                - è€ã‚¿ãƒ³ãƒ‘æ€§  
-                    - è‹±å˜èªžï¼štamper  
-                        - æ”¹ã–ã‚“  
-                    - é˜²è­·ç­–ã«ã‚ˆã‚Šã€å¤–éƒ¨ã‹ã‚‰ã®è§£æžã‚’é›£ã—ãã™ã‚‹æ€§è³ª  
-                    - ex) ä¿¡å·ã®èª­å‡ºã—ãƒ—ãƒ­ãƒ¼ãƒ–å–ä»˜ã‘æ¤œå‡ºã«ã‚ˆã‚Šã€ICãƒãƒƒãƒ—å†…ã®ä¿å­˜æƒ…å ±ã‚’æ¶ˆåŽ»ã™ã‚‹å›žè·¯ã‚’è¨­ã‘ã‚‹  
-                    - ex) ROMã®ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã‚’æš—å·åŒ–  
-                        ï¼ˆå®Ÿè¡Œæ™‚ã«å¿…è¦åˆ†ã ã‘å¾©å·åŒ–ï¼‰  
-        - çœé›»åŠ›è¨­è¨ˆ  
-            - æ¶ˆè²»é›»åŠ›  
-                - è¤‡æ•°ãƒ¦ãƒ‹ãƒƒãƒˆã®æ¶ˆè²»é›»åŠ›ï¼  
-                    ãƒ¦ãƒ‹ãƒƒãƒˆæ¯Žã®æ¶ˆè²»é›»åŠ›ã®ç·å’Œ  
-                - çªå…¥é›»æµ  
-                    - é›»æºæŠ•å…¥æ™‚ã€å®šå¸¸æ™‚ã‚ˆã‚Šã‚‚ã¯ã‚‹ã‹ã«å¤§ãã„é›»æµï¼ˆ100å€ä»¥ä¸Šï¼‰ãŒçŸ­æ™‚é–“æµã‚Œã‚‹ã“ã¨ã€‚  
-                    - ï¼å§‹å‹•é›»æµ  
-                    - å½±éŸ¿  
-                        - ex) ãƒ’ãƒ¥ãƒ¼ã‚ºãŒåˆ‡ã‚Œã‚‹  
-                        - ex) æŽ¥ç¶šæ©Ÿå™¨ã®é›»åœ§é™ä¸‹  
-                        - ex) æŽ¥ç¶šæ©Ÿå™¨ã®çž¬æ–­  
-            - é›»æºåˆ¶å¾¡  
-                - ä½¿ç”¨ã—ãªã„ãƒ–ãƒ­ãƒƒã‚¯ã®ç„¡åŠ¹åŒ–ã«ã‚ˆã‚Šã€ä¸è¦ãªé›»åŠ›æ¶ˆè²»ã‚’æŠ‘ãˆã‚‹  
-                - åˆ¶å¾¡ã«ã‚ˆã‚Šã€å¾©å¸°æ™‚é–“ãŒé•·ããªã‚‹ã“ã¨ã‚’è€ƒæ…®ã™ã‚‹å¿…è¦ãŒã‚ã‚‹  
-                - åˆ¶å¾¡æ–¹æ³•  
-                    - ã‚¯ãƒ­ãƒƒã‚¯ã‚²ãƒ¼ãƒ†ã‚£ãƒ³ã‚°  
-                        - å‹•ä½œä¸è¦ãƒ–ãƒ­ãƒƒã‚¯ã«ä¾›çµ¦ã™ã‚‹ã‚¯ãƒ­ãƒƒã‚¯ã‚’åœæ­¢ã™ã‚‹  
-                        - æ©Ÿèƒ½ãƒ–ãƒ­ãƒƒã‚¯ã”ã¨ã«ã‚¯ãƒ­ãƒƒã‚¯ä¾›çµ¦ã®ON/OFFã‚’æŒ‡å®šã§ãã‚‹LSIã‚‚å¤šã„ã€‚  
-                        - ãƒªãƒ¼ã‚¯é›»æµ  
-                            - ã‚¯ãƒ­ãƒƒã‚¯åœæ­¢ä¸­ã«æµã‚Œã‚‹å¾®å¼±é›»æµ  
-                            - å½“è©²é›»æ°—å›žè·¯å†…ã¸æ„å›³ã›ãšæ¼ã‚Œå‡ºã—ãŸé›»æµ  
-                        - Ã—ï¼šå¾©å¸°æ™‚ã«ç™ºä¿¡å¾…ã¡æ™‚é–“ãŒã‹ã‹ã‚‹  
-                    - ãƒ‘ãƒ¯ãƒ¼ã‚²ãƒ¼ãƒ†ã‚£ãƒ³ã‚°  
-                        - å‹•ä½œä¸è¦ãƒ–ãƒ­ãƒƒã‚¯ã®é›»æºä¾›çµ¦ã‚’åœæ­¢ã™ã‚‹  
-                        - â—‹ï¼šãƒªãƒ¼ã‚¯é›»æµãŒå°‘ãªã„ï¼ˆã‚¯ãƒ­ãƒƒã‚¯ã‚²ãƒ¼ãƒ†ã‚£ãƒ³ã‚°æ¯”è¼ƒï¼‰  
-                        - Ã—ï¼šå¾©å¸°ã¾ã§ã«é•·ã„æ™‚é–“ã‚’è¦ã™ã‚‹  
-            - å‹•ä½œå‘¨æ³¢æ•°åˆ¶å¾¡  
-                - CPUãªã©ã®è«–ç†å›žè·¯ã®å‹•ä½œå‘¨æ³¢æ•°ã‚’å¤‰æ›´ã™ã‚‹  
-                - ex) è² è·ã®é‡ã„å‡¦ç†ã‚’è¡Œã£ã¦ã„ãªã„å ´åˆã¯ã€ã‚¯ãƒ­ãƒƒã‚¯å‘¨æ³¢æ•°ã‚’è½ã¨ã™  
-                - Ã—ï¼šå¤‰æ›´æ™‚ã€åŒæ™‚ã«ã‚¿ã‚¤ãƒžã®åˆ†å‘¨è¨­å®šã‚‚å¿…è¦ã«å¿œã˜ã¦è¨­å®šã—ãªãŠã™å¿…è¦ãŒã‚ã‚‹  
-        - å®‰å…¨æ€§è¨­è¨ˆ  
-            - ãƒ•ã‚©ãƒ¼ãƒ«ãƒˆãƒˆãƒ¬ãƒ©ãƒ³ãƒˆ  
-                - æ¦‚è¦  
-                    - æ•…éšœãªã©ãŒç™ºç”Ÿã—ã¦ã‚‚ã€å½±éŸ¿ã‚’å—ã‘ãšã«æ­£å¸¸å‹•ä½œã‚’ç¶šã‘ã‚‰ã‚Œã‚‹ã‚ˆã†ã«ã™ã‚‹ã“ã¨  
-                - è€ƒãˆæ–¹  
-                    - ãƒ•ã‚§ãƒ¼ãƒ«ã‚»ãƒ¼ãƒ•  
-                        - è£…ç½®æ•…éšœæ™‚ã€åˆ©ç”¨è€…ã«ã¨ã£ã¦å®‰å…¨ã«å‹•ä½œã•ã›ã‚‹  
-                        - ex) è‡ªå‹•è²©å£²æ©Ÿ  
-                            - æ•…éšœæ™‚ã«é›»æºã‚’ã‚·ãƒ£ãƒƒãƒˆãƒ€ã‚¦ãƒ³ã—ã€å®‰å…¨ã«è£…ç½®ã‚’åœæ­¢  
-                    - ãƒ•ã‚§ãƒ¼ãƒ«ã‚½ãƒ•ãƒˆ  
-                        - æ©Ÿèƒ½ã‚„æ€§èƒ½ãŒä½Žä¸‹ã«é–¢ã‚ã‚‰ãšã€ä¸å…·åˆç®‡æ‰€ã‚’è‡ªå‹•çš„ã«åˆ‡ã‚Šé›¢ã—ã€ã‚·ã‚¹ãƒ†ãƒ ã®ä¸€éƒ¨åˆ†ã§å‹•ä½œã•ã›ã‚‹  
-                    - ãƒ•ãƒ¼ãƒ«ãƒ—ãƒ«ãƒ¼ãƒ•  
-                        - ä¸å…·åˆã«ã‚ˆã‚‹èª¤å‹•ä½œè¦å› ã‚’äº‹å‰ã«å–ã‚Šé™¤ã  
-                        - ex) ã‚³ãƒã‚¯ã‚¿æŽ¥ç¶šéƒ¨ã«åˆ‡ã‚Šæ¬ ãã‚’è¨­ã‘ã€ã‚³ãƒã‚¯ã‚¿é€†å·®ã—ã‚’é˜²æ­¢ã™ã‚‹  
-                        - ex) å…¥åŠ›ãƒ‡ãƒ¼ã‚¿ã‚’ãƒã‚§ãƒƒã‚¯ã—ã€èª¤ã‚ŠãŒã‚ã‚Œã°å†å…¥åŠ›ã‚’ä¿ƒã™  
-            - ãƒ•ã‚©ãƒ¼ãƒ«ãƒˆã‚¢ãƒœã‚¤ãƒ€ãƒ³ã‚¹  
-                - ãã‚‚ãã‚‚æ•…éšœãŒèµ·ãã«ããã™ã‚‹  
-                - ex) ä¿¡é ¼æ€§ã®é«˜ã„éƒ¨å“ã‚’ç”¨ã„ã‚‹  
-                - ex) ã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢ã®ä¿¡é ¼æ€§ã‚’é«˜ã‚ã‚‹  
+                            - ex) ‰f‘œƒf[ƒ^  
+            - ‰ðÍ  
+                - ƒŠƒo[ƒXƒGƒ“ƒWƒjƒAƒŠƒ“ƒO  
+                    - »•i‚âƒvƒƒOƒ‰ƒ€‚Ì‰ðÍ‚É‚æ‚èA“à•”\‘¢‚â“®ì‚ð–¾‚ç‚©‚É‚·‚é•û–@  
+                - ‘Ïƒ^ƒ“ƒp«  
+                    - ‰p’PŒêFtamper  
+                        - ‰ü‚´‚ñ  
+                    - –hŒìô‚É‚æ‚èAŠO•”‚©‚ç‚Ì‰ðÍ‚ð“ï‚µ‚­‚·‚é«Ž¿  
+                    - ex) M†‚Ì“Ço‚µƒvƒ[ƒuŽæ•t‚¯ŒŸo‚É‚æ‚èAICƒ`ƒbƒv“à‚Ì•Û‘¶î•ñ‚ðÁ‹Ž‚·‚é‰ñ˜H‚ðÝ‚¯‚é  
+                    - ex) ROM‚ÌƒvƒƒOƒ‰ƒ€‚ðˆÃ†‰»  
+                        iŽÀsŽž‚É•K—v•ª‚¾‚¯•œ†‰»j  
+        - È“d—ÍÝŒv  
+            - Á”ï“d—Í  
+                - •¡”ƒ†ƒjƒbƒg‚ÌÁ”ï“d—Í  
+                    ƒ†ƒjƒbƒg–ˆ‚ÌÁ”ï“d—Í‚Ì‘˜a  
+                - “Ë“ü“d—¬  
+                    - “dŒ¹“Š“üŽžA’èíŽž‚æ‚è‚à‚Í‚é‚©‚É‘å‚«‚¢“d—¬i100”{ˆÈãj‚ª’ZŽžŠÔ—¬‚ê‚é‚±‚ÆB  
+                    - Žn“®“d—¬  
+                    - ‰e‹¿  
+                        - ex) ƒqƒ…[ƒY‚ªØ‚ê‚é  
+                        - ex) Ú‘±‹@Ší‚Ì“dˆ³~‰º  
+                        - ex) Ú‘±‹@Ší‚Ìu’f  
+            - “dŒ¹§Œä  
+                - Žg—p‚µ‚È‚¢ƒuƒƒbƒN‚Ì–³Œø‰»‚É‚æ‚èA•s—v‚È“d—ÍÁ”ï‚ð—}‚¦‚é  
+                - §Œä‚É‚æ‚èA•œ‹AŽžŠÔ‚ª’·‚­‚È‚é‚±‚Æ‚ðl—¶‚·‚é•K—v‚ª‚ ‚é  
+                - §Œä•û–@  
+                    - ƒNƒƒbƒNƒQ[ƒeƒBƒ“ƒO  
+                        - “®ì•s—vƒuƒƒbƒN‚É‹Ÿ‹‹‚·‚éƒNƒƒbƒN‚ð’âŽ~‚·‚é  
+                        - ‹@”\ƒuƒƒbƒN‚²‚Æ‚ÉƒNƒƒbƒN‹Ÿ‹‹‚ÌON/OFF‚ðŽw’è‚Å‚«‚éLSI‚à‘½‚¢B  
+                        - ƒŠ[ƒN“d—¬  
+                            - ƒNƒƒbƒN’âŽ~’†‚É—¬‚ê‚é”÷Žã“d—¬  
+                            - “–ŠY“d‹C‰ñ˜H“à‚ÖˆÓ}‚¹‚¸˜R‚êo‚µ‚½“d—¬  
+                        - ~F•œ‹AŽž‚É”­M‘Ò‚¿ŽžŠÔ‚ª‚©‚©‚é  
+                    - ƒpƒ[ƒQ[ƒeƒBƒ“ƒO  
+                        - “®ì•s—vƒuƒƒbƒN‚Ì“dŒ¹‹Ÿ‹‹‚ð’âŽ~‚·‚é  
+                        - ›FƒŠ[ƒN“d—¬‚ª­‚È‚¢iƒNƒƒbƒNƒQ[ƒeƒBƒ“ƒO”äŠrj  
+                        - ~F•œ‹A‚Ü‚Å‚É’·‚¢ŽžŠÔ‚ð—v‚·‚é  
+            - “®ìŽü”g”§Œä  
+                - CPU‚È‚Ç‚Ì˜_—‰ñ˜H‚Ì“®ìŽü”g”‚ð•ÏX‚·‚é  
+                - ex) •‰‰×‚Ìd‚¢ˆ—‚ðs‚Á‚Ä‚¢‚È‚¢ê‡‚ÍAƒNƒƒbƒNŽü”g”‚ð—Ž‚Æ‚·  
+                - ~F•ÏXŽžA“¯Žž‚Éƒ^ƒCƒ}‚Ì•ªŽüÝ’è‚à•K—v‚É‰ž‚¶‚ÄÝ’è‚µ‚È‚¨‚·•K—v‚ª‚ ‚é  
+        - ˆÀ‘S«ÝŒv  
+            - ƒtƒH[ƒ‹ƒgƒgƒŒƒ‰ƒ“ƒg  
+                - ŠT—v  
+                    - ŒÌá‚È‚Ç‚ª”­¶‚µ‚Ä‚àA‰e‹¿‚ðŽó‚¯‚¸‚É³í“®ì‚ð‘±‚¯‚ç‚ê‚é‚æ‚¤‚É‚·‚é‚±‚Æ  
+                - l‚¦•û  
+                    - ƒtƒF[ƒ‹ƒZ[ƒt  
+                        - ‘•’uŒÌáŽžA—˜—pŽÒ‚É‚Æ‚Á‚ÄˆÀ‘S‚É“®ì‚³‚¹‚é  
+                        - ex) Ž©“®”Ì”„‹@  
+                            - ŒÌáŽž‚É“dŒ¹‚ðƒVƒƒƒbƒgƒ_ƒEƒ“‚µAˆÀ‘S‚É‘•’u‚ð’âŽ~  
+                    - ƒtƒF[ƒ‹ƒ\ƒtƒg  
+                        - ‹@”\‚â«”\‚ª’á‰º‚ÉŠÖ‚í‚ç‚¸A•s‹ï‡‰ÓŠ‚ðŽ©“®“I‚ÉØ‚è—£‚µAƒVƒXƒeƒ€‚Ìˆê•”•ª‚Å“®ì‚³‚¹‚é  
+                    - ƒt[ƒ‹ƒvƒ‹[ƒt  
+                        - •s‹ï‡‚É‚æ‚éŒë“®ì—vˆö‚ðŽ–‘O‚ÉŽæ‚èœ‚­  
+                        - ex) ƒRƒlƒNƒ^Ú‘±•”‚ÉØ‚èŒ‡‚«‚ðÝ‚¯AƒRƒlƒNƒ^‹t·‚µ‚ð–hŽ~‚·‚é  
+                        - ex) “ü—Íƒf[ƒ^‚ðƒ`ƒFƒbƒN‚µAŒë‚è‚ª‚ ‚ê‚ÎÄ“ü—Í‚ð‘£‚·  
+            - ƒtƒH[ƒ‹ƒgƒAƒ{ƒCƒ_ƒ“ƒX  
+                - ‚»‚à‚»‚àŒÌá‚ª‹N‚«‚É‚­‚­‚·‚é  
+                - ex) M—Š«‚Ì‚‚¢•”•i‚ð—p‚¢‚é  
+                - ex) ƒ\ƒtƒgƒEƒFƒA‚ÌM—Š«‚ð‚‚ß‚é  
             - EMC  
-                - Electromagnetic Compatibilityï¼šé›»ç£ä¸¡ç«‹æ€§  
+                - Electromagnetic CompatibilityF“dŽ¥—¼—§«  
                     - Compatibility  
-                        - äº’æ›æ€§  
-                - é›»å­æ©Ÿå™¨ã®é›»æ°—çš„ãªå®‰å…¨æ€§ã€å®‰å…¨å‹•ä½œã‚’ä¿è¨¼ã™ã‚‹ãŸã‚ã®è©¦é¨“é …ç›®  
-                - è©¦é¨“é …ç›®  
-                    - EMIè©¦é¨“  
+                        - ŒÝŠ·«  
+                - “dŽq‹@Ší‚Ì“d‹C“I‚ÈˆÀ‘S«AˆÀ‘S“®ì‚ð•ÛØ‚·‚é‚½‚ß‚ÌŽŽŒ±€–Ú  
+                - ŽŽŒ±€–Ú  
+                    - EMIŽŽŒ±  
                         - ElectroMagnetic Interference  
-                        - æ©Ÿå™¨ã®å‹•ä½œã«ã‚ˆã‚Šã€ä»–æ©Ÿå™¨ã‚„äººä½“ã«åŠã¼ã™å½±éŸ¿ã‚’æ¤œæŸ»ã™ã‚‹  
-                        - æ”¾å°„ã•ã‚Œã‚‹é›»ç£æ³¢ã®å‘¨æ³¢æ•°ã‚’å¼·åº¦ã‚’æ¸¬å®šã™ã‚‹  
+                        - ‹@Ší‚Ì“®ì‚É‚æ‚èA‘¼‹@Ší‚âl‘Ì‚É‹y‚Ú‚·‰e‹¿‚ðŒŸ¸‚·‚é  
+                        - •úŽË‚³‚ê‚é“dŽ¥”g‚ÌŽü”g”‚ð‹­“x‚ð‘ª’è‚·‚é  
                         - SSCG  
                             - Spread Spectrum Clock Generator  
-                            - ã‚¯ãƒ­ãƒƒã‚¯ã‚¸ã‚§ãƒãƒ¬ãƒ¼ã‚¿ã«ãŠã‘ã‚‹æ”¾å°„é›»ç£æ³¢ã®ãƒ”ãƒ¼ã‚¯ã‚’æŠ‘ãˆã‚‹æŠ€è¡“  
-                            - ã‚¯ãƒ­ãƒƒã‚¯å‘¨æ³¢æ•°ã‚’ã‚ãšã‹ã«å¤‰å‹•ã•ã›ã€æ”¾å°„ãƒŽã‚¤ã‚ºã‚’ä½Žæ¸›  
-                            - â˜…è¦è¿½åŠ   
-                    - ã‚¤ãƒŸãƒ¥ãƒ‹ãƒ†ã‚£è©¦é¨“  
+                            - ƒNƒƒbƒNƒWƒFƒlƒŒ[ƒ^‚É‚¨‚¯‚é•úŽË“dŽ¥”g‚Ìƒs[ƒN‚ð—}‚¦‚é‹Zp  
+                            - ƒNƒƒbƒNŽü”g”‚ð‚í‚¸‚©‚É•Ï“®‚³‚¹A•úŽËƒmƒCƒY‚ð’áŒ¸  
+                            - š—v’Ç‰Á  
+                    - ƒCƒ~ƒ…ƒjƒeƒBŽŽŒ±  
                         - immunity  
-                            - å…å½¹  
-                                - â˜…è¦è¿½åŠ   
-                        - å¤–ç•Œã‹ã‚‰ã®é›»æ°—çš„å½±éŸ¿ã«ã‚ˆã‚Šã€è£…ç½®ãŒèª¤å‹•ä½œ/æ•…éšœã—ãªã„ã“ã¨ã‚’æ¤œè¨¼ã™ã‚‹  
-                        - â˜…è¦è¿½åŠ   
-            - é›»æºé–¢ä¿‚ã®å®‰å…¨å¯¾ç­–  
-                - é›»æºã®çž¬æ–­  
-                    - ex) UPSã‚’ç”¨ã„ã‚‹  
-                - æ¼é›»ãƒ»æ„Ÿé›»  
-                    - ex) å®¹æ˜“ã«è§¦ã‚Œã‚‰ã‚Œãªã„æ§‹é€ ã«ã™ã‚‹  
-                    - ex) è£…ç½®ã«ã‚¢ãƒ¼ã‚¹ç·šã‚’æŽ¥ç¶šã™ã‚‹  
-    - ï¼•ï¼Žãƒªã‚¢ãƒ«ã‚¿ã‚¤ãƒ OS  
-        - ç‰¹å¾´ã¨æ§‹æˆ  
-            - ç‰¹å¾´  
-                - é™å®šã•ã‚ŒãŸãƒ‡ã‚£ã‚¹ã‚¯ã‚µã‚¤ã‚º  
-                - ãƒ‡ã‚£ã‚¹ã‚¯ãƒ¬ã‚¹èµ·å‹•  
-                - ãƒªã‚¢ãƒ«ã‚¿ã‚¤ãƒ æ€§  
-                - é«˜ä¿¡é ¼æ€§  
-                - OSæ§‹æˆè¦ç´ ã®ã‚«ã‚¹ã‚¿ãƒžã‚¤ã‚º  
-            - æ§‹æˆ  
-                - ã‚«ãƒ¼ãƒãƒ«  
-                    - ã‚¿ã‚¹ã‚¯ã®å®Ÿè¡Œç®¡ç†  
-                - ãƒ‰ãƒ©ã‚¤ãƒ  
-                    - ãƒãƒ¼ãƒ‰ã‚¦ã‚§ã‚¢ã‚¢ã‚¯ã‚»ã‚¹æ©Ÿèƒ½  
-            - è€ƒãˆæ–¹  
-                - ãƒžã‚¤ã‚¯ãƒ­ã‚«ãƒ¼ãƒãƒ«OS  
-                    - æœ€å°é™ã®æ©Ÿèƒ½ã‚’ç››ã‚Šè¾¼ã‚“ã OS  
-                - ãƒ¢ãƒŽãƒªã‚·ãƒƒã‚¯ã‚«ãƒ¼ãƒãƒ«OS  
-                    - æ¨™æº–æ©Ÿèƒ½ã‚’ç››ã‚Šè¾¼ã‚“ã OS  
-                    - monolithic:ä¸€æžšå²©(ãƒ¢ãƒŽãƒªã‚¹)ã®ã‚ˆã†ãª  
-            - ã‚·ã‚¹ãƒ†ãƒ ã‚³ãƒ¼ãƒ«  
-                - ã‚¿ã‚¹ã‚¯ç®¡ç†  
-                    - ã‚¿ã‚¹ã‚¯è‡ªä½“ã®åˆ¶å¾¡  
-                - åŒæœŸãƒ»é€šä¿¡åˆ¶å¾¡  
-                    - ã‚¿ã‚¹ã‚¯é–“ã§ã®åŒæœŸåˆ¶å¾¡ã€ã‚¿ã‚¹ã‚¯é–“åˆ¶å¾¡  
-                - æ™‚é–“ç®¡ç†  
-                    - ã‚·ã‚¹ãƒ†ãƒ ã‚¿ã‚¤ãƒžã®è¨­å®šãƒ»å–å¾—ãªã©  
-                - ãƒ¡ãƒ¢ãƒªç®¡ç†  
-        - ã‚¿ã‚¹ã‚¯ç®¡ç†  
-            - çŠ¶æ…‹é·ç§»  
-                - å®Ÿè¡ŒçŠ¶æ…‹ï¼ˆRunningï¼‰  
-                    - å®Ÿè¡Œä¸­  
-                - å¾…ã¡çŠ¶æ…‹ï¼ˆWaitingï¼‰  
-                    - å¤–éƒ¨ã‚¤ãƒ™ãƒ³ãƒˆå¾…ã¡ãªã©ã€å®Ÿè¡ŒãŒåœæ­¢ã—ã¦ã„ã‚‹çŠ¶æ…‹  
-                - å®Ÿè¡Œå¯èƒ½çŠ¶æ…‹ï¼ˆReadyï¼‰  
-                    - ã‚¿ã‚¹ã‚¯èµ·å‹•å¾Œ  
-                    - ä»–ã‚¿ã‚¹ã‚¯å®Ÿè¡ŒçŠ¶æ…‹ã®ãŸã‚ã€å®Ÿè¡Œã§ããªã„çŠ¶æ…‹  
-                - ä¼‘æ­¢çŠ¶æ…‹  
-                    - ã‚¿ã‚¹ã‚¯ç”Ÿæˆå¾ŒçŠ¶æ…‹  
-                - æœªç™»éŒ²çŠ¶æ…‹  
-                    - ã‚¿ã‚¹ã‚¯æœªç”Ÿæˆ  
-            - ã‚¹ã‚±ã‚¸ãƒ¥ãƒ¼ãƒªãƒ³ã‚°  
-                - ãƒ©ã‚¦ãƒ³ãƒ‰ãƒ­ãƒ“ãƒ³æ–¹å¼  
-                    - æ¦‚è¦  
-                        - åˆ†å‰²ã•ã‚ŒãŸCPUæ™‚é–“ã‚’ã‚¿ã‚¹ã‚¯ã«é †æ¬¡å‰²ã‚ŠæŒ¯ã‚‹ã‚¹ã‚±ã‚¸ãƒ¥ãƒ¼ãƒªãƒ³ã‚°  
-                        - round robinï¼šç·å½“ãŸã‚Šæˆ¦ã€æŒã¡å›žã‚Š  
-                        - é‡å­æ™‚é–“  
-                            - åˆ†å‰²ã•ã‚ŒãŸCPUæ™‚é–“  
-                            - ï¼ã‚¿ã‚¤ãƒ ã‚¹ãƒ©ã‚¤ã‚¹  
-                        - ã‚¿ã‚¤ãƒ ã‚·ã‚§ã‚¢ãƒªãƒ³ã‚°  
-                            - å‡ç­‰ã«åˆ†é…ã™ã‚‹æ–¹å¼  
-                - åˆ°ç€é †æ–¹å¼  
-                    - æ¦‚è¦  
-                        - CPUå‰²ã‚Šå½“ã¦ã‚’è¦æ±‚ã—ãŸé †ã«å®Ÿè¡Œæ¨©ã‚’ä¸Žãˆã‚‹  
-                        - å„ªå…ˆåº¦ã‚’è€ƒæ…®ã—ãªã„  
+                            - –Æ–ð  
+                                - š—v’Ç‰Á  
+                        - ŠOŠE‚©‚ç‚Ì“d‹C“I‰e‹¿‚É‚æ‚èA‘•’u‚ªŒë“®ì/ŒÌá‚µ‚È‚¢‚±‚Æ‚ðŒŸØ‚·‚é  
+                        - š—v’Ç‰Á  
+            - “dŒ¹ŠÖŒW‚ÌˆÀ‘S‘Îô  
+                - “dŒ¹‚Ìu’f  
+                    - ex) UPS‚ð—p‚¢‚é  
+                - ˜R“dEŠ´“d  
+                    - ex) —eˆÕ‚ÉG‚ê‚ç‚ê‚È‚¢\‘¢‚É‚·‚é  
+                    - ex) ‘•’u‚ÉƒA[ƒXü‚ðÚ‘±‚·‚é  
+    - ‚TDƒŠƒAƒ‹ƒ^ƒCƒ€OS  
+        - “Á’¥‚Æ\¬  
+            - “Á’¥  
+                - ŒÀ’è‚³‚ê‚½ƒfƒBƒXƒNƒTƒCƒY  
+                - ƒfƒBƒXƒNƒŒƒX‹N“®  
+                - ƒŠƒAƒ‹ƒ^ƒCƒ€«  
+                - ‚M—Š«  
+                - OS\¬—v‘f‚ÌƒJƒXƒ^ƒ}ƒCƒY  
+            - \¬  
+                - ƒJ[ƒlƒ‹  
+                    - ƒ^ƒXƒN‚ÌŽÀsŠÇ—  
+                - ƒhƒ‰ƒCƒo  
+                    - ƒn[ƒhƒEƒFƒAƒAƒNƒZƒX‹@”\  
+            - l‚¦•û  
+                - ƒ}ƒCƒNƒƒJ[ƒlƒ‹OS  
+                    - Å¬ŒÀ‚Ì‹@”\‚ð·‚èž‚ñ‚¾OS  
+                - ƒ‚ƒmƒŠƒVƒbƒNƒJ[ƒlƒ‹OS  
+                    - •W€‹@”\‚ð·‚èž‚ñ‚¾OS  
+                    - monolithic:ˆê–‡Šâ(ƒ‚ƒmƒŠƒX)‚Ì‚æ‚¤‚È  
+            - ƒVƒXƒeƒ€ƒR[ƒ‹  
+                - ƒ^ƒXƒNŠÇ—  
+                    - ƒ^ƒXƒNŽ©‘Ì‚Ì§Œä  
+                - “¯ŠúE’ÊM§Œä  
+                    - ƒ^ƒXƒNŠÔ‚Å‚Ì“¯Šú§ŒäAƒ^ƒXƒNŠÔ§Œä  
+                - ŽžŠÔŠÇ—  
+                    - ƒVƒXƒeƒ€ƒ^ƒCƒ}‚ÌÝ’èEŽæ“¾‚È‚Ç  
+                - ƒƒ‚ƒŠŠÇ—  
+        - ƒ^ƒXƒNŠÇ—  
+            - ó‘Ô‘JˆÚ  
+                - ŽÀsó‘ÔiRunningj  
+                    - ŽÀs’†  
+                - ‘Ò‚¿ó‘ÔiWaitingj  
+                    - ŠO•”ƒCƒxƒ“ƒg‘Ò‚¿‚È‚ÇAŽÀs‚ª’âŽ~‚µ‚Ä‚¢‚éó‘Ô  
+                - ŽÀs‰Â”\ó‘ÔiReadyj  
+                    - ƒ^ƒXƒN‹N“®Œã  
+                    - ‘¼ƒ^ƒXƒNŽÀsó‘Ô‚Ì‚½‚ßAŽÀs‚Å‚«‚È‚¢ó‘Ô  
+                - ‹xŽ~ó‘Ô  
+                    - ƒ^ƒXƒN¶¬Œãó‘Ô  
+                - –¢“o˜^ó‘Ô  
+                    - ƒ^ƒXƒN–¢¶¬  
+            - ƒXƒPƒWƒ…[ƒŠƒ“ƒO  
+                - ƒ‰ƒEƒ“ƒhƒƒrƒ“•ûŽ®  
+                    - ŠT—v  
+                        - •ªŠ„‚³‚ê‚½CPUŽžŠÔ‚ðƒ^ƒXƒN‚É‡ŽŸŠ„‚èU‚éƒXƒPƒWƒ…[ƒŠƒ“ƒO  
+                        - round robinF‘“–‚½‚èíAŽ‚¿‰ñ‚è  
+                        - —ÊŽqŽžŠÔ  
+                            - •ªŠ„‚³‚ê‚½CPUŽžŠÔ  
+                            - ƒ^ƒCƒ€ƒXƒ‰ƒCƒX  
+                        - ƒ^ƒCƒ€ƒVƒFƒAƒŠƒ“ƒO  
+                            - ‹Ï“™‚É•ª”z‚·‚é•ûŽ®  
+                - “ž’…‡•ûŽ®  
+                    - ŠT—v  
+                        - CPUŠ„‚è“–‚Ä‚ð—v‹‚µ‚½‡‚ÉŽÀsŒ ‚ð—^‚¦‚é  
+                        - —Dæ“x‚ðl—¶‚µ‚È‚¢  
                         - FCFS  
                             - First Come First Served  
-                - å„ªå…ˆåº¦æ–¹å¼  
-                    - æ¦‚è¦  
-                        - ã‚¿ã‚¹ã‚¯ã®å„ªå…ˆåº¦ãŒé«˜ã„ã‚‚ã®ã‹ã‚‰é †ã«å®Ÿè¡Œ  
-                    - ãƒ—ãƒªã‚¨ãƒ³ãƒ—ã‚·ãƒ§ãƒ³  
-                        - å„ªå…ˆåº¦ã®ã‚ˆã‚Šé«˜ã„ã‚¿ã‚¹ã‚¯ãŒèµ·å‹•ã™ã‚‹ã¨ã€ç¾åœ¨å®Ÿè¡Œä¸­ã®ã‚¿ã‚¹ã‚¯ã®å®Ÿè¡Œæ¨©ã‚’æ¨ªå–ã‚Šã—ã¦å‹•ä½œã•ã›ã‚‹  
-                        - preemptï¼šæ¨ªå–ã‚Š  
-                    - ã‚³ãƒ³ãƒ†ã‚­ã‚¹ãƒˆåˆ‡ã‚Šæ›¿ãˆ  
-                        - ã‚¿ã‚¹ã‚¯åˆ‡ã‚Šæ›¿ãˆæ™‚ã®çŠ¶æ…‹ã®ä¿å­˜ãƒ»å¾©å…ƒã‚’è¡Œã†  
-                        - é »ç¹ãªã‚³ãƒ³ãƒ†ã‚­ã‚¹ãƒˆåˆ‡ã‚Šæ›¿ãˆã¯ã€ã‚·ã‚¹ãƒ†ãƒ å…¨ä½“ã®æ€§èƒ½ã‚’ä½Žä¸‹ã•ã›ã‚‹æã‚ŒãŒã‚ã‚Šã€ã‚¹ãƒ©ãƒƒã‚·ãƒ³ã‚°ãŒç™ºç”Ÿã™ã‚‹åŽŸå› ã¨ãªã‚‹ãŸã‚ã€é¿ã‘ã‚‹ã¹ãã€‚  
-                    - ãƒ¬ãƒ¼ãƒˆãƒ¢ãƒŽãƒˆãƒ‹ãƒƒã‚¯ã‚¹ã‚±ã‚¸ãƒ¥ãƒ¼ãƒªãƒ³ã‚°  
-                        - RMSï¼ˆRate Monotonic Scheduling  
-                            - è‹±å˜èªžï¼šmonotonic  
-                                - å˜èª¿ãª  
-                        - ä¸€å®šå‘¨æœŸã”ã¨ã«èµ·å‹•ã™ã‚‹ã‚¹ã‚±ã‚¸ãƒ¥ãƒ¼ãƒªãƒ³ã‚°  
-                        - åŒã˜å‘¨æœŸã§è¤‡æ•°ã‚¿ã‚¹ã‚¯ãŒèµ·å‹•ã™ã‚‹å ´åˆã¯ã€è¨­å®šã—ãŸã‚¿ã‚¹ã‚¯å„ªå…ˆåº¦ã«æº–ãšã‚‹  
-                        - èµ·å‹•å‘¨æœŸãŒçŸ­ã„ã‚¿ã‚¹ã‚¯ã®å„ªå…ˆåº¦ã‚’é«˜ãã—ãŸã»ã†ãŒã€ä¸å…·åˆã«ã¤ãªãŒã‚Šã«ãã„  
-                    - æœ€çŸ­ã‚¸ãƒ§ãƒ–å„ªå…ˆ  
-                        - å‡¦ç†æ™‚é–“ãŒçŸ­ã„ã‚¿ã‚¹ã‚¯å„ªå…ˆåº¦ã‚’ä¸Šã’ã‚‹æ–¹æ³•  
-                        - ï¼æœ€çŸ­æ™‚é–“é †  
-                        - ï¼SJFï¼ˆShortest Job Firstï¼‰  
-        - åŒæœŸåˆ¶å¾¡  
-            - ã‚¤ãƒ™ãƒ³ãƒˆãƒ•ãƒ©ã‚°  
-                - ã‚¿ã‚¹ã‚¯é–“åŒæœŸæ–¹æ³•  
-            - ãƒ¡ãƒ¼ãƒ«ãƒœãƒƒã‚¯ã‚¹  
-                - ã‚¿ã‚¹ã‚¯é–“é€šä¿¡  
-                - ã‚¤ãƒ™ãƒ³ãƒˆãƒ•ãƒ©ã‚°ã‚ˆã‚Šã‚‚ã‚«ãƒ¼ãƒãƒ«ã®è² è·å¤§  
-            - ã‚»ãƒžãƒ•ã‚©  
-                - æŽ’ä»–ãŒå¿…è¦ãªè³‡æºã®åŒæœŸåˆ¶å¾¡  
-                - æ“ä½œ  
-                    - Pæ“ä½œ  
-                        - è³‡æº**ç²å¾—**  
-                            - ç”±æ¥ï¼špasserenï¼ˆé€šè¡Œè¨±å¯ï¼‰  
-                    - Væ“ä½œ  
-                        - è³‡æº**è§£æ”¾**  
-                            - ç”±æ¥ï¼šverhoogï¼ˆé€šè¡Œç¦æ­¢ï¼‰  
-                    - è¦šãˆæ–¹  
-                        - Pâ†’Vã§å–å¾—  
-                            - Promotion Video ã®é †ï¼  
-                - ç¨®é¡ž  
-                    - ã‚¼ãƒãƒ©ãƒ«ã‚»ãƒžãƒ•ã‚©  
-                        - P/Væ“ä½œã§ã‚«ã‚¦ãƒ³ã‚¿å€¤ã‚’å¤‰åŒ–ã•ã›ã€åˆæœŸå€¤ã§è¨­å®šã—ãŸæ•°ã¾ã§ã®åŒæ™‚ã‚¢ã‚¯ã‚»ã‚¹ã‚’è¨±å¯ã™ã‚‹æ–¹æ³•  
-                        - ï¼ã‚«ã‚¦ãƒ³ãƒ†ã‚£ãƒ³ã‚°ã‚»ãƒžãƒ•ã‚©  
-                        - ï¼ã‚«ã‚¦ãƒ³ã‚¿ã‚»ãƒžãƒ•ã‚©  
-        - å„ªå…ˆåº¦é€†è»¢/ãƒ‡ãƒƒãƒ‰ãƒ­ãƒƒã‚¯  
-            - å„ªå…ˆåº¦é€†è»¢  
-                - ï¼ãƒ—ãƒ©ã‚¤ã‚ªãƒªãƒ†ã‚£ãƒ»ã‚¤ãƒ³ãƒãƒ¼ã‚¸ãƒ§ãƒ³  
-                - æ¦‚è¦  
-                    - "ä½Ž"å„ªå…ˆåº¦ã‚¿ã‚¹ã‚¯ãŒ"é«˜"å„ªå…ˆåº¦ã‚¿ã‚¹ã‚¯ã‚ˆã‚Šæ—©ãå®Ÿè¡Œã•ã‚Œã‚‹ç¾è±¡ã€‚  
-                    - ex1) ã‚»ãƒžãƒ•ã‚©ã‚’ä½¿ç”¨ã—ãŸæŽ’ä»–åˆ¶å¾¡ã«ãŠã„ã¦ç•°ãªã‚‹å„ªå…ˆåº¦ã®ã‚¿ã‚¹ã‚¯ãŒåŒã˜è³‡æºã‚’ç²å¾—ã™ã‚‹éš›ã€ä½Žå„ªå…ˆåº¦ã‚¿ã‚¹ã‚¯ãŒå…ˆã«è³‡æºã‚’ç²å¾—ã™ã‚‹ã¨ã€é«˜å„ªå…ˆåº¦ã‚¿ã‚¹ã‚¯ãŒç²å¾—ã§ããªããªã‚Šã€å…ˆã«ä½Žå„ªå…ˆåº¦ã‚¿ã‚¹ã‚¯ãŒå‹•ãã€‚ã™ãªã‚ã¡ã€å„ªå…ˆåº¦ãŒé€†è»¢ã™ã‚‹ã€‚  
-                    - ex2) é«˜å„ªå…ˆã‚¿ã‚¹ã‚¯ãŒä½Žå„ªå…ˆã‚¿ã‚¹ã‚¯ã¨å…±æœ‰ã™ã‚‹è³‡æºã®å¾…ã¡ä¸­ã«ã€ä¸­å„ªå…ˆã‚¿ã‚¹ã‚¯ã«å„ªå…ˆæ¨©ã‚’å–ã‚‰ã‚Œã¦ã—ã¾ã†ç¾è±¡  
-                - å¯¾ç­–  
-                    - ãƒ—ãƒ©ã‚¤ã‚ªãƒªãƒ†ã‚£ãƒ»ã‚¤ãƒ³ãƒ˜ãƒªã‚¿ãƒ³ã‚¹  
-                        - å„ªå…ˆåº¦ç¶™æ‰¿  
-                        - å„ªå…ˆåº¦é€†è»¢ã‚’è§£æ¶ˆã™ã‚‹ãŸã‚ã®ã‚¹ã‚±ã‚¸ãƒ¥ãƒ¼ãƒªãƒ³ã‚°  
-                        - ä½Žå„ªå…ˆã‚¿ã‚¹ã‚¯ãŒé«˜å„ªå…ˆã‚¿ã‚¹ã‚¯ã®å„ªå…ˆåº¦ã‚’ç¶™æ‰¿ã™ã‚‹ã€‚  
-                            ãã‚Œã«ã‚ˆã£ã¦ä¸­å„ªå…ˆã‚¿ã‚¹ã‚¯ãŒä½Žå„ªå…ˆã‚¿ã‚¹ã‚¯ã«å…ˆç«‹ã£ã¦å‹•ä½œã™ã‚‹ã“ã¨ã‚’é˜²ãã€‚  
-                        - ãƒ‡ãƒƒãƒ‰ãƒ­ãƒƒã‚¯ã¯è§£æ¶ˆã§ããªã„  
-                    - ãƒ—ãƒ©ã‚¤ã‚ªãƒªãƒ†ã‚£ãƒ»ã‚·ãƒ¼ãƒªãƒ³ã‚°  
-                        - Priority Ceiling Protocolï¼šPCP  
-                        - ãƒ—ãƒ©ã‚¤ã‚ªãƒªãƒ†ã‚£ãƒ»ã‚¤ãƒ³ãƒ˜ãƒªã‚¿ãƒ³ã‚¹ã‚’æ”¹è‰¯ã—ãŸã‚‚ã®  
-                        - å„ªå…ˆåº¦é€†è»¢ã‚’è§£æ¶ˆã™ã‚‹ãŸã‚ã®ã‚¹ã‚±ã‚¸ãƒ¥ãƒ¼ãƒªãƒ³ã‚°  
-                        - ã‚ã‚‹ã‚¿ã‚¹ã‚¯ãŒç‰¹å®šè³‡æºã‚’å æœ‰ã™ã‚‹ã¨ã€å„ªå…ˆåº¦ã‚’ä¸€æ™‚çš„ã«ä¸Šé™ã¾ã§é«˜ã‚ã‚‹ã€‚  
-                            ï¼ˆè³‡æºã«å¯¾ã™ã‚‹ä¸Šé™ã‚’äº‹å‰ã«æ±ºã‚ã¦ãŠãï¼‰  
-                        - æ€§èƒ½é¢ã«å½±éŸ¿ã‚’åŠã¼ã™  
-            - ãƒ‡ãƒƒãƒ‰ãƒ­ãƒƒã‚¯  
-                - æ¦‚è¦  
-                    - è¤‡æ•°ã‚¿ã‚¹ã‚¯ã‹ã‚‰åŒè³‡æºã®å–ã‚Šåˆã„ã«ã‚ˆã‚Šã€ã„ãšã‚Œã®ã‚¿ã‚¹ã‚¯ã‚‚å‹•ä½œã§ããªããªã‚‹ç¾è±¡  
-                - ç™ºç”Ÿæ¡ä»¶  
-                    - ä»¥ä¸‹ã€ï¼”æ¡ä»¶ã®AND  
-                        - â‘ ç›¸äº’æŽ’é™¤  
-                            - ï¼‘ã‚¿ã‚¹ã‚¯ã‹ã‚‰ã—ã‹åŒæ™‚ã«ä½¿ç”¨ã§ããªã„è³‡æºãŒã‚ã‚‹  
-                        - â‘¡ç²å¾—ã¨å¾…æ©Ÿ  
-                            - ã‚ã‚‹è³‡æºç²å¾—ä¸­ã«ã€åˆ¥è³‡æºã®ç²å¾—è¦æ±‚ã‚’å‡ºã—å¾…æ©Ÿ  
-                        - â‘¢ãƒ—ãƒªã‚¨ãƒ³ãƒ—ãƒˆã§ããªã„  
-                            - è³‡æºã®æ¨ªå–ã‚ŠãŒã§ããšã€è§£æ”¾ã™ã‚‹ã¾ã§å¾…ã¤ã—ã‹ãªã„  
-                        - â‘£å¾ªç’°å¾…æ©Ÿ  
-                            - ï¼’ã¤ä»¥ä¸Šã®ã‚¿ã‚¹ã‚¯ã«ãŠã„ã¦ã€è³‡æºã®ç²å¾—ã¨è¦æ±‚ã®ãƒªãƒ³ã‚¯ãŒå¾ªç’°ã—ã¦ã„ã‚‹  
-                - äºˆé˜²ç­–  
-                    - ä»¥ä¸‹ã®ã„ãšã‚Œã‹ã‚’è¡Œã†  
-                        - â‘¡ç²å¾—ã¨å¾…æ©Ÿ  
-                            - ã‚¿ã‚¹ã‚¯ã®å®Ÿè¡Œå‰ã«å¿…è¦ãªå…¨è³‡æºã‚’ç²å¾—ã—ã¦ãŠãã€‚  
-                                - ãŸã ã—ã€ã‚·ã‚¹ãƒ†ãƒ å…¨ä½“ã¨ã—ã¦éžåŠ¹çŽ‡ã«ãªã‚‹å ´åˆãŒã‚ã‚‹ã€‚  
-                        - â‘¢ãƒ—ãƒªã‚¨ãƒ³ãƒ—ãƒˆã§ããªã„  
-                            - è³‡æºç²å¾—å¤±æ•—æ™‚ã€ç¾åœ¨ç²å¾—ä¸­ã®å…¨è³‡æºã‚’é–‹æ”¾ã™ã‚‹ã€‚  
-                                - ãŸã ã—ã€ç¢ºå®Ÿã«å‡¦ç†ã‚’å†é–‹ã§ãã‚‹ã‚ˆã†ã«ã—ã¦ãŠãå¿…è¦ãŒã‚ã‚‹ã€‚ï¼ˆè§£æ”¾ã—ãŸè³‡æºã‚’ä½¿ã†å‡¦ç†ã‚’ã‚„ã‚Šç›´ã™å¿…è¦ãŒç”Ÿã˜ã‚‹å ´åˆã‚‚ã‚ã‚‹ãŸã‚ï¼‰  
-                        - â‘£å¾ªç’°å¾…æ©Ÿ  
-                            - è¤‡æ•°è³‡æºã«å¯¾ã—ã¦ç²å¾—ã™ã‚‹é †åºã‚’ã‚·ã‚¹ãƒ†ãƒ å†…ã§ãƒ«ãƒ¼ãƒ«åŒ–ã—ã¦ãŠãã€‚ï¼ˆex. ç²å¾—é †åºã‚’è³‡æºYâ†’è³‡æºXã¨å®šã‚ã¦ãŠãï¼‰  
-                                - ãŸã ã—ã€å„ªå…ˆåº¦é€†è»¢ã¯ç™ºç”Ÿã™ã‚‹ã“ã¨ã«æ³¨æ„ã€‚  
-        - æ€§èƒ½æŒ‡æ¨™  
-            - æ€§èƒ½æŒ‡æ¨™  
-                - CPUæ™‚é–“  
-                    - CPUå‡¦ç†ä¸­  
-                - å¾…ã¡æ™‚é–“  
-                    - å‘½ä»¤ã‚’å—ã‘ã¦ã‹ã‚‰å‡¦ç†é–‹å§‹ã¾ã§  
-                - å…¥å‡ºåŠ›æ™‚é–“  
-                    - å‡¦ç†ã«é–¢é€£ã™ã‚‹å…¥å‡ºåŠ›æ™‚é–“  
-                - ã‚¿ãƒ¼ãƒ³ã‚¢ãƒ©ã‚¦ãƒ³ãƒ‰ã‚¿ã‚¤ãƒ ï¼ˆTATï¼‰  
-                    - å‘½ä»¤ã‚’å—ã‘ã¦ã‹ã‚‰å…¨å‡¦ç†çµæžœã‚’å‡ºã™ã¾ã§  
-                - å¿œç­”æ™‚é–“  
-                    - å‘½ä»¤ã‚’å—ã‘ã¦ã‹ã‚‰å‡¦ç†çµæžœã‚’å‡ºã—å§‹ã‚ã‚‹ã¾ã§  
-                - ã‚¹ãƒ«ãƒ¼ãƒ—ãƒƒãƒˆ  
-                    - å˜ä½æ™‚é–“å½“ãŸã‚Šã®å‡¦ç†ä»¶æ•°  
-                - CPUä½¿ç”¨çŽ‡  
-                    - CPUåˆ©ç”¨æ™‚é–“ï¼ˆå„ã‚¿ã‚¹ã‚¯åˆè¨ˆï¼‰Ã·ã‚·ã‚¹ãƒ†ãƒ ç¨¼åƒæ™‚é–“  
-            - ãƒªã‚¢ãƒ«ã‚¿ã‚¤ãƒ æ€§  
-                - ãƒ¯ãƒ¼ã‚¹ãƒˆã‚±ãƒ¼ã‚¹è¦‹ç©ã‚Š  
-                    - åŒæ™‚ç™ºç”Ÿã®å¯èƒ½æ€§ãŒã‚ã‚‹å‡¦ç†ã‚’ã€å…¨ã¦å‹•ä½œã•ã›ãŸã“ã¨ã‚’æƒ³å®šã—ã¦å‡¦ç†æ™‚é–“ã‚’è¦‹ç©ã‚‚ã‚‹  
-                    - æ¤œè¨Žé …ç›®  
-                        - ä¸¦è¡Œå‹•ä½œã™ã‚‹å„ã‚¿ã‚¹ã‚¯ã®å„ªå…ˆåº¦  
-                        - å…¥å‡ºåŠ›ã¨å†…éƒ¨å‡¦ç†ã®è² è·ãƒãƒ©ãƒ³ã‚¹  
-                        - å‰²è¾¼ã¿ã®ç™ºç”Ÿé »åº¦ã¨å‡¦ç†è² è·  
-                        - å‰²è¾¼ã¿ç¦æ­¢æœŸé–“ã®é©åˆ‡ãªè¨­å®š  
-                - ãƒãƒ¼ãƒ‰ãƒªã‚¢ãƒ«ã‚¿ã‚¤ãƒ   
-                    - åˆ¶é™æ™‚é–“å†…ã«å‡¦ç†ã‚’çµ‚ãˆãªã„ã¨ã€å‹•ä½œãŒæˆç«‹ã—ãªããªã‚‹ã‚‚ã®  
-                    - ex) ã‚¨ãƒ³ã‚¸ãƒ³ï¼ è‡ªå‹•è»Šã€ãƒ¢ãƒ¼ã‚·ãƒ§ãƒ³ã‚³ãƒ³ãƒˆãƒ­ãƒ¼ãƒ«ï¼ åˆ¶å¾¡æ©Ÿå™¨  
-                - ã‚½ãƒ•ãƒˆãƒªã‚¢ãƒ«ã‚¿ã‚¤ãƒ   
-                    - åˆ¶é™æ™‚çœ¼å†…ã«å‡¦ç†ãŒçµ‚ã‚ã‚‰ãªãã¦ã‚‚å‹•ä½œç¶™ç¶šå¯èƒ½ã ãŒã€åˆ©ç”¨è€…ã«ã¨ã£ã¦ã®ä¾¡å€¤ãŒä½Žä¸‹ã™ã‚‹ã‚‚ã®  
-                    - ex) DVDãƒ—ãƒ¬ãƒ¼ãƒ¤ãƒ¼ã«ã¦ã€ãƒªãƒ¢ã‚³ãƒ³ãƒœã‚¿ãƒ³é€£æ‰“ã«ã‚ˆã‚‹å‡¦ç†è² è·ã§ãƒ‡ã‚³ãƒ¼ãƒ€ã®å‡¦ç†ãŒé–“ã«åˆã‚ãªã„å ´åˆã€ã‚³ãƒžè½ã¡ã™ã‚‹ãŒå†ç”Ÿã§ãã‚‹ã€‚  
-        - çµ„è¾¼OSã®ç¨®é¡ž  
-            ãƒªãƒ³ã‚¯: [furien.jp/columns/192/][23]  
+                - —Dæ“x•ûŽ®  
+                    - ŠT—v  
+                        - ƒ^ƒXƒN‚Ì—Dæ“x‚ª‚‚¢‚à‚Ì‚©‚ç‡‚ÉŽÀs  
+                    - ƒvƒŠƒGƒ“ƒvƒVƒ‡ƒ“  
+                        - —Dæ“x‚Ì‚æ‚è‚‚¢ƒ^ƒXƒN‚ª‹N“®‚·‚é‚ÆAŒ»ÝŽÀs’†‚Ìƒ^ƒXƒN‚ÌŽÀsŒ ‚ð‰¡Žæ‚è‚µ‚Ä“®ì‚³‚¹‚é  
+                        - preemptF‰¡Žæ‚è  
+                    - ƒRƒ“ƒeƒLƒXƒgØ‚è‘Ö‚¦  
+                        - ƒ^ƒXƒNØ‚è‘Ö‚¦Žž‚Ìó‘Ô‚Ì•Û‘¶E•œŒ³‚ðs‚¤  
+                        - •p”É‚ÈƒRƒ“ƒeƒLƒXƒgØ‚è‘Ö‚¦‚ÍAƒVƒXƒeƒ€‘S‘Ì‚Ì«”\‚ð’á‰º‚³‚¹‚é‹°‚ê‚ª‚ ‚èAƒXƒ‰ƒbƒVƒ“ƒO‚ª”­¶‚·‚éŒ´ˆö‚Æ‚È‚é‚½‚ßA”ð‚¯‚é‚×‚«B  
+                    - ƒŒ[ƒgƒ‚ƒmƒgƒjƒbƒNƒXƒPƒWƒ…[ƒŠƒ“ƒO  
+                        - RMSiRate Monotonic Scheduling  
+                            - ‰p’PŒêFmonotonic  
+                                - ’P’²‚È  
+                        - ˆê’èŽüŠú‚²‚Æ‚É‹N“®‚·‚éƒXƒPƒWƒ…[ƒŠƒ“ƒO  
+                        - “¯‚¶ŽüŠú‚Å•¡”ƒ^ƒXƒN‚ª‹N“®‚·‚éê‡‚ÍAÝ’è‚µ‚½ƒ^ƒXƒN—Dæ“x‚É€‚¸‚é  
+                        - ‹N“®ŽüŠú‚ª’Z‚¢ƒ^ƒXƒN‚Ì—Dæ“x‚ð‚‚­‚µ‚½‚Ù‚¤‚ªA•s‹ï‡‚É‚Â‚È‚ª‚è‚É‚­‚¢  
+                    - Å’ZƒWƒ‡ƒu—Dæ  
+                        - ˆ—ŽžŠÔ‚ª’Z‚¢ƒ^ƒXƒN—Dæ“x‚ðã‚°‚é•û–@  
+                        - Å’ZŽžŠÔ‡  
+                        - SJFiShortest Job Firstj  
+        - “¯Šú§Œä  
+            - ƒCƒxƒ“ƒgƒtƒ‰ƒO  
+                - ƒ^ƒXƒNŠÔ“¯Šú•û–@  
+            - ƒ[ƒ‹ƒ{ƒbƒNƒX  
+                - ƒ^ƒXƒNŠÔ’ÊM  
+                - ƒCƒxƒ“ƒgƒtƒ‰ƒO‚æ‚è‚àƒJ[ƒlƒ‹‚Ì•‰‰×‘å  
+            - ƒZƒ}ƒtƒH  
+                - ”r‘¼‚ª•K—v‚ÈŽ‘Œ¹‚Ì“¯Šú§Œä  
+                - ‘€ì  
+                    - P‘€ì  
+                        - Ž‘Œ¹**Šl“¾**  
+                            - —R—ˆFpassereni’Ês‹–‰Âj  
+                    - V‘€ì  
+                        - Ž‘Œ¹**‰ð•ú**  
+                            - —R—ˆFverhoogi’Ês‹ÖŽ~j  
+                    - Šo‚¦•û  
+                        - P¨V‚ÅŽæ“¾  
+                            - Promotion Video ‚Ì‡I  
+                - Ží—Þ  
+                    - ƒ[ƒlƒ‰ƒ‹ƒZƒ}ƒtƒH  
+                        - P/V‘€ì‚ÅƒJƒEƒ“ƒ^’l‚ð•Ï‰»‚³‚¹A‰Šú’l‚ÅÝ’è‚µ‚½”‚Ü‚Å‚Ì“¯ŽžƒAƒNƒZƒX‚ð‹–‰Â‚·‚é•û–@  
+                        - ƒJƒEƒ“ƒeƒBƒ“ƒOƒZƒ}ƒtƒH  
+                        - ƒJƒEƒ“ƒ^ƒZƒ}ƒtƒH  
+        - —Dæ“x‹t“]/ƒfƒbƒhƒƒbƒN  
+            - —Dæ“x‹t“]  
+                - ƒvƒ‰ƒCƒIƒŠƒeƒBEƒCƒ“ƒo[ƒWƒ‡ƒ“  
+                - ŠT—v  
+                    - "’á"—Dæ“xƒ^ƒXƒN‚ª"‚"—Dæ“xƒ^ƒXƒN‚æ‚è‘‚­ŽÀs‚³‚ê‚éŒ»ÛB  
+                    - ex1) ƒZƒ}ƒtƒH‚ðŽg—p‚µ‚½”r‘¼§Œä‚É‚¨‚¢‚ÄˆÙ‚È‚é—Dæ“x‚Ìƒ^ƒXƒN‚ª“¯‚¶Ž‘Œ¹‚ðŠl“¾‚·‚éÛA’á—Dæ“xƒ^ƒXƒN‚ªæ‚ÉŽ‘Œ¹‚ðŠl“¾‚·‚é‚ÆA‚—Dæ“xƒ^ƒXƒN‚ªŠl“¾‚Å‚«‚È‚­‚È‚èAæ‚É’á—Dæ“xƒ^ƒXƒN‚ª“®‚­B‚·‚È‚í‚¿A—Dæ“x‚ª‹t“]‚·‚éB  
+                    - ex2) ‚—Dæƒ^ƒXƒN‚ª’á—Dæƒ^ƒXƒN‚Æ‹¤—L‚·‚éŽ‘Œ¹‚Ì‘Ò‚¿’†‚ÉA’†—Dæƒ^ƒXƒN‚É—DæŒ ‚ðŽæ‚ç‚ê‚Ä‚µ‚Ü‚¤Œ»Û  
+                - ‘Îô  
+                    - ƒvƒ‰ƒCƒIƒŠƒeƒBEƒCƒ“ƒwƒŠƒ^ƒ“ƒX  
+                        - —Dæ“xŒp³  
+                        - —Dæ“x‹t“]‚ð‰ðÁ‚·‚é‚½‚ß‚ÌƒXƒPƒWƒ…[ƒŠƒ“ƒO  
+                        - ’á—Dæƒ^ƒXƒN‚ª‚—Dæƒ^ƒXƒN‚Ì—Dæ“x‚ðŒp³‚·‚éB  
+                            ‚»‚ê‚É‚æ‚Á‚Ä’†—Dæƒ^ƒXƒN‚ª’á—Dæƒ^ƒXƒN‚Éæ—§‚Á‚Ä“®ì‚·‚é‚±‚Æ‚ð–h‚®B  
+                        - ƒfƒbƒhƒƒbƒN‚Í‰ðÁ‚Å‚«‚È‚¢  
+                    - ƒvƒ‰ƒCƒIƒŠƒeƒBEƒV[ƒŠƒ“ƒO  
+                        - Priority Ceiling ProtocolFPCP  
+                        - ƒvƒ‰ƒCƒIƒŠƒeƒBEƒCƒ“ƒwƒŠƒ^ƒ“ƒX‚ð‰ü—Ç‚µ‚½‚à‚Ì  
+                        - —Dæ“x‹t“]‚ð‰ðÁ‚·‚é‚½‚ß‚ÌƒXƒPƒWƒ…[ƒŠƒ“ƒO  
+                        - ‚ ‚éƒ^ƒXƒN‚ª“Á’èŽ‘Œ¹‚ðè—L‚·‚é‚ÆA—Dæ“x‚ðˆêŽž“I‚ÉãŒÀ‚Ü‚Å‚‚ß‚éB  
+                            iŽ‘Œ¹‚É‘Î‚·‚éãŒÀ‚ðŽ–‘O‚ÉŒˆ‚ß‚Ä‚¨‚­j  
+                        - «”\–Ê‚É‰e‹¿‚ð‹y‚Ú‚·  
+            - ƒfƒbƒhƒƒbƒN  
+                - ŠT—v  
+                    - •¡”ƒ^ƒXƒN‚©‚ç“¯Ž‘Œ¹‚ÌŽæ‚è‡‚¢‚É‚æ‚èA‚¢‚¸‚ê‚Ìƒ^ƒXƒN‚à“®ì‚Å‚«‚È‚­‚È‚éŒ»Û  
+                - ”­¶ðŒ  
+                    - ˆÈ‰ºA‚SðŒ‚ÌAND  
+                        - ‡@‘ŠŒÝ”rœ  
+                            - ‚Pƒ^ƒXƒN‚©‚ç‚µ‚©“¯Žž‚ÉŽg—p‚Å‚«‚È‚¢Ž‘Œ¹‚ª‚ ‚é  
+                        - ‡AŠl“¾‚Æ‘Ò‹@  
+                            - ‚ ‚éŽ‘Œ¹Šl“¾’†‚ÉA•ÊŽ‘Œ¹‚ÌŠl“¾—v‹‚ðo‚µ‘Ò‹@  
+                        - ‡BƒvƒŠƒGƒ“ƒvƒg‚Å‚«‚È‚¢  
+                            - Ž‘Œ¹‚Ì‰¡Žæ‚è‚ª‚Å‚«‚¸A‰ð•ú‚·‚é‚Ü‚Å‘Ò‚Â‚µ‚©‚È‚¢  
+                        - ‡CzŠÂ‘Ò‹@  
+                            - ‚Q‚ÂˆÈã‚Ìƒ^ƒXƒN‚É‚¨‚¢‚ÄAŽ‘Œ¹‚ÌŠl“¾‚Æ—v‹‚ÌƒŠƒ“ƒN‚ªzŠÂ‚µ‚Ä‚¢‚é  
+                - —\–hô  
+                    - ˆÈ‰º‚Ì‚¢‚¸‚ê‚©‚ðs‚¤  
+                        - ‡AŠl“¾‚Æ‘Ò‹@  
+                            - ƒ^ƒXƒN‚ÌŽÀs‘O‚É•K—v‚È‘SŽ‘Œ¹‚ðŠl“¾‚µ‚Ä‚¨‚­B  
+                                - ‚½‚¾‚µAƒVƒXƒeƒ€‘S‘Ì‚Æ‚µ‚Ä”ñŒø—¦‚É‚È‚éê‡‚ª‚ ‚éB  
+                        - ‡BƒvƒŠƒGƒ“ƒvƒg‚Å‚«‚È‚¢  
+                            - Ž‘Œ¹Šl“¾Ž¸”sŽžAŒ»ÝŠl“¾’†‚Ì‘SŽ‘Œ¹‚ðŠJ•ú‚·‚éB  
+                                - ‚½‚¾‚µAŠmŽÀ‚Éˆ—‚ðÄŠJ‚Å‚«‚é‚æ‚¤‚É‚µ‚Ä‚¨‚­•K—v‚ª‚ ‚éBi‰ð•ú‚µ‚½Ž‘Œ¹‚ðŽg‚¤ˆ—‚ð‚â‚è’¼‚·•K—v‚ª¶‚¶‚éê‡‚à‚ ‚é‚½‚ßj  
+                        - ‡CzŠÂ‘Ò‹@  
+                            - •¡”Ž‘Œ¹‚É‘Î‚µ‚ÄŠl“¾‚·‚é‡˜‚ðƒVƒXƒeƒ€“à‚Åƒ‹[ƒ‹‰»‚µ‚Ä‚¨‚­Biex. Šl“¾‡˜‚ðŽ‘Œ¹Y¨Ž‘Œ¹X‚Æ’è‚ß‚Ä‚¨‚­j  
+                                - ‚½‚¾‚µA—Dæ“x‹t“]‚Í”­¶‚·‚é‚±‚Æ‚É’ˆÓB  
+        - «”\Žw•W  
+            - «”\Žw•W  
+                - CPUŽžŠÔ  
+                    - CPUˆ—’†  
+                - ‘Ò‚¿ŽžŠÔ  
+                    - –½—ß‚ðŽó‚¯‚Ä‚©‚çˆ—ŠJŽn‚Ü‚Å  
+                - “üo—ÍŽžŠÔ  
+                    - ˆ—‚ÉŠÖ˜A‚·‚é“üo—ÍŽžŠÔ  
+                - ƒ^[ƒ“ƒAƒ‰ƒEƒ“ƒhƒ^ƒCƒ€iTATj  
+                    - –½—ß‚ðŽó‚¯‚Ä‚©‚ç‘Sˆ—Œ‹‰Ê‚ðo‚·‚Ü‚Å  
+                - ‰ž“šŽžŠÔ  
+                    - –½—ß‚ðŽó‚¯‚Ä‚©‚çˆ—Œ‹‰Ê‚ðo‚µŽn‚ß‚é‚Ü‚Å  
+                - ƒXƒ‹[ƒvƒbƒg  
+                    - ’PˆÊŽžŠÔ“–‚½‚è‚Ìˆ—Œ”  
+                - CPUŽg—p—¦  
+                    - CPU—˜—pŽžŠÔiŠeƒ^ƒXƒN‡Œvj€ƒVƒXƒeƒ€‰Ò“­ŽžŠÔ  
+            - ƒŠƒAƒ‹ƒ^ƒCƒ€«  
+                - ƒ[ƒXƒgƒP[ƒXŒ©Ï‚è  
+                    - “¯Žž”­¶‚Ì‰Â”\«‚ª‚ ‚éˆ—‚ðA‘S‚Ä“®ì‚³‚¹‚½‚±‚Æ‚ð‘z’è‚µ‚Äˆ—ŽžŠÔ‚ðŒ©Ï‚à‚é  
+                    - ŒŸ“¢€–Ú  
+                        - •Às“®ì‚·‚éŠeƒ^ƒXƒN‚Ì—Dæ“x  
+                        - “üo—Í‚Æ“à•”ˆ—‚Ì•‰‰×ƒoƒ‰ƒ“ƒX  
+                        - Š„ž‚Ý‚Ì”­¶•p“x‚Æˆ—•‰‰×  
+                        - Š„ž‚Ý‹ÖŽ~ŠúŠÔ‚Ì“KØ‚ÈÝ’è  
+                - ƒn[ƒhƒŠƒAƒ‹ƒ^ƒCƒ€  
+                    - §ŒÀŽžŠÔ“à‚Éˆ—‚ðI‚¦‚È‚¢‚ÆA“®ì‚ª¬—§‚µ‚È‚­‚È‚é‚à‚Ì  
+                    - ex) ƒGƒ“ƒWƒ“—Ž©“®ŽÔAƒ‚[ƒVƒ‡ƒ“ƒRƒ“ƒgƒ[ƒ‹—§Œä‹@Ší  
+                - ƒ\ƒtƒgƒŠƒAƒ‹ƒ^ƒCƒ€  
+                    - §ŒÀŽžŠá“à‚Éˆ—‚ªI‚í‚ç‚È‚­‚Ä‚à“®ìŒp‘±‰Â”\‚¾‚ªA—˜—pŽÒ‚É‚Æ‚Á‚Ä‚Ì‰¿’l‚ª’á‰º‚·‚é‚à‚Ì  
+                    - ex) DVDƒvƒŒ[ƒ„[‚É‚ÄAƒŠƒ‚ƒRƒ“ƒ{ƒ^ƒ“˜A‘Å‚É‚æ‚éˆ—•‰‰×‚ÅƒfƒR[ƒ_‚Ìˆ—‚ªŠÔ‚É‡‚í‚È‚¢ê‡AƒRƒ}—Ž‚¿‚·‚é‚ªÄ¶‚Å‚«‚éB  
+        - ‘gžOS‚ÌŽí—Þ  
+            ƒŠƒ“ƒN: [furien.jp/columns/192/][23]  
             - ITRON  
-                - é–‹ç™ºå…ƒ  
-                    - TRONãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆ  
-                - ç‰¹å¾´  
-                    - ãƒ©ã‚¤ã‚»ãƒ³ã‚¹ç„¡æ–™  
-                    - æ—¥æœ¬ã§ã‚‚ã£ã¨ã‚‚ä¸»æµãªRTOS  
-                - æ´¾ç”ŸOS  
+                - ŠJ”­Œ³  
+                    - TRONƒvƒƒWƒFƒNƒg  
+                - “Á’¥  
+                    - ƒ‰ƒCƒZƒ“ƒX–³—¿  
+                    - “ú–{‚Å‚à‚Á‚Æ‚àŽå—¬‚ÈRTOS  
+                - ”h¶OS  
                     - ITRON2  
-                        - å¤§è¦æ¨¡ãƒ—ãƒ­ã‚»ãƒƒã‚µå‘ã‘  
-                    - Î¼ITRON  
-                        - æ©Ÿèƒ½ã‚’ã•ã‚‰ã«é™å®š  
-                        - ITRONã®æ©Ÿèƒ½ã‚’ã•ã‚‰ã«é™å®šã—ãŸRTOS  
-                - æ­è¼‰æ©Ÿå™¨  
-                    - ç‚Šé£¯å™¨  
-                    - TVãƒ¬ã‚³ãƒ¼ãƒ€ãƒ¼  
-                    - è‡ªå‹•è»Š  
-                    - ã‚¬ãƒ©ã‚±ãƒ¼  
+                        - ‘å‹K–ÍƒvƒƒZƒbƒTŒü‚¯  
+                    - ƒÊITRON  
+                        - ‹@”\‚ð‚³‚ç‚ÉŒÀ’è  
+                        - ITRON‚Ì‹@”\‚ð‚³‚ç‚ÉŒÀ’è‚µ‚½RTOS  
+                - “‹Ú‹@Ší  
+                    - †”ÑŠí  
+                    - TVƒŒƒR[ƒ_[  
+                    - Ž©“®ŽÔ  
+                    - ƒKƒ‰ƒP[  
             - T-Kernel  
-                - é–‹ç™ºå…ƒ  
-                    - ãƒˆãƒ­ãƒ³ãƒ•ã‚©ãƒ¼ãƒ©ãƒ   
-                - ç‰¹å¾´  
-                    - T-Engineç”¨ã®çµ„è¾¼ã¿OS  
+                - ŠJ”­Œ³  
+                    - ƒgƒƒ“ƒtƒH[ƒ‰ƒ€  
+                - “Á’¥  
+                    - T-Engine—p‚Ì‘gž‚ÝOS  
                         - T-Engine  
-                            - ãƒŸãƒ‰ãƒ«ã‚¦ã‚§ã‚¢ã‚’ç”¨ã„ã¦çµ„è¾¼ã¿ã‚·ã‚¹ãƒ†ãƒ ã‚’é«˜åŠ¹çŽ‡åŒ–ã™ã‚‹ã“ã¨ã‚’ç›®çš„ã¨ã—ãŸãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆ  
-                    - ãƒ©ã‚¤ã‚»ãƒ³ã‚¹ç„¡æ–™ï¼ˆç™»éŒ²å¿…é ˆï¼‰  
-                - æ­è¼‰æ©Ÿå™¨ ä¾‹  
-                    - å®¶åº­ç”¨ãƒ—ãƒªãƒ³ã‚¿ãƒ¼  
-                    - æ®ãˆç½®ãã‚²ãƒ¼ãƒ æ©Ÿ  
-                    - å°æƒ‘æ˜ŸæŽ¢æŸ»æ©Ÿã¯ã‚„ã¶ã•2  
+                            - ƒ~ƒhƒ‹ƒEƒFƒA‚ð—p‚¢‚Ä‘gž‚ÝƒVƒXƒeƒ€‚ð‚Œø—¦‰»‚·‚é‚±‚Æ‚ð–Ú“I‚Æ‚µ‚½ƒvƒƒWƒFƒNƒg  
+                    - ƒ‰ƒCƒZƒ“ƒX–³—¿i“o˜^•K{j  
+                - “‹Ú‹@Ší —á  
+                    - ‰Æ’ë—pƒvƒŠƒ“ƒ^[  
+                    - ˜‚¦’u‚«ƒQ[ƒ€‹@  
+                    - ¬˜f¯’T¸‹@‚Í‚â‚Ô‚³2  
             - VxWorks  
-                - é–‹ç™ºå…ƒ  
-                    - Wind River Systemsï¼ˆã‚¤ãƒ³ãƒ†ãƒ«ã®å­ä¼šç¤¾ï¼‰  
-                - ç‰¹å¾´  
-                    - æ¯”è¼ƒçš„å¤§ããªçµ„è¾¼ã¿æ©Ÿå™¨ã«ä½¿ç”¨ã•ã‚Œã‚‹ã“ã¨ãŒå¤šã„  
-                    - HWé«˜æ€§èƒ½åŒ–ã«ã‚ˆã‚Šã€å°åž‹çµ„è¾¼ã¿æ©Ÿå™¨ã¸ã®åˆ©ç”¨ã‚‚å¢—ãˆãŸ  
-                - æ­è¼‰æ©Ÿå™¨ ä¾‹  
-                    - NASAç«æ˜ŸæŽ¢æŸ»æ©Ÿãƒžãƒ¼ã‚ºãƒ»ãƒ‘ã‚¹ãƒ•ã‚¡ã‚¤ãƒ³ãƒ€ãƒ¼  
-                    - ã‚­ãƒ¥ãƒªã‚ªã‚·ãƒ†ã‚£  
-                    - å¤§åž‹ã®ç”£æ¥­æ©Ÿå™¨  
-                    - å®¶é›»è£½å“  
-            - RT-Linuxï¼ˆRealTime Linuxï¼‰  
-                - ç‰¹å¾´  
-                    - ãƒ‘ãƒƒãƒã‚’ã‚ã¦ã‚‹ã“ã¨ã§ãƒªã‚¢ãƒ«ã‚¿ã‚¤ãƒ æ€§ã‚’å¼·åŒ–ã—ãŸLinux  
-                    - Linuxã®ã‚¿ã‚¤ãƒžãƒ¼ç®¡ç†éƒ¨ã‚’åˆ©ç”¨ã—ã€ãƒªã‚¢ãƒ«ã‚¿ã‚¤ãƒ ã‚¹ã‚±ã‚¸ãƒ¥ãƒ¼ãƒ©ã‚’å‹•ã‹ã™ã“ã¨ã§ç‰¹å®šã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³ã ã‘ã‚’ãƒªã‚¢ãƒ«ã‚¿ã‚¤ãƒ ã§å‹•ã‹ã›ã‚‹ã‚ˆã†ã«ã—ãŸã ã‘  
-                - æ­è¼‰æ©Ÿå™¨ ä¾‹  
-                    - ãƒ­ãƒœãƒƒãƒˆ  
-                    - IoTè£½å“  
+                - ŠJ”­Œ³  
+                    - Wind River SystemsiƒCƒ“ƒeƒ‹‚ÌŽq‰ïŽÐj  
+                - “Á’¥  
+                    - ”äŠr“I‘å‚«‚È‘gž‚Ý‹@Ší‚ÉŽg—p‚³‚ê‚é‚±‚Æ‚ª‘½‚¢  
+                    - HW‚«”\‰»‚É‚æ‚èA¬Œ^‘gž‚Ý‹@Ší‚Ö‚Ì—˜—p‚à‘‚¦‚½  
+                - “‹Ú‹@Ší —á  
+                    - NASA‰Î¯’T¸‹@ƒ}[ƒYEƒpƒXƒtƒ@ƒCƒ“ƒ_[  
+                    - ƒLƒ…ƒŠƒIƒVƒeƒB  
+                    - ‘åŒ^‚ÌŽY‹Æ‹@Ší  
+                    - ‰Æ“d»•i  
+            - RT-LinuxiRealTime Linuxj  
+                - “Á’¥  
+                    - ƒpƒbƒ`‚ð‚ ‚Ä‚é‚±‚Æ‚ÅƒŠƒAƒ‹ƒ^ƒCƒ€«‚ð‹­‰»‚µ‚½Linux  
+                    - Linux‚Ìƒ^ƒCƒ}[ŠÇ—•”‚ð—˜—p‚µAƒŠƒAƒ‹ƒ^ƒCƒ€ƒXƒPƒWƒ…[ƒ‰‚ð“®‚©‚·‚±‚Æ‚Å“Á’èƒAƒvƒŠƒP[ƒVƒ‡ƒ“‚¾‚¯‚ðƒŠƒAƒ‹ƒ^ƒCƒ€‚Å“®‚©‚¹‚é‚æ‚¤‚É‚µ‚½‚¾‚¯  
+                - “‹Ú‹@Ší —á  
+                    - ƒƒ{ƒbƒg  
+                    - IoT»•i  
                     - Raspberry Pi  
             - Embedded Linux  
-                - ç‰¹å¾´  
-                    - æºå¸¯é›»è©±ã‚„æƒ…å ±æ©Ÿå™¨å‘ã‘ã«Linuxã‚’æµç”¨ã—ã‚ˆã†ã¨ã„ã†ç›®çš„  
-                    - å¿…è¦ã¨ã™ã‚‹æ©Ÿèƒ½ä»¥å¤–ã‚’çœã‘ã‚‹  
-                    - çœãƒ¡ãƒ¢ãƒªã§å‹•ä½œã™ã‚‹ã‚ˆã†ã«å·¥å¤«  
-                    - ãƒªã‚¢ãƒ«ã‚¿ã‚¤ãƒ æ€§ãªã©ã§ã¯ä¸€èˆ¬ã®RTOSã«æ¯”ã¹ã¦è‘—ã—ãåŠ£ã£ã¦ã„ã‚‹  
+                - “Á’¥  
+                    - Œg‘Ñ“d˜b‚âî•ñ‹@ŠíŒü‚¯‚ÉLinux‚ð—¬—p‚µ‚æ‚¤‚Æ‚¢‚¤–Ú“I  
+                    - •K—v‚Æ‚·‚é‹@”\ˆÈŠO‚ðÈ‚¯‚é  
+                    - Èƒƒ‚ƒŠ‚Å“®ì‚·‚é‚æ‚¤‚ÉH•v  
+                    - ƒŠƒAƒ‹ƒ^ƒCƒ€«‚È‚Ç‚Å‚Íˆê”Ê‚ÌRTOS‚É”ä‚×‚Ä’˜‚µ‚­—ò‚Á‚Ä‚¢‚é  
             - Windows CE  
-                - é–‹ç™ºå…ƒ  
-                    - Microsoftï¼ˆ1996å¹´ï¼‰  
-                - ç‰¹å¾´  
-                    - ä¸€èˆ¬åˆ©ç”¨ã®ãƒãƒ¼ãƒ‰ãƒ«ãŒä½Žã„  
-                        - Visual Studioã§ã®é–‹ç™ºãŒå¯èƒ½  
-                    - ãƒ©ã‚¤ã‚»ãƒ³ã‚¹ã¯çµ„ã¿è¾¼ã‚“ã æ©Ÿå™¨ä¸€ã¤ã²ã¨ã¤ã«å¿…è¦  
-                - æ­è¼‰æ©Ÿå™¨ ä¾‹  
-                    - å°åž‹ç«¯æœ«  
-                    - ã‚«ãƒ¼ãƒŠãƒ“  
+                - ŠJ”­Œ³  
+                    - Microsofti1996”Nj  
+                - “Á’¥  
+                    - ˆê”Ê—˜—p‚Ìƒn[ƒhƒ‹‚ª’á‚¢  
+                        - Visual Studio‚Å‚ÌŠJ”­‚ª‰Â”\  
+                    - ƒ‰ƒCƒZƒ“ƒX‚Í‘g‚Ýž‚ñ‚¾‹@Šíˆê‚Â‚Ð‚Æ‚Â‚É•K—v  
+                - “‹Ú‹@Ší —á  
+                    - ¬Œ^’[––  
+                    - ƒJ[ƒiƒr  
                     - PDA  
-                    - ã‚¹ãƒžãƒ¼ãƒˆãƒ•ã‚©ãƒ³  
+                    - ƒXƒ}[ƒgƒtƒHƒ“  
             - INtime  
-                - é–‹ç™ºå…ƒ  
+                - ŠJ”­Œ³  
                     - RadiSys  
-                - ç‰¹å¾´  
-                    - WindowsOSã¨åŒæ™‚åˆ©ç”¨ãŒå¯èƒ½  
-                    - ãƒ©ã‚¤ã‚»ãƒ³ã‚¹ã¯TenAsysã¨ã®å¥‘ç´„ãŒå¿…è¦  
+                - “Á’¥  
+                    - WindowsOS‚Æ“¯Žž—˜—p‚ª‰Â”\  
+                    - ƒ‰ƒCƒZƒ“ƒX‚ÍTenAsys‚Æ‚ÌŒ_–ñ‚ª•K—v  
             - LynxOS  
-                - é–‹ç™ºå…ƒ  
+                - ŠJ”­Œ³  
                     - Lynx Software Technologies  
-                - ç‰¹å¾´  
-                    - UNIXãƒ©ã‚¤ã‚¯ãªRTOS  
-                    - POSIXäº’æ›  
+                - “Á’¥  
+                    - UNIXƒ‰ƒCƒN‚ÈRTOS  
+                    - POSIXŒÝŠ·  
   
 [1]: http://www.atmarkit.co.jp/icd/root/66/277976366.html  
 [2]: http://denshikit.main.jp/topf/technology35.html  
@@ -2780,12 +2780,12 @@
 [5]: https://eng.kice.tokyo/electronic-circuit/non-inverting-amplifier/  
 [6]: http://www.natural-science.or.jp/article/20081025034539.php  
 [7]: http://sp.e-words.jp/w/%E3%83%9E%E3%83%AB%E3%83%81%E3%83%97%E3%83%AD%E3%82%BB%E3%83%83%E3%82%B5.html  
-[8]: http://ceilingfan.jp/tech/compare/acãƒ¢ãƒ¼ã‚¿ã¨dcãƒ¢ãƒ¼ã‚¿ãƒ¼ã£ã¦ä½•ãŒé•ã†ï¼Ÿ/  
-[9]: http://ceilingfan.jp/tech/compare/acãƒ¢ãƒ¼ã‚¿ã¨dcãƒ¢ãƒ¼ã‚¿ãƒ¼ã£ã¦ä½•ãŒé•ã†ï¼Ÿ/  
+[8]: http://ceilingfan.jp/tech/compare/acƒ‚[ƒ^‚Ædcƒ‚[ƒ^[‚Á‚Ä‰½‚ªˆá‚¤H/  
+[9]: http://ceilingfan.jp/tech/compare/acƒ‚[ƒ^‚Ædcƒ‚[ƒ^[‚Á‚Ä‰½‚ªˆá‚¤H/  
 [10]: https://itsiken.com/30S_L4/30S_L4ES_07.html  
 [11]: https://enterprisezine.jp/iti/detail/1493  
 [12]: https://kotobank.jp/word/%E6%B5%B8%E9%80%8F%E4%BE%A1%E6%A0%BC-22744  
-[13]: https://kotobank.jp/word/ã‚³ãƒŸãƒ¥ãƒ¼ã‚¿ãƒ¼-269523  
+[13]: https://kotobank.jp/word/ƒRƒ~ƒ…[ƒ^[-269523  
 [14]: http://uchan.hateblo.jp/entry/2016/12/04/135941  
 [15]: http://denkinyumon.web.fc2.com/3soukouryu.html  
 [16]: http://turbotrain.net/fuelconsumption.htm  
