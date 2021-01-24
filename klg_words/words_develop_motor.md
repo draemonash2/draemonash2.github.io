@@ -1,0 +1,1 @@
+C:/Users/draem/Dropbox/100_Documents/320_【自己啓発】勉強/words_develop_motor.md
