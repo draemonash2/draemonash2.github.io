@@ -1,36 +1,44 @@
 [トップに戻る](../index.md)
 
-# Raspberry Pi における Python
+# Python＠Raspberry Pi
 - [こちら参照](https://github.com/draemonash2/wiki/blob/master/lng_python/python_raspberrypi.md) 参照
 
-# ToDo
-- 無線LAN がつながらない
-- 遠隔からクーラーをOn/Off
-	- http://kaiware007.hatenablog.jp/entry/2015/08/28/020356
-- リモコンで照明を On/Off
-- 人感照明
-- トイレのジュークボックス＋人感センサ
-- サーバー構築
-- [デジタルＩＣ](http://part.freelab.jp/p_iclogic.html)
-
 # Tips
-- RaspberryPiログイン方法
-	- ★
-- Raspberry Pi ⇔ Windows ファイル共有方法
-	- ①Raspberry Pi を起動。
-	- ②SFTP Net Drive Free を起動し、Connect。
-	- ③指定したドライブとしてアクセスできるようになる。
-	- SFTP Net Drive Free の設定方法は[こちら](http://vogel.at.webry.info/201312/article_8.html)
-- リモートデスクトップでアクセスしたときに、意図したキーが打てない
+- [OSインストール方法](https://www.indoorcorgielec.com/resources/raspberry-pi/raspberry-pi-os%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/)
+- [SSHにてリモートアクセスする](https://bright-east-blog.com/skill-up/raspberrypi-ssh-login-setting#toc3)
+	1. Raspberry Pi側のSSH有効化する。
+	1. Windows を Raspberry Pi と同じネットワークに接続する。
+	1. Windows から ping で Raspberry Pi を探す。(応答がなかったら接続できていない）
+		- `ping raspberrypi.local`
+	1. TeraTerm を起動してSSH接続する。
+		1. 「raspberrypi.local」にアクセスする。
+		1. ユーザ名、パスワードを入力してアクセス。
+			- ユーザ名：pi
+			- パスワード(初期)：raspberry
+- [ディスプレイを回転させる](https://lunaticsol.wordpress.com/2018/01/24/%E3%83%A9%E3%82%BA%E3%83%91%E3%82%A4%E3%81%AE%E7%94%BB%E9%9D%A2%E3%82%92%E5%9B%9E%E8%BB%A2%E3%81%95%E3%81%9B%E3%82%8B/)
+	1. /boot/config.txt を編集
+		- `sudo nano /boot/config.txt`
+	1. 末尾に以下の設定を追加
+		- `display_rotate=1`
+			- 0 = 0°、1=90°、2=180°、3=270°
+	1. ラズパイを再起動
+- [Windows 上で Raspberry Pi ⇔ Windows 間のファイルを共有する](https://denor.jp/windows%E3%81%A8raspberry-pi%E3%81%AE%E9%96%93%E3%81%A7%E7%B0%A1%E5%8D%98%E3%81%AB%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E8%BB%A2%E9%80%81%E3%83%BB%E3%83%95%E3%82%A9%E3%83%AB%E3%83%80%E5%90%8C%E6%9C%9F)
+	1. Raspberry Pi を起動。
+	1. 「WinSCP」を起動し、接続。
+		- 転送プロトコル：SFTP
+		- ホスト名：raspberrypi.local
+		- ポート番号:22
+		- ユーザ名：pi
+		- パスワード：必要に応じて入力
+	1. 指定したドライブとしてアクセスできるようになる。
+- [リモートデスクトップでアクセスしたときに、意図したキーが打てない](http://www.eonet.ne.jp/~smallbear/X/xrdp-jpkeymap.html)
 	- 例）( ⇒ '
-	- [手順はこちら](http://www.eonet.ne.jp/~smallbear/X/xrdp-jpkeymap.html)
 
-# コマンド
-## Linux 共通コマンド
+# Linux 共通コマンド
 
 - [Linuxの基本コマンドはこちら](https://github.com/draemonash2/wiki/blob/master/sft_linux/linux.md)
 
-## Raspberry Pi 関連コマンド
+# Raspberry Pi 関連コマンド
 
 - 【rapsbian 再起動】sudo reboot
 - 【rapsbian シャットダウン】sudo shutdown -h now
@@ -110,8 +118,8 @@ static domain\_name\_servers=192.168.100.1
 
 # 参考 URL
 
+- [使い方基礎](http://qiita.com/starswirl_k/items/2c4df3c5ef81aec66288)
 - 【ネットワーク設定】
-	- [Raspbian 8.0 (jessie)で無線LANを使う](http://qiita.com/yosi-q/items/c677e4650b22ffffa806)
 	- [Raspberry Pi 3 (Raspbian Jessie)の無線LANに固定IPアドレスを設定する](http://qiita.com/momotaro98/items/fa94c0ed6e9e727fe15e)
 	- [Raspberry Pi 2 Raspbian Jessie をWi-Fi接続、IP固定にしてhost名でssh接続可能にする](http://qiita.com/laynts/items/b2d7089aaa5ed24dd1bb)
 - 【ファイルサーバ化】
@@ -120,8 +128,6 @@ static domain\_name\_servers=192.168.100.1
 	- [Raspberry Pi Model B+のUSBポートに1.2Aの電力を供給する](http://akkiesoft.hatenablog.jp/entry/20140727/1406443999)
 	- [Raspberry Piでファイルサーバ、Part2 外付けハードディスクの導入編](http://denshikousaku.net/raspberry-pi-part2-external-hdd)
 	- [RaspberryPiのファイルサーバ(Samba)をSMB2対応で高速化](http://blog.bnikka.com/raspberrypi/raspberrypi-samba.html)
-- [OS インストール方法](http://techblog.clara.jp/2015/02/raspberry-pi-2-model-b_install_and_ssh_connect/)
-	- [⇒ここに Raspbian インストール時の設定も記載。](http://usicolog.nomaki.jp/engineering/raspberryPi/raspberryPi2.html#setupOS)
 - SSH 接続
 	- [参考１](http://independence-sys.net/main/?p=975o)
 		- ⇒これで「IP 固定化」「OS設定」「リモートデスクトップ接続」までは大体いけるはず…
@@ -137,17 +143,12 @@ static domain\_name\_servers=192.168.100.1
 		- [他](http://usicolog.nomaki.jp/engineering/raspberryPi/raspberryPi_SSH.html)
 		- [他](http://tomoyukim.hatenablog.com/entry/2015/05/23/150612)
 		- [他](http://dangerous-animal141.hatenablog.com/entry/2013/11/04/170708)
-- 無線 LAN 接続
-	- [参考](http://ryus.co.jp/blog/raspberrypi2-3/)
-	- [参考](http://denshikousaku.net/raspberry-pi-wifi-lan-usb)
 - [日本語入力](http://www.eonet.ne.jp/~smallbear/X/xrdp-jpkeymap.html)
 - [SD パーティション拡張](http://tomoyukim.hatenablog.com/entry/2015/05/27/124504)
 - VIM インストール
 	- [参考１](http://making.mrlittlebig.com/?p=31)
 	- [参考２](http://qiita.com/moriyaman/items/44cda5318ad8b5f7a3ae)
 	- [参考３](http://tomohikoseven-andre-tomohikoseven.blogspot.jp/2015/08/vimelixir-2.html)
-- [Wifi クレードルについて](http://高速通信.net/router/%E3%82%AF%E3%83%AC%E3%83%BC%E3%83%89%E3%83%AB.html)
-- [使い方基礎](http://qiita.com/starswirl_k/items/2c4df3c5ef81aec66288)
 - [ブラウザで回路設計](https://123d.circuits.io/)
 - [フォント変更](http://www.mztn.org/rpi/rpi34.html)
 	- sudo apt-get install fonts-vlgothic
@@ -155,5 +156,15 @@ static domain\_name\_servers=192.168.100.1
 - CentOS ⇔ Debian 比較
 	- [参考１](http://blog.asial.co.jp/819)
 	- [参考２](http://www.kotaden.com/index.html)
+
+# ToDo
+- 無線LAN がつながらない
+- 遠隔からクーラーをOn/Off
+	- http://kaiware007.hatenablog.jp/entry/2015/08/28/020356
+- リモコンで照明を On/Off
+- 人感照明
+- トイレのジュークボックス＋人感センサ
+- サーバー構築
+- [デジタルＩＣ](http://part.freelab.jp/p_iclogic.html)
 
 [トップに戻る](../index.md)
