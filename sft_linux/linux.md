@@ -349,6 +349,7 @@ Fri May 17 04:26:03 PDT 2013
 	- Network File Systemの略。
 	- ネットワーク上のコンピュータが持つストレージを共有するための仕組み。
 	- LinuxをはじめとするUNIX系OSの多くに標準で組み込まれている。
+- [SSH基礎](https://iatlex.com/linux/ssh)
 
 # ショートカットキー
 
