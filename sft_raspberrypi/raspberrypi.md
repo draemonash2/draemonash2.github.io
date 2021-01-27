@@ -1,11 +1,16 @@
 [トップに戻る](../index.md)
 
+# 関連リンク
+
+- [Linux](https://github.com/draemonash2/wiki/blob/master/sft_linux/linux.md)
+- [WSL2](https://github.com/draemonash2/wiki/blob/master/sft_wsl2/wsl2.md)
+
 # Python＠Raspberry Pi
 - [こちら参照](https://github.com/draemonash2/wiki/blob/master/lng_python/python_raspberrypi.md) 参照
 
 # Tips
 - [OSインストール方法](https://www.indoorcorgielec.com/resources/raspberry-pi/raspberry-pi-os%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/)
-- [SSHにてリモートアクセスする](https://bright-east-blog.com/skill-up/raspberrypi-ssh-login-setting#toc3)
+- [リモートアクセス＠SSHパスワード方式](https://bright-east-blog.com/skill-up/raspberrypi-ssh-login-setting#toc3)
 	1. Raspberry Pi側のSSH有効化する。
 	1. Windows を Raspberry Pi と同じネットワークに接続する。
 	1. Windows から ping で Raspberry Pi を探す。(応答がなかったら接続できていない）
@@ -15,6 +20,13 @@
 		1. ユーザ名、パスワードを入力してアクセス。
 			- ユーザ名：pi
 			- パスワード(初期)：raspberry
+- リモートアクセス＠SSH公開鍵認証方式
+	1. 「リモートアクセス＠SSHパスワード方式」でログインできるようにしておく
+	1. [こちらのリンク](https://webkaru.net/linux/tera-term-ssh-login-public-key/)の手順で設定する
+- [TeraTermから自動でログイン](https://teraterm.jp/?p=37)
+	1. 以下のコマンドを書いた「.ttl」ファイルを作成する。
+		`connect 'raspberrypi.local /ssh /auth=password /user=pi /passwd=********'`
+	1. 上記「.ttl」ファイルを「TeraTerm\ttpmacro.exe」にて実行する。
 - [ディスプレイを回転させる](https://lunaticsol.wordpress.com/2018/01/24/%E3%83%A9%E3%82%BA%E3%83%91%E3%82%A4%E3%81%AE%E7%94%BB%E9%9D%A2%E3%82%92%E5%9B%9E%E8%BB%A2%E3%81%95%E3%81%9B%E3%82%8B/)
 	1. /boot/config.txt を編集
 		- `sudo nano /boot/config.txt`

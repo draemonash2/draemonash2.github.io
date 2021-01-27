@@ -1,5 +1,10 @@
 [トップに戻る](../index.md)
 
+# 関連リンク
+
+- [Linux](https://github.com/draemonash2/wiki/blob/master/sft_linux/linux.md)
+- [Raspberry Pi](https://github.com/draemonash2/wiki/blob/master/sft_raspberrypi/raspberrypi.md)
+
 # Tips
 
 - WSL2 起動方法＠WSL2コンソール

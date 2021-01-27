@@ -1,6 +1,11 @@
 [トップに戻る](../index.md)
 
-# 構文
+# 関連リンク
+
+- [WSL2](https://github.com/draemonash2/wiki/blob/master/sft_wsl2/wsl2.md)
+- [Raspberry Pi](https://github.com/draemonash2/wiki/blob/master/sft_raspberrypi/raspberrypi.md)
+
+# コマンド構文
 
 - [コマンド連続実行方法](https://qiita.com/egawa_kun/items/714394609eef6be8e0bf)
 	- 【；】コマンド1終了後、コマンド2実行（実行結果に関わらず）
@@ -14,6 +19,54 @@
 - ワイルドカード
 	- `?` ：任意の一文字
 	- `*` ：0個以上の任意の文字列
+- 【まとめてコマンド実行】(cmd1;cmd2)
+- 【現在のシェルでコマンド実行】{cmd1;cmd2}
+- 引用符の違い
+	- 【'】全て文字列としてみなす
+	- 【"】文字列とみなすが、変数の場合は変数の中身を展開
+	- 【`】コマンドの場合はコマンド実行結果を展開、変数の場合は変数に格納されたコマンドの実行結果が展開
+```sh
+$ DATE=date
+$ echo '$DATE'
+$DATE
+$ echo "$DATE"
+date
+$ echo `$DATE`
+Fri May 17 04:26:03 PDT 2013
+```
+
+- リダイレクト
+	- 種別
+		- 【>】ファイル出力(ファイル新規作成)
+		- 【>>】ファイル出力(ファイル追記)
+		- 【<】入力リダイレクト
+		- 【<<】入力リダイレクト(終了文字が現れるまで「標準入力」へ送る)
+		- 【2>】ファイル出力(エラー出力)
+		- 【2>&1】標準出力＆ファイル出力(エラー出力)
+	- 備考
+		- 標準出力とファイル出力を同時に行いたい場合、「tee」コマンドを使う
+- フォアグラウンドとバックグラウンドの制御
+	![フォアグラウンドとバックグラウンドの制御](フォアグラウンドとバックグラウンドの制御.jpg)
+
+# シェルスクリプト構文
+
+- 【シェバン(シバン)】#!/bin/bash
+	- 「#!」…スクリプトを実行するシェルプログラムを指定する記号
+- 【コマンド】#
+- 【シェルスクリプト実行方法】source sample.sh
+- 【シェルスクリプト実行権限付与】chmod +x sample.sh
+	- シェルスクリプトをコマンドのように実行したい場合は、実行権限を付与する必要がある。
+- 【】name='Hello World'
+- 【】echo $name
+- 【メタキャラクタ】
+	- 【data1 と data2】data{1,2}
+- 【関数定義】function lsmo() { ls -la | more; }
+- 【関数定義削除】unset lsmo
+- 【】
+- 【】
+- 【】
+- 【】
+- 【】
 
 # コマンド一覧
 
@@ -60,8 +113,8 @@
 	
 	- 【タイムスタンプ更新】touch file
 	
-	- 【タブ→空白変換(8文字)】expand
-	- 【空白→タブ変換(8文字)】unexpand
+	- 【タブ→空白変換(8文字)】expand -t 8 file
+	- 【空白→タブ変換(8文字)】unexpand -t 8 file
 	
 - ファイル情報表示
 	- 【ファイル中身表示】cat ~/.bash\_history
@@ -69,10 +122,14 @@
 	- 【ファイル中身表示(行番号付)】nl ~/.bash\_history
 	- 【ファイル中身表示(バイナリ表示)】od ~/.bash\_history
 	
+	- 【テキストファイル表示(1画面ずつ)】more
+	
 	- 【ファイル中身表示(一部先頭)】head -n 5 ~/.bash\_history
 	- 【ファイル中身表示(一部末尾)】tail -n 5 ~/.bash\_history
 	
-	- 【テキストファイル行数/単語数/バイト数 表示】wc
+	- 【テキストファイル 行数 表示】wc -l file
+	- 【テキストファイル 単語数 表示】wc -w file
+	- 【テキストファイル バイト数(文字数) 表示】wc -c data
 	- 【16bitチェックサム＆ブロック数(1024Byte単位) 表示】sum★
 	- 【CRCチェックサム 表示】cksum
 	- 【BLAKE22ハッシュ値 表示】b2sum★
@@ -87,9 +144,10 @@
 	- 【ファイル中身表示(重複削除)】uniq
 	- 【ファイル中身表示(前後関係指定ソート)】tsort
 
-	- 【ファイル中身表示(垂直抽出)】cut
-	- 【ファイル中身表示(列結合)】paste
-	- 【ファイル中身表示(差異比較列結合)】join
+	- 【ファイル中身表示(垂直抽出)】cut -c 1-5 test.txt #1～5文字目を取出す
+	- 【ファイル中身表示(垂直抽出)】cut -d: -f 5 test.txt #区切り文字を「:」として、第5フィールドのみ切り出す
+	- 【ファイル中身表示(列結合)】paste -d"," date1.txt date2.txt #「data1.txt」と「data2.txt」を、区切り文字「,」として列結合
+	- 【ファイル中身表示(差異比較列結合)】join -j 1 data1.txt data2.txt #「data1.txt」と「data2.txt」の第1フィールドに基づいて列結合
 	
 	- 【ファイル比較】comm★
 	- 【ファイル比較】diff --color file1 file2
@@ -124,7 +182,10 @@
 	- 【特殊ファイル作成★】mknod★
 
 - 文字操作
-	- 【文字列置換(文字単位)】tr★
+	- 【文字列置換(文字単位)】tr
+		- 例1）cat data.txt | tr [:lower:] [:uppder:] #data.txtファイルにある小文字全てを大文字に変更
+		- 例2）cat data.txt | tr 'a-z' 'A-Z' #data.txtファイルにある小文字全てを大文字に変更 
+		- 例3）tr -d : < file1 #data.txtファイルにある「：」を削除して表示
 
 - 他
 	- 【ネットワーク切断】sudo ifconfig wlan0 down
@@ -174,7 +235,8 @@
 	- 【メモリ使用状況表示】free
 	- 【CPU/メモリ使用状況確認】top
 	- 【ファイル作成/更新日時表示】`stat <file>`
-	- 【全プロセス詳細情報表示】ps -ef
+	- 【プロセス情報表示(全プロセス)】ps -ef
+	- 【プロセス情報表示(現在プロセス)】ps $$
 	- 【プロセス停止】kill jobno
 	- 【メモリにバッファされているデータをディスクに書き込み★】sync
 	- 【ファイルサイズ増減】truncate
@@ -189,9 +251,9 @@
 	- 【式評価】expr
 	- 【出力を複数ファイルやプロセスに渡す】tee
 		- コマンド結果をファイルに書きつつ、標準出力にも出力したいときに使う。(リダイレクションでは標準出力されない)
-	- 【ファイル名抽出】basename★
-	- 【ディレクトリパス抽出】dirname★
-	- 【ファイルパス移植性確認】pathchk
+	- 【ファイル名抽出(拡張子含む)】basename aaa/bbb/test.txt #→test.txt
+	- 【ディレクトリパス抽出】dirname aaa/bbb/test.txt #→aaa/bbb
+	- 【ファイルパス移植性確認】pathchk aaa/bbb/test.txt
 		- 以下の場合にエラーを吐くコマンド
 			- パーミッションの関係でディレクトリの中身が見れない
 			- ファイル名長すぎ
@@ -230,6 +292,35 @@
 	- 【直前コマンドの終了ステータス表示】echo $?
 	- 【TCP/IPアドレス情報表示】ifconfig
 	- 【パケット送付】ping 宛先
+	- 【★】chcon
+	- 【★】runcon
+	- 【特定ルートディレクトリでコマンド実行】chroot
+	- 【環境変数変更(一時的)】env
+	- 【環境変数表示】env
+	- 【プロセス実行優先度変更後コマンド実行】nice -n -15 updatedb #実行優先度を「15」低くして、updatedbコマンドを実行
+		- niceness…プロセスの優先度を示す値(＝アプリケーション実行順序)(≠スケジュール優先度)
+	- 【ログアウト後継続コマンド実行】nohup cmd
+	- 【★】stdbuf
+	- 【タイムリミット設定後コマンド実行】timeout 5 cmd
+	- 【実行遅延】sleep 1d 1h 1m 1s
+	- 【素因数分解】factor 60 #→60: 2 2 3 5
+	- 【数値単位変換1】numfmt --from=auto 1Mi #→1048576
+	- 【数値単位変換2】numfmt --to=si 500000 #→500K
+	
+	- 【ファイル種別表示】file filename
+	- 【】
+	- 【】
+	- 【】
+	- 【実行中ジョブ確認】jobs
+	- 【】
+	- 【】
+	- 【】
+	- 【】
+	- 【】
+	- 【】
+	- 【】
+	- 【】
+	- 【】
 
 # Tips
 - [「E: Unable to locate package」エラー解消法＠Ubuntu](https://qiita.com/hatorijobs/items/c503840c13672e12d188)
@@ -254,6 +345,10 @@
 		- `alias endo='export HOME=/home/dir'`
 	1. bash起動時に 'endo' を実行する
 - [Linux操作がうまくなるために](https://qiita.com/chooyan_eng/items/b154d57a8da8911db612)
+- [NFSとは](https://baremetal.jp/blog/2018/04/17/541/)
+	- Network File Systemの略。
+	- ネットワーク上のコンピュータが持つストレージを共有するための仕組み。
+	- LinuxをはじめとするUNIX系OSの多くに標準で組み込まれている。
 
 # ショートカットキー
 
