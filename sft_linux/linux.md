@@ -53,20 +53,53 @@ Fri May 17 04:26:03 PDT 2013
 - 【シェバン(シバン)】#!/bin/bash
 	- 「#!」…スクリプトを実行するシェルプログラムを指定する記号
 - 【コマンド】#
-- 【シェルスクリプト実行方法】source sample.sh
+- 【シェルスクリプト実行方法1】source sample.sh
+- 【シェルスクリプト実行方法2】. sample.sh
+- 【シェルスクリプト実行方法3】bash sample.sh
 - 【シェルスクリプト実行権限付与】chmod +x sample.sh
 	- シェルスクリプトをコマンドのように実行したい場合は、実行権限を付与する必要がある。
-- 【】name='Hello World'
-- 【】echo $name
+- 【変数定義】name='Hello World'
+- 【変数参照】echo $name
 - 【メタキャラクタ】
 	- 【data1 と data2】data{1,2}
 - 【関数定義】function lsmo() { ls -la | more; }
 - 【関数定義削除】unset lsmo
-- 【】
-- 【】
-- 【】
-- 【】
-- 【】
+- 【シェルオプション設定】set [-o] [+o] オプション
+	- オプション一覧
+		- 【作成/変更変数の自動的エクスポート】allexport
+		- 【キーバインドemacs化】emacs
+		- 【キーバインドvi化】vi
+		- 【Ctrl＋Dによるログアウト禁止】ignoreeof
+		- 【既存ファイルへの上書き出力禁止】noclobber
+		- 【メタキャラクタを使用したファイル名展開無効化】noglob
+- 【特殊変数】
+	- 【シェルスクリプトファイル名】$0
+	- 【引数の数】$#
+	- 【引数の値】$n（n=1～9？）
+	- 【全ての引数(区切りはスペース)】$@
+	- 【全ての引数(区切りは環境変数IFSで指定したもの)】$\*
+	- 【現在シェルプロセス番号】$$
+	- 【実行コマンド終了ステータス(0=正常終了、1=異常終了、それ以外はエラー）】$?
+- 【標準入力取得】echo -n "あなたのお名前は?";read yourname
+- 【条件式】
+	- 【条件分岐(＝)】test 5 -eq 10; echo $? #→1(偽)
+	- 【条件分岐(≠)】test 5 -ne 10; echo $? #→0(真)
+	- 【条件分岐(≧)】test 5 -ge 10; echo $? #→1(偽)
+	- 【条件分岐(＞)】test 5 -gt 10; echo $? #→1(偽)
+	- 【条件分岐(≦)】test 5 -le 10; echo $? #→0(真)
+	- 【条件分岐(＜)】test 5 -lt 10; echo $? #→0(真)
+	- 【ディレクトリ存在確認】test -d ディレクトリ名
+	- 【ファイル存在確認】test -f ファイル名
+	- 【文字列空文字列確認】test -n 文字列
+	- 【文字列一致確認1】test 文字列1 = 文字列2
+	- 【文字列一致確認2】test 文字列1 != 文字列2
+	- 【論理結合(否定)】!条件
+	- 【論理結合(AND)】条件1 -a 条件2
+	- 【論理結合(OR)】条件1 -o 条件2
+- 【if】if 条件式 ～ then ～ コマンド(条件式1が真) ～ elif 条件式2 ～ コマンド(条件式2が真) else ～ コマンド(条件式2が偽) ～ fi
+- 【for(リスト指定)】for VAR in Level1 Level2 Level3 ～ do ～ echo LinuC $VAR ～ done
+- 【for(数値指定)】for NUM in `seq 1 3` ～ do ～ echo LinuC Level $NUM ～ done
+- 【while】while read LINE ～ do ～ echo LinuC Level $LINE ～ done < test.txt
 
 # コマンド一覧
 
@@ -241,7 +274,8 @@ Fri May 17 04:26:03 PDT 2013
 	- 【メモリにバッファされているデータをディスクに書き込み★】sync
 	- 【ファイルサイズ増減】truncate
 		- 10MBの空ファイル作成するとかが可能
-	- 【標準出力書き出し】echo
+	- 【標準出力書き出し(改行付与)】echo hello!
+	- 【標準出力書き出し(改行なし)】echo -n hello!
 	- 【C言語のprintfと同等】printf
 	- 【永遠文字列表示】yes
 	
@@ -313,9 +347,13 @@ Fri May 17 04:26:03 PDT 2013
 	- 【】
 	- 【実行中ジョブ確認】jobs
 	- 【】
-	- 【】
-	- 【】
-	- 【】
+	- 【パッケージインストール(Debian系)】apt install package\_name
+		- aptをapt-getの設計改良版の位置づけらしい([詳細はこちら](https://www.atmarkit.co.jp/ait/articles/1708/31/news017.html))
+	- 【パッケージ削除(Debian系)】apt remove package\_name
+	- 【パッケージ更新(Debian系)】apt upgrade package\_name
+	- 【パッケージインストール(RedHat系)】yum install package\_name
+	- 【コンパイル実行】gcc -o objfile srcfile
+	- 【コンパイル実行(コンパイル＆アセンブルのみ)】gcc -c -o objfile srcfile
 	- 【】
 	- 【】
 	- 【】
@@ -328,12 +366,10 @@ Fri May 17 04:26:03 PDT 2013
 		- `sudo apt-get update`
 - コマンドインストール方法
 	- `sudo apt install <command>`
-- コマンドインストール「 `sudo apt-get install <command>` 」時にエラーが発生する
-	1. apt-getをアップデートする
 - [ホームディレクトリパス変更](https://qiita.com/funacchi/items/c3bb78a546cf2605205d)
 	1. `sudo vim /etc/passwd`を実行
 		- [/etc/passwdについてはこちら](https://www.server-memo.net/centos-settings/system/passwd_shadow.html)
-	1. ユーザ名の行を探し「/home/xxx」を変えたいディレクトリに変更
+	1. ユーザ名の行を探し、"/home/xxx"を"変えたいディレクトリ"に変更
 - [「.tar.gz」とは](https://wa3.i-3-i.info/word12942.html)
 	- 複数ファイルを1つにまとめたファイル（tarファイル）をgzipコマンドで圧縮したファイル
 - VIM設定ファイル格納先
@@ -350,6 +386,17 @@ Fri May 17 04:26:03 PDT 2013
 	- ネットワーク上のコンピュータが持つストレージを共有するための仕組み。
 	- LinuxをはじめとするUNIX系OSの多くに標準で組み込まれている。
 - [SSH基礎](https://iatlex.com/linux/ssh)
+- bashの設定ファイル一覧と実行順序
+![bash設定ファイル一覧](bash設定ファイル一覧.jpg)
+- [シェル、ターミナル、コンソール、コマンドラインの違い](https://qiita.com/tadsan/items/441dcd910537d3f408e5)
+- 共有アカウントにおけるホームディレクトリ変更
+	1. 事前準備
+		1. 以下を共有アカウントの設定ファイル「~/.bashrc」に追記
+			- `alias he='export HOME=/home/draemon_ash3/;cd ~;source ./.bashrc;pwd;'`
+		1. 個人アカウントの設定ファイル「/home/<user_name>/.bashrc」に自分の設定を追加する
+			- ※「/etc/passwd」のパスは書き換えないようにする！
+	1. ログオン直後
+		1. コマンド「he」を実行する
 
 # ショートカットキー
 

@@ -15,11 +15,6 @@
 - [Windows Terminalからのデフォルト起動をWSL2に変更する方法](https://www.asobou.co.jp/blog/web/windows-terminal#3_Windows_TerminalWSL2)
 	1. Windows Terminal にて「Ctrl + ,」押下
 	1. 開いた設定ファイル(settings.json)内の「defaultProfile」を起動したいLinuxディストリビューションのGUIDに変更する
-- [Linux⇔Windows間のファイルアクセス方法](https://qiita.com/Uchitaso/items/6e0a7859e87bb8bdb527)
-	- Windows上でLinuxのファイルにアクセス
-		- エクスプローラからアドレス「\\wsl$」にアクセスする
-	- Linux上でWindowsのファイルにアクセス
-		- 「/mnt/」にアクセスする
 - [WSL2コンソールのコピペ方法](https://qiita.com/kenji0x02/items/f77008985818583bf32b)
 	- コピー
 		- 方法１：テキストを選択してコピー
@@ -33,16 +28,20 @@
 	1. Windows Terminal の設定を開く（Ctrl + ,押下）
 	1. "profiles" → name:"Ubuntu" に以下を追加する
 		- `"commandline": "wsl -d Ubuntu bash"`
+- [Linux⇔Windows間のファイルアクセス方法](https://qiita.com/Uchitaso/items/6e0a7859e87bb8bdb527)
+	- Windows上でLinuxのファイルにアクセス
+		- エクスプローラからアドレス「\\wsl$」にアクセスする
+	- Linux上でWindowsのファイルにアクセス
+		- 「/mnt/」にアクセスする
+- [ワンアクションで WSL2 を管理者権限起動する](https://www.xenos.jp/~zen/blog2/index.php/2020/05/31/post-3944/)
+	1. 以下のバッチファイルを作成する。
+		- `powershell start-process wt -verb runas`
+	1. 上記バッチファイルのショートカットファイルを作成する
+	1. 上記ショートカットファイルを管理者権限で実行するように変更する
 
 # コマンド
-## Linux 共通コマンド
 
-- [Linuxの基本コマンドはこちら](https://github.com/draemonash2/wiki/blob/master/sft_linux/linux.md)
-
-## WSL2 関連コマンド
-
-- VIM設定ファイル
-	- ★
+- [こちら](https://github.com/draemonash2/wiki/blob/master/sft_linux/linux.md)
 
 # ショートカットキー
 
