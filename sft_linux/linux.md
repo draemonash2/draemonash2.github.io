@@ -103,11 +103,62 @@ Fri May 17 04:26:03 PDT 2013
 
 # コマンド一覧
 
+- コマンド関連
+	- 【コマンド履歴表示】history
+	- 【コマンド格納先表示】which passwd
+	- 【コマンド格納先表示】whereis ifconfig
+	- 【コマンド種別判定】type passwd
+	
+	- 【標準出力書き出し(改行付与)】echo hello!
+	- 【標準出力書き出し(改行なし)】echo -n hello!
+	- 【C言語のprintfと同等】printf
+	- 【永遠文字列表示】yes
+	
+	- 【何もしない(戻り値1)】false
+	- 【何もしない(戻り値0)】true
+	- 【コマンド戻り値判定】test
+	- 【式評価】expr
+	
+	- 【変数中身出力】echo ${var1}
+	- 【コマンド実行結果出力】echo $(cmd1)
+	- 【直前コマンドの終了ステータス表示】echo $?
+	
+	- 【出力を複数ファイルやプロセスに渡す】tee
+		- コマンド結果をファイルに書きつつ、標準出力にも出力したいときに使う。(リダイレクションでは標準出力されない)
+	
+	- 【エイリアス設定】alias ll='ls -al'
+	- 【エイリアス解除】unalias ll
+	
+	- 【パッケージインストール(Debian系)】apt install package\_name
+		- aptをapt-getの設計改良版の位置づけらしい([詳細はこちら](https://www.atmarkit.co.jp/ait/articles/1708/31/news017.html))
+	- 【パッケージ削除(Debian系)】apt remove package\_name
+	- 【パッケージ更新(Debian系)】apt upgrade package\_name
+	- 【パッケージインストール(RedHat系)】yum install package\_name
+	
+	- 【コンパイル実行】gcc -o objfile srcfile
+	- 【コンパイル実行(コンパイル＆アセンブルのみ)】gcc -c -o objfile srcfile
+	
+	- 【コマンド結果をクリップボードにコピー】xclip
+		- 以下の通りコマンドのインストールが必要。（[詳細はこちら](https://linuxfan.info/xclip)）
+			- sudo apt install -y xclip
+		- →WSL2では使えないかも…
+	
+	- 【ユーザ切り替え】su user1
+	- 【管理者権限実行】sudo
+	
+	- 【タイムリミット設定後コマンド実行】timeout 5 cmd
+	- 【実行遅延】sleep 1d 1h 1m 1s
+	
+	- 【コマンドライン引数受取後実行】cmd1 | xargs cmd2
+	- 【プロセス実行優先度変更後コマンド実行】nice -n -15 updatedb #実行優先度を「15」低くして、updatedbコマンドを実行
+		- niceness…プロセスの優先度を示す値(＝アプリケーション実行順序)(≠スケジュール優先度)
+	- 【ログアウト後継続コマンド実行】nohup cmd
+
 - ファイル操作
 	- 【ファイルリスト表示】ls
 	- 【現在フォルダパス表示】pwd
-		- 【非シンボリックリンクパス表示(デフォルト挙動)】pwd -P
-		- 【シンボリックリンクパス表示】pwd -L
+	- 【非シンボリックリンクパス表示(デフォルト挙動)】pwd -P
+	- 【シンボリックリンクパス表示】pwd -L
 	- 【ディレクトリ移動】cd
 	- 【ディレクトリ移動(直前)】cd -
 	
@@ -134,6 +185,11 @@ Fri May 17 04:26:03 PDT 2013
 	- 【ファイル分割(行番号指定)】split
 	- 【ファイル分割(文脈指定)】csplit
 	
+	- 【ハードリンク作成】ln aaa/trgtfile.txt ./lnkfile
+	- 【シンボリックリンク作成】ln -s mydir/trgtfile.txt ./lnkfile
+	- 【シンボリックリンクパス表示】readlink ./lnkfile
+	- 【リンクファイル削除】unlink ./lnkfile
+	
 	- 【データを印刷できる形式に変換】base64
 	- 【データを印刷できる形式に変換】base32
 	- 【データを印刷できる形式に変換】basenc
@@ -144,11 +200,34 @@ Fri May 17 04:26:03 PDT 2013
 	- 【テキストファイル 折り返し(強制)】fold
 	- 【テキストファイル ヘッダフッタ付与】pr
 	
-	- 【タイムスタンプ更新】touch file
+	- 【タイムスタンプ更新(現在時刻)】touch file
+	- 【タイムスタンプ更新(指定時刻)】touch -d "2016-9-20 20:30" file
 	
 	- 【タブ→空白変換(8文字)】expand -t 8 file
 	- 【空白→タブ変換(8文字)】unexpand -t 8 file
 	
+	- 【ファイルパーミッション変更】chmod 755 \*.sh
+		- 755のように数字を3つ並べるのは次の3つを指定している
+			- [所有者に対する権限][所有グループに対する権限][その他に対する権限]
+		- 数字の意味は次の通り
+			- 0: 権限なし
+			- 1: 実行権限
+			- 2: 書き込み権限
+			- 4: 読み込み権限
+				- (7=1+2+4で全部OK, 6=2+4で読み書きのみ、といった具合)
+		- 755は、"所有者はなんでもできる、他の人は読み書きだけできる"という設定
+		- 644は、"所有者は読み書きできる、他の人は読むことだけできる"という設定
+	- 【ファイルパーミッション変更】chmod go+w testdata.txt
+		- 上記コマンドは、'グループ'と'その他ユーザ'に'書き込み'権限を与えるコマンド
+	
+	- 【一時的空ファイル/ディレクトリ作成】mktemp
+	
+	- 【圧縮】tar -czvf xxx.tgz file1 file2 dir1
+	- 【展開】tar -xzvf xxx.tgz
+	
+	- 【ファイルサイズ増減】truncate
+		- 10MBの空ファイル作成するとかが可能
+
 - ファイル情報表示
 	- 【ファイル中身表示】cat ~/.bash\_history
 	- 【ファイル中身表示(反転)】tac ~/.bash\_history
@@ -163,20 +242,12 @@ Fri May 17 04:26:03 PDT 2013
 	- 【テキストファイル 行数 表示】wc -l file
 	- 【テキストファイル 単語数 表示】wc -w file
 	- 【テキストファイル バイト数(文字数) 表示】wc -c data
-	- 【16bitチェックサム＆ブロック数(1024Byte単位) 表示】sum★
-	- 【CRCチェックサム 表示】cksum
-	- 【BLAKE22ハッシュ値 表示】b2sum★
-	- 【128bitチェックサム表示】md5sum
-		- →バイナリの一致確認時に使用する
 	
-	- 【[SHA-1](https://ja.wikipedia.org/wiki/SHA-1)ダイジェスト計算】sha1sum
-	- 【SHAダイジェスト計算(xxxビット長)】shaXXXsum
-
 	- 【ファイル中身表示(ソート)】sort
 	- 【ファイル中身表示(シャッフル)】shuf
 	- 【ファイル中身表示(重複削除)】uniq
 	- 【ファイル中身表示(前後関係指定ソート)】tsort
-
+	
 	- 【ファイル中身表示(垂直抽出)】cut -c 1-5 test.txt #1～5文字目を取出す
 	- 【ファイル中身表示(垂直抽出)】cut -d: -f 5 test.txt #区切り文字を「:」として、第5フィールドのみ切り出す
 	- 【ファイル中身表示(列結合)】paste -d"," date1.txt date2.txt #「data1.txt」と「data2.txt」を、区切り文字「,」として列結合
@@ -187,8 +258,8 @@ Fri May 17 04:26:03 PDT 2013
 	- 【ディレクトリ比較(再帰的)】diff -r dir1 dir2
 	- 【ファイル比較(左右並列表示)】sdiff file1 file2
 	
-	- 【ファイル/ディレクトリ一覧出力】ls
-	- 【ファイル/ディレクトリ一覧出力(隠しファイル/詳細情報含む)】ls -al
+	- 【ファイル/ディレクトリ一覧表示】ls
+	- 【ファイル/ディレクトリ一覧表示(隠しファイル/詳細情報含む)】ls -al
 	- 【ディレクトリ一覧出力】dir
 		- ls -C -b と同じ
 	- 【ディレクトリ一覧出力】vdir
@@ -197,168 +268,131 @@ Fri May 17 04:26:03 PDT 2013
 	- 【ファイル一覧表示(再帰的)】find dirpath -type f
 	- 【ディレクトリ一覧表示(再帰的)】find dirpath -type d
 	- 【ファイル/ディレクトリ一覧表示(再帰的)】find dirpath
+	- 【ファイル/ディレクトリ検索】上記のfindコマンドを用いる
 	- 【ファイルツリー出力】tree dirpath
-	- 【コマンド履歴表示】history
+	- 【ファイル種別表示】file filename
 	
-	- 【文章から索引作成】ptx★
+	- 【リンクファイルパス表示】readlink -f \_lib
 	
-	- 【lsのカラー設定】dircolors★
-
-- 基本操作
-	- 【★】shred
-
-	- 【ハードリンク作成】ln aaa/trgtfile.txt ./lnkfile
-	- 【シンボリックリンク作成】ln -s mydir/trgtfile.txt ./lnkfile
-	- 【シンボリックリンクパス表示】readlink ./lnkfile
-	- 【リンクファイル削除】unlink ./lnkfile
-	- 【名前付きパイプ作成★】mkfifo
-	- 【特殊ファイル作成★】mknod★
-
-- 文字操作
-	- 【文字列置換(文字単位)】tr
-		- 例1）cat data.txt | tr [:lower:] [:uppder:] #data.txtファイルにある小文字全てを大文字に変更
-		- 例2）cat data.txt | tr 'a-z' 'A-Z' #data.txtファイルにある小文字全てを大文字に変更 
-		- 例3）tr -d : < file1 #data.txtファイルにある「：」を削除して表示
-
-- 他
-	- 【ネットワーク切断】sudo ifconfig wlan0 down
-	- 【ネットワーク接続】sudo ifconfig wlan0 up
-	- 【ネットワーク状況確認】sudo ifconfig wlan0
-	
-	- 【マニュアル確認】man wpa\_supplicant.conf
-	
-	- 【マウント状況確認】df -k
-	- 【マウント】mount /dev/sda1 /mnt/hdd1
-	- 【アンマウント】umount /mnt/hdd1
-	- 【デバイス一覧表示】fdisk -l
-	
-	- 【エイリアス設定】alias ll='ls -al'
-	- 【エイリアス解除】unalias ll
-	
-	- 【Grep】grep -nr 'const' /mnt/c/codes\_sample/c/FreeRTOSV7.1.1/Source --include='\*.c' >> grep\_result.txt
-	- 【テキスト処理(文字列置換/抽出/削除等)】sed 's/Wolrd/World/g'
-	- 【★】awk
-		- [sedやgrepのようなテキスト処理ツールに演算機能を持たせた拡張ツール](https://ja.wikipedia.org/wiki/AWK)
-	- 【コマンドライン引数受取後実行】cmd1 | xargs cmd2
-	- 【数字列出力】seq
-	- 【カレンダー表示】cal
-
-	- 【コマンド結果をクリップボードにコピー】xclip
-		- 以下の通りコマンドのインストールが必要。（[詳細はこちら](https://linuxfan.info/xclip)）
-			- sudo apt install -y xclip
-		- →WSL2では使えない…？★
-
-	- 【ファイルパス表示】 readlink -f \_lib
-	- 【ファイルのパーミッション変更】chmod 755 \*.sh
-		- 755のように数字を3つ並べるのは次の3つを指定している
-			- [所有者に対する権限][所有グループに対する権限][その他に対する権限]
-		- 数字の意味は次の通り
-			- 0: 権限なし
-			- 1: 実行権限
-			- 2: 書き込み権限
-			- 4: 読み込み権限
-				- (7=1+2+4で全部OK, 6=2+4で読み書きのみ、といった具合)
-		- 755は、"所有者はなんでもできる、他の人は読み書きだけできる"という設定
-		- 644は、"所有者は読み書きできる、他の人は読むことだけできる"という設定
-		
-	- 【コンテンツ取得(fromHTTP)】curl
-	
-	- 【ディスク空き容量表示】df -h
-	- 【ディレクトリサイズ表示】du -h
-	- 【メモリ使用状況表示】free
-	- 【CPU/メモリ使用状況確認】top
-	- 【ファイル作成/更新日時表示】`stat <file>`
-	- 【プロセス情報表示(全プロセス)】ps -ef
-	- 【プロセス情報表示(現在プロセス)】ps $$
-	- 【プロセス停止】kill jobno
-	- 【メモリにバッファされているデータをディスクに書き込み★】sync
-	- 【ファイルサイズ増減】truncate
-		- 10MBの空ファイル作成するとかが可能
-	- 【標準出力書き出し(改行付与)】echo hello!
-	- 【標準出力書き出し(改行なし)】echo -n hello!
-	- 【C言語のprintfと同等】printf
-	- 【永遠文字列表示】yes
-	
-	- 【何もしない(戻り値1)】false
-	- 【何もしない(戻り値0)】true
-	- 【コマンド戻り値判定】test
-	- 【式評価】expr
-	- 【出力を複数ファイルやプロセスに渡す】tee
-		- コマンド結果をファイルに書きつつ、標準出力にも出力したいときに使う。(リダイレクションでは標準出力されない)
 	- 【ファイル名抽出(拡張子含む)】basename aaa/bbb/test.txt #→test.txt
 	- 【ディレクトリパス抽出】dirname aaa/bbb/test.txt #→aaa/bbb
 	- 【ファイルパス移植性確認】pathchk aaa/bbb/test.txt
 		- 以下の場合にエラーを吐くコマンド
 			- パーミッションの関係でディレクトリの中身が見れない
 			- ファイル名長すぎ
-	- 【一時的空ファイル/ディレクトリ作成】mktemp
 	- 【相対パス→絶対パス変換】realpath
-	- 【環境変数表示】printenv
-	- 【環境変数設定(csh系用)】setenv envvar value
-	- 【環境変数設定(sh系用)】export envvar='value'
+	
+	- 【高速ファイル/ディレクトリ検索】locate "\*.txt"
+		- locateコマンドは、事前に「updatedb」コマンドにてインデックスを作成しておく必要あり。
+	
+	- 【文章から索引作成】ptx★
+	
+	- 【lsカラー設定】dircolors★
+	
+	- 【16bitチェックサム＆ブロック数(1024Byte単位) 表示】sum★
+	- 【CRCチェックサム 表示】cksum
+	- 【BLAKE22ハッシュ値 表示】b2sum★
+	- 【128bitチェックサム表示】md5sum
+		- →バイナリの一致確認時に使用する
+	
+	- 【[SHA-1](https://ja.wikipedia.org/wiki/SHA-1)ダイジェスト計算】sha1sum
+	- 【SHAダイジェスト計算(xxxビット長)】shaXXXsum
+	
+	- 【Grep】grep -nr 'const' /mnt/c/codes\_sample/c/FreeRTOSV7.1.1/Source --include='\*.c' >> grep\_result.txt
+	
+	- 【数値単位変換1】numfmt --from=auto 1Mi #→1048576
+	- 【数値単位変換2】numfmt --to=si 500000 #→500K
+
+- 文字操作
+	- 【文字列置換(文字単位)】tr
+		- 例1）cat data.txt | tr [:lower:] [:uppder:] #data.txtファイルにある小文字全てを大文字に変更
+		- 例2）cat data.txt | tr 'a-z' 'A-Z' #data.txtファイルにある小文字全てを大文字に変更 
+		- 例3）tr -d : < file1 #data.txtファイルにある「：」を削除して表示
+	- 【テキスト処理(文字列置換/抽出/削除等)】sed 's/Wolrd/World/g'
+	- 【ソート＆重複削除】cat file1 | sort | uniq
+	- 【数字列出力】seq
+
+- システム
+	- 【ディスク空き容量表示(DiskFree?)】df -h
+	- 【ディレクトリサイズ表示(DiskUsed)】du -h
+	- 【メモリ使用状況表示】free
+	- 【CPU/メモリ使用状況確認】top
+	- 【ファイル作成/更新日時表示】stat file
+	- 【実行中ジョブ確認】jobs
+	
+	- 【プロセス情報表示(全プロセス)】ps -ef
+	- 【プロセス情報表示(現在プロセス)】ps $$
+	- 【プロセス停止】kill jobno
+	- 【メモリにバッファされているデータをディスクに書き込み★】sync
 	- 【端末キャラクター表示★】stty
 	- 【標準入力ターミナルファイル名表示★】tty
 	
 	- 【ユーザID表示】id
 	- 【現在ログイン名表示】logname
 	- 【現在ユーザIDに関連付けされているユーザ名表示】whoami
-		- `id -un` と同等
+		- id -un と同等
 	- 【所属グループ名表示】groups
 	- 【ログオン中ユーザ情報表示】who
 	- 【★】pinky
 	
-	- 【時刻表示/設定】date
+	- 【ユーザアカウント作成】useradd -d /home/mike -s /bin/bash mike
+		- 「mike」という新規ユーザを作成し、ホームディレクトリ、ログインシェルを指定する設定
+	- 【ユーザアカウント変更(グループ変更)】usermod -g sales mike
+	- 【ユーザアカウント削除】userdel -r mike
+	- 【グループアカウント作成】groupadd sales
+	- 【グループアカウント変更】groupmod -n salesmarketing sales
+	- 【グループアカウント削除】groupdel sales
+	- 【所属グループ表示】id sales
+	- 【ログインパスワード変更】passwd mike
+	
+	- 【環境変数表示】printenv
+	- 【環境変数設定(csh系用)】setenv envvar value
+	- 【環境変数設定(sh系用)】export envvar='value'
+	- 【環境変数変更(一時的)】env
+	- 【環境変数表示】env
+	
+	- 【マウント】mount /dev/sda1 /mnt/hdd1
+		- マウント…記憶媒体に対して読み書きを可能にすること
+	- 【アンマウント】umount /mnt/hdd1
+	- 【マウント状況確認】df -k
+	- 【デバイス一覧表示】fdisk -l
+	
+	- 【時刻(システムクロック)表示】date
+	- 【時刻(システムクロック)変更】date 11132330 #→11/13 23:30にセット
+	- 【時刻(ハードウェアクロック)変更】hwclock -w #システムクロックの時刻をハードウェアクロックに反映
+	
 	- 【プロセッサ数表示】nproc
 	- 【システム情報表示】uname
 	- 【ハードウェア名表示】arch
 	- 【ホスト名表示】hostmname
 	- 【ホスト識別子表示(16進数)】hostid
 	- 【システム起動時間等表示】uptime
+
+- 他
+	- 【★】shred
+	- 【名前付きパイプ作成★】mkfifo
+	- 【特殊ファイル作成★】mknod★
 	
-	- 【圧縮】tar -czvf xxx.tgz file1 file2 dir1
-	- 【展開】tar -xzvf xxx.tgz
+	- 【ネットワーク切断】sudo ifconfig wlan0 down
+	- 【ネットワーク接続】sudo ifconfig wlan0 up
+	- 【ネットワーク状況確認】sudo ifconfig wlan0
 	
-	- 【ソート＆重複削除】cat file1 | sort | uniq
-	- 【ユーザ切り替え】su user1
-	- 【管理者権限実行】sudo
-	- 【変数中身出力】echo ${var1}
-	- 【コマンド実行結果出力】echo $(cmd1)
-	- 【直前コマンドの終了ステータス表示】echo $?
+	- 【マニュアル確認】man wpa\_supplicant.conf
+	
+	- 【★】awk
+		- [sedやgrepのようなテキスト処理ツールに演算機能を持たせた拡張ツール](https://ja.wikipedia.org/wiki/AWK)
+	- 【カレンダー表示】cal
+	
+	- 【コンテンツ取得(fromHTTP)】curl★
+	
 	- 【TCP/IPアドレス情報表示】ifconfig
 	- 【パケット送付】ping 宛先
 	- 【★】chcon
 	- 【★】runcon
 	- 【特定ルートディレクトリでコマンド実行】chroot
-	- 【環境変数変更(一時的)】env
-	- 【環境変数表示】env
-	- 【プロセス実行優先度変更後コマンド実行】nice -n -15 updatedb #実行優先度を「15」低くして、updatedbコマンドを実行
-		- niceness…プロセスの優先度を示す値(＝アプリケーション実行順序)(≠スケジュール優先度)
-	- 【ログアウト後継続コマンド実行】nohup cmd
-	- 【★】stdbuf
-	- 【タイムリミット設定後コマンド実行】timeout 5 cmd
-	- 【実行遅延】sleep 1d 1h 1m 1s
-	- 【素因数分解】factor 60 #→60: 2 2 3 5
-	- 【数値単位変換1】numfmt --from=auto 1Mi #→1048576
-	- 【数値単位変換2】numfmt --to=si 500000 #→500K
 	
-	- 【ファイル種別表示】file filename
-	- 【】
-	- 【】
-	- 【】
-	- 【実行中ジョブ確認】jobs
-	- 【】
-	- 【パッケージインストール(Debian系)】apt install package\_name
-		- aptをapt-getの設計改良版の位置づけらしい([詳細はこちら](https://www.atmarkit.co.jp/ait/articles/1708/31/news017.html))
-	- 【パッケージ削除(Debian系)】apt remove package\_name
-	- 【パッケージ更新(Debian系)】apt upgrade package\_name
-	- 【パッケージインストール(RedHat系)】yum install package\_name
-	- 【コンパイル実行】gcc -o objfile srcfile
-	- 【コンパイル実行(コンパイル＆アセンブルのみ)】gcc -c -o objfile srcfile
-	- 【】
-	- 【】
-	- 【】
-	- 【】
-	- 【】
+	- 【★】stdbuf
+	- 【素因数分解】factor 60 #→60: 2 2 3 5
 
 # Tips
 - [「E: Unable to locate package」エラー解消法＠Ubuntu](https://qiita.com/hatorijobs/items/c503840c13672e12d188)
