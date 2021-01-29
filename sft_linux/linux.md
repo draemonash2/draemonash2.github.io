@@ -82,12 +82,12 @@ Fri May 17 04:26:03 PDT 2013
 	- 【実行コマンド終了ステータス(0=正常終了、1=異常終了、それ以外はエラー）】$?
 - 【標準入力取得】echo -n "あなたのお名前は?";read yourname
 - 【条件式】
-	- 【条件分岐(＝)】test 5 -eq 10; echo $? #→1(偽)
-	- 【条件分岐(≠)】test 5 -ne 10; echo $? #→0(真)
-	- 【条件分岐(≧)】test 5 -ge 10; echo $? #→1(偽)
-	- 【条件分岐(＞)】test 5 -gt 10; echo $? #→1(偽)
-	- 【条件分岐(≦)】test 5 -le 10; echo $? #→0(真)
-	- 【条件分岐(＜)】test 5 -lt 10; echo $? #→0(真)
+	- 【条件分岐(＝)】test 5 -eq 10; echo $? #→1(偽) EQual
+	- 【条件分岐(≠)】test 5 -ne 10; echo $? #→0(真) Not Equal
+	- 【条件分岐(≧)】test 5 -ge 10; echo $? #→1(偽) Greater Equal
+	- 【条件分岐(＞)】test 5 -gt 10; echo $? #→1(偽) Greater Than
+	- 【条件分岐(≦)】test 5 -le 10; echo $? #→0(真) Less Equal
+	- 【条件分岐(＜)】test 5 -lt 10; echo $? #→0(真) Less Than
 	- 【ディレクトリ存在確認】test -d ディレクトリ名
 	- 【ファイル存在確認】test -f ファイル名
 	- 【文字列空文字列確認】test -n 文字列
@@ -414,6 +414,13 @@ Fri May 17 04:26:03 PDT 2013
 	1. 起動時に実行される「~/.bashrc」に以下のエイリアスを設定しておく
 		- `alias endo='export HOME=/home/dir'`
 	1. bash起動時に 'endo' を実行する
+- 共有PCにおける自分用ホームディレクトリ設定＆運用方法
+	1. 起動時に実行される「~/.bashrc」に以下のエイリアスを設定しておく
+		- `alias endo='export HOME=/home/dir'`
+	1. bash起動時に 'endo' を実行する
+- 共有PCにおける自分用vimrc設定＆運用方法
+	1. 「共有PCにおける自分用ホームディレクトリ設定＆運用方法」にて設定するホームディレクトリに「.vimrc」を格納する
+	1. 「共有PCにおける自分用ホームディレクトリ設定＆運用方法」の手順を実施する
 - [Linux操作がうまくなるために](https://qiita.com/chooyan_eng/items/b154d57a8da8911db612)
 - [NFSとは](https://baremetal.jp/blog/2018/04/17/541/)
 	- Network File Systemの略。
