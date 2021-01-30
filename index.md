@@ -50,6 +50,14 @@
 - [EpTree](sft_eptree/eptree.md)
 - [Excuberant Ctags](sft_ctags/ctags.md)
 
+- [WSL2](sft_wsl2/wsl2.md)
+- [Cygwin](sft_cygwin/cygwin.md)
+- [iThoughts](sft_ithoughts/ithoughts.md)
+- [Redmine](sft_redmine/redmine.md)
+- [EyeD3](sft_eyed3/eyed3.md)
+- [7-Zip](sft_7zip/7zip.md)
+- [Anki](sft_anki/anki.md)
+
 ## その他
 - [用語集](klg_words/words.md)
 - [その他](otr_other/other.md)
