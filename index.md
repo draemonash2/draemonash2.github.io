@@ -35,6 +35,21 @@
 - [Enterprise Architect](sft_ea/ea.md)
 - [Visual Studio](sft_visualstudio/visualstudio.md)
 - [PDF-XChange-Viewer](sft_pdf-xchange-viewer/pdf-xchange-viewer.md)
+
+- [Tortoise Git](sft_tortoisegit/tortoisegit.md)
+- [Tortoise Svn](sft_tortoisesvn/tortoisesvn.md)
+
+- [Vim](sft_vim/vim.md)
+- [秀丸](sft_hidemaru/hidemaru.md)
+
+- [X-Finder](sft_x-finder/x-finder.md)
+- [Everything](sft_everything/everything.md)
+
+- [MiGrep](sft_migrep/migrep.md)
+- [grep.exe](sft_grepexe/grepexe.md)
+- [EpTree](sft_eptree/eptree.md)
+- [Excuberant Ctags](sft_ctags/ctags.md)
+
 ## その他
 - [用語集](klg_words/words.md)
 - [その他](otr_other/other.md)
