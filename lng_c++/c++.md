@@ -67,12 +67,10 @@
 # Tips
 - char型をcoutすると、数値が出力されない
 	- 例
-
 ``` c++
 char a = 2;
 cout << a << endl;
 ```
-
 	- 原因
 		- char型をcoutする場合、数値をASCIIコードとしてみなして出力する（数値が65の場合は'A'を出力する）
 		ASCIIコードの2は制御文字のため、出力されない
@@ -91,29 +89,24 @@ cout << a << endl;
 - イテレータのメリット
 	- 配列の長さを求めて足し算して・・・というコードを自分で書く必要がない
 		- 例）イテレータ非使用時
-
 ``` c++
 int arr[] = { 1, 3, 9, 4 };
 for (int idx = 0; idx != (sizeof(arr) / sizeof(arr[0])); ++idx) {
 	std::cout << arr[idx] << std::endl;
 }
 ```
-
 		- 例）イテレータ使用時
-
 ``` c++
 int arr[] = { 1, 3, 9, 4 };
 for(int* it = std::begin(arr); it != std::end(arr); ++it){
     std::cout << *it << std::endl;
 }
 ```
-
 - nullptrとNULLの違い
 	- NULLは0なので、ポインタ以外にも使える。一方、nullptrは、ポインタ変数以外には使えないため、意図しない使われ方をした場合にコンパイルエラーで防ぐことができる。
 - bool型のサイズは？
 	- 1Byte
 - 参照渡しとポインタ渡し
-
 ``` c++
 void calc( int x, int &y ) { /* 参照渡し */
 	y += x;
@@ -128,7 +121,6 @@ int main( void ) {
 	calc( x, &y );	/* ポインタ渡し */
 }
 ```
-
 	- 参照渡しは、VBAでいう"ByRef"だと思えばいい！
 	- 参照渡しとポインタ渡しは自動で区別されるため、オーバーロードできる！
 

@@ -62,7 +62,7 @@ Fri May 17 04:26:03 PDT 2013
 - 【変数参照】echo $name
 - 【メタキャラクタ】
 	- 【data1 と data2】data{1,2}
-- 【関数定義】function lsmo() { ls -la | more; }
+- 【関数定義】function lsmo() { ls -la \| more; }
 - 【関数定義削除】unset lsmo
 - 【シェルオプション設定】set [-o] [+o] オプション
 	- オプション一覧
@@ -149,7 +149,7 @@ Fri May 17 04:26:03 PDT 2013
 	- 【タイムリミット設定後コマンド実行】timeout 5 cmd
 	- 【実行遅延】sleep 1d 1h 1m 1s
 	
-	- 【コマンドライン引数受取後実行】cmd1 | xargs cmd2
+	- 【コマンドライン引数受取後実行】cmd1 \| xargs cmd2
 	- 【プロセス実行優先度変更後コマンド実行】nice -n -15 updatedb #実行優先度を「15」低くして、updatedbコマンドを実行
 		- niceness…プロセスの優先度を示す値(＝アプリケーション実行順序)(≠スケジュール優先度)
 	- 【ログアウト後継続コマンド実行】nohup cmd
@@ -266,7 +266,7 @@ Fri May 17 04:26:03 PDT 2013
 		- ls -l -b と同じ
 	
 	- 【ファイル一覧表示(再帰的)】find dirpath -type f
-	- 【ファイル一覧表示(再帰的)(ファイル指定)】find dirpath -type f | grep .md
+	- 【ファイル一覧表示(再帰的)(ファイル指定)】find dirpath -type f \| grep .md
 	- 【ディレクトリ一覧表示(再帰的)】find dirpath -type d
 	- 【ファイル/ディレクトリ一覧表示(再帰的)】find dirpath
 	- 【ファイル/ディレクトリ検索】上記のfindコマンドを用いる
@@ -306,11 +306,11 @@ Fri May 17 04:26:03 PDT 2013
 
 - 文字操作
 	- 【文字列置換(文字単位)】tr
-		- 例1）cat data.txt | tr [:lower:] [:uppder:] #data.txtファイルにある小文字全てを大文字に変更
-		- 例2）cat data.txt | tr 'a-z' 'A-Z' #data.txtファイルにある小文字全てを大文字に変更 
+		- 例1）cat data.txt \| tr [:lower:] [:uppder:] #data.txtファイルにある小文字全てを大文字に変更
+		- 例2）cat data.txt \| tr 'a-z' 'A-Z' #data.txtファイルにある小文字全てを大文字に変更 
 		- 例3）tr -d : < file1 #data.txtファイルにある「：」を削除して表示
 	- 【テキスト処理(文字列置換/抽出/削除等)】sed 's/Wolrd/World/g'
-	- 【ソート＆重複削除】cat file1 | sort | uniq
+	- 【ソート＆重複削除】cat file1 \| sort \| uniq
 	- 【数字列出力】seq
 
 - システム
