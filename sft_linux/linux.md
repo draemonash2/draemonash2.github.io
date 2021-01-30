@@ -266,6 +266,7 @@ Fri May 17 04:26:03 PDT 2013
 		- ls -l -b と同じ
 	
 	- 【ファイル一覧表示(再帰的)】find dirpath -type f
+	- 【ファイル一覧表示(再帰的)(ファイル指定)】find dirpath -type f | grep .md
 	- 【ディレクトリ一覧表示(再帰的)】find dirpath -type d
 	- 【ファイル/ディレクトリ一覧表示(再帰的)】find dirpath
 	- 【ファイル/ディレクトリ検索】上記のfindコマンドを用いる

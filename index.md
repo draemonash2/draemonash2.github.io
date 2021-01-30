@@ -12,6 +12,7 @@
 - [Vbs](lng_vbs/vbs.md)
 - [Vim Script](lng_vimscript/vimscript.md)
 - [Markdown](lng_markdown/markdown.md)
+- [Fortran](lng_fortran/fortran.md)
 
 ## サービス
 - [Github Wiki](sft_githubwiki/githubwiki.md)
