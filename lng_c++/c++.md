@@ -111,11 +111,9 @@ for(int* it = std::begin(arr); it != std::end(arr); ++it){
 void calc( int x, int &y ) { /* 参照渡し */
 	y += x;
 }
-
 void calc( int x, int *p ) { /* ポインタ渡し */
 	*p += x;
 }
-
 int main( void ) {
 	calc( x, y );	/* 参照渡し */
 	calc( x, &y );	/* ポインタ渡し */
