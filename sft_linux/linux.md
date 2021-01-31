@@ -2,8 +2,8 @@
 
 # 関連リンク
 
-- [WSL2](https://github.com/draemonash2/wiki/blob/master/sft_wsl2/wsl2.md)
-- [Raspberry Pi](https://github.com/draemonash2/wiki/blob/master/sft_raspberrypi/raspberrypi.md)
+- [WSL2](../sft_wsl2/wsl2.md)
+- [Raspberry Pi](../sft_raspberrypi/raspberrypi.md)
 
 # コマンド構文
 
@@ -47,6 +47,18 @@ Fri May 17 04:26:03 PDT 2013
 		- 標準出力とファイル出力を同時に行いたい場合、「tee」コマンドを使う
 - フォアグラウンドとバックグラウンドの制御
 	![フォアグラウンドとバックグラウンドの制御](フォアグラウンドとバックグラウンドの制御.jpg)
+- [ブレース展開](https://qiita.com/ine1127/items/6e5fe80f4a9c64509558)
+	- 【ブレース展開例01】{a,b,c} #→a b c
+	- 【ブレース展開例02】{6..10} #→6 7 8 9 10
+	- 【ブレース展開例03】{1..10..2} #→1 3 5 7 9
+	- 【ブレース展開例04】a{m,n} #→am an
+	- 【ブレース展開例05】{m,n}a #→ma na
+	- 【ブレース展開例06】a{m,n}b #→amb anb
+	- 【ブレース展開例07】{a,b}{m,n} #→am an bm bn
+	- 【ブレース展開例08】a{,m,n} #→a am an
+	- 【ブレース展開例09】a{m,n,} #→am an a
+	- 【ブレース展開例10】a{,,,} #→a a a a
+	- 【ブレース展開例11】a{,b{,c}} #→a ab abc
 
 # シェルスクリプト構文
 
@@ -150,6 +162,7 @@ Fri May 17 04:26:03 PDT 2013
 	- 【実行遅延】sleep 1d 1h 1m 1s
 	
 	- 【コマンドライン引数受取後実行】cmd1 \| xargs cmd2
+		- [パイプとxargsの違い](https://moffu-mofu.hatenadiary.jp/entry/2018/07/29/225300)
 	- 【プロセス実行優先度変更後コマンド実行】nice -n -15 updatedb #実行優先度を「15」低くして、updatedbコマンドを実行
 		- niceness…プロセスの優先度を示す値(＝アプリケーション実行順序)(≠スケジュール優先度)
 	- 【ログアウト後継続コマンド実行】nohup cmd
@@ -267,6 +280,7 @@ Fri May 17 04:26:03 PDT 2013
 	
 	- 【ファイル一覧表示(再帰的)】find dirpath -type f
 	- 【ファイル一覧表示(再帰的)(ファイル指定)】find dirpath -type f \| grep .md
+	- 【ファイル一覧表示(再帰的)(ファイル指定)】find dirpath -name '\*.md' -type f
 	- 【ディレクトリ一覧表示(再帰的)】find dirpath -type d
 	- 【ファイル/ディレクトリ一覧表示(再帰的)】find dirpath
 	- 【ファイル/ディレクトリ検索】上記のfindコマンドを用いる
@@ -416,8 +430,6 @@ Fri May 17 04:26:03 PDT 2013
 	1. ユーザ名の行を探し、"/home/xxx"を"変えたいディレクトリ"に変更
 - [「.tar.gz」とは](https://wa3.i-3-i.info/word12942.html)
 	- 複数ファイルを1つにまとめたファイル（tarファイル）をgzipコマンドで圧縮したファイル
-- VIM設定ファイル格納先
-	- ★
 - 起動時にエイリアスを設定したい
 	1. 「~/.bashrc」に起動時に設定したいエイリアスを設定しておく
 - 共有PCにおける自分用ホームディレクトリ設定＆運用方法

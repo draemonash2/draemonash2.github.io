@@ -2,11 +2,11 @@
 
 # 関連リンク
 
-- [Linux](https://github.com/draemonash2/wiki/blob/master/sft_linux/linux.md)
-- [WSL2](https://github.com/draemonash2/wiki/blob/master/sft_wsl2/wsl2.md)
+- [Linux](../sft_linux/linux.md)
+- [WSL2](../sft_wsl2/wsl2.md)
 
 # Python＠Raspberry Pi
-- [こちら参照](https://github.com/draemonash2/wiki/blob/master/lng_python/python_raspberrypi.md) 参照
+- [こちら参照](../lng_python/python_raspberrypi.md) 参照
 
 # Tips
 - [OSインストール方法](https://www.indoorcorgielec.com/resources/raspberry-pi/raspberry-pi-os%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/)
@@ -48,7 +48,7 @@
 
 # Linux 共通コマンド
 
-- [Linuxの基本コマンドはこちら](https://github.com/draemonash2/wiki/blob/master/sft_linux/linux.md)
+- [Linuxの基本コマンドはこちら](../sft_linux/linux.md)
 
 # Raspberry Pi 関連コマンド
 

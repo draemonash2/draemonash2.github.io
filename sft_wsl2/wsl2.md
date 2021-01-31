@@ -2,8 +2,8 @@
 
 # 関連リンク
 
-- [Linux](https://github.com/draemonash2/wiki/blob/master/sft_linux/linux.md)
-- [Raspberry Pi](https://github.com/draemonash2/wiki/blob/master/sft_raspberrypi/raspberrypi.md)
+- [Linux](../sft_linux/linux.md)
+- [Raspberry Pi](../sft_raspberrypi/raspberrypi.md)
 
 # Tips
 
@@ -38,13 +38,15 @@
 		- `powershell start-process wt -verb runas`
 	1. 上記バッチファイルのショートカットファイルを作成する
 	1. 上記ショートカットファイルを管理者権限で実行するように変更する
+- WSL2 設定ファイル（settings.json）格納先
+	- `%USERPROFILE%\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json`
 
 # コマンド
 
-- [こちら](https://github.com/draemonash2/wiki/blob/master/sft_linux/linux.md)
+- [こちら](../sft_linux/linux.md)
 
 # ショートカットキー
 
-- [こちら](https://github.com/draemonash2/wiki/blob/master/sft_linux/linux.md)
+- [こちら](../sft_linux/linux.md)
 
 [トップに戻る](../index.md)
