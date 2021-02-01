@@ -7,6 +7,13 @@
 
 # コマンド構文
 
+- 【コマンド実行】cmd
+- 【コマンド実行(非エイリアス)】\cmd # エイリアスを介さない元のコマンドを実行する
+- 【[コマンド実行(直近実行コマンド)](https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q13147860248)】!cmd
+	- ex. 最後に実行したlsが `ls -R | grep "babababa" #①` だった場合、そののちに `!ls` と入力すると、①のコマンドが再度実行される
+- 【[コマンド実行(直前コマンド)](https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q13147860248)】!!
+	- ex. 最後に実行したlsが `ls -R | grep "babababa" #①` だった場合、その直後に `!!` と入力すると、①のコマンドが再度実行される
+	
 - [コマンド連続実行方法](https://qiita.com/egawa_kun/items/714394609eef6be8e0bf)
 	- 【；】コマンド1終了後、コマンド2実行（実行結果に関わらず）
 	- 【＆】コマンド1実行(バックグラウンド)中に、コマンド2実行
@@ -168,10 +175,6 @@ Fri May 17 04:26:03 PDT 2013
 	- 【ログアウト後継続コマンド実行】nohup cmd
 
 - ファイル操作
-	- 【ファイルリスト表示】ls
-	- 【現在フォルダパス表示】pwd
-	- 【非シンボリックリンクパス表示(デフォルト挙動)】pwd -P
-	- 【シンボリックリンクパス表示】pwd -L
 	- 【ディレクトリ移動】cd
 	- 【ディレクトリ移動(直前)】cd -
 	
@@ -242,6 +245,20 @@ Fri May 17 04:26:03 PDT 2013
 		- 10MBの空ファイル作成するとかが可能
 
 - ファイル情報表示
+	- 【現在フォルダパス表示】pwd
+	- 【非シンボリックリンクパス表示(デフォルト挙動)】pwd -P
+	- 【シンボリックリンクパス表示】pwd -L
+	
+	- 【ファイル/ディレクトリ一覧表示】ls
+<details>
+	<summary>オプション</summary>
+	- 【ファイル/ディレクトリ一覧表示(隠しファイル/詳細情報含む)】ls -al
+</details>
+	- 【ディレクトリ一覧出力】dir
+		- ls -C -b と同じ
+	- 【ディレクトリ一覧出力】vdir
+		- ls -l -b と同じ
+	
 	- 【ファイル中身表示】cat ~/.bash\_history
 	- 【ファイル中身表示(反転)】tac ~/.bash\_history
 	- 【ファイル中身表示(行番号付)】nl ~/.bash\_history
@@ -270,13 +287,6 @@ Fri May 17 04:26:03 PDT 2013
 	- 【ファイル比較】diff --color file1 file2
 	- 【ディレクトリ比較(再帰的)】diff -r dir1 dir2
 	- 【ファイル比較(左右並列表示)】sdiff file1 file2
-	
-	- 【ファイル/ディレクトリ一覧表示】ls
-	- 【ファイル/ディレクトリ一覧表示(隠しファイル/詳細情報含む)】ls -al
-	- 【ディレクトリ一覧出力】dir
-		- ls -C -b と同じ
-	- 【ディレクトリ一覧出力】vdir
-		- ls -l -b と同じ
 	
 	- 【ファイル一覧表示(再帰的)】find dirpath -type f
 	- 【ファイル一覧表示(再帰的)(ファイル指定)】find dirpath -type f \| grep .md
@@ -451,6 +461,12 @@ Fri May 17 04:26:03 PDT 2013
 - [SSH基礎](https://iatlex.com/linux/ssh)
 - bashの設定ファイル一覧と実行順序
 ![bash設定ファイル一覧](bash設定ファイル一覧.jpg)
+- [「.bash\_profile」と「.bashrc」の違い](https://honmushi.com/2020/03/30/bash-custom/)
+	- 相違点
+		- .bash\_profile … ログイン時に1回だけ実行
+		- .bashrc … シェルを起動する度に実行
+	- 備考
+		- 一般的な設定は特に理由がなければ.bashrc の方に書けば問題ない。
 - [シェル、ターミナル、コンソール、コマンドラインの違い](https://qiita.com/tadsan/items/441dcd910537d3f408e5)
 - 共有アカウントにおけるホームディレクトリ変更
 	1. 事前準備
@@ -460,6 +476,7 @@ Fri May 17 04:26:03 PDT 2013
 			- ※「/etc/passwd」のパスは書き換えないようにする！
 	1. ログオン直後
 		1. コマンド「he」を実行する
+- 【[mv後のディレクトリへ移動](https://qiita.com/arene-calix/items/41d8d4ba572f1d652727)】cd !$
 
 # ショートカットキー
 

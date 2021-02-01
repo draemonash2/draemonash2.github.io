@@ -60,6 +60,9 @@
 
 ## その他
 - [用語集](klg_words/words.md)
+- [用語集（開発-自動車）](klg_words/words_develop_car.md)
+- [用語集（開発-モータ）](klg_words/words_develop_motor.md)
+- [用語集（エンベデッドシステムスペシャリスト試験(ES)）](klg_words/words_ES.md)
 - [その他](otr_other/other.md)
 
 
