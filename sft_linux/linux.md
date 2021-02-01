@@ -344,6 +344,26 @@ Fri May 17 04:26:03 PDT 2013
 	- 【SHAダイジェスト計算(xxxビット長)】shaXXXsum
 	
 	- 【Grep】grep -nr 'const' /mnt/c/codes\_sample/c/FreeRTOSV7.1.1/Source --include='\*.c' >> grep\_result.txt
+		- 主な grep オプション（[詳細はこちら](https://www.atmarkit.co.jp/ait/articles/1604/07/news018.html)）
+			- 【検索パターン指定(複数条件検索時)】-e 検索パターン
+			- 【大/小文字区別なし】-i
+			- 【単語単位検索】-w
+			- 【不一致行表示】-v
+			- 【エラーメッセージ表示】-s
+			- 【結果非表示（主にシェルスクリプトなどで判定用に使う）】-q
+			- 【行番号表示】-n
+			- 【ファイル名表示】-H
+			- 【ファイル名非表示（複数ファイル指定時）】-h
+			- 【一致カラム表示】-b
+			- 【一致文字列ハイライト】--color=WHEN # WHEN=(always|never|auto)
+			- 【一致行 前行表示】-B 行数
+			- 【一致行 後行表示】-A 行数
+			- 【一致行 前後行表示】-C 行数,-行数
+			- 【検索対象にディレクトリを指定した場合の動作】-d ACTION # ACTION=(read|recurse|skip)
+			- 【サブディレクトリ配下ファイル対象】-r
+			- 【サブディレクトリ配下ファイル対象(シンボリックリンク含む)】-R
+			- 【パターンマッチファイル対象追加】--include='\*.c'
+			- 【パターンマッチファイル対象除外】--exclude='\*.o'
 	
 	- 【数値単位変換1】numfmt --from=auto 1Mi #→1048576
 	- 【数値単位変換2】numfmt --to=si 500000 #→500K
