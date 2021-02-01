@@ -188,6 +188,7 @@ Fri May 17 04:26:03 PDT 2013
 		- 備考1：「rmdir -p aaa」では削除不可
 		- 備考2：ディレクトリaaaとbbbとcccのみ削除するため、厳密には配下のファイルをすべて削除するわけではない。
 			- →上記より「rm -r aaa」の方がいいかも
+	- 【ファイル完全削除】shred -u file.txt
 	
 	- 【ファイル移動】mv file.txt bbb/
 	- 【ディレクトリ移動】mv ccc ../
@@ -200,8 +201,8 @@ Fri May 17 04:26:03 PDT 2013
 			- 【ディレクトリ以下を再帰的にコピー(由来: recursive)】-r
 			- 【確認無しで強制コピー(由来: force)】-f
 			- 【コピー前後でパーミッションを保持(由来: permission)】-p
-	- 【ファイルコピー＆変換】dd★
-	- 【ファイルコピー(属性指定)】install★
+	- 【[ファイルコピー(ブロック単位)](https://news.mynavi.jp/article/20180706-659745/)】dd if=/dev/コピー元デバイスファイル of=/dev/コピー先デバイスファイル
+	- 【ファイルコピー＆アクセス権設定】install sourcefile destfile
 	
 	- 【ファイル分割(行番号指定)】split
 	- 【ファイル分割(文脈指定)】csplit
@@ -302,7 +303,7 @@ Fri May 17 04:26:03 PDT 2013
 	- 【ファイル中身表示(列結合)】paste -d"," date1.txt date2.txt #「data1.txt」と「data2.txt」を、区切り文字「,」として列結合
 	- 【ファイル中身表示(差異比較列結合)】join -j 1 data1.txt data2.txt #「data1.txt」と「data2.txt」の第1フィールドに基づいて列結合
 	
-	- 【ファイル比較】comm★
+	- 【[ファイル比較](https://qiita.com/mumian1014/items/bb71b0520e457f3b2466)】comm file1 file2
 	- 【ファイル比較】diff --color file1 file2
 	- 【ディレクトリ比較(再帰的)】diff -r dir1 dir2
 	- 【ファイル比較(左右並列表示)】sdiff file1 file2
@@ -329,13 +330,13 @@ Fri May 17 04:26:03 PDT 2013
 	- 【高速ファイル/ディレクトリ検索】locate "\*.txt"
 		- locateコマンドは、事前に「updatedb」コマンドにてインデックスを作成しておく必要あり。
 	
-	- 【文章から索引作成】ptx★
+	- 【文章から索引作成】ptx
 	
-	- 【lsカラー設定】dircolors★
+	- 【ls用色設定コマンド出力】dircolors
 	
-	- 【16bitチェックサム＆ブロック数(1024Byte単位) 表示】sum★
+	- 【16bitチェックサム＆ブロック数(1024Byte単位) 表示】sum
 	- 【CRCチェックサム 表示】cksum
-	- 【BLAKE22ハッシュ値 表示】b2sum★
+	- 【BLAKE22ハッシュ値 表示】b2sum
 	- 【128bitチェックサム表示】md5sum
 		- →バイナリの一致確認時に使用する
 	
@@ -369,9 +370,9 @@ Fri May 17 04:26:03 PDT 2013
 	- 【プロセス情報表示(全プロセス)】ps -ef
 	- 【プロセス情報表示(現在プロセス)】ps $$
 	- 【プロセス停止】kill jobno
-	- 【メモリにバッファされているデータをディスクに書き込み★】sync
-	- 【端末キャラクター表示★】stty
-	- 【標準入力ターミナルファイル名表示★】tty
+	- 【[キャッシュ内未処理データディスク書込み](https://linuc.org/study/knowledge/413/)】sync
+	- 【端末行設定表示】stty
+	- 【標準入力ターミナルファイルパス表示】tty
 	
 	- 【ユーザID表示】id
 	- 【現在ログイン名表示】logname
@@ -379,7 +380,6 @@ Fri May 17 04:26:03 PDT 2013
 		- id -un と同等
 	- 【所属グループ名表示】groups
 	- 【ログオン中ユーザ情報表示】who
-	- 【★】pinky
 	
 	- 【ユーザアカウント作成】useradd -d /home/mike -s /bin/bash mike
 		- 「mike」という新規ユーザを作成し、ホームディレクトリ、ログインシェルを指定する設定
@@ -415,9 +415,8 @@ Fri May 17 04:26:03 PDT 2013
 	- 【システム起動時間等表示】uptime
 
 - 他
-	- 【★】shred
-	- 【名前付きパイプ作成★】mkfifo
-	- 【特殊ファイル作成★】mknod★
+	- 【[名前付きパイプ作成](https://linuxcommand.net/mkfifo/)】mkfifo
+	- 【[特殊ファイル作成](https://manual.atmark-techno.com/armadillo-guide/armadillo-guide-2_ja-1.0.0/ch03.html)】mknod
 	
 	- 【ネットワーク切断】sudo ifconfig wlan0 down
 	- 【ネットワーク接続】sudo ifconfig wlan0 up
@@ -429,7 +428,7 @@ Fri May 17 04:26:03 PDT 2013
 		- [sedやgrepのようなテキスト処理ツールに演算機能を持たせた拡張ツール](https://ja.wikipedia.org/wiki/AWK)
 	- 【カレンダー表示】cal
 	
-	- 【コンテンツ取得(fromHTTP)】curl★
+	- 【コンテンツ取得(from HTTP)】curl https://draemonash2.github.io/sft\_linux/linux.html
 	
 	- 【TCP/IPアドレス情報表示】ifconfig
 	- 【パケット送付】ping 宛先
@@ -437,7 +436,7 @@ Fri May 17 04:26:03 PDT 2013
 	- 【★】runcon
 	- 【特定ルートディレクトリでコマンド実行】chroot
 	
-	- 【★】stdbuf
+	- 【バッファリングモード変更＆コマンド実行】stdbuf
 	- 【素因数分解】factor 60 #→60: 2 2 3 5
 
 	- 【make(デフォルトターゲット指定)】make
