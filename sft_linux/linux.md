@@ -100,13 +100,16 @@ Fri May 17 04:26:03 PDT 2013
 	- 【現在シェルプロセス番号】$$
 	- 【実行コマンド終了ステータス(0=正常終了、1=異常終了、それ以外はエラー）】$?
 - 【標準入力取得】echo -n "あなたのお名前は?";read yourname
-- 【条件式】
-	- 【条件分岐(＝)】test 5 -eq 10; echo $? #→1(偽) EQual
-	- 【条件分岐(≠)】test 5 -ne 10; echo $? #→0(真) Not Equal
-	- 【条件分岐(≧)】test 5 -ge 10; echo $? #→1(偽) Greater Equal
-	- 【条件分岐(＞)】test 5 -gt 10; echo $? #→1(偽) Greater Than
-	- 【条件分岐(≦)】test 5 -le 10; echo $? #→0(真) Less Equal
-	- 【条件分岐(＜)】test 5 -lt 10; echo $? #→0(真) Less Than
+	- 【比較演算子(＝)】test 5 -eq 10; echo $? #→1(偽) EQual
+	- 【比較演算子(≠)】test 5 -ne 10; echo $? #→0(真) Not Equal
+	- 【比較演算子(≧)】test 5 -ge 10; echo $? #→1(偽) Greater Equal
+	- 【比較演算子(＞)】test 5 -gt 10; echo $? #→1(偽) Greater Than
+	- 【比較演算子(≦)】test 5 -le 10; echo $? #→0(真) Less Equal
+	- 【比較演算子(＜)】test 5 -lt 10; echo $? #→0(真) Less Than
+	- 【比較演算子(＝)】"$a" == "$b" # $aと$bが同じ場合TRUEを返します。
+	- 【比較演算子(≠)】"$a" != "$b" # $aと$bが同じではない場合TRUEを返します。
+	- 【比較演算子(空文字列)】-z "$a" # $aが何も指定してない場合TRUEを返します
+	- 【比較演算子(非空文字列)】-n "$a" # $aに何かを指定しした場合TRUEを返します
 	- 【ディレクトリ存在確認】test -d ディレクトリ名
 	- 【ファイル存在確認】test -f ファイル名
 	- 【文字列空文字列確認】test -n 文字列
@@ -115,10 +118,18 @@ Fri May 17 04:26:03 PDT 2013
 	- 【論理結合(否定)】!条件
 	- 【論理結合(AND)】条件1 -a 条件2
 	- 【論理結合(OR)】条件1 -o 条件2
-- 【if】if 条件式 ～ then ～ コマンド(条件式1が真) ～ elif 条件式2 ～ コマンド(条件式2が真) else ～ コマンド(条件式2が偽) ～ fi
+	- 【算術演算(加)】echo `expr 10 + 20`
+	- 【算術演算(減)】echo `expr 20 - 10`
+	- 【算術演算(乗)】echo `expr 11 \* 11`
+	- 【算術演算(割)】echo `expr 10 / 2`
+	- 【算術演算(剰余)】echo `expr 10 % 4`
+	- 【算術演算(指定)】a=$b # bの値はaに保存されます
+- 【if】if [ 条件式 ] ～ then ～コマンド(条件式1が真)～ elif [ 条件式2 ] ～コマンド(条件式2が真)～ else ～コマンド(条件式2が偽)～ fi
+- 【switch】★
 - 【for(リスト指定)】for VAR in Level1 Level2 Level3 ～ do ～ echo LinuC $VAR ～ done
 - 【for(数値指定)】for NUM in `seq 1 3` ～ do ～ echo LinuC Level $NUM ～ done
-- 【while】while read LINE ～ do ～ echo LinuC Level $LINE ～ done < test.txt
+- 【while】while [ read LINE ] ～ do ～ echo LinuC Level $LINE ～ done < test.txt
+- 【until】★
 
 # コマンド一覧
 
@@ -448,7 +459,8 @@ Fri May 17 04:26:03 PDT 2013
 		- [sedやgrepのようなテキスト処理ツールに演算機能を持たせた拡張ツール](https://ja.wikipedia.org/wiki/AWK)
 	- 【カレンダー表示】cal
 	
-	- 【コンテンツ取得(from HTTP)】curl https://draemonash2.github.io/sft\_linux/linux.html
+	- 【URLコンテンツ取得】curl https://draemonash2.github.io/sft\_linux/linux.html
+	- 【URLコンテンツ取得(ファイルダウンロード)】curl -OL https://github.com/draemonash2/codes/raw/master/vim/\_vimrc
 	
 	- 【TCP/IPアドレス情報表示】ifconfig
 	- 【パケット送付】ping 宛先
