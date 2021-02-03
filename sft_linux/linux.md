@@ -125,6 +125,7 @@ Fri May 17 04:26:03 PDT 2013
 	- 【算術演算(剰余)】echo `expr 10 % 4`
 	- 【算術演算(指定)】a=$b # bの値はaに保存されます
 - 【if】if [ 条件式 ] ～ then ～コマンド(条件式1が真)～ elif [ 条件式2 ] ～コマンド(条件式2が真)～ else ～コマンド(条件式2が偽)～ fi
+	- `test 1 -eq 1` と `[ 1 -eq 1]` は同等([詳細はこちら](https://ascii.jp/elem/000/001/278/1278792/))
 - 【switch】★
 - 【for(リスト指定)】for VAR in Level1 Level2 Level3 ～ do ～ echo LinuC $VAR ～ done
 - 【for(数値指定)】for NUM in `seq 1 3` ～ do ～ echo LinuC Level $NUM ～ done
