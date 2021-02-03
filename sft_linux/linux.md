@@ -71,18 +71,7 @@ Fri May 17 04:26:03 PDT 2013
 
 - 【シェバン(シバン)】#!/bin/bash
 	- 「#!」…スクリプトを実行するシェルプログラムを指定する記号
-- 【コマンド】#
-- 【シェルスクリプト実行方法1】source sample.sh
-- 【シェルスクリプト実行方法2】. sample.sh
-- 【シェルスクリプト実行方法3】bash sample.sh
-- 【シェルスクリプト実行権限付与】chmod +x sample.sh
-	- シェルスクリプトをコマンドのように実行したい場合は、実行権限を付与する必要がある。
-- 【変数定義】name='Hello World'
-- 【変数参照】echo $name
-- 【メタキャラクタ】
-	- 【data1 と data2】data{1,2}
-- 【関数定義】function lsmo() { ls -la \| more; }
-- 【関数定義削除】unset lsmo
+- 【メタキャラクタ】data{1,2} #data1 と data2に展開される
 - 【シェルオプション設定】set [-o] [+o] オプション
 	- オプション一覧
 		- 【作成/変更変数の自動的エクスポート】allexport
@@ -91,46 +80,74 @@ Fri May 17 04:26:03 PDT 2013
 		- 【Ctrl＋Dによるログアウト禁止】ignoreeof
 		- 【既存ファイルへの上書き出力禁止】noclobber
 		- 【メタキャラクタを使用したファイル名展開無効化】noglob
-- 【特殊変数】
-	- 【シェルスクリプトファイル名】$0
-	- 【引数の数】$#
-	- 【引数の値】$n（n=1～9？）
-	- 【全ての引数(区切りはスペース)】$@
-	- 【全ての引数(区切りは環境変数IFSで指定したもの)】$\*
-	- 【現在シェルプロセス番号】$$
-	- 【実行コマンド終了ステータス(0=正常終了、1=異常終了、それ以外はエラー）】$?
+
+- 【コメント】#
+
+- 【シェルスクリプト実行方法1】source sample.sh
+- 【シェルスクリプト実行方法2】. sample.sh
+- 【シェルスクリプト実行方法3】bash sample.sh
+- 【シェルスクリプト実行権限付与】chmod +x sample.sh
+	- シェルスクリプトをコマンドのように実行したい場合は、実行権限を付与する必要がある。
+
+- 【変数定義】name='Hello World'
+- 【変数参照】echo ${name}
+- 【変数参照(非空文字列時word返却＆var非保存)】${name:+word}
+- 【変数参照(　空文字列時word返却＆var非保存)】${name:-word}
+- 【変数参照(　空文字列時word返却＆var　保存)】${name:=word}
+- 【変数参照(　空文字列時標準エラー出力表示)】${name:?word}
+
+- 【変数定義(配列)】ARRAY=(item1 item2 item3 item4)
+- 【変数参照(配列)】ARRAY[0]
+
+- 【関数定義】function lsmo() { ～ ls -la \| more; ～ }
+- 【関数定義削除】unset lsmo
+
+- 【特殊変数 シェルスクリプトファイル名】$0
+- 【特殊変数 引数の数】$#
+- 【特殊変数 引数の値】$n（n=1～9？）
+- 【特殊変数 全ての引数(区切りはスペース)】$@
+- 【特殊変数 全ての引数(区切りは環境変数IFSで指定したもの)】$\*
+- 【特殊変数 現在実行シェルプロセスID】$$
+- 【特殊変数 最終実行バックグラウンドプロセスID】$!
+- 【特殊変数 直前実行したコマンド終了値(0=正常終了、1=異常終了、それ以外はエラー）】$?
+
 - 【標準入力取得】echo -n "あなたのお名前は?";read yourname
-	- 【比較演算子(＝)】test 5 -eq 10; echo $? #→1(偽) EQual
-	- 【比較演算子(≠)】test 5 -ne 10; echo $? #→0(真) Not Equal
-	- 【比較演算子(≧)】test 5 -ge 10; echo $? #→1(偽) Greater Equal
-	- 【比較演算子(＞)】test 5 -gt 10; echo $? #→1(偽) Greater Than
-	- 【比較演算子(≦)】test 5 -le 10; echo $? #→0(真) Less Equal
-	- 【比較演算子(＜)】test 5 -lt 10; echo $? #→0(真) Less Than
-	- 【比較演算子(＝)】"$a" == "$b" # $aと$bが同じ場合TRUEを返します。
-	- 【比較演算子(≠)】"$a" != "$b" # $aと$bが同じではない場合TRUEを返します。
-	- 【比較演算子(空文字列)】-z "$a" # $aが何も指定してない場合TRUEを返します
-	- 【比較演算子(非空文字列)】-n "$a" # $aに何かを指定しした場合TRUEを返します
-	- 【ディレクトリ存在確認】test -d ディレクトリ名
-	- 【ファイル存在確認】test -f ファイル名
-	- 【文字列空文字列確認】test -n 文字列
-	- 【文字列一致確認1】test 文字列1 = 文字列2
-	- 【文字列一致確認2】test 文字列1 != 文字列2
-	- 【論理結合(否定)】!条件
-	- 【論理結合(AND)】条件1 -a 条件2
-	- 【論理結合(OR)】条件1 -o 条件2
-	- 【算術演算(加)】echo `expr 10 + 20`
-	- 【算術演算(減)】echo `expr 20 - 10`
-	- 【算術演算(乗)】echo `expr 11 \* 11`
-	- 【算術演算(割)】echo `expr 10 / 2`
-	- 【算術演算(剰余)】echo `expr 10 % 4`
-	- 【算術演算(指定)】a=$b # bの値はaに保存されます
-- 【if】if [ 条件式 ] ～ then ～コマンド(条件式1が真)～ elif [ 条件式2 ] ～コマンド(条件式2が真)～ else ～コマンド(条件式2が偽)～ fi
+
+- 【比較演算子(＝)】test 5 -eq 10; echo $? #→1(偽) EQual
+- 【比較演算子(≠)】test 5 -ne 10; echo $? #→0(真) Not Equal
+- 【比較演算子(≧)】test 5 -ge 10; echo $? #→1(偽) Greater Equal
+- 【比較演算子(＞)】test 5 -gt 10; echo $? #→1(偽) Greater Than
+- 【比較演算子(≦)】test 5 -le 10; echo $? #→0(真) Less Equal
+- 【比較演算子(＜)】test 5 -lt 10; echo $? #→0(真) Less Than
+- 【比較演算子(＝)】"$a" == "$b"; echo $? # $aと$bが同じ場合TRUEを返します。
+- 【比較演算子(≠)】"$a" != "$b"; echo $? # $aと$bが同じではない場合TRUEを返します。
+- 【比較演算子(空文字列)】test -z "$a"; echo $? # $aが何も指定してない場合TRUEを返します
+- 【比較演算子(非空文字列)】test -n "$a"; echo $? # $aに何かを指定しした場合TRUEを返します
+
+- 【存在確認(ディレクトリ)】test -d ディレクトリ名
+- 【存在確認(ファイル存在確認)】test -f ファイル名
+- 【文字列空文字列確認】test -n 文字列
+- 【文字列一致確認1】test 文字列1 = 文字列2
+- 【文字列一致確認2】test 文字列1 != 文字列2
+
+- 【論理結合(否定)】!条件
+- 【論理結合(AND)】条件1 -a 条件2
+- 【論理結合(OR)】条件1 -o 条件2
+
+- 【算術演算(加)】echo `expr 10 + 20`
+- 【算術演算(減)】echo `expr 20 - 10`
+- 【算術演算(乗)】echo `expr 11 \* 11`
+- 【算術演算(割)】echo `expr 10 / 2`
+- 【算術演算(剰余)】echo `expr 10 % 4`
+- 【算術演算(指定)】a=$b # bの値はaに保存されます
+
+- 【if】if [ $NUM1 -eq $NUM2 ]; then ～コマンド(条件式1が真)～ elif [ $NUM1 -eq $NUM3 ]; then ～コマンド(条件式2が真)～ else ～コマンド(条件式2が偽)～ fi
 	- `test 1 -eq 1` と `[ 1 -eq 1]` は同等([詳細はこちら](https://ascii.jp/elem/000/001/278/1278792/))
-- 【switch】★
+- 【switch】case 変数 in 条件式) コマンド ;; esac
 - 【for(リスト指定)】for VAR in Level1 Level2 Level3 ～ do ～ echo LinuC $VAR ～ done
 - 【for(数値指定)】for NUM in `seq 1 3` ～ do ～ echo LinuC Level $NUM ～ done
 - 【while】while [ read LINE ] ～ do ～ echo LinuC Level $LINE ～ done < test.txt
-- 【until】★
+- 【until】until [ ! $a -lt 5 ] ～ do ～ echo $a ～ done
 
 # コマンド一覧
 
@@ -221,7 +238,8 @@ Fri May 17 04:26:03 PDT 2013
 	
 	- 【ハードリンク作成】ln aaa/trgtfile.txt ./lnkfile
 	- 【シンボリックリンク作成】ln -s mydir/trgtfile.txt ./lnkfile
-	- 【シンボリックリンクパス表示】readlink ./lnkfile
+	- 【リンク指示先表示】readlink ./lnkfile
+	- 【リンク指示先表示(シンボリックリンク解決済み絶対パス)】readlink -f \_lib
 	- 【リンクファイル削除】unlink ./lnkfile
 	
 	- 【データを印刷できる形式に変換】base64
@@ -328,8 +346,6 @@ Fri May 17 04:26:03 PDT 2013
 	- 【ファイル/ディレクトリ検索】上記のfindコマンドを用いる
 	- 【ファイルツリー出力】tree dirpath
 	- 【ファイル種別表示】file filename
-	
-	- 【リンクファイルパス表示】readlink -f \_lib
 	
 	- 【ファイル名抽出(拡張子含む)】basename aaa/bbb/test.txt #→test.txt
 	- 【ディレクトリパス抽出】dirname aaa/bbb/test.txt #→aaa/bbb
@@ -527,6 +543,14 @@ Fri May 17 04:26:03 PDT 2013
 			- ※「/etc/passwd」のパスは書き換えないようにする！
 	1. ログオン直後
 		1. コマンド「he」を実行する
+- [ファイル種別](https://qiita.com/angel_p_57/items/1faafa275525469788b4)
+	- レギュラーファイル -
+	- ディレクトリ d
+	- シンボリックリンク l
+	- ブロックデバイスファイル b
+	- キャラクタデバイスファイル c
+	- パイプ p
+	- ソケット s
 
 # ショートカットキー
 
