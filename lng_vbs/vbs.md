@@ -21,6 +21,10 @@
 				- C:\prg\_exe\xf11-10 ： C:\codes\vbs
 - 文字列のバイト数を返却する関数 LenB() は、Unicode のバイト数を返却するため半角文字も２バイトとして返却する。
 	- LebB( "あああ " ) ⇒ 8
+- コマンドラインから実行する方法
+	- 「cscript //nologo」をつけて実行する。
+		- ex）cscript //nologo OutputShortcutTrgtPath.vbs -v C:\Users\test.txt.lnk
+
 - メッセージ出力処理の違い
 	- 結論
 		- MsgBox
@@ -38,6 +42,13 @@
 			- 自動的に改行しない(≒printf)
 				- → CUIからのみかつ、自動的に改行させたくない場合に使用する！
 	- 実行可否比較
+
+|                    | MsgBox           | WScript.Echo     | Wscript.StdOut.WriteLine |
+|:---|:---|:---|:---|
+| ダブルクリック起動 | ポップアップ出力 | ポップアップ出力 | 実行不可 |
+| wscript.exe        | ポップアップ出力 | ポップアップ出力 | 実行不可 |
+| cscript.exe        | ポップアップ出力 | 標準出力         | 標準出力 |
+
 - フォルダ選択ダイアログ比較
 	- FileDialog
 		- 実行例
@@ -51,12 +62,6 @@
 		- メリット/デメリット
 			- ○：起動が早い
 			- ×：デフォルトのフォルダを指定できない（ルートフォルダのみ指定できる）
-
-|                    | MsgBox           | WScript.Echo     | Wscript.StdOut.WriteLine |
-|:---|:---|:---|:---|
-| ダブルクリック起動 | ポップアップ出力 | ポップアップ出力 | 実行不可 |
-| wscript.exe        | ポップアップ出力 | ポップアップ出力 | 実行不可 |
-| cscript.exe        | ポップアップ出力 | 標準出力         | 標準出力 |
 
 - バッチファイルで設定した環境変数を参照する方法
 	- test.bat

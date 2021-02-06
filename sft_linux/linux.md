@@ -32,15 +32,15 @@
 	- 【'】全て文字列としてみなす
 	- 【"】文字列とみなすが、変数の場合は変数の中身を展開
 	- 【`】コマンドの場合はコマンド実行結果を展開、変数の場合は変数に格納されたコマンドの実行結果が展開
-```sh
-$ DATE=date
-$ echo '$DATE'
-$DATE
-$ echo "$DATE"
-date
-$ echo `$DATE`
-Fri May 17 04:26:03 PDT 2013
-```
+		```sh
+		$ DATE=date
+		$ echo '$DATE'
+		$DATE
+		$ echo "$DATE"
+		date
+		$ echo `$DATE`
+		Fri May 17 04:26:03 PDT 2013
+		```
 
 - リダイレクト
 	- 種別
@@ -371,7 +371,7 @@ Fri May 17 04:26:03 PDT 2013
 	- 【[SHA-1](https://ja.wikipedia.org/wiki/SHA-1)ダイジェスト計算】sha1sum
 	- 【SHAダイジェスト計算(xxxビット長)】shaXXXsum
 	
-	- 【Grep】grep -nr 'const' /mnt/c/codes\_sample/c/FreeRTOSV7.1.1/Source --include='\*.c' >> grep\_result.txt
+	- 【Grep】grep -nr 'const' /mnt/c/codes\_sample/c/FreeRTOSV7.1.1/Source \-\-include='\*.c' >> grep\_result.txt
 		- 主な grep オプション（[詳細はこちら](https://www.atmarkit.co.jp/ait/articles/1604/07/news018.html)）
 			- 【検索パターン指定(複数条件検索時)】-e 検索パターン
 			- 【大/小文字区別なし】-i
@@ -383,7 +383,7 @@ Fri May 17 04:26:03 PDT 2013
 			- 【ファイル名表示】-H
 			- 【ファイル名非表示（複数ファイル指定時）】-h
 			- 【一致カラム表示】-b
-			- 【一致文字列ハイライト】--color=WHEN # WHEN=(always|never|auto)
+			- 【一致文字列ハイライト】\-\-color=WHEN # WHEN=\(always|never|auto\)
 			- 【一致行 前行表示】-B 行数
 			- 【一致行 後行表示】-A 行数
 			- 【一致行 前後行表示】-C 行数,-行数
@@ -487,13 +487,46 @@ Fri May 17 04:26:03 PDT 2013
 	
 	- 【バッファリングモード変更＆コマンド実行】stdbuf
 	- 【素因数分解】factor 60 #→60: 2 2 3 5
-
+	
 	- 【make(デフォルトターゲット指定)】make
 	- 【make(ターゲット指定)】make trgt
 	- 【make(メイクファイル指定)】make -f file
 	- 【make(標準入力指定)】make -f- file
 	- 【make(エラー無視)】make -k
 	- 【make(コマンド出力のみ)】make -n
+	
+	- 【[bash動作設定(シェルオプション)](https://www.atmarkit.co.jp/ait/articles/1912/12/news034.html)】shopt
+
+# gdbコマンド
+	
+	- 【デバッグ開始】gdb ./a.out
+	- 【リセット＆実行】r #run
+	- 【ステップ実行(1行ずつ実行/関数は飛ばす)】n #next
+	- 【ステップ実行(1行ずつ実行/関数の中に入る)】s #step
+	- 【処理実行(次ブレークポイントまで)】c #continue
+	- 【処理実行(現在の関数を抜けるまで)】f #★
+	- 【処理実行(現在のループを抜けるまで)】u #★
+	- 【現在の関数を戻り値-1として強制的に抜ける】ret -1
+	- 【終了】q #quit
+	- 【ブレークポイント設定(関数指定)】b funcname #break
+	- 【ブレークポイント設定(行番号指定)】b bubblesort.c:30 #break
+	- 【ブレークポイント設定(条件付き)】b filename if n == 1 #break
+	- 【ブレークポイント情報表示】i b #info breakpoints
+	- 【ブレークポイント削除】d 1 #delete。「info breakpoints」にて取得したブレークポイント番号を指定する
+	- 【コード表示(現在実行行前後)】l #list
+	- 【変数表示】p var1 #print
+	- 【変数表示(配列)】p array #print
+	- 【型表示1】whatis array
+	- 【型表示2】ptype array
+	- 【変数値設定】set array[3] = 199
+	- 【】command★
+	
+	- 【現在関数呼出しまでの経路表示】bt #backtrace
+	- 【マクロ定義表示】info macro マクロ名	
+	- 【変数表示(全ローカル変数)】i lo #info localvariables
+	- 【ウォッチポイントを設定】w var1 #watchpoint
+	- 【TUIモード(デバッグ中のコード表示)移行】Ctrl-x押下後、1または2押下
+	- 【TUIモード(デバッグ中のコード表示)移行】Ctrl-x押下後、1または2押下
 
 # Tips
 - [「E: Unable to locate package」エラー解消法＠Ubuntu](https://qiita.com/hatorijobs/items/c503840c13672e12d188)

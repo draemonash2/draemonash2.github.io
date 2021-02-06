@@ -2,14 +2,32 @@
 
 # インストール手順
 
-- Vim Kaoriya ダウンロード
-- Vim 設定ファイルダウンロード
-- Git インストール (コマンドプロンプトにて git clone が実行できる状態にしておく)
-- コマンドプロンプトにて、下記コマンドを実行
-	- cd ★VIM インストールフォルダ★
-	- git clone https://github.com/Shougo/neobundle.vim bundle/neobundle.vim
+1. Vim Kaoriya ダウンロード
+1. Vim 設定ファイルダウンロード
+1. Git インストール (コマンドプロンプトにて git clone が実行できる状態にしておく)
+1. コマンドプロンプトにて、下記コマンドを実行
+	1. cd ★VIM インストールフォルダ★
+	1. git clone https://github.com/VundleVim/Vundle.vim.git bundle/Vundle.vim
+1. 「\_vimrc」(もしくは.vimrc)に以下の行を追加する
+```
+set nocompatible
+filetype off
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+Plugin 'VundleVim/Vundle.vim'
+
+" 導入したいプラグインを以下に列挙
+" Plugin '[Github Author]/[Github repo]' の形式で記入
+Plugin 'airblade/vim-gitgutter'
+
+call vundle#end()
+filetype plugin indent on
+
+"　その他のカスタム設定を以下に書く
+```
 - vimを起動し、下記コマンドを実行
-	-:NeoBundleInstall
+	- :PluginInstall
 
 # 設定
 
