@@ -9,6 +9,7 @@
 	1. cd ★VIM インストールフォルダ★
 	1. git clone https://github.com/VundleVim/Vundle.vim.git bundle/Vundle.vim
 1. 「\_vimrc」(もしくは.vimrc)に以下の行を追加する
+
 ```
 set nocompatible
 filetype off
@@ -26,6 +27,7 @@ filetype plugin indent on
 
 "　その他のカスタム設定を以下に書く
 ```
+
 - vimを起動し、下記コマンドを実行
 	- :PluginInstall
 

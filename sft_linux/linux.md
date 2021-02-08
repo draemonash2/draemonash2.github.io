@@ -333,8 +333,8 @@
 	- 【ファイル中身表示(列結合)】paste -d"," date1.txt date2.txt #「data1.txt」と「data2.txt」を、区切り文字「,」として列結合
 	- 【ファイル中身表示(差異比較列結合)】join -j 1 data1.txt data2.txt #「data1.txt」と「data2.txt」の第1フィールドに基づいて列結合
 	
-	- 【[ファイル比較](https://qiita.com/mumian1014/items/bb71b0520e457f3b2466)】comm file1 file2
-	- 【ファイル比較】diff --color file1 file2
+	- 【[ファイル比較★](https://qiita.com/mumian1014/items/bb71b0520e457f3b2466)】comm file1 file2
+	- 【ファイル比較】diff -u --color file1 file2
 	- 【ディレクトリ比較(再帰的)】diff -r dir1 dir2
 	- 【ファイル比較(左右並列表示)】sdiff file1 file2
 	
@@ -371,7 +371,7 @@
 	- 【[SHA-1](https://ja.wikipedia.org/wiki/SHA-1)ダイジェスト計算】sha1sum
 	- 【SHAダイジェスト計算(xxxビット長)】shaXXXsum
 	
-	- 【Grep】grep -nr 'const' /mnt/c/codes\_sample/c/FreeRTOSV7.1.1/Source \-\-include='\*.c' >> grep\_result.txt
+	- 【Grep】grep -nr \'const\' /mnt/c/codes\_sample/c/FreeRTOSV7.1.1/Source \-\-include='\*.\[ch\]' >> grep\_result.txt
 		- 主な grep オプション（[詳細はこちら](https://www.atmarkit.co.jp/ait/articles/1604/07/news018.html)）
 			- 【検索パターン指定(複数条件検索時)】-e 検索パターン
 			- 【大/小文字区別なし】-i
@@ -401,7 +401,8 @@
 		- 例1）cat data.txt \| tr [:lower:] [:uppder:] #data.txtファイルにある小文字全てを大文字に変更
 		- 例2）cat data.txt \| tr 'a-z' 'A-Z' #data.txtファイルにある小文字全てを大文字に変更 
 		- 例3）tr -d : < file1 #data.txtファイルにある「：」を削除して表示
-	- 【テキスト処理(文字列置換/抽出/削除等)】sed 's/Wolrd/World/g'
+	- 【テキスト置換】sed 's/Wolrd/World/g'
+	- 【テキスト置換(ファイル対象)】sed -i -e 's/Wolrd/World/' targetfile.txt
 	- 【ソート＆重複削除】cat file1 \| sort \| uniq
 	- 【数字列出力】seq
 
@@ -497,37 +498,6 @@
 	
 	- 【[bash動作設定(シェルオプション)](https://www.atmarkit.co.jp/ait/articles/1912/12/news034.html)】shopt
 
-# gdbコマンド
-	
-	- 【デバッグ開始】gdb ./a.out
-	- 【リセット＆実行】r #run
-	- 【ステップ実行(1行ずつ実行/関数は飛ばす)】n #next
-	- 【ステップ実行(1行ずつ実行/関数の中に入る)】s #step
-	- 【処理実行(次ブレークポイントまで)】c #continue
-	- 【処理実行(現在の関数を抜けるまで)】f #★
-	- 【処理実行(現在のループを抜けるまで)】u #★
-	- 【現在の関数を戻り値-1として強制的に抜ける】ret -1
-	- 【終了】q #quit
-	- 【ブレークポイント設定(関数指定)】b funcname #break
-	- 【ブレークポイント設定(行番号指定)】b bubblesort.c:30 #break
-	- 【ブレークポイント設定(条件付き)】b filename if n == 1 #break
-	- 【ブレークポイント情報表示】i b #info breakpoints
-	- 【ブレークポイント削除】d 1 #delete。「info breakpoints」にて取得したブレークポイント番号を指定する
-	- 【コード表示(現在実行行前後)】l #list
-	- 【変数表示】p var1 #print
-	- 【変数表示(配列)】p array #print
-	- 【型表示1】whatis array
-	- 【型表示2】ptype array
-	- 【変数値設定】set array[3] = 199
-	- 【】command★
-	
-	- 【現在関数呼出しまでの経路表示】bt #backtrace
-	- 【マクロ定義表示】info macro マクロ名	
-	- 【変数表示(全ローカル変数)】i lo #info localvariables
-	- 【ウォッチポイントを設定】w var1 #watchpoint
-	- 【TUIモード(デバッグ中のコード表示)移行】Ctrl-x押下後、1または2押下
-	- 【TUIモード(デバッグ中のコード表示)移行】Ctrl-x押下後、1または2押下
-
 # Tips
 - [「E: Unable to locate package」エラー解消法＠Ubuntu](https://qiita.com/hatorijobs/items/c503840c13672e12d188)
 	- `apt update` を実行する
@@ -584,6 +554,8 @@
 	- キャラクタデバイスファイル c
 	- パイプ p
 	- ソケット s
+- [CentOSをインストールする](https://www.geekfeed.co.jp/geekblog/install_centos8_on_wsl2_for_free)
+- [GDBの使い方はこちら](../sft_gdb/gdb.md)
 
 # ショートカットキー
 
