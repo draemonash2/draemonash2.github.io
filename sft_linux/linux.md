@@ -314,7 +314,9 @@
 	- 【ファイル中身表示(行番号付)】nl ~/.bash\_history
 	- 【ファイル中身表示(バイナリ表示)】od ~/.bash\_history
 	
-	- 【テキストファイル表示(1画面ずつ)】more
+	- 【ファイル中身表示(1画面ずつ)】more filename
+	- 【ファイル中身表示(1画面ずつ)】less filename
+		- Vimキーバインドが使えるlessがオススメ！
 	
 	- 【ファイル中身表示(一部先頭)】head -n 5 ~/.bash\_history
 	- 【ファイル中身表示(一部末尾)】tail -n 5 ~/.bash\_history
@@ -497,6 +499,8 @@
 	- 【make(コマンド出力のみ)】make -n
 	
 	- 【[bash動作設定(シェルオプション)](https://www.atmarkit.co.jp/ait/articles/1912/12/news034.html)】shopt
+	
+	- 【現在のシェル表示】echo $SHELL
 
 # Tips
 - [「E: Unable to locate package」エラー解消法＠Ubuntu](https://qiita.com/hatorijobs/items/c503840c13672e12d188)
