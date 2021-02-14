@@ -25,10 +25,28 @@
 - 【算術演算子(べき乗)】A\*\*B
 - 【暗黙の型宣言無効化】IMPLICIT NONE
 - 【入力】READ (\*,\*) A,B,C !入力文
+	- １つめの\*は装置番号、２つめの\*は書式 or 文番号([こちら参照](https://www.jamstec.go.jp/es/jp/simschool/f90learning/chap3/page3.html))
 - 【出力】WRITE(\*,\*) 'X = ' , X
 - 【プログラム中止】STOP #C言語でいうRETURNみたいなもの？★
 - 【IF】IF (条件式A) THEN ～(条件式A＝真)～ ELSE IF (条件式B) THEN ～(条件式B＝真)～ ELSE ～(条件式B＝偽)～ END IF
-- 【DO】DO I=5,10 ～処理～ END DO
+- 【SELECT】★
+
+```
+SELECT CASE(条件式)
+　　CASE(値1)
+　　　ブロック1
+　　CASE(値2)
+　　　ブロック2
+　　CASE DEFAULT
+　　　ブロック3
+END SELECT
+```
+
+- CASE(”F”,”M”)★
+- CASE(.TRUE.)★
+- 【DO(範囲指定)】DO I=5,10 ～処理～ END DO
+- 【DO(条件指定)】DO WHILE (条件) ～処理～ END DO
+- 【DO(無限ループ)】DO ～処理～ END DO
 - 【論理演算子(AND)】90.0 <= SCORE(I) .AND. SCORE(I) <= 100.0
 - 【論理演算子(OR)】90.0 <= SCORE(I) .OR. SCORE(I) <= 100.0
 - 【論理演算子(NOT)】.NOT. (90.0 <= SCORE(I))

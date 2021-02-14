@@ -89,6 +89,9 @@
 	1. 初期状態にしたいエクセルファイルを作成する
 	1. 以下に格納する
 		- C:\Program Files (x86)\Microsoft Office\root\vfs\Windows\SHELLNEW\EXCEL12.XLSX
+- EXCEL.EXE 格納先
+	- 2016
+		- C:\Program Files (x86)\Microsoft Office\root\Office16\EXCEL.EXE
 
 # アドイン登録方法
 - .xlaを以下に登録

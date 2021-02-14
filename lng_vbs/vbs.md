@@ -78,6 +78,14 @@
 	lRemeveDirLevel = objWshShellEnv.Item("REMOVE_DIR_LEVEL")
 	```
 
+- 環境変数展開比較
+	- objWshShell.ExpandEnvironmentStrings("c:\%XXX%\test.log")
+		- "ユーザ環境変数"と"システム環境変数"で同じ環境変数が定義されている場合、システム環境変数が参照される
+		- 環境変数が入れ子になっている場合は再帰的に展開される
+		- 環境変数が存在しない場合、展開されない。(%XXX%のまま返却される)
+	- objWshShell.Environment("System").Item("XXX")
+		- 環境変数が入れ子になっている場合は１回分のみ展開される
+
 # 構文
 
 [こちらを参照](https://github.com/draemonash2/codes/blob/master/%E6%A7%8B%E6%96%87.xlsx)

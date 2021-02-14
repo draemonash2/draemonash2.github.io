@@ -18,9 +18,11 @@ C:\Users\＜ユーザー名＞\AppData\Roaming\Microsoft\Outlook\VbaProject.OTM
 |Ctrl|Shift||c|連絡先 作成|
 |Ctrl|Shift||e|フォルダー 作成|
 |Ctrl|Shift||q|会議出席依頼 作成|
-|Ctrl|||q|開封済み|
-|Ctrl|||u|未開封|
+|Ctrl|||q/u|開封/未開封 切替|
 |Ctrl|Shift||m|新規メッセージ|
 |||Alt|s|送信|
+|Ctrl|/Shift||tab|ペイン移動 次/前へ|
+|Ctrl|||f|検索ボックス移動|
+|Ctrl|Shift||b|アドレス帳|
 
 [トップに戻る](../index.md)

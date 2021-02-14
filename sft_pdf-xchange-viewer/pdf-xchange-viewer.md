@@ -22,6 +22,27 @@
 		1. メインメニュー「ツール(T)」→「コメントとマークアップツール(C)」→「タイプライタツール(W)」を実行
 	1. ボックスを配置し、テキストを入力
 	1. 入力したテキストを選択し、プロパティツールバーから変更する
+- しおり(ブックマーク)を抽出する＠Javascript([こちらから引用](http://kb2.adobe.com/jp/cps/511/511727/attachments/511727_js_api_reference.pdf))
+	1. Javascriptのコンソール画面に以下のコードを貼り付けて実行する
+	
+		```Javascript
+		function DumpBookmark(bkm, nLevel)
+		{
+			var s = "";
+			for (var i = 0; i < nLevel; i++) {
+				s += "\t";
+			}
+			console.println(s + bkm.name);
+			if (bkm.children != null) {
+				for (var i = 0; i < bkm.children.length; i++) {
+					DumpBookmark(bkm.children[i], nLevel + 1);
+				}
+			}
+		}
+		console.clear();
+		console.show();
+		DumpBookmark(this.bookmarkRoot, 0);
+		```
 
 # ショートカットキー
 
