@@ -308,6 +308,7 @@
 			- 【ソート＠ファイルサイズ順】-S
 			- 【ソート＠更新時間順】-t
 			- 【★】-b
+		- [ls --color 時の色意味](https://www.mm2d.net/main/prog/linux/ls-08.html)
 	
 	- 【ファイル中身表示】cat ~/.bash\_history
 	- 【ファイル中身表示(反転)】tac ~/.bash\_history
