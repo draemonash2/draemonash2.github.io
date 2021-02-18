@@ -271,6 +271,7 @@
 		- 644は、"所有者は読み書きできる、他の人は読むことだけできる"という設定
 	- 【ファイルパーミッション変更】chmod go+w testdata.txt
 		- 上記コマンドは、'グループ'と'その他ユーザ'に'書き込み'権限を与えるコマンド
+	- 【ファイルパーミッション変更(再帰的)】chmod -R 777 .
 	
 	- 【一時的空ファイル/ディレクトリ作成】mktemp
 	
@@ -502,6 +503,9 @@
 	- 【[bash動作設定(シェルオプション)](https://www.atmarkit.co.jp/ait/articles/1912/12/news034.html)】shopt
 	
 	- 【現在のシェル表示】echo $SHELL
+	
+	- 【★】rlogin
+	- 【★】scp
 
 # Tips
 - [「E: Unable to locate package」エラー解消法＠Ubuntu](https://qiita.com/hatorijobs/items/c503840c13672e12d188)
