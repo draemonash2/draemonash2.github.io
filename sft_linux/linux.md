@@ -375,14 +375,15 @@
 	- 【[SHA-1](https://ja.wikipedia.org/wiki/SHA-1)ダイジェスト計算】sha1sum
 	- 【SHAダイジェスト計算(xxxビット長)】shaXXXsum
 	
-	- 【Grep】grep -nr \'const\' /mnt/c/codes\_sample/c/FreeRTOSV7.1.1/Source \-\-include='\*.\[ch\]' >> grep\_result.txt
+	- 【Grep】 `grep -nr 'const' /mnt/c/codes\_sample/c/FreeRTOSV7.1.1/Source --include='*.[ch]' >> grep_result.txt`
 		- 主な grep オプション（[詳細はこちら](https://www.atmarkit.co.jp/ait/articles/1604/07/news018.html)）
 			- 【検索パターン指定(複数条件検索時)】-e 検索パターン
 			- 【大/小文字区別なし】-i
 			- 【単語単位検索】-w
 			- 【不一致行表示】-v
 			- 【エラーメッセージ表示】-s
-			- 【結果非表示（主にシェルスクリプトなどで判定用に使う）】-q
+			- 【基本正規表現】-G
+			- 【拡張正規表現】-E
 			- 【行番号表示】-n
 			- 【ファイル名表示】-H
 			- 【ファイル名非表示（複数ファイル指定時）】-h
@@ -396,6 +397,7 @@
 			- 【サブディレクトリ配下ファイル対象(シンボリックリンク含む)】-R
 			- 【パターンマッチファイル対象追加】--include='\*.c'
 			- 【パターンマッチファイル対象除外】--exclude='\*.o'
+			- 【結果非表示（主にシェルスクリプトなどで判定用に使う）】-q
 	
 	- 【数値単位変換1】numfmt --from=auto 1Mi #→1048576
 	- 【数値単位変換2】numfmt --to=si 500000 #→500K
