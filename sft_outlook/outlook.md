@@ -3,9 +3,8 @@
 # Tips
 - Gmail IMAP 設定
 	- http://yuunagi.hatenablog.com/entry/2012/04/06/235709
-
-# Outlook vba マクロ保存先
-C:\Users\＜ユーザー名＞\AppData\Roaming\Microsoft\Outlook\VbaProject.OTM
+- Outlook vba マクロ保存先
+	- %USERPROFILE%\AppData\Roaming\Microsoft\Outlook\VbaProject.OTM
 
 # ショートカットキー
 
