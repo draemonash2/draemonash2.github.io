@@ -20,10 +20,11 @@
 - [Amazon Cloud Drive](sft_amazonclouddrive/amazonclouddrive.md)
 - [Raspberry Pi](sft_raspberrypi/raspberrypi.md)
 
-## ソフト([インストーラーはこちら](otr_other/installer_url.md))
+## OS
 - [Windows](sft_windows/windows.md)
 - [Linux](sft_linux/linux.md)
 
+## ソフト([インストーラーはこちら](otr_other/installer_url.md))
 - [Kinza](sft_kinza/kinza.md)
 - [Mozilla Firefox](sft_firefox/firefox.md)
 - [Mozilla Thunderbird](sft_thunderbird/thunderbird.md)
@@ -35,6 +36,7 @@
 - [Enterprise Architect](sft_ea/ea.md)
 - [Visual Studio](sft_visualstudio/visualstudio.md)
 - [PDF-XChange-Viewer](sft_pdf-xchange-viewer/pdf-xchange-viewer.md)
+- [Adobe Reader](sft_adobe-reader/adobe-reader.md)
 
 - [Tortoise Git](sft_tortoisegit/tortoisegit.md)
 - [Tortoise Svn](sft_tortoisesvn/tortoisesvn.md)

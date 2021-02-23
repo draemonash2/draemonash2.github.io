@@ -508,6 +508,10 @@
 	
 	- 【★】rlogin
 	- 【★】scp
+	
+	- 【書庫インデックス作成】ranlib libgraphics.a
+	- 【書庫インデックス作成】ar qc libgraphics.a \*.o
+		- GNU ranlib プログラムは GNU ar の別名である。 ranlib を実行するのと ` ar -s 'とは完全に等価である。
 
 # Tips
 - [「E: Unable to locate package」エラー解消法＠Ubuntu](https://qiita.com/hatorijobs/items/c503840c13672e12d188)
