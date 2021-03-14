@@ -5,6 +5,10 @@
 - [WSL2](../sft_wsl2/wsl2.md)
 - [Raspberry Pi](../sft_raspberrypi/raspberrypi.md)
 
+# 便利エイリアス
+
+- ★
+
 # コマンド構文
 
 - 【コマンド実行】cmd
@@ -44,14 +48,28 @@
 
 - リダイレクト
 	- 種別
-		- 【>】ファイル出力(ファイル新規作成)
-		- 【>>】ファイル出力(ファイル追記)
-		- 【<】入力リダイレクト
-		- 【<<】入力リダイレクト(終了文字が現れるまで「標準入力」へ送る)(＝[ヒアドキュメント](http://unix.oskp.net/shellscript/here_document.html))(＝ヒアストリング)
-		- 【2>】ファイル出力(エラー出力)
-		- 【2>&1】標準出力＆ファイル出力(エラー出力)
-	- 備考
-		- 標準出力とファイル出力を同時に行いたい場合、「tee」コマンドを使う
+	
+		| コマンド | 画面(*1) | ファイル(*1) | 出力形式 |
+		| :--- | :--- | :--- | :--- |
+		| command > file | E | O | 新規 |
+		| command 2> file | O | E | 新規 |
+		| command > file 2>&1 | - | O/E | 新規 |
+		| command &> file | - | O/E | 新規 |
+		| command &>> file | - | O/E | 追記 |
+		| command >> file 2>&1 | - | O/E | 追記 |
+		| command 1> stdout.log 2> stderr.log | - | O/E(*2) | 新規 |
+		| command | tee -a log.txt | O/？ | O | 新規 |
+		| command |& tee -a log.txt | O/E | O/E | 新規 |
+		
+		(*1) O:標準出力、E:標準エラー
+		(*2) 標準出力をstdout.logへ、標準エラーをstderr.logへ出力
+- リダイレクト先変更★要整理★
+	- 【exec > log.txt】以降の標準出力をlog.txtにする(最初にファイルをクリア)
+	- 【exec >> log.txt】以降の標準出力をlog.txtにする(最初から追記)
+	- 【exec > /dev/tty】以降の標準出力を画面にする
+	- 【exec 2> log.txt】以降の標準エラーをlog.txtにする
+	- 【exec &>> log.txt】以降の標準出力、標準エラーをlog.txtにする
+	- 【exec &>> (tee -a log.txt)】以降の標準出力、標準エラーをlog.txtと画面に出力する
 - フォアグラウンドとバックグラウンドの制御
 	![フォアグラウンドとバックグラウンドの制御](フォアグラウンドとバックグラウンドの制御.jpg)
 - [ブレース展開](https://qiita.com/ine1127/items/6e5fe80f4a9c64509558)
@@ -66,6 +84,10 @@
 	- 【ブレース展開例09】a{m,n,} #→am an a
 	- 【ブレース展開例10】a{,,,} #→a a a a
 	- 【ブレース展開例11】a{,b{,c}} #→a ab abc
+	
+- !$：直前のコマンドラインでスペースで区切られた最後の文字列
+- !\*：直前のコマンドのパラメータを再利用する（先頭のみ除く）。
+- !:-：直前のコマンドの最後のパラメータ以外を再利用する。
 
 # シェルスクリプト構文
 
@@ -207,6 +229,7 @@
 	- 【ディレクトリ移動】cd
 	- 【ディレクトリ移動(直前)】cd -
 	- 【ディレクトリ移動([mv後のディレクトリへ](https://qiita.com/arene-calix/items/41d8d4ba572f1d652727))】cd !$
+	- 【ディレクトリ移動(保存)】pushd
 	
 	- 【ファイル作成】touch file
 	- 【ディレクトリ作成(再帰的)】mkdir -p aaa/bbb/ccc
@@ -322,6 +345,7 @@
 	
 	- 【ファイル中身表示(一部先頭)】head -n 5 ~/.bash\_history
 	- 【ファイル中身表示(一部末尾)】tail -n 5 ~/.bash\_history
+	- 【ファイル中身表示(更新)】tail -f ~/.bash\_history
 	
 	- 【テキストファイル 行数 表示】wc -l file
 	- 【テキストファイル 単語数 表示】wc -w file
