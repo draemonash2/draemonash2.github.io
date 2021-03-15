@@ -61,6 +61,7 @@
 - [7-Zip](sft_7zip/7zip.md)
 - [Anki](sft_anki/anki.md)
 - [RLogin](sft_rlogin/rlogin.md)
+- [WinSCP](sft_winscp/winscp.md)
 
 ## その他
 - [用語集](klg_words/words.md)
