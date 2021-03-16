@@ -38,6 +38,8 @@ filetype plugin indent on
 		`--remote-tab-silent`
 	- 行番号指定
 		- `C:\prg_exe\Vim\gvim.exe C:\codes\_update_codes.vbs +5`
+- [リモートのVimからssh越しにクリップボード書き込み](http://tateren.hateblo.jp/entry/2017/07/21/213020)
+- [プラグインサイト VimAwesome](https://vimawesome.com/)
 
 # ショートカットキー
 
