@@ -61,75 +61,82 @@ filetype plugin indent on
 
 | 機能 | コマンド | 説明 |
 |:---|:---|:---|
-|共通		| :args AAA.txt BBB.txt CCC.txt							| argsコマンドで一度に複数のファイルを開く |
-|共通		| :w %<													| 現在開いているバッファ名 (拡張子を除いたもの) 取り出し(:w hoge と同等) |
-|共通		| :e #N  (Nは任意の数字)								| #N は、そのN番目のバッファの名前と同じ値になる |
-|共通		| q:													| コマンド履歴を表示（ Ctrl+C でカーソル位置のコマンドをコマンドウィンドウに転送） |
-|共通		| %!xxd -g 1											| バイナリモードに変更 |
-|共通		| :set ic												| 検索・置換時、大文字小文字の区別を有効 |
-|共通		| :set noic												| 検索・置換時、大文字小文字の区別を無効 |
-|共通		| :set ★?												| 現在の値を表示 ex) set number? |
-|共通		| :set ★&												| デフォルト値に戻す ex) set number& |
-|共通		| :set ★!												| On/Offのトグル  ex) set number! |
-|共通		| :b0, :b1, ...											| バッファ0,1,..に移動 |
-|共通		| :buffers												| 編集中のバッファ一覧を表示 |
-|共通		| :Sex													| ウインドウを分割してファイルエクスプローラを開く |
-|共通		| :ls													| バッファのリストを表示 |
-|共通		| mx													| マークをつける(x:a～z) |
-|共通		| :vertical diffsplit <filepath>						| [カレントバッファと指定ファイルの差分をとる](https://nanasi.jp/articles/howto/diff/diff_text.html) |
-|共通		| :windo diffthis										| [開いている2バッファ同士の差分をとる](https://qiita.com/isseium/items/36b54171c430f381e232) |
-|共通		| :set scrollbind										| [分割したバッファのスクロール同期](https://qiita.com/murayama/items/497b275b31a378921f6a) |
-|共通		| :set noscrollbind										| [分割したバッファのスクロール同期を解除](https://qiita.com/murayama/items/497b275b31a378921f6a) |
-|共通		| 入力モードで <c-x><c-k>								| 辞書ファイルから単語補完 |
-|共通		| ``													| 直前のマークに移動 |
-|共通		| :%s/\v\_(.)/\u\1/g									| スネークケース→キャメルケース変換 |
-|共通		| :%s/\v([A-Z])/\_\L\1/g								| キャメルケース→スネークケース変換 |
-|共通		| ;mes													| エラーメッセージがすぐ消える場合、エラー表示させる |
-|共通		| コマンド\|コマンド									| コマンド連続実行 |
-|共通		| :redir end											| コマンドリダイレクト 終了 |
-|共通		| :redir > file											| コマンドリダイレクト 開始 |
-|共通		| :set ff=dos											| 改行コード 書換(\*1) (dos/mac/unix)|
-|共通		| :set ffs=unix,dos,mac									| 改行コード 表示方法変更（閲覧時の自動判別用）br()→カンマで区切って優先度の高い順に指定 |
-|共通		| :e ++ff=dos											| 改行コード 表示方法変更（自動判別失敗時の読み直し用）(dos/mac/unix) |
-|共通		| :set enc=utf-8										| 文字コード(デフォルト) 書換(\*2) (euc-jp/shift\_jis/utf-8/..) |
-|共通		| :set fenc=utf-8										| 文字コード(現在ファイル) 書換(\*2) (euc-jp/shift\_jis/utf-8/..) |
-|共通		| :set fencs=euc-jp,shift\_jis,utf-8					| 文字コード 表示方法変更（閲覧時の自動判別用）br()→カンマで区切って優先度の高い順に指定 |
-|共通		| :e ++enc=utf-8										| 文字コード 表示方法変更（自動判別失敗時の読み直し用） (euc-jp/shift\_jis/utf-8/..) |
-|共通		| "[a-z*+-]p または Ctrl-r[a-z*+-]						| 指定したレジスタの内容をペースト |
-|共通		| :reg													| レジスタ一覧表示 |
-|共通		| Ctrl+w → w											| 画面移動 |
-|共通		| Ctrl+w → p											| 画面移動 |
-|共通		| Ctrl+w → k											| 画面移動(上) |
-|共通		| Ctrl+w → j											| 画面移動(下) |
-|共通		| Ctrl+w → l											| 画面移動(右) |
-|共通		| Ctrl+w → h											| 画面移動(左) |
-|共通		| Ctrl+w → +											| 選択されている画面を１行分拡大する |
-|共通		| Ctrl+w → -											| 選択されている画面を１行分縮小する |
-|共通		| Ctrl+w → =											| 画面のサイズを等しくする |
-|Grep		| :vim {pattern} %\|cw									| vimgrepを実行&br()ex.vimgrep /hogehoge/j c:/test/\*\*/\*.txt\|cw |
-|Grep		| :bufdo vimgrepa {pattern} %\|cw						| バッファすべてに vimgrep &br()（★貼り付け時は「｜」を半角に★） |
-|Grep		| :RGrep 文字列 C:\00\_work\trunk\C\jsp-1.4.4-full\*.c	| 特定のフォルダ配下のCファイルを再帰検索 |
-|Align		| :Align ,（範囲選択後）								| インデント調整(","のほかには"=" "+" "-"がある)(\*3) |
-|Align		| \abox（範囲選択後）									| ボックスコメント設定(\*4) |
-|DrawIt!	| \di（範囲選択後）										| 描画モード開始 |
-|DrawIt!	| \ds（範囲選択後）										| 描画モード終了 |
-|DrawIt!	| \b （範囲選択後）										| 四角形ボックス描画 |
-|DrawIt!	| \e （範囲選択後）										| ひし形ボックス描画 |
-|DrawIt!	| v  （範囲選択後）										| v描画 |
-|DrawIt!	| ^  （範囲選択後）										| ^描画 |
-|DrawIt!	| >  （範囲選択後）										| >描画 |
-|DrawIt!	| <  （範囲選択後）										| <描画 |
-|Vundle		| :PluginInstall										| プラグインインストール |
-|surround	| S'													| ビジュアルモードで選択した部分を ' で囲む |
-|surround	| yss'													| 行全体を ' で囲む |
-|neosnippet	| :NeoSnippetEdit										| スニペットを編集 |
-|QuickFix	| :copen												| QuickFixウィンドウを開く |
-|QuickFix	| :cw													| 認識されたエラーや結果があればQuickFixウィンドウを開く (注) エラーや結果が何もなければ開かれない |
-|QuickFix	| :cclose または :ccl									| QuickFixウィンドウを閉じる |
-|QuickFix	| :.cc													| QuickFix内のカーソル下の箇所に移動 |
-|QuickFix	| :cn													| QuickFix内の次検索結果に移動 |
-|QuickFix	| :cN													| QuickFix内の前検索結果に移動 |
-|QuickFix	| :cbuffer												| QuickFixバッファ再読み込み |
+|共通			| :args AAA.txt BBB.txt CCC.txt							| argsコマンドで一度に複数のファイルを開く |
+|共通			| :w %<													| 現在開いているバッファ名 (拡張子を除いたもの) 取り出し(:w hoge と同等) |
+|共通			| :e #N  (Nは任意の数字)								| #N は、そのN番目のバッファの名前と同じ値になる |
+|共通			| q:													| コマンド履歴を表示（ Ctrl+C でカーソル位置のコマンドをコマンドウィンドウに転送） |
+|共通			| %!xxd -g 1											| バイナリモードに変更 |
+|共通			| :set ic												| 検索・置換時、大文字小文字の区別を有効 |
+|共通			| :set noic												| 検索・置換時、大文字小文字の区別を無効 |
+|共通			| :set ★?												| 現在の値を表示 ex) set number? |
+|共通			| :set ★&												| デフォルト値に戻す ex) set number& |
+|共通			| :set ★!												| On/Offのトグル  ex) set number! |
+|共通			| :b0, :b1, ...											| バッファ0,1,..に移動 |
+|共通			| :buffers												| 編集中のバッファ一覧を表示 |
+|共通			| :Sex													| ウインドウを分割してファイルエクスプローラを開く |
+|共通			| :ls													| バッファのリストを表示 |
+|共通(マーク)	| :marks												| マーク一覧表示 |
+|共通(マーク)	| m[a-zA-Z]												| マーク追加(カーソル位置) |
+|共通(マーク)	| ``													| マーク移動(to直前マーク) |
+|共通(マーク)	| C-o													| マーク移動(to古いマーク) |
+|共通(マーク)	| C-i													| マーク移動(to新規マーク) |
+|共通(マーク)	| `[a-zA-Z]												| マーク移動(to指定マーク) |
+|共通(マーク)	| '[a-zA-Z]												| マーク移動(to指定マーク行頭) |
+|共通(マーク)	| :delm [a-zA-Z]										| マーク削除 |
+|共通(マーク)	| :delm!												| マーク一括削除 |
+|共通			| :vertical diffsplit <filepath>						| [カレントバッファと指定ファイルの差分をとる](https://nanasi.jp/articles/howto/diff/diff_text.html) |
+|共通			| :windo diffthis										| [開いている2バッファ同士の差分をとる](https://qiita.com/isseium/items/36b54171c430f381e232) |
+|共通			| :set scrollbind										| [分割したバッファのスクロール同期](https://qiita.com/murayama/items/497b275b31a378921f6a) |
+|共通			| :set noscrollbind										| [分割したバッファのスクロール同期を解除](https://qiita.com/murayama/items/497b275b31a378921f6a) |
+|共通			| 入力モードで <c-x><c-k>								| 辞書ファイルから単語補完 |
+|共通			| :%s/\v\_(.)/\u\1/g									| スネークケース→キャメルケース変換 |
+|共通			| :%s/\v([A-Z])/\_\L\1/g								| キャメルケース→スネークケース変換 |
+|共通			| ;mes													| エラーメッセージがすぐ消える場合、エラー表示させる |
+|共通			| コマンド\|コマンド									| コマンド連続実行 |
+|共通			| :redir end											| コマンドリダイレクト 終了 |
+|共通			| :redir > file											| コマンドリダイレクト 開始 |
+|共通			| :set ff=dos											| 改行コード 書換(\*1) (dos/mac/unix)|
+|共通			| :set ffs=unix,dos,mac									| 改行コード 表示方法変更（閲覧時の自動判別用）br()→カンマで区切って優先度の高い順に指定 |
+|共通			| :e ++ff=dos											| 改行コード 表示方法変更（自動判別失敗時の読み直し用）(dos/mac/unix) |
+|共通			| :set enc=utf-8										| 文字コード(デフォルト) 書換(\*2) (euc-jp/shift\_jis/utf-8/..) |
+|共通			| :set fenc=utf-8										| 文字コード(現在ファイル) 書換(\*2) (euc-jp/shift\_jis/utf-8/..) |
+|共通			| :set fencs=euc-jp,shift\_jis,utf-8					| 文字コード 表示方法変更（閲覧時の自動判別用）br()→カンマで区切って優先度の高い順に指定 |
+|共通			| :e ++enc=utf-8										| 文字コード 表示方法変更（自動判別失敗時の読み直し用） (euc-jp/shift\_jis/utf-8/..) |
+|共通			| "[a-z*+-]p または Ctrl-r[a-z*+-]						| 指定したレジスタの内容をペースト |
+|共通			| :reg													| レジスタ一覧表示 |
+|共通			| Ctrl+w → w											| 画面移動 |
+|共通			| Ctrl+w → p											| 画面移動 |
+|共通			| Ctrl+w → k											| 画面移動(上) |
+|共通			| Ctrl+w → j											| 画面移動(下) |
+|共通			| Ctrl+w → l											| 画面移動(右) |
+|共通			| Ctrl+w → h											| 画面移動(左) |
+|共通			| Ctrl+w → +											| 選択されている画面を１行分拡大する |
+|共通			| Ctrl+w → -											| 選択されている画面を１行分縮小する |
+|共通			| Ctrl+w → =											| 画面のサイズを等しくする |
+|Grep			| :vim {pattern} %\|cw									| vimgrepを実行&br()ex.vimgrep /hogehoge/j c:/test/\*\*/\*.txt\|cw |
+|Grep			| :bufdo vimgrepa {pattern} %\|cw						| バッファすべてに vimgrep &br()（★貼り付け時は「｜」を半角に★） |
+|Grep			| :RGrep 文字列 C:\00\_work\trunk\C\jsp-1.4.4-full\*.c	| 特定のフォルダ配下のCファイルを再帰検索 |
+|Align			| :Align ,（範囲選択後）								| インデント調整(","のほかには"=" "+" "-"がある)(\*3) |
+|Align			| \abox（範囲選択後）									| ボックスコメント設定(\*4) |
+|DrawIt!		| \di（範囲選択後）										| 描画モード開始 |
+|DrawIt!		| \ds（範囲選択後）										| 描画モード終了 |
+|DrawIt!		| \b （範囲選択後）										| 四角形ボックス描画 |
+|DrawIt!		| \e （範囲選択後）										| ひし形ボックス描画 |
+|DrawIt!		| v  （範囲選択後）										| v描画 |
+|DrawIt!		| ^  （範囲選択後）										| ^描画 |
+|DrawIt!		| >  （範囲選択後）										| >描画 |
+|DrawIt!		| <  （範囲選択後）										| <描画 |
+|Vundle			| :PluginInstall										| プラグインインストール |
+|surround		| S'													| ビジュアルモードで選択した部分を ' で囲む |
+|surround		| yss'													| 行全体を ' で囲む |
+|neosnippet		| :NeoSnippetEdit										| スニペットを編集 |
+|QuickFix		| :copen												| QuickFixウィンドウを開く |
+|QuickFix		| :cw													| 認識されたエラーや結果があればQuickFixウィンドウを開く (注) エラーや結果が何もなければ開かれない |
+|QuickFix		| :cclose または :ccl									| QuickFixウィンドウを閉じる |
+|QuickFix		| :.cc													| QuickFix内のカーソル下の箇所に移動 |
+|QuickFix		| :cn													| QuickFix内の次検索結果に移動 |
+|QuickFix		| :cN													| QuickFix内の前検索結果に移動 |
+|QuickFix		| :cbuffer												| QuickFixバッファ再読み込み |
 
 - (\*1) set ff コマンド
 	- 「set ff=●」 は "UNIXの改行コード" から "●" の改行コードに変換するもの	

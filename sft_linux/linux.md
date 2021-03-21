@@ -49,27 +49,21 @@
 - リダイレクト
 	- 種別
 	
-		| コマンド | 画面(*1) | ファイル(*1) | 出力形式 |
-		| :--- | :--- | :--- | :--- |
-		| command > file | E | O | 新規 |
-		| command 2> file | O | E | 新規 |
-		| command > file 2>&1 | - | O/E | 新規 |
-		| command &> file | - | O/E | 新規 |
-		| command &>> file | - | O/E | 追記 |
-		| command >> file 2>&1 | - | O/E | 追記 |
-		| command 1> stdout.log 2> stderr.log | - | O/E(*2) | 新規 |
-		| command | tee -a log.txt | O/？ | O | 新規 |
-		| command |& tee -a log.txt | O/E | O/E | 新規 |
+		 | コマンド(*3)						   | 画面(*1)		  | ファイル(*1) | 出力形式 | 
+		 | :---								   | :---			  | :---		 | :---		| 
+		 | command > out.log				   | E				  | O			 | 新規		| 
+		 | command 2> out.log				   | O				  | E			 | 新規		| 
+		 | command > out.log 2>&1			   | -				  | O/E			 | 新規		| 
+		 | command &> out.log				   | -				  | O/E			 | 新規		| 
+		 | command &>> out.log				   | -				  | O/E			 | 追記		| 
+		 | command >> out.log 2>&1			   | -				  | O/E			 | 追記		| 
+		 | command 1> stdout.log 2> stderr.log | -				  | O/E(*2)		 | 新規		| 
+		 | command \| tee -a out.log		   | O/？			  | O			 | 新規		| 
+		 | command \| & tee -a out.log		   | O/E			  | O/E			 | 新規		| 
 		
-		(*1) O:標準出力、E:標準エラー
-		(*2) 標準出力をstdout.logへ、標準エラーをstderr.logへ出力
-- リダイレクト先変更★要整理★
-	- 【exec > log.txt】以降の標準出力をlog.txtにする(最初にファイルをクリア)
-	- 【exec >> log.txt】以降の標準出力をlog.txtにする(最初から追記)
-	- 【exec > /dev/tty】以降の標準出力を画面にする
-	- 【exec 2> log.txt】以降の標準エラーをlog.txtにする
-	- 【exec &>> log.txt】以降の標準出力、標準エラーをlog.txtにする
-	- 【exec &>> (tee -a log.txt)】以降の標準出力、標準エラーをlog.txtと画面に出力する
+		(*1) O:標準出力、E:標準エラー出力
+		(*2) 標準出力をstdout.logへ、標準エラー出力をstderr.logへ出力
+		(*3) command を exec とすると、以降の出力先を変更するコマンドになる
 - フォアグラウンドとバックグラウンドの制御
 	![フォアグラウンドとバックグラウンドの制御](フォアグラウンドとバックグラウンドの制御.jpg)
 - [ブレース展開](https://qiita.com/ine1127/items/6e5fe80f4a9c64509558)
@@ -84,10 +78,25 @@
 	- 【ブレース展開例09】a{m,n,} #→am an a
 	- 【ブレース展開例10】a{,,,} #→a a a a
 	- 【ブレース展開例11】a{,b{,c}} #→a ab abc
-	
-- !$：直前のコマンドラインでスペースで区切られた最後の文字列
-- !\*：直前のコマンドのパラメータを再利用する（先頭のみ除く）。
-- !:-：直前のコマンドの最後のパラメータ以外を再利用する。
+
+- ★要整理★
+	- !^	直前コマンドの最初の引数
+	- !$	直前コマンドの最終の引数
+	- !\*	直前コマンドの全引数
+	- !:-	直前コマンドの全引数(最終引数を除く)
+	- $_	直前コマンドの最終引数
+	- $$	シェルのPID
+	- !-n	直近n番目に実行したコマンド
+	- !n	直近n番目に実行したコマンド(ヒストリ)
+	- !!	直前コマンド再実行
+	- !<command>	直近実行コマンド再実行(直近の<command>)
+	- !!:s/<FROM>/<TO>/	直前コマンドの最初の★を置換
+	- !!:gs/<FROM>/<TO>/	直前コマンドの全ての★を置換
+	- !$:t	直前コマンド最終引数のファイルベース名
+	- !$:h	直前コマンド最終引数のディレクトリパス
+	- !!:n	直前コマンドのn番目のトークン(0:コマンド名、1以降:引数)
+	- !!:n-m	直前コマンドのn～m番目のトークン
+	- !!:n-$	直前コマンドのn～最終トークン
 
 # シェルスクリプト構文
 
@@ -111,8 +120,10 @@
 - 【シェルスクリプト実行権限付与】chmod +x sample.sh
 	- シェルスクリプトをコマンドのように実行したい場合は、実行権限を付与する必要がある。
 
-- 【変数定義】name='Hello World'
-- 【変数参照】echo ${name}
+- 【変数定義】name='John'
+- 【変数参照】echo ${name} #=>John
+- 【変数参照】echo "Hi $name" #=> Hi John
+- 【変数参照】echo 'Hi $name' #=> Hi $name
 - 【変数参照(非空文字列時word返却＆var非保存)】${name:+word}
 - 【変数参照(　空文字列時word返却＆var非保存)】${name:-word}
 - 【変数参照(　空文字列時word返却＆var　保存)】${name:=word}
@@ -124,9 +135,9 @@
 - 【関数定義】function lsmo() { ～ ls -la \| more; ～ }
 - 【関数定義削除】unset lsmo
 
-- 【特殊変数 シェルスクリプトファイル名】$0
 - 【特殊変数 引数の数】$#
 - 【特殊変数 引数の値】$n（n=1～9？）
+- 【特殊変数 シェルスクリプトファイル名】$0
 - 【特殊変数 全ての引数(区切りはスペース)】$@
 - 【特殊変数 全ての引数(区切りは環境変数IFSで指定したもの)】$\*
 - 【特殊変数 現在実行シェルプロセスID】$$
@@ -171,12 +182,16 @@
 - 【while】while [ read LINE ] ～ do ～ echo LinuC Level $LINE ～ done < test.txt
 - 【until】until [ ! $a -lt 5 ] ～ do ～ echo $a ～ done
 
+- 【ファイル名取得】SRCPATH="/path/to/foo.cpp"; echo ${SRCPATH##*/} #=> "foo.cpp" (basepath)
+- 【ディレクトリパス取得】SRCPATH="/path/to/foo.cpp"; echo ${SRCPATH%$BASE}  #=> "/path/to/" (dirpath)
+
 # コマンド一覧
 
 - コマンド関連
 	- 【コマンド履歴表示】history
 	- 【コマンド格納先表示】which passwd
 	- 【コマンド格納先表示】whereis ifconfig
+	- 【コマンド説明表示】whatis command
 	- 【コマンド種別判定】type passwd
 	
 	- 【標準出力書き出し(改行付与)】echo hello!
@@ -311,7 +326,6 @@
 	
 	- 【ファイル/ディレクトリ一覧表示】ls
 	- 【ファイル/ディレクトリ一覧表示(隠しファイル/詳細情報含む)】ls -al
-	- 【ファイル/ディレクトリ一覧表示】ls
 	- 【ディレクトリ一覧出力1★】dir
 	- 【ディレクトリ一覧出力2★】ls -C -b
 	- 【ディレクトリ一覧出力1★】vdir
@@ -527,6 +541,11 @@
 	- 【make(コマンド出力のみ)】make -n
 	
 	- 【[bash動作設定(シェルオプション)](https://www.atmarkit.co.jp/ait/articles/1912/12/news034.html)】shopt
+		- shopt -s nullglob    # 不一致globsを除去する ('*.foo' => '')
+		- shopt -s failglob    # 不一致globsはエラーにする
+		- shopt -s nocaseglob  # globsの大文字小文字を区別しない
+		- shopt -s dotglob     # dotfilesもワイルドカードにマッチさせる ("*.sh" => ".foo.sh")
+		- shopt -s globstar    # 「**」を再帰マッチにする ('lib/**/*.rb' => 'lib/a/b/c.rb')
 	
 	- 【現在のシェル表示】echo $SHELL
 	
