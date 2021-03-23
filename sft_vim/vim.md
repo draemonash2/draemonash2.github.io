@@ -65,16 +65,24 @@ filetype plugin indent on
 |共通			| :w %<													| 現在開いているバッファ名 (拡張子を除いたもの) 取り出し(:w hoge と同等) |
 |共通			| :e #N  (Nは任意の数字)								| #N は、そのN番目のバッファの名前と同じ値になる |
 |共通			| q:													| コマンド履歴を表示（ Ctrl+C でカーソル位置のコマンドをコマンドウィンドウに転送） |
+|共通			| q/													| 検索履歴を表示（ Ctrl+C でカーソル位置のコマンドをコマンドウィンドウに転送） |
 |共通			| %!xxd -g 1											| バイナリモードに変更 |
 |共通			| :set ic												| 検索・置換時、大文字小文字の区別を有効 |
 |共通			| :set noic												| 検索・置換時、大文字小文字の区別を無効 |
 |共通			| :set ★?												| 現在の値を表示 ex) set number? |
 |共通			| :set ★&												| デフォルト値に戻す ex) set number& |
 |共通			| :set ★!												| On/Offのトグル  ex) set number! |
-|共通			| :b0, :b1, ...											| バッファ0,1,..に移動 |
-|共通			| :buffers												| 編集中のバッファ一覧を表示 |
-|共通			| :Sex													| ウインドウを分割してファイルエクスプローラを開く |
-|共通			| :ls													| バッファのリストを表示 |
+|共通			| 入力モードで <c-x><c-k>								| 辞書ファイルから単語補完 |
+|共通			| ;mes													| エラーメッセージがすぐ消える場合、エラー表示させる |
+|共通			| :reg													| レジスタ一覧表示 |
+|共通(編集)		| :%s/\v\_(.)/\u\1/g									| スネークケース→キャメルケース変換 |
+|共通(編集)		| :%s/\v([A-Z])/\_\L\1/g								| キャメルケース→スネークケース変換 |
+|共通(編集)		| "[a-z\*+-]p または Ctrl-r[a-z\*+-]					| 指定したレジスタの内容をペースト |
+|共通(編集)		| :ls													| バッファのリストを表示 |
+|共通(編集)		| Ctrl + a												| 数字インクリメント |
+|共通(編集)		| Ctrl + x												| 数字デクリメント |
+|共通(jumplist)	| :ju													| ジャンプリストを表示する |
+|共通(jumplist)	| :cle													| ジャンプリストを空にする |
 |共通(マーク)	| :marks												| マーク一覧表示 |
 |共通(マーク)	| m[a-zA-Z]												| マーク追加(カーソル位置) |
 |共通(マーク)	| ``													| マーク移動(to直前マーク) |
@@ -84,35 +92,40 @@ filetype plugin indent on
 |共通(マーク)	| '[a-zA-Z]												| マーク移動(to指定マーク行頭) |
 |共通(マーク)	| :delm [a-zA-Z]										| マーク削除 |
 |共通(マーク)	| :delm!												| マーク一括削除 |
-|共通			| :vertical diffsplit <filepath>						| [カレントバッファと指定ファイルの差分をとる](https://nanasi.jp/articles/howto/diff/diff_text.html) |
-|共通			| :windo diffthis										| [開いている2バッファ同士の差分をとる](https://qiita.com/isseium/items/36b54171c430f381e232) |
-|共通			| :set scrollbind										| [分割したバッファのスクロール同期](https://qiita.com/murayama/items/497b275b31a378921f6a) |
-|共通			| :set noscrollbind										| [分割したバッファのスクロール同期を解除](https://qiita.com/murayama/items/497b275b31a378921f6a) |
-|共通			| 入力モードで <c-x><c-k>								| 辞書ファイルから単語補完 |
-|共通			| :%s/\v\_(.)/\u\1/g									| スネークケース→キャメルケース変換 |
-|共通			| :%s/\v([A-Z])/\_\L\1/g								| キャメルケース→スネークケース変換 |
-|共通			| ;mes													| エラーメッセージがすぐ消える場合、エラー表示させる |
-|共通			| コマンド\|コマンド									| コマンド連続実行 |
-|共通			| :redir end											| コマンドリダイレクト 終了 |
-|共通			| :redir > file											| コマンドリダイレクト 開始 |
-|共通			| :set ff=dos											| 改行コード 書換(\*1) (dos/mac/unix)|
-|共通			| :set ffs=unix,dos,mac									| 改行コード 表示方法変更（閲覧時の自動判別用）br()→カンマで区切って優先度の高い順に指定 |
-|共通			| :e ++ff=dos											| 改行コード 表示方法変更（自動判別失敗時の読み直し用）(dos/mac/unix) |
-|共通			| :set enc=utf-8										| 文字コード(デフォルト) 書換(\*2) (euc-jp/shift\_jis/utf-8/..) |
-|共通			| :set fenc=utf-8										| 文字コード(現在ファイル) 書換(\*2) (euc-jp/shift\_jis/utf-8/..) |
-|共通			| :set fencs=euc-jp,shift\_jis,utf-8					| 文字コード 表示方法変更（閲覧時の自動判別用）br()→カンマで区切って優先度の高い順に指定 |
-|共通			| :e ++enc=utf-8										| 文字コード 表示方法変更（自動判別失敗時の読み直し用） (euc-jp/shift\_jis/utf-8/..) |
-|共通			| "[a-z*+-]p または Ctrl-r[a-z*+-]						| 指定したレジスタの内容をペースト |
-|共通			| :reg													| レジスタ一覧表示 |
-|共通			| Ctrl+w → w											| 画面移動 |
-|共通			| Ctrl+w → p											| 画面移動 |
-|共通			| Ctrl+w → k											| 画面移動(上) |
-|共通			| Ctrl+w → j											| 画面移動(下) |
-|共通			| Ctrl+w → l											| 画面移動(右) |
-|共通			| Ctrl+w → h											| 画面移動(左) |
-|共通			| Ctrl+w → +											| 選択されている画面を１行分拡大する |
-|共通			| Ctrl+w → -											| 選択されている画面を１行分縮小する |
-|共通			| Ctrl+w → =											| 画面のサイズを等しくする |
+|共通(折り畳み)	| zi													| 折りたたみの有効無効の切り替え |
+|共通(折り畳み)	| zf													| 折りたたみの作成(範囲選択の開始行と終了行の末尾にマーカーを追加する) |
+|共通(折り畳み)	| za													| 折りたたみの開閉 |
+|共通(折り畳み)	| zA													| 折りたたみの再帰的開閉 |
+|共通(折り畳み)	| zd													| 折りたたみの削除 |
+|共通(折り畳み)	| zE													| 全折りたたみ削除 |
+|共通(折り畳み)	| zR													| 全折りたたみ開く |
+|共通(折り畳み)	| zM													| 全折りたたみ閉じる |
+|共通(window)	| :b0, :b1, ...											| バッファ0,1,..に移動 |
+|共通(window)	| :buffers												| 編集中のバッファ一覧を表示 |
+|共通(window)	| :Sex													| ウインドウを分割してファイルエクスプローラを開く |
+|共通(window)	| :vertical diffsplit <filepath>						| [カレントバッファと指定ファイルの差分をとる](https://nanasi.jp/articles/howto/diff/diff_text.html) |
+|共通(window)	| :windo diffthis										| [開いている2バッファ同士の差分をとる](https://qiita.com/isseium/items/36b54171c430f381e232) |
+|共通(window)	| :set scrollbind										| [分割したバッファのスクロール同期](https://qiita.com/murayama/items/497b275b31a378921f6a) |
+|共通(window)	| :set noscrollbind										| [分割したバッファのスクロール同期を解除](https://qiita.com/murayama/items/497b275b31a378921f6a) |
+|共通(window)	| Ctrl+w → w											| 画面移動 |
+|共通(window)	| Ctrl+w → p											| 画面移動 |
+|共通(window)	| Ctrl+w → k											| 画面移動(上) |
+|共通(window)	| Ctrl+w → j											| 画面移動(下) |
+|共通(window)	| Ctrl+w → l											| 画面移動(右) |
+|共通(window)	| Ctrl+w → h											| 画面移動(左) |
+|共通(window)	| Ctrl+w → +											| 選択されている画面を１行分拡大する |
+|共通(window)	| Ctrl+w → -											| 選択されている画面を１行分縮小する |
+|共通(window)	| Ctrl+w → =											| 画面のサイズを等しくする |
+|共通(コマンド)	| コマンド\|コマンド									| コマンド連続実行 |
+|共通(コマンド)	| :redir end											| コマンドリダイレクト 終了 |
+|共通(コマンド)	| :redir > file											| コマンドリダイレクト 開始 |
+|共通(改行code)	| :set ff=dos											| 改行コード 書換(\*1) (dos/mac/unix)|
+|共通(改行code)	| :set ffs=unix,dos,mac									| 改行コード 表示方法変更（閲覧時の自動判別用）br()→カンマで区切って優先度の高い順に指定 |
+|共通(改行code)	| :e ++ff=dos											| 改行コード 表示方法変更（自動判別失敗時の読み直し用）(dos/mac/unix) |
+|共通(文字code)	| :set enc=utf-8										| 文字コード(デフォルト) 書換(\*2) (euc-jp/shift\_jis/utf-8/..) |
+|共通(文字code)	| :set fenc=utf-8										| 文字コード(現在ファイル) 書換(\*2) (euc-jp/shift\_jis/utf-8/..) |
+|共通(文字code)	| :set fencs=euc-jp,shift\_jis,utf-8					| 文字コード 表示方法変更（閲覧時の自動判別用）br()→カンマで区切って優先度の高い順に指定 |
+|共通(文字code)	| :e ++enc=utf-8										| 文字コード 表示方法変更（自動判別失敗時の読み直し用） (euc-jp/shift\_jis/utf-8/..) |
 |Grep			| :vim {pattern} %\|cw									| vimgrepを実行&br()ex.vimgrep /hogehoge/j c:/test/\*\*/\*.txt\|cw |
 |Grep			| :bufdo vimgrepa {pattern} %\|cw						| バッファすべてに vimgrep &br()（★貼り付け時は「｜」を半角に★） |
 |Grep			| :RGrep 文字列 C:\00\_work\trunk\C\jsp-1.4.4-full\*.c	| 特定のフォルダ配下のCファイルを再帰検索 |
