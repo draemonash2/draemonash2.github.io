@@ -182,7 +182,7 @@
 - 【while】while [ read LINE ] ～ do ～ echo LinuC Level $LINE ～ done < test.txt
 - 【until】until [ ! $a -lt 5 ] ～ do ～ echo $a ～ done
 
-- 【ファイル名取得】SRCPATH="/path/to/foo.cpp"; echo ${SRCPATH##*/} #=> "foo.cpp" (basepath)
+- 【ファイル名取得】SRCPATH="/path/to/foo.cpp"; echo ${SRCPATH##\*/} #=> "foo.cpp" (basepath)
 - 【ディレクトリパス取得】SRCPATH="/path/to/foo.cpp"; echo ${SRCPATH%$BASE}  #=> "/path/to/" (dirpath)
 
 # コマンド一覧
@@ -315,6 +315,7 @@
 	
 	- 【圧縮】tar -czvf xxx.tgz file1 file2 dir1 #オプション名の由来はcreate
 	- 【展開】tar -xzvf xxx.tgz #オプション名の由来はextract
+		- c:新規作成 x:展開 z:gzipを通してそり v:ファイル一覧表示 f:ファイル名指定
 	
 	- 【ファイルサイズ増減】truncate
 		- 10MBの空ファイル作成するとかが可能
@@ -447,6 +448,9 @@
 		- 例3）tr -d : < file1 #data.txtファイルにある「：」を削除して表示
 	- 【テキスト置換】sed 's/Wolrd/World/g'
 	- 【テキスト置換(ファイル対象)】sed -i -e 's/Wolrd/World/' targetfile.txt
+	- 【テキスト追加(5行目)】sed 5a addline
+	- 【テキスト削除(10行目)】sed 15d
+	- 【ファイル書換＆元ファイル.bak化】sed -i.bak
 	- 【ソート＆重複削除】cat file1 \| sort \| uniq
 	- 【数字列出力】seq
 
@@ -462,6 +466,7 @@
 	
 	- 【プロセス情報表示(全プロセス)】ps -ef
 	- 【プロセス情報表示(現在プロセス)】ps $$
+	- 【プロセス情報表示(ツリー表示)】pstree
 	- 【プロセス停止】kill jobno
 	- 【[キャッシュ内未処理データディスク書込み](https://linuc.org/study/knowledge/413/)】sync
 	- 【端末行設定表示】stty
