@@ -5,10 +5,6 @@
 - [WSL2](../sft_wsl2/wsl2.md)
 - [Raspberry Pi](../sft_raspberrypi/raspberrypi.md)
 
-# 便利エイリアス
-
-- ★
-
 # コマンド構文
 
 - 【コマンド実行】cmd
@@ -84,7 +80,7 @@
 	- !$	直前コマンドの最終の引数
 	- !\*	直前コマンドの全引数
 	- !:-	直前コマンドの全引数(最終引数を除く)
-	- $_	直前コマンドの最終引数
+	- $\_	直前コマンドの最終引数
 	- $$	シェルのPID
 	- !-n	直近n番目に実行したコマンド
 	- !n	直近n番目に実行したコマンド(ヒストリ)
@@ -380,6 +376,7 @@
 	- 【ファイル比較】diff -u --color file1 file2
 	- 【ディレクトリ比較(再帰的)】diff -r dir1 dir2
 	- 【ファイル比較(左右並列表示)】sdiff file1 file2
+	- 【[ファイル比較(3ファイル)](https://linuxcommand.net/diff3/)】diff3 TRGTFILE OLDFILE NEWFILE
 	
 	- 【ファイル一覧表示(再帰的)】find dirpath -type f
 	- 【ファイル一覧表示(再帰的)(ファイル指定)】find dirpath -type f \| grep .md
@@ -557,11 +554,23 @@
 	- 【★】rlogin
 	- 【★】scp
 	
+	- 【[シンボル情報表示](http://doi-t.hatenablog.com/entry/2014/01/31/084213)】nm hello.o
+	
 	- 【書庫インデックス作成】ranlib libgraphics.a
-	- 【書庫インデックス作成】ar qc libgraphics.a \*.o
-		- GNU ranlib プログラムは GNU ar の別名である。 ranlib を実行するのと ` ar -s 'とは完全に等価である。
+	- 【アーカイブファイル作成】ar qc libgraphics.a \*.o
+		- GNU ranlib プログラムは GNU ar の別名である。ranlib を実行するのと ` ar -s 'とは完全に等価である。
+		- 操作オプション
+			- r：メンバ追加
+			- d：メンバ削除
+			- q：メンバ追加(アーカイブ末尾)
+		- 修飾子オプション
+			- c：アーカイブ作成
 
 # Tips
+- コマンドプロンプトの記号
+	- 【rootユーザー】#
+	- 【一般ユーザー(Bシェル系)】$
+	- 【一般ユーザー(Cシェル系)】%
 - [「E: Unable to locate package」エラー解消法＠Ubuntu](https://qiita.com/hatorijobs/items/c503840c13672e12d188)
 	- `apt update` を実行する
 		- `sudo apt-get update`
