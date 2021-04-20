@@ -256,6 +256,8 @@
 	- 【ファイル移動】mv file.txt bbb/
 	- 【ディレクトリ移動】mv ccc ../
 		- 再帰的に移動する場合は「mv」コマンドではできない。「cp」と「rm」を使って移動する必要あり。
+	- 【リネーム】rename \_o .o fort.33\*
+	- 【★】size
 	
 	- 【ファイルコピー1】cp file.txt aaa/file2.txt
 	- 【ファイルコピー2】cp file.txt aaa/
@@ -349,18 +351,12 @@
 	- 【ファイル中身表示(反転)】tac ~/.bash\_history
 	- 【ファイル中身表示(行番号付)】nl ~/.bash\_history
 	- 【ファイル中身表示(バイナリ表示)】od ~/.bash\_history
-	
 	- 【ファイル中身表示(1画面ずつ)】more filename
 	- 【ファイル中身表示(1画面ずつ)】less filename
 		- Vimキーバインドが使えるlessがオススメ！
-	
 	- 【ファイル中身表示(一部先頭)】head -n 5 ~/.bash\_history
 	- 【ファイル中身表示(一部末尾)】tail -n 5 ~/.bash\_history
 	- 【ファイル中身表示(更新)】tail -f ~/.bash\_history
-	
-	- 【テキストファイル 行数 表示】wc -l file
-	- 【テキストファイル 単語数 表示】wc -w file
-	- 【テキストファイル バイト数(文字数) 表示】wc -c data
 	
 	- 【ファイル中身表示(ソート)】sort
 	- 【ファイル中身表示(シャッフル)】shuf
@@ -372,11 +368,16 @@
 	- 【ファイル中身表示(列結合)】paste -d"," date1.txt date2.txt #「data1.txt」と「data2.txt」を、区切り文字「,」として列結合
 	- 【ファイル中身表示(差異比較列結合)】join -j 1 data1.txt data2.txt #「data1.txt」と「data2.txt」の第1フィールドに基づいて列結合
 	
-	- 【[ファイル比較★](https://qiita.com/mumian1014/items/bb71b0520e457f3b2466)】comm file1 file2
+	- 【テキストファイル 行数 表示】wc -l file
+	- 【テキストファイル 単語数 表示】wc -w file
+	- 【テキストファイル バイト数(文字数) 表示】wc -c data
+	
+	- 【[ファイル比較](https://qiita.com/mumian1014/items/bb71b0520e457f3b2466)】comm file1 file2
 	- 【ファイル比較】diff -u --color file1 file2
-	- 【ディレクトリ比較(再帰的)】diff -r dir1 dir2
 	- 【ファイル比較(左右並列表示)】sdiff file1 file2
 	- 【[ファイル比較(3ファイル)](https://linuxcommand.net/diff3/)】diff3 TRGTFILE OLDFILE NEWFILE
+	
+	- 【ディレクトリ比較(再帰的)】diff -r dir1 dir2
 	
 	- 【ファイル一覧表示(再帰的)】find dirpath -type f
 	- 【ファイル一覧表示(再帰的)(ファイル指定)】find dirpath -type f \| grep .md
