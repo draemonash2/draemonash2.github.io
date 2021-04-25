@@ -75,57 +75,58 @@ filetype plugin indent on
 |共通			| 入力モードで <c-x><c-k>								| 辞書ファイルから単語補完 |
 |共通			| ;mes													| エラーメッセージがすぐ消える場合、エラー表示させる |
 |共通			| :reg													| レジスタ一覧表示 |
-|共通(編集)		| :%s/\v\_(.)/\u\1/g									| スネークケース→キャメルケース変換 |
-|共通(編集)		| :%s/\v([A-Z])/\_\L\1/g								| キャメルケース→スネークケース変換 |
-|共通(編集)		| "[a-z\*+-]p または Ctrl-r[a-z\*+-]					| 指定したレジスタの内容をペースト |
-|共通(編集)		| :ls													| バッファのリストを表示 |
-|共通(編集)		| Ctrl + a												| 数字インクリメント |
-|共通(編集)		| Ctrl + x												| 数字デクリメント |
-|共通(jumplist)	| :ju													| ジャンプリストを表示する |
-|共通(jumplist)	| :cle													| ジャンプリストを空にする |
-|共通(マーク)	| :marks												| マーク一覧表示 |
-|共通(マーク)	| m[a-zA-Z]												| マーク追加(カーソル位置) |
-|共通(マーク)	| ``													| マーク移動(to直前マーク) |
-|共通(マーク)	| C-o													| マーク移動(to古いマーク) |
-|共通(マーク)	| C-i													| マーク移動(to新規マーク) |
-|共通(マーク)	| `[a-zA-Z]												| マーク移動(to指定マーク) |
-|共通(マーク)	| '[a-zA-Z]												| マーク移動(to指定マーク行頭) |
-|共通(マーク)	| :delm [a-zA-Z]										| マーク削除 |
-|共通(マーク)	| :delm!												| マーク一括削除 |
-|共通(折り畳み)	| zi													| 折りたたみの有効無効の切り替え |
-|共通(折り畳み)	| zf													| 折りたたみの作成(範囲選択の開始行と終了行の末尾にマーカーを追加する) |
-|共通(折り畳み)	| za													| 折りたたみの開閉 |
-|共通(折り畳み)	| zA													| 折りたたみの再帰的開閉 |
-|共通(折り畳み)	| zd													| 折りたたみの削除 |
-|共通(折り畳み)	| zE													| 全折りたたみ削除 |
-|共通(折り畳み)	| zR													| 全折りたたみ開く |
-|共通(折り畳み)	| zM													| 全折りたたみ閉じる |
-|共通(window)	| :b0, :b1, ...											| バッファ0,1,..に移動 |
-|共通(window)	| :buffers												| 編集中のバッファ一覧を表示 |
-|共通(window)	| :Sex													| ウインドウを分割してファイルエクスプローラを開く |
-|共通(window)	| :vertical diffsplit <filepath>						| [カレントバッファと指定ファイルの差分をとる](https://nanasi.jp/articles/howto/diff/diff_text.html) |
-|共通(window)	| :windo diffthis										| [開いている2バッファ同士の差分をとる](https://qiita.com/isseium/items/36b54171c430f381e232) |
-|共通(window)	| :set scrollbind										| [分割したバッファのスクロール同期](https://qiita.com/murayama/items/497b275b31a378921f6a) |
-|共通(window)	| :set noscrollbind										| [分割したバッファのスクロール同期を解除](https://qiita.com/murayama/items/497b275b31a378921f6a) |
-|共通(window)	| Ctrl+w → w											| 画面移動 |
-|共通(window)	| Ctrl+w → p											| 画面移動 |
-|共通(window)	| Ctrl+w → k											| 画面移動(上) |
-|共通(window)	| Ctrl+w → j											| 画面移動(下) |
-|共通(window)	| Ctrl+w → l											| 画面移動(右) |
-|共通(window)	| Ctrl+w → h											| 画面移動(左) |
-|共通(window)	| Ctrl+w → +											| 選択されている画面を１行分拡大する |
-|共通(window)	| Ctrl+w → -											| 選択されている画面を１行分縮小する |
-|共通(window)	| Ctrl+w → =											| 画面のサイズを等しくする |
-|共通(コマンド)	| コマンド\|コマンド									| コマンド連続実行 |
-|共通(コマンド)	| :redir end											| コマンドリダイレクト 終了 |
-|共通(コマンド)	| :redir > file											| コマンドリダイレクト 開始 |
-|共通(改行code)	| :set ff=dos											| 改行コード 書換(\*1) (dos/mac/unix)|
-|共通(改行code)	| :set ffs=unix,dos,mac									| 改行コード 表示方法変更（閲覧時の自動判別用）br()→カンマで区切って優先度の高い順に指定 |
-|共通(改行code)	| :e ++ff=dos											| 改行コード 表示方法変更（自動判別失敗時の読み直し用）(dos/mac/unix) |
-|共通(文字code)	| :set enc=utf-8										| 文字コード(デフォルト) 書換(\*2) (euc-jp/shift\_jis/utf-8/..) |
-|共通(文字code)	| :set fenc=utf-8										| 文字コード(現在ファイル) 書換(\*2) (euc-jp/shift\_jis/utf-8/..) |
-|共通(文字code)	| :set fencs=euc-jp,shift\_jis,utf-8					| 文字コード 表示方法変更（閲覧時の自動判別用）br()→カンマで区切って優先度の高い順に指定 |
-|共通(文字code)	| :e ++enc=utf-8										| 文字コード 表示方法変更（自動判別失敗時の読み直し用） (euc-jp/shift\_jis/utf-8/..) |
+|共通			| gv													| 直前選択範囲の再選択 |
+|共通(edit)		| :%s/\v\_(.)/\u\1/g									| スネークケース→キャメルケース変換 |
+|共通(edit)		| :%s/\v([A-Z])/\_\L\1/g								| キャメルケース→スネークケース変換 |
+|共通(edit)		| "[a-z\*+-]p または Ctrl-r[a-z\*+-]					| 指定したレジスタの内容をペースト |
+|共通(edit)		| :ls													| バッファのリストを表示 |
+|共通(edit)		| Ctrl + a												| 数字インクリメント |
+|共通(edit)		| Ctrl + x												| 数字デクリメント |
+|共通(jumpl)	| :ju													| ジャンプリストを表示する |
+|共通(jumpl)	| :cle													| ジャンプリストを空にする |
+|共通(mark)		| :marks												| マーク一覧表示 |
+|共通(mark)		| m[a-zA-Z]												| マーク追加(カーソル位置) |
+|共通(mark)		| ``													| マーク移動(to直前マーク) |
+|共通(mark)		| C-o													| マーク移動(to古いマーク) |
+|共通(mark)		| C-i													| マーク移動(to新規マーク) |
+|共通(mark)		| `[a-zA-Z]												| マーク移動(to指定マーク) |
+|共通(mark)		| '[a-zA-Z]												| マーク移動(to指定マーク行頭) |
+|共通(mark)		| :delm [a-zA-Z]										| マーク削除 |
+|共通(mark)		| :delm!												| マーク一括削除 |
+|共通(fold)		| zi													| 折りたたみの有効無効の切り替え |
+|共通(fold)		| zf													| 折りたたみの作成(範囲選択の開始行と終了行の末尾にマーカーを追加する) |
+|共通(fold)		| za													| 折りたたみの開閉 |
+|共通(fold)		| zA													| 折りたたみの再帰的開閉 |
+|共通(fold)		| zd													| 折りたたみの削除 |
+|共通(fold)		| zE													| 全折りたたみ削除 |
+|共通(fold)		| zR													| 全折りたたみ開く |
+|共通(fold)		| zM													| 全折りたたみ閉じる |
+|共通(win)		| :b0, :b1, ...											| バッファ0,1,..に移動 |
+|共通(win)		| :buffers												| 編集中のバッファ一覧を表示 |
+|共通(win)		| :Sex													| ウインドウを分割してファイルエクスプローラを開く |
+|共通(win)		| :vertical diffsplit <filepath>						| [カレントバッファと指定ファイルの差分をとる](https://nanasi.jp/articles/howto/diff/diff_text.html) |
+|共通(win)		| :windo diffthis										| [開いている2バッファ同士の差分をとる](https://qiita.com/isseium/items/36b54171c430f381e232) |
+|共通(win)		| :set scrollbind										| [分割したバッファのスクロール同期](https://qiita.com/murayama/items/497b275b31a378921f6a) |
+|共通(win)		| :set noscrollbind										| [分割したバッファのスクロール同期を解除](https://qiita.com/murayama/items/497b275b31a378921f6a) |
+|共通(win)		| Ctrl+w → w											| 画面移動 |
+|共通(win)		| Ctrl+w → p											| 画面移動 |
+|共通(win)		| Ctrl+w → k											| 画面移動(上) |
+|共通(win)		| Ctrl+w → j											| 画面移動(下) |
+|共通(win)		| Ctrl+w → l											| 画面移動(右) |
+|共通(win)		| Ctrl+w → h											| 画面移動(左) |
+|共通(win)		| Ctrl+w → +											| 選択されている画面を１行分拡大する |
+|共通(win)		| Ctrl+w → -											| 選択されている画面を１行分縮小する |
+|共通(win)		| Ctrl+w → =											| 画面のサイズを等しくする |
+|共通(cmd)		| コマンド\|コマンド									| コマンド連続実行 |
+|共通(cmd)		| :redir end											| コマンドリダイレクト 終了 |
+|共通(cmd)		| :redir > file											| コマンドリダイレクト 開始 |
+|共通(LF)		| :set ff=dos											| 改行コード 書換(\*1) (dos/mac/unix)|
+|共通(LF)		| :set ffs=unix,dos,mac									| 改行コード 表示方法変更（閲覧時の自動判別用）br()→カンマで区切って優先度の高い順に指定 |
+|共通(LF)		| :e ++ff=dos											| 改行コード 表示方法変更（自動判別失敗時の読み直し用）(dos/mac/unix) |
+|共通(char)		| :set enc=utf-8										| 文字コード(デフォルト) 書換(\*2) (euc-jp/shift\_jis/utf-8/..) |
+|共通(char)		| :set fenc=utf-8										| 文字コード(現在ファイル) 書換(\*2) (euc-jp/shift\_jis/utf-8/..) |
+|共通(char)		| :set fencs=euc-jp,shift\_jis,utf-8					| 文字コード 表示方法変更（閲覧時の自動判別用）br()→カンマで区切って優先度の高い順に指定 |
+|共通(char)		| :e ++enc=utf-8										| 文字コード 表示方法変更（自動判別失敗時の読み直し用） (euc-jp/shift\_jis/utf-8/..) |
 |Grep			| :vim {pattern} %\|cw									| vimgrepを実行&br()ex.vimgrep /hogehoge/j c:/test/\*\*/\*.txt\|cw |
 |Grep			| :bufdo vimgrepa {pattern} %\|cw						| バッファすべてに vimgrep &br()（★貼り付け時は「｜」を半角に★） |
 |Grep			| :RGrep 文字列 C:\00\_work\trunk\C\jsp-1.4.4-full\*.c	| 特定のフォルダ配下のCファイルを再帰検索 |
@@ -150,6 +151,18 @@ filetype plugin indent on
 |QuickFix		| :cn													| QuickFix内の次検索結果に移動 |
 |QuickFix		| :cN													| QuickFix内の前検索結果に移動 |
 |QuickFix		| :cbuffer												| QuickFixバッファ再読み込み |
+|showmarks		| :DoShowMarks											| マーク表示＠現在バッファ |
+|showmarks		| :DoShowMarks!											| マーク表示＠全バッファ |
+|showmarks		| :NoShowMarks											| マーク非表示＠現在バッファ |
+|showmarks		| :NoShowMarks!											| マーク非表示＠全バッファ |
+|showmarks		| :[count]ShowMarksOnce									| Display marks for [count] Cursorhold events. Mostly for mapping it like : nnoremap ` :ShowMarksOnce<cr>` |
+|showmarks		| :[count]PreviewMarks									| Display marks of current buffer in pvw.  Like ':marks', but at the top of the window ;-).  [count] is the same sa above. |
+★linediff
+★blockdiff
+★neosnipet
+★tagbar
+★winresizer
+★vim-surround
 
 - (\*1) set ff コマンド
 	- 「set ff=●」 は "UNIXの改行コード" から "●" の改行コードに変換するもの	
