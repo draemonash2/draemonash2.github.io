@@ -157,6 +157,19 @@ filetype plugin indent on
 |showmarks		| :NoShowMarks!											| マーク非表示＠全バッファ |
 |showmarks		| :[count]ShowMarksOnce									| Display marks for [count] Cursorhold events. Mostly for mapping it like : nnoremap ` :ShowMarksOnce<cr>` |
 |showmarks		| :[count]PreviewMarks									| Display marks of current buffer in pvw.  Like ':marks', but at the top of the window ;-).  [count] is the same sa above. |
+|Vaffle			| ~														| $HOMEを開く |
+|Vaffle			| h														| 親を開く |
+|Vaffle			| l														| 子を開く |
+|Vaffle			| t														| 新しいタブで開く |
+|Vaffle			| <Space>												| 選択、解除 |
+|Vaffle			| *														| 全て選択、全て解除 |
+|Vaffle			| .														| 隠しファイルを表示、隠しファイルを非表示 |
+|Vaffle			| R														| 更新 |
+|Vaffle			| m														| 移動 |
+|Vaffle			| d														| 削除 |
+|Vaffle			| r														| 名前変更 |
+|Vaffle			| i														| ファイル作成 |
+|Vaffle			| o														| ディレクトリ作成 |
 ★linediff
 ★blockdiff
 ★neosnipet
