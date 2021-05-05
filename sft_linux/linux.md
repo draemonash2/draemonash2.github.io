@@ -629,6 +629,8 @@
 	- ソケット s
 - [CentOSをインストールする](https://www.geekfeed.co.jp/geekblog/install_centos8_on_wsl2_for_free)
 - [GDBの使い方はこちら](../sft_gdb/gdb.md)
+- alias rm='rm -i'は避けた方がいい
+	- エイリアスのrm -iが定義されてない環境で事故を起こす危険があるから。やるなら、rmとは違う名前で定義すべき。それなら、未定義の環境では コマンドが無いエラーで済む。
 
 # ショートカットキー
 
