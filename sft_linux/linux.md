@@ -41,7 +41,7 @@
 		$ echo `$DATE`
 		Fri May 17 04:26:03 PDT 2013
 		```
-
+		
 - リダイレクト
 	- 種別
 	
@@ -185,10 +185,12 @@
 
 - コマンド関連
 	- 【コマンド履歴表示】history
-	- 【コマンド格納先表示】which passwd
-	- 【コマンド格納先表示】whereis ifconfig
-	- 【コマンド説明表示】whatis command
-	- 【コマンド種別判定】type passwd
+	- 【コマンド格納先表示】which command
+	- 【コマンド格納先表示】whereis command
+		- マニュアル、ソース、オブジェクトも指定可能
+	- 【コマンド簡易説明表示】whatis command
+	- 【コマンドエイリアス確認】type command
+	- 【コマンドキーワード検索】apropos
 	
 	- 【標準出力書き出し(改行付与)】echo hello!
 	- 【標準出力書き出し(改行なし)】echo -n hello!
@@ -235,6 +237,9 @@
 	- 【プロセス実行優先度変更後コマンド実行】nice -n -15 updatedb #実行優先度を「15」低くして、updatedbコマンドを実行
 		- niceness…プロセスの優先度を示す値(＝アプリケーション実行順序)(≠スケジュール優先度)
 	- 【ログアウト後継続コマンド実行】nohup cmd
+	- 【スクリプト自動実行】at -c 0400pm script.sh #=> 午後4時にスクリプトを自動実行
+	
+	- 【簡易電卓】bc
 
 - ファイル操作
 	- 【ディレクトリ移動】cd
@@ -271,6 +276,12 @@
 	
 	- 【ファイル分割(行番号指定)】split
 	- 【ファイル分割(文脈指定)】csplit
+	
+	- 【文字コード変換(sjis→utf8)】iconv -f sjis -t utf8 sampletext.txt | less
+	
+	- 【改行コード変換(Mac→Unix)】tr \\\\r \\\\n <mac.txt >unix.txt
+	- 【改行コード変換(Windows→Unix)】tr -d \\\\r <windows.txt >unix.txt
+	- 【改行コード変換(Unix→Windows)】perl -p -e 's/\\n/\\r\\n/' <unix.txt >windows.txt
 	
 	- 【ハードリンク作成】ln aaa/trgtfile.txt ./lnkfile
 	- 【シンボリックリンク作成】ln -s mydir/trgtfile.txt ./lnkfile
@@ -373,11 +384,12 @@
 	- 【テキストファイル バイト数(文字数) 表示】wc -c data
 	
 	- 【[ファイル比較](https://qiita.com/mumian1014/items/bb71b0520e457f3b2466)】comm file1 file2
-	- 【ファイル比較】diff -u --color file1 file2
+	- 【ファイル比較(バイナリ比較)】cmp file1 file2
+	- 【ファイル比較(テキスト比較)】diff --color file1 file2
 	- 【ファイル比較(左右並列表示)】sdiff file1 file2
 	- 【[ファイル比較(3ファイル)](https://linuxcommand.net/diff3/)】diff3 TRGTFILE OLDFILE NEWFILE
 	
-	- 【ディレクトリ比較(再帰的)】diff -r dir1 dir2
+	- 【ディレクトリ比較(再帰的)】diff -r --color=always dir1 dir2
 	
 	- 【ファイル一覧表示(再帰的)】find dirpath -type f
 	- 【ファイル一覧表示(再帰的)(ファイル指定)】find dirpath -type f \| grep .md
@@ -385,7 +397,8 @@
 	- 【ディレクトリ一覧表示(再帰的)】find dirpath -type d
 	- 【ファイル/ディレクトリ一覧表示(再帰的)】find dirpath
 	- 【ファイル/ディレクトリ検索】上記のfindコマンドを用いる
-	- 【ファイルツリー出力】tree dirpath
+	- 【ファイルツリー出力】tree -C -N dirpath
+		- -C:常に色付きで表示、-N:表示不可文字8進数表示
 	- 【ファイル種別表示】file filename
 	
 	- 【ファイル名抽出(拡張子含む)】basename aaa/bbb/test.txt #→test.txt
@@ -631,6 +644,25 @@
 - [GDBの使い方はこちら](../sft_gdb/gdb.md)
 - alias rm='rm -i'は避けた方がいい
 	- エイリアスのrm -iが定義されてない環境で事故を起こす危険があるから。やるなら、rmとは違う名前で定義すべき。それなら、未定義の環境では コマンドが無いエラーで済む。
+- bashのPS1で使える特殊文字
+	
+	|特殊文字|説明|
+	|:---|:---|
+	| \d	| 日付 |
+	| \h	| ホスト名 |
+	| \n	| 改行 |
+	| \s	| シェルの名前 |
+	| \t	| 時間 |
+	| \u	| ユーザー名 |
+	| \w	| ワークディレクトリ |
+	| \W	| ワークディレクトリのベース名 |
+	| \#	| コマンド番号 |
+	| \!	| ヒストリ番号 |
+	| \$	| 有効なUIDが0なら「#」、それ以外なら「$」 |
+	| \nnn	| 8進数での文字コード |
+	| \\	| バックスラッシュそのもの |
+	| \\[	| 非表示文字の開始 |
+	| \\]	| 非表示文字の終了 |
 
 # ショートカットキー
 
