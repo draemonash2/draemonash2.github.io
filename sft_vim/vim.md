@@ -170,6 +170,7 @@ filetype plugin indent on
 |Vaffle			| r														| 名前変更 |
 |Vaffle			| i														| ファイル作成 |
 |Vaffle			| o														| ディレクトリ作成 |
+
 ★linediff
 ★blockdiff
 ★neosnipet
