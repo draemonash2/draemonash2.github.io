@@ -585,6 +585,7 @@
 	- 【rootユーザー】#
 	- 【一般ユーザー(Bシェル系)】$
 	- 【一般ユーザー(Cシェル系)】%
+	- 【一般ユーザー(Tシェル系)】>
 - [「E: Unable to locate package」エラー解消法＠Ubuntu](https://qiita.com/hatorijobs/items/c503840c13672e12d188)
 	- `apt update` を実行する
 		- `sudo apt-get update`
