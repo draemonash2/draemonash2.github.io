@@ -565,8 +565,9 @@
 	
 	- 【現在のシェル表示】echo $SHELL
 	
-	- 【★】rlogin
-	- 【★】scp
+	- 【SCP転送】scp a.txt username@127.0.0.1:/home/user
+	- 【SCP転送(パスワード自動入力)】expect -c "spawn scp sendfile.txt username@127.0.0.1:/home/user ; expect password: ; send passwd\r ; expect $ ; exit"
+		- 127.0.0.1に対して、ユーザ名：username、パスワード：passwdでsshログインした後、sendfile.txtを「/home/user」にSCP転送する。
 	
 	- 【[シンボル情報表示](http://doi-t.hatenablog.com/entry/2014/01/31/084213)】nm hello.o
 	

@@ -8,6 +8,7 @@
 - [Python](lng_python/python.md)
 - [Ruby](lng_ruby/ruby.md)
 - [Svn Command](lng_svncommand/svncommand.md)
+- [Git Command](lng_gitcommand/gitcommand.md)
 - [Vba](lng_vba/vba.md)
 - [Vbs](lng_vbs/vbs.md)
 - [Vim Script](lng_vimscript/vimscript.md)
