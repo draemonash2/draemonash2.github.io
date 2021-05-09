@@ -1,5 +1,12 @@
 [トップに戻る](../index.md)
 
+
+# コマンド
+
+- 【ファイル転送(remote→local)】winscp.exe /console /command "option batch on" "open user:password@example.com" "get examplefile.txt d:\" "exit"
+- 【ファイル転送(local→remote)】winscp.exe /console /command "option batch on" "open user:password@example.com" "cd ~" "put c:\test\examplefile.txt" "exit"
+	- ディレクトリ名も転送可能
+
 # ショートカットキー
 ## エクスプローラー風ショートカット
 
