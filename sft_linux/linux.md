@@ -328,6 +328,13 @@
 	
 	- 【ファイルサイズ増減】truncate
 		- 10MBの空ファイル作成するとかが可能
+	
+	- 【差分ファイル作成】diff -u file\_old file\_new > hoge.patch
+	- 【差分適用】patch -u file\_path < hoge.patch
+	- 【差分巻き戻し】patch -R file\_path < hoge.patch
+		- -u：差分をunified形式のコンテキストdiffとして解釈
+		- -R：新旧のファイルが反転していると見なす
+	- 【インデント調整】indent a.c
 
 - ファイル情報表示
 	- 【現在ディレクトリパス表示】pwd
