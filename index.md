@@ -55,6 +55,7 @@
 
 - [WSL2](sft_wsl2/wsl2.md)
 - [GDB](sft_gdb/gdb.md)
+- [DBX](sft_dbx/dbx.md)
 - [Cygwin](sft_cygwin/cygwin.md)
 - [iThoughts](sft_ithoughts/ithoughts.md)
 - [Redmine](sft_redmine/redmine.md)
