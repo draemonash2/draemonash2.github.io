@@ -1,7 +1,7 @@
-[トップに戻る](../index.md)
+[繝医ャ繝励↓謌ｻ繧犠(../index.md)
 
-# 使い方
+# 菴ｿ縺�譁ｹ
 
 - http://www.ne.jp/asahi/hishidama/home/tech/unix/cmd/dbx.html
 
-[トップに戻る](../index.md)
+[繝医ャ繝励↓謌ｻ繧犠(../index.md)
