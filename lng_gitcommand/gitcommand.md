@@ -79,6 +79,7 @@
 	- 【リベース中断】git rebase --abort
 	- 【[特定コミット取込み(コミットする)](#cherry-pick)】git cherry-pick ハッシュ値
 	- 【特定コミット取込み(コミットしない)】git cherry-pick -n ハッシュ値
+	- 【特定コミット取込み(リビジョン範囲指定)】git cherry-pick 古いハッシュ値..新しいハッシュ値
 
 - [スタッシュ](#stash)
 	- 【スタッシュ 保存1】git stash #→untracked fileを含めない
@@ -93,6 +94,15 @@
 
 - 【github上から指定ファイル完全消去】 `find . -name .ファイル前 -print0 | xargs -0 git rm`
 	- github上でrevertした場合は必ずプルリクエストまで出す
+
+- 【追跡対象外ファイル削除】git clean -fdx
+	- -f:強制実行、-d:ディレクトリを削除、-x:.gitignore等で指定されているファイルを除外せず削除
+
+- [問題箇所特定](https://qiita.com/usamik26/items/cce867b3b139ea5568a6)】git bisect
+	1. good/badリビジョン指定
+		- git bisect start <bad-commit> <good-commit>
+	1. テストスクリプトの指定
+		- git bisect run テストスクリプトのファイル名
 
 # Tips
 ## 統合ブランチ vs トピックブランチ
