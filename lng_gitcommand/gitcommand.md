@@ -94,5 +94,50 @@
 - 【github上から指定ファイル完全消去】 `find . -name .ファイル前 -print0 | xargs -0 git rm`
 	- github上でrevertした場合は必ずプルリクエストまで出す
 
+# Tips
+## 統合ブランチ vs トピックブランチ
+- 統合ブランチ
+	- リリース版が何時でも作成可能なようしておくためのブランチ。トピックブランチの分岐元。
+- トピックブランチ
+	- 機能追加やバグ修正といったある課題に関する作業を行うために作成するブランチ
+		![統合ブランチvsトピックブランチ](統合ブランチvsトピックブランチ.jpg)
+
+## マージの種類
+- fast-forward(早送り)マージ
+	- 新しくマージコミットを作成せずに合流させる
+		- 例）masterブランチにissue2をマージ
+		![マージ後1(fastforward)](マージ後1(fastforward).jpg)
+	- ★＝rebaseコマンド？
+- non fast-forwardマージ
+	- 新しくマージコミットを作成してに合流させる
+		- 例）masterブランチにissue3をマージ
+		![マージ後2(nonfastforward)](マージ後2(nonfastforward).jpg)
+	- ★＝mergeコマンド？
+- rebase
+	- 履歴を一本化させるマージ (★マージ)
+		- mergeとrebaseは、チームの運用方針に応じて使い分ける
+			- トピックブランチに統合ブランチの最新コードを取り込む場合…rebase
+			- 統合ブランチにトピックブランチを取り込む場合…rebase後にmerge
+				![rebase](rebase.jpg)
+- rebase -i
+	- コミットの書き換え、入れ替え、削除、統合を行う
+		![例）書き換え](rebase-i_書き換え.jpg)
+		![例）統合](rebase-i_統合.jpg)
+- merge --squash
+	- このオプションを指定してブランチをマージすると、そのブランチのコミットすべてをまとめたコミットが追加される
+		![merge-squash](merge-squash.jpg)
+
+## stash
+- 変更差分を一時的に退避する
+
+## fetch
+- リモートリポジトリの内容を確認したいだけの時（マージしたくないとき）に、履歴だけ取得できる機能
+- 取得したコミットは名前のないブランチ([origin/master](#「masterブランチ」と「origin/masterブランチ」))として取り込まれる。
+
+## タグ
+- 軽量タグ(git tab <tagname>)
+	- 名前を付けられる
+- 注釈付きタグ(git tab -a <tagname>)
+	- 名前/コメント/署名をつけられる
 
 [トップに戻る](../index.md)
