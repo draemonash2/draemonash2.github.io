@@ -186,7 +186,7 @@
 		- 例1）HEAD^^
 		- 例2）HEAD~~
 		- 例3）HEAD~2
-	![HEAD～](HEAD～.jpg)
+			![HEAD～](HEAD～.jpg)
 
 ## originとは？
 - [originとは？](https://qiita.com/seri1234/items/e651b3e108a695a92809)
