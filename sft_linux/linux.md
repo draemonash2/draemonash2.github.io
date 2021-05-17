@@ -495,6 +495,7 @@
 	- 【現在ユーザIDに関連付けされているユーザ名表示】whoami
 		- id -un と同等
 	- 【所属グループ名表示】groups
+	- 【ログインユーザ一覧表示】users
 	- 【ログオン中ユーザ情報表示】who
 	
 	- 【ユーザアカウント作成】useradd -d /home/mike -s /bin/bash mike
