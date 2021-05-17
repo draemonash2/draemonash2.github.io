@@ -210,4 +210,7 @@
 	- 「origin/master」ブランチ…ローカルにある、リモートのmasterブランチを追跡するリモート追跡ブランチ。
 		![master_vs_origin-master](master_vs_origin-master.jpg)
 
+## git diff と git log におけるドット表記
+- [git diff と git log におけるドット表記](https://zenn.dev/yoichi/articles/git-dotted-notations)
+
 [トップに戻る](../index.md)
