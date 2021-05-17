@@ -98,7 +98,7 @@
 - 【追跡対象外ファイル削除】git clean -fdx
 	- -f:強制実行、-d:ディレクトリを削除、-x:.gitignore等で指定されているファイルを除外せず削除
 
-- [問題箇所特定](https://qiita.com/usamik26/items/cce867b3b139ea5568a6)】git bisect
+- 【[問題箇所特定](https://qiita.com/usamik26/items/cce867b3b139ea5568a6)】git bisect
 	1. good/badリビジョン指定
 		- git bisect start <bad-commit> <good-commit>
 	1. テストスクリプトの指定
