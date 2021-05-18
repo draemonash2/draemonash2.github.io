@@ -7,7 +7,7 @@
 - 【ログ表示(1行表示)】git log --oneline
 - 【ログ表示(グラフ表示)】git log --graph
 - 【ディレクトリ作成】git init
-- 【状態確認】git status
+- 【変更状態確認】git status
 
 - 【クローン】git clone https://github.com/draemonash2/codes.git codes
 - 【プッシュ】git push
@@ -23,9 +23,9 @@
 
 - 【ブランチ作成】git checkout -b ブランチ名
 - 【ブランチ切替】git checkout ブランチ名
+- 【ブランチ一覧表示(ローカル)】git branch
+- 【ブランチ一覧表示(リモート)】git branch -r
 - 【ブランチ削除】git branch -d ブランチ名
-- 【ブランチ一覧表示】git branch
-- 【スタッシュ(変更データ仮置き)】git stash
 
 - ローカルリポジトリ操作
 	- 【コミット 追加】git commit -m “命令形メッセージ”
