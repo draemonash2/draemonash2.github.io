@@ -507,6 +507,7 @@
 	- 【グループアカウント削除】groupdel sales
 	- 【所属グループ表示】id sales
 	- 【ログインパスワード変更】passwd mike
+	- 【ログインシェル変更】chsh -s /bin/bash mike #mikeのログインシェルをbashに変更する
 	
 	- 【環境変数表示】printenv
 	- 【環境変数設定(csh系用)】setenv envvar value
