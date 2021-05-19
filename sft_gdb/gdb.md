@@ -43,6 +43,7 @@
 		- 上記コマンドを入力後停止時のコマンドを入力する([こちら](https://www.ois-yokohama.co.jp/oisblog2018/archives/3424))
 	- 【ブレークポイント設定(システムコール時)】catch syscall write
 	- 【ウォッチポイント停止条件指定】condition 1 if n == 1
+	- 【ブレークポイント指定回数無視】ignore 1 9 #ブレークポイント番号1を9回無視する
 	
 	- 【コード表示(現在実行行前後)(list)】l
 	- 【コード表示(関数指定)(list)】l funcname
@@ -92,6 +93,7 @@
 	- 【変数値設定】set array[3] = 199
 	
 	- 【メモリ配置確認(info proc mappings)】i proc map
+	- 【スタックフレーム表示】frame 0 #フレーム番号
 	
 	- 【バックトレース(backtrace)】bt #現在関数呼出しまでの経路表示
 	- 【バックトレース結果さかのぼり】up
@@ -118,5 +120,8 @@
 	- マルチスレッド
 		- 【スレッド情報表示】info threads
 		- 【スレッド切り替え】thread 1 #info threadsで取得できるスレッド番号を指定する
+		
+	- ★コアダンプ解析
+	
 
 [トップに戻る](../index.md)
