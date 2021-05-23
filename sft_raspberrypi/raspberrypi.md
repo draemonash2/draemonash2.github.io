@@ -45,6 +45,7 @@
 	1. 指定したドライブとしてアクセスできるようになる。
 - [リモートデスクトップでアクセスしたときに、意図したキーが打てない](http://www.eonet.ne.jp/~smallbear/X/xrdp-jpkeymap.html)
 	- 例）( ⇒ '
+- [Raspberry Piにホスト名でアクセスできない時](https://tech-note-meeting.com/2020/08/14/post-316/)
 
 # Linux 共通コマンド
 
@@ -170,7 +171,6 @@ static domain\_name\_servers=192.168.100.1
 	- [参考２](http://www.kotaden.com/index.html)
 
 # ToDo
-- 無線LAN がつながらない
 - 遠隔からクーラーをOn/Off
 	- http://kaiware007.hatenablog.jp/entry/2015/08/28/020356
 - リモコンで照明を On/Off
