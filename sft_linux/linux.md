@@ -430,6 +430,7 @@
 	- 【ファイルツリー出力】tree -C -N dirpath
 		- -C:常に色付きで表示、-N:表示不可文字8進数表示
 	- 【ファイル種別表示】file filename
+	- 【リンク切れシンボリックリンク一覧表示(再帰的)】find dirpath -xtype l
 	
 	- 【ファイル名抽出(拡張子含む)】basename aaa/bbb/test.txt #→test.txt
 	- 【ディレクトリパス抽出】dirname aaa/bbb/test.txt #→aaa/bbb
