@@ -18,6 +18,7 @@
 - 【リモートリポジトリ作成】git remote add origin URL
 - 【リモートリポジトリ紐づけ確認】git remote #→originになっていれば完了
 - 【リモートリポジトリ紐づけ削除】git rm origin
+- 【リモートリポジトリURL表示】git remote -v
 - 【初回プッシュ】git push --set-upstream origin master #→ローカルブランチリモート反映
 - 【初回プル】git pull origin ブランチ名 #→リモートリポジトリブランチローカル反映
 
@@ -101,7 +102,7 @@
 	1. テストスクリプトの指定
 		- git bisect run テストスクリプトのファイル名
 
-- 【★】git rev-perse HEAD
+- 【最新コミットハッシュ値取得】git rev-parse HEAD
 - 【直近タグバージョン番号表示】git describe
 
 # 用語
