@@ -52,6 +52,12 @@
 - 【停止時表示有効化】enable display 1 #info displayで取得した番号を指定する
 - 【停止時表示設定表示】info display
 
+- 【ソースディレクトリ指定(dirname)】dir ...
+	- 複数ディレクトリ指定時はコロンもしくは空白で区切る
+	- カレントディレクトリは$cwdを指定する
+	- ★$cdir
+- 【ソースディレクトリ一覧出力】show directories
+
 - 【レジスタ表示(info register)】i r
 	- 表示対象レジスタ
 		- eax：汎用レジスタ
