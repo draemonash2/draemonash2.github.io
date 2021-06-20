@@ -205,4 +205,7 @@
 ## git diff と git log におけるドット表記
 - [参考URL](https://zenn.dev/yoichi/articles/git-dotted-notations)
 
+# Tips
+- [自環境でのみgitignoreする](https://aruo.net/arbk/blog/article/Tips_FAQ_Git%E3%81%A7%E8%87%AA%E5%88%86%E3%81%AE%E7%92%B0%E5%A2%83%E3%81%A0%E3%81%91gitignore_LocalFile%E3%82%92%E5%80%8B%E4%BA%BA%E7%9A%84%E3%81%ABVersion%E7%AE%A1%E7%90%86%E5%AF%BE%E8%B1%A1%E5%A4%96%E3%81%AB%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95)
+
 [トップに戻る](../index.md)

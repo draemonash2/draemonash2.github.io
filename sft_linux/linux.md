@@ -45,7 +45,7 @@
 - リダイレクト
 	- 種別
 	
-		 | コマンド(*3)						   | 画面(*1)		  | ファイル(*1) | 出力形式 | 
+		 | コマンド(*1)						   | 画面(*2)		  | ファイル(*2) | 出力形式 | 
 		 | :---								   | :---			  | :---		 | :---		| 
 		 | command > out.log				   | E				  | O			 | 新規		| 
 		 | command 2> out.log				   | O				  | E			 | 新規		| 
@@ -53,13 +53,15 @@
 		 | command &> out.log				   | -				  | O/E			 | 新規		| 
 		 | command &>> out.log				   | -				  | O/E			 | 追記		| 
 		 | command >> out.log 2>&1			   | -				  | O/E			 | 追記		| 
-		 | command 1> stdout.log 2> stderr.log | -				  | O/E(*2)		 | 新規		| 
+		 | command 1> stdout.log 2> stderr.log | -				  | O/E(*3)		 | 新規		| 
 		 | command \| tee -a out.log		   | O/？			  | O			 | 新規		| 
 		 | command \| & tee -a out.log		   | O/E			  | O/E			 | 新規		| 
+		 | command &> /dev/null				   | -				  | -			 | -(*4)	| 
 		
-			- (*1) O:標準出力、E:標準エラー出力
-			- (*2) 標準出力をstdout.logへ、標準エラー出力をstderr.logへ出力
-			- (*3) command を exec とすると、以降の出力先を変更するコマンドになる
+			- (*1) command を exec とすると、以降の出力先を変更するコマンドになる
+			- (*2) O:標準出力、E:標準エラー出力
+			- (*3) 標準出力をstdout.logへ、標準エラー出力をstderr.logへ出力
+			- (*4) 画面とファイル出力を抑制したい場合に使用する
 - フォアグラウンドとバックグラウンドの制御
 	![フォアグラウンドとバックグラウンドの制御](フォアグラウンドとバックグラウンドの制御.jpg)
 - [ブレース展開](https://qiita.com/ine1127/items/6e5fe80f4a9c64509558)
@@ -432,6 +434,9 @@
 	- 【ファイル種別表示】file filename
 	- 【リンク切れシンボリックリンク一覧表示(再帰的)】find dirpath -xtype l
 	
+	- 【ファイル数出力(フォルダ配下すべて)】find . -type f | wc -l
+	- 【ファイル数出力(フォルダ内のみ)】find . -maxdepth 1 -type f | wc -l
+	
 	- 【ファイル名抽出(拡張子含む)】basename aaa/bbb/test.txt #→test.txt
 	- 【ディレクトリパス抽出】dirname aaa/bbb/test.txt #→aaa/bbb
 	- 【ファイルパス移植性確認】pathchk aaa/bbb/test.txt
@@ -497,6 +502,7 @@
 	- 【数字列出力】seq
 
 - システム
+	- 【フォルダ使用容量表示】du -ch | grep 合計
 	- 【ディスク空き容量表示(DiskFree?)】df -h
 	- 【ディレクトリサイズ表示(DiskUsed)】du -h
 	- 【メモリ使用状況表示】free
