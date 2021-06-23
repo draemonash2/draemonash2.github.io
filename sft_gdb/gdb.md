@@ -48,9 +48,10 @@
 
 - 【停止時表示変数表示】display
 - 【停止時表示変数設定】display varname
+- 【停止時表示設定表示】info display
 - 【停止時表示無効化】disable display 1 #info displayで取得した番号を指定する
 - 【停止時表示有効化】enable display 1 #info displayで取得した番号を指定する
-- 【停止時表示設定表示】info display
+- 【停止時表示削除】undisplay 1 #info displayで取得した番号を指定する
 
 - 【ソースディレクトリ指定(dirname)】dir ...
 	- 複数ディレクトリ指定時はコロンもしくは空白で区切る
@@ -130,6 +131,7 @@
 # .gdbinit
 - ~/.gdbinitはグローバルな設定ファイル。その中で下記の設定をしておくとカレントディレクトリから.gdbinitを読み込んでくれる。
 - [.gdbinitのサンプル](https://qiita.com/aosho235/items/e8efd18364408231062d)
+
 ```
 # コマンド履歴を保存する
 set history save on
@@ -160,6 +162,7 @@ alias -a ia = info args
 alias -a il = info locals
 alias -a bd = clear
 ```
+
 - 【エイリアス】alias -a w = dashboard expression watch
 - 【関数定義】define 関数名 ～ 処理 ～ end
 
