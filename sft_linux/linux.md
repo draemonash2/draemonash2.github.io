@@ -115,7 +115,7 @@
 - 【シェルスクリプト実行方法1】source sample.sh
 - 【シェルスクリプト実行方法2】. sample.sh
 - 【シェルスクリプト実行方法3】bash sample.sh
-- 【シェルスクリプト実行権限付与】chmod +x sample.sh
+- 【シェルスクリプト実行権限付与(change mode)】chmod +x sample.sh
 	- シェルスクリプトをコマンドのように実行したい場合は、実行権限を付与する必要がある。
 
 - 【変数定義】name='John'
@@ -178,6 +178,8 @@
 - 【ファイル種別判定(セットグループIDビット設定)】test -g ファイル名 #chown g+s
 - 【ファイル種別判定(実効ユーザID所有)】test -O ファイル名
 - 【ファイル種別判定(実効グループID所有)】test -G ファイル名
+
+- 【★(change owner)】chown
 
 - 【論理結合(否定)】!条件
 - 【論理結合(AND)】条件1 -a 条件2
@@ -282,7 +284,8 @@
 	- 【ファイル移動】mv file.txt bbb/
 	- 【ディレクトリ移動】mv ccc ../
 		- 再帰的に移動する場合は「mv」コマンドではできない。「cp」と「rm」を使って移動する必要あり。
-	- 【リネーム】rename \_o .o fort.33\*
+	- 【リネーム1】rename \_o .o fort.33\*
+	- 【リネーム2】rename s/\_o/.o/g fort.33\*
 	- 【★】size
 	
 	- 【ファイルコピー1】cp file.txt aaa/file2.txt
@@ -392,7 +395,7 @@
 	
 	- 【ファイル中身表示】cat ~/.bash\_history
 	- 【ファイル中身表示(反転)】tac ~/.bash\_history
-	- 【ファイル中身表示(行番号付)】nl ~/.bash\_history
+	- 【ファイル中身表示(行番号付)(number line)】nl ~/.bash\_history
 	- 【ファイル中身表示(バイナリ表示)】od ~/.bash\_history
 	- 【ファイル中身表示(1画面ずつ)】more filename
 	- 【ファイル中身表示(1画面ずつ)】less filename
@@ -411,7 +414,7 @@
 	- 【ファイル中身表示(列結合)】paste -d"," date1.txt date2.txt #「data1.txt」と「data2.txt」を、区切り文字「,」として列結合
 	- 【ファイル中身表示(差異比較列結合)】join -j 1 data1.txt data2.txt #「data1.txt」と「data2.txt」の第1フィールドに基づいて列結合
 	
-	- 【テキストファイル 行数 表示】wc -l file
+	- 【テキストファイル 行数 表示(word count)】wc -l file
 	- 【テキストファイル 単語数 表示】wc -w file
 	- 【テキストファイル バイト数(文字数) 表示】wc -c data
 	
@@ -489,7 +492,7 @@
 	- 【数値単位変換2】numfmt --to=si 500000 #→500K
 
 - 文字操作
-	- 【文字列置換(文字単位)】tr
+	- 【文字列置換(文字単位)(translate)】tr
 		- 例1）cat data.txt \| tr [:lower:] [:uppder:] #data.txtファイルにある小文字全てを大文字に変更
 		- 例2）cat data.txt \| tr 'a-z' 'A-Z' #data.txtファイルにある小文字全てを大文字に変更 
 		- 例3）tr -d : < file1 #data.txtファイルにある「：」を削除して表示
@@ -502,9 +505,9 @@
 	- 【数字列出力】seq
 
 - システム
-	- 【フォルダ使用容量表示】du -ch | grep 合計
-	- 【ディスク空き容量表示(DiskFree?)】df -h
-	- 【ディレクトリサイズ表示(DiskUsed)】du -h
+	- 【フォルダ使用容量表示(disk usage)】du -ch | grep 合計
+	- 【ディスク空き容量表示(disk free)】df -h
+	- 【ディレクトリサイズ表示(disk usage)】du -h
 	- 【メモリ使用状況表示】free
 	- 【CPU/メモリ使用状況確認】top
 	- 【ファイル作成/更新日時表示】stat file
@@ -576,7 +579,7 @@
 		- [sedやgrepのようなテキスト処理ツールに演算機能を持たせた拡張ツール](https://ja.wikipedia.org/wiki/AWK)
 	- 【カレンダー表示】cal
 	
-	- 【URLコンテンツ取得】curl https://draemonash2.github.io/sft\_linux/linux.html
+	- 【URLコンテンツ取得(Client for URL)】curl https://draemonash2.github.io/sft\_linux/linux.html
 	- 【URLコンテンツ取得(ファイルダウンロード)】curl -OL https://github.com/draemonash2/codes/raw/master/vim/\_vimrc
 	
 	- 【TCP/IPアドレス情報表示】ifconfig
