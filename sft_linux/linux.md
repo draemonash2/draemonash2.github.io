@@ -403,6 +403,9 @@
 	- 【ファイル中身表示(一部先頭)】head -n 5 ~/.bash\_history
 	- 【ファイル中身表示(一部末尾)】tail -n 5 ~/.bash\_history
 	- 【ファイル中身表示(更新)】tail -f ~/.bash\_history
+		- tail応用例：
+			- tail -n1 \*/{comp,run}\*.log
+				- フォルダ配下にあるファイル名「comp*.log」もしくは「run*.log」の末尾1行を順に表示する。
 	
 	- 【ファイル中身表示(ソート)】sort
 	- 【ファイル中身表示(シャッフル)】shuf
