@@ -120,6 +120,7 @@
 - explorerの検索で数字列が引っかからない。(ex. 「20210405」)
 	- 原因：不明…
 	- 解決策：検索単語に[「~=」を付与](https://did2memo.net/2014/03/07/windows-file-search-unsearchable-number/)する。(ex. 「~=20210405」)
+- [Windowsの4Kスケーリング環境を検証する](https://pc.watch.impress.co.jp/docs/column/4kshugyousou/732083.html)
 
 # ショートカットキー
 

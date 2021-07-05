@@ -26,12 +26,14 @@
 - 【ブランチ切替】git checkout ブランチ名
 - 【ブランチ一覧表示(ローカル)】git branch
 - 【ブランチ一覧表示(リモート)】git branch -r
+- 【ブランチ一覧表示(ローカル＆リモート)】git branch -a
 - 【ブランチ削除】git branch -d ブランチ名
 
-- 【コミット(追加)】git commit -m “命令形メッセージ”
+- 【コミット(追加)】git commit -m "命令形メッセージ"
 - 【コミット(上書き)】git commit --amend #→英単語amend＝修正する
 - 【コミット(内容追加)】git commit --amend --no-edit #→前回のコミットメッセージのまま
 - 【コミット(コメント修正)】git commit --amend -m "修正されたコミット"
+- 【ステージング＆コミット(追加)】git commit -a -m "命令形メッセージ"
 
 - 【インデックス追加(ファイル)】git add ファイル名
 - 【インデックス追加(全て)】git add -A
@@ -95,7 +97,7 @@
 	- 【スタッシュ 削除(番号指定)】git stash drop stash@{1}
 	- 【スタッシュ 全削除】git stash clear
 
-- 【github上から指定ファイル完全消去】 `find . -name .ファイル前 -print0 | xargs -0 git rm`
+- 【github上から指定ファイル完全消去】 `find . -name .ファイル名 -print0 | xargs -0 git rm`
 	- github上でrevertした場合は必ずプルリクエストまで出す
 
 - 【[問題箇所特定](https://qiita.com/usamik26/items/cce867b3b139ea5568a6)】git bisect

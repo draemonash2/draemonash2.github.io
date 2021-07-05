@@ -6,7 +6,11 @@
 - [Raspberry Pi](../sft_raspberrypi/raspberrypi.md)
 
 # コマンド構文
-
+- 【コマンドプロンプト記号】
+	- 【rootユーザー】#
+	- 【一般ユーザー(Bシェル系)】$
+	- 【一般ユーザー(Cシェル系)】%
+	- 【一般ユーザー(Tシェル系)】>
 - 【コマンド実行】cmd
 - 【コマンド実行(非エイリアス)】\cmd # エイリアスを介さない元のコマンドを実行する
 - 【[コマンド実行(直近実行コマンド)](https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q13147860248)】!cmd
@@ -96,19 +100,63 @@
 	- !!:n-m	直前コマンドのn～m番目のトークン
 	- !!:n-$	直前コマンドのn～最終トークン
 
+- [変数展開](https://qiita.com/t_nakayama0714/items/80b4c94de43643f4be51#parameterword-%E3%83%87%E3%83%95%E3%82%A9%E3%83%AB%E3%83%88%E5%80%A4%E4%BB%A3%E5%85%A5%E3%81%82%E3%82%8A)
+	- 【参照】${hoge}
+	- 【空変数時デフォルト値参照】${hoge:-"default"} #hogeにdefaultが代入されない
+	- 【空変数時デフォルト値代入】${hoge:+"default"} #hogeにdefaultが代入される
+	- 【変数未定義時デフォルト値参照】${hoge-"default"} #hogeにdefaultが代入されない
+	- 【変数未定義時デフォルト値代入】${hoge+"default"} #hogeにdefaultが代入される
+	- 【変数未定義時エラー出力】${hoge:?"error-message"}
+	- 【非空変数時代用代入】${hoge:+"other-value"}
+	- 【非空変数時代用参照】${hoge+"other-value"}
+	- 【文字列抽出】${hoge:5} #0オリジンで5文字目以降を参照
+	- 【文字列抽出】${hoge:5:3} #0オリジンで5～7文字目を参照
+	- 【文字列抽出】${hoge:5:-1} #0オリジンで5文字目以降で、末尾から1文字取り除いたものを参照
+	- 【文字数出力】${#hoge} #hogeが"other-value"なら、11が返却される
+	- 【配列要素数出力】${list[*]}
+	- 【前方一致除去(最短一致)】${hoge#hoge-} #hogeが"hoge-value"なら、"value"が返却される
+	- 【前方一致除去(最長一致)】${hoge##*hoge-}
+	- 【後方一致除去(最短一致)】${hoge%-value}
+	- 【後方一致除去(最長一致)】${hoge%%-value*}
+	- 【文字列置換(先頭単語のみ)】${hoge/value/fuga} #hoge内の文字列valueをfugaに置換する
+	- 【文字列置換(全単語)】${hoge//hoge/fuga}
+	- 【大文字化(先頭文字)】${hoge^}
+	- 【大文字化(全文字)】${hoge^^}
+	- 【小文字化(先頭文字)】${hoge,}
+	- 【小文字化(全文字)】${hoge,,}
+	- 【大文字小文字反転(先頭文字)】${hoge~}
+	- 【大文字小文字反転(全文字)】${hoge~~}
+	- 【数式展開】$((1+2\*3))
+
 # シェルスクリプト構文
 
 - 【シェバン(シバン)】#!/bin/bash
 	- 「#!」…スクリプトを実行するシェルプログラムを指定する記号
 - 【メタキャラクタ】data{1,2} #data1 と data2に展開される
-- 【シェルオプション設定】set [-o] [+o] オプション
-	- オプション一覧
-		- 【作成/変更変数の自動的エクスポート】allexport
-		- 【キーバインドemacs化】emacs
-		- 【キーバインドvi化】vi
-		- 【Ctrl＋Dによるログアウト禁止】ignoreeof
-		- 【既存ファイルへの上書き出力禁止】noclobber
-		- 【メタキャラクタを使用したファイル名展開無効化】noglob
+
+- [setコマンド](https://www.atmarkit.co.jp/ait/articles/1805/10/news023.html)
+	- 【シェルオプション設定】set [-o] [+o] オプション
+		- 操作種別
+			- -o：オプション有効化
+			- +o：オプション無効化
+		- オプション一覧
+			- 【作成/変更変数の自動的エクスポート】allexport
+			- 【キーバインドemacs化】emacs
+			- 【キーバインドvi化】vi
+			- 【Ctrl＋Dによるログアウト禁止】ignoreeof
+			- 【既存ファイルへの上書き出力禁止】noclobber
+			- 【メタキャラクタを使用したファイル名展開無効化】noglob
+	- 【変数一覧表示】set
+	- 【シェルオプション表示】set -o
+	- 【エラー発生時強制終了】set -e #＝「set -o errexit」
+	- 【未定義変数使用時強制終了】set -u
+	- 【パス名展開無効化】set -f #＝「set -o noglob」。アスタリスクなどでのワイルドカードでの展開を無効化する
+	- 【実行コマンド出力】set -x
+	- 【実行コマンド出力】set -v
+	- 【構文チェックのみ実施(実行しない)】set -n #＝「set -o noexec」
+	- 【ブレース展開無効化】set +B #＝「set +o braceexpand」。デフォルトは有効(ブレース展開する)
+	- 【リダイレクト時ファイル上書き無効化】set -C #＝「set -o noclobber」。リダイレクト時の追記はできる。
+	- 【作成/変更変数の自動的エクスポート】set -a #＝「set -o allexport」。シェル変数の定義と同時にexportし、環境変数としても使用可能にする。
 
 - 【コメント】#
 
@@ -256,7 +304,12 @@
 	- 【実行遅延】sleep 1d 1h 1m 1s
 	
 	- 【コマンドライン引数受取後実行】cmd1 \| xargs cmd2
-		- [パイプとxargsの違い](https://moffu-mofu.hatenadiary.jp/entry/2018/07/29/225300)
+		- xargsとは
+			- [「標準入力を引数に変換」してくれるもの](https://teratail.com/questions/63845)
+				- パイプでつないだ場合、前コマンドを標準出力を次コマンドの標準入力として受け取る。
+				- 標準入力を入力にできないコマンド(ex. echo,rm 等)は、xargsで標準入力→引数に変換する必要がある。
+				- 標準入力を入力にできるコマンド(ex. cat,sort,uniq等)は、xargsなしでそのままパイプで渡せる。
+					- 標準入力を入力にできるコマンドかどうかは、引数なしでコマンドを実行すればわかる。(ex. sort)
 	- 【プロセス実行優先度変更後コマンド実行】nice -n -15 updatedb #実行優先度を「15」低くして、updatedbコマンドを実行
 		- niceness…プロセスの優先度を示す値(＝アプリケーション実行順序)(≠スケジュール優先度)
 	- 【ログアウト後継続コマンド実行】nohup cmd
@@ -350,18 +403,20 @@
 	
 	- 【一時的空ファイル/ディレクトリ作成】mktemp
 	
-	- 【圧縮】tar -czvf xxx.tgz file1 file2 dir1 #オプション名の由来はcreate
-	- 【展開】tar -xzvf xxx.tgz #オプション名の由来はextract
-		- c:新規作成 x:展開 z:gzipを通してそり v:ファイル一覧表示 f:ファイル名指定
+	- 【圧縮】tar -czvf xxx.tgz file1 file2 dir1
+	- 【展開】tar -xzvf xxx.tgz
+		- c(create):新規作成 x(extract):展開 z:gzip形式圧縮 v:ファイル一覧表示 f:ファイル名指定
 	
 	- 【ファイルサイズ増減】truncate
 		- 10MBの空ファイル作成するとかが可能
 	
 	- 【差分ファイル作成】diff -u file\_old file\_new > hoge.patch
-	- 【差分適用】patch -u file\_path < hoge.patch
+	- 【差分適用(単一ファイル指定)】patch -u file\_path < hoge.patch
+	- 【差分適用(フォルダ配下全て)】patch -p0 < hoge.patch
 	- 【差分巻き戻し】patch -R file\_path < hoge.patch
 		- -u：差分をunified形式のコンテキストdiffとして解釈
 		- -R：新旧のファイルが反転していると見なす
+	
 	- 【インデント調整】indent a.c
 
 - ファイル情報表示
@@ -508,7 +563,7 @@
 	- 【数字列出力】seq
 
 - システム
-	- 【フォルダ使用容量表示(disk usage)】du -ch | grep 合計
+	- 【フォルダ使用容量表示(disk usage)】du -h -d 1
 	- 【ディスク空き容量表示(disk free)】df -h
 	- 【ディレクトリサイズ表示(disk usage)】du -h
 	- 【メモリ使用状況表示】free
@@ -661,11 +716,6 @@
 		- 今となってはメチャクチャ便利というものではないが、 シンプルだし、パイプへの出力に使えるので持ってて損はない。
 
 # Tips
-- コマンドプロンプトの記号
-	- 【rootユーザー】#
-	- 【一般ユーザー(Bシェル系)】$
-	- 【一般ユーザー(Cシェル系)】%
-	- 【一般ユーザー(Tシェル系)】>
 - [「E: Unable to locate package」エラー解消法＠Ubuntu](https://qiita.com/hatorijobs/items/c503840c13672e12d188)
 	- `apt update` を実行する
 		- `sudo apt-get update`
@@ -725,6 +775,8 @@
 - [GDBの使い方はこちら](../sft_gdb/gdb.md)
 - alias rm='rm -i'は避けた方がいい
 	- エイリアスのrm -iが定義されてない環境で事故を起こす危険があるから。やるなら、rmとは違う名前で定義すべき。それなら、未定義の環境では コマンドが無いエラーで済む。
+- ブレース展開を用いたバックアップファイルの作成
+	- cp file.txt{,.bk}
 - bashのPS1で使える特殊文字
 	- プロンプトの色を変更するには \e[太さ;色番号m、元に戻すには \e[m を、\[ ... \] で挟んで指定します。
 	- 太さは 0 が通常、1 が太字、色は、黒(30)、赤(31)、緑(32)、黄色(33)、青(34)、マジェンダ(35)、シアン(36)、灰色(37)、白(97) などを指定できます。
@@ -759,6 +811,70 @@
 		| \\\\		| バックスラッシュそのもの |
 		| \\[		| 非表示文字の開始 |
 		| \\]		| 非表示文字の終了 |
+	
+- export 動作実験
+```
+$ cat test.sh
+#!/bin/sh
+
+echo === called test.sh ===
+
+echo echo ENDOENV1:$ENDOENV1
+echo echo ENDOENV2:$ENDOENV2
+echo echo ENDOENV3:$ENDOENV3
+
+export ENDOENV1=aaa
+
+./test2.sh
+
+echo echo ENDOENV1:$ENDOENV1
+echo echo ENDOENV2:$ENDOENV2
+echo echo ENDOENV3:$ENDOENV3
+
+$ cat test2.sh
+#!/bin/sh
+
+echo === called test2.sh ===
+
+echo echo ENDOENV1:$ENDOENV1
+echo echo ENDOENV2:$ENDOENV2
+echo echo ENDOENV3:$ENDOENV3
+
+export ENDOENV1=bbb
+export ENDOENV2=11
+ENDOENV3=uuuu
+
+echo echo ENDOENV1=$ENDOENV1
+echo echo ENDOENV2=$ENDOENV2
+echo echo ENDOENV3=$ENDOENV3
+
+
+$ export ENDOENV1=init1
+
+$ ENDOENV2=init2
+
+$ ./test.sh
+=== called test.sh ===
+echo ENDOENV1:init1
+echo ENDOENV2:
+echo ENDOENV3:
+=== called test2.sh ===
+echo ENDOENV1:aaa
+echo ENDOENV2:
+echo ENDOENV3:
+echo ENDOENV1=bbb
+echo ENDOENV2=11
+echo ENDOENV3=uuuu
+echo ENDOENV1:aaa
+echo ENDOENV2:
+echo ENDOENV3:
+
+$ echo $ENDOENV1
+init1
+
+$ echo $ENDOENV2
+init2
+```
 
 # ショートカットキー
 
