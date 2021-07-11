@@ -189,6 +189,7 @@
 - 【特殊変数 現在実行シェルプロセスID】$$
 - 【特殊変数 最終実行バックグラウンドプロセスID】$!
 - 【特殊変数 直前実行したコマンド終了値(0=正常終了、1=異常終了、それ以外はエラー）】$?
+- 【特殊変数 最終実行コマンド最終引数】`$_`
 
 - 【標準入力取得】echo -n "あなたのお名前は?";read yourname
 
@@ -787,6 +788,42 @@
 - ブレース展開を用いたバックアップファイルの作成
 	- cp file.txt{,.bk}
 - [紛らわしいけど重大な違いを引き起こすリダイレクト](https://zariganitosh.hatenablog.jp/entry/20110623/redirect_command)
+- [シェル変数と環境変数の違い](https://www.tohoho-web.com/ex/shell.html)
+	- シェル変数：そのシェルの中だけで使用できる
+	- 環境変数：子プロセスにも引き継がれる
+- [shとsourceの違い](https://www.softel.co.jp/blogs/tech/archives/5971)
+	- `./test.sh` ：新たな子プロセスを生成して実行する
+	- `source test.sh` ：現在のシェルで実行する
+	- 実例
+```
+$ export TESTENV1=aaa; TESTENV2=bbb
+
+$ cat test.sh
+echo TESTENV1=$TESTENV1
+echo TESTENV2=$TESTENV2
+
+$ ./test.sh
+TESTENV1=aaa
+TESTENV2=
+
+$ source test.sh
+TESTENV1=aaa
+TESTENV2=bbb
+
+$ cat test2.sh
+#!/bin/bash
+echo TESTENV1=$TESTENV1
+echo TESTENV2=$TESTENV2
+
+$ ./test2.sh
+TESTENV1=aaa
+TESTENV2=
+
+$ source test2.sh
+TESTENV1=aaa
+TESTENV2=bbb
+```
+
 - bashのPS1で使える特殊文字
 	- プロンプトの色を変更するには \e[太さ;色番号m、元に戻すには \e[m を、\[ ... \] で挟んで指定します。
 	- 太さは 0 が通常、1 が太字、色は、黒(30)、赤(31)、緑(32)、黄色(33)、青(34)、マジェンダ(35)、シアン(36)、灰色(37)、白(97) などを指定できます。
