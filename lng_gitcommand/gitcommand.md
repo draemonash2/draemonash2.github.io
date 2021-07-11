@@ -6,6 +6,7 @@
 - 【ログ表示(2件のみ)】git log -2
 - 【ログ表示(1行表示)】git log --oneline
 - 【ログ表示(グラフ表示)】git log --graph
+- 【ログ表示(内容詳細)】git show ハッシュ値
 - 【ディレクトリ作成】git init
 - 【変更状態確認】git status
 
@@ -34,17 +35,28 @@
 - 【コミット(内容追加)】git commit --amend --no-edit #→前回のコミットメッセージのまま
 - 【コミット(コメント修正)】git commit --amend -m "修正されたコミット"
 - 【ステージング＆コミット(追加)】git commit -a -m "命令形メッセージ"
+- 【ファイル名変更】git mv 旧ファイル名 新ファイル名
 
 - 【インデックス追加(ファイル)】git add ファイル名
-- 【インデックス追加(全て)】git add -A
+- 【インデックス追加(全て)】git add -u #すべての modified を staged にする
+- 【インデックス追加(全て)】git add -A #すべての untracked とすべての modified を staged にする
 - 【インデックス追加(全て)】git add \*
 - 【インデックス削除(ファイル)】git rm ファイル名
 - 【インデックスリネーム】git mv 旧ファイル名 新ファイル名
 - 【作業ツリー巻戻し】git checkout ハッシュ値
 - 【作業ツリー巻戻し(ファイル)】git checkout ファイル名
-- 【作業ツリー巻戻し(全て)】git checkout \*
+- 【作業ツリー巻戻し(全て)】git checkout \* #untrackedファイルは削除しない
 - 【追跡対象外ファイル削除】git clean -fdx
 	- -f:強制実行、-d:ディレクトリを削除、-x:.gitignore等で指定されているファイルを除外せず削除
+
+- 【特定コミット時点のファイル閲覧】git show ハッシュ値:ファイル名
+
+- 【特定箇所最終更新閲覧】
+	- 【行範囲指定1】git blame -L 50,60 ファイル名 #50～60行目の最新コミットハッシュ値/コミッター表示
+	- 【行範囲指定2】git blame -L 125,+5 ファイル名 #125行目から5行分の最新コミットハッシュ値/コミッター表示
+	- 【正規表現指定1】git blame -L /ABC/,/DEF/ file.txt #/ABC/ にマッチする行から /DEF/ にマッチする行まで
+	- 【正規表現指定2】git blame -L ,/ABC/ file.txt #ファイルの先頭から /ABC/ にマッチする行まで
+	- 【正規表現指定3】git blame -L /ABC/ file.txt #/ABC/ にマッチする行からファイルの末尾まで
 
 - [変更取消し](https://www-creators.com/archives/1290)
 	- 【変更取消し 作業ツリーのみ】git checkout ファイル名

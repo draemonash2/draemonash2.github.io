@@ -546,6 +546,8 @@
 			- 【パターンマッチファイル対象除外】--exclude='\*.o'
 			- 【結果非表示（主にシェルスクリプトなどで判定用に使う）】-q
 	
+	- 【Grep置換】grep -l "Dim" \*.vbs | xargs sed -i "s/Dim/Dims/g"
+	
 	- 【数値単位変換1】numfmt --from=auto 1Mi #→1048576
 	- 【数値単位変換2】numfmt --to=si 500000 #→500K
 
@@ -554,9 +556,9 @@
 		- 例1）cat data.txt \| tr [:lower:] [:uppder:] #data.txtファイルにある小文字全てを大文字に変更
 		- 例2）cat data.txt \| tr 'a-z' 'A-Z' #data.txtファイルにある小文字全てを大文字に変更 
 		- 例3）tr -d : < file1 #data.txtファイルにある「：」を削除して表示
-	- 【テキスト置換】sed 's/Wolrd/World/g'
+	- 【テキスト置換】echo "Hello World" | sed 's/Hello/Welcome/g'
 	- 【テキスト置換(ファイル対象)】sed -i -e 's/Wolrd/World/' targetfile.txt
-	- 【テキスト追加(5行目)】sed 5a addline
+	- 【テキスト追加(5行目)】sed 5a addstring
 	- 【テキスト削除(10行目)】sed 15d
 	- 【ファイル書換＆元ファイル.bak化】sed -i.bak
 	- 【ソート＆重複削除】cat file1 \| sort \| uniq
@@ -633,8 +635,15 @@
 	
 	- 【マニュアル確認】man wpa\_supplicant.conf
 	
-	- 【★】awk
-		- [sedやgrepのようなテキスト処理ツールに演算機能を持たせた拡張ツール](https://ja.wikipedia.org/wiki/AWK)
+	- 【[awk](https://www.tohoho-web.com/ex/awk.html)】
+		- 【出力】awk '{print $2,$4}' #空白区切りで2番めと4番めの部分を出力
+		- 【数値判定】awk '$5>=100{print $2,$4}' #5番めが100以上なら2番めと4番めを出力
+		- 【文字列判定】awk '$9=="hello.awk" { print $3, $4, $9 }'
+		- 【区切り文字指定】awk -F: '{ print $1, $6 }' #区切り文字を:として1列目、6列目
+		- 【スクリプト実行】awk -f #awk用のコマンドが書かれたファイルに従って処理を行う
+		- 【パターンマッチ】awk '/World/ { print $1 }' # レコードの中にABCという文字列が含まれていればマッチ
+		- 【パターンマッチ】awk $1 ~ /^#/ { ... } # 第1フィールド先頭が#で始まっていたらマッチ
+	
 	- 【カレンダー表示】cal
 	
 	- 【URLコンテンツ取得(Client for URL)】curl https://draemonash2.github.io/sft\_linux/linux.html
@@ -777,6 +786,7 @@
 	- エイリアスのrm -iが定義されてない環境で事故を起こす危険があるから。やるなら、rmとは違う名前で定義すべき。それなら、未定義の環境では コマンドが無いエラーで済む。
 - ブレース展開を用いたバックアップファイルの作成
 	- cp file.txt{,.bk}
+- [紛らわしいけど重大な違いを引き起こすリダイレクト](https://zariganitosh.hatenablog.jp/entry/20110623/redirect_command)
 - bashのPS1で使える特殊文字
 	- プロンプトの色を変更するには \e[太さ;色番号m、元に戻すには \e[m を、\[ ... \] で挟んで指定します。
 	- 太さは 0 が通常、1 が太字、色は、黒(30)、赤(31)、緑(32)、黄色(33)、青(34)、マジェンダ(35)、シアン(36)、灰色(37)、白(97) などを指定できます。
