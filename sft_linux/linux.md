@@ -421,9 +421,11 @@
 	- 【インデント調整】indent a.c
 
 - ファイル情報表示
-	- 【現在ディレクトリパス表示】pwd
+	- 【現在ディレクトリパス表示1】pwd
+	- 【現在ディレクトリパス表示2】echo $PWD
 	- 【現在ディレクトリパス表示(実パス表示(デフォルト挙動))】pwd -P
 	- 【現在ディレクトリパス表示(シンボリックリンクパス経由)】pwd -L
+	- 【スクリプト格納先ファイルパス表示】echo `cd $(dirname ${0}) && pwd`
 	
 	- 【ファイル/ディレクトリ一覧表示】ls
 	- 【ファイル/ディレクトリ一覧表示(隠しファイル/詳細情報含む)】ls -al
@@ -858,7 +860,22 @@ TESTENV2=bbb
 		| \\\\		| バックスラッシュそのもの |
 		| \\[		| 非表示文字の開始 |
 		| \\]		| 非表示文字の終了 |
-	
+
+- カレントディレクトリ実験
+```
+$ pwd
+/home/draemon_ash3/dir1
+
+$ cat ../test.sh
+#!/bin/bash
+echo $PWD
+echo `cd $(dirname ${0}) && pwd`
+
+$ ../test.sh
+/home/draemon_ash3/dir1
+/home/draemon_ash3
+```
+
 - export 動作実験
 ```
 $ cat test.sh
