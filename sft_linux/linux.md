@@ -798,6 +798,7 @@
 	- `./test.sh` ：新たな子プロセスを生成して実行する
 	- `source test.sh` ：現在のシェルで実行する
 	- 実例
+
 ```
 $ export TESTENV1=aaa; TESTENV2=bbb
 
