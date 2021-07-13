@@ -865,6 +865,7 @@ TESTENV2=bbb
 		| \\]		| 非表示文字の終了 |
 
 - カレントディレクトリ実験
+
 ```
 $ pwd
 /home/draemon_ash3/dir1
@@ -880,6 +881,7 @@ $ ../test.sh
 ```
 
 - export 動作実験
+
 ```
 $ cat test.sh
 #!/bin/sh
