@@ -861,8 +861,7 @@ TESTENV2=bbb
 		| \\[		| 非表示文字の開始 |
 		| \\]		| 非表示文字の終了 |
 
-- カレントディレクトリ実験
-
+- スクリプトで取得するカレントディレクトリの違い
 ```
 $ pwd
 /home/draemon_ash3/dir1
@@ -877,8 +876,7 @@ $ ../test.sh
 /home/draemon_ash3
 ```
 
-- export 動作実験
-
+- シェル変数と環境変数のスコープ差異
 ```
 $ cat test.sh
 #!/bin/sh
