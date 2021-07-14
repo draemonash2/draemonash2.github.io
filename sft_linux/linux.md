@@ -798,36 +798,32 @@
 	- `./test.sh` ：新たな子プロセスを生成して実行する
 	- `source test.sh` ：現在のシェルで実行する
 	- 実例
-
 ```
 $ export TESTENV1=aaa; TESTENV2=bbb
-
 $ cat test.sh
 echo TESTENV1=$TESTENV1
 echo TESTENV2=$TESTENV2
-
 $ ./test.sh
 TESTENV1=aaa
 TESTENV2=
-
 $ source test.sh
 TESTENV1=aaa
 TESTENV2=bbb
-
 $ cat test2.sh
 #!/bin/bash
 echo TESTENV1=$TESTENV1
 echo TESTENV2=$TESTENV2
-
 $ ./test2.sh
 TESTENV1=aaa
 TESTENV2=
-
 $ source test2.sh
 TESTENV1=aaa
 TESTENV2=bbb
 ```
 
+- [ジョブとプロセスの違い](https://qiita.com/Takatoshi_Hiki/items/4e89ae3cf51794d8a96f)
+	- プロセス…メモリ上で実行状態にあるプログラム
+	- ジョブ…シェルから見たときの処理の単位をジョブと呼ぶ(プロセスはカーネルから見たときの処理の単位)。シェルのコマンドラインに入力した１行が１つのジョブになる。
 - 引数受け取り時の作法
 	- 引数を受け取る際は、"$?" "$@" "$1"の様に "..." で囲んだ方が安全です。囲まない場合、引数に\*を含む文字を受け取った場合、カレントフォルダのファイル名に展開されてしまします。
 - bashのPS1で使える特殊文字
@@ -917,7 +913,6 @@ ENDOENV3=uuuu
 echo echo ENDOENV1=$ENDOENV1
 echo echo ENDOENV2=$ENDOENV2
 echo echo ENDOENV3=$ENDOENV3
-
 
 $ export ENDOENV1=init1
 
