@@ -19,11 +19,12 @@
 	- ex. 最後に実行したlsが `ls -R | grep "babababa" #①` だった場合、その直後に `!!` と入力すると、①のコマンドが再度実行される
 	
 - [コマンド連続実行方法](https://qiita.com/egawa_kun/items/714394609eef6be8e0bf)
-	- 【；】コマンド1終了後、コマンド2実行（実行結果に関わらず）
-	- 【＆】コマンド1実行(バックグラウンド)中に、コマンド2実行
-	- 【｜】コマンド1実行結果をコマンド2へ渡して実行
-	- 【＆＆】コマンド1正常終了後、コマンド2実行
-	- 【｜｜】コマンド1異常終了時、コマンド2実行
+	- 【逐次実行(cmd1実行結果に関わらず)】`cmd1 ; cmd2`
+	- 【逐次実行(cmd1正常終了時のみ)】`cmd1 && cmd2`
+	- 【逐次実行(cmd1異常終了時のみ)】`cmd1 || cmd2`
+	- 【並列実行(cmd1実行結果に関わらず)】`cmd1 & cmd2` #cmd1をバックグラウンドで実行する
+	- 【実行結果引渡し(cmd1標準出力→cmd2標準入力)】`cmd1 | cmd2`
+	- 【実行結果引渡し(cmd1標準出力＆エラー出力→cmd2標準入力)】`cmd1 |& cmd2`
 - [シェルスクリプトを実行する時の書いておくとよいこと](https://qiita.com/youcune/items/fcfb4ad3d7c1edf9dc96)
 	- 【set -e】エラーがあったらシェルスクリプトをそこで打ち止めにしてくれる
 	- 【set -u】未定義の変数を使おうとしたときに打ち止めにしてくれる
@@ -345,6 +346,7 @@
 	
 	- 【ファイルコピー1】cp file.txt aaa/file2.txt
 	- 【ファイルコピー2】cp file.txt aaa/
+	- 【ファイルコピー(シンボリックリンク)】 cp -d file.txt aaa/file2.txt
 	- 【ディレクトリコピー(再帰的)】 cp -r orgdir/ trgtdir/
 		- cd オプション
 			- 【ディレクトリ以下を再帰的にコピー(由来: recursive)】-r
@@ -878,24 +880,65 @@ $ ../test.sh
 ```
 
 - シェル変数と環境変数のスコープ差異
+	- シェル変数は自シェル内のみ反映
+	- 環境変数は自シェルとサブシェルに適用
+	- exportされた変数は環境変数となる。なので、先にexportしておけば、代入時にexportしなくても、サブシェルへ適用できる。
 
 ```
-$ cat test.sh
+$ ./test1.sh
+=== called test1.sh ===
+echo ENDOENV1:init
+echo ENDOENV2:
+echo ENDOENV3:
+echo ENDOENV4:
+echo ENDOENV5:
+=== set variables at test1.sh ===
+=== called test2.sh ===
+echo ENDOENV1:set@test1.sh
+echo ENDOENV2:
+echo ENDOENV3:set@test1.sh
+echo ENDOENV4:
+echo ENDOENV5:
+=== set variables at test2.sh ===
+echo ENDOENV1:set@test2.sh
+echo ENDOENV2:set@test2.sh
+echo ENDOENV3:set@test1.sh
+echo ENDOENV4:set@test2.sh
+echo ENDOENV5:set@test2.sh
+=== finished test2.sh ===
+echo ENDOENV1:set@test1.sh
+echo ENDOENV2:set@test1.sh
+echo ENDOENV3:set@test1.sh
+echo ENDOENV4:
+echo ENDOENV5:
+=== finished test1.sh ===
+
+$ cat test1.sh
 #!/bin/sh
 
-echo === called test.sh ===
+echo === called test1.sh ===
 
 echo echo ENDOENV1:$ENDOENV1
 echo echo ENDOENV2:$ENDOENV2
 echo echo ENDOENV3:$ENDOENV3
+echo echo ENDOENV4:$ENDOENV4
+echo echo ENDOENV5:$ENDOENV5
 
-export ENDOENV1=aaa
+echo === set variables at test1.sh ===
+export ENDOENV1="set@test1.sh"
+ENDOENV2="set@test1.sh"
+export ENDOENV3
+ENDOENV3="set@test1.sh"
 
 ./test2.sh
 
 echo echo ENDOENV1:$ENDOENV1
 echo echo ENDOENV2:$ENDOENV2
 echo echo ENDOENV3:$ENDOENV3
+echo echo ENDOENV4:$ENDOENV4
+echo echo ENDOENV5:$ENDOENV5
+
+echo === finished test1.sh ===
 
 $ cat test2.sh
 #!/bin/sh
@@ -905,41 +948,27 @@ echo === called test2.sh ===
 echo echo ENDOENV1:$ENDOENV1
 echo echo ENDOENV2:$ENDOENV2
 echo echo ENDOENV3:$ENDOENV3
+echo echo ENDOENV4:$ENDOENV4
+echo echo ENDOENV5:$ENDOENV5
 
-export ENDOENV1=bbb
-export ENDOENV2=11
-ENDOENV3=uuuu
+echo === set variables at test2.sh ===
+export ENDOENV1="set@test2.sh"
+export ENDOENV2="set@test2.sh"
+ENDOENV4="set@test2.sh"
+export ENDOENV5
+ENDOENV5="set@test2.sh"
 
-echo echo ENDOENV1=$ENDOENV1
-echo echo ENDOENV2=$ENDOENV2
-echo echo ENDOENV3=$ENDOENV3
+echo echo ENDOENV1:$ENDOENV1
+echo echo ENDOENV2:$ENDOENV2
+echo echo ENDOENV3:$ENDOENV3
+echo echo ENDOENV4:$ENDOENV4
+echo echo ENDOENV5:$ENDOENV5
 
-$ export ENDOENV1=init1
-
-$ ENDOENV2=init2
-
-$ ./test.sh
-=== called test.sh ===
-echo ENDOENV1:init1
-echo ENDOENV2:
-echo ENDOENV3:
-=== called test2.sh ===
-echo ENDOENV1:aaa
-echo ENDOENV2:
-echo ENDOENV3:
-echo ENDOENV1=bbb
-echo ENDOENV2=11
-echo ENDOENV3=uuuu
-echo ENDOENV1:aaa
-echo ENDOENV2:
-echo ENDOENV3:
-
-$ echo $ENDOENV1
-init1
-
-$ echo $ENDOENV2
-init2
+echo === finished test2.sh ===
 ```
+
+- [シンボリックリンクのパーミッション](https://yohei-a.hatenablog.jp/entry/20110426/1303795350)
+	- シンボリックリンクファイルのパーミッションは意味を持たず、指示先のパーミッションが有効となる。
 
 # ショートカットキー
 
