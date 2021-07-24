@@ -243,7 +243,7 @@
 
 - 【if】if [ $NUM1 -eq $NUM2 ]; then ～コマンド(条件式1が真)～ elif [ $NUM1 -eq $NUM3 ]; then ～コマンド(条件式2が真)～ else ～コマンド(条件式2が偽)～ fi
 	- `test 1 -eq 1` と `[ 1 -eq 1]` は同等([詳細はこちら](https://ascii.jp/elem/000/001/278/1278792/))
-- 【switch】case 変数 in 条件式) コマンド ;; esac
+- 【switch】`case 変数 in ～ パターン1) ～ コマンド ～ ;; ～ パターン2) ～ コマンド ～ ;; ～ *) ～ コマンド ～ ;; ～ esac`
 - 【for(リスト指定)】for VAR in Level1 Level2 Level3 ～ do ～ echo LinuC $VAR ～ done
 - 【for(数値指定1)】for NUM in `seq 1 3` ～ do ～ echo LinuC Level $NUM ～ done
 - 【for(数値指定2)】for ((i = 0; i <= 10; i++)) { ～ echo "$i" ～ }
@@ -370,7 +370,9 @@
 	- 【シンボリックリンク作成】ln -s mydir/trgtfile.txt ./lnkfile
 	- 【リンク指示先表示】readlink ./lnkfile
 	- 【リンク指示先表示(シンボリックリンク解決済み絶対パス)】readlink -f \_lib
-	- 【リンクファイル削除】unlink ./lnkfile
+	- 【リンクファイル削除1】unlink ./lnkfile
+	- 【リンクファイル削除2】rm ./lnkfile
+		- rm でリンクファイル削除時は、末尾に"/"を付与しないこと！リンク先のフォルダ,ファイルを削除してしまう！詳しくは[こちら](https://mimirswell.ggnet.co.jp/blog-165)
 	
 	- 【データを印刷できる形式に変換】base64
 	- 【データを印刷できる形式に変換】base32
@@ -794,6 +796,9 @@
 - [シェル変数と環境変数の違い](https://www.tohoho-web.com/ex/shell.html)
 	- シェル変数：そのシェルの中だけで使用できる
 	- 環境変数：子プロセスにも引き継がれる
+- [.とsourceの違い](https://takuya-1st.hatenablog.jp/entry/2017/01/07/111105)
+	- `.` : どのシェルでも使える(POSIXで定義されている)
+	- `source` : bash でしか使わない
 - [shとsourceの違い](https://www.softel.co.jp/blogs/tech/archives/5971)
 	- `./test.sh` ：新たな子プロセスを生成して実行する
 	- `source test.sh` ：現在のシェルで実行する
@@ -963,6 +968,55 @@ echo echo ENDOENV4:$ENDOENV4
 echo echo ENDOENV5:$ENDOENV5
 
 echo === finished test2.sh ===
+```
+
+- 「シェルスクリプトの引数」と「関数の引数」を組み合わせた場合の動作
+	- しっかり各々の引数を引き渡せている！
+
+```
+$ cat test3.sh
+#!/bin/bash
+
+echo arg num:$# , arg:$0 $1 $2 $3
+
+function testfunc() {
+        echo arg num:$# , arg:$0 $1 $2 $3
+}
+
+echo 'call "testfunc a1 a2"'
+testfunc a1 a2
+echo 'call "testfunc $2 $1"'
+testfunc $2 $1
+
+echo arg num:$# , arg:$0 $1 $2 $3
+
+$ ./test3.sh a b c
+arg num:3 , arg:./test3.sh a b c
+call "testfunc a1 a2"
+arg num:2 , arg:./test3.sh a1 a2
+call "testfunc $2 $1"
+arg num:2 , arg:./test3.sh b a
+arg num:3 , arg:./test3.sh a b c
+```
+
+- シェル変数は関数内で参照できるか？
+	- できる！
+
+```
+$ ./test4.sh
+SHELLENV :aaa
+SHELLENV :aaa
+SHELLENV :aaa
+
+$ cat test4.sh
+#!/bin/bash
+SHELLENV=aaa
+echo SHELLENV :$SHELLENV
+function testfunc() {
+   echo SHELLENV :$SHELLENV
+}
+testfunc
+echo SHELLENV :$SHELLENV
 ```
 
 - [シンボリックリンクのパーミッション](https://yohei-a.hatenablog.jp/entry/20110426/1303795350)
