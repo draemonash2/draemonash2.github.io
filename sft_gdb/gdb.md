@@ -128,6 +128,10 @@
 	
 - ★コアダンプ解析
 
+# Tips
+- [gdb開始後にmain関数先頭で停止させる方法](https://qiita.com/aosho235/items/e8efd18364408231062d)
+	- `gdb -ex start`
+
 # .gdbinit
 - ~/.gdbinitはグローバルな設定ファイル。その中で下記の設定をしておくとカレントディレクトリから.gdbinitを読み込んでくれる。
 - [.gdbinitのサンプル](https://qiita.com/aosho235/items/e8efd18364408231062d)
