@@ -1026,6 +1026,17 @@ echo SHELLENV :$SHELLENV
 - [シンボリックリンクのパーミッション](https://yohei-a.hatenablog.jp/entry/20110426/1303795350)
 	- シンボリックリンクファイルのパーミッションは意味を持たず、指示先のパーミッションが有効となる。
 
+- [bash スクリプトをデバッグする方法](https://qiita.com/aosho235/items/4e913905a130c0eaf86d)
+
+```
+#!/bin/bash
+
+exec 5> debug_output.txt
+BASH_XTRACEFD="5"
+PS4='$LINENO: '
+set -x
+```
+
 # ショートカットキー
 
 |Ctrl|Shift|Alt|Key|機能|
