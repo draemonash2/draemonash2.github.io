@@ -430,6 +430,7 @@
 	- 【現在ディレクトリパス表示(シンボリックリンクパス経由)】`pwd -L`
 	- 【スクリプト格納先ファイルパス表示】`echo `cd $(dirname ${0}) && pwd``
 	
+	- 【ファイル一覧出力】`find . -maxdepth 1 -type f | grep ./ | awk -F/ '{ print $2 }'` #for 文で回すための一覧作成用
 	- 【ファイル/ディレクトリ一覧表示】`ls`
 	- 【ファイル/ディレクトリ一覧表示(隠しファイル/詳細情報含む)】`ls -al`
 	- 【ディレクトリ一覧出力1★】`dir`
@@ -453,6 +454,7 @@
 			- 【ソート＠更新時間順】`-t`
 			- 【★】`-b`
 		- [ls --color 時の色意味](https://www.mm2d.net/main/prog/linux/ls-08.html)
+	- 【ディレクトリ一覧出力4】`find . -maxdepth 1 -type d | grep ./ | awk -F/ '{ print $2 }'` #for 文で回すための一覧作成用
 	
 	- 【ファイル中身表示】`cat ~/.bash\_history`
 	- 【ファイル中身表示(反転)】`tac ~/.bash\_history`
