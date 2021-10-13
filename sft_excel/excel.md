@@ -394,6 +394,8 @@ IF(
 - [DGET関数](https://kokodane.com/kansu_database_04.htm)
 	- vlookup関数の代替になりうる！
 - [エクセル パスワードを忘れた場合の対処法](https://www.passfab.jp/excel/forgot-excel-file-password.html)
+- アウトライン設定保存状態
+	- シートコピー時：保存される
 
 # ショートカットキー
 
