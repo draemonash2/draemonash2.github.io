@@ -553,6 +553,7 @@
 			- 【パターンマッチファイル対象追加】`--include='\*.c'`
 			- 【パターンマッチファイル対象除外】`--exclude='\*.o'`
 			- 【結果非表示（主にシェルスクリプトなどで判定用に使う）】`-q`
+	- 【grep複数行マッチ】`grep -Piz "(?s)internal[ \n]*error" test.log`
 	
 	- 【Grep置換】`grep -l "Dim" \*.vbs | xargs sed -i "s/Dim/Dims/g"`
 	
