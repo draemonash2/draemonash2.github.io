@@ -96,10 +96,10 @@
 	- 【文字列抽出】`${hoge:5:-1} #0オリジンで5文字目以降で、末尾から1文字取り除いたものを参照`
 	- 【文字数出力】`${#hoge} #hogeが"other-value"なら、11が返却される`
 	- 【配列要素数出力】`${list[\*]}`
-	- 【前方一致除去(最短一致)】`${hoge#hoge-} #hogeが"hoge-value"なら、"value"が返却される`
-	- 【前方一致除去(最長一致)】`${hoge##*hoge-}`
-	- 【後方一致除去(最短一致)】`${hoge%-value}`
-	- 【後方一致除去(最長一致)】`${hoge%%-value*}`
+	- 【前方一致除去(最短一致)】`${hoge#*.}   # aaa.bbb.ccc → bbb.ccc`
+	- 【前方一致除去(最長一致)】`${hoge##*.}  # aaa.bbb.ccc → ccc`
+	- 【後方一致除去(最短一致)】`${hoge%.*}   # aaa.bbb.ccc → aaa.bbb`
+	- 【後方一致除去(最長一致)】`${hoge%%.*}  # aaa.bbb.ccc → aaa`
 	- 【文字列置換(先頭単語のみ)】`${hoge/value/fuga} #hoge内の文字列valueをfugaに置換する`
 	- 【文字列置換(全単語)】`${hoge//hoge/fuga}`
 	- 【大文字化(先頭文字)】`${hoge^}`
@@ -193,16 +193,16 @@
 
 - 【標準入力取得】`echo -n "あなたのお名前は?";read yourname`
 
-- 【比較演算子(＝)】`test 5 -eq 10; echo $? #→1(偽) EQual`
-- 【比較演算子(≠)】`test 5 -ne 10; echo $? #→0(真) Not Equal`
-- 【比較演算子(≧)】`test 5 -ge 10; echo $? #→1(偽) Greater Equal`
-- 【比較演算子(＞)】`test 5 -gt 10; echo $? #→1(偽) Greater Than`
-- 【比較演算子(≦)】`test 5 -le 10; echo $? #→0(真) Less Equal`
-- 【比較演算子(＜)】`test 5 -lt 10; echo $? #→0(真) Less Than`
-- 【比較演算子(＝)】`"$a" == "$b"; echo $? # $aと$bが同じ場合TRUEを返します。`
-- 【比較演算子(≠)】`"$a" != "$b"; echo $? # $aと$bが同じではない場合TRUEを返します。`
-- 【比較演算子(空文字列)】`test -z "$a"; echo $? # $aが何も指定してない場合TRUEを返します`
-- 【比較演算子(非空文字列)】`test -n "$a"; echo $? # $aに何かを指定しした場合TRUEを返します`
+- 【数値比較(＝)】`test 5 -eq 10; echo $? #→1(偽) EQual`
+- 【数値比較(≠)】`test 5 -ne 10; echo $? #→0(真) Not Equal`
+- 【数値比較(≧)】`test 5 -ge 10; echo $? #→1(偽) Greater Equal`
+- 【数値比較(＞)】`test 5 -gt 10; echo $? #→1(偽) Greater Than`
+- 【数値比較(≦)】`test 5 -le 10; echo $? #→0(真) Less Equal`
+- 【数値比較(＜)】`test 5 -lt 10; echo $? #→0(真) Less Than`
+- 【文字列比較(＝)】`"$a" = "$b"; echo $? # $aと$bが同じ場合TRUEを返します。`
+- 【文字列比較(≠)】`"$a" != "$b"; echo $? # $aと$bが同じではない場合TRUEを返します。`
+- 【空文字列判定】`test -z "$a"; echo $? # $aが何も指定してない場合TRUEを返します`
+- 【非空文字列判定】`test -n "$a"; echo $? # $aに何かを指定しした場合TRUEを返します`
 
 - 【存在確認(ディレクトリ)】`test -d ディレクトリ名 #→ファイルorディレクトリ判定にも使える`
 - 【存在確認(ファイル)1】`test -f ファイル名 #→ファイルorディレクトリ判定にも使える`
