@@ -6,8 +6,8 @@
 - 【ログ表示(2件のみ)】git log -2
 - 【ログ表示(1行表示)】git log --oneline
 - 【ログ表示(グラフ表示)】git log --graph
+- 【ログ表示(書式指定表示)】git log --oneline --pretty=format:"%ad ::::: %h ::::: %an ::::: %s" # 日付 : ハッシュ（短縮形）: Author : コミットメッセージ
 - 【ログ表示(内容詳細)】git show ハッシュ値
-- 【ディレクトリ作成】git init
 - 【変更状態確認】git status
 
 - 【クローン】git clone https://github.com/draemonash2/codes.git codes
@@ -15,6 +15,8 @@
 - 【プル】git pull
 - 【[フェッチ(取得)](#fetch)】git fecth #→リモートの「master」ブランチ → ローカルの「origin/master」ブランチ
 - 【フェッチ後のマージ】git merge #→ローカルの「origin/master」ブランチ → ローカルの「master」ブランチ
+
+- 【ローカルリポジトリ作成】git init
 
 - 【リモートリポジトリ作成】git remote add origin URL
 - 【リモートリポジトリ紐づけ確認】git remote #→originになっていれば完了
