@@ -253,6 +253,12 @@
 - 【ファイル名取得】`SRCPATH="/path/to/foo.cpp"; echo ${SRCPATH##\*/} #=> "foo.cpp" (basepath)`
 - 【ディレクトリパス取得】`SRCPATH="/path/to/foo.cpp"; echo ${SRCPATH%$BASE}  #=> "/path/to/" (dirpath)`
 
+- 【ファイル名取得＆操作】`FILES=\`find . -maxdepth 1 -type f | cut -c 3-\` ～ for file in $FILES ～ do ～ echo $file ～ done`
+- 【ディレクトリ名取得＆操作】`DIRS=\`find . -maxdepth 1 -type d | cut -c 3-\` ～ for dir in $DIRS ～ do ～ echo $dir ～ done`
+
+- 【リスト取得＆操作１】`LIST=\`cat list.txt\` ～ for var in $LIST ～ do ～ echo $var ～ done`
+- 【リスト取得＆操作２】`LIST="aaa bbb cccc d" ～ for var in $LIST ～ do ～ echo $var ～ done`
+
 # コマンド一覧
 
 - コマンド関連
