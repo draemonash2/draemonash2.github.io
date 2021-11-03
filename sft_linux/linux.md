@@ -501,6 +501,8 @@
 	- 【ファイル一覧表示(再帰的)】`find dirpath -type f`
 	- 【ファイル一覧表示(再帰的)(ファイル指定)】`find dirpath -type f \| grep .md`
 	- 【ファイル一覧表示(再帰的)(ファイル指定)】`find dirpath -name '\*.md' -type f`
+	- 【ファイル一覧表示(AND検索)】`find . -name "ex*" -and -name "*race*"`
+	- 【ファイル一覧表示(OR検索)】`find . -name "*auto*" -or -name "*race*"`
 	- 【ディレクトリ一覧表示(再帰的)】`find dirpath -type d`
 	- 【ファイル/ディレクトリ一覧表示(再帰的)】`find dirpath`
 	- 【ファイル/ディレクトリ検索】`上記のfindコマンドを用いる`
