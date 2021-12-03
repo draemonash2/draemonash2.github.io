@@ -72,6 +72,25 @@
     func(x=1) '⇒ 41
     ```
 
+# Python2 と 3の主な違い
+- 相違点
+
+| 相違点 | Python2 | Python3 |
+|:---|:---|:---|
+| print記述方式(\*1)  | print "出力対象" | print("出力対象") |
+| ライブラリ数  | 多い | 少ない |
+| 数値出力結果(\*2)  | 整数部のみ出力( ex. 3 ) | 小数部も出力( ex. 3.0 )(切り捨ては 6// 2のように演算する) |
+| long型有無  | ある | ない(int型として扱う) |
+| 例外構文記述方法  | except Exception, e: | except Exception as e: |
+
+- 相違点注記
+    - (\*1) Python2で “Hello, World” を上記のように印字するのは極めてふつうのことです。しかし丸括弧のなかに複数のオブジェクトがあった時は、 print は文なので、タプルを作ることになります。
+    - (\*2) Python2で「from __future__ import division」を追加することでPython3と同等の振る舞いとなる
+
+- 参考URL
+    - https://www.acrovision.jp/career/?p=3146
+    - https://postd.cc/the-key-differences-between-python-2-7-x-and-python-3-x-with-examples/
+
 # 構文
 [言語チートシート](https://github.com/draemonash2/other/blob/master/%E8%A8%80%E8%AA%9E%E3%83%81%E3%83%BC%E3%83%88%E3%82%B7%E3%83%BC%E3%83%88.xlsx)参照
 
