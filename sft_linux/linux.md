@@ -110,6 +110,9 @@
 	- 【大文字小文字反転(全文字)】`${hoge~~}`
 	- 【数式展開】`$((1+2\*3))`
 
+- 【サブシェル実行結果保存1】`DIRS=$(find . -type d)`
+- 【サブシェル実行結果保存2】`DIRS=‘find . -type d‘` # 「‘」はバッククォートに読み替えること
+
 # シェルスクリプト構文
 
 - 【シェバン(shebang)】`#!/bin/bash`
@@ -327,6 +330,7 @@
 				- 標準入力を入力にできないコマンド(ex. echo,rm 等)は、xargsで標準入力→引数に変換する必要がある。
 				- 標準入力を入力にできるコマンド(ex. cat,sort,uniq等)は、xargsなしでそのままパイプで渡せる。
 					- 標準入力を入力にできるコマンドかどうかは、引数なしでコマンドを実行すればわかる。(ex. sort)
+			- 【コマンドの間に展開(-I)】`date | xargs -I? echo "date is <?> now."  # --> date is <Tue Dec 14 16:16:04 JST 2021> now.`
 	- 【プロセス実行優先度変更後コマンド実行】`nice -n -15 updatedb #実行優先度を「15」低くして、updatedbコマンドを実行`
 		- niceness…プロセスの優先度を示す値(＝アプリケーション実行順序)(≠スケジュール優先度)
 	- 【ログアウト後継続コマンド実行】`nohup cmd`
@@ -549,7 +553,7 @@
 	- 【[SHA-1](https://ja.wikipedia.org/wiki/SHA-1)ダイジェスト計算】`sha1sum`
 	- 【SHAダイジェスト計算(xxxビット長)】`shaXXXsum`
 	
-	- 【Grep】` `grep -nr 'const' /mnt/c/codes\_sample/c/FreeRTOSV7.1.1/Source --include='*.[ch]' >> grep_result.txt``
+	- 【Grep】` grep -nr 'const' /mnt/c/codes\_sample/c/FreeRTOSV7.1.1/Source --include='*.[ch]' >> grep_result.txt`
 		- 主な grep オプション（[詳細はこちら](https://www.atmarkit.co.jp/ait/articles/1604/07/news018.html)）
 			- 【検索パターン指定(複数条件検索時)】`-e 検索パターン`
 			- 【大/小文字区別なし】`-i`
@@ -574,7 +578,7 @@
 			- 【結果非表示（主にシェルスクリプトなどで判定用に使う）】`-q`
 	- 【grep複数行マッチ】`grep -Piz "(?s)internal[ \n]*error" test.log`
 	
-	- 【Grep置換】`grep -l "Dim" \*.vbs | xargs sed -i "s/Dim/Dims/g"`
+	- 【Grep置換】`grep -l "Dim" *.vbs | xargs sed -i "s/Dim/Dims/g"`
 	
 	- 【数値単位変換1】`numfmt --from=auto 1Mi #→1048576`
 	- 【数値単位変換2】`numfmt --to=si 500000 #→500K`
