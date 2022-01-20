@@ -176,6 +176,22 @@ filetype plugin indent on
 |Vaffle			| r														| 名前変更 |
 |Vaffle			| i														| ファイル作成 |
 |Vaffle			| o														| ディレクトリ作成 |
+|Vimdiff		| vim -d file1 file2									| vimdiff 起動 |
+|Vimdiff		| vimdiff file1 file2									| vimdiff 起動 |
+|Vimdiff		| :e													| vimdiff 再比較 |
+|Vimdiff		| :diffupdate											| vimdiff 再比較 |
+|Vimdiff		| [c													| vimdiff カーソル移動 次のdiff |
+|Vimdiff		| ]c													| vimdiff カーソル移動 前のdiff |
+|Vimdiff		| do													| vimdiff 現在位置へ差分取り込み(diff obtain) |
+|Vimdiff		| dp													| vimdiff 現在位置から差分コピー(diff put) |
+|Vimdiff		| :diffg												| vimdiff 現在位置へ差分取り込み(diffget) |
+|Vimdiff		| :diffpu												| vimdiff 現在位置から差分コピー(diffput) |
+|Vimdiff		| :diffoff												| vimdiff diffモード終了 |
+|Vimdiff		| :set diffopt+=vertical								| vimdiff 垂直分割 |
+|Vimdiff		| :set diffopt+=horizontal								| vimdiff 水平分割 |
+|Vimdiff		| :set diffopt+=icase									| vimdiff 大小文字無視 |
+|Vimdiff		| :set diffopt+=iwhite									| vimdiff 空白数差異無視 |
+|Vimdiff		| :set diffopt+=iwhiteall								| vimdiff 空白変更全無視 |
 
 ★linediff
 ★blockdiff
