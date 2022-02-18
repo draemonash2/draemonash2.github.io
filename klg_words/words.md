@@ -149,6 +149,10 @@
         - 車  
         - モータ  
         - ES  
+		- [逆・裏・対偶](https://kou.benesse.co.jp/nigate/math/a14m0120.html)
+			- 【逆】p→qに対してq→p（例:「リンゴは果物である」に対して「果物はリンゴである」）
+			- 【裏】p→qに対して!p→!q（例:「リンゴは果物である」に対して「リンゴでなければ果物ではない」）
+			- 【対偶】p→qに対して!q→!p（例:「リンゴは果物である」に対して「果物でなければリンゴではない」）
   
 [1]: https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%94%E3%83%B3%E3%83%AD%E3%83%83%E3%82%AF  
 [2]: https://xtech.nikkei.com/it/article/Keyword/20070207/261219/  
