@@ -396,6 +396,8 @@ IF(
 - [エクセル パスワードを忘れた場合の対処法](https://www.passfab.jp/excel/forgot-excel-file-password.html)
 - アウトライン設定保存状態
 	- シートコピー時：保存される
+- ショートカットキーで選択範囲を解除できる
+	- shift+backspace
 
 # ショートカットキー
 
