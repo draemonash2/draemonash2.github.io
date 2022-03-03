@@ -491,6 +491,16 @@
 				- フォルダ配下にあるファイル名「comp*.log」もしくは「run*.log」の末尾1行を順に表示する。
 	
 	- 【ファイル中身表示(ソート)】`sort`
+		- 例1) 区切り文字を「タブ文字」(-t$'\t')とした時の2～末尾カラム目(-k 2)を、大/小文字を無視(-f)してソートする
+			- `sort -t$'\t' -k 2 -f`
+		- 例2) 区切り文字を「,」(-t,)とした時の2～3カラム目(-k 2,3)を、数値(-n)として降順(-r)ソートする
+			- `sort -t, -k 2,3 -r -n`
+		- 例3) 区切り文字を「,」(-t,)とした時の2カラム目のみ(-k 2,2)を、重複を省いて(-u)ソートする
+			- `sort -t, -k 2,2 -u`
+		- 例4) 区切り文字を「,」(-t,)とした時の2カラム目のみ(-k 2,2)を、先頭の空白を除いて(-b)ソートする
+			- `sort -t, -k 2,2 -b`
+		- 例5) 区切り文字を「,」(-t,)とした時の3カラム目のみ(-k 3,3)をソートし、同じものは4カラム目のみ(-k 4,4)でソートする
+			- `sort -t, -k 3,3 -k 4,4`
 	- 【ファイル中身表示(シャッフル)】`shuf`
 	- 【ファイル中身表示(重複削除)】`uniq`
 	- 【ファイル中身表示(前後関係指定ソート)】`tsort`
@@ -588,12 +598,15 @@
 		- 例1）cat data.txt \| tr [:lower:] [:uppder:] #data.txtファイルにある小文字全てを大文字に変更
 		- 例2）cat data.txt \| tr 'a-z' 'A-Z' #data.txtファイルにある小文字全てを大文字に変更 
 		- 例3）tr -d : < file1 #data.txtファイルにある「：」を削除して表示
-	- 【テキスト置換】`echo "Hello World" | sed 's/Hello/Welcome/g'`
-	- 【テキスト置換(ファイル対象)】`sed -i -e 's/Wolrd/World/' targetfile.txt`
-	- 【テキスト追加(5行目)】`sed 5a addstring`
-	- 【テキスト削除(10行目)】`sed 15d`
-	- 【ファイル書換＆元ファイル.bak化】`sed -i.bak`
-	- 【ソート＆重複削除】`cat file1 \| sort \| uniq`
+	- 【文字列操作(sed)】
+		- 【テキスト置換】`echo "Hello World" | sed 's/Hello/Welcome/g'`
+		- 【テキスト置換(ファイル直接編集)】`sed -i -e 's/Wolrd/World/' targetfile.txt`
+		- 【テキスト置換(ファイル直接編集＆バックアップ)】`sed -i.bak -e 's/Wolrd/World/' targetfile.txt`
+		- 【テキスト挿入1(5行目の前)】`sed -e '5i addstring1\naddstring2'`
+		- 【テキスト挿入1(5行目の後)】`sed -e '5a addstring1\naddstring2'`
+		- 【テキスト挿入2(5行目の前)】`sed 5i"addstring1\naddstring2"`
+		- 【テキスト挿入2(5行目の後)】`sed 5a"addstring1\naddstring2"`
+		- 【テキスト削除(10行目)】`sed 15d`
 	- 【数字列出力】`seq`
 
 - システム
