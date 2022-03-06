@@ -607,6 +607,7 @@
 		- 【テキスト挿入2(5行目の前)】`sed 5i"addstring1\naddstring2"`
 		- 【テキスト挿入2(5行目の後)】`sed 5a"addstring1\naddstring2"`
 		- 【テキスト削除(10行目)】`sed 15d`
+		- 【テキスト出力(5行目)】`sed -n 5p targetfile.txt`
 	- 【数字列出力】`seq`
 
 - システム
@@ -1082,6 +1083,10 @@ BASH_XTRACEFD="5"
 PS4='$LINENO: '
 set -x
 ```
+
+- シェルスクリプトを実行中に上書きするとシェルスクリプトが再読み込みされ、意図しない挙動をする。
+	- sh/bashでのみ発生する。zshは発生しない様子。
+	- 参考URLは[こちら](https://moznion.hatenadiary.com/entry/2022/01/02/120903)
 
 # ショートカットキー
 

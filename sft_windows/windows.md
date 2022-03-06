@@ -187,5 +187,28 @@
 | shell:startup | スタートアップ |
 | shell:recyclebinfolder | ごみ箱 |
 
+# ショートカットキー検討
+
+| 記号 | ショートカットキー（由来） |
+|:--:|:---|
+| ★ | ｓｆ（StarFill）      |
+| ☆ | ｓｂ（StarBlank）     |
+| ▲ | ｔｆ（TriangleFill）  |
+| △ | ｔｂ（TriangleBlank） |
+| ● | ｃｆ（CircleFill）    |
+| ○ | ｃｂ（CircleBlank）   |
+| ◎ | ｃｄ（CircleDouble）  |
+| ■ | ｑｆ（sQuareFill）    |
+| □ | ｑｂ（sQuareBlank）   |
+| ◆ | ｒｆ（RhombusFill）   |
+| ◇ | ｒｂ（RhombusBlank）  |
+| … | ｔｐ（TreePoint）     |
+| → | ｇｌ                  |
+| ↑ | ｇｋ                  |
+| ← | ｇｈ                  |
+| ↓ | ｇｊ                  |
+| ⇔ | ｇｈｌ                |
+| ○ | ｍｒ（MaRu）          |
+| × | ｂｔ（BaTsu）         |
 
 [トップに戻る](../index.md)
