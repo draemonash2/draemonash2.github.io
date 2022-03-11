@@ -191,24 +191,26 @@
 
 | 記号 | ショートカットキー（由来） |
 |:--:|:---|
-| ★ | ｓｆ（StarFill）      |
-| ☆ | ｓｂ（StarBlank）     |
-| ▲ | ｔｆ（TriangleFill）  |
-| △ | ｔｂ（TriangleBlank） |
-| ● | ｃｆ（CircleFill）    |
-| ○ | ｃｂ（CircleBlank）   |
-| ◎ | ｃｄ（CircleDouble）  |
-| ■ | ｑｆ（sQuareFill）    |
-| □ | ｑｂ（sQuareBlank）   |
-| ◆ | ｒｆ（RhombusFill）   |
-| ◇ | ｒｂ（RhombusBlank）  |
-| … | ｔｐ（TreePoint）     |
-| → | ｇｌ                  |
-| ↑ | ｇｋ                  |
-| ← | ｇｈ                  |
-| ↓ | ｇｊ                  |
-| ⇔ | ｇｈｌ                |
-| ○ | ｍｒ（MaRu）          |
-| × | ｂｔ（BaTsu）         |
+| ★ | ｓｆ（StarFill）              |
+| ☆ | ｓｂ（StarBlank）             |
+| ▲ | ｔｆ（TriangleFill）          |
+| △ | ｔｂ（TriangleBlank）         |
+| ▼ | ｖｆ（inVertedtriangleFill）  |
+| ▽ | ｖｂ（inVertedtriangleBlank） |
+| ● | ｃｆ（CircleFill）            |
+| ○ | ｃｂ（CircleBlank）           |
+| ◎ | ｃｄ（CircleDouble）          |
+| ■ | ｑｆ（sQuareFill）            |
+| □ | ｑｂ（sQuareBlank）           |
+| ◆ | ｒｆ（RhombusFill）           |
+| ◇ | ｒｂ（RhombusBlank）          |
+| ○ | ｍｒ（MaRu）                  |
+| × | ｂｔ（BaTsu）                 |
+| … | ｔｐ（TreePoint）             |
+| ← | ｇｈ                          |
+| → | ｇｌ                          |
+| ↓ | ｇｊ                          |
+| ↑ | ｇｋ                          |
+| ⇔ | ｇｈｌ                        |
 
 [トップに戻る](../index.md)
