@@ -95,7 +95,7 @@
 	- 【文字列抽出】`${hoge:5:3} #0オリジンで5～7文字目を参照`
 	- 【文字列抽出】`${hoge:5:-1} #0オリジンで5文字目以降で、末尾から1文字取り除いたものを参照`
 	- 【文字数出力】`${#hoge} #hogeが"other-value"なら、11が返却される`
-	- 【配列要素数出力】`${list[\*]}`
+	- 【配列要素数出力】`${list[*]}`
 	- 【前方一致除去(最短一致)】`${hoge#*.}   # aaa.bbb.ccc → bbb.ccc`
 	- 【前方一致除去(最長一致)】`${hoge##*.}  # aaa.bbb.ccc → ccc`
 	- 【後方一致除去(最短一致)】`${hoge%.*}   # aaa.bbb.ccc → aaa.bbb`
@@ -108,7 +108,7 @@
 	- 【小文字化(全文字)】`${hoge,,}`
 	- 【大文字小文字反転(先頭文字)】`${hoge~}`
 	- 【大文字小文字反転(全文字)】`${hoge~~}`
-	- 【数式展開】`$((1+2\*3))`
+	- 【数式展開】`$((1+2*3))`
 
 - 【サブシェル実行結果保存1】`DIRS=$(find . -type d)`
 - 【サブシェル実行結果保存2】`DIRS=‘find . -type d‘` # 「‘」はバッククォートに読み替えること
@@ -164,23 +164,23 @@
 - 【変数定義(配列)】`ARRAY=(item1 item2 item3 item4)`
 - 【変数参照(配列)】`ARRAY[0]`
 
-- 【関数定義】`function lsmo() { ～ ls -la \| more; ～ }`
+- 【関数定義】`function lsmo() { ～ ls -la | more; ～ }`
 - 【関数定義削除】`unset lsmo`
 
 - 【特殊変数 引数の数】`$#`
 - 【特殊変数 引数の値】`$n（n=1～9？）`
 - 【特殊変数 シェルスクリプトファイル名】`$0`
 - 【特殊変数 全ての引数(区切りはスペース)】`$@ #→"$1" "$2" "$3" ...`
-- 【特殊変数 全ての引数(区切りは環境変数IFSで指定したもの)】`$\* #→"$1 $2 $3 ..."`
+- 【特殊変数 全ての引数(区切りは環境変数IFSで指定したもの)】`$* #→"$1 $2 $3 ..."`
 - 【特殊変数 現在実行シェルプロセスID】`$$`
 - 【特殊変数 最終実行バックグラウンドプロセスID】`$!`
 - 【特殊変数 直前実行したコマンド終了値(0=正常終了、1=異常終了、それ以外はエラー）】`$?`
-- 【特殊変数 最終実行コマンド最終引数】`$\_`
+- 【特殊変数 最終実行コマンド最終引数】`$_`
 - 【直前コマンドの最初の引数】`!^`
 - 【直前コマンドの最終の引数】`!$`
-- 【直前コマンドの全引数】`!\*`
+- 【直前コマンドの全引数】`!*`
 - 【直前コマンドの全引数(最終引数を除く)】`!:-`
-- 【直前コマンドの最終引数】`$\_`
+- 【直前コマンドの最終引数】`$_`
 - 【シェルのPID】`$$`
 - 【直近n番目に実行したコマンド】`!-n`
 - 【直近n番目に実行したコマンド(ヒストリ)】`!n`
@@ -245,7 +245,7 @@
 
 - 【算術演算(加)】`echo ``expr 10 + 20``
 - 【算術演算(減)】`echo ``expr 20 - 10``
-- 【算術演算(乗)】`echo ``expr 11 \* 11``
+- 【算術演算(乗)】`echo ``expr 11 * 11``
 - 【算術演算(割)】`echo ``expr 10 / 2``
 - 【算術演算(剰余)】`echo ``expr 10 % 4``
 - 【算術演算(指定)】`a=$b # bの値はaに保存されます`
@@ -256,6 +256,7 @@
 	- `test 1 -eq 1` と `[ 1 -eq 1]` は同等([詳細はこちら](https://ascii.jp/elem/000/001/278/1278792/))
 - 【switch】`case 変数 in ～ パターン1) ～ コマンド ～ ;; ～ パターン2) ～ コマンド ～ ;; ～ \*) ～ コマンド ～ ;; ～ esac`
 - 【for(リスト指定)】`for VAR in Level1 Level2 Level3 ～ do ～ echo LinuC $VAR ～ done`
+- 【for(リスト指定)】`for VAR in $LIST ～ do ～ echo LinuC $VAR ～ done`
 - 【for(数値指定1)】`for NUM in `seq 1 3` ～ do ～ echo LinuC Level $NUM ～ done`
 - 【for(数値指定2)】`for ((i = 0; i <= 10; i++)) { ～ echo "$i" ～ }`
 - 【while】`while [ read LINE ] ～ do ～ echo LinuC Level $LINE ～ done < test.txt`
@@ -430,6 +431,8 @@
 	- 【圧縮】`tar -czvf xxx.tgz file1 file2 dir1`
 	- 【展開】`tar -xzvf xxx.tgz`
 		- c(create):新規作成 x(extract):展開 z:gzip形式圧縮 v:ファイル一覧表示 f:ファイル名指定
+	
+	- 【展開】`gzip -df xxx.gz`
 	
 	- 【ファイルサイズ増減】`truncate`
 		- 10MBの空ファイル作成するとかが可能
@@ -665,6 +668,14 @@
 	- 【環境変数設定(sh系用)】`export envvar='value'`
 	- 【環境変数変更(一時的)】`env`
 	- 【環境変数表示】`env`
+	- 【環境変数設定(複数行)】
+	```
+	export OPTIONS=" \
+	-O1
+	-verbose
+	-v
+	"
+	```
 	
 	- 【マウント】`mount /dev/sda1 /mnt/hdd1`
 		- マウント…記憶媒体に対して読み書きを可能にすること
@@ -732,8 +743,9 @@
 	
 	- 【現在のシェル表示】`echo $SHELL`
 	
-	- 【SCP転送】`scp a.txt username@127.0.0.1:/home/user`
-	- 【SCP転送(パスワード自動入力)】`expect -c "spawn scp sendfile.txt username@127.0.0.1:/home/user ; expect password: ; send passwd\r ; expect $ ; exit"`
+	- 【SCP転送(ファイル)】`scp a.txt username@127.0.0.1:/home/user`
+	- 【SCP転送(フォルダ)】`scp -r dirname username@127.0.0.1:/home/user`
+	- 【SCP転送(パスワード自動入力)】`expect -c "spawn scp targetfile.txt username@127.0.0.1:/home/user ; expect password: ; send passwd\r ; expect $ ; interact"`
 		- 127.0.0.1に対して、ユーザ名：username、パスワード：passwdでsshログインした後、sendfile.txtを「/home/user」にSCP転送する。
 	
 	- 【[シンボル情報表示](http://doi-t.hatenablog.com/entry/2014/01/31/084213)】`nm hello.o`
@@ -747,6 +759,11 @@
 			- q：メンバ追加(アーカイブ末尾)
 		- 修飾子オプション
 			- c：アーカイブ作成
+	
+	- 【ctags】`ctags -R`
+	- 【gtags】`gtags -v`
+
+	- 【vim(垂直分割)】`vim -O file1.txt file2.txt`
 
 - [各種ツール](https://i.loveruby.net/ja/misc/readingcode.html)
 	- gonzui

@@ -123,6 +123,16 @@
 - 【最新コミットハッシュ値取得】git rev-parse HEAD
 - 【直近タグバージョン番号表示】git describe
 
+- 【該当ブランチ表示】
+	```
+	jdgdetached=`git branch --contains | grep "* " | head -1 | grep "detached " &> /dev/null; echo $?`
+	if [ ${jdgdetached} -eq 0 ]; then
+		branchname=`git branch --contains | grep "  " | head -1 | cut -c 3-`
+	else
+		branchname=`git branch --contains | grep "* " | head -1 | cut -c 3-`
+	fi
+	```
+
 # 用語
 ## 統合ブランチ
 	- リリース版が何時でも作成可能なようしておくためのブランチ。トピックブランチの分岐元。
