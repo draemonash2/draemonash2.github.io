@@ -189,28 +189,30 @@
 
 # ショートカットキー検討
 
-| 記号 | ショートカットキー（由来） |
-|:--:|:---|
-| ★ | ｓｆ（StarFill）              |
-| ☆ | ｓｂ（StarBlank）             |
-| ▲ | ｔｆ（TriangleFill）          |
-| △ | ｔｂ（TriangleBlank）         |
-| ▼ | ｖｆ（inVertedtriangleFill）  |
-| ▽ | ｖｂ（inVertedtriangleBlank） |
-| ● | ｃｆ（CircleFill）            |
-| ○ | ｃｂ（CircleBlank）           |
-| ◎ | ｃｄ（CircleDouble）          |
-| ■ | ｑｆ（sQuareFill）            |
-| □ | ｑｂ（sQuareBlank）           |
-| ◆ | ｒｆ（RhombusFill）           |
-| ◇ | ｒｂ（RhombusBlank）          |
-| ○ | ｍｒ（MaRu）                  |
-| × | ｂｔ（BaTsu）                 |
-| … | ｔｐ（TreePoint）             |
-| ← | ｇｈ                          |
-| → | ｇｌ                          |
-| ↓ | ｇｊ                          |
-| ↑ | ｇｋ                          |
-| ⇔ | ｇｈｌ                        |
+| カテゴリ | 記号 | ショートカットキー（由来） |
+|:--|:--:|:---|
+| 記号 | ★ | ｓｆ（StarFill）              |
+| 記号 | ☆ | ｓｂ（StarBlank）             |
+| 記号 | ▲ | ｔｆ（TriangleFill）          |
+| 記号 | △ | ｔｂ（TriangleBlank）         |
+| 記号 | ▼ | ｖｆ（inVertedtriangleFill）  |
+| 記号 | ▽ | ｖｂ（inVertedtriangleBlank） |
+| 記号 | ● | ｃｆ（CircleFill）            |
+| 記号 | ○ | ｃｂ（CircleBlank）           |
+| 記号 | ◎ | ｃｄ（CircleDouble）          |
+| 記号 | ■ | ｑｆ（sQuareFill）            |
+| 記号 | □ | ｑｂ（sQuareBlank）           |
+| 記号 | ◆ | ｒｆ（RhombusFill）           |
+| 記号 | ◇ | ｒｂ（RhombusBlank）          |
+| ○× | ○ | ｍｒ（MaRu）                  |
+| ○× | × | ｂｔ（BaTsu）                 |
+| 演算 | × | ｋｒ（KakeRu）                |
+| 演算 | ÷ | ｗｒ（WaRu）                  |
+| 点   | … | ｔｐ（TreePoint）             |
+| 矢印 | ← | ｇｈ                          |
+| 矢印 | → | ｇｌ                          |
+| 矢印 | ↓ | ｇｊ                          |
+| 矢印 | ↑ | ｇｋ                          |
+| 矢印 | ⇔ | ｇｈｌ                        |
 
 [トップに戻る](../index.md)
