@@ -29,7 +29,6 @@
 - [Kinza](sft_kinza/kinza.md)
 - [Mozilla Firefox](sft_firefox/firefox.md)
 - [Mozilla Thunderbird](sft_thunderbird/thunderbird.md)
-- [Mozilla Thunderbird](sft_thunderbird/thunderbird.md)
 - [Google Chrome](sft_chrome/chrome.md)
 
 - [Microsoft Excel](sft_excel/excel.md)

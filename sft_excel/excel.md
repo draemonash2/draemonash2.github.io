@@ -398,6 +398,7 @@ IF(
 	- シートコピー時：保存される
 - ショートカットキーで選択範囲を解除できる
 	- shift+backspace
+- [ステータスバーの合計値などをクリックするとコピーできる](https://forest.watch.impress.co.jp/docs/news/1394326.html)
 
 # ショートカットキー
 
