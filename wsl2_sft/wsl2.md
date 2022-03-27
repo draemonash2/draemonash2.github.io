@@ -40,8 +40,8 @@
 	1. 上記ショートカットファイルを管理者権限で実行するように変更する
 - WSL2 設定ファイル（settings.json）格納先
 	- `%USERPROFILE%\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json`
-- 特定のディレクトリを指定して Windows Terminal を起動する
-	- `wt -d "C:\codes_sample\c++"`
+- 特定ディレクトリを垂直分割して Windows Terminal を起動する
+	- `wt -d C:\codes_sample\c++\dokusyuC++; split-pane -V -D wsl.exe`
 
 # コマンド
 

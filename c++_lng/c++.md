@@ -81,11 +81,35 @@
 		- データの実体を指し示すポインタだけがコピーされて、データの実体がコピーされないこと
 	- ディープコピー（深いコピー）
 		- データの実体もコピーすること
+- MBCS（Multi Byte Character Set）
+	- charでは収まらない文字には複数の charの組に 1 文字を割り当てる
+	- 例：UTF-8、Shift\_JIS
+	- C++ で MBCS を扱うクラスが std::string
+- WCS（Wide Character Set）
+	- charより大きなサイズの型 wchar\_tを用意して、wchar\_tの列で文字列を表す。(＝ワイド文字列)
+	- 例：UTF-16(世界中のあらゆる文字に一意のコードを割り当てる)
+	- C++ で WCS を扱うクラスが std::wstring
 - プレースホルダ
 	- ★
 - ファンクタ
 	- ★
 - 集約(aggregate)と委譲(delegate)
+	- ★
+- SFINAE（Substitution Failure Is Not An Error）
+	- ★https://izadori.net/cpp-templ-sfinae/
+	- ★
+- RAII
+	- ★
+- NSDMI
+	- ★
+- RTTI
+	- ★
+- NTTP
+	- ★
+- NTCTS
+	- ★
+- Two-phase name look up
+	- ★https://mimosa-pudica.net/cpp-specialization.html
 	- ★
 
 # Tips
