@@ -44,7 +44,8 @@
 		- コンパイラーに対して特定の名前空間の省略を指示することができる
 			- e.g. `using namespace module;`
 - UDLs（User Defined Literals）
-	- ★
+	- 和訳：ユーザー定義リテラル
+	- "hello"といったリテラルに対して付けられるサフィックスをオーバーロードできるようにすることで、ユーザーがリテラルに意味を持たせられるようにする機能
 - キャストの種類
 	- static\_cast
 		- 暗黙の型変換ができる時だけキャストする。不正な変換(intをint\*に変換)の場合はコンパイルエラーが発生する。
@@ -61,10 +62,12 @@
 			- 基本的に使われないもの。
 				- 理由は、そもそも抽象クラスのオブジェクトを具象クラスのオブジェクトを入れるダウンキャスト自体がよくないため！[詳細はこちら](http://yohshiy.blog.fc2.com/blog-entry-15.html)
 - [糖衣構文](https://ja.wikipedia.org/wiki/%E7%B3%96%E8%A1%A3%E6%A7%8B%E6%96%87)
-	- 読み書きのしやすさのために導入される書き方。複雑でわかりにくい書き方と全く同じ意味になるものを、よりシンプルでわかりやすい書き方で書くことができる書き方。
+	- 読み書きのしやすさのために導入される書き方。
+	- 複雑でわかりにくい書き方と全く同じ意味になるものを、よりシンプルでわかりやすい書き方で書くことができる書き方。
 - [ラムダ式](https://qiita.com/rita0222/items/bd895e82251d56917736)
 	- 関数オブジェクトを簡単に定義できるようにするもの。
-- STLの種類
+- STL（Standard Template Library）の種類
+	- ★
 	- [vector](https://bi.biopapyrus.jp/cpp/syntax/vector.html)
 		- 配列を拡張したクラスで、あらかじめサイズを指定しなくても利用できるようにしたクラス。
 		- メンバ関数：push\_back、clear、size、empty等
@@ -89,28 +92,43 @@
 	- charより大きなサイズの型 wchar\_tを用意して、wchar\_tの列で文字列を表す。(＝ワイド文字列)
 	- 例：UTF-16(世界中のあらゆる文字に一意のコードを割り当てる)
 	- C++ で WCS を扱うクラスが std::wstring
-- プレースホルダ
-	- ★
-- ファンクタ
-	- ★
+- [プレースホルダ](https://elsammit-beginnerblg.hatenablog.com/entry/2021/07/25/150918)
+	- 正式な値が入るまで一時的に場所を確保しておく方法のこと
+	- プレースホルダ（ placeholder） は、「 置き換え られる もの」 という 意味
+	- テンプレートパラメーターのことを指すことがある？
+- [関数オブジェクト](https://ja.wikipedia.org/wiki/%E9%96%A2%E6%95%B0%E3%82%AA%E3%83%96%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88)
+	- 関数（サブルーチンないしプロシージャ）を、オブジェクトとしたもの
+- [ファンクタ](https://marycore.jp/prog/cpp/function-object/)
+	- クラスのoperator()演算子を多重定義／オーバロードすることで、クラスのインスタンスに対して関数と同等の振る舞いをさせることができます。
+	- このような関数オブジェクトはファンクタ（functor）と呼ばれています。
+	- ()演算子をオーバーロードした関数オブジェクトのこと
 - 集約(aggregate)と委譲(delegate)
 	- ★
-- SFINAE（Substitution Failure Is Not An Error）
-	- ★https://izadori.net/cpp-templ-sfinae/
-	- ★
-- RAII
-	- ★
-- NSDMI
-	- ★
-- RTTI
-	- ★
-- NTTP
-	- ★
-- NTCTS
-	- ★
-- Two-phase name look up
-	- ★https://mimosa-pudica.net/cpp-specialization.html
-	- ★
+- [SFINAE（Substitution Failure Is Not An Error）](https://cpprefjp.github.io/lang/cpp11/sfinae_expressions.html)
+	- テンプレートの置き換えに失敗した際に、即時にコンパイルエラーとはせず、置き換えに失敗した関数をオーバーロード解決の候補から除外するという言語機能
+	- スフィネェと読む
+- [RAII（Resource Acquisition Is Initialization）](https://ja.wikipedia.org/wiki/RAII)
+	- 資源（リソース）の確保と解放を、クラス型の変数の初期化と破棄処理に結び付けるというプログラミングのテクニック
+	- 基本的な活用例は、動的確保されたメモリを自動解放するスマートポインタ (smart pointer) である。
+- NSDMI（Non Static Data Member Initializer）
+	- 和訳：非静的メンバー変数の初期化子
+	- メンバー変数のデフォルト値を指定すること
+- RTTI（RunTime Type Information）
+	- 実行時型情報
+	- コンパイル時ではなく実行時に、そのオブジェクトの型について調べる機能
+- NTTP（Non-Type Template Parameter）
+	- 型ではなくコンパイル時に扱える値に指定されたテンプレートパラメーターのこと
+	- `template <int i>`
+- NTCTS（Null Terminated Character Type String）
+	- 和名：ヌル終端文字列
+	- ヌル文字で終端された文字列のこと
+- ジェネリックラムダ
+	- パラメータにテンプレートを使用できるようにした機能
+- [Two-phase name look up](https://mimosa-pudica.net/cpp-specialization.html)
+	- テンプレート内で使われる名前について、 (0)テンプレートパラメータに依存しない名前は（通常通り）定義された時点で探索を行い、 (1)テンプレートパラメータに依存する名前はテンプレートが実体化される時点で探索を行う、というもの。
+- [クロージャ](https://e-words.jp/w/%E3%82%AF%E3%83%AD%E3%83%BC%E3%82%B8%E3%83%A3.html)
+	- あるコードブロック内で定義された関数などが、そのブロックをスコープとする変数などを参照できること。また、そのような機能を利用してブロック内部で定義された関数のこと。
+	- 目的はオブジェクト内部で使用している変数やメソッドを他人が容易に変更できないようにする(＝カプセル化)
 
 # Tips
 - char型をcoutすると、数値が出力されない
@@ -189,5 +207,16 @@ int main( void ) {
 		- 引数の数や型が少しずつ異なる同名の関数を定義できる機能（＝多重定義）
 		- overload:負荷
 		- 覚え方：似たような関数が複数に増えるため負荷が増える
+- [overrideしたいメンバー関数にvirtualを付け忘れるとどうなるか？](https://www.chihayafuru.jp/tech/index.php/archives/2928)
+	- コンパイルエラーになる。
+	- 派生クラスを指す基底クラスの参照からメンバ関数を呼び出した時の挙動(GCCにて確認)をまとめると以下の通り。
+		- (1) virtualあり(\*1)かつoverrideあり(\*2)の場合…派生クラスのメンバ関数が呼ばれる
+		- (2) virtualなし(\*1)かつoverrideあり(\*2)の場合…コンパイルエラーとなる（仮想関数でないのにoverrideをつけると怒られる）
+		- (3) virtualあり(\*1)かつoverrideなし(\*2)の場合…派生クラスのメンバ関数が呼ばれる
+		- (4) virtualなし(\*1)かつoverrideなし(\*2)の場合…基底クラスのメンバ関数が呼ばれる
+			- (\*1) 基底クラスのメンバ関数にvirtualがついているかどうか
+			- (\*2) 派生クラスのメンバ関数にoverrideがついているかどうか
+	- 上記の通り、override指定子がない場合は基底クラスが仮想関数か否かで振る舞いが変わる。override指定子をつけている場合は、仮想関数であることが必須となるので、仮想関数を完全に上書きしたい場合はoverrideをつけておいたほうが安全。
+	- 上の(4)のパターンはoverride指定子をつけていないためオーバーライドなの？と思ってしまうが、メンバ関数を上書きしている以上はこれもオーバーライドといってよい。
 
 [トップに戻る](../index.md)
