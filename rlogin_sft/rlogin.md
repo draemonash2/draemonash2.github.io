@@ -29,6 +29,9 @@
 	- RLogin.iniを使用すればレジストリではなくこのiniファイルに保存される。
 	- ただし、複数のプロセスからの変更などに弱い。また、ファイルベースで意図せぬハングアップやファイルのコピーなどで壊れる場合がありレジストリベースよりリスクが高い。
 - [ファンクションキー キーコード一覧](https://qiita.com/thino-rma/items/c11420a189ee48204019)
+- WSLにSSH接続する
+	- [参考URL1](https://qiita.com/kenchan1193/items/896c416a4ee89cd4f95b)
+	- [参考URL2](https://qiita.com/ezmscrap/items/30eaf9531e240c992cf1)
 
 # ショートカットキー
 
