@@ -16,12 +16,15 @@
 	1. 「Git」→「このユーザ共通設定を編集(O)」に対しても、上記と同様の設定を行う
 
 - SSH鍵認証の方法＠Windows
-	1. [SSH鍵生成＆アップロード](https://www.emb-se.com/?p=496)
-	1. githubのページよりURL取得
-		- URL取得時、「SSH」を指定する。
-			![-](githubURL取得.jpg)
-	1. gitクローン
-		- 作成したid\_rsa.ppkファイルを指定してgitクローンする
-			![-](githubクローン方法.jpg)
+	1. WSL上でSSH鍵認証の設定を行う
+		1. [SSH鍵生成＆アップロード](https://www.emb-se.com/?p=496)を行う
+	1. Windows上でSSH鍵認証の設定を行う
+		1. ホームディレクトリ直下の.sshフォルダ(e.g. C:\Users\<UserName>\.ssh)にid\_rsa.ppkをコピーする
+		1. githubのページよりURL取得
+			- URL取得時、「SSH」を指定する。
+				![-](githubURL取得.jpg)
+		1. gitクローン
+			- 作成したid\_rsa.ppkファイルを指定してgitクローンする
+				![-](githubクローン方法.jpg)
 
 [トップに戻る](../index.md)
