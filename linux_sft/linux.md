@@ -1108,6 +1108,7 @@ set -x
 - シェルスクリプトを実行中に上書きするとシェルスクリプトが再読み込みされ、意図しない挙動をする。
 	- sh/bashでのみ発生する。zshは発生しない様子。
 	- 参考URLは[こちら](https://moznion.hatenadiary.com/entry/2022/01/02/120903)
+- [rmで削除したファイルを復元できる lsof](https://qiita.com/marukome/items/50f90f9a6f5078276e4d)
 
 # ショートカットキー
 
