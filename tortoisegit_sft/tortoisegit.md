@@ -18,6 +18,7 @@
 - SSH鍵認証の方法＠Windows
 	1. WSL上でSSH鍵認証の設定を行う
 		1. [SSH鍵生成＆アップロード](https://www.emb-se.com/?p=496)を行う
+			- WSLのホームディレクトリ(`\\wsl$\Ubuntu\home\<UserName>\.ssh`)にid\_rsa.ppkが作られる
 	1. Windows上でSSH鍵認証の設定を行う
 		1. ホームディレクトリ直下の.sshフォルダ(e.g. C:\Users\<UserName>\.ssh)にid\_rsa.ppkをコピーする
 		1. githubのページよりURL取得
