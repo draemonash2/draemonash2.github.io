@@ -32,6 +32,8 @@
 - WSLにSSH接続する
 	- [参考URL1](https://qiita.com/kenchan1193/items/896c416a4ee89cd4f95b)
 	- [参考URL2](https://qiita.com/ezmscrap/items/30eaf9531e240c992cf1)
+- [文字幅設定について](https://eng-blog.iij.ad.jp/archives/12576)
+	- Server の設定の「スクリーン」→「制御コード」→「エスケープシーケンス」の「Aタイプを半角で表示 | Aタイプを全角で表示」のチェックを外す
 
 # ショートカットキー
 
