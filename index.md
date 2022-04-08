@@ -54,17 +54,20 @@
 - [EpTree](eptree_sft/eptree.md)
 - [Excuberant Ctags](ctags_sft/ctags.md)
 
-- [WSL2](wsl2_sft/wsl2.md)
-- [GDB](gdb_sft/gdb.md)
-- [DBX](dbx_sft/dbx.md)
+- [RLogin](rlogin_sft/rlogin.md)
+- [WinSCP](winscp_sft/winscp.md)
+- [TeraTerm](teraterm_sft/teraterm.md)
+
 - [Cygwin](cygwin_sft/cygwin.md)
 - [iThoughts](ithoughts_sft/ithoughts.md)
 - [Redmine](redmine_sft/redmine.md)
 - [EyeD3](eyed3_sft/eyed3.md)
 - [7-Zip](7zip_sft/7zip.md)
 - [Anki](anki_sft/anki.md)
-- [RLogin](rlogin_sft/rlogin.md)
-- [WinSCP](winscp_sft/winscp.md)
+
+- [WSL2](wsl2_sft/wsl2.md)
+- [GDB](gdb_sft/gdb.md)
+- [DBX](dbx_sft/dbx.md)
 
 ## その他
 - [用語集](words_klg/words.md)
