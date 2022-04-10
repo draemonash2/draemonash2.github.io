@@ -192,6 +192,24 @@ filetype plugin indent on
 |Vimdiff		| :set diffopt+=icase									| vimdiff 大小文字無視 |
 |Vimdiff		| :set diffopt+=iwhite									| vimdiff 空白数差異無視 |
 |Vimdiff		| :set diffopt+=iwhiteall								| vimdiff 空白変更全無視 |
+|Terminal		| :term													| ターミナルモード起動 | 
+|Terminal		| :term ++curwin										| ターミナルモード起動(現在ウィンドウ) | 
+|Terminal		| :vert term											| ターミナルモード起動(垂直分割) | 
+|Terminal		| :bo term												| ターミナルモード起動(水平分割最下部) | 
+|Terminal		| :top term												| ターミナルモード起動(水平分割最上部) | 
+|Terminal		| Ctrl+w → :quit										| ターミナルモード終了 |
+|Terminal		| Ctrl+w → .											| ターミナル上でCtrl+w入力 |
+|Terminal		| Ctrl+w → :											| コマンドラインモード移行 |
+|Terminal		| Ctrl+w → j											| ウィンドウ移動(下) |
+|Terminal		| Ctrl+w → k											| ウィンドウ移動(上) |
+|Terminal		| Ctrl+w → h											| ウィンドウ移動(左) |
+|Terminal		| Ctrl+w → l											| ウィンドウ移動(右) |
+|Terminal		| Ctrl+w → gt											| タブページ移動(次) |
+|Terminal		| Ctrl+w → gT											| タブページ移動(前) |
+|Terminal		| Ctrl+w → N or Ctrl+\ → Ctrl+n						| Terminal-Normalモード移行 |
+|Terminal		| i or a												| Terminal-Normalモード脱出 |
+|Terminal		| Ctrl+w → Ctrl+w										| ウィンドウの切り替え |
+|Terminal		| Ctrl+w → x											| ウィンドウ入れ替え(現在ウィンドウ⇔一つ前ウィンドウ) |
 
 ★linediff
 ★blockdiff
