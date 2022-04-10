@@ -113,10 +113,8 @@
 	- クラスのoperator()演算子を多重定義／オーバロードすることで、クラスのインスタンスに対して関数と同等の振る舞いをさせることができます。
 	- このような関数オブジェクトはファンクタ（functor）と呼ばれています。
 	- ()演算子をオーバーロードした関数オブジェクトのこと
-- 集約(aggregate)と委譲(delegate)
-	- ★
-- [SFINAE（Substitution Failure Is Not An Error）](https://cpprefjp.github.io/lang/cpp11/sfinae_expressions.html)
-	- テンプレートの置き換えに失敗した際に、即時にコンパイルエラーとはせず、置き換えに失敗した関数をオーバーロード解決の候補から除外するという言語機能
+- [SFINAE（Substitution Failure Is Not An Error）](https://theolizer.com/cpp-school2/cpp-school2-6/)
+	- クラス・テンプレートに実引数を指定して実体化する時、テンプレート定義（プライマリー、部分的特殊化、明示的特殊化）のどれを用いるのか決定しますが、その際に、テンプレート仮引数に実引数を仮に当てはめた結果エラーが起きてもエラーにせず、単にその部分特殊化や明示的特殊化を選択しないという仕組みのこと
 	- スフィネェと読む
 - [RAII（Resource Acquisition Is Initialization）](https://ja.wikipedia.org/wiki/RAII)
 	- 資源（リソース）の確保と解放を、クラス型の変数の初期化と破棄処理に結び付けるというプログラミングのテクニック
@@ -180,6 +178,17 @@
 	- 特徴
 		- 特殊化と部分特殊化は共存できる。
 		- 前方宣言しておけば、プライマリテンプレートは不要
+- 実体化
+	- 暗黙的実体化
+		- テンプレートは型が決まって初めて実体化できる。
+		- クラスのインスタンス化とテンプレート宣言が同じcpp内にある場合は、暗黙的に実体化される。
+	- [明示的実体化](https://theolizer.com/cpp-school2/cpp-school2-3/)
+		- テンプレートはそれだけでは型が不明なため、関数の中身を実体化できず別のcppに分離できない。
+		- しかし、以下のようにcpp内にプログラマが型を指定して実体化するよう指示する（＝明示する）事により関数の中身をcppファイルへ分離できるようになる。
+			```
+			template int max<int>(int a, int b);
+			template double max<double>(double a, double b);
+			```
 - [decltype(auto)](https://cpprefjp.github.io/lang/cpp14/decltype_auto.html)
 	- decltypeに与える式を右辺の式で置き換えて型推論する機能
 	```
@@ -189,6 +198,13 @@
 	decltype(r)    b = r; // bの型はint&
 	decltype(auto) c = r; // cの型はint&
 	```
+- [two-phase name lookup](https://teratail.com/questions/179406)
+	- テンプレートの名前解決を以下の２段階に分けて行うこと
+		+ テンプレート引数に依存しないもの
+		+ テンプレート引数に依存するもの
+- [ADL（Argument-dependent name lookup）](https://komorinfo.com/blog/overload-and-adl/#toc_id_3)
+	- 実引数依存の名前探索
+	- 特定の状況下では名前空間を省略して関数を呼び出せる機能
 
 # Tips
 - char型をcoutすると、数値が出力されない
