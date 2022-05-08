@@ -301,9 +301,13 @@
 	- 【エイリアス解除】`unalias ll`
 	
 	- 【パッケージインストール(Debian系)】`apt install package\_name`
-		- aptをapt-getの設計改良版の位置づけらしい([詳細はこちら](https://www.atmarkit.co.jp/ait/articles/1708/31/news017.html))
-	- 【パッケージ削除(Debian系)】`apt remove package\_name`
+		- aptはapt-getの設計改良版の位置づけらしい([詳細はこちら](https://www.atmarkit.co.jp/ait/articles/1708/31/news017.html))
+	- 【パッケージ一覧更新(Debian系)】`apt update`
+		- パッケージのリポジトリから、パッケージの名前やバージョン、依存関係を取得し、有効でインストール可能なパッケージの一覧を更新します。
+		- 「update」なので、インストールやアップデートを実行しそうですが、このコマンドでは実際のインストールやアップデートは行われません。
 	- 【パッケージ更新(Debian系)】`apt upgrade package\_name`
+		- パッケージのリポジトリから、パッケージの名前やバージョン、依存関係を取得し、有効でインストール可能なパッケージの一覧を更新
+	- 【パッケージ削除(Debian系)】`apt remove package\_name`
 	- 【パッケージインストール(RedHat系)】`yum install package\_name`
 	
 	- 【コンパイル実行】`gcc -o objfile srcfile`
