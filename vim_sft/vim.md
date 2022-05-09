@@ -210,6 +210,23 @@ filetype plugin indent on
 |Terminal		| i or a												| Terminal-Normalモード脱出 |
 |Terminal		| Ctrl+w → Ctrl+w										| ウィンドウの切り替え |
 |Terminal		| Ctrl+w → x											| ウィンドウ入れ替え(現在ウィンドウ⇔一つ前ウィンドウ) |
+|Ctrlp			| Ctrl+p												| ctrlp 起動 |
+|Ctrlp			| Ctrl+c or \<esc\>										| ctrlp 終了 |
+|Ctrlp			| Ctrl+d												| 検索モード切替え(フルパス検索⇔ファイル名のみ) |
+|Ctrlp			| Ctrl+r												| 検索モード切替え(正規表現検索⇔通常検索) |
+|Ctrlp			| Ctrl+f,Ctrl+b											| 検索対象切替え（ファイル or バッファ or MRU） |
+|Ctrlp			| Ctrl+j/k												| ファイル選択(下/上) |
+|Ctrlp			| Ctrl+a/e												| カーソル移動(先頭/末尾) |
+|Ctrlp			| Ctrl+u												| コマンドラインクリア |
+|Ctrlp			| Ctrl+n,Ctrl+p											| コマンド入力履歴を辿る |
+|Ctrlp			| Ctrl+\												| コマンドライン貼付け(レジスタ等) |
+|Ctrlp			| Tab													| ディレクトリ名補完 |
+|Ctrlp			| CR(Enter)												| ファイルオープン(現在ウインドウ) |
+|Ctrlp			| Ctrl+t												| ファイルオープン(新しいタブ) |
+|Ctrlp			| Ctrl+v												| ファイルオープン(垂直分割) |
+|Ctrlp			| Ctrl+s,Ctrl+CR										| ファイルオープン(水平分割) |
+|Ctrlp			| Ctrl+z → Ctrl+o										| ファイル,ディレクトリマーク→ファイルオープン |
+|Ctrlp			| Ctrl+y												| 新規ファイル作成at現在ディレクトリ) |
 
 ★linediff
 ★blockdiff
@@ -232,6 +249,7 @@ filetype plugin indent on
 	![Align\_BoxComment](Align_BoxComment.jpg)
 - 文字数を維持しながら置換するVimコマンド
 	- 添付の「文字数を維持しながら置換するVimコマンドを作成する.xlsm」参照
+- [Ctrlp](https://github.com/ctrlpvim/ctrlp.vim)
 
 # Tips
 ## 突然エラーが出るようになった
