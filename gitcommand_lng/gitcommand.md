@@ -33,10 +33,12 @@
 - 【ブランチ削除】git branch -d ブランチ名
 
 - 【コミット(追加)】git commit -m "命令形メッセージ"
+- 【コミット(追加)(メッセージ改行あり)】git commit -F- << EOM
 - 【コミット(上書き)】git commit --amend #→英単語amend＝修正する
 - 【コミット(内容追加)】git commit --amend --no-edit #→前回のコミットメッセージのまま
 - 【コミット(コメント修正)】git commit --amend -m "修正されたコミット"
 - 【ステージング＆コミット(追加)】git commit -a -m "命令形メッセージ"
+
 - 【ファイル名変更】git mv 旧ファイル名 新ファイル名
 
 - 【インデックス追加(ファイル)】git add ファイル名
