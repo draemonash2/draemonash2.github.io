@@ -69,6 +69,8 @@
 - [GDB](gdb_sft/gdb.md)
 - [DBX](dbx_sft/dbx.md)
 
+- [Tmux](tmux_sft/tmux.md)
+
 ## その他
 - [用語集](words_klg/words.md)
 - [用語集（開発-自動車）](words_klg/words_develop_car.md)
