@@ -90,4 +90,28 @@
 - status line 色設定
 	- 参考URL : [tmux の status line の設定方法](https://qiita.com/nojima/items/9bc576c922da3604a72b#attributes-%E3%81%AB%E6%8C%87%E5%AE%9A%E3%81%A7%E3%81%8D%E3%82%8B%E6%96%87%E5%AD%97%E5%88%97)
 
+# トラブルシューティング
+
+- キーが効かない
+	- f1～f4＠teraterm＋vim
+		- 原因
+			- "~"が送信されている。F2は"2~"、F3は"3~"。vimの「~」は大文字小文字入れ替え。
+		- 対処
+			- teraterm のKEYCONFIG.CNFのF1キーをFUNCTION.CNFの設定値に更新する
+				- 変更前：XF1=59
+				- 変更後：User8=59,0,$1BOP
+	- Ctrl + ,＠teraterm＋vim
+		- 原因
+			- teratermで ctrl+b をctrl ,に置き換えているため
+		- 処置
+			- teraterm キー設定変更
+				- [ESC[nD カーソルを左にn桁移動](https://teraterm.jp/manual/4.68/html/about/ctrlseq.html#CSI)
+	- Ctrl + h
+		- 原因
+			- ？
+		- 処置
+			- BSpaceへの割り当て
+				- 例： `bind Bspace select-pane -L`
+
+
 [トップに戻る](../index.md)
