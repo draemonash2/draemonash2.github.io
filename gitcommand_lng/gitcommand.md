@@ -112,6 +112,11 @@
 	- 【スタッシュ 削除(最新分)】git stash drop
 	- 【スタッシュ 削除(番号指定)】git stash drop stash@{1}
 	- 【スタッシュ 全削除】git stash clear
+	
+- 【[消したはずのリモートブランチがローカルで表示される時に削除する方法](https://qiita.com/nantekkotai/items/0ca7c9e850eff65aaf66)】
+	1. `git remote show origin` でブランチ確認
+		- 問題ないブランチ（現在利用されているとか、削除されていないもの）は、「tracked」と表示される。対して、消えない腐ったブランチは「stale」と表示される。
+	1. `git remote prune origin` で削除
 
 - 【github上から指定ファイル完全消去】 `find . -name .ファイル名 -print0 | xargs -0 git rm`
 	- github上でrevertした場合は必ずプルリクエストまで出す
