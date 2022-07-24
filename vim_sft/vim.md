@@ -320,6 +320,7 @@ filetype plugin indent on
 - [エスケープが必要な文字一覧](http://deris.hatenablog.jp/entry/2013/05/15/024932)
 
 | \v（very magic） | \m（magic）（デフォルト） | \M（nomagic） | \V（very nomagic） |
+|:---|:---|:---|:---|
 | \ | \ | \ | \ |
 | . | . | ^ |  |
 | * | * |  |  |
@@ -331,7 +332,7 @@ filetype plugin indent on
 | $ | $ | $ |  |
 | ( |  |  |  |
 | ) |  |  |  |
-| | |  |  |  |
+| \| |  |  |  |
 | \[ | \[ |  |  |
 | & (\*1) |  |  |  |
 | @ (\*1) |  |  |  |
@@ -344,6 +345,7 @@ filetype plugin indent on
 - [正規表現比較](http://deris.hatenablog.jp/entry/2013/05/15/024932)
 
 | Perlのメタ文字 | Vimのメタ文字(very magic) | 説明 | 備考 |
+|:---|:---|:---|:---|
 | . | 同じ | 任意の1文字 |  |
 | * | 同じ | 直前のアトムの繰り返し(0回以上) | 最長マッチ |
 | + | 同じ | 直前のアトムの繰り返し(1回以上) | 最長マッチ |
