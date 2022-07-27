@@ -1153,11 +1153,13 @@ set -x
 | リンクを辿るか（ファイル比較＠diff） | 辿る | 辿る |
 | リンクを辿るか（ファイル比較＠diff --no-dereference） | 辿る | 辿らない |
 
-- シンボリックリンク(フォルダ)配下を比較ツールで比較するには
+- シンボリックリンク(フォルダ)配下を辿る方法
 	- `git diff`
 		- ハードリンクを作る
 	- `git status`
 		- ハードリンクを作る
+	- `grep`
+		- `grep -R`
 - [ps コマンドの表示項目](https://beyondjapan.com/blog/2017/08/pscmd/)
 	- `pcpu（%cpu）` …プロセスのcpu 使用率
 	- `pmem（%mem）` …メモリ使用率
