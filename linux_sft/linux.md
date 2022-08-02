@@ -1154,10 +1154,9 @@ set -x
 | リンクを辿るか（ファイル比較＠diff --no-dereference） | 辿る | 辿らない |
 
 - シンボリックリンク(フォルダ)配下を辿る方法
-	- `git diff`
+	- `git diff/status`
 		- ハードリンクを作る
-	- `git status`
-		- ハードリンクを作る
+			- git checkout でハードリンクが切れてしまう…
 	- `grep`
 		- `grep -R`
 - [ps コマンドの表示項目](https://beyondjapan.com/blog/2017/08/pscmd/)
