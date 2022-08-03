@@ -89,6 +89,13 @@
 	- set-window-option は set-option -w のエイリアス
 - status line 色設定
 	- 参考URL : [tmux の status line の設定方法](https://qiita.com/nojima/items/9bc576c922da3604a72b#attributes-%E3%81%AB%E6%8C%87%E5%AE%9A%E3%81%A7%E3%81%8D%E3%82%8B%E6%96%87%E5%AD%97%E5%88%97)
+- [xpanes](https://github.com/greymd/tmux-xpanes)
+	- 概要
+		- 端末分割＋各々コマンド実行を一回のコマンド入力で行えるようにするソフト
+	- インストール方法
+		- [こちら](https://github.com/greymd/tmux-xpanes)
+	- コマンド例
+		- `xpanes -e "top" "vmstat 1" "watch -n 1 free"`
 
 # トラブルシューティング
 
