@@ -140,6 +140,15 @@
 	fi
 	```
 
+- 【[diffアルゴリズム変更](https://qiita.com/takaakikasai/items/3d4f8a4867364a46dfa3)】 `git diff --histogram`
+
+- 【未ステージングのファイルを抽出してadd】
+	```
+	$ git status ?porcelain  | vim -
+	addしたいファイルを残す
+	:w !xargs git add
+	```
+
 # 用語
 - 統合ブランチ
 	- リリース版が何時でも作成可能なようしておくためのブランチ。トピックブランチの分岐元。
