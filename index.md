@@ -26,6 +26,7 @@
 - [Linux](linux_sft/linux.md)
 
 ## ソフト([インストーラーはこちら](other_otr/installer_url.md))
+### Windows
 - [Kinza](kinza_sft/kinza.md)
 - [Mozilla Firefox](firefox_sft/firefox.md)
 - [Mozilla Thunderbird](thunderbird_sft/thunderbird.md)
@@ -66,10 +67,13 @@
 - [Anki](anki_sft/anki.md)
 
 - [WSL2](wsl2_sft/wsl2.md)
+
+### Linux
 - [GDB](gdb_sft/gdb.md)
 - [DBX](dbx_sft/dbx.md)
 
 - [Tmux](tmux_sft/tmux.md)
+- [tig](tig_sft/tig.md)
 
 ## その他
 - [用語集](words_klg/words.md)
