@@ -25,6 +25,7 @@
 # カスタマイズ
 - [カスタマイズ方法](https://qiita.com/vivid_muimui/items/7e7a740e6537749de0c0#%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%9E%E3%82%A4%E3%82%BA)
 - カスタマイズ例
+
 ```
 set vertical-split = false														# サブビューを横分割にする
 set main-view = id date author commit-title:graph=yes,refs=yes					# main viewの左端にコミットIDを表示する
@@ -56,7 +57,7 @@ set ignore-case = no
 set wrap-lines = no
 set focus-child = yes
 set show-line-numbers = yes
-
+ 
 color default white black
 color cursor default magenta
 color date cyan default
