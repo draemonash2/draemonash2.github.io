@@ -409,6 +409,11 @@ IF(
 	- 行/列の挿入/削除
 	- 書式設定変更
 	- 等…
+- [Excel API](https://excelapi.org/docs/)
+	- Excel用のWeb API
+	- 以下のように使用する。
+		- i.e. 祝日の一覧を取得する
+			- `=WEBSERVICE("http://api.excelapi.org/datetime/holiday-list?year="&B$1&"&line="&$A2)`
 
 # ショートカットキー
 
