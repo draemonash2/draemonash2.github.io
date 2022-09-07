@@ -314,6 +314,7 @@
 - 複数行コメントアウトボタン設置
 	- 表示 ⇒ ツールバー ⇒ [\*] 編集 ⇒ オプション
 - [VBEにコメントブロックのショートカットキーを設定する方法](https://tonari-it.com/excel-vba-vbe-comment-shortcut-key/)
+- [アドインマクロに電子署名を付与する方法](https://www.teijitaisya.com/vba-selfcert/)
 
 ## ショートカットキー
 

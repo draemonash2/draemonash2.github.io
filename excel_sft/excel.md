@@ -94,6 +94,7 @@
 		- C:\Program Files (x86)\Microsoft Office\root\Office16\EXCEL.EXE
 - [テンプレートファイル（デフォルトブック）保存先](https://www.tekizai.net/entry/excel_template_1)
 	- `C:\Users\<ユーザー名>\AppData\Roaming\Microsoft\Excel\XLSTART`
+- [アドインマクロに電子署名を付与する方法](https://www.teijitaisya.com/vba-selfcert/)
 
 # アドイン登録方法
 - .xlaを以下に登録
