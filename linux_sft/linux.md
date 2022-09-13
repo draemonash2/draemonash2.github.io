@@ -194,7 +194,8 @@
 - 【直前コマンドのn～m番目のトークン】`!!:n-m`
 - 【直前コマンドのn～最終トークン】`!!:n-$`
 
-- 【標準入力取得】`echo -n "あなたのお名前は?";read yourname`
+- 【標準入力取得１】`echo -n "あなたのお名前は?";read yourname`
+- 【標準入力取得２】`read -p "あなたのお名前は?" yourname`
 
 - 【数値比較(＝)】`if [ 5 -eq 10 ]; then #→1(偽) EQual`
 - 【数値比較(≠)】`if [ 5 -ne 10 ]; then #→0(真) Not Equal`
