@@ -119,6 +119,10 @@
 		- 処置
 			- BSpaceへの割り当て
 				- 例： `bind Bspace select-pane -L`
-
+- tmux上で日本語をコピーすると文字化けする
+	- 対処
+		- [ターミナルソフトのコピー機能でコピーする](https://teratail.com/questions/320522)
+			- teratermの場合、Ctrl+マウス選択
+			- terminatorの場合、Shift+マウス選択
 
 [トップに戻る](../index.md)
