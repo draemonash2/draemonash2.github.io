@@ -228,8 +228,10 @@ filetype plugin indent on
 |Ctrlp			| Ctrl+s,Ctrl+CR										| ファイルオープン(水平分割) |
 |Ctrlp			| Ctrl+z → Ctrl+o										| ファイル,ディレクトリマーク→ファイルオープン |
 |Ctrlp			| Ctrl+y												| 新規ファイル作成at現在ディレクトリ) |
+|linediff		| 行選択 → :Linediff									| 比較対象１追加 |
+|linediff		| 行選択 → :Linediff									| 比較対象２追加＆比較実行 |
+|linediff		| :LinediffReset										| 追加済みの比較対象削除 |
 
-★linediff
 ★blockdiff
 ★neosnipet
 ★tagbar
