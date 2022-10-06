@@ -268,7 +268,10 @@
 - 【リスト取得＆操作１】`LIST=$(cat list.txt) ～ for var in $LIST ～ do ～ echo $var ～ done`
 - 【リスト取得＆操作２】`LIST="aaa bbb cccc d" ～ for var in $LIST ～ do ～ echo $var ～ done`
 
-- 【ＴＸＴ 読込（一行ずつ）】`while read line ～ do ～ echo $line ～ done < test.txt`
+- 【ＴＸＴ 読込（一行ずつ）】`while IFS= read line ～ do ～ echo "${line}" ～ done < input.txt`
+	- IFSとは
+		- 単語の区切りを指定する環境変数。デフォルトはスペース・タブ・改行が入っている。
+		- `IFS=` がない場合、入力ファイル内の行頭の空白が無視されてしまう。
 
 # コマンド一覧
 
