@@ -27,5 +27,7 @@
 		1. gitクローン
 			- 作成したid\_rsa.ppkファイルを指定してgitクローンする
 				![-](githubクローン方法.jpg)
+- コミットウィンドウ表示
+	- `start TortoiseGitProc /command:commit /path:"C:\codes" /logmsg:"mod"`
 
 [トップに戻る](../index.md)
