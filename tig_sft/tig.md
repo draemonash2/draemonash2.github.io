@@ -2,17 +2,21 @@
 
 # ビュー
 
-| キー | ビュー名 | 説明                         |
-|:-----|:---------|:-----------------------------|
-| m    | main     | デフォルトのビュー(git tree) |
-| s    | status   | git status                   |
-| r    | refs     | branch, tag一覧              |
-| d    | diff     | commit間のファイル差分表示   |
-| l    | log      | git log                      |
-| t    | tree     | ディレクトリツリー           |
-| g    | grep     | git grep                     |
-| b    | blame    | git blame                    |
-| h    | help     | tigのキーバインド一覧        |
+| key | name | 切り替え先のビュー | ビューの説明 |
+|:---|:---|:---|:---|
+| m | view-main | mainビュー | commit履歴を表示するメインの画面 |
+| d | view-diff | diffビュー | 特定のコミットの差分を表示する画面 |
+| l | view-log | logビュー | git log 相当の画面 |
+| t | view-tree | treeビュー | ファイルツリー |
+| f | view-blob | blobビュー | 実ファイルの中身を確認できるビュー |
+| b | view-blame | blameビュー | git blame 相当の画面 |
+| r | view-refs | refsビュー | git branch -a 相当の画面 |
+| s, S | view-status | statusビュー | git status 相当の画面 |
+| c | view-stage | stageビュー | stage したファイルの確認, 編集できるビュー |
+| y | view-stash | stashビュー | git stash 相当 |
+| g | view-grep | grepビュー | grep |
+| p | view-pager | pagerビュー | ？ |
+| h | view-help | helpビュー | ヘルプ表示 |
 
 # コマンド
 
