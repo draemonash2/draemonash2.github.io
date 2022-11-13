@@ -89,7 +89,8 @@
 		  "c:\work2\test.h" ^
 		  ""
 		```
-- [「start」コマンドと「スペース」の相性が悪い！](http://d.hatena.ne.jp/mizuki\_astral/20100715/1279203356)
+- [「start」コマンドと「スペース」の相性が悪い！](https://mizuki-astral.hatenadiary.org/entry/20100715/1279203356)
+	- 対策：[start コマンドの第一引数にダミー引数を追加する](https://anond.hatelabo.jp/20110805143611)
 - pushd コマンド
 	- cd コマンドはドライブを跨いだ移動ができない。（/d オプションが必要）
 	- pushd コマンドはドライブを跨いだ移動ができる！

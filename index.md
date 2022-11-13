@@ -38,6 +38,7 @@
 - [Microsoft Visio](visio_sft/visio.md)
 - [Enterprise Architect](ea_sft/ea.md)
 - [Visual Studio](visualstudio_sft/visualstudio.md)
+- [VS Code](vscode_sft/vscode.md)
 - [PDF-XChange-Viewer](pdf-xchange-viewer_sft/pdf-xchange-viewer.md)
 - [Adobe Reader](adobe-reader_sft/adobe-reader.md)
 

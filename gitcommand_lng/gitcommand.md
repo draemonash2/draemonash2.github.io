@@ -249,6 +249,6 @@
 		- 参考URL：
 			- [Git のコミットのタイムスタンプには author date と committer date の 2 種類があるという話](https://vividcode.hatenablog.com/entry/git/author-date-and-committer-date)
 			- [Git での Committer と Author の違いは？](https://kz-engineer-scrap.hatenablog.com/entry/2016/04/05/032916)
-		
+- [自分の環境だけgitignoreする方法](https://www.yoheim.net/blog.php?q=20160510)
 
 [トップに戻る](../index.md)
