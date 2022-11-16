@@ -418,6 +418,9 @@ IF(
 			- `=WEBSERVICE("http://api.excelapi.org/datetime/holiday-list?year="&B$1&"&line="&$A2)`
 - 挿入した画像の横幅が勝手に変わる
 	- 対策：[既定のフォントを変える](https://grum.hatenablog.com/entry/2017/06/13/020000)
+- #を含むファイルパスへのハイパーリンクでジャンプできない
+	- 対策：以下の数式を使って、"#"をURIエンコードしたものをリンク先とする。
+		- `HYPERLINK("file:///"&SUBSTITUTE("path", "#", "%23%"),"リンクはこちら")`
 
 # ショートカットキー
 

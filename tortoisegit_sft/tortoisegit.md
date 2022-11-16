@@ -29,5 +29,10 @@
 				![-](githubクローン方法.jpg)
 - コミットウィンドウ表示
 	- `start TortoiseGitProc /command:commit /path:"C:\codes" /logmsg:"mod"`
+- [コミットメッセージ変更方法](https://kuttsun.blogspot.com/2017/10/tortoisegit.html)
+	- 直前コミットの場合
+		- コミットの画面で「最後のコミットをやり直す」にチェックを入れる。
+	- ２つ以上前のコミットのメッセージを編集
+		- 省略。タイトルのリンク先参照。
 
 [トップに戻る](../index.md)
