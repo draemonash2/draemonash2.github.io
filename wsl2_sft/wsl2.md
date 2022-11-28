@@ -42,6 +42,11 @@
 	- `%USERPROFILE%\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json`
 - 特定ディレクトリを垂直分割して Windows Terminal を起動する
 	- `wt -d C:\codes_sample\c++\dokusyuC++; split-pane -V -D wsl.exe`
+- OS間のシンボリックリンク挙動
+	- linux(wsl2)上でシンボリックリンクを作るとwindows上で使える？
+		- 使えない(0kbの不明なファイルが作られる)
+	- windows上でシンボリックリンクを作るとlinux(wsl2)上で使える？
+		- 問題なく使える
 
 # コマンド
 

@@ -73,6 +73,8 @@
 	- 【直前reset取消し】 `git reset --hard ORIG\_HEAD`
 	- 【全変更取消し インデックス変更後】 `git checkout -f`
 	- 【ファイル変更削除】 `git checkout -- ファイル名`
+	- 【アンドゥ(reflog) 対象確認】 `git reflog`
+	- 【アンドゥ(reflog) 実行】 `git reset --hard HEAD@{N}` # N : 1以上の数値
 	- [★](https://www-creators.com/archives/1290)
 
 - 変更差分表示
@@ -83,6 +85,7 @@
 	- 【変更差分表示 Idx⇔Lcl(HEAD)間】 `git diff --cached`
 	- 【変更差分表示 Lcl⇔Rmt間】 `git diff HEAD..リモート名/ブランチ名`
 	- 【変更差分表示 Rmt Rev間】 `git log -p ファイル名`
+	- 【[diffアルゴリズム変更](https://qiita.com/takaakikasai/items/3d4f8a4867364a46dfa3)】 `git diff --histogram`
 
 - マージ
 	- 【マージ(Non Fast-Forward)】 `git merge [--no-ff] ブランチ名` #→ 今のブランチに選択したブランチをマージ
@@ -139,8 +142,6 @@
 		branchname=`git branch --contains | grep "* " | head -1 | cut -c 3-`
 	fi
 	```
-
-- 【[diffアルゴリズム変更](https://qiita.com/takaakikasai/items/3d4f8a4867364a46dfa3)】 `git diff --histogram`
 
 - 【未ステージングのファイルを抽出してadd】
 	```
