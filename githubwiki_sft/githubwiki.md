@@ -2,7 +2,7 @@
 
 # 構文
 
-- 【見出し】
+## 見出し
 
 ```
 #
@@ -10,23 +10,35 @@
 ###
 ```
 
-- 【箇条書き（番号なし）】
+## 箇条書き（番号なし）
 
 ```
--
-<TAB>-
-<TAB><TAB>-
+- aaa
+<TAB>- bbb
+<TAB><TAB>- ccc
+<TAB>- ddd
 ```
 
-- 【箇条書き（番号あり）】
+- aaa
+	- bbb
+		- ccc
+	- ddd
+
+## 箇条書き（番号あり）
 
 ```
-1.
-<TAB>1.
-<TAB><TAB>1.
+1. aaa
+<TAB>1. bbb
+<TAB><TAB>1. ccc
+<TAB>1. ddd
 ```
 
-- 【引用】
+1. aaa
+	1. bbb
+		1. ccc
+	1. ddd
+
+## 引用
 
 ```
 > お世話になります。xxxです。
@@ -35,7 +47,12 @@
 >> あの新機能バグがあります。
 ```
 
-- 【強調】
+> お世話になります。xxxです。
+> ご連絡いただいた、バグの件ですが、仕様です。
+>> お世話になります。 yyyです。
+>> あの新機能バグがあります。
+
+## 強調
 
 ```
 normal *italic* normal
@@ -44,26 +61,33 @@ normal **bold** normal
 normal __bold__ normal
 normal ***bold+italic*** normal
 normal ___bold+italic___ normal
+normal ~~strikethrough~~ normal
 ```
 
-- 【取り消し線】
+- normal *italic* normal
+- normal _italic_ normal
+- normal **bold** normal
+- normal __bold__ normal
+- normal ***bold+italic*** normal
+- normal ___bold+italic___ normal
+- normal ~~strikethrough~~ normal
 
-```
-~~取り消し線~~
-```
-
-- 【水平線】
+## 水平線
 
 ```
 ***
 ---
 ```
 
-- 【pre記法】
-	- 上下の行は空行である必要なし。
-	- pre記法はインデントしないほうがいい。(インデントした分、行頭に空白文字が挿入される)
+---
+
+## pre記法
+
+- 上下の行は空行である必要なし。
+- pre記法はインデントしないほうがいい。(インデントした分、行頭に空白文字が挿入される)
+
 ```
-\``` ruby
+``` ruby
 class Hoge
   def hoge
     print 'hoge'
@@ -72,108 +96,113 @@ end
 \```
 ```
 
-- 【表組み】
-	- 表の左にタブを付与すると、表をインデントできる
-	- 注意：表の上下の行が空行(もしくはスペース/タブのみの行)である必要あり！
+``` ruby
+class Hoge
+  def hoge
+    print 'hoge'
+  end
+end
+```
+
+## 表組み
+
+- 表の左にタブを付与すると、表をインデントできる
+- 表の上下の行が空行(もしくはスペース/タブのみの行)である必要あり！
+- 表内で「｜」を使うときは、エスケープもしくはasciiコード`&#124;`で表現する
+
 ```
 |header1|header2|header3|
 |:--|--:|:--:|
 |align left|align right|align center|
-|a|b|c|
+|a|b|c\||
 ```
 
-- 【リンク】
+|header1|header2|header3|
+|:--|--:|:--:|
+|align left|align right|align center|
+|a|b|c\||
+
+
+## リンク
 
 ```
 [Google先生](https://www.google.co.jp/)
 ```
 
-- 【ページ内リンク】
+[Google先生](https://www.google.co.jp/)
+
+## ページ内リンク
 
 ```
 [to header1](#header1)
 ```
 
-- 【画像】
+[リンク](#リンク)
+
+## 画像
 
 ```
 ![画像１](image.jpg)
 ![画像２](http://test/image2.jpg)
 ```
 
-- 表内の「｜」エスケープ
-	- 参考：asciiコードを変えれば他の文字を表現可能。
-	
+![画像１](image.jpg)
+![画像２](http://test/image2.jpg)
+
+## 取り消し線
+
 ```
-&#124;
+~~取り消し線~~
 ```
 
-- 【取り消し線】`~~取り消し線~~` → ~~取り消し線~~
-- 【チェックボックス】
+## チェックボックス
 
 ```
 - [x] チェック済み
 - [ ] 未チェック
 ```
 
-- 【折り畳み】
+- [x] チェック済み
+- [ ] 未チェック
+
+## 折り畳み（デフォルトopen）
 
 ```
 <details open>
-<summary>これは中身が整形される</summary>
+<summary>展開</summary>
 
-1. 野菜**A**の皮を剥く。
-2. 乱切りにする。
-3. 調味料**B**と合わせて炒める。
-    - `火傷`に注意。
+1. aaa
+1. bbb
+    - ccc
 </details>
 ```
 
-# 他
+<details open>
+<summary>展開</summary>
 
-## AtWikiからGithubWikiへの変換構文＠vim
+1. aaa
+1. bbb
+    - ccc
+</details>
+
+## 折り畳み（デフォルトclose）
 
 ```
-###########################################
-# 検索
-###########################################
-■wiki内ページ参照
-\[\[(.{-1,})\]\]
+<details>
+<summary>展開</summary>
 
-###########################################
-# 置換
-###########################################
-■見出し
-%s/\v^\*\*\*/###/ge|%s/\v^\*\*/##/ge|%s/\v^\*/#/ge
-
-■箇条書き
-%s/\v^\-\-\-\-\-/\t\t\t\t\-/ge|%s/\v^\-\-\-\-/\t\t\t\-/ge|%s/\v^\-\-\-/\t\t\-/ge|%s/\v^\-\-/\t\-/ge
-%s/\v^\+\+\+\+\+/\t\t\t\t\-/ge|%s/\v^\+\+\+\+/\t\t\t\-/ge|%s/\v^\+\+\+/\t\t\-/ge|%s/\v^\+\+/\t\-/ge|%s/\v^\+/\-/ge
-
-■URL
-s/\v\[\[(.{-1,})\>\>(.{-1,})\]\]/\[\1\]\(\2\)/ge
-
-■表タイトル
-s/\v\|(.{-1,})(\|)@=/\|:\-\-\-/ge
-
-■Highlightタイトル
-%s/\v#highlight\((.{-,})\)\{\{/```\1/ge|%s/^\}\}/```/ge
-%s/\v#highlight\((.{-,})\)\{/```\1/ge|%s/^\}/```/ge
-
-■image
-%s/\v#image\((.{-,})\.(.{-,})\)/!\[\1\]\(\1\.\2\)/ge
-
-###########################################
-# TODO
-###########################################
-■Highlight複数行
-#highlight( vb ){{ ～ }}
-
-■フォント色
-&color(red){★}
-<font color="Red">★</font>
-s/\v\&color\((.{-1,})\)\{(.{-1,})\}/\<font\scolor\="\1"\>\2\<\/font\>/g
-⇒★出来ない…要検討★
+1. aaa
+1. bbb
+    - ccc
+</details>
 ```
+
+<details>
+<summary>展開</summary>
+
+1. aaa
+1. bbb
+    - ccc
+</details>
 
 [トップに戻る](../index.md)

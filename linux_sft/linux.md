@@ -300,6 +300,13 @@
 
 ## 引用符の違い
 
+- \'：文字列そのまま
+- \"：変数展開
+- \`：コマンド実行
+
+<details>
+<summary>実験</summary>
+
 ```sh
 $ DATE=date
 $ echo '$DATE'
@@ -309,126 +316,113 @@ date
 $ echo `$DATE`
 Fri May 17 04:26:03 PDT 2013
 ```
+</details>
 
 ## shとsourceの違い
 
-```
+- ./xxx.sh：サブシェルで実行
+- bash xxx.sh：サブシェルで実行
+- source xxx.sh：現在シェルで実行
+
+<details>
+<summary>実験</summary>
+
+```shell
 $ cat test1.sh
 echo TESTENV1=$TESTENV1
 echo TESTENV2=$TESTENV2
+
 $ cat test2.sh
 #!/bin/bash
 echo TESTENV1=$TESTENV1
 echo TESTENV2=$TESTENV2
+
 $ export TESTENV1=aaa; TESTENV2=bbb
+
 $ ./test1.sh
 TESTENV1=aaa
 TESTENV2=
+
 $ bash test1.sh
 TESTENV1=aaa
 TESTENV2=
+
 $ source test1.sh
 TESTENV1=aaa
 TESTENV2=bbb
+
 $ ./test2.sh
 TESTENV1=aaa
 TESTENV2=
+
 $ bash test2.sh
 TESTENV1=aaa
 TESTENV2=
+
 $ source test2.sh
 TESTENV1=aaa
 TESTENV2=bbb
 ```
+</details>
 
 ## シェル変数と環境変数のスコープ差異
 
-```
-$ ./test1.sh
-=== called test1.sh ===
-echo ENDOENV1:init
-echo ENDOENV2:
-echo ENDOENV3:
-echo ENDOENV4:
-echo ENDOENV5:
-=== set variables at test1.sh ===
-=== called test2.sh ===
-echo ENDOENV1:set@test1.sh
-echo ENDOENV2:
-echo ENDOENV3:set@test1.sh
-echo ENDOENV4:
-echo ENDOENV5:
-=== set variables at test2.sh ===
-echo ENDOENV1:set@test2.sh
-echo ENDOENV2:set@test2.sh
-echo ENDOENV3:set@test1.sh
-echo ENDOENV4:set@test2.sh
-echo ENDOENV5:set@test2.sh
-=== finished test2.sh ===
-echo ENDOENV1:set@test1.sh
-echo ENDOENV2:set@test1.sh
-echo ENDOENV3:set@test1.sh
-echo ENDOENV4:
-echo ENDOENV5:
-=== finished test1.sh ===
+- 適用先
+	- シェル変数
+		- サブシェルへコピーされない。
+			- →親シェルのみで使える。
+	- 環境変数
+		- サブシェルへコピーされる。
+			- →親シェル＋サブシェルで使える。
+			- →サブシェルで更新しても親シェルには反映されない。
 
-$ cat test1.sh
+<details>
+<summary>実験</summary>
+
+```shell
+$ cat main.sh
 #!/bin/sh
+echo = called main.sh
+echo = set variables at main.sh
+ENV1=1
+export ENV2=1
+./sub.sh
+echo = $ENV1 : $ENV2 : $ENV3 : $ENV4
+echo = finished main.sh
 
-echo === called test1.sh ===
-
-echo echo ENDOENV1:$ENDOENV1
-echo echo ENDOENV2:$ENDOENV2
-echo echo ENDOENV3:$ENDOENV3
-echo echo ENDOENV4:$ENDOENV4
-echo echo ENDOENV5:$ENDOENV5
-
-echo === set variables at test1.sh ===
-export ENDOENV1="set@test1.sh"
-ENDOENV2="set@test1.sh"
-export ENDOENV3
-ENDOENV3="set@test1.sh"
-
-./test2.sh
-
-echo echo ENDOENV1:$ENDOENV1
-echo echo ENDOENV2:$ENDOENV2
-echo echo ENDOENV3:$ENDOENV3
-echo echo ENDOENV4:$ENDOENV4
-echo echo ENDOENV5:$ENDOENV5
-
-echo === finished test1.sh ===
-
-$ cat test2.sh
+$ cat sub.sh
 #!/bin/sh
+echo == called sub.sh
+echo == $ENV1 : $ENV2 : $ENV3 : $ENV4
+echo == set variables at sub.sh
+export ENV1=2
+export ENV2=2
+ENV3=2
+export ENV4=2
+echo == $ENV1 : $ENV2 : $ENV3 : $ENV4
+echo == finished sub.sh
 
-echo === called test2.sh ===
-
-echo echo ENDOENV1:$ENDOENV1
-echo echo ENDOENV2:$ENDOENV2
-echo echo ENDOENV3:$ENDOENV3
-echo echo ENDOENV4:$ENDOENV4
-echo echo ENDOENV5:$ENDOENV5
-
-echo === set variables at test2.sh ===
-export ENDOENV1="set@test2.sh"
-export ENDOENV2="set@test2.sh"
-ENDOENV4="set@test2.sh"
-export ENDOENV5
-ENDOENV5="set@test2.sh"
-
-echo echo ENDOENV1:$ENDOENV1
-echo echo ENDOENV2:$ENDOENV2
-echo echo ENDOENV3:$ENDOENV3
-echo echo ENDOENV4:$ENDOENV4
-echo echo ENDOENV5:$ENDOENV5
-
-echo === finished test2.sh ===
+$ ./main.sh
+= called main.sh
+= set variables at main.sh
+== called sub.sh ===
+== : 1 : :
+== set variables at sub.sh ===
+== 2 : 2 : 2 : 2
+== finished sub.sh ===
+= 1 : 1 : :
+= finished main.sh ===
 ```
+</details>
 
 ## 「シェルスクリプト」と「関数」の引数を組み合わせた場合の動作
 
-```
+- それぞれ正しく受け渡しできる。
+
+<details>
+<summary>実験</summary>
+
+```shell
 $ cat test3.sh
 #!/bin/bash
 
@@ -453,8 +447,14 @@ call "testfunc $2 $1"
 arg num:2 , arg:./test3.sh b a
 arg num:3 , arg:./test3.sh a b c
 ```
+</details>
 
 ## シェル変数は関数内で参照できるか？
+
+- できる。
+
+<details>
+<summary>実験</summary>
 
 ```
 $ ./test4.sh
@@ -472,9 +472,11 @@ function testfunc() {
 testfunc
 echo SHELLENV :$SHELLENV
 ```
+</details>
 
 ## bash スクリプトをデバッグする方法
-```
+
+``` shell
 #!/bin/bash
 
 exec 5> debug_output.txt
