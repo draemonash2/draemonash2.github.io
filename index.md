@@ -75,6 +75,8 @@
 
 - [Tmux](tmux_sft/tmux.md)
 - [tig](tig_sft/tig.md)
+- [flamegraph](flamegraph_sft/flamegraph.md)
+- [gnuplot](gnuplot_sft/gnuplot.md)
 
 ## その他
 - [用語集](words_klg/words.md)
