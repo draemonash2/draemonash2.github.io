@@ -150,6 +150,34 @@
 	:w !xargs git add
 	```
 
+- 【[コミットをまとめる](https://riri1904.hatenablog.com/entry/2019/12/21/100000)】
+	1. コマンド `git rebase -i HEAD~<数字>` を実行
+		- 例えば、<数字>を3とした場合は、HEADを含めた3つ分をまとめる
+	1. コミット選択画面にて、先頭以外をsに変える
+		```shell
+		pick d196455 リスト1、リスト2を作成
+		s 968362c リスト2を修正  <-- 変更
+		s d196455 リスト1を修正  <-- 変更
+		...
+		```
+	1. コミットコメント修正画面にて、先頭を新しいコミットコメント、それ以外を削除する
+		```shell
+		# This is a combination of 3 commits.
+		# This is the 1st commit message:
+		
+		リスト1、リスト2を作成    <-- 新しいコミットコメント
+		
+		# This is the commit message #2:
+		
+		　　　　　　　　　　　　　<-- 削除
+		
+		# This is the commit message #3:
+		
+		　　　　　　　　　　　　　<-- 削除
+		...
+		```
+	1. pushコマンド `git push -f` を実行
+
 # 用語
 - 統合ブランチ
 	- リリース版が何時でも作成可能なようしておくためのブランチ。トピックブランチの分岐元。

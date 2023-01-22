@@ -164,6 +164,10 @@
 	- `group（egroup）` …実行グループ
 	- `rss（rssize,rsz）` … 物理メモリ使用量
 	- `lstart` …プロセスの起動時刻
+- locale とは
+	- 規則：言語_国.文字コード
+	- [C ロケールとは](https://eng-entrance.com/linux-localization-locale)
+		- すべての POSIX 互換システムの?POSIX システムデフォルトロケール
 - [各種ツール比較](https://i.loveruby.net/ja/misc/readingcode.html)
 	- gonzui
 		- 様々な言語に対応しているソースコード検索エンジン。 ファイル内のインクリメンタル検索、ソースブラウズなどが可能。
