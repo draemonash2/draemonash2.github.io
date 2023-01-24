@@ -115,10 +115,17 @@
 				- [ESC[nD カーソルを左にn桁移動](https://teraterm.jp/manual/4.68/html/about/ctrlseq.html#CSI)
 	- Ctrl + h
 		- 原因
-			- ？
+			- [c-hをbackspaceとみなすため](https://rcmdnk.com/blog/2015/01/06/computer-tmux/)
 		- 処置
-			- BSpaceへの割り当て
+			- BSpaceへ割り当てる
 				- 例： `bind Bspace select-pane -L`
+				
+	- Ctrl + h＠tmux＋vim
+		- 原因
+			- [c-hをbackspaceとみなすため](https://rcmdnk.com/blog/2015/01/06/computer-tmux/)
+		- 処置
+			- <bs>へ割り当てる
+				- 例： `noremap <bs> 10zh10h`
 - tmux上で日本語をコピーすると文字化けする
 	- 対処
 		- [ターミナルソフトのコピー機能でコピーする](https://teratail.com/questions/320522)
