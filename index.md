@@ -77,6 +77,7 @@
 - [tig](tig_sft/tig.md)
 - [flamegraph](flamegraph_sft/flamegraph.md)
 - [gnuplot](gnuplot_sft/gnuplot.md)
+- [TurboVNC](turbovnc_sft/turbovnc.md)
 
 ## その他
 - [用語集](words_klg/words.md)
