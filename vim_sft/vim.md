@@ -290,6 +290,8 @@ filetype plugin indent on
 - 複数行の置換
 	- %s/\vRunnable Entity (\w\*)\n.\*\nTriggerd on (\w\*)msec/\1\t\2/g
 		![複数行の置換](複数行の置換.jpg)
+- 連続置換
+    - `%s/old1/new1/ge|%s/old2/new2/ge|%s/old3/new3/ge`
 - global コマンドを用いた置換方法
 	- :g/Second/s/Bar/Foo/g
 	- ⇒ 末尾に「Second」が含まれる行の「Bar」を「Foo」に変える
