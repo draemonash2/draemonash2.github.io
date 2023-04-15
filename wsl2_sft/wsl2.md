@@ -2,8 +2,8 @@
 
 # 関連リンク
 
-- [Linux](../sft_linux/linux.md)
-- [Raspberry Pi](../sft_raspberrypi/raspberrypi.md)
+- [Linux](../linux_sft/linux.md)
+- [Raspberry Pi](../raspberrypi_sft/raspberrypi.md)
 
 # Tips
 
@@ -50,10 +50,10 @@
 
 # コマンド
 
-- [こちら](../sft_linux/linux.md)
+- [こちら](../linux_sft/linux.md)
 
 # ショートカットキー
 
-- [こちら](../sft_linux/linux.md)
+- [こちら](../linux_sft/linux.md)
 
 [トップに戻る](../index.md)

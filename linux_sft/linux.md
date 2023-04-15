@@ -2,8 +2,8 @@
 
 # 関連リンク
 
-- [WSL2](../sft_wsl2/wsl2.md)
-- [Raspberry Pi](../sft_raspberrypi/raspberrypi.md)
+- [WSL2](../wsl2_sft/wsl2.md)
+- [Raspberry Pi](../raspberrypi_sft/raspberrypi.md)
 
 # Tips
 
@@ -98,7 +98,7 @@
 	- パイプ p
 	- ソケット s
 - [CentOSをインストールする](https://www.geekfeed.co.jp/geekblog/install_centos8_on_wsl2_for_free)
-- [GDBの使い方はこちら](../sft_gdb/gdb.md)
+- [GDBの使い方はこちら](../gdb_sft/gdb.md)
 - alias rm='rm -i'は避けた方がいい
 	- エイリアスのrm -iが定義されてない環境で事故を起こす危険があるから。やるなら、rmとは違う名前で定義すべき。それなら、未定義の環境では コマンドが無いエラーで済む。
 - ブレース展開を用いたバックアップファイルの作成
