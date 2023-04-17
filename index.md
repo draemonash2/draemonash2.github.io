@@ -31,6 +31,7 @@
 - [Mozilla Firefox](firefox_sft/firefox.md)
 - [Mozilla Thunderbird](thunderbird_sft/thunderbird.md)
 - [Google Chrome](chrome_sft/chrome.md)
+- [Microsoft Edge](edge_sft/edge.md)
 
 - [Microsoft Excel](excel_sft/excel.md)
 - [Microsoft Word](word_sft/word.md)

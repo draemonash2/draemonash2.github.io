@@ -5,6 +5,11 @@
 - [Linux](../linux_sft/linux.md)
 - [Raspberry Pi](../raspberrypi_sft/raspberrypi.md)
 
+# インストール方法
+
+- Microsoft Storeより「Windows Subsystem for Linux」をインストールする。
+	- 2023/4現在、コンポーネント版とMicrosoft Store版が存在するが、後者に一本化される見込み。[[1]](https://ascii.jp/elem/000/004/120/4120511/)
+
 # Tips
 
 - WSL2 起動方法＠WSL2コンソール
@@ -15,6 +20,7 @@
 - [Windows Terminalからのデフォルト起動をWSL2に変更する方法](https://www.asobou.co.jp/blog/web/windows-terminal#3_Windows_TerminalWSL2)
 	1. Windows Terminal にて「Ctrl + ,」押下
 	1. 開いた設定ファイル(settings.json)内の「defaultProfile」を起動したいLinuxディストリビューションのGUIDに変更する
+- [ディストリビューションのアップデート方法](https://qiita.com/matarillo/items/98d7452967987fe5d633)
 - [WSL2コンソールのコピペ方法](https://qiita.com/kenji0x02/items/f77008985818583bf32b)
 	- コピー
 		- 方法１：テキストを選択してコピー
@@ -38,7 +44,7 @@
 		- `powershell start-process wt -verb runas`
 	1. 上記バッチファイルのショートカットファイルを作成する
 	1. 上記ショートカットファイルを管理者権限で実行するように変更する
-- WSL2 設定ファイル（settings.json）格納先
+- Windows Terminal 設定ファイル（settings.json）格納先
 	- `%USERPROFILE%\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json`
 - 特定ディレクトリを垂直分割して Windows Terminal を起動する
 	- `wt -d C:\codes_sample\c++\dokusyuC++; split-pane -V -D wsl.exe`
@@ -47,6 +53,10 @@
 		- 使えない(0kbの不明なファイルが作られる)
 	- windows上でシンボリックリンクを作るとlinux(wsl2)上で使える？
 		- 問題なく使える
+- [“ストア”にある3つの「Ubuntu」](https://forest.watch.impress.co.jp/docs/serial/yajiuma/1134055.html)
+	- 「Ubuntu」：現行の「Ubuntu LTS」。新しいバージョンがでるたびに更新される。
+	- 「Ubuntu 16.04」：2021年まで利用可能なLTS版
+	- 「Ubuntu 18.04」：2023年まで利用可能なLTS版
 
 # コマンド
 
