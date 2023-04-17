@@ -264,6 +264,41 @@
 	| リンクを辿るか（ファイル比較＠diff） | 辿る | 辿る |
 	| リンクを辿るか（ファイル比較＠diff --no-dereference） | 辿る | 辿らない |
 
+
+- [コマンド実行時に環境変数を指定する](https://ageage0830.hatenablog.com/entry/2018/04/16/135854)
+
+<details>
+<summary>実行例</summary>
+
+```shell
+$ cat puts_env.sh
+#!/bin/bash
+echo $TESTENV01
+echo $TESTENV02
+
+$ export TESTENV02=parents02
+
+$ export TESTENV01=parents01
+
+$ ./puts_env.sh
+parents01
+parents02
+
+$ TESTENV01=aaa ./puts_env.sh
+aaa
+parents02
+
+$ TESTENV02=bbbb ./puts_env.sh
+parents01
+bbbb
+
+$ TESTENV01=ccc TESTENV02=dddd ./puts_env.sh
+ccc
+dddd
+```
+
+</details>
+
 # ショートカットキー
 
 |Ctrl|Shift|Alt|Key|機能|

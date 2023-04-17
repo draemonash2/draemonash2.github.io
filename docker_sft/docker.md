@@ -51,13 +51,15 @@ Docker コマンドの一覧は以下の通り。[[1]](https://qiita.com/kattoyo
         - `-e <env_var>=<value>` (`--env`) ：環境変数を設定する。
         - `-v <host_dir>:<container_dir>` (`--volume`) ：コンテナとホストのディレクトリをマウント（紐づけ）する。
         - `-w <dir_path>` (`--workdir`) ：コンテナの作業ディレクトリ（コンテナ接続時の起動ディレクトリ）を指定する。
-        - `--pid=host` ：TODO:
+        - `--pid=<name>` ：利用する PID 名前空間を指定する。
         - `--privileged` ：コンテナに対して全権限を与える。（カーネルに対して潜在的に危険になりうる処理も実行できる）
         - `--network <network_name>`  ：<network_name>ネットワークに接続する。
-        - `--runtime nvidia` ：TODO:
-        - `--entrypoint /usr/local/bin/scripts/workspace-entrypoint.sh` ：TODO:
-    - 【コンテナ接続（PID=1プロセス）】 `docker attach [<option>] <container>`
+        - `--runtime <runtime_name>` ：コンテナー向けに利用するランタイムを指定する。
+        - `--entrypoint <script_path>` ：イメージのデフォルト ENTRYPOINT を上書きする
     - 【コンテナ接続（新規プロセス起動）】 `docker exec [<option>] <container> <command>`
+        - 以下のオプションは `run` と同様に使える。
+            - `-d`、 `-i`、 `-t`、 `-e`、 `--privileged`、 `-u`、 `-w`
+    - 【コンテナ接続（PID=1プロセス）】 `docker attach [<option>] <container>`
     - 【稼働コンテナ状況確認】 `docker status <container>`
     - 【稼働コンテナプロセス確認】 `docker top <container>`
     - 【コンテナ削除】 `docker rm <container>`
@@ -65,9 +67,18 @@ Docker コマンドの一覧は以下の通り。[[1]](https://qiita.com/kattoyo
     - 【ファイルコピーtoコンテナ】docker cp [<option>] <src_path> <container>:<dest_path>
     - 【コンテナ/イメージ/ネットワーク等 全削除】 `docker system prune`
 - その他
-    - 【Docker使用量調査（全体）】 `docker system df` TODO: 要試行
-    - 【Docker使用量調査（ボリューム毎）】 `docker system df -v` TODO: 要試行
-    - 【ログ確認】 `docker logs` TODO: 要試行
+    - 【Docker使用量調査（全体）】 `docker system df`
+    - 【Docker使用量調査（ボリューム毎の詳細）】 `docker system df -v`
+    - 【ログ確認】 `docker logs`
+
+## 実行例
+
+- イメージ `ubuntu:22.04` からコンテナ作成＆接続を行う。
+
+    ```shell
+    docker run -it --rm --name Ubuntu22.04_container ubuntu:22.04 /bin/bash
+    docker exec -it --rm Ubuntu22.04_container /bin/bash
+    ```
 
 ## Tips
 
@@ -98,6 +109,8 @@ Docker コマンドの一覧は以下の通り。[[1]](https://qiita.com/kattoyo
     （Dockerのコマンドが増え過ぎたことから、整理して使いやすくするのが目的）  
     新しいコマンドラインでは、「何に対して」コマンドを実行するかを明示する。
         - 例）`docker run` → `docker container run`
+- [docker runの-itオプションの意味](https://zenn.dev/swata_dev/articles/2f85a3f4b3022c#%E3%81%9D%E3%82%8C%E3%82%92%E8%B8%8F%E3%81%BE%E3%81%88%E3%81%A6)
+	- コンテナに割り当てた偽のデバイスファイル名を指名(`-t`)して、こちら(本デバイス)の標準入力をコンテナに伝えられるようにする(`-i`)。
 
 ## トラブルシューティング
 

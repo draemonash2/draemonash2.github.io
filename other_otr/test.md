@@ -99,5 +99,19 @@ aa       c
         aa       c
 		```
 
+# コード領域テスト
+
+```txt
+イメージ確認                    docker images
+公開イメージ検索                docker search <image>
+公開イメージ取得                docker pull <image>[:<tag>]
+別名イメージ作成                docker tag <old_image> <new_image>[:<new_tag>]
+イメージ削除                    docker rmi [opiton] <image1> <image2> ...
+イメージ全削除                  docker image prune
+イメージ作成（コンテナから）    docker commit <container> <image>
+イメージ作成（Dockerfileから）  docker build -t <image>[:<tag>] <dockerfile_dir_path>
+イメージ作成（Dockerfileから）  docker build -t <image>[:<tag>] -f <dockerfile_path>
+```
+
 [トップに戻る](../index.md)
 
