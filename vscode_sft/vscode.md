@@ -10,22 +10,37 @@
 
 ## Tips
 
+- ポータブル版VSCodeの設定ファイル格納先
+    - `<vscode_program_dir>\data\user-data\User\keybindings.json`
+    - `<vscode_program_dir>\data\user-data\User\settings.json`
 - [markdownlint 特定ルール除外方法](https://qiita.com/ryoheiszk/items/00620be5a53d632bd462)
-    - 設定内容
-
-        ```json
-        {
-          "MD003": { "style": "atx_closed" },
-          "MD007": { "indent": 4 },
-          "MD008": false,
-          "no-hard-tabs": false,
-          "whitespace": false
-        }
-        ```
-
-    - 設定記載先
+    - 設定先
         - 以下のいずれか。
             - VSCodeの `setting.json`
-            - 対象プロジェクトのルートディレクトリ直の `.markdownlint.json`
+
+                ```json
+                "markdownlint.config": {
+                    "MD003": { "style": "atx_closed" },
+                    "MD008": false,
+                    "no-hard-tabs": false
+                }
+                ```
+
+            - 対象プロジェクトのルートディレクトリ直下の `.markdownlint.json`
+
+                ```json
+                {
+                    "MD003": { "style": "atx_closed" },
+                    "MD008": false,
+                    "no-hard-tabs": false
+                }
+                ```
+
+    - 注意事項
+        - `.markdownlint.json` に除外ルールが設定されている場合は、 上の設定が無視される。（共存できない）  
+        そのため、`setting.json` を有効化したい場合は、`.markdownlint.json` 内の除外ルールを `{　}` ごと削除すること。
+        - VSCode上でディレクトリを開いており、そのルートディレクトリに`.markdownlint.json`を格納していれば、  
+        配下の全 `.md` ファイルに除外ルールが適用される。  
+        反対に、ディレクトリで開いていない場合は、ルートディレクトリに格納されていても除外ルールが適用されない。
 
 [トップに戻る](../index.md)
