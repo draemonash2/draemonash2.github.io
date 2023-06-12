@@ -85,22 +85,27 @@
 		1. 「移動先」から移動先デスクトップを選択
 - スクリーンショット比較
 
-| キー | 範囲 | 保存先 |
-|:---|:---|:---|
-| Win + Shift + s（「Snipping Tool」の進化版） | 任意の範囲(矩形選択orディスプレイorウィンドウ)  | クリップボード |
-| Win + PrtSc | 全てのディスプレイ | Pictures\スクリーンショット |
-| Win + Alt + PrtSc | アクティブウィンドウ | Videos\Captures |
-| PrtSc | 全てのディスプレイ | クリップボード |
-| Alt + PrtSc | アクティブウィンドウ | クリップボード |
-| Ctrl + PrtSc（＠Easy Shot） | アクティブディスプレイ | 任意の場所(クリップボードorデスクトップ) |
-| Ctrl + Alt + PrtSc（＠Easy Shot） | アクティブウィンドウ | 任意の場所(クリップボードorデスクトップ) |
-| Alt + PrtSc（＠Easy Shot） | 矩形選択範囲 | 任意の場所(クリップボードorデスクトップ) |
+	| キー | 範囲 | 保存先 |
+	|:---|:---|:---|
+	| Win + Shift + s（「Snipping Tool」の進化版） | 任意の範囲(矩形選択orディスプレイorウィンドウ)  | クリップボード |
+	| Win + PrtSc | 全てのディスプレイ | Pictures\スクリーンショット |
+	| Win + Alt + PrtSc | アクティブウィンドウ | Videos\Captures |
+	| PrtSc | 全てのディスプレイ | クリップボード |
+	| Alt + PrtSc | アクティブウィンドウ | クリップボード |
+	| Ctrl + PrtSc（＠Easy Shot） | アクティブディスプレイ | 任意の場所(クリップボードorデスクトップ) |
+	| Ctrl + Alt + PrtSc（＠Easy Shot） | アクティブウィンドウ | 任意の場所(クリップボードorデスクトップ) |
+	| Alt + PrtSc（＠Easy Shot） | 矩形選択範囲 | 任意の場所(クリップボードorデスクトップ) |
 
 - 環境変数の入れ子の振舞い
 	- ユーザ環境変数
 		- 環境変数「追加」時、即座に展開される
 	- システム環境変数
 		- 環境変数「参照」時、展開される
+- [OneDrive無効化方法](https://support.microsoft.com/ja-jp/office/onedrive-%E3%82%92%E3%82%AA%E3%83%95%E3%81%AB%E3%81%99%E3%82%8B%E3%81%8B-%E7%84%A1%E5%8A%B9%E3%81%AB%E3%81%99%E3%82%8B%E3%81%8B-%E3%82%A2%E3%83%B3%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%99%E3%82%8B-f32a17ce-3336-40fe-9c38-6efb09f944b0?ui=ja-jp&rs=ja-jp&ad=jp)
+	1. OneDrive の設定を開く
+		- 通知領域で OneDrive クラウド アイコンを選択し、[OneDrive のヘルプと設定] アイコン 、[設定] の順に選択する
+	1. [アカウント] タブに移動
+	1. [この PC のリンクを解除] を選択
 
 # トラブルシューティング
 - ファイルの関連付けができない＠windows 7
