@@ -92,8 +92,18 @@
 - EXCEL.EXE 格納先
 	- 2016
 		- C:\Program Files (x86)\Microsoft Office\root\Office16\EXCEL.EXE
-- [テンプレートファイル（デフォルトブック）保存先](https://www.tekizai.net/entry/excel_template_1)
-	- `C:\Users\<ユーザー名>\AppData\Roaming\Microsoft\Excel\XLSTART`
+- [テンプレートファイル（デフォルトブック）作成方法](https://www.tekizai.net/entry/excel_template_1)
+	- 作成方法
+		1. テンプレートに設定したいExcelファイルを*.xlsx形式で作成する。
+		1. Excel上で `F12` を押下し、テンプレートファイルとして保存する。
+			- ファイル名
+				- `Book.xltx`
+			- 格納先
+				- Excel 2016より前：`%USERPROFILE%\AppData\Roaming\Microsoft\Excel\XLSTART`
+				- Excel 2016： `C:\Program Files (x86)\Microsoft Office\root\Office16\XLSTART`
+	- 適用タイミング
+		- Explorerの右クリックから新規作成時？
+			- Excel上での新規ブック/シート作成時は本テンプレートは使用されない。
 - [アドインマクロに電子署名を付与する方法](https://www.teijitaisya.com/vba-selfcert/)
 
 # アドイン登録方法
@@ -421,6 +431,14 @@ IF(
 - #を含むファイルパスへのハイパーリンクでジャンプできない
 	- 対策：以下の数式を使って、"#"をURIエンコードしたものをリンク先とする。
 		- `HYPERLINK("file:///"&SUBSTITUTE("path", "#", "%23%"),"リンクはこちら")`
+- フォント/フォントサイズのデフォルト値
+	- Excel上で新規ブック作成時(`ctrl + n`)
+		- Excel上の設定値（Excel上の「オプション」→「全般」→「新しいブックの作成時」）
+	- Excel上で新規シート作成時(`shift + f11`)
+		- Excelブックに保存されたデフォルト設定値
+			- ＝新規ブック作成時に設定されていたExcel上の設定値
+	- Explorerの右クリックから新規作成時
+		- ★テンプレートファイル？
 
 # ショートカットキー
 
