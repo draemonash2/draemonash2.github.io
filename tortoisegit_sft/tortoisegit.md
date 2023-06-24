@@ -56,5 +56,15 @@
                 [safe]
                     directory = *
                 ```
+- 差分ツール設定
+    1. TortoiseGitの設定 -> 差分ビューア をクリックする。
+    1. 「異なるリビジョンのファイルの比較に使用するプログラムの設定」にて「外部(E)」にチェックを入れる。
+    1. 以下を設定する。
+        - `<WinMergeU.exe絶対パス> -e -ub -dl %bname -dr %yname %base %mine`
+- マージツール設定
+    1. TortoiseGitの設定 -> 差分ビューア -> マージツール をクリックする。
+    1. 「外部(E)」にチェックを入れる。
+    1. 以下を設定する。
+        - `<WinMergeU.exe絶対パス> /e /ub /fr /wl /wm /dl %bname /dm %tname /dr %yname  %base %theirs %mine /o %merged /ar`
 
 [トップに戻る](../index.md)
