@@ -7,8 +7,66 @@
 
 # インストール方法
 
-- Microsoft Storeより「Windows Subsystem for Linux」をインストールする。
-	- 2023/4現在、コンポーネント版とMicrosoft Store版が存在するが、後者に一本化される見込み。[[1]](https://ascii.jp/elem/000/004/120/4120511/)
+- WSL2インストール
+    1. Microsoft Storeより「Windows Subsystem for Linux」をインストールする。
+        - 2023/4現在、コンポーネント版とMicrosoft Store版が存在するが、後者に一本化される見込み。[[1]](https://ascii.jp/elem/000/004/120/4120511/)
+- WSL2インストール事後作業
+    1. BIOS上でVirtulization Technologyを有効化する。
+        - HPのPCにおける設定方法は以下の通り。
+            1. 起動時にF10を連打してBIOS設定を起動する
+            2. System Configuuration -> Virtulization Technology を Enable にする
+    2. Windowsの機能を有効化する。
+        1. スタートメニュー > 「Windowsの機能の有効化」を検索 > 以下を有効化
+            - Linux 用 Windows サブシステム
+            - 仮想マシンプラットフォーム
+        2. OK を押下する
+        3. 自動的に再起動
+- SSH接続方法
+    1. インストール
+
+        ```shell
+        sudo apt update
+        sudo apt install openssh-server
+        sudo systemctl enable ssh
+        sudo systemctl start ssh
+        ```
+
+    2. [クライアント側(Windows)の設定](https://kaworu.jpn.org/security/ssh%E6%8E%A5%E7%B6%9A%E3%81%8C%E8%87%AA%E5%8B%95%E5%88%87%E6%96%AD%E3%81%95%E3%82%8C%E3%82%8B%E5%A0%B4%E5%90%88%E3%81%AE%E5%9B%9E%E9%81%BF%E6%96%B9%E6%B3%95)を追加する。
+        - 追加対象
+            - `%USERPROFILE%\.ssh\config`
+        - 追加内容
+
+            ```shell
+            ServerAliveInterval 300
+            ServerAliveCountMax 10
+            ```
+
+    3. [サーバー側(Linux)の設定](https://www.xenos.jp/~zen/blog2/index.php/2020/06/14/post-3987/)を追加する。
+        - 追加対象
+            - `/etc/ssh/sshd_config`
+        - 追加内容
+
+            ```shell
+            PasswordAuthentication yes
+            ClientAliveInterval	300
+            ClientAliveCountMax	10
+            Port 10022
+            ```
+
+    4. sshサービスを再起動する。
+
+        ```shell
+        sudo service ssh restart
+        ```
+
+    5. WSL2をバックグラウンドで起動するスクリプト `StartupWsl.vbs` をスタートアップに登録する。
+
+        ```vbs
+        Set ws = CreateObject("Wscript.Shell")
+        ws.run "cmd /c wsl", vbhide
+        ```
+
+    6. `StartupWsl.vbs` を実行する。
 
 # Tips
 
