@@ -67,6 +67,7 @@
 - [EyeD3](eyed3_sft/eyed3.md)
 - [7-Zip](7zip_sft/7zip.md)
 - [Anki](anki_sft/anki.md)
+- [KeePass](keepass_sft/keepass.md)
 
 - [WSL2](wsl2_sft/wsl2.md)
 
