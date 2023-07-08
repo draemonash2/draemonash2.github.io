@@ -59,12 +59,23 @@
 - [プリンタがつながらない場合](https://kuritaroh.com/2018/09/01/printerngprint/)
 - テンポラリフォルダパス
 	- `C:\Users\<ユーザー名>\AppData\Local\Temp`
-- Bluetooth テザリング方法＠Windows10
-	1. 接続するデバイスと Bluetooth 接続する
-	1. Win + R
-	1. 「control printers」を実行
-	1. テザリング接続するデバイスを選択して右クリック
-	1. 「接続方法(C)」→「アクセスポイント(A)」
+- USB テザリング方法（iPhone⇔Windows10）
+	1. 事前準備
+		1. WindowsにiTunesをインストールする
+			- iPhoneとのUSBテザリングにはiTunesインストール時に同時インストールされるドライバが必要である（と思われる）
+	1. 本手順
+		1. iPhone上で、インターネット共有をONにする
+		1. iPhoneとWindowsを USB 接続する
+		1. ネットワーク接続できていることを確認する
+			- Windowsタスクバー上のネットワーク接続アイコンが、有線接続されていることを示すアイコンに変わる
+- Bluetooth テザリング方法（iPhone⇔Windows10）
+	1. iPhone上で、インターネット共有をONにする
+	1. Windows上でアクセスポイントの設定を行う
+		1. iPhone と Bluetooth 接続する
+		1. `Win + R` 押下
+		1. 「control printers」を実行
+		1. テザリング接続するデバイスを選択して右クリック
+		1. 「接続方法(C)」→「アクセスポイント(A)」
 - 英語ファイルパス メリット
 	- 日本語ファイルパスでは動かない環境がある
 	- 英語名前付けの練習になる
