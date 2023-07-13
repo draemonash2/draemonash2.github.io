@@ -20,5 +20,26 @@
 		1. DeviceSupportファイルを以下に格納する
 			`/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/DeviceSupport/`
 
+## Tips
+
+- アプリを作るだけなら無料か？
+	- 無料。アプリを公開するのは有料。
+- [iPhoneアプリ開発 最小要件](https://coolio.co.jp/column/20230317-1790/)
+	- プロセッサー：Intel Core i5以上
+	- メモリ：8GB以上
+	- ストレージ：256GB以上のSSD
+	- ディスプレイ：解像度1920×1080以上
+	- グラフィックス：Intel HD Graphics 6000以上
+	- OS：macOS X以上
+- iPhoneアプリ開発 動作確認バージョン
+	- [macOS](https://pc-karuma.net/mac-os-x-version/)：macOS Monterey 12.6.7
+	- [XCode](https://www.techgaku.com/system-requirements-of-xcode)：13.4.1
+	- iOS：iOS 16.5.1
+	- 機種：iPhone 12 Pro Max
+- [iPhone アプリ開発集中講座](https://www.amazon.co.jp/SwiftUI-%E6%97%A5%E3%81%A7%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC%E3%81%A7%E3%81%8D%E3%82%8B-iPhone-%E3%82%A2%E3%83%97%E3%83%AA%E9%96%8B%E7%99%BA%E9%9B%86%E4%B8%AD%E8%AC%9B%E5%BA%A7-Xcode-ebook/dp/B09JSKHB8L/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=) 対応スペック
+	- mac OS Big Sur 11.3以降
+	- XCode 13.0以上
+	- iOS 15.0以上
+
 [トップに戻る](../index.md)
 

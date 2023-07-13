@@ -46,6 +46,13 @@ macOS Monterey 12.6.7 上での設定手順を以下に示す。
 
 - SSH接続方法
 	- `ssh tatsuyaendo@192.168.0.25`
+- Majestouch BlackはMacで使えるか？
+	- [使える (iMac用OS8.1以降対応)](https://www.diatec.co.jp/support/s-mac.php)
+- MX Master3sはMacで使えるか？
+	- [使える（macOS 10.15 以降）](https://www.logicool.co.jp/ja-jp/products/mice/mx-master-3s.910-006567.html)
+- Mac上でLinuxを動かせるか？
+	- 動かせる。そもそもMacはLinux(UNIX？)で作られているため、何もしなくても動く。
+- [macOSのバージョン一覧](https://pc-karuma.net/mac-os-x-version/)
 
 [トップに戻る](../index.md)
 
