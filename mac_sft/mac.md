@@ -29,11 +29,11 @@ macOS Monterey 12.6.7 上での設定手順を以下に示す。
 - [Mac⇔Windows間キー対応表](https://mac-windows-pc.com/mac-windows-keyboard)
 	- MacにWindowsキーボードを接続した場合の割り当てキー
 
-		| Windows    | Mac             |
-		| :---       | :---            |
-		| Win        | ⌘ command       |
-		| Alt        | ⌥ option        |
-		| BackSpace  | delete          |
+		| Windows    | Mac     |
+		| :---       | :---    |
+		| Win        | command |
+		| Alt        | option  |
+		| BackSpace  | delete  |
 
 - その他キー対応
 
@@ -41,6 +41,22 @@ macOS Monterey 12.6.7 上での設定手順を以下に示す。
 	| :---       | :---            |
 	| IME切替え  | Command + Space |
 	| タブ切替え | Command + Tab   |
+	| 行頭移動 | Ctrl + a |
+	| 行末移動 | Ctrl + e |
+	| 文字削除(カーソル～行末) | Ctrl + k |
+	| スクショ | Command + Shift + 3 |
+	| スクショ（矩形選択） | Command + Shift + 4 |
+
+- Finder 関連
+
+	| 操作       | キー(Mac)       |
+	| :---       | :---            |
+	| Finderを起動する | Option + Command + Space |
+	| Finderを閉じる | Command + w | 
+	| ファイル移動 | Command + c → Command + Option + v |
+	| 新しいウィンドウを開く | Command + n |
+	| 新しいタブを開く | Command + t |
+	| ファイル削除 | Command + Delete |
 
 ## Tips
 
@@ -53,6 +69,7 @@ macOS Monterey 12.6.7 上での設定手順を以下に示す。
 - Mac上でLinuxを動かせるか？
 	- 動かせる。そもそもMacはLinux(UNIX？)で作られているため、何もしなくても動く。
 - [macOSのバージョン一覧](https://pc-karuma.net/mac-os-x-version/)
+
 
 [トップに戻る](../index.md)
 

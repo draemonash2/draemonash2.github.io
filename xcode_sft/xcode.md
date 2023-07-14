@@ -20,6 +20,13 @@
 		1. DeviceSupportファイルを以下に格納する
 			`/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/DeviceSupport/`
 
+## ショートカットキー
+
+| 操作       | キー(Mac)       |
+| :---       | :---            |
+| 置換(ファイル内すべて) | Option + Command + f → 置換文字列を設定 → 「All」をクリック |
+| 置換(選択範囲内) | Option + Command + f → 置換文字列を設定 → Optionキーを押しながら「All in Selection」をクリック |
+
 ## Tips
 
 - アプリを作るだけなら無料か？
@@ -40,6 +47,8 @@
 	- mac OS Big Sur 11.3以降
 	- XCode 13.0以上
 	- iOS 15.0以上
+
+	option + ⌘ + F
 
 [トップに戻る](../index.md)
 
