@@ -8,6 +8,8 @@
 | :---       | :---            |
 | 置換(ファイル内すべて) | Option + Command + f → 置換文字列を設定 → 「All」をクリック |
 | 置換(選択範囲内) | Option + Command + f → 置換文字列を設定 → Optionキーを押しながら「All in Selection」をクリック |
+| 矩形選択＠マウス | Option + マウスドラッグ |
+| 矩形選択＠キーボード | Shift + Ctrl + マウスドラッグ |
 
 ## トラブルシューティング
 

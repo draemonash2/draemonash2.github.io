@@ -125,6 +125,9 @@
                 match_end_pos = matchobj.span()[1]
              ```
 
+- [yield文](http://ailaby.com/yield/)
+	- 関数の処理を一旦停止して、戻り値を返す
+
 ## Python2 と 3の主な違い
 
 - 相違点

@@ -34,6 +34,7 @@ macOS Monterey 12.6.7 上での設定手順を以下に示す。
         | Win        | command |
         | Alt        | option  |
         | BackSpace  | delete  |
+        | バックスラッシュ  | option + ¥  |
 
 - その他キー対応
 
