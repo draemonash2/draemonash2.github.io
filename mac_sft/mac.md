@@ -23,6 +23,25 @@ macOS Monterey 12.6.7 上での設定手順を以下に示す。
     1. 右ペインの「ディスプレイをオフにする」のスライダーを一番右(「しない」)に移動
 - [リモートデスクトップ接続](https://mebee.info/2019/11/20/post-3187/)
     1. ★
+- [ログインシェル変更bash化](https://www.task-notes.com/entry/20150117/1421482066)
+    1. ターミナルを開く
+    1. `chsh -s /bin/bash` を実行する
+        - 注意：自動的に.bashrcが読み込まれない場合は、以下の内容の.bash_profileを作成する。
+
+            ```shell
+            if [ -f ~/.bashrc ] ; then
+              . ~/.bashrc
+            fi
+            ```
+
+- [universal-ctagsインストール](https://formulae.brew.sh/formula/universal-ctags)
+    1. ターミナルを開く
+    1. 以下のコマンドを実行する
+
+        ```shell
+        brew unlink ctags
+        brew install universal-ctags
+        ```
 
 ## キーボード
 
@@ -70,5 +89,34 @@ macOS Monterey 12.6.7 上での設定手順を以下に示す。
 - Mac上でLinuxを動かせるか？
     - 動かせる。そもそもMacはLinux(UNIX？)で作られているため、何もしなくても動く。
 - [macOSのバージョン一覧](https://pc-karuma.net/mac-os-x-version/)
+
+## トラブルシューティング
+
+### ターミナル
+
+- ログインシェルをbashに変更したい
+    - `chsh -s /bin/bash` を実行する
+- 自動的に `.bashrc` が読み込まれない
+    - 以下の内容の `.bash_profile` を作成する。
+
+        ```shell
+        if [ -f ~/.bashrc ] ; then
+          . ~/.bashrc
+        fi
+        ```
+
+- ctagsで/usr/bin/local/ctagsを実行できるようにしたい
+    - `PATH=${PATH}:/usr/local/bin`を実行する
+- tmux×vimでハイライトされない
+    - `~/.tmux.conf` に以下を設定する `set -g default-terminal "screen-256color"`
+- vimで:Gpが効かない
+    - `.vimrc` の `g:sGrepFileExt` に `*.swift` を追加する
+- tmuxでログインするとbashに切り替えられない
+    - ログインシェル変更＋.bash_profile作成により解決
+- .bashrcが読み込まれない
+    - ログインシェル変更＋.bash_profile作成により解決
+- .bashrcで設定したプロンプトにならない
+    - [~/.tmux.confに以下を設定する](https://gist.github.com/bbqtd/a4ac060d6f6b9ea6fe3aabe735aa9d95#the-fast-blazing-solution)
+        - `set -g default-terminal "screen-256color"`
 
 [トップに戻る](../index.md)
