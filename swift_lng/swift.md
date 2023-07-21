@@ -26,8 +26,20 @@
         - `if let ～` ： アンラップできたとき
         - `guard iet ～` ： アンラップできなかったとき
 - `var body: somo View` のsomeは推論のための就職子。（viewプロトコルに関連したデータ型という意味）
-- @Binding
-    - @Stateを定義したViewと他のViewとの間で双方向にデータ連動できるようにする構造体
+- プロパティラッパー
+    - 概要
+        - プロパティをラップして機能を追加する文法
+    - 種類
+        - @State
+            - View内のプロパティ更新時にViewを自動的に再描画する
+        - @Binding
+            - @Stateを定義したViewと他のViewとの間で双方向にデータ連動できるようにする
+        - @Published
+            - ObservableObjectプロパティに準拠したクラス内部のプロパティを監視して、複数のViewへ自動通知できる
+            - @StateObjectと組み合わせて利用する
+        - @StateObject
+            - ObservableObjectプロパティに準拠した外部クラスのプロパティの状態を受信する。
+            - @Publishedと組み合わせて利用する
 - delegate
     - 処理が完了したときに通知されるための仕組み
     - [delegate](https://eow.alc.co.jp/search?q=delegate)：〔他者の代わりに行動する権限を与えられた〕代理人
@@ -41,7 +53,7 @@
     - 条件付きキャスト演算子で返却値はオプショナル型。
     - 型変換を試みて、失敗時は「nil」が返却される
     - e.g. `image as? UIImage`
-- メソッド引数先頭の `_`
+- メソッド引数先頭の `_` について
     - 呼び出し側でラベル名を省略するための命令
     - 例えば、以下例１のようにメソッド呼び出し処理では`quantity`や `price`等のラベルを指定して呼び出す。  
     しかし引数が自明の場合は、例２のように引数ラベルを省略させるようにすることも可能。
@@ -67,11 +79,38 @@
             debugMessage("エラー")
             ```
 
+- Viewを繰り返す方法
+    - [ForEachを使う](https://q3task.com/swiftui_foreach/)
+- 循環参照について
+    - class内のクロージャは、参照型のため循環参照が発生する可能性がある。  
+    対策のため、自分自身を指すselfを付与する必要がある。  
+    (Swift5.3からselfが省略できるようになった)  
+    structは値型のため循環参照の可能性がない。
+- [asyncとawait](https://ticklecode.com/asyncawait/)
+    - 非同期処理(async)を同期的に待つ(await)
+    - 例）
+
+        ```swift
+        // リクエストURLからダウンロード
+        let (_ , response) = try await URLSession.shared.data(from: req_url)
+        // データ取得が完了したら、次のコードを実行
+        if (response as? HTTPURLResponse)?.statusCode == 200 {
+            print("2.データの取得できた")         
+        }
+        ```
+
+- Combineフレームワーク
+    - View間またはView⇔ファイル間でデータを配信・受信できる仕組み
+    - SwiftUIで作成したViewとデータの状態を、非同期かつ双方向にデータ連動（バインド）できる
+- Single Source of Truth
+    - 変化する全データを１つの場所で保持し、状態の変化を階層化されたViewでまたがって配信・受信できるようにするという考え方。
+    - Combineフレームワークで採用
+
 ## 参考書メモ
 
 ### [SwiftUI 対応 たった2 日でマスターできる iPhone アプリ開発集中講座 Xcode 13/iOS 15/Swift 5.5 対応](https://www.amazon.co.jp/gp/product/B09JSKHB8L/ref=ppx_yo_dt_b_d_asin_title_o01?ie=UTF8&psc=1)
 
-- 誤記,不明点
+- 誤記、不明点
     - MyMap
         - p.208 なぜプレビュー機能の時はMapView_previewが先に実行されるのか？
             - MapView.swiftを表示しているため
@@ -84,8 +123,9 @@
             - 処置内容：p.356におけるソースコード上の `self.parent.captureImage = unwrapImage` の後ろに `self.parent.isShowSheet = false` を追加する
         - p.391 `isShowAction = true`の追加は不要では？
             - 前文と同じなので不要。なくても正常に動作する。
-- その他
-    - MyCameraは以下の不具合がある
-        - 一度写真撮影/選択後にメイン画面に戻ると、再度写真撮影/選択できない。
+    - MyOkashi
+        - p.450 追加したソースコードでは結果を取得できない
+            - 処置内容：サンプルプログラムのプログラムの通りに修正する
+                - 格納先： `XcodeSwift20211106/2_4/MyOkashi/src/MyOkashi/OkashiData.swift`
 
 [トップに戻る](../index.md)

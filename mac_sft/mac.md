@@ -112,9 +112,9 @@ macOS Monterey 12.6.7 上での設定手順を以下に示す。
 - vimで:Gpが効かない
     - `.vimrc` の `g:sGrepFileExt` に `*.swift` を追加する
 - tmuxでログインするとbashに切り替えられない
-    - ログインシェル変更＋.bash_profile作成により解決
+    - ログインシェル変更＋ `.bash_profile` 作成により解決
 - .bashrcが読み込まれない
-    - ログインシェル変更＋.bash_profile作成により解決
+    - ログインシェル変更＋ `.bash_profile` 作成により解決
 - .bashrcで設定したプロンプトにならない
     - [~/.tmux.confに以下を設定する](https://gist.github.com/bbqtd/a4ac060d6f6b9ea6fe3aabe735aa9d95#the-fast-blazing-solution)
         - `set -g default-terminal "screen-256color"`
