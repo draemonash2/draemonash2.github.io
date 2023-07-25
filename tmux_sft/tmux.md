@@ -96,6 +96,9 @@
 		- [こちら](https://github.com/greymd/tmux-xpanes)
 	- コマンド例
 		- `xpanes -e "top" "vmstat 1" "watch -n 1 free"`
+- mac×tmuxでクリップボードコピー＆ペースト
+	- 対応しない
+		- mac上のターミナルでコピー＆ペーストに対応すると、Teratermからmacへssh接続した場合のコピー＆ペーストに対応できなくなるため
 
 # トラブルシューティング
 

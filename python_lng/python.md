@@ -127,6 +127,7 @@
 
 - [yield文](http://ailaby.com/yield/)
 	- 関数の処理を一旦停止して、戻り値を返す
+- [相対パスのimport方法](https://qiita.com/u943425f/items/bd94a30b52c9296e942d)
 
 ## Python2 と 3の主な違い
 

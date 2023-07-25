@@ -128,4 +128,35 @@
             - 処置内容：サンプルプログラムのプログラムの通りに修正する
                 - 格納先： `XcodeSwift20211106/2_4/MyOkashi/src/MyOkashi/OkashiData.swift`
 
+## サンプルプログラム
+
+- 日付処理＋連想配列
+
+    ```swift
+    func Test2() -> String
+    {
+        var dicStatus:Dictionary<Date, Int> = [:]
+        
+        let today = Date()
+        let yesterday = Calendar.current.date(byAdding: .day,value: -1, to: Date())!
+        let yesterday_1 = Calendar.current.date(byAdding: .day,value: -2, to: Date())!
+        
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = DateFormatter.dateFormat(fromTemplate: "yyyyMMdd", options: 0, locale: Locale(identifier: "ja_JP"))
+        
+        dicStatus.updateValue(1, forKey: today)
+        dicStatus.updateValue(2, forKey: yesterday)
+        for (key,value) in dicStatus {
+            print("\(dateFormatter.string(from: key)) : \(value)")
+        }
+        print("\(dicStatus[today]!)")
+        print("\(dicStatus[yesterday]!)")
+        //print("\(dicStatus[yesterday_1]!)")
+        print("\(dicStatus.keys.contains(today))")
+        print("\(dicStatus.keys.contains(yesterday))")
+        print("\(dicStatus.keys.contains(yesterday_1))")
+        return "1"
+    }
+    ```
+
 [トップに戻る](../index.md)

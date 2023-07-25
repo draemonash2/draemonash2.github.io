@@ -22,7 +22,22 @@ macOS Monterey 12.6.7 上での設定手順を以下に示す。
     1. 左ペインで「電源」を選択
     1. 右ペインの「ディスプレイをオフにする」のスライダーを一番右(「しない」)に移動
 - [リモートデスクトップ接続](https://mebee.info/2019/11/20/post-3187/)
-    1. ★
+    1. Mac側設定
+        1. アップルマーク -> システム環境設定 をクリックする
+        1. 共有 をクリックする
+        1. 左の「画面共有」にチェックを入れる
+        1. アクセス許可に「すべてのユーザ」を選択する
+        1. 右中央にある「コンピュータ設定」をクリックする
+        1. 両方にチェックを入れてパスワードを入力する
+    1. Windows側設定
+        1. [UltraVNC Viewer](https://forest.watch.impress.co.jp/library/software/ultravnc/)インストール
+            - インストールソフトを「Viewer」のみにする
+        1. UltraVNC Viewer 起動
+            1. Auto Scalingにチェックを入れる
+            1. 「options…」をクリックする
+            1. 「Scale to window」にチェックを入れ、「ok」をクリックする
+            1. 接続先のmacのipアドレスを入力し、「connect」をクリックする
+            1. mac側で設定したパスワードを入力して接続する
 - [ログインシェル変更bash化](https://www.task-notes.com/entry/20150117/1421482066)
     1. ターミナルを開く
     1. `chsh -s /bin/bash` を実行する
