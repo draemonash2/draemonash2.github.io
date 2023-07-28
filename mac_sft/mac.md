@@ -23,7 +23,7 @@ macOS Monterey 12.6.7 上での設定手順を以下に示す。
     1. 右ペインの「ディスプレイをオフにする」のスライダーを一番右(「しない」)に移動
 - [リモートデスクトップ接続](https://mebee.info/2019/11/20/post-3187/)
     1. Mac側設定
-        1. アップルマーク -> システム環境設定 をクリックする
+        1. Apple メニュー -> システム環境設定 をクリックする
         1. 共有 をクリックする
         1. 左の「画面共有」にチェックを入れる
         1. アクセス許可に「すべてのユーザ」を選択する
@@ -58,6 +58,17 @@ macOS Monterey 12.6.7 上での設定手順を以下に示す。
         brew install universal-ctags
         ```
 
+- [日本語入力キー入れ替え](https://bl6.jp/dev/computer/os-x-el-capitan-command-space-from-control-space/)
+    - 概要
+        - 日本語入力キーである「Ctrl+Space」を「Command+Space」(Spotlight検索)に設定する。  
+        (日本語入力キーである「Ctrl+Space」はターミナルのprefixキーと被るため)
+    - 手順
+        1. Apple メニュー -> システム環境設定 をクリックする
+        1. 「キーボード」をクリック
+        1. 「ショートカットキー」タブを選択する
+        1. 左ペインの「Spotlight」を選択し、右側の「Spotlight 検索を表示」のチェックを外す
+        1. 左ペインの「入力ソース」を選択し、右側の「前の入力ソースを選択」のショートカットキーを「Command+Space」に変更する
+
 ## キーボード
 
 - [Mac⇔Windows間キー対応表](https://mac-windows-pc.com/mac-windows-keyboard)
@@ -74,7 +85,7 @@ macOS Monterey 12.6.7 上での設定手順を以下に示す。
 
     | 操作       | キー(Mac)       |
     | :---       | :---            |
-    | IME切替え  | Command + Space |
+    | IME切替え  | Command + Space (デフォルト：Ctrl + Space) |
     | タブ切替え | Command + Tab   |
     | 行頭移動 | Ctrl + a |
     | 行末移動 | Ctrl + e |
