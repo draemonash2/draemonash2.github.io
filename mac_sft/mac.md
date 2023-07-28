@@ -93,7 +93,7 @@ macOS Monterey 12.6.7 上での設定手順を以下に示す。
     | スクショ | Command + Shift + 3 |
     | スクショ（矩形選択） | Command + Shift + 4 |
 
-- Finder 関連
+- Finder
 
     | 操作       | キー(Mac)       |
     | :---       | :---            |
@@ -103,6 +103,18 @@ macOS Monterey 12.6.7 上での設定手順を以下に示す。
     | 新しいウィンドウを開く | Command + n |
     | 新しいタブを開く | Command + t |
     | ファイル削除 | Command + Delete |
+
+- Safari
+
+    | 操作       | キー(Mac)       |
+    | :---       | :---            |
+    | 検索バーにフォーカス | Command + l |
+    | 次のタブ | Ctrl + Tab |
+    | 前のタブ | Ctrl + Shift + Tab |
+    | タブを閉じる | Command + w |
+    | 最後に閉じたタブを開く | Command + Shift + t |
+    | 進む | Command + ] |
+    | 戻る | Command + [ |
 
 ## Tips
 
