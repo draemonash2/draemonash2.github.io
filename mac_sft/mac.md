@@ -21,7 +21,7 @@ macOS Monterey 12.6.7 上での設定手順を以下に示す。
     1. Apple メニュー -> システム環境設定 -> 省エネルギー をクリック
     1. 左ペインで「電源」を選択
     1. 右ペインの「ディスプレイをオフにする」のスライダーを一番右(「しない」)に移動
-- [リモートデスクトップ接続](https://mebee.info/2019/11/20/post-3187/)
+- [リモートデスクトップ接続（Windows→Mac）＠UltraVNC](https://mebee.info/2019/11/20/post-3187/)
     1. Mac側設定
         1. Apple メニュー -> システム環境設定 をクリックする
         1. 共有 をクリックする
@@ -38,6 +38,17 @@ macOS Monterey 12.6.7 上での設定手順を以下に示す。
             1. 「Scale to window」にチェックを入れ、「ok」をクリックする
             1. 接続先のmacのipアドレスを入力し、「connect」をクリックする
             1. mac側で設定したパスワードを入力して接続する
+- 外出先からリモートデスクトップ接続（Windows→Mac）＠RealVNC
+    1. Mac側設定
+        1. [RealVNC Serverインストール＆設定](https://yama-mac.com/recommend_realvnc_mac/)
+        1. VNCAGENT許可
+            1. Apple メニュー -> システム環境設定 をクリックする
+            1. セキュリティとプライバシー をクリックする
+            1. 「画面収録」の `vncagent` にチェックを入れる(※1)
+            1. 「アクセシビリティ」の `vncagent` にチェックを入れる(※1)
+                - (※1) `vncagent` が表示されない場合は、macを再起動してみる
+    1. Windows側設定
+        1. [RealVNC Viewerインストール＆接続](https://yama-windows10.com/recommend_realvnc/#toc8)
 - [ログインシェル変更bash化](https://www.task-notes.com/entry/20150117/1421482066)
     1. ターミナルを開く
     1. `chsh -s /bin/bash` を実行する
