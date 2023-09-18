@@ -2,6 +2,77 @@
 
 [トップに戻る](../index.md)
 
+
+## Tips
+
+- DropboxAPI使用方法
+    1. Dropbox API設定する
+        1. TODO:
+
+    1. [cocoapods インストール](https://ios-docs.dev/cocoapods/)
+
+        ```shell
+        brew update
+        brew upgrade
+        sudo gem install -n /usr/local/bin cocoapods -v 1.8.4
+        pod setup
+        ```
+
+    1. Pods初期化
+
+       ```shell
+       cd ~/Documents/codes/swift/app/hab-chain # move project directory
+       pod init
+       ```
+
+    1. [Podfile 編集](https://qiita.com/D4ik1/items/b4284a35925a526adb27)
+
+        ```diff TODO:
+         target 'app_name' do
+           # Comment the next line if you don't want to use dynamic frameworks
+           use_frameworks!
+         
+           # Pods for hab-chain
+        +  pod 'SwiftyDropbox'
+         
+         end
+        ```
+
+    1. XCode のプロジェクトを閉じる
+    1. Pod インストール
+
+        ```shell
+        pod install
+        pod update
+        ```
+
+    1. Info.plistを作成する
+        1. Info.plistファイル作成
+            - Project -> TARGETSでInfoタブを選択する。[[1]](https://qiita.com/john-rocky/items/0d7bf4428f013feba64c)
+        1. Info.plistファイル編集（<apps_key>にはDropBoxAPIにて設定したAppsKeyを設定する）
+
+            ```diff TODO:
+             <dict>
+            +    <key>LSApplicationQueriesSchemes</key>
+            +    <array>
+            +        <string>dbapi-8-emm</string>
+            +        <string>dbapi-2</string>
+            +    </array>
+                 <key>CFBundleURLTypes</key>
+                 <array>
+                     <dict>
+            +            <key>CFBundleURLSchemes</key>
+            +            <array>
+            +                <string>db-<apps_key></string>
+            +            </array>
+            +            <key>CFBundleURLName</key>
+            +            <string></string>
+                     </dict>
+                 </array>
+             </dict>
+             </plist>
+            ```
+
 ## 構文メモ
 
 - 変数種別

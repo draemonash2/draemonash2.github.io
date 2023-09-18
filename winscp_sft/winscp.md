@@ -1,14 +1,30 @@
+
+# WinSCP
+
 [トップに戻る](../index.md)
 
 
-# コマンド
+## コマンド
 
-- 【ファイル転送(remote→local)】winscp.exe /console /command "option batch on" "open user:password@example.com" "get examplefile.txt d:\" "exit"
-- 【ファイル転送(local→remote)】winscp.exe /console /command "option batch on" "open user:password@example.com" "cd ~" "put c:\test\examplefile.txt" "exit"
-	- ディレクトリ名も転送可能
+- 【接続（パスワード方式）】 `winscp.exe sftp://<user>:<password>@<address>:<port>`
+- 【接続（公開鍵暗号方式）】 `winscp.exe sftp://<user>@<address>:<port> /privatekey=<ppk_file_path>`
+- 【ファイル転送(remote→local)】 `winscp.exe /console /command "option batch on" "open user:password@example.com" "get examplefile.txt d:\" "exit"`
+- 【ファイル転送(local→remote)】 `winscp.exe /console /command "option batch on" "open user:password@example.com" "cd ~" "put c:\test\examplefile.txt" "exit"`
+    - ディレクトリ名も転送可能
 
-# ショートカットキー
-## エクスプローラー風ショートカット
+## トラブルシューティング
+
+- 公開鍵暗号方式によるWinSCP接続時、エラー「OpenSSH形式ではなくPuTTy形式の秘密鍵にしてね」が発生
+    - 解決方法：[WinSCP 付属のPuTTYgenで秘密鍵をPuTTy形式の秘密鍵に変換する](https://www.codelab.jp/blog/?p=350)
+        1. puttygen(WinSCPに同梱されています）を起動
+        2. File->Load private key で変換したい秘密鍵を読み込み
+        3. ウィンドウ上のsave private keyで保存
+- 公開鍵暗号方式によるWinSCP接続時、「PuTTY key format too new」が発生
+    解決方法：[PuTTYgenの設定で「PPK file version」を"2"に変更する](https://ccportal.ims.ac.jp/node/2913)
+
+## ショートカットキー
+
+### エクスプローラー風ショートカット
 
 |Ctrl|Shift|Alt|Key|機能|
 |:---|:---|:---|:---|:---|

@@ -28,6 +28,8 @@
         1. [iPhoneOSDeviceSupportのGitHubリポジトリ](https://github.com/filsv/iPhoneOSDeviceSupport)より該当するiOSバージョンのDeviceSupportファイルを取得する。
         1. DeviceSupportファイルを以下に格納する
             `/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/DeviceSupport/`
+- エラー `ld: framework not found Alamofire` が発生する
+	- 解決方法：「Project -> Build Settings -> Other Linker Flags」から `-framework "Alamofire"` を全て削除する。[[1]](https://zenn.dev/luigi_06/articles/b40c1088d7b759)
 
 ## Tips
 
