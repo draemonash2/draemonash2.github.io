@@ -1,30 +1,34 @@
+
+# X-Finder
+
 [トップに戻る](../index.md)
 
-# 設定方法
-- 設定については、下記参照
--- http://www.eonet.ne.jp/~gakana/xf.html
+## 設定方法
 
-# インストールアドイン
-- FFXII.exe
--- http://www.eonet.ne.jp/~gakana/download/ffxii.html
+- 設定については、[こちら](http://www.eonet.ne.jp/~gakana/xf.html)参照
 
-# ToDo
-- プレビュー表示
+## インストールアドイン
 
-# Tips
+- [FFXII.exe](http://www.eonet.ne.jp/~gakana/download/ffxii.html)
+
+## Tips
+
 - 複数ファイルフィルタ
-	```
-	\*aaa.txt\*;\*bbb.txt\*;\*ccc.txt\*
-	```
-- vbs 呼び出しテンプレート
-	```vb
-	Script:VBScript
-	Option Explicit
-	Const EXECUTION_MODE = 1
-	WScript.Include( "C:\codes\vbs\tools\win\file_ope\CreateSymbolicLink.vbs" )
-	```
 
-# ショートカットキー
+    ```text
+    \*aaa.txt\*;\*bbb.txt\*;\*ccc.txt\*
+    ```
+
+- vbs 呼び出しテンプレート
+
+    ```vb
+    Script:VBScript
+    Option Explicit
+    Const EXECUTION_MODE = 1
+    WScript.Include( "C:\codes\vbs\tools\win\file_ope\CreateSymbolicLink.vbs" )
+    ```
+
+## ショートカットキー
 
 |Ctrl|Shift|Alt|Key|機能|
 |:---|:---|:---|:---|:---|
@@ -63,7 +67,7 @@
 ||||Ins|パスの抽出|
 |Ctrl|Shift||Ins|最近閉じたタブの一覧|
 
-# shell
+## shell
 
 | 名前 | 説明 | パス |
 |:---|:---|:---|
@@ -74,5 +78,13 @@
 | shell:SendTo | 送るフォルダ | %USERPROFILE%\AppData\Roaming\Microsoft\Windows\SendTo |
 | shell:StartUp | スタートアップ | %USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\StartUp |
 | shell:Personal |  |  |
+
+## トラブルシューティング
+
+- TortoiseGitのコンテキストメニューが表示されない
+    - 解決方法：[TortoiseGit の設定でエクスプローラー以外のソフトにもコンテキストメニューを表示できるように設定する。](https://www.5cho-me.com/archives/143620)
+        1. エクスプローラー上で、任意のファイルを選択して右クリック
+        1. TortoiseGit -> 設定(S) をクリック
+        1. 左側「アイコンオーバーレイ」を選択し、「エクスプローラー上でのみオーバーレイとコンテキストメニューを表示(O)」にチェックを入れる
 
 [トップに戻る](../index.md)

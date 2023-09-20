@@ -1,13 +1,16 @@
+
+# TortoiseGit
+
 [トップに戻る](../index.md)
 
-# インストール方法
+## インストール方法
 
 1. Git msysgit をインストール
 1. [こちら](http://code.google.coam/p/tortoisegit/wiki/Download)より、Git クライアントのインストールファイルと言語ファイルをダウンロード
 1. Git クライアントのインストール
 1. 言語ファイルのインストール (各サイトで日本語化方法を紹介しているが、最新版では日本語ファイルをインストールするだけで日本語化が可能)
 
-# Tips
+## Tips
 
 - [Push時、毎回認証画面が表示される対策](https://gist.github.com/stakiran/ab47411c1767e4e26b561925dbc2ddb3)
     1. Tortoise Gitの設定を開く（Git管理対象ファイルを右クリック→Setting）
@@ -52,10 +55,11 @@
             - 対象： `C:\Users\<UserName>\.gitconfig`
             - 追加内容：
 
-                ```
+                ```text
                 [safe]
                     directory = *
                 ```
+
 - 差分ツール設定
     1. TortoiseGitの設定 -> 差分ビューア をクリックする。
     1. 「異なるリビジョンのファイルの比較に使用するプログラムの設定」にて「外部(E)」にチェックを入れる。
@@ -66,5 +70,10 @@
     1. 「外部(E)」にチェックを入れる。
     1. 以下を設定する。
         - `<WinMergeU.exe絶対パス> /e /ub /fr /wl /wm /dl %bname /dm %tname /dr %yname  %base %theirs %mine /o %merged /ar`
+- エクスプローラー以外(e.g. X-Finder)にて、TortoiseGitのコンテキストメニューが表示されない
+    - 解決方法：[TortoiseGit の設定でエクスプローラー以外のソフトにもコンテキストメニューを表示できるように設定する。](https://www.5cho-me.com/archives/143620)
+        1. エクスプローラー上で、任意のファイルを選択して右クリック
+        1. TortoiseGit -> 設定(S) をクリック
+        1. 左側「アイコンオーバーレイ」を選択し、「エクスプローラー上でのみオーバーレイとコンテキストメニューを表示(O)」にチェックを入れる
 
 [トップに戻る](../index.md)
