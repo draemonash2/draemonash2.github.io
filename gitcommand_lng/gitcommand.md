@@ -13,6 +13,7 @@ git config --global diff.tool vimdiff
 git config --global difftool.prompt false
 git config --global merge.tool vimdiff
 git config --global mergetool.prompt false
+git config --global credential.helper store
 ```
 
 ## 構文
