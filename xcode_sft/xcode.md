@@ -31,6 +31,10 @@
 - エラー `ld: framework not found Alamofire` が発生する
 	- 解決方法：「Project -> Build Settings -> Other Linker Flags」から `-framework "Alamofire"` を全て削除する。[[1]](https://zenn.dev/luigi_06/articles/b40c1088d7b759)
 
+## バージョン一覧
+
+[Mac](../mac_sft/mac.md)のWikiページ参照。
+
 ## Tips
 
 - アプリを作るだけなら無料か？
