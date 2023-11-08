@@ -64,7 +64,7 @@
 - [MiGrep](migrep_sft/migrep.md)
 - [grep.exe](grepexe_sft/grepexe.md)
 - [EpTree](eptree_sft/eptree.md)
-- [Excuberant Ctags](ctags_sft/ctags.md)
+- [Ctags](ctags_sft/ctags.md)
 
 - [RLogin](rlogin_sft/rlogin.md)
 - [WinSCP](winscp_sft/winscp.md)
