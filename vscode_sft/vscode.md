@@ -50,5 +50,8 @@
         - VSCode上でディレクトリを開いており、そのルートディレクトリに`.markdownlint.json`を格納していれば、  
         配下の全 `.md` ファイルに除外ルールが適用される。  
         反対に、ディレクトリで開いていない場合は、ルートディレクトリに格納されていても除外ルールが適用されない。
+- ポータブル版 VSCodeの設定ファイル格納先
+    - 設定： `<格納先>\VSCode\data\user-data\User\settings.json`
+    - キーバインド： `<格納先>\VSCode\data\user-data\User\keybindings.json`
 
 [トップに戻る](../index.md)

@@ -138,6 +138,33 @@ macOS Monterey 12.6.7 上での設定手順を以下に示す。
 - Mac上でLinuxを動かせるか？
     - 動かせる。そもそもMacはLinux(UNIX？)で作られているため、何もしなくても動く。
 - [macOSのバージョン一覧](https://pc-karuma.net/mac-os-x-version/)
+- [ストレージ容量確認方法](https://www.pro.logitec.co.jp/about_hdd/hddssd/20210910/)
+    1. ホーム画面左上の「Appleメニュー」をクリックする
+    1. 「このMacについて」→「ストレージ」の順に選択する。
+- 古いMacで最新macOS Sonomaを使う方法
+    - [OpenCore Legacy Patcher (OCLP)](https://diysmartmatter.com/archives/3362)を利用してインストールする。詳細はURL参照。
+- Boot Picker（=BIOS）を表示する方法
+    1. Option（=Alt）キーを押しながら再起動する。
+        - 【注意事項】この時、Macに直接接続したUSBキーボード上でキー操作を行うこと。  
+        （USBハブを介して接続したキーボードやBluetooth等で接続した無線キーボードでは、起動直後のOption(=Alt)キーが効かないため）[[1]](https://www.macvidcards.eu/why-boot-picker-doesnt-work)
+- OCLP 実行後、Boot Picker（=BIOS）を非表示にする方法
+    1. OCLP上で設定を変更して、再度OpenCoreをビルド＆インストールする。詳細は[こちら](https://blog.kabocy.com/mac/8453/)参照。
+- デスクトップ上でディスプレイの解像度を変更する
+    1. [cscreen](https://sashimi4.hatenablog.com/entry/change_screen_resolution_from_command_on_macos)をインストールする。
+    1. デスクトップディレクトリ直下に `change_display_size.command` を作成する。
+
+        ```shell
+        #!/bin/bash
+        cscreen -s 1 -x 1680 -y 1050
+        ```
+
+    1. `change_display_size.command` のアクセス権限を変更する。
+
+        ```shell
+        chmod 755 change_display_size.command
+        ```
+
+    1. デスクトップ上で、`change_display_size.command` をダブルクリックする。
 
 ## バージョン一覧
 
