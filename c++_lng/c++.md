@@ -384,4 +384,35 @@
     | 関数テンプレート | 不可 | 可 | 不可 |
     | クラステンプレート | 可 | 可 | 可 |
 
+- ラムダ式(lambda)のキャプチャタイミング
+    - 【キャプチャ変数がローカルの場合】ラムダ式定義時 [[1]](https://qiita.com/AtsushiEsashika/items/87c56d5c85760db60d17)
+    - 【キャプチャ変数がグローバルの場合】キャプチャされない
+        - グローバル変数はキャプチャするまでもなく普通にアクセスできる。  
+        なのでキャプチャ云々にかかわらず、ラムダ式内で参照した時の値が参照される。[[2]](https://theolizer.com/cpp-school2/cpp-school2-23/)
+- ラムダ式の形式例
+    - 例1）関数オブジェクト形式
+        - ソースコード
+
+            ``` cpp
+            const auto a = []() {
+                return 100;
+            };
+            std::cout << a() << std::endl; // 100
+            ```
+
+        - 解説
+            - ラムダ式を用いて関数オブジェクト`a`を定義する。その後、`a`を`()`で呼び出す。
+    - 例2）[IIFE形式（Immediately Invoked Function Expression）](https://zenn.dev/nyankobass/articles/ef6c0d4b5acf45#iife-%E3%81%A8%E3%81%AF)
+        - ソースコード
+
+            ``` cpp
+            const auto b = [] {
+                return 100;
+            }();
+            std::cout << b << std::endl; // 100
+            ```
+
+        - 解説
+            - `{}`内で定義したラムダ式を`()`で呼び出して、ラムダ式の返却値を変数`b`に格納する。
+
 [トップに戻る](../index.md)
