@@ -70,6 +70,7 @@
 - [RLogin](rlogin_sft/rlogin.md)
 - [WinSCP](winscp_sft/winscp.md)
 - [TeraTerm](teraterm_sft/teraterm.md)
+- [Windows Terminal](winterm_sft/winterm.md)
 
 - [Cygwin](cygwin_sft/cygwin.md)
 - [iThoughts](ithoughts_sft/ithoughts.md)
