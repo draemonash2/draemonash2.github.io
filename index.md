@@ -27,9 +27,9 @@
 
 ## OS
 
-- [Windows](windows_sft/windows.md)
-- [Linux](linux_sft/linux.md)
-- [Mac](mac_sft/mac.md)
+- [Windows](windows_os/windows.md)
+- [Linux](linux_os/linux.md)
+- [Mac](mac_os/mac.md)
 
 ## ソフト([インストーラーはこちら](other_otr/installer_url.md))
 
@@ -63,6 +63,7 @@
 - [WinMerge](winmerge_sft/winmerge.md)
 
 - [MiGrep](migrep_sft/migrep.md)
+- [Tres Grep](tresgrep_sft/tresgrep.md)
 - [grep.exe](grepexe_sft/grepexe.md)
 - [EpTree](eptree_sft/eptree.md)
 - [Ctags](ctags_sft/ctags.md)

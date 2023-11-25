@@ -271,6 +271,9 @@
 	'Debug.Print oPriceOfFruit.Count        'エラー
 	```
 
+- Run と Execの違い
+	- TODO:
+
 # サンプルコード
 - [【プログラムテンプレート】](vba_プログラムテンプレート.md)
 - 【セル重複削除】

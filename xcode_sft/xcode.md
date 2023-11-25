@@ -33,7 +33,7 @@
 
 ## バージョン一覧
 
-[Mac](../mac_sft/mac.md)のWikiページ参照。
+[Mac](../mac_os/mac.md)のWikiページ参照。
 
 ## Tips
 

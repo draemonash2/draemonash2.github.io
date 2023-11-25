@@ -2,7 +2,7 @@
 
 # 関連リンク
 
-- [Linux](../linux_sft/linux.md)
+- [Linux](../linux_os/linux.md)
 - [WSL2](../wsl2_sft/wsl2.md)
 
 # Python＠Raspberry Pi
@@ -49,7 +49,7 @@
 
 # Linux 共通コマンド
 
-- [Linuxの基本コマンドはこちら](../linux_sft/linux.md)
+- [Linuxの基本コマンドはこちら](../linux_os/linux.md)
 
 # Raspberry Pi 関連コマンド
 

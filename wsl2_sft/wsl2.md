@@ -5,7 +5,7 @@
 
 ## 関連リンク
 
-- [Linux](../linux_sft/linux.md)
+- [Linux](../linux_os/linux.md)
 - [Raspberry Pi](../raspberrypi_sft/raspberrypi.md)
 - [Windows Teminal](../winterm_sft/winterm.md)
 
@@ -139,10 +139,10 @@
 
 ## コマンド
 
-- [こちら](../linux_sft/linux.md)
+- [こちら](../linux_os/linux.md)
 
 ## ショートカットキー
 
-- [こちら](../linux_sft/linux.md)
+- [こちら](../linux_os/linux.md)
 
 [トップに戻る](../index.md)
