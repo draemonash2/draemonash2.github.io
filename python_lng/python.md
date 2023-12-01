@@ -126,8 +126,12 @@
              ```
 
 - [yield文](http://ailaby.com/yield/)
-	- 関数の処理を一旦停止して、戻り値を返す
+    - 関数の処理を一旦停止して、戻り値を返す
 - [相対パスのimport方法](https://qiita.com/u943425f/items/bd94a30b52c9296e942d)
+- 環境変数PYTHONPATHに設定する値は、「pythonコマンドのパス」と「pythonスクリプトのパス」どちら？
+    →「pythonスクリプトのパス」。
+    pythonスクリプト内でimportされるとき(e.g. import test)に利用されるっぽい。
+    pythonスクリプト実行時(e.g. python3 test.py)には利用されない。
 
 ## Python2 と 3の主な違い
 
