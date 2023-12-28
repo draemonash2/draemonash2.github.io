@@ -47,7 +47,8 @@ git config --global credential.helper store
 - 【ブランチ一覧表示(ローカル)】 `git branch`
 - 【ブランチ一覧表示(リモート)】 `git branch -r`
 - 【ブランチ一覧表示(ローカル＆リモート)】 `git branch -a`
-- 【ブランチ削除】 `git branch -d ブランチ名`
+- 【ブランチ削除(ローカル)】 `git branch -d ブランチ名`
+- 【ブランチ削除(リモート)】 `git push origin --delete ブランチ名` #→`origin/`は不要
 - 【ブランチ名変更(現在ブランチ)】 `git branch -m 新ブランチ名`
 - 【ブランチ名変更(ブランチ指定)】 `git branch -m 旧ブランチ名 新ブランチ名`
 
@@ -83,7 +84,7 @@ git config --global credential.helper store
 
 - [変更取消し](https://www-creators.com/archives/1290)
     - 【変更取消し 作業ツリーのみ】 `git checkout ファイル名`
-    - 【変更取消し 作業ツリー＋インデックス】 `git reset HEAD ファイル名`
+    - 【変更取消し インデックスのみ】 `git reset HEAD ファイル名` #→`git add`が取り消されるのみで、作業ツリーに対する変更は残る。
     - 【変更取消し コミット後1】 `git revert HEAD` #→変更を打ち消すコミットを作成
     - 【変更取消し コミット後2】 `git reset HEAD` #→直前のコミットを消去する
     - 【変更取消し プッシュ後1】 `git reset --hard ハッシュ値`

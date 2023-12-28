@@ -1,6 +1,9 @@
+
+# TMUX
+
 [トップに戻る](../index.md)
 
-# コマンド＆ショートカットキー（デフォルト）
+## コマンド＆ショートカットキー（デフォルト）
 
 - 【セッション起動】 `tmux`
 - 【セッション起動(セッション名指定)】 `tmux new -s <session_name>`
@@ -15,7 +18,7 @@
 - 【セッション削除】 `exit`
 - 【セッション削除】 `Ctrl-d`
 
-- 【接続クライアント確認】 `tmux list-client`
+- 【接続クライアント確認】 `tmux list-client` # 接続中のクライアント(=ターミナル)一覧を表示する
 
 - 【ウィンドウ作成】 `Ctrl-b c` # Create
 - 【ウィンドウ切替(次)】 `Ctrl-b n` # Next
@@ -60,79 +63,98 @@
 
 - 【オプション表示(サーバー)】 `tmux show-options -s`
 - 【オプション表示(セッショングローバル)】 `tmux show-options -g`
-- 【オプション表示(現在セッション)】 `tmux show-options
-- 【オプション表示(ウィンドウグローバルオプション)】 `tmux show-options -wg
-- 【オプション表示(ウィンドウグローバルオプション)】 `tmux show-window-options -g
-- 【オプション表示(現在ウィンドウ)】 `tmux show-window-options
+- 【オプション表示(現在セッション)】 `tmux show-options`
+- 【オプション表示(ウィンドウグローバルオプション)】 `tmux show-options -wg`
+- 【オプション表示(ウィンドウグローバルオプション)】 `tmux show-window-options -g`
+- 【オプション表示(現在ウィンドウ)】 `tmux show-window-options`
 
 - 【ペイン間グローバルキー送信 有効】 `tmux set-window-option synchronize-panes on`
 - 【ペイン間グローバルキー送信 無効】 `tmux set-window-option synchronize-panes off`
 
-# Tips
+## Tips
 
 - ターミナル,セッション,ウィンドウ,ペイン
-	- ターミナル
-		- 複数のセッションを持つことができる
-	- セッション
-		- ひとつのターミナルから複数のセッションを作成することができる。
-		- ターミナルを閉じてもセッションは維持される。
-		- セッション実行中は画面の下部に緑のステータスバーが表示される。
-	- ウィンドウ
-		- ひとつのセッションの中で複数のウィンドウを作成し、切り替えながら作業することができる。
-		- ウィンドウの一覧は画面下部のステータスバーに 「数字:ウィンドウ名」で表示される。
-	- ペイン
-		- ひとつのウィンドウをさらに上下左右のペインに分割して操作できる。
+    - ターミナル
+        - 複数のセッションを持つことができる
+    - セッション
+        - ひとつのターミナルから複数のセッションを作成することができる。
+        - ターミナルを閉じてもセッションは維持される。
+        - セッション実行中は画面の下部に緑のステータスバーが表示される。
+    - ウィンドウ
+        - ひとつのセッションの中で複数のウィンドウを作成し、切り替えながら作業することができる。
+        - ウィンドウの一覧は画面下部のステータスバーに 「数字:ウィンドウ名」で表示される。
+    - ペイン
+        - ひとつのウィンドウをさらに上下左右のペインに分割して操作できる。
 - 設定用コマンド
-	- bind は bind-keysのエイリアス
-	- set は set-optionのエイリアス
-	- setw は set-window-option のエイリアス
-	- set-window-option は set-option -w のエイリアス
+    - bind は bind-keysのエイリアス
+    - set は set-optionのエイリアス
+    - setw は set-window-option のエイリアス
+    - set-window-option は set-option -w のエイリアス
 - status line 色設定
-	- 参考URL : [tmux の status line の設定方法](https://qiita.com/nojima/items/9bc576c922da3604a72b#attributes-%E3%81%AB%E6%8C%87%E5%AE%9A%E3%81%A7%E3%81%8D%E3%82%8B%E6%96%87%E5%AD%97%E5%88%97)
+    - 参考URL : [tmux の status line の設定方法](https://qiita.com/nojima/items/9bc576c922da3604a72b#attributes-%E3%81%AB%E6%8C%87%E5%AE%9A%E3%81%A7%E3%81%8D%E3%82%8B%E6%96%87%E5%AD%97%E5%88%97)
 - [xpanes](https://github.com/greymd/tmux-xpanes)
-	- 概要
-		- 端末分割＋各々コマンド実行を一回のコマンド入力で行えるようにするソフト
-	- インストール方法
-		- [こちら](https://github.com/greymd/tmux-xpanes)
-	- コマンド例
-		- `xpanes -e "top" "vmstat 1" "watch -n 1 free"`
+    - 概要
+        - 端末分割＋各々コマンド実行を一回のコマンド入力で行えるようにするソフト
+    - インストール方法
+        - [こちら](https://github.com/greymd/tmux-xpanes)
+    - コマンド例
+        - `xpanes -e "top" "vmstat 1" "watch -n 1 free"`
 - mac×tmuxでクリップボードコピー＆ペースト
-	- 対応しない
-		- mac上のターミナルでコピー＆ペーストに対応すると、Teratermからmacへssh接続した場合のコピー＆ペーストに対応できなくなるため
+    - 対応しない
+        - mac上のターミナルでコピー＆ペーストに対応すると、Teratermからmacへssh接続した場合のコピー＆ペーストに対応できなくなるため
+- SSH接続時と標準ターミナル時で設定を分けたい
+    - 案１
+        - 内容
+            - `.tmux.conf`上で、以下のように条件分岐させて同じキーで別の処理を割り当てる
 
-# トラブルシューティング
+                ```shell
+                (uname | grep -q Linux && test "${MYTERM_PRG}" == "TeraTerm"); echo $?
+                (uname | grep -q Linux && test "${MYTERM_PRG}" == ""); echo $?
+                (uname | grep -q Darwin && test "${MYTERM_PRG}" == "TeraTerm"); echo $?
+                (uname | grep -q Darwin && test "${MYTERM_PRG}" == ""); echo $?
+                ```
+
+        - 結論
+            - 不可能。
+        - 理由
+            - tmuxは別セッションであっても一つの設定が読み込まれる。  
+            例えば、セッションAで設定Aを読み込むとセッションBでも設定Aが読み込まれる。  
+            そのため、条件分岐で割り当てたとしても、別セッションに設定が反映されてしまうので、分岐の意味がなくなる。
+- tmux-resurrect セッション保存先
+    - `./.local/share/tmux/resurrect/last`
+
+## トラブルシューティング
 
 - キーが効かない
-	- f1～f4＠teraterm＋vim
-		- 原因
-			- "~"が送信されている。F2は"2~"、F3は"3~"。vimの「~」は大文字小文字入れ替え。
-		- 対処
-			- teraterm のKEYCONFIG.CNFのF1キーをFUNCTION.CNFの設定値に更新する
-				- 変更前：XF1=59
-				- 変更後：User8=59,0,$1BOP
-	- Ctrl + ,＠teraterm＋vim
-		- 原因
-			- teratermで ctrl+b をctrl ,に置き換えているため
-		- 処置
-			- teraterm キー設定変更
-				- [ESC[nD カーソルを左にn桁移動](https://teraterm.jp/manual/4.68/html/about/ctrlseq.html#CSI)
-	- Ctrl + h
-		- 原因
-			- [c-hをbackspaceとみなすため](https://rcmdnk.com/blog/2015/01/06/computer-tmux/)
-		- 処置
-			- BSpaceへ割り当てる
-				- 例： `bind Bspace select-pane -L`
-				
-	- Ctrl + h＠tmux＋vim
-		- 原因
-			- [c-hをbackspaceとみなすため](https://rcmdnk.com/blog/2015/01/06/computer-tmux/)
-		- 処置
-			- <bs>へ割り当てる
-				- 例： `noremap <bs> 10zh10h`
+    - f1～f4＠teraterm＋vim
+        - 原因
+            - `~`が送信されている。F2は`2~`、F3は`3~`。vimの`~`は大文字小文字入れ替え。
+        - 対処
+            - teraterm のKEYCONFIG.CNFのF1キーをFUNCTION.CNFの設定値に更新する
+                - 変更前：XF1=59
+                - 変更後：User8=59,0,$1BOP
+    - Ctrl + ,＠teraterm＋vim
+        - 原因
+            - teratermで`ctrl+b`を`ctrl+,`に置き換えているため
+        - 処置
+            - teraterm キー設定変更
+                - [ESC\[nD カーソルを左にn桁移動](https://teraterm.jp/manual/4.68/html/about/ctrlseq.html#CSI)
+    - Ctrl + h
+        - 原因
+            - [c-hをbackspaceとみなすため](https://rcmdnk.com/blog/2015/01/06/computer-tmux/)
+        - 処置
+            - `BSpace`へ割り当てる
+                - 例： `bind Bspace select-pane -L`
+    - Ctrl + h＠tmux＋vim
+        - 原因
+            - [c-hをbackspaceとみなすため](https://rcmdnk.com/blog/2015/01/06/computer-tmux/)
+        - 処置
+            - `<bs>`へ割り当てる
+                - 例： `noremap <bs> 10zh10h`
 - tmux上で日本語をコピーすると文字化けする
-	- 対処
-		- [ターミナルソフトのコピー機能でコピーする](https://teratail.com/questions/320522)
-			- teratermの場合、Ctrl+マウス選択
-			- terminatorの場合、Shift+マウス選択
+    - 対処
+        - [ターミナルソフトのコピー機能でコピーする](https://teratail.com/questions/320522)
+            - teratermの場合、Ctrl+マウス選択
+            - terminatorの場合、Shift+マウス選択
 
 [トップに戻る](../index.md)
