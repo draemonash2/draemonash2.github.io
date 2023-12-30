@@ -27,7 +27,7 @@
 
     1. [Podfile 編集](https://qiita.com/D4ik1/items/b4284a35925a526adb27)
 
-        ```diff TODO:
+        ```diff
          target 'app_name' do
            # Comment the next line if you don't want to use dynamic frameworks
            use_frameworks!
@@ -51,7 +51,7 @@
             - Project -> TARGETSでInfoタブを選択する。[[1]](https://qiita.com/john-rocky/items/0d7bf4428f013feba64c)
         1. Info.plistファイル編集（<apps_key>にはDropBoxAPIにて設定したAppsKeyを設定する）
 
-            ```diff TODO:
+            ```diff
              <dict>
             +    <key>LSApplicationQueriesSchemes</key>
             +    <array>
@@ -72,6 +72,8 @@
              </dict>
              </plist>
             ```
+
+- [ライフサイクルとメソッド( init(),onApper(),onDisappear())が呼ばれるタイミング](https://nonateck.com/?p=649)
 
 ## 構文メモ
 
