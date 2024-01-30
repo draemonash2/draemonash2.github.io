@@ -10,17 +10,27 @@ macOS Monterey 12.6.7 上での設定手順を以下に示す。
 
 - [起動音無効化](https://support.apple.com/ja-jp/HT211996)
     1. Apple メニュー -> システム環境設定 -> サウンド をクリック
-    1. 「サウンドエフェクト」パネルの「起動時にサウンドを再生」を設定する
+    1. 「サウンドエフェクト」パネルの「起動時にサウンドを再生」のチェックを外す
 - [ディスプレイ回転](https://www.eizo.co.jp/support/compati/monitor/rotation/macosx.html)
     1. Apple メニュー -> システム環境設定 -> ディスプレイ をクリック
     1. 「ディスプレイ」タブの「回転」を設定する
 - [マウスホイール反転](https://mac-windows-pc.com/scroll-natural)
-    1. Apple メニュー -> システム環境設定 -> トラックパッド -> スクロールとズーム をクリック
+    1. Apple メニュー -> システム環境設定 -> マウス -> スクロールとズーム をクリック
     1. 「スクロールの方向:ナチュラル」のチェックを外す
 - [スリープ抑制](https://itojisan.xyz/settings/32800/)
     1. Apple メニュー -> システム環境設定 -> 省エネルギー をクリック
     1. 左ペインで「電源」を選択
     1. 右ペインの「ディスプレイをオフにする」のスライダーを一番右(「しない」)に移動
+    1. 右ペインの「電源アダプタ使用時はディスプレイがオフのときに自動でスリープさせない」のチェックを外す
+    1. 右ペインの「可能な場合はハードディスクをスリープさせる」のチェックを外す
+- [ssh サーバー設定](https://pc-karuma.net/mac-ssh-login/)
+    - 概要
+        - MACに対してssh接続したい場合に、sshサーバー設定を行う手順を示す。
+    - 手順
+        1. Apple メニュー -> システム環境設定 -> 共有 をクリック
+        1. 左ペインで「リモートログイン」を選択
+        1. 右ペインの「リモートログイン：オン」を有効にする
+    - 補足
 - [リモートデスクトップ接続（Windows→Mac）＠UltraVNC](https://mebee.info/2019/11/20/post-3187/)
     1. Mac側設定
         1. Apple メニュー -> システム環境設定 をクリックする
@@ -60,15 +70,6 @@ macOS Monterey 12.6.7 上での設定手順を以下に示す。
             fi
             ```
 
-- [universal-ctagsインストール](https://formulae.brew.sh/formula/universal-ctags)
-    1. ターミナルを開く
-    1. 以下のコマンドを実行する
-
-        ```shell
-        brew unlink ctags
-        brew install universal-ctags
-        ```
-
 - [日本語入力キー入れ替え](https://bl6.jp/dev/computer/os-x-el-capitan-command-space-from-control-space/)
     - 概要
         - 日本語入力キーである「Ctrl+Space」を「Command+Space」(Spotlight検索)に設定する。  
@@ -79,6 +80,69 @@ macOS Monterey 12.6.7 上での設定手順を以下に示す。
         1. 「ショートカットキー」タブを選択する
         1. 左ペインの「Spotlight」を選択し、右側の「Spotlight 検索を表示」のチェックを外す
         1. 左ペインの「入力ソース」を選択し、右側の「前の入力ソースを選択」のショートカットキーを「Command+Space」に変更する
+- Dropboxインストール
+    1. [DropboxのHP](https://www.dropbox.com/official-teams-page?_tk=paid_sem_goog_biz_b&_camp=20849001510&_kw=drop%20box|p&_ad=684257575383||c&gad_source=1&gclid=CjwKCAiA8NKtBhBtEiwAq5aX2KmpucQpuCBeaZTxkNpmv51MZ39CKgmZYO6FCKSa1fCxsY2avGfu2xoCAy8QAvD_BwE)より、インストーラーをダウンロードし、インストールする。
+- [OpenCore Legacy Patcher (OCLP)](https://diysmartmatter.com/archives/3362)を利用して、古いMacに最新macOS Sonomaをインストールする
+    1. [OpenCore-Legacy-Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher/releases/)をインストールする。
+    1. OSインストール用USBメモリを作る。
+        1. 空のUSBメモリを接続する。
+        1. OCLPを起動する。
+        1. 「Create macOS Installer」->「Download macOS Installer」をクリックする。
+        1. 「macOS 14.0 Sonoma」を選択して「Download」をクリックする。
+        1. ダウンロードが完了したら、USBメモリに対してインストールを実行する。
+    1. ESPにOpenCoreをインストールする。
+        1. OCLPを起動する。
+        1. 「Build and Install OpenCore」をクリックする。
+        1. 内蔵HDDに該当するディスクを選択する。
+        1. ESPがインストールされていることを確認する。
+            1. ESPをマウントする。
+
+                ```shell
+                diskutil list # 対象ディスクのIDENTIFIER(e.g. disk1s1)を確認する
+                sudo mkdir ~/Volumes
+                sudo diskutil mount -mountPoint ~/Volumes <disk_id>
+                ```
+
+            1. Finder上で「EFI」->「OC」->「Kexts」配下に複数のファイルがあることを確認する。
+
+    1. OpenCoreでOSをインストールする。
+        1. 再起動する。この時、起動直後にOptionキー(Altキー)を押し続ける。
+        1. 起動可能なディスクの選択肢が現れたら、「EFI Boot」->「Install macOS Sonoma」を選択する。  
+        1. 起動したら、「macOS Sonomaインストール」をクリックする。
+        1. 説明に従い、OSのインストールを行う。
+    1. 不足ドライバをインストールする。
+        1. OCLPを起動する。
+        1. 「Post-Install Root Patch」をクリックする。
+        1. 「Start Root Patching」をクリックして、パッチを当てる。  
+        （自動的に再起動する）
+    1. Boot Pickerを無効化する。[[1]](https://blog.kabocy.com/mac/8453/)
+        1. OCLPを起動する。
+        1. 「Settings」をクリックする。
+        1. 「Show OpenCore Boot Picker」のチェックを外し、「Return」をクリックする。
+        1. 「Build and Install OpenCore」をクリックする。
+        1. 内蔵HDDに該当するディスクを選択する。
+        1. 説明の通り進め、再起動する。
+- デスクトップ上でディスプレイの解像度を変更する
+    1. [cscreen](https://sashimi4.hatenablog.com/entry/change_screen_resolution_from_command_on_macos)をインストールする。
+
+        ```shell
+        brew install homebrew/cask/cscreen
+        ```
+
+    1. デスクトップディレクトリ直下に `change_display_size.command` を作成する。
+
+        ```shell
+        #!/bin/bash
+        cscreen -s 1 -x 1680 -y 1050
+        ```
+
+    1. `change_display_size.command` のアクセス権限を変更する。
+
+        ```shell
+        chmod 755 change_display_size.command
+        ```
+
+    1. デスクトップ上で、`change_display_size.command` をダブルクリックする。
 
 ## キーボード
 
@@ -147,24 +211,6 @@ macOS Monterey 12.6.7 上での設定手順を以下に示す。
     1. Option（=Alt）キーを押しながら再起動する。
         - 【注意事項】この時、Macに直接接続したUSBキーボード上でキー操作を行うこと。  
         （USBハブを介して接続したキーボードやBluetooth等で接続した無線キーボードでは、起動直後のOption(=Alt)キーが効かないため）[[1]](https://www.macvidcards.eu/why-boot-picker-doesnt-work)
-- OCLP 実行後、Boot Picker（=BIOS）を非表示にする方法
-    1. OCLP上で設定を変更して、再度OpenCoreをビルド＆インストールする。詳細は[こちら](https://blog.kabocy.com/mac/8453/)参照。
-- デスクトップ上でディスプレイの解像度を変更する
-    1. [cscreen](https://sashimi4.hatenablog.com/entry/change_screen_resolution_from_command_on_macos)をインストールする。
-    1. デスクトップディレクトリ直下に `change_display_size.command` を作成する。
-
-        ```shell
-        #!/bin/bash
-        cscreen -s 1 -x 1680 -y 1050
-        ```
-
-    1. `change_display_size.command` のアクセス権限を変更する。
-
-        ```shell
-        chmod 755 change_display_size.command
-        ```
-
-    1. デスクトップ上で、`change_display_size.command` をダブルクリックする。
 
 ## バージョン一覧
 
