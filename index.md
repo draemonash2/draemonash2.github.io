@@ -93,6 +93,7 @@
 - [flamegraph](flamegraph_sft/flamegraph.md)
 - [gnuplot](gnuplot_sft/gnuplot.md)
 - [TurboVNC](turbovnc_sft/turbovnc.md)
+- [XTerm](xterm_sft/xterm.md)
 
 - [Docker](docker_sft/docker.md)
 
