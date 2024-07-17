@@ -80,8 +80,6 @@ macOS Monterey 12.6.7 上での設定手順を以下に示す。
         1. 「ショートカットキー」タブを選択する
         1. 左ペインの「Spotlight」を選択し、右側の「Spotlight 検索を表示」のチェックを外す
         1. 左ペインの「入力ソース」を選択し、右側の「前の入力ソースを選択」のショートカットキーを「Command+Space」に変更する
-- Dropboxインストール
-    1. [DropboxのHP](https://www.dropbox.com/official-teams-page?_tk=paid_sem_goog_biz_b&_camp=20849001510&_kw=drop%20box|p&_ad=684257575383||c&gad_source=1&gclid=CjwKCAiA8NKtBhBtEiwAq5aX2KmpucQpuCBeaZTxkNpmv51MZ39CKgmZYO6FCKSa1fCxsY2avGfu2xoCAy8QAvD_BwE)より、インストーラーをダウンロードし、インストールする。
 - [OpenCore Legacy Patcher (OCLP)](https://diysmartmatter.com/archives/3362)を利用して、古いMacに最新macOS Sonomaをインストールする
     1. [OpenCore-Legacy-Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher/releases/)をインストールする。
     1. OSインストール用USBメモリを作る。
