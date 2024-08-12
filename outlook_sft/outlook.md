@@ -5,6 +5,9 @@
 	- http://yuunagi.hatenablog.com/entry/2012/04/06/235709
 - Outlook vba マクロ保存先
 	- %USERPROFILE%\AppData\Roaming\Microsoft\Outlook\VbaProject.OTM
+- [会議受諾後にメッセージが消える場合の対処法](https://ootkblog.com/outlook-message-disappear/)
+	1. 「ファイル」->「メール」
+	1. 「メッセージの送信」の「返信後、受信トレイの会議開催依頼と通知を削除する（D）」のチェックを外す
 
 # ショートカットキー
 

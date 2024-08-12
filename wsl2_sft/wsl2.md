@@ -21,6 +21,7 @@
             - 「Ubuntu XX.XX」：各バージョンのディストリビューション。
 1. WSL2インストール事後作業
     1. BIOS上でVirtulization Technologyを有効化する。
+        - Virtulization Technologyが有効になっていないと、後述の「仮想マシンプラットフォーム」を有効化できない。
         - HPのPCにおける設定方法は以下の通り。
             1. 起動時にF10を連打してBIOS設定を起動する
             2. System Configuuration -> Virtulization Technology を Enable にする
@@ -38,7 +39,7 @@
 
         ```shell
         sudo apt update
-        sudo apt install openssh-server
+        sudo apt install -y openssh-server
         sudo systemctl enable ssh
         sudo systemctl start ssh
         ```
@@ -49,8 +50,9 @@
         - 追加内容
 
             ```shell
-            ServerAliveInterval 300
-            ServerAliveCountMax 10
+            Host *
+                ServerAliveInterval 300
+                ServerAliveCountMax 10
             ```
 
     3. [サーバー側(Linux)の設定](https://www.xenos.jp/~zen/blog2/index.php/2020/06/14/post-3987/)を追加する。
