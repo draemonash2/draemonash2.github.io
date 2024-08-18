@@ -161,6 +161,9 @@
     - 上記3f0エラー問題がらみと思われる
 - 勝手にUSキーボード(英語配列)に切り替えられる
     - 解決策：[こちらのWebサイト](https://asbgm.com/348/#toc3)にある手順でUSキーボードをアンインストールする
+- バッテリーの減りが早い＠Lenovo yoga
+	- 原因：高速スタートアップが起動しているため。
+	- 対処方法：[高速スタートアップを無効](https://support.lenovo.com/jp/ja/solutions/ht513773-how-to-enable-or-disable-fast-startup-on-windows-11)にする。
 
 ## ショートカットキー
 
