@@ -113,5 +113,14 @@ aa       c
 イメージ作成（Dockerfileから）  docker build -t <image>[:<tag>] -f <dockerfile_path>
 ```
 
+# mermaidテスト
+
+```mermaid
+sequenceDiagram
+  autonumber
+  Client->>+Server: GET /issues
+  Server-->>-Client: response
+```
+
 [トップに戻る](../index.md)
 
