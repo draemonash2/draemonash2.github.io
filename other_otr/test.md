@@ -1,17 +1,22 @@
+
+# テスト
+
 [トップに戻る](../index.md)
 
-# 表テスト
-|Ctrl|Shift|Alt|Key|機能|
-|:---|:---|:---|:---|:---|
-|a|b|c|d|ルートに移動|
-
-# テーブル
-- aaa
+## 表
 
 |Ctrl|Shift|Alt|Key|機能|
 |:---|:---|:---|:---|:---|
 |a|b|c|d|ルートに移動|
 
+## テーブル
+
+- aaa
+
+|Ctrl|Shift|Alt|Key|機能|
+|:---|:---|:---|:---|:---|
+|a|b|c|d|ルートに移動|
+
 - aaa
 |Ctrl|Shift|Alt|Key|機能|
 |:---|:---|:---|:---|:---|
@@ -27,29 +32,29 @@
 |a|b|c|d|ルートに移動|
 
 - aaa
-	- aaa
-	
-	|Ctrl|Shift|Alt|Key|機能|
-	|:---|:---|:---|:---|:---|
-	|a|b|c|d|ルートに移動|
-	
+    - aaa
+    
+    |Ctrl|Shift|Alt|Key|機能|
+    |:---|:---|:---|:---|:---|
+    |a|b|c|d|ルートに移動|
+    
 - aaa
-	- aaa
-	
-		|Ctrl|Shift|Alt|Key|機能|
-		|:---|:---|:---|:---|:---|
-		|a|b|c|d|ルートに移動|
-	
+    - aaa
+    
+        |Ctrl|Shift|Alt|Key|機能|
+        |:---|:---|:---|:---|:---|
+        |a|b|c|d|ルートに移動|
+    
 - aaa
-	- aaa
+    - aaa
 
-		|Ctrl|Shift|Alt|Key|機能|
-		|:---|:---|:---|:---|:---|
-		|a|b|c|d|ルートに移動|
+        |Ctrl|Shift|Alt|Key|機能|
+        |:---|:---|:---|:---|:---|
+        |a|b|c|d|ルートに移動|
 
 - aaa
-	- aaa
-	
+    - aaa
+    
 |Ctrl|Shift|Alt|Key|機能|
 |:---|:---|:---|:---|:---|
 |a|b|c|d|ルートに移動|
@@ -58,7 +63,7 @@
 - aaa \-\-bb
 - aaa \--bb
 
-# ソーステスト
+## ソース
 
 - 1
 ```
@@ -85,21 +90,21 @@ aa       c
 ```
 
 - 5
-	- 5-1
-	
-	```
-	aaa      bbb
-	aa       c
-	```
-	
+    - 5-1
+    
+    ```
+    aaa      bbb
+    aa       c
+    ```
+    
 - 6
-	- 6-1
-		```
+    - 6-1
+        ```
         aaa      bbb
         aa       c
-		```
+        ```
 
-# コード領域テスト
+## コード領域
 
 ```txt
 イメージ確認                    docker images
@@ -113,14 +118,25 @@ aa       c
 イメージ作成（Dockerfileから）  docker build -t <image>[:<tag>] -f <dockerfile_path>
 ```
 
-# mermaidテスト
+## mermaid
 
 ```mermaid
 sequenceDiagram
-  autonumber
-  Client->>+Server: GET /issues
-  Server-->>-Client: response
+  actor user as ユーザ
+  participant ma as moduleA
+  participant mb as moduleB
+  user->>ma: test.sh
+  activate ma
+  loop テスト回数
+    ma-)mb: テスト起動(ros2 launch)
+    activate mb
+    mb->>mb: 数秒待ち
+    activate mb
+    deactivate mb
+    mb->>mb: テスト
+    deactivate mb
+  end
+  deactivate ma
 ```
 
 [トップに戻る](../index.md)
-
