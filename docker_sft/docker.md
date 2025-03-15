@@ -28,6 +28,7 @@ Docker コマンドの一覧は以下の通り。[[1]](https://qiita.com/kattoyo
     - 【イメージ作成（コンテナから）】 `docker commit <container> <image>`
     - 【イメージ作成（Dockerfileから）】 `docker build -t <image>[:<tag>] <dockerfile_dir_path>`
     - 【イメージ作成（Dockerfileから）】 `docker build -t <image>[:<tag>] -f <dockerfile_path>`
+    - 【親イメージ特定】 `docker history <image>[:<tag>]`
 - conteiner の操作
     - 【コンテナ一覧表示】 `docker ps [<option>]`
         - `-a` ：停止中コンテナも含む（ない場合は稼働中コンテナのみ）
@@ -64,7 +65,7 @@ Docker コマンドの一覧は以下の通り。[[1]](https://qiita.com/kattoyo
     - 【稼働コンテナプロセス確認】 `docker top <container>`
     - 【コンテナ削除】 `docker rm <container>`
     - 【コンテナ全削除】 `docker container prune`
-    - 【ファイルコピーtoコンテナ】docker cp [<option>] <src_path> <container>:<dest_path>
+    - 【ファイルコピーtoコンテナ】 `docker cp [<option>] <src_path> <container>:<dest_path>`
     - 【コンテナ/イメージ/ネットワーク等 全削除】 `docker system prune`
 - その他
     - 【Docker使用量調査（全体）】 `docker system df`
