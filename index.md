@@ -57,6 +57,7 @@
 
 - [Vim](vim_sft/vim.md)
 - [秀丸](hidemaru_sft/hidemaru.md)
+- [draw.io](drawio_sft/drawio.md)
 
 - [X-Finder](x-finder_sft/x-finder.md)
 - [Everything](everything_sft/everything.md)
