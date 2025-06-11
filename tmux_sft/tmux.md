@@ -122,6 +122,26 @@
             そのため、条件分岐で割り当てたとしても、別セッションに設定が反映されてしまうので、分岐の意味がなくなる。
 - tmux-resurrect セッション保存先
     - `./.local/share/tmux/resurrect/last`
+- 利用済みディスプレイ番号確認方法
+    - 利用済みのディスプレイ番号（他のユーザがディスプレイ番号を利用しているか）を確認する方法は以下の通り。
+
+    ```shell
+    $ vncserver -list
+    TurboVNC server sessions:
+    X DISPLAY #    PROCESS ID
+    :1             12345
+    :3             23456
+    
+    $ ps -ef | grep [X]vnc
+    endo     1780582 2441732  0 May28 pts/126  00:00:05 /opt/TurboVNC/bin/Xvnc :1 -desktop TurboVNC: robocip-ubuntu:1 (endo) -auth /home/endo/.Xauthority -geometry 1920x1080 -depth 24 -rfbauth /home/endo/.vnc/passwd -x509cert /home/endo/.vnc/x509_cert.pem -x509key /home/endo/.vnc/x509_private.pem -rfbport 5901 -fp /usr/share/fonts/X11/misc,/usr/share/fonts/X11/Type1 -deferupdate 1 -dridir /usr/lib/x86_64-linux-gnu/dri -registrydir /usr/lib/xorg
+    ```
+
+    - ちなみに、何らかの理由でディスプレイ番号が使われている場合、`vncserver`起動時に以下のようなメッセージが表示される
+
+        ```shell
+        WARNING: robocip-ubuntu:2 is taken because of /tmp/.X11-unix/X2
+        Remove this file if there is no X server robocip-ubuntu:2
+        ```
 
 ## トラブルシューティング
 
@@ -156,5 +176,12 @@
         - [ターミナルソフトのコピー機能でコピーする](https://teratail.com/questions/320522)
             - teratermの場合、Ctrl+マウス選択
             - terminatorの場合、Shift+マウス選択
+- TurboVNC＋Tmuxでテキストコピーできない
+    - 原因
+        - 環境設定`DISPLAY`の値がずれていることで、正しいXサーバにクリップ操作が届かないため。
+    - 対策
+        - vncserverをディスプレイ番号が`:1`になるように起動する
+    - 備考
+        - FIXME: 起動したディスプレイ番号になるよう`DISPLAY`を設定（例: `export DISPLAY=:3`）しても解消しない。
 
 [トップに戻る](../index.md)
