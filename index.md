@@ -98,6 +98,8 @@
 
 - [Docker](docker_sft/docker.md)
 
+- [Gemini-Cli](gemini-cli_sft/gemini-cli.md)
+
 ## 技術知識
 
 ### ROS

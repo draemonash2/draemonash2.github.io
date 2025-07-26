@@ -75,9 +75,9 @@
 |共通           | %!xxd -g 1                                            | バイナリモードに変更 |
 |共通           | :set ic                                               | 検索・置換時、大文字小文字の区別を有効 |
 |共通           | :set noic                                             | 検索・置換時、大文字小文字の区別を無効 |
-|共通           | :set ★?                                              | 現在の値を表示 ex) set number? |
-|共通           | :set ★&                                              | デフォルト値に戻す ex) set number& |
-|共通           | :set ★!                                              | On/Offのトグル  ex) set number! |
+|共通           | :set xxx?                                             | 現在の値を表示 ex) set number? |
+|共通           | :set xxx&                                             | デフォルト値に戻す ex) set number& |
+|共通           | :set xxx!                                             | On/Offのトグル  ex) set number! |
 |共通           | 入力モードで <c-x><c-k>                               | 辞書ファイルから単語補完 |
 |共通           | ;mes                                                  | エラーメッセージがすぐ消える場合、エラー表示させる |
 |共通           | :reg                                                  | レジスタ一覧表示 |
@@ -171,7 +171,7 @@
 |Vaffle         | h                                                     | 親を開く |
 |Vaffle         | l                                                     | 子を開く |
 |Vaffle         | t                                                     | 新しいタブで開く |
-|Vaffle         | <Space>                                               | 選択、解除 |
+|Vaffle         | `<Space>`                                             | 選択、解除 |
 |Vaffle         | *                                                     | 全て選択、全て解除 |
 |Vaffle         | .                                                     | 隠しファイルを表示、隠しファイルを非表示 |
 |Vaffle         | R                                                     | 更新 |
