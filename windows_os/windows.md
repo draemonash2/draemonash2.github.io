@@ -214,6 +214,7 @@
 ||||Win|d|表示 デスクトップ|
 ||||Win|,|表示 デスクトップ(一時的)|
 ||||Win|PrtSc|スクリーンショット保存 to \\Pictures\\Screenshots|
+|||Alt|Win|D|カレンダー表示|
 |||Alt||F8|[パスワード表示](https://www.itmedia.co.jp/news/spv/2301/20/news129_2.html)|
 
 ## 「ファイル名を指定して実行」で開けるフォルダ
