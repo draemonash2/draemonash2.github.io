@@ -71,6 +71,16 @@
 - 【ペイン間グローバルキー送信 有効】 `tmux set-window-option synchronize-panes on`
 - 【ペイン間グローバルキー送信 無効】 `tmux set-window-option synchronize-panes off`
 
+## プラグイン
+
+| プラグイン名 | 説明 |
+| :--- | :--- |
+| `tpm` | プラグイン管理ツール。 |
+| `tmux-resurrect` | tmux セッションのレイアウト／実行中コマンド／pane 状態を保存し、後から復元できるようにするプラグイン。 |
+| `tmux-continuum` | tmux セッションを"自動で"保存・復元できるようにするプラグイン。<br>tmux-resurrect を前提として動く強化版ユーティリティ。<br>セッションは`~/.local/share/tmux/resurrect`に保存される。 |
+| `tmux-sensible` | tmux を「もっと使いやすい初期設定」に変えてくれる、デフォルト改善プラグイン。 |
+| `tmux-yank` | tmux でコピーした内容を、システムクリップボードへ 簡単に Yank（コピー） できるようにするプラグイン。 |
+
 ## Tips
 
 - ターミナル,セッション,ウィンドウ,ペイン

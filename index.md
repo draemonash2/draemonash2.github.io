@@ -99,6 +99,9 @@
 - [Docker](docker_sft/docker.md)
 
 - [Gemini-Cli](gemini-cli_sft/gemini-cli.md)
+- [OpenAI Codex CLI](codex-cli_sft/codex-cli.md)
+
+- [FreeCAD](freecad_sft/freecad.md)
 
 ## 技術知識
 

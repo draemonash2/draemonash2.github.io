@@ -16,6 +16,13 @@ sudo apt-get install -y nodejs
 sudo npm install -g @google/gemini-cli
 ```
 
+### アップデート
+
+```shell
+sudo npm install -g npm@latest
+sudo npm update -g @google/gemini-cli
+```
+
 ### 実行
 
 ```shell
