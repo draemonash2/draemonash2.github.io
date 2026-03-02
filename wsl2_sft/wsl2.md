@@ -101,9 +101,9 @@
         - 方法２：Ctrl+Shift+V
 - [Linux⇔Windows間のファイルアクセス方法](https://qiita.com/Uchitaso/items/6e0a7859e87bb8bdb527)
     - Windows上でLinuxのファイルにアクセス
-        - エクスプローラからアドレス「\\wsl$」にアクセスする
+        - エクスプローラからアドレス`\\wsl$`にアクセスする
     - Linux上でWindowsのファイルにアクセス
-        - 「/mnt/」にアクセスする
+        - `/mnt/`にアクセスする
 - [ワンアクションで WSL2 を管理者権限起動する](https://www.xenos.jp/~zen/blog2/index.php/2020/05/31/post-3944/)
     1. 以下のバッチファイルを作成する。
         - `powershell start-process wt -verb runas`
