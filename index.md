@@ -59,6 +59,8 @@
 - [秀丸](hidemaru_sft/hidemaru.md)
 - [draw.io](drawio_sft/drawio.md)
 
+- [Blender](blender_sft/blender.md)
+
 - [X-Finder](x-finder_sft/x-finder.md)
 - [Everything](everything_sft/everything.md)
 - [WinMerge](winmerge_sft/winmerge.md)
