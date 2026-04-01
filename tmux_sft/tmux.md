@@ -12,6 +12,7 @@
 - 【セッション復帰(セッション名指定)】 `tmux a -t <session_name>`
 - 【セッション一覧表示】 `tmux list-sessions`
 - 【セッション一覧表示】 `Ctrl-b s`
+- 【セッション名変更】 `tmux rename -t <old_session_name> <new_session_name>`
 - 【セッション削除(単一)】 `tmux kill-session`
 - 【セッション削除(全て)】 `tmux kill-server`
 - 【セッション削除(セッション名)】 `tmux kill-session -t <session_name>`
