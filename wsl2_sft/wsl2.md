@@ -12,25 +12,26 @@
 ## インストール方法
 
 1. WSL2インストール
-    1. Microsoft Storeより「Windows Subsystem for Linux」をインストールする。
-        - 2023/4現在、コンポーネント版とMicrosoft Store版が存在するが、後者に一本化される見込み。[[1]](https://ascii.jp/elem/000/004/120/4120511/)
+    1. コマンドプロンプト上で以下を実行する。
+
+        ```cmd
+        wsl --install
+        ```
+
+    1. PCを再起動する。
 1. ディストリビューションインストール
-    1. Microsoft StoreよりインストールしたいLinuxディストリビューション(例:Ubuntu 22.04 LTS)をインストールする。(※)
-        - (※) [Microsoft Store にある「Ubuntu」の違い](https://forest.watch.impress.co.jp/docs/serial/yajiuma/1134055.html)
-            - 「Ubuntu」：現行の「Ubuntu LTS」。新しいバージョンがでるたびに更新される。
-            - 「Ubuntu XX.XX」：各バージョンのディストリビューション。
-1. WSL2インストール事後作業
-    1. BIOS上でVirtulization Technologyを有効化する。
-        - Virtulization Technologyが有効になっていないと、後述の「仮想マシンプラットフォーム」を有効化できない。
-        - HPのPCにおける設定方法は以下の通り。
-            1. 起動時にF10を連打してBIOS設定を起動する
-            2. System Configuuration -> Virtulization Technology を Enable にする
-    1. Windowsの機能を有効化する。
-        1. スタートメニュー > 「Windowsの機能の有効化」を検索 > 以下を有効化
-            - Linux 用 Windows サブシステム
-            - 仮想マシンプラットフォーム
-        1. OK を押下する
-        1. 自動的に再起動
+    1. インストール可能なディストリビューションを確認する。
+
+        ```cmd
+        wsl --list --online
+        ```
+
+    1. ディストリビューションをインストールする。
+
+        ```cmd
+        wsl --install -d {RISTRO}
+        
+        ```
 
 ## その他セットアップ手順
 
