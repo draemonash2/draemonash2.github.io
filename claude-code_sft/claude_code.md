@@ -15,5 +15,7 @@
     - `/init`：TODO:
     - `/resume`：TODO:
     - `/remind`：TODO:
+- [ヘッドレスモード](https://qiita.com/takish/items/ddb73b8473081fc969b9)
+- [スマホから操作](https://zenn.dev/ubie_dev/articles/claude-code-remote-control-intro)
 
 [トップに戻る](../index.md)
