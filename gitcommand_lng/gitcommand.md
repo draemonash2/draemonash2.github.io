@@ -123,5 +123,25 @@ git config --global credential.helper store
             - [Git のコミットのタイムスタンプには author date と committer date の 2 種類があるという話](https://vividcode.hatenablog.com/entry/git/author-date-and-committer-date)
             - [Git での Committer と Author の違いは？](https://kz-engineer-scrap.hatenablog.com/entry/2016/04/05/032916)
 - [自分の環境だけgitignoreする方法](https://www.yoheim.net/blog.php?q=20160510)
+- １アカウント複数トークン時のトークン切り替え
+    - 概要
+        - １つのgithubアカウント上で組織ごとにfine-grained-tokenを作っている場合、git push/pull時にトークンの入力が求められ、.git-credentialに保存される。  
+        トークンを切り替える方法は？
+    - 対策
+        1. git clone 時に、`github.com`の前に`トークン識別子@`を付与する。  
+
+            ```txt
+            git clone https://org-a-token@github.com/account_name/repo_name.git
+                              ~~~~~~~~~~~~
+            ```
+
+    - 補足
+        - fine-grained token を含むPersonal Access TokenによるHTTPS認証では、ユーザー名部分は実質的に無視され、トークン（パスワード部分）だけで認証が行われる。
+        - `.git-credentials`の`store`ヘルパーは、"トークン識別子"（慣習でユーザー名が使われることが多い）毎に保存される。
+
+            ```txt
+            https://org-a-label:ghp_AAA@github.com
+            https://org-b-label:ghp_BBB@github.com
+            ```
 
 [トップに戻る](../index.md)
