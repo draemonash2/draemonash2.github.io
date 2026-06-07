@@ -16,6 +16,9 @@
     - `/resume`：前回セッション復帰
     - `/remind`：回答/変更巻き戻し
     - `/copy`：回答コピー
+    - `/loop`：処理定期実行（`cronttab`のようなもの）[[1]](https://x.com/kenfjt/status/2062906829395603716?s=46&t=dmQtbsuMDfoQmwnCisHOZA)
+    - `/handover`：引き継ぎ書を作る [[2]](https://x.com/l_go_mrk/status/2024833751184998785?s=46&t=dmQtbsuMDfoQmwnCisHOZA)
+    - `/goal`：目標達成まで継続する
 - ショートカットキー
     - プロンプトをエディタで開く：`Ctrl + g`
     - モデル切替：`Alt + p`
