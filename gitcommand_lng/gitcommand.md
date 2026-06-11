@@ -144,4 +144,10 @@ git config --global credential.helper store
             https://org-b-label:ghp_BBB@github.com
             ```
 
+- [.gitignoreと.git/info/excludeの違い](https://qiita.com/pyon_kiti_jp/items/89a0bc9f9b8f617b3668)
+    - `.gitignore`
+        - 他人と共有する（Git管理する）無視対象のファイル/ディレクトリ一覧。
+    - `.git/info/exclude`
+        - 他人と共有しない自分専用の無視対象のファイル/ディレクトリ一覧。
+
 [トップに戻る](../index.md)
