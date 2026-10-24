@@ -92,6 +92,7 @@
 - [DBX](dbx_sft/dbx.md)
 
 - [Tmux](tmux_sft/tmux.md)
+- [Herdr](herdr_sft/herdr.md)
 - [tig](tig_sft/tig.md)
 - [flamegraph](flamegraph_sft/flamegraph.md)
 - [gnuplot](gnuplot_sft/gnuplot.md)
